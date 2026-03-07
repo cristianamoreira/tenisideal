@@ -1,0 +1,627 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Tênisideal — Gerador de Links Afiliado</title>
+<link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=DM+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+<style>
+:root {
+  --black: #0a0a0a;
+  --dark: #111;
+  --card: #1a1a1a;
+  --card-h: #222;
+  --border: #2a2a2a;
+  --yellow: #c8ff00;
+  --yd: #a8d900;
+  --white: #fff;
+  --gray: #888;
+  --gl: #aaa;
+  --green: #00e676;
+  --red: #ff4444;
+}
+* { margin:0; padding:0; box-sizing:border-box; }
+body { background:var(--black); color:var(--white); font-family:'DM Sans',sans-serif; min-height:100vh; }
+
+header {
+  padding: 20px 40px;
+  border-bottom: 1px solid var(--border);
+  display: flex; align-items: center; gap: 16px;
+}
+.logo { font-family:'Bebas Neue',sans-serif; font-size:24px; letter-spacing:3px; }
+.logo span { color:var(--yellow); }
+.logo-sub { font-size:12px; color:var(--gray); font-weight:600; letter-spacing:2px; text-transform:uppercase; border-left:1px solid var(--border); padding-left:16px; }
+
+.container { max-width:900px; margin:0 auto; padding:48px 40px; }
+
+.hero { margin-bottom:48px; }
+.hero h1 { font-family:'Bebas Neue',sans-serif; font-size:clamp(36px,6vw,52px); line-height:.95; text-transform:uppercase; margin-bottom:12px; }
+.hero h1 span { color:var(--yellow); }
+.hero p { font-size:15px; color:var(--gl); line-height:1.6; max-width:560px; }
+
+/* HOW IT WORKS */
+.steps { display:flex; gap:0; margin-bottom:48px; background:var(--card); border:1px solid var(--border); border-radius:8px; overflow:hidden; }
+.step { flex:1; padding:20px; border-right:1px solid var(--border); }
+.step:last-child { border-right:none; }
+.step-num { font-family:'Bebas Neue',sans-serif; font-size:32px; color:var(--yellow); line-height:1; margin-bottom:6px; }
+.step-title { font-weight:700; font-size:13px; margin-bottom:4px; }
+.step-desc { font-size:12px; color:var(--gray); line-height:1.5; }
+@media(max-width:600px){ .steps{flex-direction:column} .step{border-right:none;border-bottom:1px solid var(--border)} }
+
+/* FORM */
+.form-block { background:var(--card); border:1.5px solid var(--border); border-radius:8px; padding:28px; margin-bottom:24px; }
+.form-block h2 { font-family:'Bebas Neue',sans-serif; font-size:22px; text-transform:uppercase; letter-spacing:1px; margin-bottom:20px; color:var(--gl); }
+.form-block h2 span { color:var(--yellow); }
+
+.field { margin-bottom:16px; }
+.field label { display:block; font-size:12px; font-weight:700; letter-spacing:1.5px; text-transform:uppercase; color:var(--gray); margin-bottom:8px; }
+.field input, .field select {
+  width:100%; background:#111; border:1.5px solid var(--border);
+  color:var(--white); font-family:'DM Sans',sans-serif; font-size:14px;
+  padding:12px 16px; border-radius:5px; outline:none;
+  transition:border-color .2s;
+}
+.field input:focus, .field select:focus { border-color:var(--yellow); }
+.field input::placeholder { color:#444; }
+.field select option { background:#1a1a1a; }
+
+.field-row { display:grid; grid-template-columns:1fr 1fr; gap:12px; }
+@media(max-width:500px){ .field-row{grid-template-columns:1fr} }
+
+.tag-list { display:flex; flex-wrap:wrap; gap:8px; margin-top:8px; }
+.tag-chip {
+  display:inline-flex; align-items:center; gap:6px;
+  background:rgba(200,255,0,.08); border:1px solid rgba(200,255,0,.25);
+  color:var(--yellow); font-size:12px; font-weight:600; padding:5px 10px;
+  border-radius:20px; cursor:pointer; transition:all .15s;
+  text-transform:uppercase; letter-spacing:.5px;
+}
+.tag-chip:hover { background:rgba(200,255,0,.15); }
+.tag-chip.active { background:rgba(200,255,0,.2); border-color:var(--yellow); }
+.tag-chip .remove { font-size:14px; line-height:1; }
+
+.tag-input-row { display:flex; gap:8px; }
+.tag-input-row input { flex:1; }
+.btn-add-tag {
+  background:var(--border); color:var(--gl); border:none; cursor:pointer;
+  padding:12px 16px; border-radius:5px; font-size:18px; transition:all .2s;
+  flex-shrink:0;
+}
+.btn-add-tag:hover { background:#3a3a3a; color:var(--white); }
+
+/* Preset tags */
+.preset-tags { display:flex; flex-wrap:wrap; gap:6px; margin-top:10px; }
+.preset { font-size:11px; border:1px solid var(--border); color:var(--gray); padding:4px 10px; border-radius:20px; cursor:pointer; transition:all .15s; }
+.preset:hover { border-color:#555; color:var(--white); }
+
+/* BUTTONS */
+.btn-generate {
+  width:100%; background:var(--yellow); color:var(--black);
+  font-family:'Bebas Neue',sans-serif; font-size:18px; text-transform:uppercase;
+  letter-spacing:1px; padding:18px; border:none; border-radius:5px;
+  cursor:pointer; transition:all .2s; margin-top:8px;
+}
+.btn-generate:hover { background:var(--yd); transform:translateY(-2px); box-shadow:0 8px 24px rgba(200,255,0,.25); }
+
+/* OUTPUT */
+.output-block { display:none; background:var(--card); border:1.5px solid var(--border); border-radius:8px; overflow:hidden; }
+.output-block.show { display:block; animation:fu .3s ease; }
+@keyframes fu { from{opacity:0;transform:translateY(8px)} to{opacity:1;transform:translateY(0)} }
+
+.output-header {
+  padding:16px 24px; background:#141414; border-bottom:1px solid var(--border);
+  display:flex; align-items:center; justify-content:space-between; gap:12px;
+}
+.output-title { font-family:'Bebas Neue',sans-serif; font-size:18px; letter-spacing:1px; color:var(--gl); }
+.output-title span { color:var(--yellow); }
+
+.btn-copy {
+  display:inline-flex; align-items:center; gap:8px;
+  background:transparent; border:1.5px solid var(--border); color:var(--gl);
+  font-family:'Bebas Neue',sans-serif; font-size:14px; text-transform:uppercase;
+  letter-spacing:1px; padding:8px 18px; border-radius:4px; cursor:pointer;
+  transition:all .2s;
+}
+.btn-copy:hover { border-color:var(--yellow); color:var(--yellow); }
+.btn-copy.copied { border-color:var(--green); color:var(--green); }
+
+.code-area {
+  padding:20px 24px; font-family:'Courier New', monospace; font-size:12px;
+  line-height:1.7; color:#c8ff00; background:#0d0d0d;
+  white-space:pre-wrap; word-break:break-all; max-height:320px; overflow-y:auto;
+  border-bottom:1px solid var(--border);
+}
+
+.preview-area { padding:24px; }
+.preview-label { font-size:11px; font-weight:700; letter-spacing:2px; text-transform:uppercase; color:var(--gray); margin-bottom:16px; }
+
+/* Mini shoe card preview */
+.mini-card {
+  background:#111; border:1.5px solid var(--border); border-radius:8px;
+  overflow:hidden; max-width:280px;
+}
+.mini-rank { padding:6px 14px; font-family:'Bebas Neue',sans-serif; font-size:11px; letter-spacing:1px; text-transform:uppercase; }
+.mini-rank.r1 { background:var(--yellow); color:var(--black); }
+.mini-rank.r2 { background:#888; color:#fff; }
+.mini-rank.r3 { background:#a06030; color:#fff; }
+.mini-img { background:#f0f0f0; height:140px; display:flex; align-items:center; justify-content:center; overflow:hidden; }
+.mini-img img { width:100%; height:100%; object-fit:contain; padding:12px; }
+.mini-img-ph { font-size:40px; }
+.mini-body { padding:14px; }
+.mini-brand { font-size:10px; font-weight:700; letter-spacing:2px; text-transform:uppercase; color:var(--gray); margin-bottom:3px; }
+.mini-name { font-family:'Bebas Neue',sans-serif; font-size:17px; text-transform:uppercase; margin-bottom:6px; }
+.mini-reason { font-size:11px; color:var(--gl); line-height:1.5; margin-bottom:10px; }
+.mini-stags { display:flex; flex-wrap:wrap; gap:4px; margin-bottom:10px; }
+.mini-stag { font-size:10px; font-weight:600; padding:3px 8px; background:rgba(200,255,0,.08); border:1px solid rgba(200,255,0,.2); color:var(--yellow); border-radius:20px; text-transform:uppercase; }
+.mini-price { font-family:'Bebas Neue',sans-serif; font-size:18px; color:var(--yellow); margin-bottom:10px; }
+.mini-btn { display:block; text-align:center; background:var(--yellow); color:var(--black); font-family:'Bebas Neue',sans-serif; font-size:13px; text-transform:uppercase; letter-spacing:1px; padding:10px; border-radius:4px; text-decoration:none; }
+
+/* CATALOG */
+.catalog-block { margin-top:48px; }
+.catalog-header { display:flex; align-items:center; justify-content:space-between; margin-bottom:20px; flex-wrap:wrap; gap:12px; }
+.catalog-header h2 { font-family:'Bebas Neue',sans-serif; font-size:24px; text-transform:uppercase; color:var(--gl); }
+.catalog-header h2 span { color:var(--yellow); }
+
+.catalog-stats { display:flex; gap:16px; flex-wrap:wrap; }
+.stat { background:var(--card); border:1px solid var(--border); border-radius:6px; padding:8px 16px; font-size:12px; }
+.stat strong { color:var(--yellow); font-family:'Bebas Neue',sans-serif; font-size:20px; display:block; line-height:1; }
+.stat span { color:var(--gray); font-size:11px; }
+
+.catalog-list { display:flex; flex-direction:column; gap:10px; }
+.cat-item {
+  background:var(--card); border:1px solid var(--border); border-radius:6px;
+  padding:14px 18px; display:flex; align-items:center; gap:16px;
+  transition:border-color .2s;
+}
+.cat-item:hover { border-color:#3a3a3a; }
+.cat-item.has-link { border-color:rgba(0,230,118,.25); }
+.cat-num { font-family:'Bebas Neue',sans-serif; font-size:18px; color:var(--border); width:28px; flex-shrink:0; }
+.cat-info { flex:1; min-width:0; }
+.cat-brand { font-size:10px; font-weight:700; letter-spacing:2px; text-transform:uppercase; color:var(--gray); }
+.cat-name { font-family:'Bebas Neue',sans-serif; font-size:16px; text-transform:uppercase; }
+.cat-profiles { font-size:11px; color:var(--gray); margin-top:2px; }
+.cat-link-input {
+  background:#111; border:1.5px solid var(--border); color:var(--white);
+  font-family:'DM Sans',sans-serif; font-size:12px; padding:8px 12px;
+  border-radius:4px; outline:none; width:220px; transition:border-color .2s;
+  flex-shrink:0;
+}
+.cat-link-input:focus { border-color:var(--yellow); }
+.cat-link-input.ok { border-color:var(--green); }
+.cat-status { width:20px; height:20px; border-radius:50%; flex-shrink:0; display:flex; align-items:center; justify-content:center; font-size:12px; }
+.cat-status.ok { background:rgba(0,230,118,.15); border:1px solid var(--green); }
+.cat-status.empty { background:rgba(136,136,136,.1); border:1px solid var(--border); }
+
+.btn-export-all {
+  margin-top:20px; width:100%; background:transparent; border:1.5px solid var(--yellow);
+  color:var(--yellow); font-family:'Bebas Neue',sans-serif; font-size:16px;
+  text-transform:uppercase; letter-spacing:1px; padding:16px; border-radius:5px;
+  cursor:pointer; transition:all .2s;
+}
+.btn-export-all:hover { background:var(--yellow); color:var(--black); }
+
+.export-output { display:none; margin-top:16px; }
+.export-output.show { display:block; }
+
+/* NOTICE */
+.notice { background:#1a1000; border:1px solid #3a2800; border-radius:6px; padding:14px 18px; font-size:13px; color:#ccc; line-height:1.6; margin-bottom:32px; }
+.notice strong { color:#f0a000; }
+
+@media(max-width:600px){
+  .container{padding:32px 20px}
+  header{padding:16px 20px}
+  .cat-link-input{width:100%}
+  .cat-item{flex-wrap:wrap}
+}
+</style>
+</head>
+<body>
+
+<header>
+  <div class="logo"><span>Tênis</span>ideal</div>
+  <div class="logo-sub">Gerador de Links Afiliado</div>
+</header>
+
+<div class="container">
+
+  <div class="hero">
+    <h1>Cadastre seus<br><span>Links de Afiliado</span></h1>
+    <p>Cole os links da Amazon para cada tênis e exporte o código pronto para colar no seu <code style="color:var(--yellow)">index.html</code>.</p>
+  </div>
+
+  <div class="steps">
+    <div class="step">
+      <div class="step-num">1</div>
+      <div class="step-title">Busque o tênis</div>
+      <div class="step-desc">Entre na Amazon com a barra de afiliados ativa</div>
+    </div>
+    <div class="step">
+      <div class="step-num">2</div>
+      <div class="step-title">Gere o link</div>
+      <div class="step-desc">Clique em "Obter link" na barra laranja do topo</div>
+    </div>
+    <div class="step">
+      <div class="step-num">3</div>
+      <div class="step-title">Cole aqui</div>
+      <div class="step-desc">Preencha os campos abaixo com os dados do produto</div>
+    </div>
+    <div class="step">
+      <div class="step-num">4</div>
+      <div class="step-title">Exporte</div>
+      <div class="step-desc">Copie o código gerado e substitua no index.html</div>
+    </div>
+  </div>
+
+  <div class="notice">
+    <strong>💡 Como usar:</strong> Use a seção <strong>Catálogo Rápido</strong> no final da página para preencher um link por tênis de forma ágil, ou use o formulário abaixo para adicionar produtos com detalhes completos.
+  </div>
+
+  <!-- FORM INDIVIDUAL -->
+  <div class="form-block">
+    <h2>➕ Adicionar / Editar <span>Produto</span></h2>
+
+    <div class="field-row">
+      <div class="field">
+        <label>Marca</label>
+        <input type="text" id="fBrand" placeholder="Ex: Nike, Asics, Adidas...">
+      </div>
+      <div class="field">
+        <label>Nome do Modelo</label>
+        <input type="text" id="fName" placeholder="Ex: Pegasus 41">
+      </div>
+    </div>
+
+    <div class="field">
+      <label>Link de Afiliado Amazon</label>
+      <input type="url" id="fLink" placeholder="https://amzn.to/xxxxxxx">
+    </div>
+
+    <div class="field">
+      <label>URL da Imagem do Produto</label>
+      <input type="url" id="fImg" placeholder="https://m.media-amazon.com/images/I/XXXXXXXX.jpg" oninput="previewImg()">
+      <div style="font-size:11px;color:var(--gray);margin-top:6px;">💡 Na página Amazon: clique na foto do tênis com o botão direito → "Copiar endereço da imagem"</div>
+    </div>
+
+    <div class="field-row">
+      <div class="field">
+        <label>Preço</label>
+        <input type="text" id="fPrice" placeholder="Ex: R$ 749">
+      </div>
+      <div class="field">
+        <label>Emoji (opcional)</label>
+        <input type="text" id="fEmoji" placeholder="👟" maxlength="4" value="👟">
+      </div>
+    </div>
+
+    <div class="field">
+      <label>Motivo da Indicação</label>
+      <input type="text" id="fReason" placeholder="Ex: Amortecimento ReactX, versátil para todos os treinos.">
+    </div>
+
+    <div class="field">
+      <label>Tags do Produto</label>
+      <div class="tag-input-row">
+        <input type="text" id="fTagInput" placeholder="Ex: Carbono" onkeydown="if(event.key==='Enter'){event.preventDefault();addTag()}">
+        <button class="btn-add-tag" onclick="addTag()">+</button>
+      </div>
+      <div class="preset-tags">
+        <span class="preset" onclick="addPreset(this)">Neutra</span>
+        <span class="preset" onclick="addPreset(this)">Pronada</span>
+        <span class="preset" onclick="addPreset(this)">Supinada</span>
+        <span class="preset" onclick="addPreset(this)">Leve</span>
+        <span class="preset" onclick="addPreset(this)">Amortecimento</span>
+        <span class="preset" onclick="addPreset(this)">Carbono</span>
+        <span class="preset" onclick="addPreset(this)">Trilha</span>
+        <span class="preset" onclick="addPreset(this)">Versátil</span>
+        <span class="preset" onclick="addPreset(this)">Velocidade</span>
+        <span class="preset" onclick="addPreset(this)">Custo-benefício</span>
+        <span class="preset" onclick="addPreset(this)">Iniciante</span>
+        <span class="preset" onclick="addPreset(this)">Elite</span>
+      </div>
+      <div class="tag-list" id="tagList"></div>
+    </div>
+
+    <div class="field-row">
+      <div class="field">
+        <label>Faixa de Orçamento</label>
+        <select id="fBudget">
+          <option value="ate300">Até R$300</option>
+          <option value="300a600">R$300–600</option>
+          <option value="600a1000" selected>R$600–1000</option>
+          <option value="acima1000">Acima de R$1000</option>
+        </select>
+      </div>
+      <div class="field">
+        <label>Sexo</label>
+        <select id="fSexo">
+          <option value="masculino,outro">Masculino</option>
+          <option value="feminino,outro">Feminino</option>
+          <option value="masculino,feminino,outro">Ambos / Neutro</option>
+        </select>
+      </div>
+    </div>
+
+    <button class="btn-generate" onclick="generateCode()">Gerar Código →</button>
+  </div>
+
+  <!-- OUTPUT -->
+  <div class="output-block" id="outputBlock">
+    <div class="output-header">
+      <div class="output-title">Código <span>Gerado</span></div>
+      <button class="btn-copy" id="btnCopy" onclick="copyCode()">📋 Copiar Código</button>
+    </div>
+    <div class="code-area" id="codeArea"></div>
+    <div class="preview-area">
+      <div class="preview-label">Prévia do Card</div>
+      <div class="mini-card" id="miniCard"></div>
+    </div>
+  </div>
+
+  <!-- CATALOG -->
+  <div class="catalog-block">
+    <div class="catalog-header">
+      <h2>📋 Catálogo <span>Rápido</span></h2>
+      <div class="catalog-stats">
+        <div class="stat"><strong id="statTotal">0</strong><span>tênis no quiz</span></div>
+        <div class="stat"><strong id="statFilled" style="color:var(--green)">0</strong><span>links preenchidos</span></div>
+        <div class="stat"><strong id="statMissing" style="color:var(--red)">0</strong><span>faltando</span></div>
+      </div>
+    </div>
+
+    <div class="catalog-list" id="catalogList"></div>
+
+    <button class="btn-export-all" onclick="exportAll()">⬇ Exportar Todos os Links como JSON</button>
+
+    <div class="export-output" id="exportOutput">
+      <div class="output-header" style="border-radius:8px 8px 0 0;border:1.5px solid var(--border)">
+        <div class="output-title">Links <span>Exportados</span></div>
+        <button class="btn-copy" id="btnCopyAll" onclick="copyAll()">📋 Copiar JSON</button>
+      </div>
+      <div class="code-area" id="exportArea" style="border:1.5px solid var(--border);border-top:none;border-radius:0 0 8px 8px;"></div>
+    </div>
+  </div>
+
+</div>
+
+<script>
+// ── TÊNIS DO QUIZ (espelho do index.html) ──────────────────────
+var SHOES_CATALOG = [
+  // MASCULINOS
+  {id:'hovr-sonic',brand:'UNDER ARMOUR',name:'HOVR Sonic 6',profiles:'Masc · Iniciante/Inter · Neutra · Asfalto'},
+  {id:'kayano-31',brand:'ASICS',name:'Gel-Kayano 31',profiles:'Masc · Inter/Avanç · Pronada · Asfalto'},
+  {id:'adrenaline-24',brand:'BROOKS',name:'Adrenaline GTS 24',profiles:'Masc · Todos · Pronada/Neutra · Asfalto'},
+  {id:'nb-860v14',brand:'NEW BALANCE',name:'860v14',profiles:'Masc · Inic/Inter · Pronada · Asfalto'},
+  {id:'vaporfly-3',brand:'NIKE',name:'Vaporfly 3',profiles:'Masc · Avançado · Todos · Asfalto/Pista'},
+  {id:'adizero-adios-3',brand:'ADIDAS',name:'Adizero Adios Pro 3',profiles:'Masc · Avançado · Neutra · Asfalto'},
+  {id:'clifton-9',brand:'HOKA',name:'Clifton 9',profiles:'Masc · Todos · Neutra · Asfalto'},
+  {id:'speedcross-6',brand:'SALOMON',name:'Speedcross 6',profiles:'Masc · Inter/Avanç · Todos · Trilha'},
+  {id:'gel-trabuco-12',brand:'ASICS',name:'Gel-Trabuco 12',profiles:'Masc · Inic/Inter · Neutra/Pronada · Trilha'},
+  {id:'speedgoat-5',brand:'HOKA',name:'Speedgoat 5',profiles:'Masc · Inter/Avanç · Neutra · Trilha'},
+  {id:'olympikus-corre-3',brand:'OLYMPIKUS',name:'Corre 3.0',profiles:'Masc · Iniciante · Neutra · Asfalto'},
+  {id:'nb-411v3',brand:'NEW BALANCE',name:'411v3',profiles:'Masc · Iniciante · Neutra/Pronada · Asfalto'},
+  {id:'saucony-ride-17',brand:'SAUCONY',name:'Ride 17',profiles:'Masc · Todos · Neutra · Asfalto'},
+  {id:'wave-inspire-20',brand:'MIZUNO',name:'Wave Inspire 20',profiles:'Masc · Inic/Inter · Pronada · Asfalto'},
+  {id:'pegasus-41',brand:'NIKE',name:'Pegasus 41',profiles:'Masc · Todos · Neutra · Asfalto'},
+  {id:'ghost-16',brand:'BROOKS',name:'Ghost 16',profiles:'Masc · Inic/Inter · Neutra · Asfalto'},
+  {id:'bondi-8',brand:'HOKA',name:'Bondi 8',profiles:'Masc · Todos · Neutra/Supinada · Asfalto'},
+  {id:'gel-cumulus-26',brand:'ASICS',name:'Gel-Cumulus 26',profiles:'Masc · Inic/Inter · Neutra · Asfalto'},
+  {id:'puma-velocity-3',brand:'PUMA',name:'Velocity Nitro 3',profiles:'Masc · Inic/Inter · Neutra · Asfalto'},
+  {id:'ultra-glide-2',brand:'SALOMON',name:'Ultra Glide 2',profiles:'Masc · Inter/Avanç · Neutra · Trilha'},
+  {id:'lone-peak-8',brand:'ALTRA',name:'Lone Peak 8',profiles:'Masc · Inter/Avanç · Neutra/Supinada · Trilha'},
+  {id:'wave-sky-7',brand:'MIZUNO',name:'Wave Sky 7',profiles:'Masc · Inter/Avanç · Neutra · Asfalto'},
+  {id:'olympikus-quantum',brand:'OLYMPIKUS',name:'Quantum',profiles:'Masc · Inic/Inter · Neutra · Asfalto'},
+  {id:'adizero-boston-12',brand:'ADIDAS',name:'Adizero Boston 12',profiles:'Masc · Inter/Avanç · Neutra · Asfalto'},
+  {id:'endorphin-speed-4',brand:'SAUCONY',name:'Endorphin Speed 4',profiles:'Masc · Inter/Avanç · Neutra · Asfalto'},
+  {id:'mafate-speed-4',brand:'HOKA',name:'Mafate Speed 4',profiles:'Masc · Avançado · Todos · Trilha'},
+  {id:'ultrafly-trail',brand:'NIKE',name:'Ultrafly Trail',profiles:'Masc · Avançado · Neutra · Trilha'},
+  // FEMININOS
+  {id:'nimbus-26-w',brand:'ASICS',name:'Gel-Nimbus 26 W',profiles:'Fem · Inic/Inter · Neutra · Asfalto'},
+  {id:'react-inf-4-w',brand:'NIKE',name:'React Infinity Run 4 W',profiles:'Fem · Inic/Inter · Neutra · Asfalto'},
+  {id:'clifton-9-w',brand:'HOKA',name:'Clifton 9 W',profiles:'Fem · Todos · Neutra · Asfalto'},
+  {id:'adrenaline-24-w',brand:'BROOKS',name:'Adrenaline GTS 24 W',profiles:'Fem · Todos · Pronada/Neutra · Asfalto'},
+  {id:'nb-1080v13-w',brand:'NEW BALANCE',name:'Fresh Foam 1080v13 W',profiles:'Fem · Inter/Avanç · Neutra/Pronada · Asfalto'},
+  {id:'ultraboost-23-w',brand:'ADIDAS',name:'Ultraboost 23 W',profiles:'Fem · Inter/Avanç · Neutra · Asfalto'},
+  {id:'saucony-ride-17-w',brand:'SAUCONY',name:'Ride 17 W',profiles:'Fem · Todos · Neutra · Asfalto'},
+  {id:'wave-rider-27-w',brand:'MIZUNO',name:'Wave Rider 27 W',profiles:'Fem · Inic/Inter · Neutra/Supinada · Asfalto'},
+  {id:'vaporfly-3-w',brand:'NIKE',name:'Vaporfly 3 W',profiles:'Fem · Avançado · Todos · Asfalto'},
+  {id:'bondi-8-w',brand:'HOKA',name:'Bondi 8 W',profiles:'Fem · Todos · Neutra/Supinada · Asfalto'},
+  {id:'kayano-31-w',brand:'ASICS',name:'Gel-Kayano 31 W',profiles:'Fem · Inter/Avanç · Pronada · Asfalto'},
+  {id:'olympikus-corre-3-w',brand:'OLYMPIKUS',name:'Corre 3.0 W',profiles:'Fem · Iniciante · Neutra · Asfalto'},
+  {id:'speedcross-6-w',brand:'SALOMON',name:'Speedcross 6 W',profiles:'Fem · Inter/Avanç · Todos · Trilha'},
+  {id:'nb-860v14-w',brand:'NEW BALANCE',name:'860v14 W',profiles:'Fem · Inic/Inter · Pronada · Asfalto'},
+  {id:'puma-velocity-3-w',brand:'PUMA',name:'Velocity Nitro 3 W',profiles:'Fem · Inic/Inter · Neutra · Asfalto'},
+  {id:'endorphin-speed-4-w',brand:'SAUCONY',name:'Endorphin Speed 4 W',profiles:'Fem · Inter/Avanç · Neutra · Asfalto'},
+];
+
+var tags = [];
+var savedLinks = {};
+
+// Load saved links from localStorage
+try {
+  var stored = localStorage.getItem('tenisideal_links');
+  if (stored) savedLinks = JSON.parse(stored);
+} catch(e){}
+
+function saveLinks() {
+  try { localStorage.setItem('tenisideal_links', JSON.stringify(savedLinks)); } catch(e){}
+}
+
+// ── TAGS ──────────────────────────────────────────────────────
+function addTag() {
+  var inp = document.getElementById('fTagInput');
+  var val = inp.value.trim();
+  if (!val || tags.indexOf(val) > -1) return;
+  tags.push(val);
+  inp.value = '';
+  renderTags();
+}
+function addPreset(el) {
+  var val = el.textContent.trim();
+  if (tags.indexOf(val) > -1) return;
+  tags.push(val);
+  renderTags();
+}
+function removeTag(i) {
+  tags.splice(i, 1);
+  renderTags();
+}
+function renderTags() {
+  var list = document.getElementById('tagList');
+  list.innerHTML = '';
+  tags.forEach(function(t, i) {
+    var span = document.createElement('span');
+    span.className = 'tag-chip active';
+    span.innerHTML = t + ' <span class="remove" onclick="removeTag('+i+')">×</span>';
+    list.appendChild(span);
+  });
+}
+
+// ── IMG PREVIEW ──────────────────────────────────────────────
+function previewImg() {
+  // just visual feedback — preview shows in generated card
+}
+
+// ── GENERATE CODE ──────────────────────────────────────────────
+function generateCode() {
+  var brand  = document.getElementById('fBrand').value.trim();
+  var name   = document.getElementById('fName').value.trim();
+  var link   = document.getElementById('fLink').value.trim();
+  var img    = document.getElementById('fImg').value.trim();
+  var price  = document.getElementById('fPrice').value.trim();
+  var emoji  = document.getElementById('fEmoji').value.trim() || '👟';
+  var reason = document.getElementById('fReason').value.trim();
+  var budget = document.getElementById('fBudget').value;
+  var sexoRaw= document.getElementById('fSexo').value;
+  var sexoArr= '[\''+sexoRaw.split(',').join('\',\'')+'\']';
+
+  if (!brand || !name || !link) {
+    alert('Preencha pelo menos: Marca, Nome e Link de Afiliado.');
+    return;
+  }
+
+  var tagsStr = tags.map(function(t){ return '\''+t+'\''; }).join(',');
+  var imgVal = img || 'imgs/'+name.toLowerCase().replace(/\s+/g,'-')+'.jpg';
+
+  var code =
+'{sexo:'+sexoArr+',brand:\''+brand.toUpperCase()+'\',name:\''+name+'\',img:\''+imgVal+'\',emoji:\''+emoji+'\',tags:['+tagsStr+'],price:\''+price+'\',budget:\''+budget+'\',levels:[\'iniciante\',\'intermediario\',\'avancado\'],pisadas:[\'neutra\',\'naosabe\'],terrenos:[\'asfalto\',\'pista\',\'esteira\',\'mista\'],priors:[\'custo\',\'amortecimento\'],reason:\''+reason.replace(/'/g,"\\'")+'\',link:\''+link+'\'}';
+
+  document.getElementById('codeArea').textContent = code;
+  document.getElementById('outputBlock').classList.add('show');
+  renderMiniCard(brand, name, link, img, price, emoji, reason, tags);
+  document.getElementById('outputBlock').scrollIntoView({behavior:'smooth', block:'nearest'});
+}
+
+function renderMiniCard(brand, name, link, img, price, emoji, reason, tagsArr) {
+  var tagsHTML = tagsArr.map(function(t){ return '<span class="mini-stag">'+t+'</span>'; }).join('');
+  var imgHTML = img
+    ? '<img src="'+img+'" alt="'+name+'" onerror="this.parentNode.innerHTML=\'<span class=mini-img-ph>'+emoji+'</span>\'">'
+    : '<span class="mini-img-ph">'+emoji+'</span>';
+
+  document.getElementById('miniCard').innerHTML =
+    '<div class="mini-rank r1">🥇 Melhor Match</div>'+
+    '<div class="mini-img">'+imgHTML+'</div>'+
+    '<div class="mini-body">'+
+      '<div class="mini-brand">'+brand+'</div>'+
+      '<div class="mini-name">'+name+'</div>'+
+      '<p class="mini-reason">'+reason+'</p>'+
+      '<div class="mini-stags">'+tagsHTML+'</div>'+
+      '<div class="mini-price">'+price+'</div>'+
+      '<a href="'+link+'" target="_blank" class="mini-btn">Ver Melhor Preço →</a>'+
+    '</div>';
+}
+
+function copyCode() {
+  var text = document.getElementById('codeArea').textContent;
+  navigator.clipboard.writeText(text).then(function(){
+    var btn = document.getElementById('btnCopy');
+    btn.textContent = '✅ Copiado!';
+    btn.classList.add('copied');
+    setTimeout(function(){ btn.textContent = '📋 Copiar Código'; btn.classList.remove('copied'); }, 2000);
+  });
+}
+
+// ── CATALOG ──────────────────────────────────────────────────
+function renderCatalog() {
+  var list = document.getElementById('catalogList');
+  list.innerHTML = '';
+  var filled = 0;
+
+  SHOES_CATALOG.forEach(function(shoe, i) {
+    var hasLink = savedLinks[shoe.id] && savedLinks[shoe.id].trim() !== '';
+    if (hasLink) filled++;
+
+    var item = document.createElement('div');
+    item.className = 'cat-item' + (hasLink ? ' has-link' : '');
+    item.innerHTML =
+      '<div class="cat-num">'+(i+1<10?'0'+(i+1):i+1)+'</div>'+
+      '<div class="cat-info">'+
+        '<div class="cat-brand">'+shoe.brand+'</div>'+
+        '<div class="cat-name">'+shoe.name+'</div>'+
+        '<div class="cat-profiles">'+shoe.profiles+'</div>'+
+      '</div>'+
+      '<input type="url" class="cat-link-input'+(hasLink?' ok':'')+'" '+
+        'placeholder="https://amzn.to/..." '+
+        'value="'+(savedLinks[shoe.id]||'')+'" '+
+        'data-id="'+shoe.id+'" '+
+        'oninput="updateCatLink(this)">'+
+      '<div class="cat-status '+(hasLink?'ok':'empty')+'">'+(hasLink?'✓':'')+'</div>';
+    list.appendChild(item);
+  });
+
+  document.getElementById('statTotal').textContent = SHOES_CATALOG.length;
+  document.getElementById('statFilled').textContent = filled;
+  document.getElementById('statMissing').textContent = SHOES_CATALOG.length - filled;
+}
+
+function updateCatLink(input) {
+  var id = input.getAttribute('data-id');
+  var val = input.value.trim();
+  savedLinks[id] = val;
+  saveLinks();
+
+  var hasLink = val !== '';
+  var item = input.closest('.cat-item');
+  var status = item.querySelector('.cat-status');
+
+  item.className = 'cat-item' + (hasLink ? ' has-link' : '');
+  input.className = 'cat-link-input' + (hasLink ? ' ok' : '');
+  status.className = 'cat-status ' + (hasLink ? 'ok' : 'empty');
+  status.textContent = hasLink ? '✓' : '';
+
+  // update stats
+  var filled = Object.keys(savedLinks).filter(function(k){ return savedLinks[k] && savedLinks[k].trim() !== ''; }).length;
+  document.getElementById('statFilled').textContent = filled;
+  document.getElementById('statMissing').textContent = SHOES_CATALOG.length - filled;
+}
+
+function exportAll() {
+  var out = {};
+  SHOES_CATALOG.forEach(function(shoe){
+    out[shoe.id] = {
+      brand: shoe.brand,
+      name: shoe.name,
+      link: savedLinks[shoe.id] || 'https://amzn.to/SEU-LINK-AQUI'
+    };
+  });
+  var json = JSON.stringify(out, null, 2);
+  document.getElementById('exportArea').textContent = json;
+  var el = document.getElementById('exportOutput');
+  el.classList.add('show');
+  el.scrollIntoView({behavior:'smooth', block:'nearest'});
+}
+
+function copyAll() {
+  var text = document.getElementById('exportArea').textContent;
+  navigator.clipboard.writeText(text).then(function(){
+    var btn = document.getElementById('btnCopyAll');
+    btn.textContent = '✅ Copiado!';
+    btn.classList.add('copied');
+    setTimeout(function(){ btn.textContent = '📋 Copiar JSON'; btn.classList.remove('copied'); }, 2000);
+  });
+}
+
+// ── INIT ─────────────────────────────────────────────────────
+renderCatalog();
+</script>
+</body>
+</html>
