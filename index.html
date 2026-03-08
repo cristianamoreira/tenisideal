@@ -2,6 +2,7 @@
 <html lang="pt-BR">
 
 <head>
+  <link rel="canonical" href="https://tenisideal.com.br/">
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Tênisideal — Seu Tênis Perfeito</title>
@@ -1405,6 +1406,8 @@ if (
       // Filtro por sexo — NUNCA cai para outro sexo
      var pool = SHOES.filter(function (sh) {
 
+  if (sexo === 'outro') return true;
+
   if (!sh.sexo) return false;
 
   if (Array.isArray(sh.sexo)) {
@@ -1523,6 +1526,10 @@ if (poolOrc.length > 0) {
     });
 
     function buildResult() {
+      if (!SHOES || SHOES.length === 0) {
+  alert("Banco de dados ainda não carregou.");
+  return;
+}
       if (typeof gtag !== 'undefined') gtag('event', 'quiz_completed');
       var tops = getTop3();
 
@@ -1577,7 +1584,13 @@ if (poolOrc.length > 0) {
         var sh = tops[i];
         var card = document.createElement('div');
         card.className = 'shoe';
-        var th = ''; for (var t = 0; t < sh.tags.length; t++) th += '<span class="stag">' + sh.tags[t] + '</span>';
+      var th = '';
+
+if (sh.tags) {
+  for (var t = 0; t < sh.tags.length; t++) {
+    th += '<span class="stag">' + sh.tags[t] + '</span>';
+  }
+}
         var btnsHTML = '<a href="' + sh.link + '" target="_blank" rel="noopener" class="bbuy" onclick="if(typeof gtag !== \'undefined\') gtag(\'event\', \'click_amazon\', {\'shoe_name\': \'' + sh.name + '\'});">Opção 1</a>';
         if (sh.link2) {
           btnsHTML += '<a href="' + sh.link2 + '" target="_blank" rel="noopener" class="bbuy" style="margin-top:8px; background:#444; color:#fff;" onclick="if(typeof gtag !== \'undefined\') gtag(\'event\', \'click_amazon\', {\'shoe_name\': \'' + sh.name + '\'});">Opção 2</a>';
