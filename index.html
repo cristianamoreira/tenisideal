@@ -1398,15 +1398,22 @@ if (
 
 }
     function getTop3() {
-      var sexo = ans.sexo || 'outro';
+      var sexo = ans.sexo;
       var bo = ['ate300', '300a600', '600a1000', 'acima1000'];
       var bi = bo.indexOf(ans.orcamento);
 
       // Filtro por sexo — NUNCA cai para outro sexo
-      var pool = SHOES.filter(function (sh) {
-        return sh.sexo.indexOf(sexo) > -1;
-      });
+     var pool = SHOES.filter(function (sh) {
 
+  if (!sh.sexo) return true;
+
+  if (Array.isArray(sh.sexo)) {
+    return sh.sexo.includes(sexo);
+  }
+
+  return sh.sexo === sexo;
+
+});
       // Filtro por orçamento — absoluto, sem fallback
     var poolOrc = pool.filter(function (sh) {
   return bo.indexOf(sh.budget) <= bi;
