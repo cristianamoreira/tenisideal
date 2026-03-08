@@ -1405,7 +1405,7 @@ if (
       // Filtro por sexo — NUNCA cai para outro sexo
      var pool = SHOES.filter(function (sh) {
 
-  if (!sh.sexo) return true;
+  if (!sh.sexo) return false;
 
   if (Array.isArray(sh.sexo)) {
     return sh.sexo.includes(sexo);
