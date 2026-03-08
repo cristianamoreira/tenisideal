@@ -1215,26 +1215,25 @@
         </div>
       </div>
     </div>
-  </div>
-
-  <script src="shoes_data.js"></script>
+  });
+  </script> 
   <script>
-    var Qs = [
-      {
-        id: 'sexo', title: 'Qual é o seu sexo?', hint: 'Isso nos ajuda a indicar modelos com o caimento ideal.', opts: [
-          { v: 'masculino', icon: '🧔', label: 'Masculino', desc: 'Modelos masculinos' },
-          { v: 'feminino', icon: '👱‍♀️', label: 'Feminino', desc: 'Modelos femininos' },
-          { v: 'outro', icon: '🙂', label: 'Prefiro não dizer', desc: 'Vamos indicar opções neutras' }
-        ]
-      },
-      {
-        id: 'nivel', title: 'Qual é o seu nível de corrida?', hint: 'Escolha a opção que melhor descreve sua experiência.', opts: [
-          { v: 'iniciante', icon: '🌱', label: 'Iniciante', desc: 'Começando agora ou menos de 6 meses' },
-          { v: 'intermediario', icon: '🥈', label: 'Intermediário', desc: 'Corro regularmente há 6 meses–2 anos' },
-          { v: 'avancado', icon: '🔥', label: 'Avançado', desc: 'Mais de 2 anos, participo de provas' }
-        ]
-      },
-      {
+  var Qs = [
+        {
+          id: 'sexo', title: 'Qual é o seu sexo?', hint: 'Isso nos ajuda a indicar modelos com o caimento ideal.', opts: [
+            { v: 'masculino', icon: '🧔', label: 'Masculino', desc: 'Modelos masculinos' },
+            { v: 'feminino', icon: '👱‍♀️', label: 'Feminino', desc: 'Modelos femininos' },
+            { v: 'outro', icon: '🙂', label: 'Prefiro não dizer', desc: 'Vamos indicar opções neutras' }
+          ]
+        },
+        {
+          id: 'nivel', title: 'Qual é o seu nível de corrida?', hint: 'Escolha a opção que melhor descreve sua experiência.', opts: [
+            { v: 'iniciante', icon: '🌱', label: 'Iniciante', desc: 'Começando agora ou menos de 6 meses' },
+            { v: 'intermediario', icon: '🥈', label: 'Intermediário', desc: 'Corro regularmente há 6 meses–2 anos' },
+            { v: 'avancado', icon: '🔥', label: 'Avançado', desc: 'Mais de 2 anos, participo de provas' }
+          ]
+        },
+        {
         id: 'pisada', title: 'Qual é o seu tipo de pisada?', hint: 'Não sabe? Observe o desgaste da sola de um tênis antigo.', opts: [
           { v: 'neutra', icon: '👣', label: 'Neutra', desc: 'Desgaste uniforme na sola' },
           { v: 'pronada', icon: '↙️', label: 'Pronada', desc: 'Desgaste maior no lado interno' },
@@ -1276,8 +1275,6 @@
         ]
       }
     ];
-
-    // A variavel SHOES agora e carregada externamente via shoes_data.js
 
     var cur = 0;
     var ans = {};
@@ -1526,10 +1523,10 @@ if (poolOrc.length > 0) {
     });
 
     function buildResult() {
-      if (!SHOES || SHOES.length === 0) {
-  alert("Banco de dados ainda não carregou.");
-  return;
-}
+      if (!window.shoesLoaded) {
+        alert("Os dados dos tênis ainda estão carregando. Tente novamente em alguns segundos.");
+        return;
+} 
       if (typeof gtag !== 'undefined') gtag('event', 'quiz_completed');
       var tops = getTop3();
 
@@ -1614,6 +1611,72 @@ if (sh.tags) {
       }
       showScreen('sResult');
     }
+
+    // ── Carregamento dos tênis via Google Sheets (CSV) ──────────────────────
+    var SHOES = [];
+    window.shoesLoaded = false;
+
+    // Parser CSV robusto: lida com campos entre aspas que contêm vírgulas
+    function parseCSVRow(row) {
+      var cols = [];
+      var cur = '';
+      var inQuote = false;
+      for (var i = 0; i < row.length; i++) {
+        var ch = row[i];
+        if (ch === '"') {
+          if (inQuote && row[i + 1] === '"') { cur += '"'; i++; }
+          else { inQuote = !inQuote; }
+        } else if (ch === ',' && !inQuote) {
+          cols.push(cur.trim()); cur = '';
+        } else {
+          cur += ch;
+        }
+      }
+      cols.push(cur.trim());
+      return cols;
+    }
+
+    function sp(v) { return v ? v.split('|').map(function(x){return x.trim();}).filter(Boolean) : []; }
+
+    fetch("https://docs.google.com/spreadsheets/d/e/2PACX-1vTPbsAdJERK3wKqjEhpYZeDO5al9Ach4e-UqtnPQ0u__3zKf2oTNN4plh2YYg8B_RRiBB_lAO7lY0tQ/pub?output=csv")
+      .then(function(r) { return r.text(); })
+      .then(function(csv) {
+        var lines = csv.split('\n');
+        var rows = lines.slice(1); // pula cabeçalho
+        SHOES = rows
+          .filter(function(row) { return row.trim().length > 0; })
+          .map(function(row) {
+            var c = parseCSVRow(row);
+            // Ordem real da planilha:
+            // A=sexo, B=marca, C=nome, D=img, E=emoji, F=tags,
+            // G=preço, H=budget, I=nível, J=pisada, K=terreno,
+            // L=prioridade, M=motivo, N=link, O=link2
+            return {
+              sexo:      sp(c[0]),
+              brand:     c[1]  || '',
+              name:      c[2]  || '',
+              img:       c[3]  || '',
+              emoji:     c[4]  || '👟',
+              tags:      sp(c[5]),
+              price:     c[6]  || '',
+              budget:    c[7]  || '',
+              levels:    sp(c[8]),
+              pisadas:   sp(c[9]),
+              terrenos:  sp(c[10]),
+              priors:    sp(c[11]),
+              distancias:sp([]),   // coluna não identificada — deixa vazio por ora
+              reason:    c[12] || '',
+              link:      c[13] || '',
+              link2:     c[14] || ''
+            };
+          });
+        console.log('Tênis carregados:', SHOES.length);
+        window.shoesLoaded = true;
+      })
+      .catch(function(err) {
+        console.error('Erro ao carregar planilha:', err);
+        window.shoesLoaded = false;
+      });
   </script>
 </body>
 
