@@ -116,19 +116,19 @@ def main():
             "name": name,
             "slug": get_val("slug", generate_slug(brand, name)),
             "category": get_val("category", "corrida"),
-            "gender": parse_list(gender), # Array: ["masculino"], ["masculino", "feminino"]
+            "sexo": parse_list(gender), # Alterado de 'gender' para 'sexo'
             "discipline": parse_list(get_val("discipline", "disciplina")),
             
             "price": price_num,
             "price_formatted": price_str,
-            "price_range": price_range,
+            "budget": price_range, # Alterado de 'price_range' para 'budget'
             
             "drop": get_val("drop", ""),
             "weight": get_val("weight", ""),
             
             "levels": parse_list(get_val("levels", "iniciante|intermediario|avancado")),
-            "terrain": parse_list(get_val("terrain", "terrenos", "asfalto|trilha|pista|esteira|mista")),
-            "pronation": parse_list(get_val("pronation", "pisadas", "neutra|pronada|supinada|naosabe")),
+            "terrenos": parse_list(get_val("terrain", "terrenos", "asfalto|trilha|pista|esteira|mista")), # Alterado de 'terrain' para 'terrenos'
+            "pisadas": parse_list(get_val("pronation", "pisadas", "neutra|pronada|supinada|naosabe")), # Alterado de 'pronation' para 'pisadas'
             
             "priors": parse_list(get_val("priors", "amortecimento|leveza|durabilidade|custo")),
             
@@ -146,6 +146,7 @@ def main():
             "tags": parse_list(get_val("tags", "tag1|tag2")),
             
             "description": get_val("description", "reason", "motivo"),
+            "reason": get_val("reason", "description", "motivo"), # Adicionado 'reason' explicito
             "pros": parse_list(get_val("pros", "")),
             "cons": parse_list(get_val("cons", ""))
         }
