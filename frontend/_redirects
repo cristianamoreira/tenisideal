@@ -1,0 +1,11 @@
+# Redirects for Tênis Ideal Clean URLs
+/melhore-tenis-corrida        /melhores-tenis-corrida.html      301
+/melhor-tenis-corrida         /melhores-tenis-corrida.html      301
+/melhores-tenis-corrida      /melhores-tenis-corrida.html      200
+/melhores-tenis-adidas       /melhores-tenis-adidas.html       200
+/melhores-tenis-mizuno       /melhores-tenis-mizuno.html       200
+/melhores-tenis-olympikus    /melhores-tenis-olympikus.html    200
+/adidas-ultraboost-review    /adidas-ultraboost-review.html    200
+/mizuno-wave-prophecy-review /mizuno-wave-prophecy-review.html 200
+/olympikus-corre-3-review    /olympikus-corre-3-review.html    200
+/index                       /index.html                     200

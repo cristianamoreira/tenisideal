@@ -1,0 +1,22 @@
+[
+  {
+    "sexo": ["masculino"],
+    "brand": "Mizuno",
+    "name": "Wave Rider 29",
+    "img": "https://m.media-amazon.com/images/I/713v7K15xYL._AC_SY575_.jpg",
+    "emoji": "🌊",
+    "tags": ["Amortecimento", "Neutro", "Longa distância"],
+    "price": "R$ 699",
+    "budget": "600a1000",
+    "levels": ["intermediario", "avancado"],
+    "pisadas": ["neutra"],
+    "terrenos": ["asfalto"],
+    "priors": ["amortecimento", "durabilidade"],
+    "reason": "Clássico de longa distância com amortecimento Wave excepcional.",
+    "link": "https://amzn.to/exemplo",
+    "popular": "sim",
+    "link2": "",
+    "link3": "",
+    "distancias": ["longa", "maratona"]
+  }
+]

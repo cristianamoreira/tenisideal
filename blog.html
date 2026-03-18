@@ -1,0 +1,1225 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+  <!-- Google tag (gtag.js) -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=AW-18004382554"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag() { dataLayer.push(arguments); }
+    gtag('js', new Date());
+
+    gtag('config', 'AW-18004382554');
+  </script>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Blog — Tênisideal</title>
+  <meta name="description"
+    content="Dicas, guias e análises para corredores. Aprenda tudo sobre tênis de corrida, pisada, terreno e muito mais.">
+  <link rel="canonical" href="https://tenisideal.com.br/blog">
+  <meta property="og:title" content="Blog — Tênisideal">
+  <meta property="og:description" content="Dicas, guias e análises para corredores.">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://tenisideal.com.br/blog">
+
+  <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=DM+Sans:wght@400;500;600;700&display=swap"
+    rel="stylesheet">
+
+  <style>
+    :root {
+      --black: #0a0a0a;
+      --card: #1a1a1a;
+      --card-h: #222;
+      --border: #2a2a2a;
+      --yellow: #c8ff00;
+      --yd: #a8d900;
+      --white: #fff;
+      --gray: #888;
+      --gl: #aaa;
+    }
+
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      background: var(--black);
+      color: var(--white);
+      font-family: 'DM Sans', sans-serif;
+      min-height: 100vh;
+      overflow-x: hidden;
+    }
+
+    @keyframes fu {
+      from {
+        opacity: 0;
+        transform: translateY(14px);
+      }
+
+      to {
+        opacity: 1;
+        transform: translateY(0);
+      }
+    }
+
+    /* ── HEADER ── */
+    header {
+      padding: 20px 40px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      border-bottom: 1px solid var(--border);
+      position: sticky;
+      top: 0;
+      background: var(--black);
+      z-index: 100;
+    }
+
+    .logo {
+      font-family: 'Bebas Neue', sans-serif;
+      font-size: 26px;
+      letter-spacing: 3px;
+      text-transform: uppercase;
+      text-decoration: none;
+      color: var(--white);
+    }
+
+    .logo span {
+      color: var(--yellow);
+    }
+
+    nav {
+      display: flex;
+      gap: 28px;
+      align-items: center;
+    }
+
+    nav a {
+      font-size: 13px;
+      font-weight: 600;
+      letter-spacing: 1.5px;
+      text-transform: uppercase;
+      color: var(--gray);
+      text-decoration: none;
+      transition: color .2s;
+    }
+
+    nav a:hover,
+    nav a.active {
+      color: var(--white);
+    }
+
+    nav a.active {
+      color: var(--yellow);
+    }
+
+    .nav-cta {
+      background: var(--yellow);
+      color: var(--black) !important;
+      font-family: 'Bebas Neue', sans-serif;
+      font-size: 15px !important;
+      letter-spacing: 1px;
+      padding: 10px 20px;
+      border-radius: 3px;
+      transition: background .2s !important;
+    }
+
+    .nav-cta:hover {
+      background: var(--yd) !important;
+    }
+
+    /* ── HERO ── */
+    .blog-hero {
+      padding: 64px 40px 48px;
+      max-width: 1100px;
+      margin: 0 auto;
+      animation: fu .4s ease;
+    }
+
+    .blog-hero-tag {
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
+      background: rgba(200, 255, 0, .1);
+      border: 1px solid rgba(200, 255, 0, .25);
+      color: var(--yellow);
+      font-size: 11px;
+      font-weight: 700;
+      letter-spacing: 2px;
+      text-transform: uppercase;
+      padding: 7px 14px;
+      border-radius: 2px;
+      margin-bottom: 20px;
+    }
+
+    .blog-hero h1 {
+      font-family: 'Bebas Neue', sans-serif;
+      font-size: clamp(48px, 8vw, 80px);
+      line-height: .92;
+      text-transform: uppercase;
+      margin-bottom: 16px;
+    }
+
+    .blog-hero h1 span {
+      color: var(--yellow);
+    }
+
+    .blog-hero p {
+      font-size: 17px;
+      color: var(--gl);
+      max-width: 520px;
+      line-height: 1.6;
+    }
+
+    /* ── CATEGORIES ── */
+    .cats {
+      padding: 0 40px 40px;
+      max-width: 1100px;
+      margin: 0 auto;
+      display: flex;
+      gap: 10px;
+      flex-wrap: wrap;
+    }
+
+    .cat-btn {
+      font-size: 12px;
+      font-weight: 700;
+      letter-spacing: 1.5px;
+      text-transform: uppercase;
+      padding: 9px 18px;
+      border-radius: 2px;
+      border: 1.5px solid var(--border);
+      background: transparent;
+      color: var(--gray);
+      cursor: pointer;
+      transition: all .2s;
+    }
+
+    .cat-btn:hover {
+      border-color: #555;
+      color: var(--white);
+    }
+
+    .cat-btn.active {
+      background: var(--yellow);
+      border-color: var(--yellow);
+      color: var(--black);
+    }
+
+    /* ── FEATURED POST ── */
+    .featured-wrap {
+      padding: 0 40px 48px;
+      max-width: 1100px;
+      margin: 0 auto;
+    }
+
+    .featured-post {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 0;
+      background: var(--card);
+      border: 1.5px solid var(--border);
+      border-radius: 10px;
+      overflow: hidden;
+      transition: border-color .25s, transform .25s;
+      cursor: pointer;
+      text-decoration: none;
+      color: inherit;
+    }
+
+    .featured-post:hover {
+      border-color: var(--yellow);
+      transform: translateY(-3px);
+      box-shadow: 0 16px 48px rgba(0, 0, 0, .5);
+    }
+
+    .featured-img {
+      background: linear-gradient(135deg, #1a1a1a 0%, #111 100%);
+      min-height: 340px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 80px;
+      position: relative;
+      overflow: hidden;
+    }
+
+    .featured-img::before {
+      content: '';
+      position: absolute;
+      inset: 0;
+      background: radial-gradient(circle at 30% 50%, rgba(200, 255, 0, .08), transparent 60%);
+    }
+
+    .featured-body {
+      padding: 40px;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      gap: 16px;
+    }
+
+    .post-cat-tag {
+      display: inline-flex;
+      align-items: center;
+      background: var(--yellow);
+      color: var(--black);
+      font-size: 10px;
+      font-weight: 700;
+      letter-spacing: 2px;
+      text-transform: uppercase;
+      padding: 5px 12px;
+      border-radius: 2px;
+      width: fit-content;
+    }
+
+    .featured-label {
+      font-size: 11px;
+      font-weight: 700;
+      letter-spacing: 2px;
+      text-transform: uppercase;
+      color: var(--gray);
+    }
+
+    .featured-title {
+      font-family: 'Bebas Neue', sans-serif;
+      font-size: clamp(28px, 4vw, 42px);
+      text-transform: uppercase;
+      line-height: .95;
+    }
+
+    .featured-title span {
+      color: var(--yellow);
+    }
+
+    .featured-excerpt {
+      font-size: 15px;
+      color: var(--gl);
+      line-height: 1.6;
+    }
+
+    .post-meta {
+      display: flex;
+      align-items: center;
+      gap: 16px;
+      font-size: 12px;
+      color: var(--gray);
+      font-weight: 600;
+    }
+
+    .post-meta span {
+      display: flex;
+      align-items: center;
+      gap: 5px;
+    }
+
+    .read-more {
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
+      font-family: 'Bebas Neue', sans-serif;
+      font-size: 15px;
+      letter-spacing: 1px;
+      color: var(--yellow);
+      text-transform: uppercase;
+      margin-top: 4px;
+      transition: gap .2s;
+    }
+
+    .featured-post:hover .read-more {
+      gap: 14px;
+    }
+
+    /* ── GRID ── */
+    .grid-section {
+      padding: 0 40px 64px;
+      max-width: 1100px;
+      margin: 0 auto;
+    }
+
+    .section-header {
+      display: flex;
+      align-items: baseline;
+      justify-content: space-between;
+      margin-bottom: 24px;
+    }
+
+    .section-title {
+      font-family: 'Bebas Neue', sans-serif;
+      font-size: 28px;
+      text-transform: uppercase;
+      letter-spacing: 1px;
+    }
+
+    .section-title span {
+      color: var(--yellow);
+    }
+
+    .posts-grid {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 20px;
+    }
+
+    .post-card {
+      background: var(--card);
+      border: 1.5px solid var(--border);
+      border-radius: 8px;
+      overflow: hidden;
+      cursor: pointer;
+      transition: all .25s;
+      text-decoration: none;
+      color: inherit;
+      display: flex;
+      flex-direction: column;
+    }
+
+    .post-card:hover {
+      border-color: var(--yellow);
+      transform: translateY(-4px);
+      box-shadow: 0 12px 32px rgba(0, 0, 0, .4);
+    }
+
+    .post-card-img {
+      height: 160px;
+      background: linear-gradient(135deg, #1e1e1e, #141414);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 48px;
+      position: relative;
+      overflow: hidden;
+      flex-shrink: 0;
+    }
+
+    .post-card-img::after {
+      content: '';
+      position: absolute;
+      bottom: 0;
+      left: 0;
+      right: 0;
+      height: 60px;
+      background: linear-gradient(transparent, var(--card));
+    }
+
+    .post-card-body {
+      padding: 18px 20px 22px;
+      display: flex;
+      flex-direction: column;
+      gap: 10px;
+      flex: 1;
+    }
+
+    .post-card-title {
+      font-family: 'Bebas Neue', sans-serif;
+      font-size: 20px;
+      text-transform: uppercase;
+      line-height: 1;
+    }
+
+    .post-card-excerpt {
+      font-size: 13px;
+      color: var(--gl);
+      line-height: 1.6;
+      flex: 1;
+    }
+
+    .post-card-footer {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      margin-top: auto;
+      padding-top: 12px;
+      border-top: 1px solid var(--border);
+    }
+
+    .post-card-meta {
+      font-size: 11px;
+      color: var(--gray);
+      font-weight: 600;
+    }
+
+    .post-card-arrow {
+      font-size: 14px;
+      color: var(--yellow);
+      transition: transform .2s;
+    }
+
+    .post-card:hover .post-card-arrow {
+      transform: translateX(4px);
+    }
+
+    /* ── NEWSLETTER BANNER ── */
+    .newsletter {
+      margin: 0 40px 64px;
+      max-width: 1020px;
+      margin-left: auto;
+      margin-right: auto;
+      background: linear-gradient(135deg, rgba(200, 255, 0, .07) 0%, rgba(200, 255, 0, .02) 100%);
+      border: 1.5px solid rgba(200, 255, 0, .2);
+      border-radius: 12px;
+      padding: 44px 52px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 40px;
+    }
+
+    .newsletter-text h2 {
+      font-family: 'Bebas Neue', sans-serif;
+      font-size: 32px;
+      text-transform: uppercase;
+      margin-bottom: 8px;
+    }
+
+    .newsletter-text h2 span {
+      color: var(--yellow);
+    }
+
+    .newsletter-text p {
+      font-size: 14px;
+      color: var(--gl);
+      line-height: 1.6;
+      max-width: 340px;
+    }
+
+    .newsletter-form {
+      display: flex;
+      gap: 10px;
+      flex-shrink: 0;
+    }
+
+    .newsletter-input {
+      background: rgba(255, 255, 255, .05);
+      border: 1.5px solid var(--border);
+      border-radius: 4px;
+      padding: 13px 18px;
+      font-family: 'DM Sans', sans-serif;
+      font-size: 14px;
+      color: var(--white);
+      width: 240px;
+      outline: none;
+      transition: border-color .2s;
+    }
+
+    .newsletter-input::placeholder {
+      color: var(--gray);
+    }
+
+    .newsletter-input:focus {
+      border-color: var(--yellow);
+    }
+
+    .newsletter-btn {
+      background: var(--yellow);
+      color: var(--black);
+      font-family: 'Bebas Neue', sans-serif;
+      font-size: 16px;
+      letter-spacing: 1px;
+      text-transform: uppercase;
+      padding: 13px 24px;
+      border: none;
+      border-radius: 4px;
+      cursor: pointer;
+      white-space: nowrap;
+      transition: background .2s;
+    }
+
+    .newsletter-btn:hover {
+      background: var(--yd);
+    }
+
+    /* ── ARTICLE MODAL ── */
+    .article-overlay {
+      display: none;
+      position: fixed;
+      inset: 0;
+      background: rgba(0, 0, 0, .85);
+      z-index: 500;
+      overflow-y: auto;
+      backdrop-filter: blur(6px);
+      padding: 40px 20px;
+    }
+
+    .article-overlay.open {
+      display: block;
+      animation: fu .3s ease;
+    }
+
+    .article-container {
+      max-width: 720px;
+      margin: 0 auto;
+      background: #111;
+      border: 1.5px solid var(--border);
+      border-radius: 12px;
+      overflow: hidden;
+    }
+
+    .article-header-img {
+      height: 220px;
+      background: linear-gradient(135deg, #1a1a1a, #111);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 80px;
+      position: relative;
+    }
+
+    .article-header-img::before {
+      content: '';
+      position: absolute;
+      inset: 0;
+      background: radial-gradient(circle at 50% 50%, rgba(200, 255, 0, .07), transparent 65%);
+    }
+
+    .article-content {
+      padding: 40px 48px 52px;
+    }
+
+    .article-content .post-cat-tag {
+      margin-bottom: 16px;
+    }
+
+    .article-title {
+      font-family: 'Bebas Neue', sans-serif;
+      font-size: clamp(32px, 5vw, 52px);
+      text-transform: uppercase;
+      line-height: .93;
+      margin-bottom: 16px;
+    }
+
+    .article-title span {
+      color: var(--yellow);
+    }
+
+    .article-meta {
+      display: flex;
+      gap: 20px;
+      font-size: 12px;
+      color: var(--gray);
+      font-weight: 600;
+      margin-bottom: 32px;
+      padding-bottom: 24px;
+      border-bottom: 1px solid var(--border);
+    }
+
+    .article-body {
+      font-size: 15px;
+      color: var(--gl);
+      line-height: 1.8;
+    }
+
+    .article-body h2 {
+      font-family: 'Bebas Neue', sans-serif;
+      font-size: 26px;
+      text-transform: uppercase;
+      color: var(--white);
+      margin: 36px 0 14px;
+      letter-spacing: .5px;
+    }
+
+    .article-body h3 {
+      font-size: 16px;
+      font-weight: 700;
+      color: var(--white);
+      margin: 24px 0 10px;
+    }
+
+    .article-body p {
+      margin-bottom: 18px;
+    }
+
+    .article-body strong {
+      color: var(--white);
+    }
+
+    .article-body ul {
+      margin: 0 0 18px 20px;
+      display: flex;
+      flex-direction: column;
+      gap: 8px;
+    }
+
+    .article-body ul li::marker {
+      color: var(--yellow);
+    }
+
+    .article-highlight {
+      background: rgba(200, 255, 0, .06);
+      border-left: 3px solid var(--yellow);
+      border-radius: 0 6px 6px 0;
+      padding: 16px 20px;
+      margin: 24px 0;
+      font-size: 15px;
+      color: var(--gl);
+      line-height: 1.7;
+    }
+
+    .article-highlight strong {
+      color: var(--yellow);
+    }
+
+    .article-cta {
+      margin-top: 40px;
+      padding: 28px 32px;
+      background: var(--card);
+      border: 1.5px solid var(--border);
+      border-radius: 8px;
+      text-align: center;
+    }
+
+    .article-cta p {
+      font-size: 14px;
+      color: var(--gl);
+      margin-bottom: 16px !important;
+    }
+
+    .article-cta a {
+      display: inline-flex;
+      align-items: center;
+      gap: 10px;
+      background: var(--yellow);
+      color: var(--black);
+      font-family: 'Bebas Neue', sans-serif;
+      font-size: 17px;
+      letter-spacing: 1px;
+      text-transform: uppercase;
+      padding: 15px 30px;
+      border-radius: 3px;
+      text-decoration: none;
+      transition: background .2s;
+    }
+
+    .article-cta a:hover {
+      background: var(--yd);
+    }
+
+    .article-close {
+      position: sticky;
+      top: 16px;
+      float: right;
+      margin: 16px 16px 0 0;
+      width: 36px;
+      height: 36px;
+      background: var(--card);
+      border: 1.5px solid var(--border);
+      border-radius: 50%;
+      color: var(--gray);
+      font-size: 16px;
+      cursor: pointer;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      transition: all .2s;
+      z-index: 10;
+    }
+
+    .article-close:hover {
+      background: var(--yellow);
+      border-color: var(--yellow);
+      color: var(--black);
+    }
+
+    /* ── FOOTER ── */
+    footer {
+      border-top: 1px solid var(--border);
+      padding: 32px 40px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 20px;
+    }
+
+    footer p {
+      font-size: 12px;
+      color: var(--gray);
+    }
+
+    /* ── RESPONSIVE ── */
+    @media(max-width: 900px) {
+      .featured-post {
+        grid-template-columns: 1fr;
+      }
+
+      .featured-img {
+        min-height: 200px;
+      }
+
+      .posts-grid {
+        grid-template-columns: 1fr 1fr;
+      }
+
+      .newsletter {
+        flex-direction: column;
+        padding: 32px;
+      }
+
+      .newsletter-form {
+        width: 100%;
+      }
+
+      .newsletter-input {
+        flex: 1;
+        width: auto;
+      }
+    }
+
+    @media(max-width: 600px) {
+      header {
+        padding: 16px 20px;
+      }
+
+      nav {
+        gap: 16px;
+      }
+
+      nav a:not(.nav-cta) {
+        display: none;
+      }
+
+      .blog-hero,
+      .featured-wrap,
+      .grid-section,
+      .cats {
+        padding-left: 20px;
+        padding-right: 20px;
+      }
+
+      .newsletter {
+        margin: 0 20px 48px;
+      }
+
+      .posts-grid {
+        grid-template-columns: 1fr;
+      }
+
+      .article-content {
+        padding: 28px 24px 40px;
+      }
+
+      footer {
+        flex-direction: column;
+        text-align: center;
+        padding: 24px 20px;
+      }
+    }
+  </style>
+</head>
+
+<body>
+
+  <header>
+    <a class="logo" href="index.html"><span>Tênis</span>ideal</a>
+    <nav>
+      <a href="index.html">Quiz</a>
+      <a href="blog.html" class="active">Blog</a>
+      <a href="index.html" class="nav-cta">Descobrir meu tênis →</a>
+    </nav>
+  </header>
+
+  <!-- HERO -->
+  <div class="blog-hero">
+    <div class="blog-hero-tag">✍️ Conteúdo para corredores</div>
+    <h1>Guias &amp; Dicas<br>de <span>Corrida</span></h1>
+    <p>Tudo que você precisa saber para escolher o tênis certo e correr melhor.</p>
+  </div>
+
+  <!-- CATEGORIES -->
+  <div class="cats" id="cats">
+    <button class="cat-btn active" data-cat="todos" onclick="filterCat(this)">Todos</button>
+    <button class="cat-btn" data-cat="pisada" onclick="filterCat(this)">Pisada</button>
+    <button class="cat-btn" data-cat="terreno" onclick="filterCat(this)">Terreno</button>
+    <button class="cat-btn" data-cat="nivel" onclick="filterCat(this)">Nível</button>
+    <button class="cat-btn" data-cat="distancia" onclick="filterCat(this)">Distância</button>
+    <button class="cat-btn" data-cat="manutencao" onclick="filterCat(this)">Manutenção</button>
+  </div>
+
+  <!-- FEATURED -->
+  <div class="featured-wrap" id="featuredWrap">
+    <div class="featured-post" onclick="openArticle(0)">
+      <div class="featured-img">👟</div>
+      <div class="featured-body">
+        <div class="featured-label">⭐ Destaque</div>
+        <div class="post-cat-tag">Pisada</div>
+        <div class="featured-title">Tênis para <span>Pronados</span>: Guia Completo</div>
+        <p class="featured-excerpt">Entenda o que é a pisada pronada, como identificá-la e quais são os melhores tênis
+          de corrida para proteger seus joelhos e tornozelos.</p>
+        <div class="post-meta">
+          <span>🕐 8 min de leitura</span>
+          <span>📅 Mar 2025</span>
+        </div>
+        <div class="read-more">Ler artigo →</div>
+      </div>
+    </div>
+  </div>
+
+  <!-- POSTS GRID -->
+  <div class="grid-section">
+    <div class="section-header">
+      <div class="section-title">Artigos <span>Recentes</span></div>
+    </div>
+    <div class="posts-grid" id="postsGrid"></div>
+  </div>
+
+  <!-- NEWSLETTER -->
+  <div class="newsletter">
+    <div class="newsletter-text">
+      <h2>Receba dicas<br><span>no seu e-mail</span></h2>
+      <p>Novos artigos, lançamentos e promoções de tênis direto na sua caixa de entrada.</p>
+    </div>
+    <div class="newsletter-form">
+      <input class="newsletter-input" type="email" placeholder="seu@email.com" id="emailInput">
+      <button class="newsletter-btn" onclick="subscribeNewsletter()">Quero receber</button>
+    </div>
+  </div>
+
+  <!-- ARTICLE MODAL -->
+  <div class="article-overlay" id="articleOverlay" onclick="if(event.target===this)closeArticle()">
+    <div class="article-container">
+      <button class="article-close" onclick="closeArticle()">✕</button>
+      <div class="article-header-img" id="articleEmoji"></div>
+      <div class="article-content">
+        <div class="post-cat-tag" id="articleCat"></div>
+        <div class="article-title" id="articleTitle"></div>
+        <div class="article-meta" id="articleMeta"></div>
+        <div class="article-body" id="articleBody"></div>
+        <div class="article-cta">
+          <p>Pronto para encontrar o tênis ideal para o seu perfil?</p>
+          <a href="index.html">Fazer o quiz gratuito →</a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <footer>
+    <p>© 2025 Tênisideal — Todos os direitos reservados.</p>
+    <p>Links de afiliado. Preços e disponibilidade podem variar.</p>
+  </footer>
+
+  <script>
+    var posts = [
+      {
+        id: 0,
+        cat: 'pisada',
+        emoji: '👟',
+        tag: 'Pisada',
+        title: 'Tênis para <span>Pronados</span>: Guia Completo',
+        plainTitle: 'Tênis para Pronados: Guia Completo',
+        excerpt: 'Entenda o que é a pisada pronada, como identificá-la e quais são os melhores tênis para proteger seus joelhos.',
+        read: '8 min',
+        date: 'Mar 2025',
+        featured: true,
+        body: `
+        <p>A pisada pronada é um dos tipos mais comuns entre corredores brasileiros — e também um dos mais mal compreendidos. Se você já ouviu falar que "prona", mas não sabe bem o que isso significa na prática, este guia é para você.</p>
+
+        <h2>O que é a pronação?</h2>
+        <p>Pronação é o movimento natural do pé ao absorver impacto durante a corrida. O pé aterrissa no calcanhar e rola levemente para dentro, distribuindo o peso pela planta até o arco do hálux. <strong>Todo mundo prona</strong> — a diferença é a intensidade.</p>
+        <p>A pronação excessiva (hiperpronação) ocorre quando esse rolamento para dentro ultrapassa o normal, colocando sobrecarga nos tornozelos, joelhos e quadris.</p>
+
+        <div class="article-highlight"><strong>Como saber se você prona em excesso?</strong> Observe a sola de um tênis usado: desgaste concentrado na parte interna (borda do dedão) é sinal claro de pronação excessiva.</div>
+
+        <h2>Riscos de correr com tênis errado</h2>
+        <p>Usar um tênis neutro tendo pisada pronada é um dos erros mais comuns — e que mais geram lesões. Os principais problemas associados:</p>
+        <ul>
+          <li>Dor no joelho (síndrome da banda iliotibial)</li>
+          <li>Fascite plantar</li>
+          <li>Canelite</li>
+          <li>Dor no quadril e lombar</li>
+        </ul>
+
+        <h2>O que procurar num tênis para pronadores</h2>
+        <p>Tênis indicados para pronação excessiva geralmente têm duas características principais:</p>
+        <h3>1. Suporte medial (Motion Control)</h3>
+        <p>Uma espuma mais densa no lado interno do solado que impede o rolamento excessivo para dentro. Procure por tênis com tecnologias como <strong>GEL-Kayano (Asics)</strong>, <strong>Adrenaline GTS (Brooks)</strong> ou <strong>Wave Inspire (Mizuno)</strong>.</p>
+        <h3>2. Estabilidade</h3>
+        <p>Além do suporte medial, o tênis deve ter uma plataforma estável, com boa base de apoio e entressola firme — não muito mole, pois espumas muito macias podem piorar a pronação.</p>
+
+        <div class="article-highlight"><strong>Dica:</strong> Evite tênis minimalistas ou de solado muito fino se você prona. A falta de estrutura pode agravar o problema e aumentar o risco de lesão.</div>
+
+        <h2>Pisada pronada leve x moderada x severa</h2>
+        <p>Nem toda pronação exige o tênis mais rígido do mercado. Uma avaliação com um especialista em biomecânica ou em uma loja especializada (com esteira de análise) pode ajudar a classificar seu grau de pronação e indicar o nível de suporte necessário.</p>
+        <p>Para pronação leve, muitas vezes um tênis de estabilidade já é suficiente. Para pronação severa, pode ser necessário um tênis de controle de movimento — o mais estruturado da categoria.</p>
+
+        <h2>Vale a pena usar palmilha ortopédica?</h2>
+        <p>Em alguns casos sim, especialmente quando combinada com um tênis de estabilidade. Palmilhas personalizadas (prescritas por ortopedista ou fisioterapeuta) podem oferecer suporte adicional e correção postural. Mas não substituem um tênis adequado.</p>
+      `
+      },
+      {
+        id: 1,
+        cat: 'distancia',
+        emoji: '🏅',
+        tag: 'Distância',
+        title: 'Melhor Tênis para <span>Maratona</span>',
+        plainTitle: 'Melhor Tênis para Maratona',
+        excerpt: 'Vai correr 42km? Saiba o que priorizar na escolha do tênis para aguentar a prova inteira sem lesão.',
+        read: '7 min',
+        date: 'Fev 2025',
+        body: `
+        <p>A maratona é o maior desafio do atletismo de rua — 42,195 km que testam cada parte do seu corpo. E seus pés estão na linha de frente. Escolher o tênis errado pode significar bolhas, fadiga precoce e até lesões que te tiram da largada.</p>
+
+        <h2>O que o tênis de maratona precisa ter</h2>
+        <p>Diferente de treinos curtos, na maratona você vai demandar do seu calçado por <strong>3 a 6 horas</strong> (dependendo do seu ritmo). As prioridades mudam bastante:</p>
+        <ul>
+          <li><strong>Amortecimento generoso:</strong> Para absorver o impacto acumulado dos milhares de passadas</li>
+          <li><strong>Durabilidade:</strong> O tênis precisa manter as propriedades até o km 42</li>
+          <li><strong>Conforto:</strong> Cabedal respirável que não irrite nos momentos finais</li>
+          <li><strong>Retorno de energia:</strong> Espumas reativas que devolvem energia a cada passada</li>
+        </ul>
+
+        <div class="article-highlight"><strong>Regra de ouro:</strong> Nunca use um tênis novo pela primeira vez na prova. Estreie o tênis com pelo menos 3 longões antes da maratona para adaptá-lo ao seu pé.</div>
+
+        <h2>Tênis de treino vs. tênis de prova</h2>
+        <p>Muitos maratonistas usam dois pares: um mais resistente para os treinos longos e um mais leve e rápido para a prova. Essa estratégia preserva o tênis de competição e protege o investimento.</p>
+
+        <h2>Tecnologias que fazem diferença</h2>
+        <p>As marcas investem pesado em espumas de alta performance para maratonistas. As mais relevantes hoje:</p>
+        <h3>Placas de carbono</h3>
+        <p>Presentes em modelos como Nike Vaporfly, Adidas Adizero Adios Pro e Asics Metaspeed. A placa aumenta a eficiência da passada, reduzindo o consumo de energia. São mais indicadas para corredores experientes que já têm boa mecânica de corrida.</p>
+        <h3>Espumas de alto retorno</h3>
+        <p>ZoomX (Nike), Lightstrike Pro (Adidas) e FF Blast Turbo (Asics) são exemplos de espumas que combinam leveza com excelente amortecimento e retorno de energia.</p>
+
+        <h2>E o orçamento?</h2>
+        <p>Os top tênis de maratona custam caro — R$ 1.500 a R$ 3.000. Mas há boas opções de custo-benefício na faixa de R$ 600–900 que entregam ótimo desempenho sem tecnologias de ponta.</p>
+      `
+      },
+      {
+        id: 2,
+        cat: 'terreno',
+        emoji: '🌲',
+        tag: 'Terreno',
+        title: 'Tênis de <span>Trilha</span>: Tudo que Você Precisa Saber',
+        plainTitle: 'Tênis de Trilha: Tudo que Você Precisa Saber',
+        excerpt: 'Trail running exige um tênis completamente diferente do asfalto. Descubra o que olhar antes de comprar.',
+        read: '6 min',
+        date: 'Jan 2025',
+        body: `
+        <p>Correr em trilhas é uma experiência completamente diferente da corrida urbana. O terreno irregular, os rocks, raízes e lama exigem um tênis especialmente projetado — e usar um tênis de rua no trail é receita para escorregão, torção e frustração.</p>
+
+        <h2>As diferenças principais</h2>
+        <p>Um bom tênis de trilha se diferencia do de asfalto em três aspectos fundamentais:</p>
+
+        <h3>Solado com travas (lugs)</h3>
+        <p>As travas são as saliências na sola que cravam no solo e oferecem tração. Quanto mais fundas e espaçadas, melhor a aderência em terrenos macios como lama e terra. Para pedras, travas mais rasas e borracha de alta aderência funcionam melhor.</p>
+
+        <h3>Proteção contra pedras (rock plate)</h3>
+        <p>Muitos tênis de trilha têm uma placa rígida entre a entressola e a sola externa que protege a planta do pé de impactos com pedras e raízes pontiagudas. Essencial para trilhas técnicas.</p>
+
+        <h3>Cabedal reforçado</h3>
+        <p>Materiais mais resistentes nas laterais e na ponteira protegem os dedos de impactos com obstáculos. Muitos modelos também têm tratamento impermeável ou são totalmente waterproof (Gore-Tex).</p>
+
+        <div class="article-highlight"><strong>Atenção:</strong> Tênis impermeáveis (Gore-Tex) retêm mais calor e levam mais tempo para secar quando entram água. Para trilhas secas e quentes, prefira modelos respiráveis.</div>
+
+        <h2>Marcas referência em trail</h2>
+        <p><strong>Salomon</strong> é a referência mundial — os modelos Speedcross e Sense Ride dominam as corridas de trilha no Brasil e no mundo. <strong>Hoka</strong> se destaca pelo amortecimento generoso. <strong>Asics Gel-Sonoma</strong> e <strong>Nike Wildhorse</strong> são boas opções de entrada no trail.</p>
+
+        <h2>Como escolher para o seu terreno</h2>
+        <ul>
+          <li><strong>Terra seca e compacta:</strong> Travas médias, boa estabilidade</li>
+          <li><strong>Lama e terra molhada:</strong> Travas profundas e bem espaçadas</li>
+          <li><strong>Pedras e rocha:</strong> Rock plate obrigatório, borracha Vibram</li>
+          <li><strong>Trilhas mistas:</strong> Travas médias e versáteis</li>
+        </ul>
+      `
+      },
+      {
+        id: 3,
+        cat: 'nivel',
+        emoji: '🌱',
+        tag: 'Nível',
+        title: 'Guia do <span>Iniciante</span>: Primeiro Tênis de Corrida',
+        plainTitle: 'Guia do Iniciante: Primeiro Tênis de Corrida',
+        excerpt: 'Começando a correr? Não gaste mais do que precisa. Veja o que realmente importa no primeiro tênis.',
+        read: '5 min',
+        date: 'Dez 2024',
+        body: `
+        <p>Você decidiu começar a correr — ótima decisão! Mas agora vem a primeira dúvida: qual tênis comprar? Com tantas opções, tecnologias e faixas de preço, é fácil se perder. Este guia vai te ajudar a tomar uma decisão inteligente.</p>
+
+        <h2>Você não precisa do tênis mais caro</h2>
+        <p>Essa é a verdade que as marcas não vão te contar. Para quem está começando, correndo até 5km, 2-3 vezes por semana, um tênis na faixa de <strong>R$ 250–500</strong> já é mais do que suficiente. Modelos de entrada das grandes marcas têm toda a tecnologia necessária para um iniciante.</p>
+
+        <div class="article-highlight"><strong>Prioridade número 1:</strong> O tênis certo para o seu tipo de pisada vale muito mais do que o tênis mais caro do mercado para o tipo de pisada errado.</div>
+
+        <h2>O que realmente importa</h2>
+        <h3>Amortecimento adequado</h3>
+        <p>Como iniciante, seu corpo ainda está se adaptando ao impacto da corrida. Um tênis com bom amortecimento ajuda a absorver o choque e previne lesões comuns como canelite e dor no joelho.</p>
+        <h3>Caimento correto</h3>
+        <p>O tênis deve ter cerca de 1 cm de espaço entre o dedo maior e a ponta. Pés costumam inchar durante a corrida — um tênis apertado vai virar problema nos km finais.</p>
+        <h3>Peso</h3>
+        <p>Para iniciantes, leveza não é prioridade. Um tênis um pouco mais pesado, mas com bom amortecimento, é melhor que um tênis leve e sem proteção.</p>
+
+        <h2>Onde comprar?</h2>
+        <p>Lojas especializadas em corrida são ideais porque geralmente têm análise de pisada gratuita. Mas se comprar online, use nosso quiz para encontrar o modelo certo e verifique sempre a tabela de tamanhos da marca.</p>
+
+        <h2>Quando trocar o tênis?</h2>
+        <p>A regra geral é trocar a cada <strong>600–800 km</strong> de corrida. Para iniciantes correndo 15km por semana, isso significa cerca de 9-12 meses de uso. Mas fique atento: se começar a sentir mais impacto do que o normal, pode ser hora de trocar antes.</p>
+      `
+      },
+      {
+        id: 4,
+        cat: 'pisada',
+        emoji: '↗️',
+        tag: 'Pisada',
+        title: 'Pisada <span>Supinada</span>: Riscos e Soluções',
+        plainTitle: 'Pisada Supinada: Riscos e Soluções',
+        excerpt: 'Menos comum que a pronada, mas igualmente importante entender. Veja como identificar e o que fazer.',
+        read: '5 min',
+        date: 'Nov 2024',
+        body: `
+        <p>A supinação (ou hipossupinação) é o oposto da pronação: em vez de rolar para dentro, o pé rola para fora durante a corrida. É menos comum — afeta cerca de 10% dos corredores — mas pode causar lesões sérias se ignorada.</p>
+
+        <h2>Como identificar</h2>
+        <p>O sinal mais claro está na sola do seu tênis: desgaste concentrado na <strong>borda externa</strong> (lado do mindinho) indica supinação. No teste do pé molhado, a marca deixada terá uma faixa estreita no meio ou quase nenhum contato na região do arco.</p>
+
+        <h2>Riscos associados</h2>
+        <ul>
+          <li>Entorses de tornozelo (o pé já está "inclinado" para fora)</li>
+          <li>Estresse na fáscia plantar</li>
+          <li>Síndrome do trato iliotibial</li>
+          <li>Fraturas por estresse nas laterais do pé</li>
+        </ul>
+
+        <div class="article-highlight"><strong>Importante:</strong> Supinadores geralmente têm arco do pé alto e rígido. Isso reduz a capacidade natural de absorção de impacto do pé — por isso o tênis precisa compensar.</div>
+
+        <h2>O que procurar no tênis</h2>
+        <p>Ao contrário dos pronadores, supinadores <strong>não devem usar</strong> tênis de estabilidade ou controle de movimento. O que você precisa é de:</p>
+        <ul>
+          <li><strong>Amortecimento generoso:</strong> Especialmente no calcanhar e na lateral externa</li>
+          <li><strong>Solado flexível:</strong> Para permitir o movimento natural do pé</li>
+          <li><strong>Cabedal macio:</strong> Sem estruturas rígidas que forcem a pisada</li>
+        </ul>
+        <p>Modelos neutros com boa absorção de impacto como o <strong>Asics Gel-Nimbus</strong>, <strong>Brooks Ghost</strong> ou <strong>New Balance Fresh Foam 1080</strong> são boas opções.</p>
+      `
+      },
+      {
+        id: 5,
+        cat: 'manutencao',
+        emoji: '🧼',
+        tag: 'Manutenção',
+        title: 'Como <span>Cuidar</span> do Seu Tênis de Corrida',
+        plainTitle: 'Como Cuidar do Seu Tênis de Corrida',
+        excerpt: 'Um bom cuidado pode dobrar a vida útil do seu tênis. Veja como lavar, secar e guardar corretamente.',
+        read: '4 min',
+        date: 'Out 2024',
+        body: `
+        <p>Tênis de corrida de qualidade são um investimento. Com o cuidado certo, você pode estender a vida útil do seu par e manter as propriedades de amortecimento por muito mais tempo.</p>
+
+        <h2>Como lavar corretamente</h2>
+        <p><strong>Nunca coloque na máquina de lavar.</strong> A agitação e o calor destroem a espuma da entressola e deformam o cabedal. A forma correta é:</p>
+        <ul>
+          <li>Remova os cadarços e as palmilhas (lave separados)</li>
+          <li>Use uma escova macia, água morna e sabão neutro</li>
+          <li>Limpe o cabedal com movimentos circulares suaves</li>
+          <li>Enxágue com pano úmido — evite mergulhar o tênis</li>
+        </ul>
+
+        <h2>Como secar</h2>
+        <p><strong>Nunca use secador, sol direto ou qualquer fonte de calor.</strong> O calor derrete a cola da sola e deforma a espuma. A forma certa:</p>
+        <ul>
+          <li>Retire as palmilhas para acelerar a secagem</li>
+          <li>Recheie com papel jornal para absorver umidade e manter o formato</li>
+          <li>Deixe secar à sombra, em local arejado</li>
+        </ul>
+
+        <div class="article-highlight"><strong>Dica:</strong> Após cada corrida, deixe o tênis "descansar" por pelo menos 24–48 horas antes de usar novamente. A espuma precisa de tempo para recuperar a forma.</div>
+
+        <h2>Rotação de tênis</h2>
+        <p>Ter dois pares e revezar entre eles é a melhor estratégia para aumentar a durabilidade. A espuma da entressola leva cerca de 24–48 horas para se recuperar completamente após uma corrida.</p>
+
+        <h2>Quando substituir</h2>
+        <p>Além dos 600–800 km, fique atento a estes sinais de que chegou a hora:</p>
+        <ul>
+          <li>Entressola visualmente comprimida ou com dobras</li>
+          <li>Sola externa com desgaste atingindo a camada interna</li>
+          <li>Sensação de mais impacto do que o normal nas articulações</li>
+          <li>Assimetria visível entre os dois lados do calcanhar</li>
+        </ul>
+      `
+      }
+    ];
+
+    var currentCat = 'todos';
+
+    function renderPosts() {
+      var grid = document.getElementById('postsGrid');
+      var featured = document.getElementById('featuredWrap');
+      var filtered = currentCat === 'todos'
+        ? posts.filter(function (p) { return !p.featured; })
+        : posts.filter(function (p) { return p.cat === currentCat; });
+
+      // show/hide featured
+      featured.style.display = (currentCat === 'todos') ? 'block' : 'none';
+
+      grid.innerHTML = '';
+      if (filtered.length === 0) {
+        grid.innerHTML = '<div style="grid-column:1/-1;color:var(--gray);font-size:15px;padding:20px 0;">Nenhum artigo nesta categoria ainda.</div>';
+        return;
+      }
+
+      filtered.forEach(function (post) {
+        var card = document.createElement('a');
+        card.className = 'post-card';
+        card.href = '#';
+        card.onclick = function (e) { e.preventDefault(); openArticle(post.id); };
+        card.innerHTML =
+          '<div class="post-card-img">' + post.emoji + '</div>' +
+          '<div class="post-card-body">' +
+          '<div class="post-cat-tag">' + post.tag + '</div>' +
+          '<div class="post-card-title">' + post.plainTitle + '</div>' +
+          '<p class="post-card-excerpt">' + post.excerpt + '</p>' +
+          '<div class="post-card-footer">' +
+          '<span class="post-card-meta">🕐 ' + post.read + ' · ' + post.date + '</span>' +
+          '<span class="post-card-arrow">→</span>' +
+          '</div>' +
+          '</div>';
+        grid.appendChild(card);
+      });
+    }
+
+    function filterCat(btn) {
+      document.querySelectorAll('.cat-btn').forEach(function (b) { b.classList.remove('active'); });
+      btn.classList.add('active');
+      currentCat = btn.getAttribute('data-cat');
+      renderPosts();
+    }
+
+    function openArticle(id) {
+      var post = posts.find(function (p) { return p.id === id; });
+      if (!post) return;
+      document.getElementById('articleEmoji').textContent = post.emoji;
+      document.getElementById('articleCat').textContent = post.tag;
+      document.getElementById('articleTitle').innerHTML = post.title;
+      document.getElementById('articleMeta').innerHTML = '<span>🕐 ' + post.read + ' de leitura</span><span>📅 ' + post.date + '</span>';
+      document.getElementById('articleBody').innerHTML = post.body;
+      document.getElementById('articleOverlay').classList.add('open');
+      document.body.style.overflow = 'hidden';
+      document.getElementById('articleOverlay').scrollTop = 0;
+    }
+
+    function closeArticle() {
+      document.getElementById('articleOverlay').classList.remove('open');
+      document.body.style.overflow = '';
+    }
+
+    document.addEventListener('keydown', function (e) { if (e.key === 'Escape') closeArticle(); });
+
+    function subscribeNewsletter() {
+      var email = document.getElementById('emailInput').value.trim();
+      if (!email || !email.includes('@')) {
+        document.getElementById('emailInput').style.borderColor = '#ff4444';
+        setTimeout(function () { document.getElementById('emailInput').style.borderColor = ''; }, 2000);
+        return;
+      }
+      var btn = document.querySelector('.newsletter-btn');
+      btn.textContent = '✅ Inscrito!';
+      btn.style.background = '#2ecc71';
+      document.getElementById('emailInput').value = '';
+      setTimeout(function () { btn.textContent = 'Quero receber'; btn.style.background = ''; }, 3000);
+    }
+
+    renderPosts();
+  </script>
+</body>
+
+</html>
