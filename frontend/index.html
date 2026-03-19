@@ -2908,8 +2908,8 @@
               return '';
             }
             btnsHTML += '<div class="best-price-value">' + priceVal + '<span>' + paymentLabel(best) + '</span></div>';
-
-            btnsHTML += makeBtnHTML(best.url, 'COMPRAR COM DESCONTO', true);
+            var labelBest = 'COMPRAR NA ' + (best.label || best.store).toUpperCase();
+            btnsHTML += makeBtnHTML(best.url, labelBest, true);
 
             if (offers.length > 1) {
               btnsHTML += '<button class="compare-toggle-btn" onclick="toggleCompare(this)">⌵ Comparar preços</button>';
@@ -3013,7 +3013,7 @@
           reason: findCol(['reason', 'motivo', 'descrição', 'descricao']),
           link: findCol(['link_amazon', 'link afiliado amazon', 'amazon']),
           popular: findCol(['popular', 'best_seller']),
-          linkAwin: findCol(['link_oficial', 'link_awin', 'awin', 'oficial', 'link loja', 'loja oficial']),
+          linkAwin: findCol(['link_oficial', 'link_awin', 'awin', 'link_loja', 'site_oficial', 'official_link', 'oficial']),
           linkNetshoes: findCol(['netshoes', 'link_netshoes']),
           discipline: findCol(['discipline', 'disciplina']),
         };
