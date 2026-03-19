@@ -2945,7 +2945,8 @@
             btnsHTML += '<div class="best-price-title">💰 Menor valor encontrado na ' + (best.label || best.store) + '</div>';
 
             // ITEM 2: usa price_numeric se disponível (scraped), senão best.price da oferta
-            var bestNumeric = (best.price > 0) ? best.price : (sh.price_numeric || parsePrice(sh.price) || 0);
+            // BUGFIX: Não faz fallback para sh.price (Amazon) se o botão principal NÃO for a Amazon e o preço for 0
+            var bestNumeric = (best.price > 0) ? best.price : (best.label === 'Amazon' ? (sh.price_numeric || parsePrice(sh.price) || 0) : 0);
             var priceVal = bestNumeric > 0 ? formatBRL(bestNumeric) : 'Ver Preço';
             // Condição de pagamento — usa installments do objeto offer
             function paymentLabel(offer) {

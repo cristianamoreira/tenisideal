@@ -86,13 +86,13 @@ def main():
 
         # Parse Affiliate Links & Specific Prices
         affiliate_links = {}
-        link_amazon = get_val("link", "amazon")
-        link_oficial = get_val("link_oficial", "oficial marca", "afiliado mizuno", "awin")
+        link_amazon = get_val("link_amazon", "amazon", "url amazon")
+        link_oficial = get_val("link_oficial", "oficial marca", "afiliado mizuno", "awin", "link loja", "loja oficial")
         link_netshoes = get_val("link_netshoes", "netshoes")
         
-        price_amazon = extract_numeric_price(get_val("price_amazon", ""))
-        price_oficial = extract_numeric_price(get_val("price_oficial", ""))
-        price_netshoes = extract_numeric_price(get_val("price_netshoes", ""))
+        price_amazon = extract_numeric_price(get_val("price_amazon", "preco_amazon", "preço amazon"))
+        price_oficial = extract_numeric_price(get_val("price_oficial", "preco_oficial", "preço oficial", "site oficial", "valor oficial", "oficial"))
+        price_netshoes = extract_numeric_price(get_val("price_netshoes", "preco_netshoes", "preço netshoes"))
         
         if link_amazon and link_amazon != "-": 
             affiliate_links["amazon"] = {"url": link_amazon, "price": price_amazon}
