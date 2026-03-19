@@ -1890,41 +1890,29 @@
     }
 
     /* ── Mobile fixes ─────────────────────────────────────────── */
-    /* 1) Cards não cortam o botão de compra */
     .shoe,
-    .comparison-box {
+    .shoe-featured,
+    .comparison-box,
+    .compare-list {
       overflow: visible !important;
+      height: auto !important;
+      min-height: min-content !important;
     }
 
-    /* 2) Botão de compra sempre acima de outros elementos */
     .bbuy,
     .bbuy-secondary,
-    .comparison-box {
-      position: relative;
-      z-index: 10050;
-    }
-
-    /* 3) Safe-area para iPhones com notch/barra inferior */
-    @supports (padding-bottom: env(safe-area-inset-bottom)) {
-
-      .rwrap,
-      .sgrid {
-        padding-bottom: calc(env(safe-area-inset-bottom) + 24px);
-      }
-    }
-
-    /* 4) Botão nunca escondido por transform */
-    .bbuy,
-    .bbuy-secondary {
-      -webkit-transform: none !important;
-      transform: none !important;
-    }
-
-    /* 5) Containers de botões sempre visíveis */
     .comparison-box,
+    .compare-toggle-btn {
+      position: relative;
+      z-index: 100;
+      /* Reduzido de 10050 para evitar sobreposição excessiva */
+    }
+
     .sbody {
-      display: block !important;
-      visibility: visible !important;
+      display: flex !important;
+      flex-direction: column;
+      height: auto !important;
+      justify-content: flex-start !important;
     }
 
     /* 6) Botão loja oficial */
@@ -1938,40 +1926,7 @@
       position: relative;
     }
 
-    /* ── Mobile fixes ─────────────────────────────────────────── */
-    /* 1) Caixas de compra não cortam conteúdo */
-    .comparison-box,
-    .compare-list,
-    .shoe,
-    .shoe-featured {
-      overflow: visible !important;
-    }
-
-    /* 2) Botão de compra sempre visível e clicável */
-    .bbuy,
-    .bbuy-secondary,
-    .compare-toggle-btn {
-      position: relative;
-      z-index: 10;
-    }
-
-    /* 3) Safe-area para iPhones com notch/barra inferior */
-    @supports (padding-bottom: env(safe-area-inset-bottom)) {
-
-      .rwrap,
-      .sgrid {
-        padding-bottom: calc(env(safe-area-inset-bottom) + 24px);
-      }
-    }
-
-    /* 4) Nenhum transform esconde o botão */
-    .bbuy,
-    .bbuy-secondary {
-      -webkit-transform: none !important;
-      transform: none !important;
-    }
-
-    /* 5) Botão de loja oficial sempre visível */
+    /* 7) Botão loja oficial sempre visível */
     .official-btn {
       display: block !important;
       visibility: visible !important;
@@ -1980,12 +1935,6 @@
       padding: 14px 20px;
       text-align: center;
       z-index: 10;
-    }
-
-    /* 6) Containers de botões nunca ocultos */
-    .comparison-box {
-      display: flex !important;
-      visibility: visible !important;
     }
 
     @media(max-width: 600px) {
@@ -3129,8 +3078,9 @@
             images: [gc(cols, 'img')],
             emoji: gc(cols, 'emoji'),
             tags: sp(gc(cols, 'tags')),
-            price: offers.length > 0 ? (offers[0].price || cleanPrice(priceAmazon)) : cleanPrice(priceAmazon),
-            _sheetPriceAmazon: cleanPrice(priceAmazon),  // preço original da planilha para comparação
+            // BUGFIX: Nunca usa o preço da Amazon se há ofertas mas o preço da primeira oferta (ex: oficial) é desconhecido
+            price: offers.length > 0 ? (offers[0].price || 0) : cleanPrice(priceAmazon),
+            _sheetPriceAmazon: cleanPrice(priceAmazon),
             budget: gc(cols, 'budget'),
             levels: sp(gc(cols, 'levels')),
             pisadas: sp(gc(cols, 'pisadas')),
