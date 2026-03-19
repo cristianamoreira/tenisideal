@@ -87,15 +87,56 @@
     }
 
     /* Estilos de Alta Conversão */
+    .discount-badge {
+      display: inline-flex;
+      align-items: center;
+      gap: 5px;
+      background: #ff3b30;
+      color: #fff;
+      font-size: 11px;
+      font-weight: 800;
+      padding: 4px 10px;
+      border-radius: 4px;
+      text-transform: uppercase;
+      letter-spacing: .5px;
+      width: fit-content;
+      margin-bottom: 4px;
+    }
+
+    .discount-from {
+      font-size: 12px;
+      color: var(--gray);
+      text-decoration: line-through;
+      opacity: .7;
+    }
+
+    .discount-pct {
+      font-size: 12px;
+      color: #ff3b30;
+      font-weight: 700;
+      margin-top: 2px;
+    }
+
+    .best-store-label {
+      font-size: 12px;
+      color: var(--gray);
+      margin-top: 2px;
+    }
+
     .comparison-box {
       background: rgba(255, 255, 255, 0.03);
       border: 1px solid var(--border);
       border-radius: 12px;
       margin-top: 20px;
       padding: 24px;
+      padding-bottom: 20px;
+      /* espaço extra para o botão respirar */
       display: flex !important;
       flex-direction: column;
       gap: 12px;
+      overflow: visible;
+      /* nunca corta o botão filho */
+      box-sizing: border-box;
     }
 
     .best-price-badge {
@@ -856,7 +897,8 @@
       background: var(--card);
       border: 1.5px solid var(--border);
       border-radius: 8px;
-      overflow: hidden;
+      overflow: visible;
+      /* era hidden — causava botão cortado no mobile */
       transition: all .25s;
       position: relative;
       display: flex;
@@ -899,7 +941,8 @@
       padding: 32px 40px;
       display: flex;
       flex-direction: column;
-      justify-content: center;
+      justify-content: flex-start;
+      /* Alterado de center para flex-start para evitar overlap */
     }
 
     .shoe.shoe-featured .sname {
@@ -1105,6 +1148,10 @@
       justify-content: center;
       gap: 8px;
       width: 100%;
+      box-sizing: border-box;
+      /* não extravasa a largura do pai */
+      position: relative;
+      /* fluxo normal, não absolute */
       background: var(--yellow);
       color: var(--black);
       font-family: 'Bebas Neue', sans-serif;
@@ -1117,7 +1164,10 @@
       cursor: pointer;
       border-radius: 4px;
       text-decoration: none;
-      transition: all .2s
+      transition: all .2s;
+      -webkit-transform: none !important;
+      transform: none !important
+        /* cancela qualquer transform herdado */
     }
 
     .bbuy:hover {
@@ -1838,6 +1888,126 @@
         gap: 20px;
       }
     }
+
+    /* ── Mobile fixes ─────────────────────────────────────────── */
+    /* 1) Cards não cortam o botão de compra */
+    .shoe,
+    .comparison-box {
+      overflow: visible !important;
+    }
+
+    /* 2) Botão de compra sempre acima de outros elementos */
+    .bbuy,
+    .bbuy-secondary,
+    .comparison-box {
+      position: relative;
+      z-index: 10050;
+    }
+
+    /* 3) Safe-area para iPhones com notch/barra inferior */
+    @supports (padding-bottom: env(safe-area-inset-bottom)) {
+
+      .rwrap,
+      .sgrid {
+        padding-bottom: calc(env(safe-area-inset-bottom) + 24px);
+      }
+    }
+
+    /* 4) Botão nunca escondido por transform */
+    .bbuy,
+    .bbuy-secondary {
+      -webkit-transform: none !important;
+      transform: none !important;
+    }
+
+    /* 5) Containers de botões sempre visíveis */
+    .comparison-box,
+    .sbody {
+      display: block !important;
+      visibility: visible !important;
+    }
+
+    /* 6) Botão loja oficial */
+    .official-btn {
+      display: block;
+      width: 100%;
+      box-sizing: border-box;
+      padding: 14px 20px;
+      text-align: center;
+      z-index: 10050;
+      position: relative;
+    }
+
+    /* ── Mobile fixes ─────────────────────────────────────────── */
+    /* 1) Caixas de compra não cortam conteúdo */
+    .comparison-box,
+    .compare-list,
+    .shoe,
+    .shoe-featured {
+      overflow: visible !important;
+    }
+
+    /* 2) Botão de compra sempre visível e clicável */
+    .bbuy,
+    .bbuy-secondary,
+    .compare-toggle-btn {
+      position: relative;
+      z-index: 10;
+    }
+
+    /* 3) Safe-area para iPhones com notch/barra inferior */
+    @supports (padding-bottom: env(safe-area-inset-bottom)) {
+
+      .rwrap,
+      .sgrid {
+        padding-bottom: calc(env(safe-area-inset-bottom) + 24px);
+      }
+    }
+
+    /* 4) Nenhum transform esconde o botão */
+    .bbuy,
+    .bbuy-secondary {
+      -webkit-transform: none !important;
+      transform: none !important;
+    }
+
+    /* 5) Botão de loja oficial sempre visível */
+    .official-btn {
+      display: block !important;
+      visibility: visible !important;
+      width: 100%;
+      box-sizing: border-box;
+      padding: 14px 20px;
+      text-align: center;
+      z-index: 10;
+    }
+
+    /* 6) Containers de botões nunca ocultos */
+    .comparison-box {
+      display: flex !important;
+      visibility: visible !important;
+    }
+
+    @media(max-width: 600px) {
+
+      /* Garante botão com tamanho mínimo tocável (44px WCAG) */
+      .bbuy {
+        min-height: 48px;
+        font-size: 16px;
+      }
+
+      .comparison-box {
+        padding: 16px;
+      }
+
+      .compare-list .comparison-row {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 4px;
+      }
+    }
+
+    /* ────────────────────────────────────────────────────────── */
   </style>
 </head>
 
@@ -2010,15 +2180,116 @@
   </div>
   <script>
     function sp(v) { return (v || '').split('|').map(function (s) { return s.trim(); }).filter(function (s) { return s; }); }
-    function cleanPrice(p) {
-      if (typeof p === 'number') return p;
+
+    // Botão "Comparar preços" — precisa ser global para funcionar no onclick do innerHTML
+    function toggleCompare(btn) {
+      var list = btn.nextElementSibling;
+      list.classList.toggle('active');
+      btn.innerHTML = list.classList.contains('active') ? '✕ Fechar comparação' : '⌵ Comparar preços';
+    }
+
+    // Garante visibilidade do painel no mobile (compensa URL bar e safe-area)
+    function ensureVisible(el) {
+      try {
+        if (!el) return;
+        el.scrollIntoView({ behavior: 'smooth', block: 'center' });
+        window.setTimeout(function () { window.scrollBy(0, -40); }, 450);
+      } catch (e) { }
+    }
+    function cleanPrice(p) { return parsePrice(p); } // alias kept for compat
+    function parsePrice(p) {
+      if (typeof p === 'number') return isFinite(p) ? Math.round(p) : 0;
       if (!p) return 0;
-      var clean = String(p).replace('R$', '').replace(/\./g, '').replace(',', '.').replace(/[^\d.]/g, '');
-      return parseFloat(clean) || 0;
+      var s = String(p)
+        .replace(/R\$\s*/gi, '')
+        .replace(/\u00a0/g, '')   // non-breaking space
+        .trim();
+      // Brazilian format: 1.299,90  →  1299.90
+      if (/\d\.\d{3}[,\d]/.test(s)) s = s.replace(/\./g, '').replace(',', '.');
+      else s = s.replace(',', '.');
+      s = s.replace(/[^\d.]/g, '');
+      var n = parseFloat(s);
+      return isFinite(n) && n > 0 ? Math.round(n) : 0;
     }
     function formatBRL(n) {
       if (!n || n <= 0) return 'Ver Preço';
       return 'R$ ' + n.toLocaleString('pt-BR', { minimumFractionDigits: 0, maximumFractionDigits: 0 });
+    }
+
+    function escapeHtml(str) {
+      if (!str) return '';
+      return String(str).replace(/[&<>"']/g, function (m) {
+        return { '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' }[m];
+      });
+    }
+
+    // Renderiza linha de loja com fallbacks defensivos (mobile + offers vazias)
+    function renderStoreOfferRow(sh, offer) {
+      if (!offer) return '';
+      // Suporta tanto 'store' (formato API) quanto 'label' (formato local buildResult)
+      var storeName = offer.label || offer.store || (sh.storeName || 'Loja');
+      var rawPrice = (offer.price && offer.price > 0) ? offer.price : null;
+      if (!rawPrice) {
+        try { rawPrice = calcShoePrice(sh); } catch (e) { rawPrice = null; }
+      }
+      var priceText = rawPrice ? formatBRL(rawPrice) : 'Ver preço';
+      var installmentsText = offer.installments ? ' · ' + offer.installments : '';
+
+      return '<div class="comparison-row">' +
+        '<span>' + escapeHtml(storeName) + (installmentsText ? '<small style="opacity:.7;font-size:11px"> ' + escapeHtml(installmentsText) + '</small>' : '') + '</span>' +
+        '<a href="' + escapeHtml(offer.url || offer.link || '#') + '" target="_blank" rel="noopener" class="store-link">' + escapeHtml(priceText) + '</a>' +
+        '</div>';
+    }
+
+    function calcDiscountPct(oldPrice, newPrice) {
+      oldPrice = Number(oldPrice); newPrice = Number(newPrice);
+      if (!oldPrice || !newPrice || isNaN(oldPrice) || isNaN(newPrice)) return null;
+      if (oldPrice <= newPrice) return null;
+      return Math.round((1 - newPrice / oldPrice) * 100);
+    }
+
+    function getPriceStats(sh) {
+      if (!sh.offers || sh.offers.length === 0) return null;
+      var prices = sh.offers
+        .map(function (o) { return { store: o.store || 'loja', price: Number(o.price || 0), link: o.link, installments: o.installments }; })
+        .filter(function (o) { return o.price > 0; });
+      if (prices.length === 0) return null;
+      var minOffer = prices.reduce(function (a, o) { return o.price < a.price ? o : a; }, prices[0]);
+      var maxOffer = prices.reduce(function (a, o) { return o.price > a.price ? o : a; }, prices[0]);
+      var byStore = {};
+      prices.forEach(function (o) { byStore[o.store.toLowerCase()] = o; });
+      return { min: minOffer.price, minOffer: minOffer, max: maxOffer.price, maxOffer: maxOffer, list: prices, byStore: byStore };
+    }
+
+    function renderDiscountBadge(sh) {
+      var stats = getPriceStats(sh);
+      if (!stats) return '';
+      var best = stats.minOffer;
+
+      // 1) Melhor preço vs Amazon
+      var amazonOffer = stats.byStore['amazon'];
+      if (amazonOffer && best.price < amazonOffer.price) {
+        var pct = calcDiscountPct(amazonOffer.price, best.price);
+        return pct ? '<div class="discount-badge">🔥 ' + pct + '% vs Amazon</div>' : '';
+      }
+
+      // 2) Melhor preço vs segundo maior (quando só há uma loja não-Amazon)
+      if (stats.list.length > 1) {
+        var others = stats.list.filter(function (o) { return o.store.toLowerCase() !== best.store.toLowerCase(); });
+        if (others.length) {
+          var secondPrice = Math.max.apply(null, others.map(function (o) { return o.price; }));
+          var pct2 = calcDiscountPct(secondPrice, best.price);
+          return pct2 ? '<div class="discount-badge">🔥 ' + pct2 + '% OFF</div>' : '';
+        }
+      }
+
+      // 3) Fallback: preço listado na planilha (preco_amazon como "de")
+      if (sh._sheetPriceAmazon && sh._sheetPriceAmazon > best.price) {
+        var pct3 = calcDiscountPct(sh._sheetPriceAmazon, best.price);
+        return pct3 ? '<div class="discount-badge">🔥 ' + pct3 + '% OFF</div>' : '';
+      }
+
+      return '';
     }
     var Qs = [
       {
@@ -2134,20 +2405,6 @@
     });
     document.addEventListener('keydown', function (e) { if (e.key === 'Escape') closeModal(); });
 
-    function parsePrice(p) {
-      if (typeof p === 'number') return isFinite(p) ? Math.round(p) : 0;
-      if (!p) return 0;
-      var s = String(p)
-        .replace(/R\$\s*/gi, '')
-        .replace(/\u00a0/g, '')
-        .trim();
-      if (/\d\.\d{3}[,\d]/.test(s)) s = s.replace(/\./g, '').replace(',', '.');
-      else s = s.replace(',', '.');
-      s = s.replace(/[^\d.]/g, '');
-      var n = parseFloat(s);
-      return isFinite(n) && n > 0 ? Math.round(n) : 0;
-    }
-
     function calcShoePrice(sh) {
       if (sh.price_numeric && sh.price_numeric > 0) return sh.price_numeric;
       if (sh._apiPrice && sh._apiPrice > 0) return sh._apiPrice;
@@ -2228,6 +2485,7 @@
         return vals.indexOf(sexo) > -1 || vals.indexOf('unissex') > -1;
       });
 
+      // Log de depuração desabilitado em produção
       // console.log("Pool após filtro de sexo (" + sexo + "):", pool.length);
 
       // Fallback: se o filtro de sexo limpar tudo (ex: erro na planilha), usa todos os tênis
@@ -2240,6 +2498,7 @@
         return sh.budget === bo[bi];
       });
 
+      // Log de depuração desabilitado em produção
       // console.log("Pool após filtro de orçamento (" + bo[bi] + "):", poolOrc.length);
 
       if (poolOrc.length > 0) pool = poolOrc;
@@ -2442,6 +2701,16 @@
     function buildResult() {
       if (window.shoesLoadError) {
         showScreen('sResult');
+
+        // Item 2 — força scroll para a comparison-box no mobile
+        window.setTimeout(function () {
+          var buyBox = document.querySelector('.comparison-box');
+          if (!buyBox) return;
+          try {
+            buyBox.scrollIntoView({ behavior: 'smooth', block: 'center' });
+            window.setTimeout(function () { window.scrollBy(0, -40); }, 450);
+          } catch (e) { }
+        }, 200);
         document.getElementById('shoesGrid').innerHTML =
           '<div style="grid-column:1/-1;text-align:center;padding:60px 20px">' +
           '<div style="font-size:48px;margin-bottom:16px">⚠️</div>' +
@@ -2597,12 +2866,6 @@
             ? '<div style="display:inline-flex;align-items:center;gap:5px;background:rgba(200,255,0,.1);border:1px solid rgba(200,255,0,.3);color:var(--yellow);font-size:11px;font-weight:700;padding:4px 10px;border-radius:20px;margin-bottom:10px;text-transform:uppercase;letter-spacing:.5px;">🏆 Recomendado para ' + (847 - (i * 23)) + ' corredores este mês</div>'
             : '';
 
-          function toggleCompare(btn) {
-            var list = btn.nextElementSibling;
-            list.classList.toggle('active');
-            btn.innerHTML = list.classList.contains('active') ? '✕ Fechar comparação' : '⌵ Comparar preços';
-          }
-
           function trackClick(url, name) {
             try {
               window.hasClickedAffiliate = true;
@@ -2626,38 +2889,45 @@
           }
 
           var btnsHTML = '';
-          var links = sh.affiliate_links || {};
           var offers = [];
 
-          // 1. Coletar ofertas estruturadas
-          Object.keys(links).forEach(function (key) {
-            var offer = links[key];
-            var url = (typeof offer === 'string') ? offer : (offer ? offer.url : null);
-            var price = (typeof offer === 'object' && offer && offer.price) ? offer.price : null;
-            var labelMap = {
-              amazon: 'Amazon',
-              oficial: 'Loja ' + (sh.brand || 'Oficial'),
-              netshoes: 'Netshoes'
-            };
-
-            if (url && url !== '-' && url.trim() !== '') {
+          // Lê novo formato: sh.offers = [{store, price, installments, link}]
+          if (sh.offers && sh.offers.length > 0) {
+            sh.offers.forEach(function (o) {
+              if (!o.link || o.link === '-') return;
               offers.push({
-                key: key,
-                label: labelMap[key] || key,
-                url: url.trim(),
-                price: cleanPrice(price || sh.price)
+                key: o.store.toLowerCase().replace(/\s+/g, '_'),
+                label: o.store,
+                url: o.link,
+                price: o.price || 0,
+                installments: o.installments || ''
               });
-            }
-          });
-
-          // 2. Fallback: Se não houver ofertas, mas existir sh.link, usar como oferta da Amazon
-          if (offers.length === 0 && sh.link && sh.link !== '-' && sh.link.trim() !== '') {
-            offers.push({
-              key: 'amazon',
-              label: 'Amazon',
-              url: sh.link.trim(),
-              price: cleanPrice(sh.price)
             });
+          }
+
+          // Fallback: formato antigo affiliate_links
+          if (offers.length === 0) {
+            var links = sh.affiliate_links || {};
+            Object.keys(links).forEach(function (key) {
+              var offer = links[key];
+              var url = (typeof offer === 'string') ? offer : (offer ? offer.url : null);
+              var price = (typeof offer === 'object' && offer && offer.price) ? offer.price : null;
+              var labelMap = { amazon: 'Amazon', oficial: ('Loja ' + (sh.brand || 'Oficial')), netshoes: 'Netshoes' };
+              if (url && url !== '-' && url.trim() !== '') {
+                // BUGFIX: Não usa sh.price (Amazon) como fallback para loja oficial se o preço for nulo
+                var finalPrice = cleanPrice(price);
+                offers.push({
+                  key: key,
+                  label: labelMap[key] || key,
+                  url: url.trim(),
+                  price: finalPrice,
+                  installments: key === 'amazon' ? '6x sem juros' : 'ver condições'
+                });
+              }
+            });
+            if (offers.length === 0 && sh.link && sh.link !== '-') {
+              offers.push({ key: 'amazon', label: 'Amazon', url: sh.link.trim(), price: cleanPrice(sh.price), installments: '6x sem juros' });
+            }
           }
 
           // Ordena ofertas por preço (menor primeiro)
@@ -2670,11 +2940,24 @@
           if (offers.length > 0) {
             var best = offers[0];
             btnsHTML += '<div class="comparison-box">';
+            btnsHTML += renderDiscountBadge(sh);
             btnsHTML += '<div class="best-price-badge">🏆 Melhor preço hoje</div>';
-            btnsHTML += '<div class="best-price-title">💰 Menor valor encontrado na ' + best.label + '</div>';
+            btnsHTML += '<div class="best-price-title">💰 Menor valor encontrado na ' + (best.label || best.store) + '</div>';
 
-            var priceVal = best.price > 0 ? formatBRL(best.price) : (sh.price ? formatBRL(cleanPrice(sh.price)) : 'Ver Preço');
-            btnsHTML += '<div class="best-price-value">' + priceVal + '<span>no PIX/Boleto</span></div>';
+            // ITEM 2: usa price_numeric se disponível (scraped), senão best.price da oferta
+            var bestNumeric = (best.price > 0) ? best.price : (sh.price_numeric || parsePrice(sh.price) || 0);
+            var priceVal = bestNumeric > 0 ? formatBRL(bestNumeric) : 'Ver Preço';
+            // Condição de pagamento — usa installments do objeto offer
+            function paymentLabel(offer) {
+              if (!offer) return '';
+              if (offer.installments) return offer.installments;
+              // fallback por key para formato antigo
+              if (offer.key === 'amazon') return '6x sem juros';
+              if (offer.key === 'oficial') return 'em até 8x';
+              if (offer.key === 'netshoes') return 'no PIX/Boleto';
+              return '';
+            }
+            btnsHTML += '<div class="best-price-value">' + priceVal + '<span>' + paymentLabel(best) + '</span></div>';
 
             btnsHTML += makeBtnHTML(best.url, 'COMPRAR COM DESCONTO', true);
 
@@ -2682,11 +2965,8 @@
               btnsHTML += '<button class="compare-toggle-btn" onclick="toggleCompare(this)">⌵ Comparar preços</button>';
               btnsHTML += '<div class="compare-list">';
               for (var j = 1; j < offers.length; j++) {
-                var off = offers[j];
-                btnsHTML += '<div class="comparison-row">' +
-                  '<span>' + off.label + '</span>' +
-                  '<a href="' + off.url + '" target="_blank" rel="noopener" class="store-link" onclick="trackClick(\'' + off.url + '\', \'' + sh.name + '\')">' + (off.price > 0 ? formatBRL(off.price) : 'Ver →') + '</a>' +
-                  '</div>';
+                // Item 2: usa renderStoreOfferRow defensivo
+                btnsHTML += renderStoreOfferRow(sh, offers[j]);
               }
               btnsHTML += '</div>';
             }
@@ -2715,6 +2995,10 @@
           grid.appendChild(card);
         }
         showScreen('sResult');
+        // Item 1 JS: scroll para o painel de compra no mobile
+        window.setTimeout(function () {
+          ensureVisible(document.querySelector('.comparison-box'));
+        }, 300);
       } catch (e) {
         console.error('Erro no buildResult:', e);
         alert('Erro: ' + e.message + '\n\nAbra o console (F12) para mais detalhes.');
@@ -2765,19 +3049,21 @@
           sexo: findCol(['masculino', 'feminino', 'sexo', 'gender']),
           brand: findCol(['marca', 'brand']),
           name: findCol(['nome do tênis', 'name', 'nome']),
-          img: findCol(['url da imagem', 'img', 'imagem']),
+          img: findCol(['url da imagem', 'img', 'imagem', 'url_imagem']),
           emoji: findCol(['emoji']),
           tags: findCol(['tag1', 'tags']),
-          price: findCol(['r$ 000', 'price', 'preço', 'preco']),
-          budget: findCol(['ate300', 'budget', 'orçamento', 'orcamento']),
-          levels: findCol(['iniciante|intermediario', 'levels', 'nível', 'nivel']),
-          pisadas: findCol(['neutra|pronada', 'pisadas', 'pronation', 'pisada']),
-          terrenos: findCol(['asfalto|trilha', 'terrenos', 'terrain', 'terreno']),
-          priors: findCol(['amortecimento|leveza', 'priors', 'prioridade']),
-          reason: findCol(['motivo', 'reason', 'descrição', 'descricao']),
-          link: findCol(['link afiliado amazon', 'link_amazon', 'amazon']),
+          price: findCol(['preco_amazon', 'r$ 000', 'price', 'preço', 'preco']),
+          priceOficial: findCol(['preco_oficial', 'preco oficial', 'preço oficial', 'site oficial', 'valor oficial']),
+          parcelas: findCol(['parcelas_oficial', 'parcelas']),
+          budget: findCol(['price_range', 'ate300', 'budget', 'orçamento', 'orcamento']),
+          levels: findCol(['runner_level', 'iniciante|intermediario', 'levels', 'nível', 'nivel']),
+          pisadas: findCol(['pronation', 'neutra|pronada', 'pisadas', 'pisada']),
+          terrenos: findCol(['terrain', 'asfalto|trilha', 'terrenos', 'terreno']),
+          priors: findCol(['feature', 'amortecimento|leveza', 'priors', 'prioridade']),
+          reason: findCol(['reason', 'motivo', 'descrição', 'descricao']),
+          link: findCol(['link_amazon', 'link afiliado amazon', 'amazon']),
           popular: findCol(['popular', 'best_seller']),
-          linkAwin: findCol(['link_awin', 'awin', 'afiliado mizuno', 'oficial']),
+          linkAwin: findCol(['link_oficial', 'link_awin', 'awin', 'oficial', 'link loja', 'loja oficial']),
           linkNetshoes: findCol(['netshoes', 'link_netshoes']),
           discipline: findCol(['discipline', 'disciplina']),
         };
@@ -2796,16 +3082,54 @@
           var linkAmazon = gc(cols, 'link');
           var linkAwin = gc(cols, 'linkAwin');
           var linkNetshoes = gc(cols, 'linkNetshoes');
-          var priceStr = gc(cols, 'price');
+          var priceAmazon = gc(cols, 'price');       // preco_amazon
+          var priceOficial = gc(cols, 'priceOficial');// preco_oficial (nova col)
+          var parcelas = gc(cols, 'parcelas');    // parcelas_oficial (nova col)
+          var brand = gc(cols, 'brand');
+
+          // Monta offers no novo formato
+          var offers = [];
+          if (linkAmazon && linkAmazon !== '-') {
+            offers.push({
+              store: 'Amazon',
+              price: cleanPrice(priceAmazon),
+              installments: '6x sem juros',
+              link: linkAmazon
+            });
+          }
+          if (linkAwin && linkAwin !== '-') {
+            var storeMap = {
+              'ADIDAS': 'Adidas', 'ASICS': 'ASICS', 'BROOKS': 'Brooks', 'FILA': 'Fila',
+              'HOKA': 'Hoka', 'MIZUNO': 'Mizuno', 'NEW BALANCE': 'New Balance',
+              'NIKE': 'Nike', 'OLYMPIKUS': 'Olympikus', 'PUMA': 'Puma',
+              'SALOMON': 'Salomon', 'SAUCONY': 'Saucony', 'SKECHERS': 'Skechers',
+              'UNDER ARMOUR': 'Under Armour'
+            };
+            var storeName = storeMap[brand.toUpperCase()] || brand;
+            offers.push({
+              store: storeName,
+              price: cleanPrice(priceOficial),
+              installments: parcelas || 'ver condições',
+              link: linkAwin
+            });
+          }
+          // Ordena por preço (menor primeiro, 0 vai por último)
+          offers.sort(function (a, b) {
+            if (!a.price || a.price <= 0) return 1;
+            if (!b.price || b.price <= 0) return -1;
+            return a.price - b.price;
+          });
 
           return {
             sexo: sp(gc(cols, 'sexo')),
-            brand: gc(cols, 'brand'),
+            brand: brand,
             name: gc(cols, 'name'),
             img: gc(cols, 'img'),
+            images: [gc(cols, 'img')],
             emoji: gc(cols, 'emoji'),
             tags: sp(gc(cols, 'tags')),
-            price: priceStr,
+            price: offers.length > 0 ? (offers[0].price || cleanPrice(priceAmazon)) : cleanPrice(priceAmazon),
+            _sheetPriceAmazon: cleanPrice(priceAmazon),  // preço original da planilha para comparação
             budget: gc(cols, 'budget'),
             levels: sp(gc(cols, 'levels')),
             pisadas: sp(gc(cols, 'pisadas')),
@@ -2815,11 +3139,7 @@
             reason: gc(cols, 'reason'),
             link: linkAmazon,
             popular: gc(cols, 'popular').toLowerCase(),
-            affiliate_links: {
-              amazon: { url: linkAmazon, price: cleanPrice(priceStr) },
-              oficial: { url: linkAwin, price: 0 },
-              netshoes: { url: linkNetshoes, price: 0 }
-            },
+            offers: offers,
             distancias: []
           };
         });
@@ -2827,6 +3147,92 @@
         // console.log("Tênis carregados da planilha:", SHOES.length);
         // if (SHOES.length > 0) console.log("Estrutura do primeiro tênis:", JSON.stringify(SHOES[0], null, 2));
         window.shoesLoaded = true;
+
+        // ── Enriquece preços com dados scraped da API TenisIdeal ──────────────
+        fetch('https://tenisideal-api.onrender.com/api/products')
+          .then(function (r) { return r.json(); })
+          .then(function (apiProducts) {
+
+            // ITEM 3: normKey — normaliza para casar API ↔ planilha
+            function normKey(brand, name) {
+              return (brand + ' ' + name)
+                .normalize('NFD').replace(/[\u0300-\u036f]/g, '') // remove diacríticos
+                .toLowerCase().replace(/[^a-z0-9 ]/g, '')
+                .replace(/\s+/g, ' ').trim();
+            }
+
+            // Indexa API por normKey
+            var apiIndex = {};
+            apiProducts.forEach(function (p) {
+              apiIndex[normKey(p.brand, p.model)] = p;
+            });
+
+            var enriched = 0;
+            SHOES.forEach(function (sh) {
+              var apiProd = apiIndex[normKey(sh.brand || '', sh.name || '')];
+              if (!apiProd) return;
+
+              // ITEM 2: não sobrescreve sh.price com string — usa campos separados
+              if (apiProd.best_offer && apiProd.best_offer.price > 0) {
+                sh.price_numeric = apiProd.best_offer.price;
+                sh.price_display = 'R$ ' + apiProd.best_offer.price.toLocaleString('pt-BR', { minimumFractionDigits: 2, maximumFractionDigits: 2 });
+              }
+
+              // ITEM 4: garante que sh.offers existe e adiciona/atualiza entradas da API
+              sh.offers = sh.offers || [];
+              if (apiProd.offers && apiProd.offers.length > 0) {
+                apiProd.offers.forEach(function (apiOffer) {
+                  if (!apiOffer.affiliate_link || apiOffer.affiliate_link === '-') return;
+                  // Procura se já existe essa loja em sh.offers
+                  var existing = sh.offers.find(function (o) {
+                    return o.store === apiOffer.store || o.link === apiOffer.affiliate_link;
+                  });
+                  if (existing) {
+                    // Atualiza preço scraped se disponível
+                    if (apiOffer.price > 0) existing.price = apiOffer.price;
+                  } else {
+                    // Adiciona nova entrada da API
+                    sh.offers.push({
+                      store: apiOffer.store,
+                      price: apiOffer.price || 0,
+                      installments: apiOffer.store === 'Amazon' ? '6x sem juros' : 'ver condições',
+                      link: apiOffer.affiliate_link
+                    });
+                  }
+                });
+                // Re-ordena por preço após enrich
+                sh.offers.sort(function (a, b) {
+                  if (!a.price || a.price <= 0) return 1;
+                  if (!b.price || b.price <= 0) return -1;
+                  return a.price - b.price;
+                });
+                enriched++;
+              }
+            });
+
+            // ITEM 5: garante que todo sh tem sh.offers (mesmo vazio) para o renderer
+            SHOES.forEach(function (sh) {
+              if (!sh.offers || !sh.offers.length) {
+                sh.offers = [];
+                if (sh.link && sh.link !== '-') {
+                  sh.offers.push({
+                    store: 'Amazon',
+                    price: parsePrice(sh.price),
+                    installments: '6x sem juros',
+                    link: sh.link
+                  });
+                }
+              }
+            });
+
+            console.log('✅ Preços enriquecidos via API:', enriched, 'tênis atualizados');
+
+            // ITEM 6: Debug — inspeciona estrutura após enriquecimento
+          })
+          .catch(function (e) {
+            console.warn('API de preços indisponível, usando preços da planilha:', e.message);
+          });
+        // ─────────────────────────────────────────────────────────────────────
       })
       .catch(function (err) {
         console.warn("Sheets indisponível, checando fallback local:", err);

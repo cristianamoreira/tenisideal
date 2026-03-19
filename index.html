@@ -941,7 +941,8 @@
       padding: 32px 40px;
       display: flex;
       flex-direction: column;
-      justify-content: center;
+      justify-content: flex-start;
+      /* Alterado de center para flex-start para evitar overlap */
     }
 
     .shoe.shoe-featured .sname {
@@ -2224,19 +2225,19 @@
 
     // Renderiza linha de loja com fallbacks defensivos (mobile + offers vazias)
     function renderStoreOfferRow(sh, offer) {
-      var storeName = (offer && offer.store) ? offer.store : (sh.storeName || 'Loja');
-      var rawPrice = (offer && offer.price > 0) ? offer.price : null;
+      if (!offer) return '';
+      // Suporta tanto 'store' (formato API) quanto 'label' (formato local buildResult)
+      var storeName = offer.label || offer.store || (sh.storeName || 'Loja');
+      var rawPrice = (offer.price && offer.price > 0) ? offer.price : null;
       if (!rawPrice) {
         try { rawPrice = calcShoePrice(sh); } catch (e) { rawPrice = null; }
       }
       var priceText = rawPrice ? formatBRL(rawPrice) : 'Ver preço';
-      var installmentsText = (offer && offer.installments) ? ' · ' + offer.installments : '';
-      if (!sh.offers || !sh.offers.length) {
-        console.info('Comparação sem offers para', sh.name || sh.id, sh);
-      }
+      var installmentsText = offer.installments ? ' · ' + offer.installments : '';
+
       return '<div class="comparison-row">' +
         '<span>' + escapeHtml(storeName) + (installmentsText ? '<small style="opacity:.7;font-size:11px"> ' + escapeHtml(installmentsText) + '</small>' : '') + '</span>' +
-        '<a href="' + escapeHtml((offer && offer.url) || '#') + '" target="_blank" rel="noopener" class="store-link">' + escapeHtml(priceText) + '</a>' +
+        '<a href="' + escapeHtml(offer.url || offer.link || '#') + '" target="_blank" rel="noopener" class="store-link">' + escapeHtml(priceText) + '</a>' +
         '</div>';
     }
 
@@ -2911,9 +2912,17 @@
               var offer = links[key];
               var url = (typeof offer === 'string') ? offer : (offer ? offer.url : null);
               var price = (typeof offer === 'object' && offer && offer.price) ? offer.price : null;
-              var labelMap = { amazon: 'Amazon', oficial: 'Loja ' + (sh.brand || 'Oficial'), netshoes: 'Netshoes' };
+              var labelMap = { amazon: 'Amazon', oficial: ('Loja ' + (sh.brand || 'Oficial')), netshoes: 'Netshoes' };
               if (url && url !== '-' && url.trim() !== '') {
-                offers.push({ key: key, label: labelMap[key] || key, url: url.trim(), price: cleanPrice(price || sh.price), installments: key === 'amazon' ? '6x sem juros' : 'no PIX/Boleto' });
+                // BUGFIX: Não usa sh.price (Amazon) como fallback para loja oficial se o preço for nulo
+                var finalPrice = cleanPrice(price);
+                offers.push({
+                  key: key,
+                  label: labelMap[key] || key,
+                  url: url.trim(),
+                  price: finalPrice,
+                  installments: key === 'amazon' ? '6x sem juros' : 'ver condições'
+                });
               }
             });
             if (offers.length === 0 && sh.link && sh.link !== '-') {
@@ -3044,7 +3053,7 @@
           emoji: findCol(['emoji']),
           tags: findCol(['tag1', 'tags']),
           price: findCol(['preco_amazon', 'r$ 000', 'price', 'preço', 'preco']),
-          priceOficial: findCol(['preco_oficial']),
+          priceOficial: findCol(['preco_oficial', 'preco oficial', 'preço oficial', 'site oficial', 'valor oficial']),
           parcelas: findCol(['parcelas_oficial', 'parcelas']),
           budget: findCol(['price_range', 'ate300', 'budget', 'orçamento', 'orcamento']),
           levels: findCol(['runner_level', 'iniciante|intermediario', 'levels', 'nível', 'nivel']),
@@ -3054,7 +3063,7 @@
           reason: findCol(['reason', 'motivo', 'descrição', 'descricao']),
           link: findCol(['link_amazon', 'link afiliado amazon', 'amazon']),
           popular: findCol(['popular', 'best_seller']),
-          linkAwin: findCol(['link_oficial', 'link_awin', 'awin', 'oficial']),
+          linkAwin: findCol(['link_oficial', 'link_awin', 'awin', 'oficial', 'link loja', 'loja oficial']),
           linkNetshoes: findCol(['netshoes', 'link_netshoes']),
           discipline: findCol(['discipline', 'disciplina']),
         };
