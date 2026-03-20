@@ -1890,10 +1890,12 @@
       }
 
       .shoe.shoe-featured .simg {
+        flex: none;
         width: 100%;
         min-width: unset;
         height: 200px;
         min-height: 200px;
+        max-height: 200px;
         border-right: none;
         border-bottom: 1px solid var(--border);
       }
@@ -1920,7 +1922,6 @@
     .shoe-featured,
     .comparison-box,
     .compare-list {
-      overflow: visible !important;
       height: auto !important;
       min-height: min-content !important;
     }
@@ -2173,7 +2174,7 @@
     }
     function cleanPrice(p) { return parsePrice(p); } // alias kept for compat
     function parsePrice(p) {
-      if (typeof p === 'number') return isFinite(p) ? Math.round(p) : 0;
+      if (typeof p === 'number') return isFinite(p) ? p : 0;
       if (!p) return 0;
       var s = String(p)
         .replace(/R\$\s*/gi, '')
@@ -2184,11 +2185,11 @@
       else s = s.replace(',', '.');
       s = s.replace(/[^\d.]/g, '');
       var n = parseFloat(s);
-      return isFinite(n) && n > 0 ? Math.round(n) : 0;
+      return isFinite(n) && n > 0 ? n : 0;
     }
     function formatBRL(n) {
       if (!n || n <= 0) return 'Ver Preço';
-      return 'R$ ' + n.toLocaleString('pt-BR', { minimumFractionDigits: 0, maximumFractionDigits: 0 });
+      return 'R$ ' + n.toLocaleString('pt-BR', { minimumFractionDigits: 2, maximumFractionDigits: 2 });
     }
 
     function escapeHtml(str) {

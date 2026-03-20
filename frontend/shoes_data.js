@@ -3866,7 +3866,7 @@ var SHOES = [
     "release_year": "unissex",
     "is_best_seller": false,
     "images": [
-      "https://amzn.to/3Nnjn7U"
+      "imgs/placeholder.jpg"
     ],
     "emoji": "👟",
     "tags": [

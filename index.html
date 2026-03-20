@@ -1890,10 +1890,13 @@
       }
 
       .shoe.shoe-featured .simg {
+        flex: none;
+        /* FIX: Prevents Safari flex-basis 40% bug on mobile column */
         width: 100%;
         min-width: unset;
         height: 200px;
         min-height: 200px;
+        max-height: 200px;
         border-right: none;
         border-bottom: 1px solid var(--border);
       }
@@ -1920,8 +1923,7 @@
     .shoe-featured,
     .comparison-box,
     .compare-list {
-      overflow: visible !important;
-      height: max-content !important;
+      height: auto !important;
       min-height: min-content !important;
     }
 
