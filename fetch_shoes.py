@@ -1,16 +1,16 @@
 import csv
 import json
-import requests
 import sys
 import re
+import pandas as pd
 
-CSV_URL = "https://docs.google.com/spreadsheets/d/e/2PACX-1vTPbsAdJERK3wKqjEhpYZeDO5al9Ach4e-UqtnPQ0u__3zKf2oTNN4plh2YYg8B_RRiBB_lAO7lY0tQ/pub?output=csv"
+FILE_PATH = "tenisideal-catalogo atualizada.xlsx"
 
 def parse_list(val):
-    if not val:
+    if not val or pd.isna(val):
         return []
     # Divide por vírgula ou barra (|) e remove espaços em branco
-    return [re.sub(r'^\s*-\s*', '', v.strip()) for v in re.split(r'[,|]', val) if v.strip()]
+    return [re.sub(r'^\s*-\s*', '', str(v).strip()) for v in re.split(r'[,|]', str(val)) if str(v).strip()]
 
 def calculate_price_range(price_num):
     if price_num < 300:
@@ -23,8 +23,10 @@ def calculate_price_range(price_num):
         return "acima1000"
 
 def extract_numeric_price(price_str):
+    if pd.isna(price_str):
+        return 0.0
     # Extrai o valor numérico de strings como "R$ 899,90" -> 899.90
-    clean_str = re.sub(r'[^\d,.-]', '', price_str)
+    clean_str = re.sub(r'[^\d,.-]', '', str(price_str))
     if not clean_str:
         return 0.0
     # Substitui ponto de milhar se houver (ex: 1.200,50 -> 1200,50) e vírgula por ponto
@@ -42,24 +44,18 @@ def generate_slug(brand, name):
     return slug
 
 def main():
-    if CSV_URL == "COLOQUE_SEU_LINK_CSV_AQUI":
-        print("Erro: Coloque o link CSV do Google Sheets em fetch_shoes.py.")
-        sys.exit(1)
-
     try:
-        r = requests.get(CSV_URL)
-        r.raise_for_status()
+        df = pd.read_excel(FILE_PATH)
+        # Converte para lista de dicionários lidando com NaN
+        reader = df.fillna("").to_dict('records')
     except Exception as e:
-        print(f"Erro ao baixar CSV: {e}")
+        print(f"Erro ao ler o arquivo Excel local: {e}")
         sys.exit(1)
-
-    csv_text = r.content.decode('utf-8')
-    reader = csv.DictReader(csv_text.splitlines())
 
     shoes = []
     
     for row in reader:
-        # Pega as chaves reais (pode ter espaços ou \ufeff no começo)
+        # Pega as chaves reais
         keys = list(row.keys())
         if not keys: continue
 
