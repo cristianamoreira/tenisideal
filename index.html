@@ -86,6 +86,32 @@
       background: var(--yellow);
     }
 
+    .bbuy.bbuy-amazon {
+      background: #ff9900;
+      color: #000;
+      border-color: #ff9900;
+    }
+
+    .bbuy.bbuy-amazon:hover {
+      background: #e38800;
+    }
+
+    .comparison-box.highlight-amazon {
+      background: rgba(255, 153, 0, 0.08);
+      /* slight orange tint */
+      border-color: rgba(255, 153, 0, 0.4);
+    }
+
+    .comparison-box.highlight-green {
+      background: rgba(200, 255, 0, 0.08);
+      border-color: var(--yellow);
+    }
+
+    .amazon-badge {
+      background: #ff9900 !important;
+      color: #fff !important;
+    }
+
     /* Estilos de Alta Conversão */
     .discount-badge {
       display: inline-flex;
@@ -2178,7 +2204,9 @@
       // Suporta tanto 'store' (formato API) quanto 'label' (formato local buildResult)
       var storeName = offer.label || offer.store || (sh.storeName || 'Loja');
       var rawPrice = (offer.price && offer.price > 0) ? offer.price : null;
-      if (!rawPrice) {
+      // Correção: Apenas faz o fallback para o preço geral se a loja for a Amazon. 
+      // Não queremos que a loja oficial ou outras herdem o preço da Amazon se não vieram com preço próprio.
+      if (!rawPrice && (storeName.toLowerCase() === 'amazon' || offer.key === 'amazon')) {
         try { rawPrice = calcShoePrice(sh); } catch (e) { rawPrice = null; }
       }
       var priceText = rawPrice ? formatBRL(rawPrice) : 'Ver preço';
@@ -2883,44 +2911,93 @@
           offers.sort(function (a, b) {
             if (!a.price || a.price <= 0) return 1;
             if (!b.price || b.price <= 0) return -1;
+            if (a.price === b.price) {
+              if (a.key === 'amazon' && b.key !== 'amazon') return 1;
+              if (b.key === 'amazon' && a.key !== 'amazon') return -1;
+            }
             return a.price - b.price;
           });
 
           if (offers.length > 0) {
             var best = offers[0];
-            btnsHTML += '<div class="comparison-box">';
-            btnsHTML += renderDiscountBadge(sh);
-            btnsHTML += '<div class="best-price-badge">🏆 Melhor preço hoje</div>';
-            btnsHTML += '<div class="best-price-title">💰 Menor valor encontrado na ' + (best.label || best.store) + '</div>';
 
-            // ITEM 2: usa price_numeric se disponível (scraped), senão best.price da oferta
-            // BUGFIX: Não faz fallback para sh.price (Amazon) se o botão principal NÃO for a Amazon e o preço for 0
-            var bestNumeric = (best.price > 0) ? best.price : (best.label === 'Amazon' ? (sh.price_numeric || parsePrice(sh.price) || 0) : 0);
-            var priceVal = bestNumeric > 0 ? formatBRL(bestNumeric) : 'Ver Preço';
-            // Condição de pagamento — usa installments do objeto offer
-            function paymentLabel(offer) {
-              if (!offer) return '';
-              if (offer.installments) return offer.installments;
-              // fallback por key para formato antigo
-              if (offer.key === 'amazon') return '6x sem juros';
-              if (offer.key === 'oficial') return 'em até 8x';
-              if (offer.key === 'netshoes') return 'no PIX/Boleto';
-              return '';
-            }
-            btnsHTML += '<div class="best-price-value">' + priceVal + '<span>' + paymentLabel(best) + '</span></div>';
-            var labelBest = 'COMPRAR NA ' + (best.label || best.store).toUpperCase();
-            btnsHTML += makeBtnHTML(best.url, labelBest, true);
+            if (offers.length === 1 && best.key === 'amazon') {
+              // Scenario 1: Only Amazon -> direct orange button
+              var bestNumeric = (best.price > 0) ? best.price : (sh.price_numeric || parsePrice(sh.price) || 0);
+              var priceVal = bestNumeric > 0 ? formatBRL(bestNumeric) : 'Ver Preço';
+              function paymentLabel(offer) {
+                if (!offer) return '';
+                if (offer.installments) return offer.installments;
+                if (offer.key === 'amazon') return '6x sem juros';
+                if (offer.key === 'oficial') return 'em até 8x';
+                if (offer.key === 'netshoes') return 'no PIX/Boleto';
+                return '';
+              }
+              btnsHTML += '<div class="sprice" style="margin-top:20px; font-size:24px; font-weight:700;">' + priceVal + '<span style="font-size:14px; color:var(--gray); font-weight:400; margin-left:6px;">' + paymentLabel(best) + '</span></div>';
+              btnsHTML += makeBtnHTML(best.url, 'COMPRAR NA AMAZON', true).replace('class="bbuy"', 'class="bbuy bbuy-amazon"');
+            } else {
+              // Scenario 2 & 3: Comparador
+              var hClass = (best.key === 'amazon') ? ' highlight-amazon' : ' highlight-green';
+              btnsHTML += '<div class="comparison-box' + hClass + '">';
 
-            if (offers.length > 1) {
-              btnsHTML += '<button class="compare-toggle-btn" onclick="toggleCompare(this)">⌵ Comparar preços</button>';
-              btnsHTML += '<div class="compare-list">';
-              for (var j = 1; j < offers.length; j++) {
-                // Item 2: usa renderStoreOfferRow defensivo
-                btnsHTML += renderStoreOfferRow(sh, offers[j]);
+              var amzOffer = null;
+              for (var o = 0; o < offers.length; o++) {
+                if (offers[o].key === 'amazon') amzOffer = offers[o];
+              }
+
+              var customBadge = '';
+              if (best.key !== 'amazon' && amzOffer && best.price < amzOffer.price) {
+                var pct = calcDiscountPct(amzOffer.price, best.price);
+                if (pct) customBadge = '<div class="discount-badge">🔥 ' + pct + '% mais barato que Amazon</div>';
+              } else if (best.key === 'amazon' && offers.length > 1) {
+                var secondBest = offers[1];
+                if (secondBest && secondBest.price > best.price) {
+                  var pct2 = calcDiscountPct(secondBest.price, best.price);
+                  if (pct2) customBadge = '<div class="discount-badge amazon-badge">🔥 Economize ' + pct2 + '% aqui</div>';
+                }
+              }
+
+              if (customBadge) {
+                btnsHTML += customBadge;
+              } else {
+                btnsHTML += renderDiscountBadge(sh);
+              }
+
+              var badgeClass = (best.key === 'amazon') ? 'best-price-badge amazon-badge' : 'best-price-badge';
+              btnsHTML += '<div class="' + badgeClass + '">🏆 Melhor preço hoje</div>';
+              btnsHTML += '<div class="best-price-title">💰 Menor valor encontrado na ' + (best.label || best.store) + '</div>';
+
+              var bestNumeric = (best.price > 0) ? best.price : (best.label === 'Amazon' ? (sh.price_numeric || parsePrice(sh.price) || 0) : 0);
+              var priceVal = bestNumeric > 0 ? formatBRL(bestNumeric) : 'Ver Preço';
+              function paymentLabel(offer) {
+                if (!offer) return '';
+                if (offer.installments) return offer.installments;
+                if (offer.key === 'amazon') return '6x sem juros';
+                if (offer.key === 'oficial') return 'em até 8x';
+                if (offer.key === 'netshoes') return 'no PIX/Boleto';
+                return '';
+              }
+              btnsHTML += '<div class="best-price-value">' + priceVal + '<span>' + paymentLabel(best) + '</span></div>';
+              var labelBest = 'COMPRAR NA ' + (best.label || best.store).toUpperCase();
+
+              var btnHtmlRaw = makeBtnHTML(best.url, labelBest, true);
+              if (best.key === 'amazon') {
+                // override class for orange
+                btnHtmlRaw = btnHtmlRaw.replace('class="bbuy"', 'class="bbuy bbuy-amazon"');
+              }
+              btnsHTML += btnHtmlRaw;
+
+              if (offers.length > 1) {
+                btnsHTML += '<button class="compare-toggle-btn" onclick="toggleCompare(this)">⌵ Comparar preços</button>';
+                btnsHTML += '<div class="compare-list">';
+                for (var j = 1; j < offers.length; j++) {
+                  // Item 2: usa renderStoreOfferRow defensivo
+                  btnsHTML += renderStoreOfferRow(sh, offers[j]);
+                }
+                btnsHTML += '</div>';
               }
               btnsHTML += '</div>';
             }
-            btnsHTML += '</div>';
           } else {
             // Caso extremo: Sem nenhum link, mostra pelo menos o preço se existir
             var finalPrice = sh.price ? formatBRL(cleanPrice(sh.price)) : '';
