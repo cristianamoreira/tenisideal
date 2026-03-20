@@ -5,14 +5,14 @@ var SHOES = [
     "model": "",
     "version": "masculino",
     "name": "Adizero Adios Pro 4",
-    "slug": "",
+    "slug": "adidas-adizero-adios-pro-4",
     "category": "",
     "sexo": [
       "masculino"
     ],
     "discipline": [],
-    "price": 2318.58,
-    "price_formatted": "R$2.318,58",
+    "price": 1906.52,
+    "price_formatted": "R$ 1.906,52",
     "budget": "acima1000",
     "drop": "masculino",
     "weight": "masculino",
@@ -37,11 +37,11 @@ var SHOES = [
     "affiliate_links": {
       "amazon": {
         "url": "https://amzn.to/4l8FKKD",
-        "price": 0.0
+        "price": 1906.52
       },
       "oficial": {
         "url": "https://tidd.ly/3P8j6q3",
-        "price": 0.0
+        "price": 199999.0
       }
     },
     "rating": "masculino",
@@ -70,14 +70,14 @@ var SHOES = [
     "model": "",
     "version": "masculino",
     "name": "Adizero Boston 13",
-    "slug": "",
+    "slug": "adidas-adizero-boston-13",
     "category": "",
     "sexo": [
       "masculino"
     ],
     "discipline": [],
-    "price": 1313.78,
-    "price_formatted": "R$1.313,78",
+    "price": 131378.0,
+    "price_formatted": "R$ 131.378,00",
     "budget": "acima1000",
     "drop": "masculino",
     "weight": "masculino",
@@ -101,11 +101,11 @@ var SHOES = [
     "affiliate_links": {
       "amazon": {
         "url": "https://amzn.to/3NEjLPv",
-        "price": 0.0
+        "price": 131378.0
       },
       "oficial": {
         "url": "https://tidd.ly/4sdrK5h",
-        "price": 0.0
+        "price": 139999.0
       }
     },
     "rating": "masculino",
@@ -134,14 +134,14 @@ var SHOES = [
     "model": "",
     "version": "unissex",
     "name": "Response Runner 2",
-    "slug": "",
+    "slug": "adidas-response-runner-2",
     "category": "",
     "sexo": [
       "unissex"
     ],
     "discipline": [],
-    "price": 400.0,
-    "price_formatted": "R$400",
+    "price": 39988.0,
+    "price_formatted": "R$ 39.988,00",
     "budget": "300a600",
     "drop": "unissex",
     "weight": "unissex",
@@ -168,11 +168,11 @@ var SHOES = [
     "affiliate_links": {
       "amazon": {
         "url": "https://amzn.to/4b7FF5t",
-        "price": 0.0
+        "price": 39988.0
       },
       "oficial": {
         "url": "https://tidd.ly/4bwPHNU",
-        "price": 0.0
+        "price": 39999.0
       }
     },
     "rating": "unissex",
@@ -201,14 +201,14 @@ var SHOES = [
     "model": "",
     "version": "masculino",
     "name": "Ultraboost 5",
-    "slug": "",
+    "slug": "adidas-ultraboost-5",
     "category": "",
     "sexo": [
       "masculino"
     ],
     "discipline": [],
-    "price": 1079.88,
-    "price_formatted": "R$1.079,88",
+    "price": 94511.0,
+    "price_formatted": "R$ 94.511,00",
     "budget": "acima1000",
     "drop": "masculino",
     "weight": "masculino",
@@ -235,11 +235,11 @@ var SHOES = [
     "affiliate_links": {
       "amazon": {
         "url": "https://amzn.to/4cKN7pN",
-        "price": 0.0
+        "price": 94511.0
       },
       "oficial": {
         "url": "https://tidd.ly/4uycDoE",
-        "price": 0.0
+        "price": 109999.0
       }
     },
     "rating": "masculino",
@@ -269,14 +269,14 @@ var SHOES = [
     "model": "",
     "version": "masculino",
     "name": "Terrex Agravic Speed 2",
-    "slug": "",
+    "slug": "adidas-terrex-agravic-speed-2",
     "category": "",
     "sexo": [
       "masculino"
     ],
     "discipline": [],
     "price": 2089.75,
-    "price_formatted": "R$2.089,75",
+    "price_formatted": "R$ 2.089,75",
     "budget": "acima1000",
     "drop": "masculino",
     "weight": "masculino",
@@ -290,11 +290,11 @@ var SHOES = [
     "affiliate_links": {
       "amazon": {
         "url": "https://amzn.to/4bthoHb",
-        "price": 0.0
+        "price": 2089.75
       },
       "oficial": {
         "url": "https://tidd.ly/4sa8qG5",
-        "price": 0.0
+        "price": 119999.0
       }
     },
     "rating": "masculino",
@@ -320,14 +320,14 @@ var SHOES = [
     "model": "",
     "version": "feminino",
     "name": "Ultraboost 5",
-    "slug": "",
+    "slug": "adidas-ultraboost-5",
     "category": "",
     "sexo": [
       "feminino"
     ],
     "discipline": [],
     "price": 1036.13,
-    "price_formatted": "R$1.036,13",
+    "price_formatted": "R$ 1.036,13",
     "budget": "acima1000",
     "drop": "feminino",
     "weight": "feminino",
@@ -355,11 +355,11 @@ var SHOES = [
     "affiliate_links": {
       "amazon": {
         "url": "https://amzn.to/4sOTugy",
-        "price": 0.0
+        "price": 1036.13
       },
       "oficial": {
         "url": "https://tidd.ly/40vVjmg",
-        "price": 0.0
+        "price": 109999.0
       }
     },
     "rating": "feminino",
@@ -389,14 +389,14 @@ var SHOES = [
     "model": "",
     "version": "feminino",
     "name": "Duramo Speed 2",
-    "slug": "",
+    "slug": "adidas-duramo-speed-2",
     "category": "",
     "sexo": [
       "feminino"
     ],
     "discipline": [],
     "price": 421.0,
-    "price_formatted": "R$421",
+    "price_formatted": "R$ 421,00",
     "budget": "300a600",
     "drop": "feminino",
     "weight": "feminino",
@@ -424,11 +424,11 @@ var SHOES = [
     "affiliate_links": {
       "amazon": {
         "url": "https://amzn.to/4b7TOAW",
-        "price": 0.0
+        "price": 421.0
       },
       "oficial": {
         "url": "https://tidd.ly/4dkCMkk",
-        "price": 0.0
+        "price": 59999.0
       }
     },
     "rating": "feminino",
@@ -458,14 +458,14 @@ var SHOES = [
     "model": "",
     "version": "feminino",
     "name": "Ultraboost 22",
-    "slug": "",
+    "slug": "adidas-ultraboost-22",
     "category": "",
     "sexo": [
       "feminino"
     ],
     "discipline": [],
     "price": 1851.66,
-    "price_formatted": "1.851,66",
+    "price_formatted": "R$ 1.851,66",
     "budget": "acima1000",
     "drop": "feminino",
     "weight": "feminino",
@@ -493,7 +493,11 @@ var SHOES = [
     "affiliate_links": {
       "amazon": {
         "url": "https://amzn.to/4un9Bn2",
-        "price": 0.0
+        "price": 1851.66
+      },
+      "oficial": {
+        "url": "https://tidd.ly/3PBf5KM",
+        "price": 119999.0
       }
     },
     "rating": "feminino",
@@ -523,14 +527,14 @@ var SHOES = [
     "model": "",
     "version": "masculino",
     "name": "Gel-Cumulus 26",
-    "slug": "",
+    "slug": "asics-gel-cumulus-26",
     "category": "",
     "sexo": [
       "masculino"
     ],
     "discipline": [],
     "price": 900.0,
-    "price_formatted": "R$900",
+    "price_formatted": "R$ 900,00",
     "budget": "600a1000",
     "drop": "masculino",
     "weight": "masculino",
@@ -558,7 +562,7 @@ var SHOES = [
     "affiliate_links": {
       "amazon": {
         "url": "https://amzn.to/477x4ys",
-        "price": 0.0
+        "price": 900.0
       }
     },
     "rating": "masculino",
@@ -587,14 +591,14 @@ var SHOES = [
     "model": "",
     "version": "masculino",
     "name": "Gel-Kayano 31",
-    "slug": "",
+    "slug": "asics-gel-kayano-31",
     "category": "",
     "sexo": [
       "masculino"
     ],
     "discipline": [],
     "price": 1540.0,
-    "price_formatted": "R$1.540",
+    "price_formatted": "R$ 1.540,00",
     "budget": "acima1000",
     "drop": "masculino",
     "weight": "masculino",
@@ -621,7 +625,7 @@ var SHOES = [
     "affiliate_links": {
       "amazon": {
         "url": "https://amzn.to/4b8n1uk",
-        "price": 0.0
+        "price": 1540.0
       }
     },
     "rating": "masculino",
@@ -650,14 +654,14 @@ var SHOES = [
     "model": "",
     "version": "masculino",
     "name": "Gel-Kayano 31 Matcha",
-    "slug": "",
+    "slug": "asics-gel-kayano-31-matcha",
     "category": "",
     "sexo": [
       "masculino"
     ],
     "discipline": [],
     "price": 1174.0,
-    "price_formatted": "R$1.174",
+    "price_formatted": "R$ 1.174,00",
     "budget": "acima1000",
     "drop": "masculino",
     "weight": "masculino",
@@ -684,7 +688,7 @@ var SHOES = [
     "affiliate_links": {
       "amazon": {
         "url": "https://amzn.to/3OFw26D",
-        "price": 0.0
+        "price": 1174.0
       }
     },
     "rating": "masculino",
@@ -713,14 +717,14 @@ var SHOES = [
     "model": "",
     "version": "masculino",
     "name": "Gel-Nimbus 26",
-    "slug": "",
+    "slug": "asics-gel-nimbus-26",
     "category": "",
     "sexo": [
       "masculino"
     ],
     "discipline": [],
     "price": 1300.0,
-    "price_formatted": "R$1.300",
+    "price_formatted": "R$ 1.300,00",
     "budget": "acima1000",
     "drop": "masculino",
     "weight": "masculino",
@@ -746,7 +750,7 @@ var SHOES = [
     "affiliate_links": {
       "amazon": {
         "url": "https://amzn.to/3OP4Dzd",
-        "price": 0.0
+        "price": 1300.0
       }
     },
     "rating": "masculino",
@@ -775,14 +779,14 @@ var SHOES = [
     "model": "",
     "version": "feminino",
     "name": "Gel-Nimbus 26",
-    "slug": "",
+    "slug": "asics-gel-nimbus-26",
     "category": "",
     "sexo": [
       "feminino"
     ],
     "discipline": [],
     "price": 1796.17,
-    "price_formatted": "R$1.796,17",
+    "price_formatted": "R$ 1.796,17",
     "budget": "acima1000",
     "drop": "feminino",
     "weight": "feminino",
@@ -808,7 +812,7 @@ var SHOES = [
     "affiliate_links": {
       "amazon": {
         "url": "https://amzn.to/4ugSqmP",
-        "price": 0.0
+        "price": 1796.17
       }
     },
     "rating": "feminino",
@@ -837,14 +841,14 @@ var SHOES = [
     "model": "",
     "version": "masculino",
     "name": "Gel-Trabuco 12",
-    "slug": "",
+    "slug": "asics-gel-trabuco-12",
     "category": "",
     "sexo": [
       "masculino"
     ],
     "discipline": [],
     "price": 1398.0,
-    "price_formatted": "R$1.398",
+    "price_formatted": "R$ 1.398,00",
     "budget": "acima1000",
     "drop": "masculino",
     "weight": "masculino",
@@ -871,7 +875,7 @@ var SHOES = [
     "affiliate_links": {
       "amazon": {
         "url": "https://amzn.to/3NhE4Cb",
-        "price": 0.0
+        "price": 1398.0
       }
     },
     "rating": "masculino",
@@ -900,14 +904,14 @@ var SHOES = [
     "model": "",
     "version": "masculino",
     "name": "Gel-Pulse 15 SE",
-    "slug": "",
+    "slug": "asics-gel-pulse-15-se",
     "category": "",
     "sexo": [
       "masculino"
     ],
     "discipline": [],
     "price": 469.0,
-    "price_formatted": "R$469",
+    "price_formatted": "R$ 469,00",
     "budget": "300a600",
     "drop": "masculino",
     "weight": "masculino",
@@ -936,7 +940,7 @@ var SHOES = [
     "affiliate_links": {
       "amazon": {
         "url": "https://amzn.to/4rT89qU",
-        "price": 0.0
+        "price": 469.0
       }
     },
     "rating": "masculino",
@@ -966,14 +970,14 @@ var SHOES = [
     "model": "",
     "version": "feminino",
     "name": "Gel-Venture 10",
-    "slug": "",
+    "slug": "asics-gel-venture-10",
     "category": "",
     "sexo": [
       "feminino"
     ],
     "discipline": [],
     "price": 699.9,
-    "price_formatted": "R$699,90",
+    "price_formatted": "R$ 699,90",
     "budget": "600a1000",
     "drop": "feminino",
     "weight": "feminino",
@@ -999,7 +1003,7 @@ var SHOES = [
     "affiliate_links": {
       "amazon": {
         "url": "https://amzn.to/4rSbMx8",
-        "price": 0.0
+        "price": 699.9
       }
     },
     "rating": "feminino",
@@ -1029,14 +1033,14 @@ var SHOES = [
     "model": "",
     "version": "feminino",
     "name": "FuelCell Rebel V5",
-    "slug": "",
+    "slug": "new-balance-fuelcell-rebel-v5",
     "category": "",
     "sexo": [
       "feminino"
     ],
     "discipline": [],
     "price": 989.79,
-    "price_formatted": "$989,79",
+    "price_formatted": "R$ 989,79",
     "budget": "600a1000",
     "drop": "feminino",
     "weight": "feminino",
@@ -1062,7 +1066,7 @@ var SHOES = [
     "affiliate_links": {
       "amazon": {
         "url": "https://amzn.to/4liLXE5",
-        "price": 0.0
+        "price": 989.79
       }
     },
     "rating": "feminino",
@@ -1092,14 +1096,14 @@ var SHOES = [
     "model": "",
     "version": "feminino",
     "name": "Gel-Shinobi 2",
-    "slug": "",
+    "slug": "asics-gel-shinobi-2",
     "category": "",
     "sexo": [
       "feminino"
     ],
     "discipline": [],
     "price": 399.99,
-    "price_formatted": "R$399,99",
+    "price_formatted": "R$ 399,99",
     "budget": "300a600",
     "drop": "feminino",
     "weight": "feminino",
@@ -1125,7 +1129,7 @@ var SHOES = [
     "affiliate_links": {
       "amazon": {
         "url": "https://amzn.to/4da3rAm",
-        "price": 0.0
+        "price": 399.99
       }
     },
     "rating": "feminino",
@@ -1154,14 +1158,14 @@ var SHOES = [
     "model": "",
     "version": "feminino",
     "name": "Gel-Kayano 32",
-    "slug": "",
+    "slug": "asics-gel-kayano-32",
     "category": "",
     "sexo": [
       "feminino"
     ],
     "discipline": [],
     "price": 1718.19,
-    "price_formatted": "R$1.718,19",
+    "price_formatted": "R$ 1.718,19",
     "budget": "acima1000",
     "drop": "feminino",
     "weight": "feminino",
@@ -1188,7 +1192,7 @@ var SHOES = [
     "affiliate_links": {
       "amazon": {
         "url": "https://amzn.to/4uizqob",
-        "price": 0.0
+        "price": 1718.19
       }
     },
     "rating": "feminino",
@@ -1218,14 +1222,14 @@ var SHOES = [
     "model": "",
     "version": "masculino",
     "name": "Adrenaline GTS 24 Supportive",
-    "slug": "",
+    "slug": "brooks-adrenaline-gts-24-supportive",
     "category": "",
     "sexo": [
       "masculino"
     ],
     "discipline": [],
     "price": 987.0,
-    "price_formatted": "R$987",
+    "price_formatted": "R$ 987,00",
     "budget": "600a1000",
     "drop": "masculino",
     "weight": "masculino",
@@ -1253,7 +1257,7 @@ var SHOES = [
     "affiliate_links": {
       "amazon": {
         "url": "https://amzn.to/4u7e6Sr",
-        "price": 0.0
+        "price": 987.0
       }
     },
     "rating": "masculino",
@@ -1282,14 +1286,14 @@ var SHOES = [
     "model": "",
     "version": "masculino",
     "name": "Adrenaline GTS 24 Weatherized",
-    "slug": "",
+    "slug": "brooks-adrenaline-gts-24-weatherized",
     "category": "",
     "sexo": [
       "masculino"
     ],
     "discipline": [],
     "price": 945.0,
-    "price_formatted": "R$945",
+    "price_formatted": "R$ 945,00",
     "budget": "600a1000",
     "drop": "masculino",
     "weight": "masculino",
@@ -1317,7 +1321,7 @@ var SHOES = [
     "affiliate_links": {
       "amazon": {
         "url": "https://amzn.to/4sgDgwi",
-        "price": 0.0
+        "price": 945.0
       }
     },
     "rating": "masculino",
@@ -1346,14 +1350,14 @@ var SHOES = [
     "model": "",
     "version": "masculino",
     "name": "Ghost 16",
-    "slug": "",
+    "slug": "brooks-ghost-16",
     "category": "",
     "sexo": [
       "masculino"
     ],
     "discipline": [],
     "price": 1315.0,
-    "price_formatted": "R$1.315",
+    "price_formatted": "R$ 1.315,00",
     "budget": "acima1000",
     "drop": "masculino",
     "weight": "masculino",
@@ -1381,7 +1385,7 @@ var SHOES = [
     "affiliate_links": {
       "amazon": {
         "url": "https://amzn.to/4aYytsk",
-        "price": 0.0
+        "price": 1315.0
       }
     },
     "rating": "masculino",
@@ -1410,14 +1414,14 @@ var SHOES = [
     "model": "",
     "version": "feminino",
     "name": "Ghost 14 Neutral",
-    "slug": "",
+    "slug": "brooks-ghost-14-neutral",
     "category": "",
     "sexo": [
       "feminino"
     ],
     "discipline": [],
     "price": 1326.63,
-    "price_formatted": "R$1.326,63",
+    "price_formatted": "R$ 1.326,63",
     "budget": "acima1000",
     "drop": "feminino",
     "weight": "feminino",
@@ -1443,7 +1447,7 @@ var SHOES = [
     "affiliate_links": {
       "amazon": {
         "url": "https://amzn.to/4srKmhs",
-        "price": 0.0
+        "price": 1326.63
       }
     },
     "rating": "feminino",
@@ -1473,14 +1477,14 @@ var SHOES = [
     "model": "",
     "version": "feminino",
     "name": "Float Maxxi",
-    "slug": "",
+    "slug": "fila-float-maxxi",
     "category": "",
     "sexo": [
       "feminino"
     ],
     "discipline": [],
     "price": 539.9,
-    "price_formatted": "R$539,90",
+    "price_formatted": "R$ 539,90",
     "budget": "300a600",
     "drop": "feminino",
     "weight": "feminino",
@@ -1508,7 +1512,7 @@ var SHOES = [
     "affiliate_links": {
       "amazon": {
         "url": "https://amzn.to/4aZSxMh",
-        "price": 0.0
+        "price": 539.9
       }
     },
     "rating": "feminino",
@@ -1537,14 +1541,14 @@ var SHOES = [
     "model": "",
     "version": "masculino",
     "name": "Racer Fastpace",
-    "slug": "",
+    "slug": "fila-racer-fastpace",
     "category": "",
     "sexo": [
       "masculino"
     ],
     "discipline": [],
     "price": 279.9,
-    "price_formatted": "R$279,90",
+    "price_formatted": "R$ 279,90",
     "budget": "ate300",
     "drop": "masculino",
     "weight": "masculino",
@@ -1567,7 +1571,7 @@ var SHOES = [
     "affiliate_links": {
       "amazon": {
         "url": "https://amzn.to/40WKcTq",
-        "price": 0.0
+        "price": 279.9
       }
     },
     "rating": "masculino",
@@ -1596,14 +1600,14 @@ var SHOES = [
     "model": "",
     "version": "feminino",
     "name": "Racer Comet",
-    "slug": "",
+    "slug": "fila-racer-comet",
     "category": "",
     "sexo": [
       "feminino"
     ],
     "discipline": [],
     "price": 299.99,
-    "price_formatted": "R$299,99",
+    "price_formatted": "R$ 299,99",
     "budget": "ate300",
     "drop": "feminino",
     "weight": "feminino",
@@ -1629,7 +1633,7 @@ var SHOES = [
     "affiliate_links": {
       "amazon": {
         "url": "https://amzn.to/4aXF5sb",
-        "price": 0.0
+        "price": 299.99
       }
     },
     "rating": "feminino",
@@ -1658,14 +1662,14 @@ var SHOES = [
     "model": "",
     "version": "feminino",
     "name": "Recovery",
-    "slug": "",
+    "slug": "fila-recovery",
     "category": "",
     "sexo": [
       "feminino"
     ],
     "discipline": [],
     "price": 329.9,
-    "price_formatted": "R$329,90",
+    "price_formatted": "R$ 329,90",
     "budget": "300a600",
     "drop": "feminino",
     "weight": "feminino",
@@ -1691,7 +1695,7 @@ var SHOES = [
     "affiliate_links": {
       "amazon": {
         "url": "https://amzn.to/4s0yCmo",
-        "price": 0.0
+        "price": 329.9
       }
     },
     "rating": "feminino",
@@ -1720,14 +1724,14 @@ var SHOES = [
     "model": "",
     "version": "masculino",
     "name": "Bondi 8",
-    "slug": "",
+    "slug": "hoka-bondi-8",
     "category": "",
     "sexo": [
       "masculino"
     ],
     "discipline": [],
     "price": 1249.0,
-    "price_formatted": "R$1.249",
+    "price_formatted": "R$ 1.249,00",
     "budget": "acima1000",
     "drop": "masculino",
     "weight": "masculino",
@@ -1755,7 +1759,7 @@ var SHOES = [
     "affiliate_links": {
       "amazon": {
         "url": "https://amzn.to/409HQk0",
-        "price": 0.0
+        "price": 1249.0
       }
     },
     "rating": "masculino",
@@ -1784,14 +1788,14 @@ var SHOES = [
     "model": "",
     "version": "masculino",
     "name": "Bondi 8 Road",
-    "slug": "",
+    "slug": "hoka-bondi-8-road",
     "category": "",
     "sexo": [
       "masculino"
     ],
     "discipline": [],
     "price": 1781.0,
-    "price_formatted": "R$1.781",
+    "price_formatted": "R$ 1.781,00",
     "budget": "acima1000",
     "drop": "masculino",
     "weight": "masculino",
@@ -1819,7 +1823,7 @@ var SHOES = [
     "affiliate_links": {
       "amazon": {
         "url": "https://amzn.to/4stApQS",
-        "price": 0.0
+        "price": 1781.0
       }
     },
     "rating": "masculino",
@@ -1848,14 +1852,14 @@ var SHOES = [
     "model": "",
     "version": "masculino",
     "name": "Clifton 9",
-    "slug": "",
+    "slug": "hoka-clifton-9",
     "category": "",
     "sexo": [
       "masculino"
     ],
     "discipline": [],
     "price": 1120.0,
-    "price_formatted": "R$1.120",
+    "price_formatted": "R$ 1.120,00",
     "budget": "acima1000",
     "drop": "masculino",
     "weight": "masculino",
@@ -1883,7 +1887,7 @@ var SHOES = [
     "affiliate_links": {
       "amazon": {
         "url": "https://amzn.to/4u9y3YW",
-        "price": 0.0
+        "price": 1120.0
       }
     },
     "rating": "masculino",
@@ -1912,14 +1916,14 @@ var SHOES = [
     "model": "",
     "version": "masculino",
     "name": "Clifton 9",
-    "slug": "",
+    "slug": "hoka-clifton-9",
     "category": "",
     "sexo": [
       "masculino"
     ],
     "discipline": [],
     "price": 1299.0,
-    "price_formatted": "R$1.299",
+    "price_formatted": "R$ 1.299,00",
     "budget": "acima1000",
     "drop": "masculino",
     "weight": "masculino",
@@ -1947,7 +1951,7 @@ var SHOES = [
     "affiliate_links": {
       "amazon": {
         "url": "https://amzn.to/4ssofHW",
-        "price": 0.0
+        "price": 1299.0
       }
     },
     "rating": "masculino",
@@ -1976,14 +1980,14 @@ var SHOES = [
     "model": "",
     "version": "masculino",
     "name": "Speedgoat 6",
-    "slug": "",
+    "slug": "hoka-speedgoat-6",
     "category": "",
     "sexo": [
       "masculino"
     ],
     "discipline": [],
     "price": 1233.0,
-    "price_formatted": "R$1.233",
+    "price_formatted": "R$ 1.233,00",
     "budget": "acima1000",
     "drop": "masculino",
     "weight": "masculino",
@@ -2009,7 +2013,7 @@ var SHOES = [
     "affiliate_links": {
       "amazon": {
         "url": "https://amzn.to/3Pe4Age",
-        "price": 0.0
+        "price": 1233.0
       }
     },
     "rating": "masculino",
@@ -2038,14 +2042,14 @@ var SHOES = [
     "model": "",
     "version": "masculino",
     "name": "Wave Inspire 21",
-    "slug": "",
+    "slug": "mizuno-wave-inspire-21",
     "category": "",
     "sexo": [
       "masculino"
     ],
     "discipline": [],
     "price": 650.0,
-    "price_formatted": "R$650",
+    "price_formatted": "R$ 650,00",
     "budget": "600a1000",
     "drop": "masculino",
     "weight": "masculino",
@@ -2072,11 +2076,11 @@ var SHOES = [
     "affiliate_links": {
       "amazon": {
         "url": "https://amzn.to/4b5N32t",
-        "price": 0.0
+        "price": 650.0
       },
       "oficial": {
         "url": "https://tidd.ly/4umRr4C",
-        "price": 0.0
+        "price": 64999.0
       }
     },
     "rating": "masculino",
@@ -2105,14 +2109,14 @@ var SHOES = [
     "model": "",
     "version": "masculino",
     "name": "Wave Rider 28",
-    "slug": "",
+    "slug": "mizuno-wave-rider-28",
     "category": "",
     "sexo": [
       "masculino"
     ],
     "discipline": [],
     "price": 549.99,
-    "price_formatted": "R$549,99",
+    "price_formatted": "R$ 549,99",
     "budget": "300a600",
     "drop": "masculino",
     "weight": "masculino",
@@ -2140,11 +2144,11 @@ var SHOES = [
     "affiliate_links": {
       "amazon": {
         "url": "https://amzn.to/4lpGIm5",
-        "price": 0.0
+        "price": 549.99
       },
       "oficial": {
         "url": "https://tidd.ly/40tllXn",
-        "price": 0.0
+        "price": 54999.0
       }
     },
     "rating": "masculino",
@@ -2174,14 +2178,14 @@ var SHOES = [
     "model": "",
     "version": "masculino",
     "name": "Wave Sky 9",
-    "slug": "",
+    "slug": "mizuno-wave-sky-9",
     "category": "",
     "sexo": [
       "masculino"
     ],
     "discipline": [],
     "price": 1199.99,
-    "price_formatted": "R$1.199,99",
+    "price_formatted": "R$ 1.199,99",
     "budget": "acima1000",
     "drop": "masculino",
     "weight": "masculino",
@@ -2207,11 +2211,11 @@ var SHOES = [
     "affiliate_links": {
       "amazon": {
         "url": "https://amzn.to/3OW1QEr",
-        "price": 0.0
+        "price": 1199.99
       },
       "oficial": {
         "url": "https://tidd.ly/4diuTvL",
-        "price": 0.0
+        "price": 119999.0
       }
     },
     "rating": "masculino",
@@ -2240,14 +2244,14 @@ var SHOES = [
     "model": "",
     "version": "unissex",
     "name": "Victory RSP",
-    "slug": "",
+    "slug": "mizuno-victory-rsp",
     "category": "",
     "sexo": [
       "unissex"
     ],
     "discipline": [],
     "price": 407.0,
-    "price_formatted": "R$407",
+    "price_formatted": "R$ 407,00",
     "budget": "300a600",
     "drop": "unissex",
     "weight": "unissex",
@@ -2275,11 +2279,11 @@ var SHOES = [
     "affiliate_links": {
       "amazon": {
         "url": "https://amzn.to/4rhgGT7",
-        "price": 0.0
+        "price": 407.0
       },
       "oficial": {
         "url": "https://tidd.ly/4dcnka0",
-        "price": 0.0
+        "price": 32999.0
       }
     },
     "rating": "unissex",
@@ -2309,14 +2313,14 @@ var SHOES = [
     "model": "",
     "version": "feminino",
     "name": "413v3",
-    "slug": "",
+    "slug": "new-balance-413v3",
     "category": "",
     "sexo": [
       "feminino"
     ],
     "discipline": [],
     "price": 279.0,
-    "price_formatted": "R$279",
+    "price_formatted": "R$ 279,00",
     "budget": "ate300",
     "drop": "feminino",
     "weight": "feminino",
@@ -2343,7 +2347,7 @@ var SHOES = [
     "affiliate_links": {
       "amazon": {
         "url": "https://amzn.to/4b9gSht",
-        "price": 0.0
+        "price": 279.0
       }
     },
     "rating": "feminino",
@@ -2372,14 +2376,14 @@ var SHOES = [
     "model": "",
     "version": "feminino",
     "name": "411v3",
-    "slug": "",
+    "slug": "new-balance-411v3",
     "category": "",
     "sexo": [
       "feminino"
     ],
     "discipline": [],
     "price": 279.0,
-    "price_formatted": "R$279",
+    "price_formatted": "R$ 279,00",
     "budget": "ate300",
     "drop": "feminino",
     "weight": "feminino",
@@ -2406,7 +2410,7 @@ var SHOES = [
     "affiliate_links": {
       "amazon": {
         "url": "https://amzn.to/4lguc8w",
-        "price": 0.0
+        "price": 279.0
       }
     },
     "rating": "feminino",
@@ -2435,14 +2439,14 @@ var SHOES = [
     "model": "",
     "version": "masculino",
     "name": "M860v14",
-    "slug": "",
+    "slug": "new-balance-m860v14",
     "category": "",
     "sexo": [
       "masculino"
     ],
     "discipline": [],
     "price": 1037.0,
-    "price_formatted": "R$1.037",
+    "price_formatted": "R$ 1.037,00",
     "budget": "acima1000",
     "drop": "masculino",
     "weight": "masculino",
@@ -2469,7 +2473,7 @@ var SHOES = [
     "affiliate_links": {
       "amazon": {
         "url": "https://amzn.to/47lOeZa",
-        "price": 0.0
+        "price": 1037.0
       }
     },
     "rating": "masculino",
@@ -2498,14 +2502,14 @@ var SHOES = [
     "model": "",
     "version": "masculino",
     "name": "Fresh Foam X 1080 V14",
-    "slug": "",
+    "slug": "new-balance-fresh-foam-x-1080-v14",
     "category": "",
     "sexo": [
       "masculino"
     ],
     "discipline": [],
     "price": 1935.0,
-    "price_formatted": "R$1.935",
+    "price_formatted": "R$ 1.935,00",
     "budget": "acima1000",
     "drop": "masculino",
     "weight": "masculino",
@@ -2530,7 +2534,7 @@ var SHOES = [
     "affiliate_links": {
       "amazon": {
         "url": "https://amzn.to/4rcfUHd",
-        "price": 0.0
+        "price": 1935.0
       }
     },
     "rating": "masculino",
@@ -2559,14 +2563,14 @@ var SHOES = [
     "model": "",
     "version": "masculino",
     "name": "M860v14",
-    "slug": "",
+    "slug": "new-balance-m860v14",
     "category": "",
     "sexo": [
       "masculino"
     ],
     "discipline": [],
     "price": 1037.0,
-    "price_formatted": "R$1.037",
+    "price_formatted": "R$ 1.037,00",
     "budget": "acima1000",
     "drop": "masculino",
     "weight": "masculino",
@@ -2593,7 +2597,7 @@ var SHOES = [
     "affiliate_links": {
       "amazon": {
         "url": "https://amzn.to/4aYFkly",
-        "price": 0.0
+        "price": 1037.0
       }
     },
     "rating": "masculino",
@@ -2622,14 +2626,14 @@ var SHOES = [
     "model": "",
     "version": "feminino",
     "name": "Fresh Foam X 1080 V14",
-    "slug": "",
+    "slug": "new-balance-fresh-foam-x-1080-v14",
     "category": "",
     "sexo": [
       "feminino"
     ],
     "discipline": [],
     "price": 808.11,
-    "price_formatted": "R$808,11",
+    "price_formatted": "R$ 808,11",
     "budget": "600a1000",
     "drop": "feminino",
     "weight": "feminino",
@@ -2655,7 +2659,7 @@ var SHOES = [
     "affiliate_links": {
       "amazon": {
         "url": "https://amzn.to/4rknGyU",
-        "price": 0.0
+        "price": 808.11
       }
     },
     "rating": "feminino",
@@ -2684,15 +2688,15 @@ var SHOES = [
     "model": "",
     "version": "masculino",
     "name": "Pegasus 41",
-    "slug": "",
+    "slug": "nike-pegasus-41",
     "category": "",
     "sexo": [
       "masculino"
     ],
     "discipline": [],
-    "price": 1346.0,
-    "price_formatted": "R$1.346",
-    "budget": "acima1000",
+    "price": 664.99,
+    "price_formatted": "R$ 664,99",
+    "budget": "600a1000",
     "drop": "masculino",
     "weight": "masculino",
     "levels": [
@@ -2719,8 +2723,12 @@ var SHOES = [
     ],
     "affiliate_links": {
       "amazon": {
-        "url": "https://amzn.to/4bnDb44",
-        "price": 0.0
+        "url": "https://amzn.to/4lMlD5y",
+        "price": 84461.0
+      },
+      "oficial": {
+        "url": "https://tidd.ly/47bxsfp",
+        "price": 664.99
       }
     },
     "rating": "masculino",
@@ -2728,7 +2736,7 @@ var SHOES = [
     "release_year": "masculino",
     "is_best_seller": true,
     "images": [
-      "https://images-na.ssl-images-amazon.com/images/I/71r5ZHElneL.jpg"
+      "https://m.media-amazon.com/images/I/71I5TWi+77L._AC_SY500_.jpg"
     ],
     "emoji": "👟",
     "tags": [
@@ -2747,16 +2755,85 @@ var SHOES = [
   {
     "brand": "NIKE",
     "model": "",
+    "version": "feminino",
+    "name": "Pegasus 41",
+    "slug": "nike-pegasus-41",
+    "category": "",
+    "sexo": [
+      "feminino"
+    ],
+    "discipline": [],
+    "price": 683.99,
+    "price_formatted": "R$ 683,99",
+    "budget": "600a1000",
+    "drop": "feminino",
+    "weight": "feminino",
+    "levels": [
+      "iniciante",
+      "intermediario",
+      "avancado"
+    ],
+    "terrenos": [
+      "asfalto",
+      "pista",
+      "esteira",
+      "mista"
+    ],
+    "pisadas": [
+      "neutra",
+      "naosabe"
+    ],
+    "priors": [
+      "custo",
+      "durabilidade"
+    ],
+    "technologies": [
+      "feminino"
+    ],
+    "affiliate_links": {
+      "amazon": {
+        "url": "https://amzn.to/40D0qkP",
+        "price": 728.08
+      },
+      "oficial": {
+        "url": "https://tidd.ly/4lAM120",
+        "price": 683.99
+      }
+    },
+    "rating": "feminino",
+    "reviews_count": "feminino",
+    "release_year": "feminino",
+    "is_best_seller": false,
+    "images": [
+      "https://m.media-amazon.com/images/I/51uEAp-HMPL._AC_SY500_.jpg"
+    ],
+    "emoji": "👟",
+    "tags": [
+      "Clássico",
+      "Versátil"
+    ],
+    "description": "O tênis de corrida mais vendido do mundo. Versátil, durável e confortável para qualquer treino.",
+    "reason": "O tênis de corrida mais vendido do mundo. Versátil, durável e confortável para qualquer treino.",
+    "pros": [
+      "feminino"
+    ],
+    "cons": [
+      "feminino"
+    ]
+  },
+  {
+    "brand": "NIKE",
+    "model": "",
     "version": "masculino",
     "name": "Reactx Infinity Run 4",
-    "slug": "",
+    "slug": "nike-reactx-infinity-run-4",
     "category": "",
     "sexo": [
       "masculino"
     ],
     "discipline": [],
     "price": 1396.0,
-    "price_formatted": "R$1.396",
+    "price_formatted": "R$ 1.396,00",
     "budget": "acima1000",
     "drop": "masculino",
     "weight": "masculino",
@@ -2784,7 +2861,7 @@ var SHOES = [
     "affiliate_links": {
       "amazon": {
         "url": "https://amzn.to/4cYE30i",
-        "price": 0.0
+        "price": 1396.0
       }
     },
     "rating": "masculino",
@@ -2813,14 +2890,14 @@ var SHOES = [
     "model": "",
     "version": "unissex",
     "name": "Reactx Infinity Run 4",
-    "slug": "",
+    "slug": "nike-reactx-infinity-run-4",
     "category": "",
     "sexo": [
       "unissex"
     ],
     "discipline": [],
     "price": 1284.0,
-    "price_formatted": "R$1.284",
+    "price_formatted": "R$ 1.284,00",
     "budget": "acima1000",
     "drop": "unissex",
     "weight": "unissex",
@@ -2848,7 +2925,7 @@ var SHOES = [
     "affiliate_links": {
       "amazon": {
         "url": "https://amzn.to/3MHgLl9",
-        "price": 0.0
+        "price": 1284.0
       }
     },
     "rating": "unissex",
@@ -2877,14 +2954,14 @@ var SHOES = [
     "model": "",
     "version": "masculino",
     "name": "Vaporfly 3",
-    "slug": "",
+    "slug": "nike-vaporfly-3",
     "category": "",
     "sexo": [
       "masculino"
     ],
     "discipline": [],
     "price": 1220.0,
-    "price_formatted": "R$1.220",
+    "price_formatted": "R$ 1.220,00",
     "budget": "acima1000",
     "drop": "masculino",
     "weight": "masculino",
@@ -2911,7 +2988,7 @@ var SHOES = [
     "affiliate_links": {
       "amazon": {
         "url": "https://amzn.to/46AElXp",
-        "price": 0.0
+        "price": 1220.0
       }
     },
     "rating": "masculino",
@@ -2940,15 +3017,117 @@ var SHOES = [
     "brand": "NIKE",
     "model": "",
     "version": "masculino",
+    "name": "Vomero Plus",
+    "slug": "nike-vomero-plus",
+    "category": "",
+    "sexo": [
+      "masculino"
+    ],
+    "discipline": [],
+    "price": 123499.0,
+    "price_formatted": "R$ 123.499,00",
+    "budget": "acima1000",
+    "drop": "masculino",
+    "weight": "masculino",
+    "levels": [],
+    "terrenos": [],
+    "pisadas": [],
+    "priors": [],
+    "technologies": [
+      "masculino"
+    ],
+    "affiliate_links": {
+      "amazon": {
+        "url": "https://amzn.to/4dt98th",
+        "price": 186073.0
+      },
+      "oficial": {
+        "url": "https://tidd.ly/3PaPl86",
+        "price": 123499.0
+      }
+    },
+    "rating": "masculino",
+    "reviews_count": "masculino",
+    "release_year": "masculino",
+    "is_best_seller": false,
+    "images": [
+      "https://imgnike-a.akamaihd.net/1920x1920/05924154A2.jpg"
+    ],
+    "emoji": "👟",
+    "tags": [],
+    "description": "",
+    "reason": "",
+    "pros": [
+      "masculino"
+    ],
+    "cons": [
+      "masculino"
+    ]
+  },
+  {
+    "brand": "NIKE",
+    "model": "",
+    "version": "feminino",
+    "name": "Vomero Plus",
+    "slug": "nike-vomero-plus",
+    "category": "",
+    "sexo": [
+      "feminino"
+    ],
+    "discipline": [],
+    "price": 1813.66,
+    "price_formatted": "R$ 1.813,66",
+    "budget": "acima1000",
+    "drop": "feminino",
+    "weight": "feminino",
+    "levels": [],
+    "terrenos": [],
+    "pisadas": [],
+    "priors": [],
+    "technologies": [
+      "feminino"
+    ],
+    "affiliate_links": {
+      "amazon": {
+        "url": "https://amzn.to/4cXLGEl",
+        "price": 1813.66
+      },
+      "oficial": {
+        "url": "https://tidd.ly/4lAM120",
+        "price": 123499.0
+      }
+    },
+    "rating": "feminino",
+    "reviews_count": "feminino",
+    "release_year": "feminino",
+    "is_best_seller": false,
+    "images": [
+      "https://imgnike-a.akamaihd.net/360x360/059366NEA2.jpg"
+    ],
+    "emoji": "👟",
+    "tags": [],
+    "description": "",
+    "reason": "",
+    "pros": [
+      "feminino"
+    ],
+    "cons": [
+      "feminino"
+    ]
+  },
+  {
+    "brand": "NIKE",
+    "model": "",
+    "version": "masculino",
     "name": "ZoomX Ultrafly Trail",
-    "slug": "",
+    "slug": "nike-zoomx-ultrafly-trail",
     "category": "",
     "sexo": [
       "masculino"
     ],
     "discipline": [],
     "price": 2171.0,
-    "price_formatted": "R$2.171",
+    "price_formatted": "R$ 2.171,00",
     "budget": "acima1000",
     "drop": "masculino",
     "weight": "masculino",
@@ -2970,7 +3149,7 @@ var SHOES = [
     "affiliate_links": {
       "amazon": {
         "url": "https://amzn.to/47nlgrQ",
-        "price": 0.0
+        "price": 2171.0
       }
     },
     "rating": "masculino",
@@ -2999,14 +3178,14 @@ var SHOES = [
     "model": "",
     "version": "masculino",
     "name": "Corre Grafeno 3",
-    "slug": "",
+    "slug": "olympikus-corre-grafeno-3",
     "category": "",
     "sexo": [
       "masculino"
     ],
     "discipline": [],
     "price": 600.0,
-    "price_formatted": "R$600",
+    "price_formatted": "R$ 600,00",
     "budget": "300a600",
     "drop": "masculino",
     "weight": "masculino",
@@ -3032,7 +3211,7 @@ var SHOES = [
     "affiliate_links": {
       "amazon": {
         "url": "https://amzn.to/3NiTshD",
-        "price": 0.0
+        "price": 600.0
       }
     },
     "rating": "masculino",
@@ -3061,14 +3240,14 @@ var SHOES = [
     "model": "",
     "version": "feminino",
     "name": "Pride",
-    "slug": "",
+    "slug": "olympikus-pride",
     "category": "",
     "sexo": [
       "feminino"
     ],
     "discipline": [],
     "price": 285.0,
-    "price_formatted": "R$285",
+    "price_formatted": "R$ 285,00",
     "budget": "ate300",
     "drop": "feminino",
     "weight": "feminino",
@@ -3094,7 +3273,7 @@ var SHOES = [
     "affiliate_links": {
       "amazon": {
         "url": "https://amzn.to/4rKTg9U",
-        "price": 0.0
+        "price": 285.0
       }
     },
     "rating": "feminino",
@@ -3123,14 +3302,14 @@ var SHOES = [
     "model": "",
     "version": "masculino",
     "name": "Challenger",
-    "slug": "",
+    "slug": "olympikus-challenger",
     "category": "",
     "sexo": [
       "masculino"
     ],
     "discipline": [],
     "price": 249.9,
-    "price_formatted": "R$249,90",
+    "price_formatted": "R$ 249,90",
     "budget": "ate300",
     "drop": "masculino",
     "weight": "masculino",
@@ -3156,7 +3335,7 @@ var SHOES = [
     "affiliate_links": {
       "amazon": {
         "url": "https://amzn.to/4s630fg",
-        "price": 0.0
+        "price": 249.9
       }
     },
     "rating": "masculino",
@@ -3185,14 +3364,14 @@ var SHOES = [
     "model": "",
     "version": "masculino",
     "name": "Orbita",
-    "slug": "",
+    "slug": "olympikus-orbita",
     "category": "",
     "sexo": [
       "masculino"
     ],
     "discipline": [],
     "price": 229.9,
-    "price_formatted": "R$229,90",
+    "price_formatted": "R$ 229,90",
     "budget": "ate300",
     "drop": "masculino",
     "weight": "masculino",
@@ -3217,7 +3396,7 @@ var SHOES = [
     "affiliate_links": {
       "amazon": {
         "url": "https://amzn.to/47k1FZG",
-        "price": 0.0
+        "price": 229.9
       }
     },
     "rating": "masculino",
@@ -3246,14 +3425,14 @@ var SHOES = [
     "model": "",
     "version": "feminino",
     "name": "Essential",
-    "slug": "",
+    "slug": "olympikus-essential",
     "category": "",
     "sexo": [
       "feminino"
     ],
     "discipline": [],
     "price": 249.9,
-    "price_formatted": "R$249,90",
+    "price_formatted": "R$ 249,90",
     "budget": "ate300",
     "drop": "feminino",
     "weight": "feminino",
@@ -3280,7 +3459,7 @@ var SHOES = [
     "affiliate_links": {
       "amazon": {
         "url": "https://amzn.to/4sz9HX0",
-        "price": 0.0
+        "price": 249.9
       }
     },
     "rating": "feminino",
@@ -3310,14 +3489,14 @@ var SHOES = [
     "model": "",
     "version": "unissex",
     "name": "Challenger 5",
-    "slug": "",
+    "slug": "olympikus-challenger-5",
     "category": "",
     "sexo": [
       "unissex"
     ],
     "discipline": [],
     "price": 218.4,
-    "price_formatted": "R$218,40",
+    "price_formatted": "R$ 218,40",
     "budget": "ate300",
     "drop": "unissex",
     "weight": "unissex",
@@ -3344,7 +3523,7 @@ var SHOES = [
     "affiliate_links": {
       "amazon": {
         "url": "https://amzn.to/3NmoBAR",
-        "price": 0.0
+        "price": 218.4
       }
     },
     "rating": "unissex",
@@ -3374,14 +3553,14 @@ var SHOES = [
     "model": "",
     "version": "masculino",
     "name": "Velocity Nitro 3",
-    "slug": "",
+    "slug": "puma-velocity-nitro-3",
     "category": "",
     "sexo": [
       "masculino"
     ],
     "discipline": [],
     "price": 843.0,
-    "price_formatted": "R$843",
+    "price_formatted": "R$ 843,00",
     "budget": "600a1000",
     "drop": "masculino",
     "weight": "masculino",
@@ -3409,7 +3588,7 @@ var SHOES = [
     "affiliate_links": {
       "amazon": {
         "url": "https://amzn.to/4csjpWe",
-        "price": 0.0
+        "price": 843.0
       }
     },
     "rating": "masculino",
@@ -3438,14 +3617,14 @@ var SHOES = [
     "model": "",
     "version": "unissex",
     "name": "Aviator Light Pro BDP",
-    "slug": "",
+    "slug": "puma-aviator-light-pro-bdp",
     "category": "",
     "sexo": [
       "unissex"
     ],
     "discipline": [],
     "price": 220.59,
-    "price_formatted": "R$220,59",
+    "price_formatted": "R$ 220,59",
     "budget": "ate300",
     "drop": "unissex",
     "weight": "unissex",
@@ -3472,7 +3651,7 @@ var SHOES = [
     "affiliate_links": {
       "amazon": {
         "url": "https://amzn.to/4biWkmL",
-        "price": 0.0
+        "price": 220.59
       }
     },
     "rating": "unissex",
@@ -3502,14 +3681,14 @@ var SHOES = [
     "model": "",
     "version": "masculino",
     "name": "Speedcross 6 Trail",
-    "slug": "",
+    "slug": "salomon-speedcross-6-trail",
     "category": "",
     "sexo": [
       "masculino"
     ],
     "discipline": [],
     "price": 1741.0,
-    "price_formatted": "R$1.741",
+    "price_formatted": "R$ 1.741,00",
     "budget": "acima1000",
     "drop": "masculino",
     "weight": "masculino",
@@ -3534,7 +3713,7 @@ var SHOES = [
     "affiliate_links": {
       "amazon": {
         "url": "https://amzn.to/409UZJS",
-        "price": 0.0
+        "price": 1741.0
       }
     },
     "rating": "masculino",
@@ -3563,14 +3742,14 @@ var SHOES = [
     "model": "",
     "version": "masculino",
     "name": "Ultra Glide 2",
-    "slug": "",
+    "slug": "salomon-ultra-glide-2",
     "category": "",
     "sexo": [
       "masculino"
     ],
     "discipline": [],
     "price": 1043.0,
-    "price_formatted": "R$1.043",
+    "price_formatted": "R$ 1.043,00",
     "budget": "acima1000",
     "drop": "masculino",
     "weight": "masculino",
@@ -3595,7 +3774,7 @@ var SHOES = [
     "affiliate_links": {
       "amazon": {
         "url": "https://amzn.to/3MVPADc",
-        "price": 0.0
+        "price": 1043.0
       }
     },
     "rating": "masculino",
@@ -3624,14 +3803,14 @@ var SHOES = [
     "model": "",
     "version": "masculino",
     "name": "Endorphin Speed 4",
-    "slug": "",
+    "slug": "saucony-endorphin-speed-4",
     "category": "",
     "sexo": [
       "masculino"
     ],
     "discipline": [],
     "price": 1481.0,
-    "price_formatted": "R$1.481",
+    "price_formatted": "R$ 1.481,00",
     "budget": "acima1000",
     "drop": "masculino",
     "weight": "masculino",
@@ -3655,7 +3834,7 @@ var SHOES = [
     "affiliate_links": {
       "amazon": {
         "url": "https://amzn.to/4aZuoUF",
-        "price": 0.0
+        "price": 1481.0
       }
     },
     "rating": "masculino",
@@ -3684,14 +3863,14 @@ var SHOES = [
     "model": "",
     "version": "masculino",
     "name": "Arch Fit Orvan Drex",
-    "slug": "",
+    "slug": "skechers-arch-fit-orvan-drex",
     "category": "",
     "sexo": [
       "masculino"
     ],
     "discipline": [],
     "price": 399.9,
-    "price_formatted": "R$399,90",
+    "price_formatted": "R$ 399,90",
     "budget": "300a600",
     "drop": "masculino",
     "weight": "masculino",
@@ -3716,7 +3895,7 @@ var SHOES = [
     "affiliate_links": {
       "amazon": {
         "url": "https://amzn.to/4aY4ult",
-        "price": 0.0
+        "price": 399.9
       }
     },
     "rating": "masculino",
@@ -3745,14 +3924,14 @@ var SHOES = [
     "model": "",
     "version": "feminino",
     "name": "Charged Great",
-    "slug": "",
+    "slug": "under-armour-charged-great",
     "category": "",
     "sexo": [
       "feminino"
     ],
     "discipline": [],
     "price": 269.9,
-    "price_formatted": "R$269,90",
+    "price_formatted": "R$ 269,90",
     "budget": "ate300",
     "drop": "feminino",
     "weight": "feminino",
@@ -3778,7 +3957,7 @@ var SHOES = [
     "affiliate_links": {
       "amazon": {
         "url": "https://amzn.to/4rYjl5o",
-        "price": 0.0
+        "price": 269.9
       }
     },
     "rating": "feminino",
@@ -3808,14 +3987,14 @@ var SHOES = [
     "model": "",
     "version": "masculino",
     "name": "Charged Hit SE",
-    "slug": "",
+    "slug": "under-armour-charged-hit-se",
     "category": "",
     "sexo": [
       "masculino"
     ],
     "discipline": [],
     "price": 469.9,
-    "price_formatted": "R$469,90",
+    "price_formatted": "R$ 469,90",
     "budget": "300a600",
     "drop": "masculino",
     "weight": "masculino",
@@ -3841,7 +4020,7 @@ var SHOES = [
     "affiliate_links": {
       "amazon": {
         "url": "https://amzn.to/4bd2MeK",
-        "price": 0.0
+        "price": 469.9
       }
     },
     "rating": "masculino",
@@ -3870,14 +4049,14 @@ var SHOES = [
     "model": "",
     "version": "unissex",
     "name": "Marte",
-    "slug": "",
+    "slug": "olympikus-marte",
     "category": "",
     "sexo": [
       "unissex"
     ],
     "discipline": [],
     "price": 189.87,
-    "price_formatted": "R$189,87",
+    "price_formatted": "R$ 189,87",
     "budget": "ate300",
     "drop": "unissex",
     "weight": "unissex",
@@ -3900,11 +4079,11 @@ var SHOES = [
     "affiliate_links": {
       "amazon": {
         "url": "https://amzn.to/4lBTTR7",
-        "price": 0.0
+        "price": 189.87
       },
       "oficial": {
         "url": "https://tidd.ly/4bmcWtJ",
-        "price": 0.0
+        "price": 19999.0
       }
     },
     "rating": "unissex",
@@ -3934,14 +4113,14 @@ var SHOES = [
     "model": "",
     "version": "unissex",
     "name": "Pride 4",
-    "slug": "",
+    "slug": "olympikus-pride-4",
     "category": "",
     "sexo": [
       "unissex"
     ],
     "discipline": [],
     "price": 339.8,
-    "price_formatted": "R$339,80",
+    "price_formatted": "R$ 339,80",
     "budget": "300a600",
     "drop": "unissex",
     "weight": "unissex",
@@ -3968,11 +4147,11 @@ var SHOES = [
     "affiliate_links": {
       "amazon": {
         "url": "https://amzn.to/3OVO4Sa",
-        "price": 0.0
+        "price": 339.8
       },
       "oficial": {
         "url": "https://tidd.ly/4bwL2LU",
-        "price": 0.0
+        "price": 29999.0
       }
     },
     "rating": "unissex",
@@ -4000,14 +4179,14 @@ var SHOES = [
     "model": "",
     "version": "unissex",
     "name": "530",
-    "slug": "",
+    "slug": "new-balance-530",
     "category": "",
     "sexo": [
       "unissex"
     ],
     "discipline": [],
     "price": 699.9,
-    "price_formatted": "R$699,90",
+    "price_formatted": "R$ 699,90",
     "budget": "600a1000",
     "drop": "unissex",
     "weight": "unissex",
@@ -4034,7 +4213,7 @@ var SHOES = [
     "affiliate_links": {
       "amazon": {
         "url": "https://amzn.to/479rJa7",
-        "price": 0.0
+        "price": 699.9
       }
     },
     "rating": "unissex",
@@ -4064,14 +4243,14 @@ var SHOES = [
     "model": "",
     "version": "unissex",
     "name": "Base Ride",
-    "slug": "",
+    "slug": "mizuno-base-ride",
     "category": "",
     "sexo": [
       "unissex"
     ],
     "discipline": [],
     "price": 649.9,
-    "price_formatted": "R$649,90",
+    "price_formatted": "R$ 649,90",
     "budget": "600a1000",
     "drop": "unissex",
     "weight": "unissex",
@@ -4098,11 +4277,11 @@ var SHOES = [
     "affiliate_links": {
       "amazon": {
         "url": "https://amzn.to/4s2XGJx",
-        "price": 0.0
+        "price": 649.9
       },
       "oficial": {
         "url": "https://tidd.ly/4b93ye7",
-        "price": 0.0
+        "price": 44999.0
       }
     },
     "rating": "unissex",
@@ -4132,14 +4311,14 @@ var SHOES = [
     "model": "",
     "version": "feminino",
     "name": "Creation 26",
-    "slug": "",
+    "slug": "mizuno-creation-26",
     "category": "",
     "sexo": [
       "feminino"
     ],
     "discipline": [],
     "price": 699.99,
-    "price_formatted": "R$699,99",
+    "price_formatted": "R$ 699,99",
     "budget": "600a1000",
     "drop": "feminino",
     "weight": "feminino",
@@ -4165,11 +4344,11 @@ var SHOES = [
     "affiliate_links": {
       "amazon": {
         "url": "https://amzn.to/46KPFjN",
-        "price": 0.0
+        "price": 699.99
       },
       "oficial": {
         "url": "https://tidd.ly/4lyvEmO",
-        "price": 0.0
+        "price": 67999.0
       }
     },
     "rating": "feminino",
@@ -4199,14 +4378,14 @@ var SHOES = [
     "model": "",
     "version": "unissex",
     "name": "Creation 26",
-    "slug": "",
+    "slug": "mizuno-creation-26",
     "category": "",
     "sexo": [
       "unissex"
     ],
     "discipline": [],
     "price": 679.99,
-    "price_formatted": "R$679,99",
+    "price_formatted": "R$ 679,99",
     "budget": "600a1000",
     "drop": "unissex",
     "weight": "unissex",
@@ -4232,11 +4411,11 @@ var SHOES = [
     "affiliate_links": {
       "amazon": {
         "url": "https://amzn.to/412oc9N",
-        "price": 0.0
+        "price": 679.99
       },
       "oficial": {
         "url": "https://tidd.ly/4bIoSY4",
-        "price": 0.0
+        "price": 67999.0
       }
     },
     "rating": "unissex",
@@ -4266,14 +4445,14 @@ var SHOES = [
     "model": "",
     "version": "unissex",
     "name": "Superblast 2",
-    "slug": "",
+    "slug": "asics-superblast-2",
     "category": "",
     "sexo": [
       "unissex"
     ],
     "discipline": [],
     "price": 1552.85,
-    "price_formatted": "R$1.552,85",
+    "price_formatted": "R$ 1.552,85",
     "budget": "acima1000",
     "drop": "unissex",
     "weight": "unissex",
@@ -4299,7 +4478,7 @@ var SHOES = [
     "affiliate_links": {
       "amazon": {
         "url": "https://amzn.to/4d7EIN1",
-        "price": 0.0
+        "price": 1552.85
       }
     },
     "rating": "unissex",
@@ -4329,14 +4508,14 @@ var SHOES = [
     "model": "",
     "version": "unissex",
     "name": "Neo Zen",
-    "slug": "",
+    "slug": "mizuno-neo-zen",
     "category": "",
     "sexo": [
       "unissex"
     ],
     "discipline": [],
     "price": 1402.88,
-    "price_formatted": "R$1.402,88",
+    "price_formatted": "R$ 1.402,88",
     "budget": "acima1000",
     "drop": "unissex",
     "weight": "unissex",
@@ -4362,7 +4541,7 @@ var SHOES = [
     "affiliate_links": {
       "amazon": {
         "url": "https://amzn.to/4saqM9C",
-        "price": 0.0
+        "price": 1402.88
       }
     },
     "rating": "unissex",
@@ -4392,7 +4571,7 @@ var SHOES = [
     "model": "",
     "version": "unissex",
     "name": "Rua",
-    "slug": "",
+    "slug": "olympikus-rua",
     "category": "",
     "sexo": [
       "unissex"
@@ -4425,7 +4604,7 @@ var SHOES = [
     "affiliate_links": {
       "amazon": {
         "url": "https://amzn.to/4un2UBh",
-        "price": 0.0
+        "price": 204.9
       }
     },
     "rating": "unissex",
@@ -4455,14 +4634,14 @@ var SHOES = [
     "model": "",
     "version": "unissex",
     "name": "Wave Dynasty 7",
-    "slug": "",
+    "slug": "mizuno-wave-dynasty-7",
     "category": "",
     "sexo": [
       "unissex"
     ],
     "discipline": [],
     "price": 379.99,
-    "price_formatted": "R$379,99",
+    "price_formatted": "R$ 379,99",
     "budget": "300a600",
     "drop": "unissex",
     "weight": "unissex",
@@ -4490,7 +4669,11 @@ var SHOES = [
     "affiliate_links": {
       "amazon": {
         "url": "https://amzn.to/4105W0O",
-        "price": 0.0
+        "price": 379.99
+      },
+      "oficial": {
+        "url": "https://tidd.ly/4736aI1",
+        "price": 37999.0
       }
     },
     "rating": "unissex",
@@ -4520,14 +4703,14 @@ var SHOES = [
     "model": "",
     "version": "unissex",
     "name": "Enigma 2",
-    "slug": "",
+    "slug": "mizuno-enigma-2",
     "category": "",
     "sexo": [
       "unissex"
     ],
     "discipline": [],
-    "price": 399.99,
-    "price_formatted": "R$399,99",
+    "price": 29999.0,
+    "price_formatted": "R$ 29.999,00",
     "budget": "300a600",
     "drop": "unissex",
     "weight": "unissex",
@@ -4553,7 +4736,11 @@ var SHOES = [
     "affiliate_links": {
       "amazon": {
         "url": "https://amzn.to/47GParh",
-        "price": 0.0
+        "price": 29999.0
+      },
+      "oficial": {
+        "url": "https://tidd.ly/4bbBUgI",
+        "price": 29999.0
       }
     },
     "rating": "unissex",
@@ -4583,14 +4770,14 @@ var SHOES = [
     "model": "",
     "version": "unissex",
     "name": "Wave Prophecy Beta 2",
-    "slug": "",
+    "slug": "mizuno-wave-prophecy-beta-2",
     "category": "",
     "sexo": [
       "unissex"
     ],
     "discipline": [],
     "price": 1299.99,
-    "price_formatted": "R$1.299,99",
+    "price_formatted": "R$ 1.299,99",
     "budget": "acima1000",
     "drop": "unissex",
     "weight": "unissex",
@@ -4615,11 +4802,11 @@ var SHOES = [
     "affiliate_links": {
       "amazon": {
         "url": "https://amzn.to/40Z6STb",
-        "price": 0.0
+        "price": 1299.99
       },
       "oficial": {
         "url": "https://tidd.ly/3NAinxj",
-        "price": 0.0
+        "price": 129999.0
       }
     },
     "rating": "unissex",
@@ -4649,14 +4836,14 @@ var SHOES = [
     "model": "",
     "version": "feminino",
     "name": "Glow 3",
-    "slug": "",
+    "slug": "mizuno-glow-3",
     "category": "",
     "sexo": [
       "feminino"
     ],
     "discipline": [],
     "price": 399.99,
-    "price_formatted": "R$399,99",
+    "price_formatted": "R$ 399,99",
     "budget": "300a600",
     "drop": "feminino",
     "weight": "feminino",
@@ -4682,11 +4869,11 @@ var SHOES = [
     "affiliate_links": {
       "amazon": {
         "url": "https://amzn.to/4sE1b95",
-        "price": 0.0
+        "price": 399.99
       },
       "oficial": {
         "url": "https://tidd.ly/3P0R9QY",
-        "price": 0.0
+        "price": 39999.0
       }
     },
     "rating": "feminino",
@@ -4716,14 +4903,14 @@ var SHOES = [
     "model": "",
     "version": "masculino",
     "name": "Wave Daichi 9",
-    "slug": "",
+    "slug": "mizuno-wave-daichi-9",
     "category": "",
     "sexo": [
       "masculino"
     ],
     "discipline": [],
     "price": 699.99,
-    "price_formatted": "R$699,99",
+    "price_formatted": "R$ 699,99",
     "budget": "600a1000",
     "drop": "masculino",
     "weight": "masculino",
@@ -4748,11 +4935,11 @@ var SHOES = [
     "affiliate_links": {
       "amazon": {
         "url": "https://amzn.to/3N4KK6K",
-        "price": 0.0
+        "price": 699.99
       },
       "oficial": {
         "url": "https://tidd.ly/4sdgExe",
-        "price": 0.0
+        "price": 69999.0
       }
     },
     "rating": "masculino",
@@ -4782,14 +4969,14 @@ var SHOES = [
     "model": "",
     "version": "feminino",
     "name": "Wave Daichi 9",
-    "slug": "",
+    "slug": "mizuno-wave-daichi-9",
     "category": "",
     "sexo": [
       "feminino"
     ],
     "discipline": [],
     "price": 699.99,
-    "price_formatted": "R$699,99",
+    "price_formatted": "R$ 699,99",
     "budget": "600a1000",
     "drop": "feminino",
     "weight": "feminino",
@@ -4814,11 +5001,11 @@ var SHOES = [
     "affiliate_links": {
       "amazon": {
         "url": "https://amzn.to/4s6fumP",
-        "price": 0.0
+        "price": 699.99
       },
       "oficial": {
         "url": "https://tidd.ly/4s4637n",
-        "price": 0.0
+        "price": 69999.0
       }
     },
     "rating": "feminino",
@@ -4848,14 +5035,14 @@ var SHOES = [
     "model": "",
     "version": "masculino",
     "name": "1080 v15",
-    "slug": "",
+    "slug": "new-balance-1080-v15",
     "category": "",
     "sexo": [
       "masculino"
     ],
     "discipline": [],
     "price": 1299.0,
-    "price_formatted": "R$1.299",
+    "price_formatted": "R$ 1.299,00",
     "budget": "acima1000",
     "drop": "masculino",
     "weight": "masculino",
@@ -4880,7 +5067,7 @@ var SHOES = [
     "affiliate_links": {
       "amazon": {
         "url": "https://amzn.to/4uI7lqG",
-        "price": 0.0
+        "price": 1299.0
       }
     },
     "rating": "masculino",
@@ -4911,14 +5098,14 @@ var SHOES = [
     "model": "",
     "version": "feminino",
     "name": "1080 v15",
-    "slug": "",
+    "slug": "new-balance-1080-v15",
     "category": "",
     "sexo": [
       "feminino"
     ],
     "discipline": [],
     "price": 1300.0,
-    "price_formatted": "R$1.300",
+    "price_formatted": "R$ 1.300,00",
     "budget": "acima1000",
     "drop": "feminino",
     "weight": "feminino",
@@ -4943,7 +5130,7 @@ var SHOES = [
     "affiliate_links": {
       "amazon": {
         "url": "https://amzn.to/4b8JVD5",
-        "price": 0.0
+        "price": 1300.0
       }
     },
     "rating": "feminino",
@@ -4974,14 +5161,14 @@ var SHOES = [
     "model": "",
     "version": "feminino",
     "name": "FuelCell SuperComp Elite v5",
-    "slug": "",
+    "slug": "new-balance-fuelcell-supercomp-elite-v5",
     "category": "",
     "sexo": [
       "feminino"
     ],
     "discipline": [],
     "price": 2199.0,
-    "price_formatted": "R$2.199",
+    "price_formatted": "R$ 2.199,00",
     "budget": "acima1000",
     "drop": "feminino",
     "weight": "feminino",
@@ -5005,7 +5192,7 @@ var SHOES = [
     "affiliate_links": {
       "amazon": {
         "url": "https://amzn.to/3NnNw78",
-        "price": 0.0
+        "price": 2199.0
       }
     },
     "rating": "feminino",
@@ -5036,14 +5223,14 @@ var SHOES = [
     "model": "",
     "version": "masculino",
     "name": "Fresh Foam X Hierro v8",
-    "slug": "",
+    "slug": "new-balance-fresh-foam-x-hierro-v8",
     "category": "",
     "sexo": [
       "masculino"
     ],
     "discipline": [],
     "price": 1281.86,
-    "price_formatted": "R$1.281,86",
+    "price_formatted": "R$ 1.281,86",
     "budget": "acima1000",
     "drop": "masculino",
     "weight": "masculino",
@@ -5069,7 +5256,7 @@ var SHOES = [
     "affiliate_links": {
       "amazon": {
         "url": "https://amzn.to/4sHcrBo",
-        "price": 0.0
+        "price": 1281.86
       },
       "oficial": {
         "url": "https://amzn.to/4sPqepX",
@@ -5104,14 +5291,14 @@ var SHOES = [
     "model": "",
     "version": "feminino",
     "name": "New Balance Rebel v5",
-    "slug": "",
+    "slug": "new-balance-new-balance-rebel-v5",
     "category": "",
     "sexo": [
       "feminino"
     ],
     "discipline": [],
     "price": 989.79,
-    "price_formatted": "R$989,79",
+    "price_formatted": "R$ 989,79",
     "budget": "600a1000",
     "drop": "feminino",
     "weight": "feminino",
@@ -5135,7 +5322,7 @@ var SHOES = [
     "affiliate_links": {
       "amazon": {
         "url": "https://amzn.to/40rgjL1",
-        "price": 0.0
+        "price": 989.79
       }
     },
     "rating": "feminino",
@@ -5166,14 +5353,14 @@ var SHOES = [
     "model": "",
     "version": "masculino",
     "name": "New Balance Rebel v5",
-    "slug": "",
+    "slug": "new-balance-new-balance-rebel-v5",
     "category": "",
     "sexo": [
       "masculino"
     ],
     "discipline": [],
     "price": 1099.87,
-    "price_formatted": "R$1.099,87",
+    "price_formatted": "R$ 1.099,87",
     "budget": "acima1000",
     "drop": "masculino",
     "weight": "masculino",
@@ -5197,7 +5384,7 @@ var SHOES = [
     "affiliate_links": {
       "amazon": {
         "url": "https://amzn.to/4s96D3T",
-        "price": 0.0
+        "price": 1099.87
       }
     },
     "rating": "masculino",
@@ -5228,14 +5415,14 @@ var SHOES = [
     "model": "",
     "version": "masculino",
     "name": "Hoka Clifton 10",
-    "slug": "",
+    "slug": "hoka-hoka-clifton-10",
     "category": "",
     "sexo": [
       "masculino"
     ],
     "discipline": [],
     "price": 1300.0,
-    "price_formatted": "R$1.300",
+    "price_formatted": "R$ 1.300,00",
     "budget": "acima1000",
     "drop": "masculino",
     "weight": "masculino",
@@ -5260,7 +5447,7 @@ var SHOES = [
     "affiliate_links": {
       "amazon": {
         "url": "https://amzn.to/3Ny1lzU",
-        "price": 0.0
+        "price": 1300.0
       }
     },
     "rating": "masculino",
@@ -5291,14 +5478,14 @@ var SHOES = [
     "model": "",
     "version": "feminino",
     "name": "Hoka Clifton 10",
-    "slug": "",
+    "slug": "hoka-hoka-clifton-10",
     "category": "",
     "sexo": [
       "feminino"
     ],
     "discipline": [],
     "price": 1299.99,
-    "price_formatted": "R$1.299,99",
+    "price_formatted": "R$ 1.299,99",
     "budget": "acima1000",
     "drop": "feminino",
     "weight": "feminino",
@@ -5323,7 +5510,7 @@ var SHOES = [
     "affiliate_links": {
       "amazon": {
         "url": "https://amzn.to/4sErZWD",
-        "price": 0.0
+        "price": 1299.99
       }
     },
     "rating": "feminino",
@@ -5354,14 +5541,14 @@ var SHOES = [
     "model": "",
     "version": "unissex",
     "name": "Hoka Rocket X 3",
-    "slug": "",
+    "slug": "hoka-hoka-rocket-x-3",
     "category": "",
     "sexo": [
       "unissex"
     ],
     "discipline": [],
     "price": 2400.0,
-    "price_formatted": "R$2.400",
+    "price_formatted": "R$ 2.400,00",
     "budget": "acima1000",
     "drop": "unissex",
     "weight": "unissex",
@@ -5385,7 +5572,7 @@ var SHOES = [
     "affiliate_links": {
       "amazon": {
         "url": "https://amzn.to/46WrNd3",
-        "price": 0.0
+        "price": 2400.0
       }
     },
     "rating": "unissex",
@@ -5416,7 +5603,7 @@ var SHOES = [
     "model": "",
     "version": "masculino|feminino",
     "name": "Saucony Endorphin Pro 4",
-    "slug": "",
+    "slug": "saucony-saucony-endorphin-pro-4",
     "category": "",
     "sexo": [
       "masculino",
@@ -5424,7 +5611,7 @@ var SHOES = [
     ],
     "discipline": [],
     "price": 1524.0,
-    "price_formatted": "R$1.524",
+    "price_formatted": "R$ 1.524,00",
     "budget": "acima1000",
     "drop": "masculino|feminino",
     "weight": "masculino|feminino",
@@ -5449,7 +5636,7 @@ var SHOES = [
     "affiliate_links": {
       "amazon": {
         "url": "https://amzn.to/4uAu8EP",
-        "price": 0.0
+        "price": 1524.0
       }
     },
     "rating": "masculino|feminino",
@@ -5482,14 +5669,14 @@ var SHOES = [
     "model": "",
     "version": "masculino",
     "name": "Saucony Endorphin Speed 5",
-    "slug": "",
+    "slug": "saucony-saucony-endorphin-speed-5",
     "category": "",
     "sexo": [
       "masculino"
     ],
     "discipline": [],
     "price": 1799.26,
-    "price_formatted": "R$1.799,26",
+    "price_formatted": "R$ 1.799,26",
     "budget": "acima1000",
     "drop": "masculino",
     "weight": "masculino",
@@ -5513,7 +5700,7 @@ var SHOES = [
     "affiliate_links": {
       "amazon": {
         "url": "https://amzn.to/40vH9S7",
-        "price": 0.0
+        "price": 1799.26
       }
     },
     "rating": "masculino",
@@ -5544,14 +5731,14 @@ var SHOES = [
     "model": "",
     "version": "masculino",
     "name": "Saucony Triumph 23",
-    "slug": "",
+    "slug": "saucony-saucony-triumph-23",
     "category": "",
     "sexo": [
       "masculino"
     ],
     "discipline": [],
     "price": 1585.65,
-    "price_formatted": "R$1.585,65",
+    "price_formatted": "R$ 1.585,65",
     "budget": "acima1000",
     "drop": "masculino",
     "weight": "masculino",
@@ -5576,7 +5763,7 @@ var SHOES = [
     "affiliate_links": {
       "amazon": {
         "url": "https://amzn.to/4ltmU1a",
-        "price": 0.0
+        "price": 1585.65
       }
     },
     "rating": "masculino",
@@ -5607,14 +5794,14 @@ var SHOES = [
     "model": "",
     "version": "masculino",
     "name": "Saucony Peregrine 15",
-    "slug": "",
+    "slug": "saucony-saucony-peregrine-15",
     "category": "",
     "sexo": [
       "masculino"
     ],
     "discipline": [],
     "price": 895.66,
-    "price_formatted": "R$895,66",
+    "price_formatted": "R$ 895,66",
     "budget": "600a1000",
     "drop": "masculino",
     "weight": "masculino",
@@ -5640,7 +5827,7 @@ var SHOES = [
     "affiliate_links": {
       "amazon": {
         "url": "https://amzn.to/4bnOqIy",
-        "price": 0.0
+        "price": 895.66
       }
     },
     "rating": "masculino",
@@ -5671,14 +5858,14 @@ var SHOES = [
     "model": "",
     "version": "feminino",
     "name": "Saucony Peregrine 15",
-    "slug": "",
+    "slug": "saucony-saucony-peregrine-15",
     "category": "",
     "sexo": [
       "feminino"
     ],
     "discipline": [],
     "price": 919.78,
-    "price_formatted": "R$919,78",
+    "price_formatted": "R$ 919,78",
     "budget": "600a1000",
     "drop": "feminino",
     "weight": "feminino",
@@ -5704,7 +5891,7 @@ var SHOES = [
     "affiliate_links": {
       "amazon": {
         "url": "https://amzn.to/47LagEW",
-        "price": 0.0
+        "price": 919.78
       }
     },
     "rating": "feminino",
@@ -5735,14 +5922,14 @@ var SHOES = [
     "model": "",
     "version": "feminino",
     "name": "Salomon Sense Ride 5",
-    "slug": "",
+    "slug": "salomon-salomon-sense-ride-5",
     "category": "",
     "sexo": [
       "feminino"
     ],
     "discipline": [],
     "price": 1120.02,
-    "price_formatted": "R$1.120,02",
+    "price_formatted": "R$ 1.120,02",
     "budget": "acima1000",
     "drop": "feminino",
     "weight": "feminino",
@@ -5768,7 +5955,7 @@ var SHOES = [
     "affiliate_links": {
       "amazon": {
         "url": "https://amzn.to/4b92uXF",
-        "price": 0.0
+        "price": 1120.02
       }
     },
     "rating": "feminino",
@@ -5799,14 +5986,14 @@ var SHOES = [
     "model": "",
     "version": "masculino",
     "name": "Corre Grafeno 3",
-    "slug": "",
+    "slug": "olympikus-corre-grafeno-3",
     "category": "",
     "sexo": [
       "masculino"
     ],
     "discipline": [],
     "price": 600.0,
-    "price_formatted": "R$600",
+    "price_formatted": "R$ 600,00",
     "budget": "300a600",
     "drop": "masculino",
     "weight": "masculino",
@@ -5830,11 +6017,11 @@ var SHOES = [
     "affiliate_links": {
       "amazon": {
         "url": "https://amzn.to/3NC4q1S",
-        "price": 0.0
+        "price": 600.0
       },
       "oficial": {
         "url": "https://tidd.ly/3PBl3LF",
-        "price": 0.0
+        "price": 59999.0
       }
     },
     "rating": "masculino",
@@ -5865,14 +6052,14 @@ var SHOES = [
     "model": "",
     "version": "masculino",
     "name": "Olympikus Challenger 5",
-    "slug": "",
+    "slug": "olympikus-olympikus-challenger-5",
     "category": "",
     "sexo": [
       "masculino"
     ],
     "discipline": [],
     "price": 209.99,
-    "price_formatted": "R$209,99",
+    "price_formatted": "R$ 209,99",
     "budget": "ate300",
     "drop": "masculino",
     "weight": "masculino",
@@ -5896,11 +6083,11 @@ var SHOES = [
     "affiliate_links": {
       "amazon": {
         "url": "https://amzn.to/3OZCYM2",
-        "price": 0.0
+        "price": 209.99
       },
       "oficial": {
         "url": "https://tidd.ly/4utSjEM",
-        "price": 0.0
+        "price": 24999.0
       }
     },
     "rating": "masculino",
