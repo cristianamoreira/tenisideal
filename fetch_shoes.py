@@ -88,46 +88,56 @@ def main():
         if not name or not brand or name == "" or brand == "":
             continue
             
-        # Parse Price (General)
-        price_amazon_raw = get_val("preco_amazon", "price_amazon")
-        price_oficial_raw = get_val("preco_oficial", "price_oficial")
-        
-        price_amazon = extract_numeric_price(price_amazon_raw)
-        price_oficial = extract_numeric_price(price_oficial_raw)
-        
-        # O preço principal para filtragem
-        # Se houver oficial e for menor/igual ao amazon (ou se só houver oficial), usamos oficial
-        if price_oficial > 0 and (price_amazon <= 0 or price_oficial <= price_amazon):
-             price_num = price_oficial
-             price_str = f"R$ {price_oficial:,.2f}".replace('.', 'X').replace(',', '.').replace('X', ',')
-        else:
-             price_num = price_amazon if price_amazon > 0 else 0.0
-             price_str = f"R$ {price_num:,.2f}".replace('.', 'X').replace(',', '.').replace('X', ',') if price_num > 0 else ""
-
-        # Calcula range se budget estiver vazio, senão usa o que está na planilha
-        budget = get_val("price_range", "budget")
-        price_range = budget if budget and budget != "" else calculate_price_range(price_num)
-
         # Parse Affiliate Links & Specific Prices
         affiliate_links = {}
         link_amazon = get_val("link_amazon", "amazon")
         link_oficial = get_val("link_oficial", "oficial")
         link_netshoes = get_val("link_netshoes", "netshoes")
         
+        price_amazon = extract_numeric_price(get_val("preco_amazon", "price_amazon"))
+        price_oficial = extract_numeric_price(get_val("preco_oficial", "price_oficial"))
+        price_netshoes = extract_numeric_price(get_val("preco_netshoes", "price_netshoes"))
+
         if link_amazon and link_amazon != "" and link_amazon != "-": 
             affiliate_links["amazon"] = {"url": link_amazon, "price": price_amazon}
         if link_oficial and link_oficial != "" and link_oficial != "-": 
             affiliate_links["oficial"] = {"url": link_oficial, "price": price_oficial}
         if link_netshoes and link_netshoes != "" and link_netshoes != "-": 
-            affiliate_links["netshoes"] = {"url": link_netshoes, "price": extract_numeric_price(get_val("preco_netshoes", "price_netshoes"))}
+            affiliate_links["netshoes"] = {"url": link_netshoes, "price": price_netshoes}
+
+        # Determinamos o melhor preço principal a partir das ofertas encontradas
+        best_price = 0.0
+        best_price_str = ""
+        
+        valid_prices = [v["price"] for v in affiliate_links.values() if v["price"] > 0]
+        if valid_prices:
+            best_price = min(valid_prices)
+            best_price_str = f"R$ {best_price:,.2f}".replace('.', 'X').replace(',', '.').replace('X', ',')
+        else:
+            # Fallback para o preço geral da planilha se não houver links/preços específicos
+            price_raw = get_val("price", "r$ 000", "preço")
+            best_price = extract_numeric_price(price_raw)
+            best_price_str = price_raw if best_price > 0 else ""
+
+        # Calcula range se budget estiver vazio, senão usa o que está na planilha
+        budget = get_val("price_range", "budget")
+        price_range = budget if budget and budget != "" else calculate_price_range(best_price)
 
         # Preenche outras propriedades
         gender = get_val("gender", "sexo")
         
         # Parse Imagens
         img_main = get_val("url_imagem", "img")
-        images = parse_list(get_val("images", img_main))
-        if not images and img_main: images = [img_main]
+        if img_main and "amzn.to" in img_main:
+            # Se for link encurtado da Amazon, não é imagem. Força placeholder.
+            img_main = "imgs/placeholder.jpg"
+            
+        images = parse_list(get_val("images", ""))
+        if not images and img_main: 
+            images = [img_main]
+        elif images:
+            # Limpa links de afiliados das imagens se houver
+            images = [img if "amzn.to" not in img else "imgs/placeholder.jpg" for img in images]
 
         shoe = {
             "brand": brand,
@@ -139,8 +149,8 @@ def main():
             "sexo": parse_list(gender),
             "discipline": parse_list(get_val("discipline", "terrenos")),
             
-            "price": price_num,
-            "price_formatted": price_str,
+            "price": best_price,
+            "price_formatted": best_price_str,
             "budget": price_range,
             
             "drop": get_val("drop", ""),

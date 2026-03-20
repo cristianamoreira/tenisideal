@@ -49,7 +49,7 @@ var SHOES = [
     "release_year": "masculino",
     "is_best_seller": false,
     "images": [
-      "https://m.media-amazon.com/images/I/612KZekuqML._AC_SY500_.jpg"
+      "masculino"
     ],
     "emoji": "👟",
     "tags": [
@@ -113,7 +113,7 @@ var SHOES = [
     "release_year": "masculino",
     "is_best_seller": false,
     "images": [
-      "https://m.media-amazon.com/images/I/51yLvMtXjYL._AC_SY500_.jpg"
+      "masculino"
     ],
     "emoji": "👟",
     "tags": [
@@ -180,7 +180,7 @@ var SHOES = [
     "release_year": "unissex",
     "is_best_seller": false,
     "images": [
-      "https://m.media-amazon.com/images/I/51yBZPU0PtL._AC_SY500_.jpg"
+      "unissex"
     ],
     "emoji": "👟",
     "tags": [
@@ -247,7 +247,7 @@ var SHOES = [
     "release_year": "masculino",
     "is_best_seller": false,
     "images": [
-      "https://m.media-amazon.com/images/I/412-RoXwVDL._AC_SY675_.jpg"
+      "masculino"
     ],
     "emoji": "👟",
     "tags": [
@@ -302,7 +302,7 @@ var SHOES = [
     "release_year": "masculino",
     "is_best_seller": false,
     "images": [
-      "https://m.media-amazon.com/images/I/61wvkUfpJxL._AC_SY500_.jpg"
+      "masculino"
     ],
     "emoji": "👟",
     "tags": [],
@@ -367,7 +367,7 @@ var SHOES = [
     "release_year": "feminino",
     "is_best_seller": false,
     "images": [
-      "https://m.media-amazon.com/images/I/416hAw4kf6L._AC_SY500_.jpg"
+      "feminino"
     ],
     "emoji": "👟",
     "tags": [
@@ -436,7 +436,7 @@ var SHOES = [
     "release_year": "feminino",
     "is_best_seller": false,
     "images": [
-      "https://m.media-amazon.com/images/I/61ewML3UceL._AC_SY675_.jpg"
+      "feminino"
     ],
     "emoji": "👟",
     "tags": [
@@ -505,7 +505,7 @@ var SHOES = [
     "release_year": "feminino",
     "is_best_seller": false,
     "images": [
-      "https://m.media-amazon.com/images/I/510EloSk7eL._AC_SY625_.jpg"
+      "feminino"
     ],
     "emoji": "👟",
     "tags": [
@@ -570,7 +570,7 @@ var SHOES = [
     "release_year": "masculino",
     "is_best_seller": true,
     "images": [
-      "https://images-na.ssl-images-amazon.com/images/I/71Y43mJ5zeL.jpg"
+      "masculino"
     ],
     "emoji": "👟",
     "tags": [
@@ -633,7 +633,7 @@ var SHOES = [
     "release_year": "masculino",
     "is_best_seller": false,
     "images": [
-      "https://images-na.ssl-images-amazon.com/images/I/61lZORb7jLL.jpg"
+      "masculino"
     ],
     "emoji": "👟",
     "tags": [
@@ -696,7 +696,7 @@ var SHOES = [
     "release_year": "masculino",
     "is_best_seller": false,
     "images": [
-      "https://m.media-amazon.com/images/I/61BJEFWbbnL._AC_SY500_.jpg"
+      "masculino"
     ],
     "emoji": "👟",
     "tags": [
@@ -758,7 +758,7 @@ var SHOES = [
     "release_year": "masculino",
     "is_best_seller": true,
     "images": [
-      "https://images-na.ssl-images-amazon.com/images/I/61EYOnNOMbL.jpg"
+      "masculino"
     ],
     "emoji": "👟",
     "tags": [
@@ -820,7 +820,7 @@ var SHOES = [
     "release_year": "feminino",
     "is_best_seller": true,
     "images": [
-      "https://m.media-amazon.com/images/I/61aPga42FKL._AC_SY500_.jpg"
+      "feminino"
     ],
     "emoji": "👟",
     "tags": [
@@ -883,7 +883,7 @@ var SHOES = [
     "release_year": "masculino",
     "is_best_seller": false,
     "images": [
-      "https://images-na.ssl-images-amazon.com/images/I/61wuJhpSxgL.jpg"
+      "masculino"
     ],
     "emoji": "👟",
     "tags": [
@@ -948,7 +948,7 @@ var SHOES = [
     "release_year": "masculino",
     "is_best_seller": false,
     "images": [
-      "https://m.media-amazon.com/images/I/511jmvCr1BL._AC_SY500_.jpg"
+      "masculino"
     ],
     "emoji": "👟",
     "tags": [
@@ -1011,7 +1011,7 @@ var SHOES = [
     "release_year": "feminino",
     "is_best_seller": false,
     "images": [
-      "https://m.media-amazon.com/images/I/617GtsqxJmL._AC_SY625_.jpg"
+      "feminino"
     ],
     "emoji": "👟",
     "tags": [
@@ -1074,7 +1074,7 @@ var SHOES = [
     "release_year": "feminino",
     "is_best_seller": false,
     "images": [
-      "https://m.media-amazon.com/images/I/71AhLqeaRrL._AC_SX500_.jpg"
+      "feminino"
     ],
     "emoji": "👟",
     "tags": [
@@ -1137,7 +1137,7 @@ var SHOES = [
     "release_year": "feminino",
     "is_best_seller": false,
     "images": [
-      "https://m.media-amazon.com/images/I/51fjXmKBuTL._AC_SX522_.jpg"
+      "feminino"
     ],
     "emoji": "👟",
     "tags": [
@@ -1200,7 +1200,7 @@ var SHOES = [
     "release_year": "feminino",
     "is_best_seller": false,
     "images": [
-      "https://m.media-amazon.com/images/I/61fz1ft0bDL._AC_SY500_.jpg"
+      "feminino"
     ],
     "emoji": "👟",
     "tags": [
@@ -1265,7 +1265,7 @@ var SHOES = [
     "release_year": "masculino",
     "is_best_seller": false,
     "images": [
-      "https://images-na.ssl-images-amazon.com/images/I/71EJN-HyMWL.jpg"
+      "masculino"
     ],
     "emoji": "👟",
     "tags": [
@@ -1329,7 +1329,7 @@ var SHOES = [
     "release_year": "masculino",
     "is_best_seller": false,
     "images": [
-      "https://m.media-amazon.com/images/I/71JfCH+M+jL._AC_SY500_.jpg"
+      "masculino"
     ],
     "emoji": "👟",
     "tags": [
@@ -1393,7 +1393,7 @@ var SHOES = [
     "release_year": "masculino",
     "is_best_seller": false,
     "images": [
-      "https://images-na.ssl-images-amazon.com/images/I/81Kt56apbuL.jpg"
+      "masculino"
     ],
     "emoji": "👟",
     "tags": [
@@ -1455,7 +1455,7 @@ var SHOES = [
     "release_year": "feminino",
     "is_best_seller": false,
     "images": [
-      "https://m.media-amazon.com/images/I/81FrDKqWbIL._AC_SY500_.jpg"
+      "feminino"
     ],
     "emoji": "👟",
     "tags": [
@@ -1520,7 +1520,7 @@ var SHOES = [
     "release_year": "feminino",
     "is_best_seller": false,
     "images": [
-      "https://m.media-amazon.com/images/I/51DEAqmvGdL._AC_SY625_.jpg"
+      "feminino"
     ],
     "emoji": "👟",
     "tags": [
@@ -1579,7 +1579,7 @@ var SHOES = [
     "release_year": "masculino",
     "is_best_seller": false,
     "images": [
-      "https://m.media-amazon.com/images/I/517Z6pntJHL._AC_SY625_.jpg"
+      "masculino"
     ],
     "emoji": "👟",
     "tags": [
@@ -1641,7 +1641,7 @@ var SHOES = [
     "release_year": "feminino",
     "is_best_seller": false,
     "images": [
-      "https://m.media-amazon.com/images/I/61rKjTIK4SL._AC_SY625_.jpg"
+      "feminino"
     ],
     "emoji": "👟",
     "tags": [
@@ -1703,7 +1703,7 @@ var SHOES = [
     "release_year": "feminino",
     "is_best_seller": false,
     "images": [
-      "https://m.media-amazon.com/images/I/51Y79XZ2xcL._AC_SY500_.jpg"
+      "feminino"
     ],
     "emoji": "👟",
     "tags": [
@@ -1767,7 +1767,7 @@ var SHOES = [
     "release_year": "masculino",
     "is_best_seller": false,
     "images": [
-      "https://images-na.ssl-images-amazon.com/images/I/71cO3lBXuML.jpg"
+      "masculino"
     ],
     "emoji": "👟",
     "tags": [
@@ -1831,7 +1831,7 @@ var SHOES = [
     "release_year": "masculino",
     "is_best_seller": false,
     "images": [
-      "https://m.media-amazon.com/images/I/514X0mOyFtL._AC_SX500_.jpg"
+      "masculino"
     ],
     "emoji": "👟",
     "tags": [
@@ -1895,7 +1895,7 @@ var SHOES = [
     "release_year": "masculino",
     "is_best_seller": false,
     "images": [
-      "https://images-na.ssl-images-amazon.com/images/I/61Gkm+6EdqL.jpg"
+      "masculino"
     ],
     "emoji": "👟",
     "tags": [
@@ -1959,7 +1959,7 @@ var SHOES = [
     "release_year": "masculino",
     "is_best_seller": false,
     "images": [
-      "https://m.media-amazon.com/images/I/61IG0fi5z+L._AC_SY500_.jpg"
+      "masculino"
     ],
     "emoji": "👟",
     "tags": [
@@ -2021,7 +2021,7 @@ var SHOES = [
     "release_year": "masculino",
     "is_best_seller": false,
     "images": [
-      "https://images-na.ssl-images-amazon.com/images/I/71pT4bBn39L.jpg"
+      "masculino"
     ],
     "emoji": "👟",
     "tags": [
@@ -2088,7 +2088,7 @@ var SHOES = [
     "release_year": "masculino",
     "is_best_seller": false,
     "images": [
-      "https://m.media-amazon.com/images/I/71qHhWE-T7L._AC_SY500_.jpg"
+      "masculino"
     ],
     "emoji": "👟",
     "tags": [
@@ -2156,7 +2156,7 @@ var SHOES = [
     "release_year": "masculino",
     "is_best_seller": false,
     "images": [
-      "https://m.media-amazon.com/images/I/51qUaqEvrkL._AC_SY500_.jpg"
+      "masculino"
     ],
     "emoji": "👟",
     "tags": [
@@ -2223,7 +2223,7 @@ var SHOES = [
     "release_year": "masculino",
     "is_best_seller": false,
     "images": [
-      "https://m.media-amazon.com/images/I/61Opa1W1J8L._AC_SY500_.jpg"
+      "masculino"
     ],
     "emoji": "👟",
     "tags": [
@@ -2291,7 +2291,7 @@ var SHOES = [
     "release_year": "unissex",
     "is_best_seller": false,
     "images": [
-      "https://static.dafiti.com.br/p/Mizuno-T%C3%AAnis-Mizuno-Victory-Rsp-Feminino-Rosa-3494-64013441-1-zoom.jpg"
+      "unissex"
     ],
     "emoji": "👟",
     "tags": [
@@ -2355,7 +2355,7 @@ var SHOES = [
     "release_year": "feminino",
     "is_best_seller": false,
     "images": [
-      "https://images-na.ssl-images-amazon.com/images/I/51ZDUR2ZkHL.jpg"
+      "feminino"
     ],
     "emoji": "👟",
     "tags": [
@@ -2418,7 +2418,7 @@ var SHOES = [
     "release_year": "feminino",
     "is_best_seller": false,
     "images": [
-      "https://m.media-amazon.com/images/I/515WrXH2TYL._AC_SY300_SX300_QL70_ML2_.jpg"
+      "feminino"
     ],
     "emoji": "👟",
     "tags": [
@@ -2481,7 +2481,7 @@ var SHOES = [
     "release_year": "masculino",
     "is_best_seller": false,
     "images": [
-      "https://images-na.ssl-images-amazon.com/images/I/61OXLcyTklL.jpg"
+      "masculino"
     ],
     "emoji": "👟",
     "tags": [
@@ -2542,7 +2542,7 @@ var SHOES = [
     "release_year": "masculino",
     "is_best_seller": true,
     "images": [
-      "https://images-na.ssl-images-amazon.com/images/I/51aLwIrAcvL.jpg"
+      "masculino"
     ],
     "emoji": "👟",
     "tags": [
@@ -2605,7 +2605,7 @@ var SHOES = [
     "release_year": "masculino",
     "is_best_seller": false,
     "images": [
-      "https://m.media-amazon.com/images/I/61yRHJJzjrL._AC_SY500_.jpg"
+      "masculino"
     ],
     "emoji": "👟",
     "tags": [
@@ -2667,7 +2667,7 @@ var SHOES = [
     "release_year": "feminino",
     "is_best_seller": true,
     "images": [
-      "https://m.media-amazon.com/images/I/51Z+ohQHSIL._AC_SY625_.jpg"
+      "feminino"
     ],
     "emoji": "👟",
     "tags": [
@@ -2736,7 +2736,7 @@ var SHOES = [
     "release_year": "masculino",
     "is_best_seller": true,
     "images": [
-      "https://m.media-amazon.com/images/I/71I5TWi+77L._AC_SY500_.jpg"
+      "masculino"
     ],
     "emoji": "👟",
     "tags": [
@@ -2805,7 +2805,7 @@ var SHOES = [
     "release_year": "feminino",
     "is_best_seller": false,
     "images": [
-      "https://m.media-amazon.com/images/I/51uEAp-HMPL._AC_SY500_.jpg"
+      "feminino"
     ],
     "emoji": "👟",
     "tags": [
@@ -2869,7 +2869,7 @@ var SHOES = [
     "release_year": "masculino",
     "is_best_seller": false,
     "images": [
-      "https://images-na.ssl-images-amazon.com/images/I/71RUemZxatL.jpg"
+      "masculino"
     ],
     "emoji": "👟",
     "tags": [
@@ -2933,7 +2933,7 @@ var SHOES = [
     "release_year": "unissex",
     "is_best_seller": false,
     "images": [
-      "https://m.media-amazon.com/images/I/51YiODrVayL._AC_SX500_.jpg"
+      "unissex"
     ],
     "emoji": "👟",
     "tags": [
@@ -2996,7 +2996,7 @@ var SHOES = [
     "release_year": "masculino",
     "is_best_seller": false,
     "images": [
-      "https://images-na.ssl-images-amazon.com/images/I/71HZUzZaEeL.jpg"
+      "masculino"
     ],
     "emoji": "👟",
     "tags": [
@@ -3051,7 +3051,7 @@ var SHOES = [
     "release_year": "masculino",
     "is_best_seller": false,
     "images": [
-      "https://imgnike-a.akamaihd.net/1920x1920/05924154A2.jpg"
+      "masculino"
     ],
     "emoji": "👟",
     "tags": [],
@@ -3102,7 +3102,7 @@ var SHOES = [
     "release_year": "feminino",
     "is_best_seller": false,
     "images": [
-      "https://imgnike-a.akamaihd.net/360x360/059366NEA2.jpg"
+      "feminino"
     ],
     "emoji": "👟",
     "tags": [],
@@ -3157,7 +3157,7 @@ var SHOES = [
     "release_year": "masculino",
     "is_best_seller": false,
     "images": [
-      "https://images-na.ssl-images-amazon.com/images/I/61jBJ9a4NJL.jpg"
+      "masculino"
     ],
     "emoji": "👟",
     "tags": [
@@ -3219,7 +3219,7 @@ var SHOES = [
     "release_year": "masculino",
     "is_best_seller": false,
     "images": [
-      "https://images-na.ssl-images-amazon.com/images/I/51sD2zFgzTL.jpg"
+      "masculino"
     ],
     "emoji": "👟",
     "tags": [
@@ -3281,7 +3281,7 @@ var SHOES = [
     "release_year": "feminino",
     "is_best_seller": false,
     "images": [
-      "https://m.media-amazon.com/images/I/61jqkYeBlqL._AC_SY500_.jpg"
+      "feminino"
     ],
     "emoji": "👟",
     "tags": [
@@ -3343,7 +3343,7 @@ var SHOES = [
     "release_year": "masculino",
     "is_best_seller": false,
     "images": [
-      "https://m.media-amazon.com/images/I/51WUvXlRWbL._AC_SX679_.jpg"
+      "masculino"
     ],
     "emoji": "👟",
     "tags": [
@@ -3404,7 +3404,7 @@ var SHOES = [
     "release_year": "masculino",
     "is_best_seller": false,
     "images": [
-      "https://m.media-amazon.com/images/I/51bmHlqn4bL._AC_SX679_.jpg"
+      "masculino"
     ],
     "emoji": "👟",
     "tags": [
@@ -3467,7 +3467,7 @@ var SHOES = [
     "release_year": "feminino",
     "is_best_seller": false,
     "images": [
-      "https://m.media-amazon.com/images/I/519-VwNeLGL._AC_SY625_.jpg"
+      "feminino"
     ],
     "emoji": "👟",
     "tags": [
@@ -3531,7 +3531,7 @@ var SHOES = [
     "release_year": "unissex",
     "is_best_seller": false,
     "images": [
-      "https://m.media-amazon.com/images/I/519Fz1ewJdL._AC_SX679_.jpg"
+      "unissex"
     ],
     "emoji": "👟",
     "tags": [
@@ -3596,7 +3596,7 @@ var SHOES = [
     "release_year": "masculino",
     "is_best_seller": false,
     "images": [
-      "https://images-na.ssl-images-amazon.com/images/I/71UQQbuiu+L.jpg"
+      "masculino"
     ],
     "emoji": "👟",
     "tags": [
@@ -3659,7 +3659,7 @@ var SHOES = [
     "release_year": "unissex",
     "is_best_seller": false,
     "images": [
-      "https://m.media-amazon.com/images/I/71EwAA8xjIL._AC_SY500_.jpg"
+      "unissex"
     ],
     "emoji": "👟",
     "tags": [
@@ -3721,7 +3721,7 @@ var SHOES = [
     "release_year": "masculino",
     "is_best_seller": false,
     "images": [
-      "https://m.media-amazon.com/images/I/814NjheLBcL._AC_SX300_SY300_QL70_ML2_.jpg"
+      "masculino"
     ],
     "emoji": "👟",
     "tags": [
@@ -3782,7 +3782,7 @@ var SHOES = [
     "release_year": "masculino",
     "is_best_seller": false,
     "images": [
-      "https://images-na.ssl-images-amazon.com/images/I/51gcZC19IXL.jpg"
+      "masculino"
     ],
     "emoji": "👟",
     "tags": [
@@ -3842,7 +3842,7 @@ var SHOES = [
     "release_year": "masculino",
     "is_best_seller": false,
     "images": [
-      "https://m.media-amazon.com/images/I/61HHqi-wpuL._AC_SY500_.jpg"
+      "masculino"
     ],
     "emoji": "👟",
     "tags": [
@@ -3903,7 +3903,7 @@ var SHOES = [
     "release_year": "masculino",
     "is_best_seller": false,
     "images": [
-      "https://m.media-amazon.com/images/I/71gYxjqbteL._AC_SY500_.jpg"
+      "masculino"
     ],
     "emoji": "👟",
     "tags": [
@@ -3965,7 +3965,7 @@ var SHOES = [
     "release_year": "feminino",
     "is_best_seller": false,
     "images": [
-      "https://m.media-amazon.com/images/I/61cNbsYKgPL._AC_SY500_.jpg"
+      "feminino"
     ],
     "emoji": "👟",
     "tags": [
@@ -4028,7 +4028,7 @@ var SHOES = [
     "release_year": "masculino",
     "is_best_seller": false,
     "images": [
-      "https://m.media-amazon.com/images/I/61FtBlh+DJL._AC_SY625_.jpg"
+      "masculino"
     ],
     "emoji": "👟",
     "tags": [
@@ -4091,7 +4091,7 @@ var SHOES = [
     "release_year": "unissex",
     "is_best_seller": false,
     "images": [
-      "https://m.media-amazon.com/images/I/51D5Mo21ocL._AC_SY500_.jpg"
+      "unissex"
     ],
     "emoji": "👟",
     "tags": [
@@ -4159,7 +4159,7 @@ var SHOES = [
     "release_year": "unissex",
     "is_best_seller": false,
     "images": [
-      "https://amzn.to/3Nnjn7U"
+      "unissex"
     ],
     "emoji": "👟",
     "tags": [
@@ -4221,7 +4221,7 @@ var SHOES = [
     "release_year": "unissex",
     "is_best_seller": false,
     "images": [
-      "https://m.media-amazon.com/images/I/71umOc7Na8L._AC_SY500_.jpg"
+      "unissex"
     ],
     "emoji": "👟",
     "tags": [
@@ -4289,7 +4289,7 @@ var SHOES = [
     "release_year": "unissex",
     "is_best_seller": false,
     "images": [
-      "https://m.media-amazon.com/images/I/612YIPVucEL._AC_SY500_.jpg"
+      "unissex"
     ],
     "emoji": "👟",
     "tags": [
@@ -4356,7 +4356,7 @@ var SHOES = [
     "release_year": "feminino",
     "is_best_seller": false,
     "images": [
-      "https://m.media-amazon.com/images/I/51ifrRin22L._AC_SY500_.jpg"
+      "feminino"
     ],
     "emoji": "👟",
     "tags": [
@@ -4423,7 +4423,7 @@ var SHOES = [
     "release_year": "unissex",
     "is_best_seller": false,
     "images": [
-      "https://m.media-amazon.com/images/I/61qwpkLkodL._AC_SY500_.jpg"
+      "unissex"
     ],
     "emoji": "👟",
     "tags": [
@@ -4486,7 +4486,7 @@ var SHOES = [
     "release_year": "unissex",
     "is_best_seller": false,
     "images": [
-      "https://m.media-amazon.com/images/I/61nVPmZFSoL._AC_SY500_.jpg"
+      "unissex"
     ],
     "emoji": "👟",
     "tags": [
@@ -4549,7 +4549,7 @@ var SHOES = [
     "release_year": "unissex",
     "is_best_seller": false,
     "images": [
-      "https://m.media-amazon.com/images/I/71pGo9F0wnL._AC_SY500_.jpg"
+      "unissex"
     ],
     "emoji": "👟",
     "tags": [
@@ -4612,7 +4612,7 @@ var SHOES = [
     "release_year": "unissex",
     "is_best_seller": false,
     "images": [
-      "https://m.media-amazon.com/images/I/61Rx2TlzVUL._AC_SY500_.jpg"
+      "unissex"
     ],
     "emoji": "👟",
     "tags": [
@@ -4681,7 +4681,7 @@ var SHOES = [
     "release_year": "unissex",
     "is_best_seller": false,
     "images": [
-      "https://m.media-amazon.com/images/I/61MzvFVQufL._AC_SY500_.jpg"
+      "unissex"
     ],
     "emoji": "👟",
     "tags": [
@@ -4748,7 +4748,7 @@ var SHOES = [
     "release_year": "unissex",
     "is_best_seller": false,
     "images": [
-      "https://m.media-amazon.com/images/I/51tKTairIAL._AC_SY500_.jpg"
+      "unissex"
     ],
     "emoji": "👟",
     "tags": [
@@ -4814,7 +4814,7 @@ var SHOES = [
     "release_year": "unissex",
     "is_best_seller": false,
     "images": [
-      "https://m.media-amazon.com/images/I/5178yONIZbL._AC_SY500_.jpg"
+      "unissex"
     ],
     "emoji": "👟",
     "tags": [
@@ -4881,7 +4881,7 @@ var SHOES = [
     "release_year": "feminino",
     "is_best_seller": false,
     "images": [
-      "https://m.media-amazon.com/images/I/611RirAWR7L._AC_SY500_.jpg"
+      "feminino"
     ],
     "emoji": "👟",
     "tags": [
@@ -4947,7 +4947,7 @@ var SHOES = [
     "release_year": "masculino",
     "is_best_seller": false,
     "images": [
-      "https://m.media-amazon.com/images/I/61GRqg1hwgL._AC_SY500_.jpg"
+      "masculino"
     ],
     "emoji": "👟",
     "tags": [
@@ -5013,7 +5013,7 @@ var SHOES = [
     "release_year": "feminino",
     "is_best_seller": false,
     "images": [
-      "https://m.media-amazon.com/images/I/51dEdz7PxZL._AC_SY500_.jpg"
+      "feminino"
     ],
     "emoji": "👟",
     "tags": [
@@ -5075,7 +5075,7 @@ var SHOES = [
     "release_year": "masculino",
     "is_best_seller": false,
     "images": [
-      "https://m.media-amazon.com/images/I/61FYoxCE8OL._AC_SY500_.jpg"
+      "masculino"
     ],
     "emoji": "🏃",
     "tags": [
@@ -5138,7 +5138,7 @@ var SHOES = [
     "release_year": "feminino",
     "is_best_seller": false,
     "images": [
-      "https://m.media-amazon.com/images/I/81wTUqT6pWL._AC_SX500_.jpg"
+      "feminino"
     ],
     "emoji": "🏃",
     "tags": [
@@ -5200,7 +5200,7 @@ var SHOES = [
     "release_year": "feminino",
     "is_best_seller": false,
     "images": [
-      "https://m.media-amazon.com/images/I/71q16VFjN9L._AC_SX500_.jpg"
+      "feminino"
     ],
     "emoji": "⚡",
     "tags": [
@@ -5268,7 +5268,7 @@ var SHOES = [
     "release_year": "masculino",
     "is_best_seller": false,
     "images": [
-      "https://m.media-amazon.com/images/I/51jw--PJVpL._AC_SY500_.jpg"
+      "masculino"
     ],
     "emoji": "🏔️",
     "tags": [
@@ -5330,7 +5330,7 @@ var SHOES = [
     "release_year": "feminino",
     "is_best_seller": false,
     "images": [
-      "https://m.media-amazon.com/images/I/71+9s4rDg-L._AC_SY500_.jpg"
+      "feminino"
     ],
     "emoji": "🪶",
     "tags": [
@@ -5392,7 +5392,7 @@ var SHOES = [
     "release_year": "masculino",
     "is_best_seller": false,
     "images": [
-      "https://m.media-amazon.com/images/I/61YvL0uMf7L._AC_SY500_.jpg"
+      "masculino"
     ],
     "emoji": "🪶",
     "tags": [
@@ -5455,7 +5455,7 @@ var SHOES = [
     "release_year": "masculino",
     "is_best_seller": true,
     "images": [
-      "https://m.media-amazon.com/images/I/610N9clHcfL._AC_SY695_.jpg"
+      "masculino"
     ],
     "emoji": "☁️",
     "tags": [
@@ -5518,7 +5518,7 @@ var SHOES = [
     "release_year": "feminino",
     "is_best_seller": false,
     "images": [
-      "https://m.media-amazon.com/images/I/51bXQrff2ZL._AC_SY500_.jpg"
+      "feminino"
     ],
     "emoji": "☁️",
     "tags": [
@@ -5580,7 +5580,7 @@ var SHOES = [
     "release_year": "unissex",
     "is_best_seller": false,
     "images": [
-      "https://m.media-amazon.com/images/I/61FlAJi0tsL._AC_SY500_.jpg"
+      "unissex"
     ],
     "emoji": "🚀",
     "tags": [
@@ -5644,7 +5644,8 @@ var SHOES = [
     "release_year": "masculino|feminino",
     "is_best_seller": false,
     "images": [
-      "https://m.media-amazon.com/images/I/71NTdjs6iVL._AC_SY500_.jpg"
+      "masculino",
+      "feminino"
     ],
     "emoji": "⚡",
     "tags": [
@@ -5708,7 +5709,7 @@ var SHOES = [
     "release_year": "masculino",
     "is_best_seller": false,
     "images": [
-      "https://m.media-amazon.com/images/I/71Kn-Dm570L._AC_SY500_.jpg"
+      "masculino"
     ],
     "emoji": "🏃",
     "tags": [
@@ -5771,7 +5772,7 @@ var SHOES = [
     "release_year": "masculino",
     "is_best_seller": false,
     "images": [
-      "https://m.media-amazon.com/images/I/81oEoDyhA+L._AC_SY500_.jpg"
+      "masculino"
     ],
     "emoji": "🛡️",
     "tags": [
@@ -5835,7 +5836,7 @@ var SHOES = [
     "release_year": "masculino",
     "is_best_seller": false,
     "images": [
-      "https://m.media-amazon.com/images/I/81e9TDaRR5L._AC_SY500_.jpg"
+      "masculino"
     ],
     "emoji": "🌲",
     "tags": [
@@ -5899,7 +5900,7 @@ var SHOES = [
     "release_year": "feminino",
     "is_best_seller": false,
     "images": [
-      "https://m.media-amazon.com/images/I/71il-oCGRXL._AC_SY500_.jpg"
+      "feminino"
     ],
     "emoji": "🌲",
     "tags": [
@@ -5963,7 +5964,7 @@ var SHOES = [
     "release_year": "feminino",
     "is_best_seller": false,
     "images": [
-      "https://m.media-amazon.com/images/I/710D-lXE4uL._AC_SY500_.jpg"
+      "feminino"
     ],
     "emoji": "🌿",
     "tags": [
@@ -6029,7 +6030,7 @@ var SHOES = [
     "release_year": "masculino",
     "is_best_seller": false,
     "images": [
-      "https://m.media-amazon.com/images/I/51Z-DdVYfOL._AC_SY500_.jpg"
+      "masculino"
     ],
     "emoji": "🇧🇷",
     "tags": [
@@ -6095,7 +6096,7 @@ var SHOES = [
     "release_year": "masculino",
     "is_best_seller": false,
     "images": [
-      "https://m.media-amazon.com/images/I/51fOqAnmsIL._AC_SX522_.jpg"
+      "masculino"
     ],
     "emoji": "🇧🇷",
     "tags": [
