@@ -3,7 +3,7 @@ var SHOES = [
   {
     "brand": "ADIDAS",
     "model": "",
-    "version": "masculino",
+    "version": "",
     "name": "Adizero Adios Pro 4",
     "slug": "adidas-adizero-adios-pro-4",
     "category": "",
@@ -14,8 +14,8 @@ var SHOES = [
     "price": 1906.52,
     "price_formatted": "R$ 1.906,52",
     "budget": "acima1000",
-    "drop": "masculino",
-    "weight": "masculino",
+    "drop": "",
+    "weight": "",
     "levels": [
       "avancado"
     ],
@@ -31,9 +31,7 @@ var SHOES = [
     "priors": [
       "leveza"
     ],
-    "technologies": [
-      "masculino"
-    ],
+    "technologies": [],
     "affiliate_links": {
       "amazon": {
         "url": "https://amzn.to/4l8FKKD",
@@ -44,12 +42,12 @@ var SHOES = [
         "price": 1999.99
       }
     },
-    "rating": "masculino",
-    "reviews_count": "masculino",
-    "release_year": "masculino",
+    "rating": "",
+    "reviews_count": "",
+    "release_year": "",
     "is_best_seller": false,
     "images": [
-      "masculino"
+      "https://m.media-amazon.com/images/I/612KZekuqML._AC_SY500_.jpg"
     ],
     "emoji": "👟",
     "tags": [
@@ -58,17 +56,13 @@ var SHOES = [
     ],
     "description": "5 hastes de fibra de carbono EnergyRods 2.0. O favorito dos campeões de maratona no mundo inteiro.",
     "reason": "5 hastes de fibra de carbono EnergyRods 2.0. O favorito dos campeões de maratona no mundo inteiro.",
-    "pros": [
-      "masculino"
-    ],
-    "cons": [
-      "masculino"
-    ]
+    "pros": [],
+    "cons": []
   },
   {
     "brand": "ADIDAS",
     "model": "",
-    "version": "masculino",
+    "version": "",
     "name": "Adizero Boston 13",
     "slug": "adidas-adizero-boston-13",
     "category": "",
@@ -79,8 +73,8 @@ var SHOES = [
     "price": 1313.78,
     "price_formatted": "R$ 1.313,78",
     "budget": "acima1000",
-    "drop": "masculino",
-    "weight": "masculino",
+    "drop": "",
+    "weight": "",
     "levels": [
       "intermediario",
       "avancado"
@@ -95,9 +89,7 @@ var SHOES = [
     "priors": [
       "leveza"
     ],
-    "technologies": [
-      "masculino"
-    ],
+    "technologies": [],
     "affiliate_links": {
       "amazon": {
         "url": "https://amzn.to/3NEjLPv",
@@ -108,12 +100,12 @@ var SHOES = [
         "price": 1399.99
       }
     },
-    "rating": "masculino",
-    "reviews_count": "masculino",
-    "release_year": "masculino",
+    "rating": "",
+    "reviews_count": "",
+    "release_year": "",
     "is_best_seller": false,
     "images": [
-      "masculino"
+      "https://m.media-amazon.com/images/I/51yLvMtXjYL._AC_SY500_.jpg"
     ],
     "emoji": "👟",
     "tags": [
@@ -122,17 +114,13 @@ var SHOES = [
     ],
     "description": "A porta de entrada para os tênis de velocidade. Lightstrike Pro sem placa de carbono, mas com toda a rapidez.",
     "reason": "A porta de entrada para os tênis de velocidade. Lightstrike Pro sem placa de carbono, mas com toda a rapidez.",
-    "pros": [
-      "masculino"
-    ],
-    "cons": [
-      "masculino"
-    ]
+    "pros": [],
+    "cons": []
   },
   {
     "brand": "ADIDAS",
     "model": "",
-    "version": "unissex",
+    "version": "",
     "name": "Response Runner 2",
     "slug": "adidas-response-runner-2",
     "category": "",
@@ -143,8 +131,8 @@ var SHOES = [
     "price": 399.88,
     "price_formatted": "R$ 399,88",
     "budget": "300a600",
-    "drop": "unissex",
-    "weight": "unissex",
+    "drop": "",
+    "weight": "",
     "levels": [
       "iniciante"
     ],
@@ -162,9 +150,7 @@ var SHOES = [
       "custo",
       "durabilidade"
     ],
-    "technologies": [
-      "unissex"
-    ],
+    "technologies": [],
     "affiliate_links": {
       "amazon": {
         "url": "https://amzn.to/4b7FF5t",
@@ -175,12 +161,12 @@ var SHOES = [
         "price": 399.99
       }
     },
-    "rating": "unissex",
-    "reviews_count": "unissex",
-    "release_year": "unissex",
+    "rating": "",
+    "reviews_count": "",
+    "release_year": "",
     "is_best_seller": false,
     "images": [
-      "unissex"
+      "https://m.media-amazon.com/images/I/51yBZPU0PtL._AC_SY500_.jpg"
     ],
     "emoji": "👟",
     "tags": [
@@ -189,17 +175,13 @@ var SHOES = [
     ],
     "description": "Estrutura firme e estável para iniciantes. Entrega tração e durabilidade para treinos diários sem gastar muito.",
     "reason": "Estrutura firme e estável para iniciantes. Entrega tração e durabilidade para treinos diários sem gastar muito.",
-    "pros": [
-      "unissex"
-    ],
-    "cons": [
-      "unissex"
-    ]
+    "pros": [],
+    "cons": []
   },
   {
     "brand": "ADIDAS",
     "model": "",
-    "version": "masculino",
+    "version": "",
     "name": "Ultraboost 5",
     "slug": "adidas-ultraboost-5",
     "category": "",
@@ -210,8 +192,8 @@ var SHOES = [
     "price": 945.11,
     "price_formatted": "R$ 945,11",
     "budget": "acima1000",
-    "drop": "masculino",
-    "weight": "masculino",
+    "drop": "",
+    "weight": "",
     "levels": [
       "intermediario",
       "avancado"
@@ -229,9 +211,7 @@ var SHOES = [
       "amortecimento",
       "leveza"
     ],
-    "technologies": [
-      "masculino"
-    ],
+    "technologies": [],
     "affiliate_links": {
       "amazon": {
         "url": "https://amzn.to/4cKN7pN",
@@ -242,12 +222,12 @@ var SHOES = [
         "price": 1099.99
       }
     },
-    "rating": "masculino",
-    "reviews_count": "masculino",
-    "release_year": "masculino",
+    "rating": "",
+    "reviews_count": "",
+    "release_year": "",
     "is_best_seller": false,
     "images": [
-      "masculino"
+      "https://m.media-amazon.com/images/I/412-RoXwVDL._AC_SY675_.jpg"
     ],
     "emoji": "👟",
     "tags": [
@@ -257,17 +237,13 @@ var SHOES = [
     ],
     "description": "Tecnologia Boost devolve energia a cada passada. Queridinho para longas distâncias com conforto máximo.",
     "reason": "Tecnologia Boost devolve energia a cada passada. Queridinho para longas distâncias com conforto máximo.",
-    "pros": [
-      "masculino"
-    ],
-    "cons": [
-      "masculino"
-    ]
+    "pros": [],
+    "cons": []
   },
   {
     "brand": "ADIDAS",
     "model": "",
-    "version": "masculino",
+    "version": "",
     "name": "Terrex Agravic Speed 2",
     "slug": "adidas-terrex-agravic-speed-2",
     "category": "",
@@ -278,15 +254,13 @@ var SHOES = [
     "price": 1199.99,
     "price_formatted": "R$ 1.199,99",
     "budget": "acima1000",
-    "drop": "masculino",
-    "weight": "masculino",
+    "drop": "",
+    "weight": "",
     "levels": [],
     "terrenos": [],
     "pisadas": [],
     "priors": [],
-    "technologies": [
-      "masculino"
-    ],
+    "technologies": [],
     "affiliate_links": {
       "amazon": {
         "url": "https://amzn.to/4bthoHb",
@@ -297,28 +271,24 @@ var SHOES = [
         "price": 1199.99
       }
     },
-    "rating": "masculino",
-    "reviews_count": "masculino",
-    "release_year": "masculino",
+    "rating": "",
+    "reviews_count": "",
+    "release_year": "",
     "is_best_seller": false,
     "images": [
-      "masculino"
+      "https://m.media-amazon.com/images/I/61wvkUfpJxL._AC_SY500_.jpg"
     ],
     "emoji": "👟",
     "tags": [],
     "description": "",
     "reason": "",
-    "pros": [
-      "masculino"
-    ],
-    "cons": [
-      "masculino"
-    ]
+    "pros": [],
+    "cons": []
   },
   {
     "brand": "ADIDAS",
     "model": "",
-    "version": "feminino",
+    "version": "",
     "name": "Ultraboost 5",
     "slug": "adidas-ultraboost-5",
     "category": "",
@@ -329,8 +299,8 @@ var SHOES = [
     "price": 1036.13,
     "price_formatted": "R$ 1.036,13",
     "budget": "acima1000",
-    "drop": "feminino",
-    "weight": "feminino",
+    "drop": "",
+    "weight": "",
     "levels": [
       "intermediario",
       "avancado"
@@ -349,9 +319,7 @@ var SHOES = [
       "amortecimento",
       "leveza"
     ],
-    "technologies": [
-      "feminino"
-    ],
+    "technologies": [],
     "affiliate_links": {
       "amazon": {
         "url": "https://amzn.to/4sOTugy",
@@ -362,12 +330,12 @@ var SHOES = [
         "price": 1099.99
       }
     },
-    "rating": "feminino",
-    "reviews_count": "feminino",
-    "release_year": "feminino",
+    "rating": "",
+    "reviews_count": "",
+    "release_year": "",
     "is_best_seller": false,
     "images": [
-      "feminino"
+      "https://m.media-amazon.com/images/I/416hAw4kf6L._AC_SY500_.jpg"
     ],
     "emoji": "👟",
     "tags": [
@@ -377,17 +345,13 @@ var SHOES = [
     ],
     "description": "Lightboost 2.0 mais leve e responsivo. Primeknit ajusta como uma meia. Excelente para treinos longos com retorno máximo de energia.",
     "reason": "Lightboost 2.0 mais leve e responsivo. Primeknit ajusta como uma meia. Excelente para treinos longos com retorno máximo de energia.",
-    "pros": [
-      "feminino"
-    ],
-    "cons": [
-      "feminino"
-    ]
+    "pros": [],
+    "cons": []
   },
   {
     "brand": "ADIDAS",
     "model": "",
-    "version": "feminino",
+    "version": "",
     "name": "Duramo Speed 2",
     "slug": "adidas-duramo-speed-2",
     "category": "",
@@ -398,8 +362,8 @@ var SHOES = [
     "price": 421.0,
     "price_formatted": "R$ 421,00",
     "budget": "300a600",
-    "drop": "feminino",
-    "weight": "feminino",
+    "drop": "",
+    "weight": "",
     "levels": [
       "iniciante",
       "intermediario"
@@ -418,9 +382,7 @@ var SHOES = [
       "leveza",
       "custo"
     ],
-    "technologies": [
-      "feminino"
-    ],
+    "technologies": [],
     "affiliate_links": {
       "amazon": {
         "url": "https://amzn.to/4b7TOAW",
@@ -431,12 +393,12 @@ var SHOES = [
         "price": 599.99
       }
     },
-    "rating": "feminino",
-    "reviews_count": "feminino",
-    "release_year": "feminino",
+    "rating": "",
+    "reviews_count": "",
+    "release_year": "",
     "is_best_seller": false,
     "images": [
-      "feminino"
+      "https://m.media-amazon.com/images/I/61ewML3UceL._AC_SY675_.jpg"
     ],
     "emoji": "👟",
     "tags": [
@@ -446,17 +408,13 @@ var SHOES = [
     ],
     "description": "Lightstrike responsivo com solado TPU durável. Leve e rápido para treinos diários até 10km. Excelente custo-benefício para quem quer performance sem gastar muito.",
     "reason": "Lightstrike responsivo com solado TPU durável. Leve e rápido para treinos diários até 10km. Excelente custo-benefício para quem quer performance sem gastar muito.",
-    "pros": [
-      "feminino"
-    ],
-    "cons": [
-      "feminino"
-    ]
+    "pros": [],
+    "cons": []
   },
   {
     "brand": "Adidas",
     "model": "",
-    "version": "feminino",
+    "version": "",
     "name": "Ultraboost 22",
     "slug": "adidas-ultraboost-22",
     "category": "",
@@ -467,8 +425,8 @@ var SHOES = [
     "price": 1199.99,
     "price_formatted": "R$ 1.199,99",
     "budget": "acima1000",
-    "drop": "feminino",
-    "weight": "feminino",
+    "drop": "",
+    "weight": "",
     "levels": [
       "iniciante",
       "intermediario",
@@ -487,9 +445,7 @@ var SHOES = [
       "leveza",
       "retorno"
     ],
-    "technologies": [
-      "feminino"
-    ],
+    "technologies": [],
     "affiliate_links": {
       "amazon": {
         "url": "https://amzn.to/4un9Bn2",
@@ -500,12 +456,12 @@ var SHOES = [
         "price": 1199.99
       }
     },
-    "rating": "feminino",
-    "reviews_count": "feminino",
-    "release_year": "feminino",
+    "rating": "",
+    "reviews_count": "",
+    "release_year": "",
     "is_best_seller": false,
     "images": [
-      "feminino"
+      "https://m.media-amazon.com/images/I/510EloSk7eL._AC_SY625_.jpg"
     ],
     "emoji": "👟",
     "tags": [
@@ -515,17 +471,13 @@ var SHOES = [
     ],
     "description": "Entressola Boost com retorno de energia excepcional, cabedal tipo meia e solado Continental para máximo amortecimento e tração",
     "reason": "Entressola Boost com retorno de energia excepcional, cabedal tipo meia e solado Continental para máximo amortecimento e tração",
-    "pros": [
-      "feminino"
-    ],
-    "cons": [
-      "feminino"
-    ]
+    "pros": [],
+    "cons": []
   },
   {
     "brand": "ASICS",
     "model": "",
-    "version": "masculino",
+    "version": "",
     "name": "Gel-Cumulus 26",
     "slug": "asics-gel-cumulus-26",
     "category": "",
@@ -536,8 +488,8 @@ var SHOES = [
     "price": 900.0,
     "price_formatted": "R$ 900,00",
     "budget": "600a1000",
-    "drop": "masculino",
-    "weight": "masculino",
+    "drop": "",
+    "weight": "",
     "levels": [
       "iniciante",
       "intermediario"
@@ -556,21 +508,19 @@ var SHOES = [
       "amortecimento",
       "custo"
     ],
-    "technologies": [
-      "masculino"
-    ],
+    "technologies": [],
     "affiliate_links": {
       "amazon": {
         "url": "https://amzn.to/477x4ys",
         "price": 900.0
       }
     },
-    "rating": "masculino",
-    "reviews_count": "masculino",
-    "release_year": "masculino",
+    "rating": "",
+    "reviews_count": "",
+    "release_year": "",
     "is_best_seller": true,
     "images": [
-      "masculino"
+      "https://images-na.ssl-images-amazon.com/images/I/71Y43mJ5zeL.jpg"
     ],
     "emoji": "👟",
     "tags": [
@@ -579,17 +529,13 @@ var SHOES = [
     ],
     "description": "Gel duplo + FlyteFoam para treinos diários confortáveis. Irmão mais acessível do Nimbus.",
     "reason": "Gel duplo + FlyteFoam para treinos diários confortáveis. Irmão mais acessível do Nimbus.",
-    "pros": [
-      "masculino"
-    ],
-    "cons": [
-      "masculino"
-    ]
+    "pros": [],
+    "cons": []
   },
   {
     "brand": "ASICS",
     "model": "",
-    "version": "masculino",
+    "version": "",
     "name": "Gel-Kayano 31",
     "slug": "asics-gel-kayano-31",
     "category": "",
@@ -600,8 +546,8 @@ var SHOES = [
     "price": 1.54,
     "price_formatted": "R$ 1,54",
     "budget": "acima1000",
-    "drop": "masculino",
-    "weight": "masculino",
+    "drop": "",
+    "weight": "",
     "levels": [
       "intermediario",
       "avancado"
@@ -619,21 +565,19 @@ var SHOES = [
       "amortecimento",
       "durabilidade"
     ],
-    "technologies": [
-      "masculino"
-    ],
+    "technologies": [],
     "affiliate_links": {
       "amazon": {
         "url": "https://amzn.to/4b8n1uk",
         "price": 1.54
       }
     },
-    "rating": "masculino",
-    "reviews_count": "masculino",
-    "release_year": "masculino",
+    "rating": "",
+    "reviews_count": "",
+    "release_year": "",
     "is_best_seller": false,
     "images": [
-      "masculino"
+      "https://images-na.ssl-images-amazon.com/images/I/61lZORb7jLL.jpg"
     ],
     "emoji": "👟",
     "tags": [
@@ -642,17 +586,13 @@ var SHOES = [
     ],
     "description": "Desenvolvido para pronadores. Suporte medial avançado + Gel duplo: estabilidade sem abrir mão do conforto.",
     "reason": "Desenvolvido para pronadores. Suporte medial avançado + Gel duplo: estabilidade sem abrir mão do conforto.",
-    "pros": [
-      "masculino"
-    ],
-    "cons": [
-      "masculino"
-    ]
+    "pros": [],
+    "cons": []
   },
   {
     "brand": "ASICS",
     "model": "",
-    "version": "masculino",
+    "version": "",
     "name": "Gel-Kayano 31 Matcha",
     "slug": "asics-gel-kayano-31-matcha",
     "category": "",
@@ -663,8 +603,8 @@ var SHOES = [
     "price": 1.174,
     "price_formatted": "R$ 1,17",
     "budget": "acima1000",
-    "drop": "masculino",
-    "weight": "masculino",
+    "drop": "",
+    "weight": "",
     "levels": [
       "intermediario",
       "avancado"
@@ -682,21 +622,19 @@ var SHOES = [
       "amortecimento",
       "durabilidade"
     ],
-    "technologies": [
-      "masculino"
-    ],
+    "technologies": [],
     "affiliate_links": {
       "amazon": {
         "url": "https://amzn.to/3OFw26D",
         "price": 1.174
       }
     },
-    "rating": "masculino",
-    "reviews_count": "masculino",
-    "release_year": "masculino",
+    "rating": "",
+    "reviews_count": "",
+    "release_year": "",
     "is_best_seller": false,
     "images": [
-      "masculino"
+      "https://m.media-amazon.com/images/I/61BJEFWbbnL._AC_SY500_.jpg"
     ],
     "emoji": "👟",
     "tags": [
@@ -705,17 +643,13 @@ var SHOES = [
     ],
     "description": "O melhor tênis de controle de pronação. Suporte medial + Gel duplo para estabilidade máxima.",
     "reason": "O melhor tênis de controle de pronação. Suporte medial + Gel duplo para estabilidade máxima.",
-    "pros": [
-      "masculino"
-    ],
-    "cons": [
-      "masculino"
-    ]
+    "pros": [],
+    "cons": []
   },
   {
     "brand": "ASICS",
     "model": "",
-    "version": "masculino",
+    "version": "",
     "name": "Gel-Nimbus 26",
     "slug": "asics-gel-nimbus-26",
     "category": "",
@@ -726,8 +660,8 @@ var SHOES = [
     "price": 1.3,
     "price_formatted": "R$ 1,30",
     "budget": "acima1000",
-    "drop": "masculino",
-    "weight": "masculino",
+    "drop": "",
+    "weight": "",
     "levels": [
       "iniciante",
       "intermediario"
@@ -744,21 +678,19 @@ var SHOES = [
     "priors": [
       "amortecimento"
     ],
-    "technologies": [
-      "masculino"
-    ],
+    "technologies": [],
     "affiliate_links": {
       "amazon": {
         "url": "https://amzn.to/3OP4Dzd",
         "price": 1.3
       }
     },
-    "rating": "masculino",
-    "reviews_count": "masculino",
-    "release_year": "masculino",
+    "rating": "",
+    "reviews_count": "",
+    "release_year": "",
     "is_best_seller": true,
     "images": [
-      "masculino"
+      "https://images-na.ssl-images-amazon.com/images/I/61EYOnNOMbL.jpg"
     ],
     "emoji": "👟",
     "tags": [
@@ -767,17 +699,13 @@ var SHOES = [
     ],
     "description": "Amortecimento FlyteFoam excepcional. Ideal para iniciantes que precisam de proteção extra nas articulações.",
     "reason": "Amortecimento FlyteFoam excepcional. Ideal para iniciantes que precisam de proteção extra nas articulações.",
-    "pros": [
-      "masculino"
-    ],
-    "cons": [
-      "masculino"
-    ]
+    "pros": [],
+    "cons": []
   },
   {
     "brand": "ASICS",
     "model": "",
-    "version": "feminino",
+    "version": "",
     "name": "Gel-Nimbus 26",
     "slug": "asics-gel-nimbus-26",
     "category": "",
@@ -788,8 +716,8 @@ var SHOES = [
     "price": 1796.17,
     "price_formatted": "R$ 1.796,17",
     "budget": "acima1000",
-    "drop": "feminino",
-    "weight": "feminino",
+    "drop": "",
+    "weight": "",
     "levels": [
       "iniciante",
       "intermediario"
@@ -806,21 +734,19 @@ var SHOES = [
     "priors": [
       "amortecimento"
     ],
-    "technologies": [
-      "feminino"
-    ],
+    "technologies": [],
     "affiliate_links": {
       "amazon": {
         "url": "https://amzn.to/4ugSqmP",
         "price": 1796.17
       }
     },
-    "rating": "feminino",
-    "reviews_count": "feminino",
-    "release_year": "feminino",
+    "rating": "",
+    "reviews_count": "",
+    "release_year": "",
     "is_best_seller": true,
     "images": [
-      "feminino"
+      "https://m.media-amazon.com/images/I/61aPga42FKL._AC_SY500_.jpg"
     ],
     "emoji": "👟",
     "tags": [
@@ -829,17 +755,13 @@ var SHOES = [
     ],
     "description": "Amortecimento FlyteFoam excepcional para longas distâncias. Proteção articular superior para corredoras.",
     "reason": "Amortecimento FlyteFoam excepcional para longas distâncias. Proteção articular superior para corredoras.",
-    "pros": [
-      "feminino"
-    ],
-    "cons": [
-      "feminino"
-    ]
+    "pros": [],
+    "cons": []
   },
   {
     "brand": "ASICS",
     "model": "",
-    "version": "masculino",
+    "version": "",
     "name": "Gel-Trabuco 12",
     "slug": "asics-gel-trabuco-12",
     "category": "",
@@ -850,8 +772,8 @@ var SHOES = [
     "price": 1.398,
     "price_formatted": "R$ 1,40",
     "budget": "acima1000",
-    "drop": "masculino",
-    "weight": "masculino",
+    "drop": "",
+    "weight": "",
     "levels": [
       "iniciante",
       "intermediario"
@@ -869,21 +791,19 @@ var SHOES = [
       "custo",
       "durabilidade"
     ],
-    "technologies": [
-      "masculino"
-    ],
+    "technologies": [],
     "affiliate_links": {
       "amazon": {
         "url": "https://amzn.to/3NhE4Cb",
         "price": 1.398
       }
     },
-    "rating": "masculino",
-    "reviews_count": "masculino",
-    "release_year": "masculino",
+    "rating": "",
+    "reviews_count": "",
+    "release_year": "",
     "is_best_seller": false,
     "images": [
-      "masculino"
+      "https://images-na.ssl-images-amazon.com/images/I/61wuJhpSxgL.jpg"
     ],
     "emoji": "👟",
     "tags": [
@@ -892,17 +812,13 @@ var SHOES = [
     ],
     "description": "Proteção no bico e solado com travas. Funciona bem em trilhas leves e estradas mistas.",
     "reason": "Proteção no bico e solado com travas. Funciona bem em trilhas leves e estradas mistas.",
-    "pros": [
-      "masculino"
-    ],
-    "cons": [
-      "masculino"
-    ]
+    "pros": [],
+    "cons": []
   },
   {
     "brand": "ASICS",
     "model": "",
-    "version": "masculino",
+    "version": "",
     "name": "Gel-Pulse 15 SE",
     "slug": "asics-gel-pulse-15-se",
     "category": "",
@@ -913,8 +829,8 @@ var SHOES = [
     "price": 469.0,
     "price_formatted": "R$ 469,00",
     "budget": "300a600",
-    "drop": "masculino",
-    "weight": "masculino",
+    "drop": "",
+    "weight": "",
     "levels": [
       "iniciante",
       "intermediario"
@@ -934,21 +850,19 @@ var SHOES = [
       "custo",
       "durabilidade"
     ],
-    "technologies": [
-      "masculino"
-    ],
+    "technologies": [],
     "affiliate_links": {
       "amazon": {
         "url": "https://amzn.to/4rT89qU",
         "price": 469.0
       }
     },
-    "rating": "masculino",
-    "reviews_count": "masculino",
-    "release_year": "masculino",
+    "rating": "",
+    "reviews_count": "",
+    "release_year": "",
     "is_best_seller": false,
     "images": [
-      "masculino"
+      "https://m.media-amazon.com/images/I/511jmvCr1BL._AC_SY500_.jpg"
     ],
     "emoji": "👟",
     "tags": [
@@ -958,17 +872,13 @@ var SHOES = [
     ],
     "description": "GEL no calcanhar + FlyteFoam leve. Ótimo custo-benefício para o dia a dia. Cabedal respirável e durável para treinos regulares.",
     "reason": "GEL no calcanhar + FlyteFoam leve. Ótimo custo-benefício para o dia a dia. Cabedal respirável e durável para treinos regulares.",
-    "pros": [
-      "masculino"
-    ],
-    "cons": [
-      "masculino"
-    ]
+    "pros": [],
+    "cons": []
   },
   {
     "brand": "ASICS",
     "model": "",
-    "version": "feminino",
+    "version": "",
     "name": "Gel-Venture 10",
     "slug": "asics-gel-venture-10",
     "category": "",
@@ -979,8 +889,8 @@ var SHOES = [
     "price": 699.9,
     "price_formatted": "R$ 699,90",
     "budget": "600a1000",
-    "drop": "feminino",
-    "weight": "feminino",
+    "drop": "",
+    "weight": "",
     "levels": [
       "iniciante",
       "intermediario"
@@ -997,21 +907,19 @@ var SHOES = [
       "amortecimento",
       "durabilidade"
     ],
-    "technologies": [
-      "feminino"
-    ],
+    "technologies": [],
     "affiliate_links": {
       "amazon": {
         "url": "https://amzn.to/4rSbMx8",
         "price": 699.9
       }
     },
-    "rating": "feminino",
-    "reviews_count": "feminino",
-    "release_year": "feminino",
+    "rating": "",
+    "reviews_count": "",
+    "release_year": "",
     "is_best_seller": false,
     "images": [
-      "feminino"
+      "https://m.media-amazon.com/images/I/617GtsqxJmL._AC_SY625_.jpg"
     ],
     "emoji": "👟",
     "tags": [
@@ -1021,17 +929,13 @@ var SHOES = [
     ],
     "description": "Tecnologia GEL ASICS com excelente amortecimento e tração para trilha e asfalto",
     "reason": "Tecnologia GEL ASICS com excelente amortecimento e tração para trilha e asfalto",
-    "pros": [
-      "feminino"
-    ],
-    "cons": [
-      "feminino"
-    ]
+    "pros": [],
+    "cons": []
   },
   {
     "brand": "NEW BALANCE",
     "model": "",
-    "version": "feminino",
+    "version": "",
     "name": "FuelCell Rebel V5",
     "slug": "new-balance-fuelcell-rebel-v5",
     "category": "",
@@ -1042,8 +946,8 @@ var SHOES = [
     "price": 989.79,
     "price_formatted": "R$ 989,79",
     "budget": "600a1000",
-    "drop": "feminino",
-    "weight": "feminino",
+    "drop": "",
+    "weight": "",
     "levels": [
       "iniciante",
       "intermediario"
@@ -1060,21 +964,19 @@ var SHOES = [
       "amortecimento",
       "durabilidade"
     ],
-    "technologies": [
-      "feminino"
-    ],
+    "technologies": [],
     "affiliate_links": {
       "amazon": {
         "url": "https://amzn.to/4liLXE5",
         "price": 989.79
       }
     },
-    "rating": "feminino",
-    "reviews_count": "feminino",
-    "release_year": "feminino",
+    "rating": "",
+    "reviews_count": "",
+    "release_year": "",
     "is_best_seller": false,
     "images": [
-      "feminino"
+      "https://m.media-amazon.com/images/I/71AhLqeaRrL._AC_SX500_.jpg"
     ],
     "emoji": "👟",
     "tags": [
@@ -1084,17 +986,13 @@ var SHOES = [
     ],
     "description": "Tecnologia GEL ASICS com excelente amortecimento e tração para trilha e asfalto",
     "reason": "Tecnologia GEL ASICS com excelente amortecimento e tração para trilha e asfalto",
-    "pros": [
-      "feminino"
-    ],
-    "cons": [
-      "feminino"
-    ]
+    "pros": [],
+    "cons": []
   },
   {
     "brand": "ASICS",
     "model": "",
-    "version": "feminino",
+    "version": "",
     "name": "Gel-Shinobi 2",
     "slug": "asics-gel-shinobi-2",
     "category": "",
@@ -1105,8 +1003,8 @@ var SHOES = [
     "price": 399.99,
     "price_formatted": "R$ 399,99",
     "budget": "300a600",
-    "drop": "feminino",
-    "weight": "feminino",
+    "drop": "",
+    "weight": "",
     "levels": [
       "iniciante",
       "intermediario"
@@ -1123,21 +1021,19 @@ var SHOES = [
       "amortecimento",
       "durabilidade"
     ],
-    "technologies": [
-      "feminino"
-    ],
+    "technologies": [],
     "affiliate_links": {
       "amazon": {
         "url": "https://amzn.to/4da3rAm",
         "price": 399.99
       }
     },
-    "rating": "feminino",
-    "reviews_count": "feminino",
-    "release_year": "feminino",
+    "rating": "",
+    "reviews_count": "",
+    "release_year": "",
     "is_best_seller": false,
     "images": [
-      "feminino"
+      "https://m.media-amazon.com/images/I/51fjXmKBuTL._AC_SX522_.jpg"
     ],
     "emoji": "👟",
     "tags": [
@@ -1146,17 +1042,13 @@ var SHOES = [
     ],
     "description": "Tecnologia GEL na entressola EVA para absorção de impacto, cabedal mesh respirável e solado emborrachado resistente",
     "reason": "Tecnologia GEL na entressola EVA para absorção de impacto, cabedal mesh respirável e solado emborrachado resistente",
-    "pros": [
-      "feminino"
-    ],
-    "cons": [
-      "feminino"
-    ]
+    "pros": [],
+    "cons": []
   },
   {
     "brand": "ASICS",
     "model": "",
-    "version": "feminino",
+    "version": "",
     "name": "Gel-Kayano 32",
     "slug": "asics-gel-kayano-32",
     "category": "",
@@ -1167,8 +1059,8 @@ var SHOES = [
     "price": 1718.19,
     "price_formatted": "R$ 1.718,19",
     "budget": "acima1000",
-    "drop": "feminino",
-    "weight": "feminino",
+    "drop": "",
+    "weight": "",
     "levels": [
       "intermediario",
       "avancado"
@@ -1186,21 +1078,19 @@ var SHOES = [
       "estabilidade",
       "durabilidade"
     ],
-    "technologies": [
-      "feminino"
-    ],
+    "technologies": [],
     "affiliate_links": {
       "amazon": {
         "url": "https://amzn.to/4uizqob",
         "price": 1718.19
       }
     },
-    "rating": "feminino",
-    "reviews_count": "feminino",
-    "release_year": "feminino",
+    "rating": "",
+    "reviews_count": "",
+    "release_year": "",
     "is_best_seller": false,
     "images": [
-      "feminino"
+      "https://m.media-amazon.com/images/I/61fz1ft0bDL._AC_SY500_.jpg"
     ],
     "emoji": "👟",
     "tags": [
@@ -1210,17 +1100,13 @@ var SHOES = [
     ],
     "description": "4D Guidance System com espuma FF BLAST PLUS para estabilidade máxima, ideal para longas distâncias e corredoras com pisada pronada",
     "reason": "4D Guidance System com espuma FF BLAST PLUS para estabilidade máxima, ideal para longas distâncias e corredoras com pisada pronada",
-    "pros": [
-      "feminino"
-    ],
-    "cons": [
-      "feminino"
-    ]
+    "pros": [],
+    "cons": []
   },
   {
     "brand": "BROOKS",
     "model": "",
-    "version": "masculino",
+    "version": "",
     "name": "Adrenaline GTS 24 Supportive",
     "slug": "brooks-adrenaline-gts-24-supportive",
     "category": "",
@@ -1231,8 +1117,8 @@ var SHOES = [
     "price": 987.0,
     "price_formatted": "R$ 987,00",
     "budget": "600a1000",
-    "drop": "masculino",
-    "weight": "masculino",
+    "drop": "",
+    "weight": "",
     "levels": [
       "iniciante",
       "intermediario",
@@ -1251,21 +1137,19 @@ var SHOES = [
       "amortecimento",
       "durabilidade"
     ],
-    "technologies": [
-      "masculino"
-    ],
+    "technologies": [],
     "affiliate_links": {
       "amazon": {
         "url": "https://amzn.to/4u7e6Sr",
         "price": 987.0
       }
     },
-    "rating": "masculino",
-    "reviews_count": "masculino",
-    "release_year": "masculino",
+    "rating": "",
+    "reviews_count": "",
+    "release_year": "",
     "is_best_seller": false,
     "images": [
-      "masculino"
+      "https://images-na.ssl-images-amazon.com/images/I/71EJN-HyMWL.jpg"
     ],
     "emoji": "👟",
     "tags": [
@@ -1274,17 +1158,13 @@ var SHOES = [
     ],
     "description": "GuideRails exclusivo suporta o excesso de movimento sem travar a pisada natural. Indicado por fisios.",
     "reason": "GuideRails exclusivo suporta o excesso de movimento sem travar a pisada natural. Indicado por fisios.",
-    "pros": [
-      "masculino"
-    ],
-    "cons": [
-      "masculino"
-    ]
+    "pros": [],
+    "cons": []
   },
   {
     "brand": "BROOKS",
     "model": "",
-    "version": "masculino",
+    "version": "",
     "name": "Adrenaline GTS 24 Weatherized",
     "slug": "brooks-adrenaline-gts-24-weatherized",
     "category": "",
@@ -1295,8 +1175,8 @@ var SHOES = [
     "price": 945.0,
     "price_formatted": "R$ 945,00",
     "budget": "600a1000",
-    "drop": "masculino",
-    "weight": "masculino",
+    "drop": "",
+    "weight": "",
     "levels": [
       "iniciante",
       "intermediario",
@@ -1315,21 +1195,19 @@ var SHOES = [
       "amortecimento",
       "durabilidade"
     ],
-    "technologies": [
-      "masculino"
-    ],
+    "technologies": [],
     "affiliate_links": {
       "amazon": {
         "url": "https://amzn.to/4sgDgwi",
         "price": 945.0
       }
     },
-    "rating": "masculino",
-    "reviews_count": "masculino",
-    "release_year": "masculino",
+    "rating": "",
+    "reviews_count": "",
+    "release_year": "",
     "is_best_seller": false,
     "images": [
-      "masculino"
+      "https://m.media-amazon.com/images/I/71JfCH+M+jL._AC_SY500_.jpg"
     ],
     "emoji": "👟",
     "tags": [
@@ -1338,17 +1216,13 @@ var SHOES = [
     ],
     "description": "O tênis de controle mais recomendado por fisioterapeutas. GuideRails adapta ao movimento único de cada corredora.",
     "reason": "O tênis de controle mais recomendado por fisioterapeutas. GuideRails adapta ao movimento único de cada corredora.",
-    "pros": [
-      "masculino"
-    ],
-    "cons": [
-      "masculino"
-    ]
+    "pros": [],
+    "cons": []
   },
   {
     "brand": "BROOKS",
     "model": "",
-    "version": "masculino",
+    "version": "",
     "name": "Ghost 16",
     "slug": "brooks-ghost-16",
     "category": "",
@@ -1359,8 +1233,8 @@ var SHOES = [
     "price": 1.315,
     "price_formatted": "R$ 1,31",
     "budget": "acima1000",
-    "drop": "masculino",
-    "weight": "masculino",
+    "drop": "",
+    "weight": "",
     "levels": [
       "iniciante",
       "intermediario"
@@ -1379,21 +1253,19 @@ var SHOES = [
       "amortecimento",
       "custo"
     ],
-    "technologies": [
-      "masculino"
-    ],
+    "technologies": [],
     "affiliate_links": {
       "amazon": {
         "url": "https://amzn.to/4aYytsk",
         "price": 1.315
       }
     },
-    "rating": "masculino",
-    "reviews_count": "masculino",
-    "release_year": "masculino",
+    "rating": "",
+    "reviews_count": "",
+    "release_year": "",
     "is_best_seller": false,
     "images": [
-      "masculino"
+      "https://images-na.ssl-images-amazon.com/images/I/81Kt56apbuL.jpg"
     ],
     "emoji": "👟",
     "tags": [
@@ -1402,17 +1274,13 @@ var SHOES = [
     ],
     "description": "DNA Loft v3 oferece maciez consistente do início ao fim do treino. Ótimo tênis de treino diário.",
     "reason": "DNA Loft v3 oferece maciez consistente do início ao fim do treino. Ótimo tênis de treino diário.",
-    "pros": [
-      "masculino"
-    ],
-    "cons": [
-      "masculino"
-    ]
+    "pros": [],
+    "cons": []
   },
   {
     "brand": "BROOKS",
     "model": "",
-    "version": "feminino",
+    "version": "",
     "name": "Ghost 14 Neutral",
     "slug": "brooks-ghost-14-neutral",
     "category": "",
@@ -1423,8 +1291,8 @@ var SHOES = [
     "price": 1326.63,
     "price_formatted": "R$ 1.326,63",
     "budget": "acima1000",
-    "drop": "feminino",
-    "weight": "feminino",
+    "drop": "",
+    "weight": "",
     "levels": [
       "iniciante",
       "intermediario"
@@ -1441,21 +1309,19 @@ var SHOES = [
       "amortecimento",
       "durabilidade"
     ],
-    "technologies": [
-      "feminino"
-    ],
+    "technologies": [],
     "affiliate_links": {
       "amazon": {
         "url": "https://amzn.to/4srKmhs",
         "price": 1326.63
       }
     },
-    "rating": "feminino",
-    "reviews_count": "feminino",
-    "release_year": "feminino",
+    "rating": "",
+    "reviews_count": "",
+    "release_year": "",
     "is_best_seller": false,
     "images": [
-      "feminino"
+      "https://m.media-amazon.com/images/I/81FrDKqWbIL._AC_SY500_.jpg"
     ],
     "emoji": "👟",
     "tags": [
@@ -1465,17 +1331,13 @@ var SHOES = [
     ],
     "description": "Amortecimento DNA LOFT com solado de garras para trilha leve, combina o conforto de um tênis de rua com tração fora do asfalto",
     "reason": "Amortecimento DNA LOFT com solado de garras para trilha leve, combina o conforto de um tênis de rua com tração fora do asfalto",
-    "pros": [
-      "feminino"
-    ],
-    "cons": [
-      "feminino"
-    ]
+    "pros": [],
+    "cons": []
   },
   {
     "brand": "FILA",
     "model": "",
-    "version": "feminino",
+    "version": "",
     "name": "Float Maxxi",
     "slug": "fila-float-maxxi",
     "category": "",
@@ -1486,8 +1348,8 @@ var SHOES = [
     "price": 539.9,
     "price_formatted": "R$ 539,90",
     "budget": "300a600",
-    "drop": "feminino",
-    "weight": "feminino",
+    "drop": "",
+    "weight": "",
     "levels": [
       "iniciante",
       "intermediario",
@@ -1506,21 +1368,19 @@ var SHOES = [
       "amortecimento",
       "custo"
     ],
-    "technologies": [
-      "feminino"
-    ],
+    "technologies": [],
     "affiliate_links": {
       "amazon": {
         "url": "https://amzn.to/4aZSxMh",
         "price": 539.9
       }
     },
-    "rating": "feminino",
-    "reviews_count": "feminino",
-    "release_year": "feminino",
+    "rating": "",
+    "reviews_count": "",
+    "release_year": "",
     "is_best_seller": false,
     "images": [
-      "feminino"
+      "https://m.media-amazon.com/images/I/51DEAqmvGdL._AC_SY625_.jpg"
     ],
     "emoji": "👟",
     "tags": [
@@ -1529,17 +1389,13 @@ var SHOES = [
     ],
     "description": "Alto amortecimento FLOAT com ótimo custo-benefício para corridas em asfalto",
     "reason": "Alto amortecimento FLOAT com ótimo custo-benefício para corridas em asfalto",
-    "pros": [
-      "feminino"
-    ],
-    "cons": [
-      "feminino"
-    ]
+    "pros": [],
+    "cons": []
   },
   {
     "brand": "FILA",
     "model": "",
-    "version": "masculino",
+    "version": "",
     "name": "Racer Fastpace",
     "slug": "fila-racer-fastpace",
     "category": "",
@@ -1550,8 +1406,8 @@ var SHOES = [
     "price": 279.9,
     "price_formatted": "R$ 279,90",
     "budget": "ate300",
-    "drop": "masculino",
-    "weight": "masculino",
+    "drop": "",
+    "weight": "",
     "levels": [
       "iniciante",
       "intermediario"
@@ -1565,21 +1421,19 @@ var SHOES = [
       "neutra"
     ],
     "priors": [],
-    "technologies": [
-      "masculino"
-    ],
+    "technologies": [],
     "affiliate_links": {
       "amazon": {
         "url": "https://amzn.to/40WKcTq",
         "price": 279.9
       }
     },
-    "rating": "masculino",
-    "reviews_count": "masculino",
-    "release_year": "masculino",
+    "rating": "",
+    "reviews_count": "",
+    "release_year": "",
     "is_best_seller": false,
     "images": [
-      "masculino"
+      "https://m.media-amazon.com/images/I/517Z6pntJHL._AC_SY625_.jpg"
     ],
     "emoji": "👟",
     "tags": [
@@ -1588,17 +1442,13 @@ var SHOES = [
     ],
     "description": "amortecimento|durabilidade|custo",
     "reason": "amortecimento|durabilidade|custo",
-    "pros": [
-      "masculino"
-    ],
-    "cons": [
-      "masculino"
-    ]
+    "pros": [],
+    "cons": []
   },
   {
     "brand": "FILA",
     "model": "",
-    "version": "feminino",
+    "version": "",
     "name": "Racer Comet",
     "slug": "fila-racer-comet",
     "category": "",
@@ -1609,8 +1459,8 @@ var SHOES = [
     "price": 299.99,
     "price_formatted": "R$ 299,99",
     "budget": "ate300",
-    "drop": "feminino",
-    "weight": "feminino",
+    "drop": "",
+    "weight": "",
     "levels": [
       "iniciante",
       "intermediario"
@@ -1627,21 +1477,19 @@ var SHOES = [
       "amortecimento",
       "durabilidade"
     ],
-    "technologies": [
-      "feminino"
-    ],
+    "technologies": [],
     "affiliate_links": {
       "amazon": {
         "url": "https://amzn.to/4aXF5sb",
         "price": 299.99
       }
     },
-    "rating": "feminino",
-    "reviews_count": "feminino",
-    "release_year": "feminino",
+    "rating": "",
+    "reviews_count": "",
+    "release_year": "",
     "is_best_seller": false,
     "images": [
-      "feminino"
+      "https://m.media-amazon.com/images/I/61rKjTIK4SL._AC_SY625_.jpg"
     ],
     "emoji": "👟",
     "tags": [
@@ -1650,17 +1498,13 @@ var SHOES = [
     ],
     "description": "Solado maximalista com entressola EVA e ponteiras TPU para amortecimento e estabilidade em corridas de até 10km",
     "reason": "Solado maximalista com entressola EVA e ponteiras TPU para amortecimento e estabilidade em corridas de até 10km",
-    "pros": [
-      "feminino"
-    ],
-    "cons": [
-      "feminino"
-    ]
+    "pros": [],
+    "cons": []
   },
   {
     "brand": "FILA",
     "model": "",
-    "version": "feminino",
+    "version": "",
     "name": "Recovery",
     "slug": "fila-recovery",
     "category": "",
@@ -1671,8 +1515,8 @@ var SHOES = [
     "price": 329.9,
     "price_formatted": "R$ 329,90",
     "budget": "300a600",
-    "drop": "feminino",
-    "weight": "feminino",
+    "drop": "",
+    "weight": "",
     "levels": [
       "iniciante",
       "intermediario"
@@ -1689,21 +1533,19 @@ var SHOES = [
       "amortecimento",
       "custo"
     ],
-    "technologies": [
-      "feminino"
-    ],
+    "technologies": [],
     "affiliate_links": {
       "amazon": {
         "url": "https://amzn.to/4s0yCmo",
         "price": 329.9
       }
     },
-    "rating": "feminino",
-    "reviews_count": "feminino",
-    "release_year": "feminino",
+    "rating": "",
+    "reviews_count": "",
+    "release_year": "",
     "is_best_seller": false,
     "images": [
-      "feminino"
+      "https://m.media-amazon.com/images/I/51Y79XZ2xcL._AC_SY500_.jpg"
     ],
     "emoji": "👟",
     "tags": [
@@ -1712,17 +1554,13 @@ var SHOES = [
     ],
     "description": "Solado Energized Rubber da linha Float transforma impacto em propulsão, com cabedal mesh e contraforte estruturado para estabilidade",
     "reason": "Solado Energized Rubber da linha Float transforma impacto em propulsão, com cabedal mesh e contraforte estruturado para estabilidade",
-    "pros": [
-      "feminino"
-    ],
-    "cons": [
-      "feminino"
-    ]
+    "pros": [],
+    "cons": []
   },
   {
     "brand": "HOKA",
     "model": "",
-    "version": "masculino",
+    "version": "",
     "name": "Bondi 8",
     "slug": "hoka-bondi-8",
     "category": "",
@@ -1733,8 +1571,8 @@ var SHOES = [
     "price": 1.249,
     "price_formatted": "R$ 1,25",
     "budget": "acima1000",
-    "drop": "masculino",
-    "weight": "masculino",
+    "drop": "",
+    "weight": "",
     "levels": [
       "iniciante",
       "intermediario",
@@ -1753,21 +1591,19 @@ var SHOES = [
     "priors": [
       "amortecimento"
     ],
-    "technologies": [
-      "masculino"
-    ],
+    "technologies": [],
     "affiliate_links": {
       "amazon": {
         "url": "https://amzn.to/409HQk0",
         "price": 1.249
       }
     },
-    "rating": "masculino",
-    "reviews_count": "masculino",
-    "release_year": "masculino",
+    "rating": "",
+    "reviews_count": "",
+    "release_year": "",
     "is_best_seller": false,
     "images": [
-      "masculino"
+      "https://images-na.ssl-images-amazon.com/images/I/71cO3lBXuML.jpg"
     ],
     "emoji": "👟",
     "tags": [
@@ -1776,17 +1612,13 @@ var SHOES = [
     ],
     "description": "O rei do amortecimento máximo. Perfeito para dias de recuperação ou corredores que precisam de proteção extra.",
     "reason": "O rei do amortecimento máximo. Perfeito para dias de recuperação ou corredores que precisam de proteção extra.",
-    "pros": [
-      "masculino"
-    ],
-    "cons": [
-      "masculino"
-    ]
+    "pros": [],
+    "cons": []
   },
   {
     "brand": "HOKA",
     "model": "",
-    "version": "masculino",
+    "version": "",
     "name": "Bondi 8 Road",
     "slug": "hoka-bondi-8-road",
     "category": "",
@@ -1797,8 +1629,8 @@ var SHOES = [
     "price": 1.781,
     "price_formatted": "R$ 1,78",
     "budget": "acima1000",
-    "drop": "masculino",
-    "weight": "masculino",
+    "drop": "",
+    "weight": "",
     "levels": [
       "iniciante",
       "intermediario",
@@ -1817,21 +1649,19 @@ var SHOES = [
     "priors": [
       "amortecimento"
     ],
-    "technologies": [
-      "masculino"
-    ],
+    "technologies": [],
     "affiliate_links": {
       "amazon": {
         "url": "https://amzn.to/4stApQS",
         "price": 1.781
       }
     },
-    "rating": "masculino",
-    "reviews_count": "masculino",
-    "release_year": "masculino",
+    "rating": "",
+    "reviews_count": "",
+    "release_year": "",
     "is_best_seller": false,
     "images": [
-      "masculino"
+      "https://m.media-amazon.com/images/I/514X0mOyFtL._AC_SX500_.jpg"
     ],
     "emoji": "👟",
     "tags": [
@@ -1840,17 +1670,13 @@ var SHOES = [
     ],
     "description": "Amortecimento máximo para recuperação ativa ou corredoras que precisam de proteção articular extra.",
     "reason": "Amortecimento máximo para recuperação ativa ou corredoras que precisam de proteção articular extra.",
-    "pros": [
-      "masculino"
-    ],
-    "cons": [
-      "masculino"
-    ]
+    "pros": [],
+    "cons": []
   },
   {
     "brand": "HOKA",
     "model": "",
-    "version": "masculino",
+    "version": "",
     "name": "Clifton 9",
     "slug": "hoka-clifton-9",
     "category": "",
@@ -1861,8 +1687,8 @@ var SHOES = [
     "price": 1.12,
     "price_formatted": "R$ 1,12",
     "budget": "acima1000",
-    "drop": "masculino",
-    "weight": "masculino",
+    "drop": "",
+    "weight": "",
     "levels": [
       "iniciante",
       "intermediario",
@@ -1881,21 +1707,19 @@ var SHOES = [
       "amortecimento",
       "leveza"
     ],
-    "technologies": [
-      "masculino"
-    ],
+    "technologies": [],
     "affiliate_links": {
       "amazon": {
         "url": "https://amzn.to/4u9y3YW",
         "price": 1.12
       }
     },
-    "rating": "masculino",
-    "reviews_count": "masculino",
-    "release_year": "masculino",
+    "rating": "",
+    "reviews_count": "",
+    "release_year": "",
     "is_best_seller": false,
     "images": [
-      "masculino"
+      "https://images-na.ssl-images-amazon.com/images/I/61Gkm+6EdqL.jpg"
     ],
     "emoji": "👟",
     "tags": [
@@ -1904,17 +1728,13 @@ var SHOES = [
     ],
     "description": "Amortecimento máximo com peso surpreendentemente baixo. Ótimo para treinos longos e recuperação.",
     "reason": "Amortecimento máximo com peso surpreendentemente baixo. Ótimo para treinos longos e recuperação.",
-    "pros": [
-      "masculino"
-    ],
-    "cons": [
-      "masculino"
-    ]
+    "pros": [],
+    "cons": []
   },
   {
     "brand": "HOKA",
     "model": "",
-    "version": "masculino",
+    "version": "",
     "name": "Clifton 9",
     "slug": "hoka-clifton-9",
     "category": "",
@@ -1925,8 +1745,8 @@ var SHOES = [
     "price": 1.299,
     "price_formatted": "R$ 1,30",
     "budget": "acima1000",
-    "drop": "masculino",
-    "weight": "masculino",
+    "drop": "",
+    "weight": "",
     "levels": [
       "iniciante",
       "intermediario",
@@ -1945,21 +1765,19 @@ var SHOES = [
       "amortecimento",
       "leveza"
     ],
-    "technologies": [
-      "masculino"
-    ],
+    "technologies": [],
     "affiliate_links": {
       "amazon": {
         "url": "https://amzn.to/4ssofHW",
         "price": 1.299
       }
     },
-    "rating": "masculino",
-    "reviews_count": "masculino",
-    "release_year": "masculino",
+    "rating": "",
+    "reviews_count": "",
+    "release_year": "",
     "is_best_seller": false,
     "images": [
-      "masculino"
+      "https://m.media-amazon.com/images/I/61IG0fi5z+L._AC_SY500_.jpg"
     ],
     "emoji": "👟",
     "tags": [
@@ -1968,17 +1786,13 @@ var SHOES = [
     ],
     "description": "Amortecimento máximo com leveza surpreendente. Ótimo para treinos longos e recuperação ativa.",
     "reason": "Amortecimento máximo com leveza surpreendente. Ótimo para treinos longos e recuperação ativa.",
-    "pros": [
-      "masculino"
-    ],
-    "cons": [
-      "masculino"
-    ]
+    "pros": [],
+    "cons": []
   },
   {
     "brand": "HOKA",
     "model": "",
-    "version": "masculino",
+    "version": "",
     "name": "Speedgoat 6",
     "slug": "hoka-speedgoat-6",
     "category": "",
@@ -1989,8 +1803,8 @@ var SHOES = [
     "price": 1.233,
     "price_formatted": "R$ 1,23",
     "budget": "acima1000",
-    "drop": "masculino",
-    "weight": "masculino",
+    "drop": "",
+    "weight": "",
     "levels": [
       "intermediario",
       "avancado"
@@ -2007,21 +1821,19 @@ var SHOES = [
     "priors": [
       "amortecimento"
     ],
-    "technologies": [
-      "masculino"
-    ],
+    "technologies": [],
     "affiliate_links": {
       "amazon": {
         "url": "https://amzn.to/3Pe4Age",
         "price": 1.233
       }
     },
-    "rating": "masculino",
-    "reviews_count": "masculino",
-    "release_year": "masculino",
+    "rating": "",
+    "reviews_count": "",
+    "release_year": "",
     "is_best_seller": false,
     "images": [
-      "masculino"
+      "https://images-na.ssl-images-amazon.com/images/I/71pT4bBn39L.jpg"
     ],
     "emoji": "👟",
     "tags": [
@@ -2030,17 +1842,13 @@ var SHOES = [
     ],
     "description": "Favorito dos ultramaratonistas: amortecimento generoso com grip confiável nas piores condições.",
     "reason": "Favorito dos ultramaratonistas: amortecimento generoso com grip confiável nas piores condições.",
-    "pros": [
-      "masculino"
-    ],
-    "cons": [
-      "masculino"
-    ]
+    "pros": [],
+    "cons": []
   },
   {
     "brand": "MIZUNO",
     "model": "",
-    "version": "masculino",
+    "version": "",
     "name": "Wave Inspire 21",
     "slug": "mizuno-wave-inspire-21",
     "category": "",
@@ -2051,8 +1859,8 @@ var SHOES = [
     "price": 649.99,
     "price_formatted": "R$ 649,99",
     "budget": "600a1000",
-    "drop": "masculino",
-    "weight": "masculino",
+    "drop": "",
+    "weight": "",
     "levels": [
       "iniciante",
       "intermediario"
@@ -2070,9 +1878,7 @@ var SHOES = [
       "amortecimento",
       "durabilidade"
     ],
-    "technologies": [
-      "masculino"
-    ],
+    "technologies": [],
     "affiliate_links": {
       "amazon": {
         "url": "https://amzn.to/4b5N32t",
@@ -2083,12 +1889,12 @@ var SHOES = [
         "price": 649.99
       }
     },
-    "rating": "masculino",
-    "reviews_count": "masculino",
-    "release_year": "masculino",
+    "rating": "",
+    "reviews_count": "",
+    "release_year": "",
     "is_best_seller": false,
     "images": [
-      "masculino"
+      "https://m.media-amazon.com/images/I/71qHhWE-T7L._AC_SY500_.jpg"
     ],
     "emoji": "👟",
     "tags": [
@@ -2097,17 +1903,13 @@ var SHOES = [
     ],
     "description": "Suporte Wave duplo para pronadores. Mais macio que o Wave Creation, ideal para treinos longos.",
     "reason": "Suporte Wave duplo para pronadores. Mais macio que o Wave Creation, ideal para treinos longos.",
-    "pros": [
-      "masculino"
-    ],
-    "cons": [
-      "masculino"
-    ]
+    "pros": [],
+    "cons": []
   },
   {
     "brand": "MIZUNO",
     "model": "",
-    "version": "masculino",
+    "version": "",
     "name": "Wave Rider 28",
     "slug": "mizuno-wave-rider-28",
     "category": "",
@@ -2118,8 +1920,8 @@ var SHOES = [
     "price": 549.99,
     "price_formatted": "R$ 549,99",
     "budget": "300a600",
-    "drop": "masculino",
-    "weight": "masculino",
+    "drop": "",
+    "weight": "",
     "levels": [
       "iniciante",
       "intermediario"
@@ -2138,9 +1940,7 @@ var SHOES = [
       "custo",
       "durabilidade"
     ],
-    "technologies": [
-      "masculino"
-    ],
+    "technologies": [],
     "affiliate_links": {
       "amazon": {
         "url": "https://amzn.to/4lpGIm5",
@@ -2151,12 +1951,12 @@ var SHOES = [
         "price": 549.99
       }
     },
-    "rating": "masculino",
-    "reviews_count": "masculino",
-    "release_year": "masculino",
+    "rating": "",
+    "reviews_count": "",
+    "release_year": "",
     "is_best_seller": false,
     "images": [
-      "masculino"
+      "https://m.media-amazon.com/images/I/51qUaqEvrkL._AC_SY500_.jpg"
     ],
     "emoji": "👟",
     "tags": [
@@ -2166,17 +1966,13 @@ var SHOES = [
     ],
     "description": "Placa Wave entrega estabilidade e suavidade juntas. Excelente custo-benefício e muito durável.",
     "reason": "Placa Wave entrega estabilidade e suavidade juntas. Excelente custo-benefício e muito durável.",
-    "pros": [
-      "masculino"
-    ],
-    "cons": [
-      "masculino"
-    ]
+    "pros": [],
+    "cons": []
   },
   {
     "brand": "MIZUNO",
     "model": "",
-    "version": "masculino",
+    "version": "",
     "name": "Wave Sky 9",
     "slug": "mizuno-wave-sky-9",
     "category": "",
@@ -2187,8 +1983,8 @@ var SHOES = [
     "price": 1199.99,
     "price_formatted": "R$ 1.199,99",
     "budget": "acima1000",
-    "drop": "masculino",
-    "weight": "masculino",
+    "drop": "",
+    "weight": "",
     "levels": [
       "intermediario",
       "avancado"
@@ -2205,9 +2001,7 @@ var SHOES = [
     "priors": [
       "amortecimento"
     ],
-    "technologies": [
-      "masculino"
-    ],
+    "technologies": [],
     "affiliate_links": {
       "amazon": {
         "url": "https://amzn.to/3OW1QEr",
@@ -2218,12 +2012,12 @@ var SHOES = [
         "price": 1199.99
       }
     },
-    "rating": "masculino",
-    "reviews_count": "masculino",
-    "release_year": "masculino",
+    "rating": "",
+    "reviews_count": "",
+    "release_year": "",
     "is_best_seller": false,
     "images": [
-      "masculino"
+      "https://m.media-amazon.com/images/I/61Opa1W1J8L._AC_SY500_.jpg"
     ],
     "emoji": "👟",
     "tags": [
@@ -2232,17 +2026,13 @@ var SHOES = [
     ],
     "description": "O tênis de maior amortecimento da Mizuno. Wave Sky + Enerzy Foam para longas distâncias em total conforto.",
     "reason": "O tênis de maior amortecimento da Mizuno. Wave Sky + Enerzy Foam para longas distâncias em total conforto.",
-    "pros": [
-      "masculino"
-    ],
-    "cons": [
-      "masculino"
-    ]
+    "pros": [],
+    "cons": []
   },
   {
     "brand": "MIZUNO",
     "model": "",
-    "version": "unissex",
+    "version": "",
     "name": "Victory RSP",
     "slug": "mizuno-victory-rsp",
     "category": "",
@@ -2253,8 +2043,8 @@ var SHOES = [
     "price": 329.99,
     "price_formatted": "R$ 329,99",
     "budget": "300a600",
-    "drop": "unissex",
-    "weight": "unissex",
+    "drop": "",
+    "weight": "",
     "levels": [
       "iniciante",
       "intermediario"
@@ -2273,9 +2063,7 @@ var SHOES = [
       "custo",
       "leveza"
     ],
-    "technologies": [
-      "unissex"
-    ],
+    "technologies": [],
     "affiliate_links": {
       "amazon": {
         "url": "https://amzn.to/4rhgGT7",
@@ -2286,12 +2074,12 @@ var SHOES = [
         "price": 329.99
       }
     },
-    "rating": "unissex",
-    "reviews_count": "unissex",
-    "release_year": "unissex",
+    "rating": "",
+    "reviews_count": "",
+    "release_year": "",
     "is_best_seller": false,
     "images": [
-      "unissex"
+      "https://static.dafiti.com.br/p/Mizuno-T%C3%AAnis-Mizuno-Victory-Rsp-Feminino-Rosa-3494-64013441-1-zoom.jpg"
     ],
     "emoji": "👟",
     "tags": [
@@ -2301,17 +2089,13 @@ var SHOES = [
     ],
     "description": "Response Foam gera mais retorno de energia e leveza. Cabedal Jacquard respirável e solado X10 durável. Ótima entrada na corrida com tecnologia Mizuno.",
     "reason": "Response Foam gera mais retorno de energia e leveza. Cabedal Jacquard respirável e solado X10 durável. Ótima entrada na corrida com tecnologia Mizuno.",
-    "pros": [
-      "unissex"
-    ],
-    "cons": [
-      "unissex"
-    ]
+    "pros": [],
+    "cons": []
   },
   {
     "brand": "NEW BALANCE",
     "model": "",
-    "version": "feminino",
+    "version": "",
     "name": "413v3",
     "slug": "new-balance-413v3",
     "category": "",
@@ -2322,8 +2106,8 @@ var SHOES = [
     "price": 279.0,
     "price_formatted": "R$ 279,00",
     "budget": "ate300",
-    "drop": "feminino",
-    "weight": "feminino",
+    "drop": "",
+    "weight": "",
     "levels": [
       "iniciante"
     ],
@@ -2341,21 +2125,19 @@ var SHOES = [
     "priors": [
       "custo"
     ],
-    "technologies": [
-      "feminino"
-    ],
+    "technologies": [],
     "affiliate_links": {
       "amazon": {
         "url": "https://amzn.to/4b9gSht",
         "price": 279.0
       }
     },
-    "rating": "feminino",
-    "reviews_count": "feminino",
-    "release_year": "feminino",
+    "rating": "",
+    "reviews_count": "",
+    "release_year": "",
     "is_best_seller": false,
     "images": [
-      "feminino"
+      "https://images-na.ssl-images-amazon.com/images/I/51ZDUR2ZkHL.jpg"
     ],
     "emoji": "👟",
     "tags": [
@@ -2364,17 +2146,13 @@ var SHOES = [
     ],
     "description": "Ótima entrada no mundo da corrida. Cabedal respirável e amortecimento ABZORB para o dia a dia.",
     "reason": "Ótima entrada no mundo da corrida. Cabedal respirável e amortecimento ABZORB para o dia a dia.",
-    "pros": [
-      "feminino"
-    ],
-    "cons": [
-      "feminino"
-    ]
+    "pros": [],
+    "cons": []
   },
   {
     "brand": "NEW BALANCE",
     "model": "",
-    "version": "feminino",
+    "version": "",
     "name": "411v3",
     "slug": "new-balance-411v3",
     "category": "",
@@ -2385,8 +2163,8 @@ var SHOES = [
     "price": 279.0,
     "price_formatted": "R$ 279,00",
     "budget": "ate300",
-    "drop": "feminino",
-    "weight": "feminino",
+    "drop": "",
+    "weight": "",
     "levels": [
       "iniciante"
     ],
@@ -2404,21 +2182,19 @@ var SHOES = [
     "priors": [
       "custo"
     ],
-    "technologies": [
-      "feminino"
-    ],
+    "technologies": [],
     "affiliate_links": {
       "amazon": {
         "url": "https://amzn.to/4lguc8w",
         "price": 279.0
       }
     },
-    "rating": "feminino",
-    "reviews_count": "feminino",
-    "release_year": "feminino",
+    "rating": "",
+    "reviews_count": "",
+    "release_year": "",
     "is_best_seller": false,
     "images": [
-      "feminino"
+      "https://m.media-amazon.com/images/I/515WrXH2TYL._AC_SY300_SX300_QL70_ML2_.jpg"
     ],
     "emoji": "👟",
     "tags": [
@@ -2427,17 +2203,13 @@ var SHOES = [
     ],
     "description": "Ótima entrada no mundo da corrida. Cabedal respirável e amortecimento ABZORB para quem está começando.",
     "reason": "Ótima entrada no mundo da corrida. Cabedal respirável e amortecimento ABZORB para quem está começando.",
-    "pros": [
-      "feminino"
-    ],
-    "cons": [
-      "feminino"
-    ]
+    "pros": [],
+    "cons": []
   },
   {
     "brand": "NEW BALANCE",
     "model": "",
-    "version": "masculino",
+    "version": "",
     "name": "M860v14",
     "slug": "new-balance-m860v14",
     "category": "",
@@ -2448,8 +2220,8 @@ var SHOES = [
     "price": 1.037,
     "price_formatted": "R$ 1,04",
     "budget": "acima1000",
-    "drop": "masculino",
-    "weight": "masculino",
+    "drop": "",
+    "weight": "",
     "levels": [
       "iniciante",
       "intermediario"
@@ -2467,21 +2239,19 @@ var SHOES = [
       "custo",
       "durabilidade"
     ],
-    "technologies": [
-      "masculino"
-    ],
+    "technologies": [],
     "affiliate_links": {
       "amazon": {
         "url": "https://amzn.to/47lOeZa",
         "price": 1.037
       }
     },
-    "rating": "masculino",
-    "reviews_count": "masculino",
-    "release_year": "masculino",
+    "rating": "",
+    "reviews_count": "",
+    "release_year": "",
     "is_best_seller": false,
     "images": [
-      "masculino"
+      "https://images-na.ssl-images-amazon.com/images/I/61OXLcyTklL.jpg"
     ],
     "emoji": "👟",
     "tags": [
@@ -2490,17 +2260,13 @@ var SHOES = [
     ],
     "description": "Referência em controle de pronação com ótimo custo-benefício. Suporte medial confiável e confortável.",
     "reason": "Referência em controle de pronação com ótimo custo-benefício. Suporte medial confiável e confortável.",
-    "pros": [
-      "masculino"
-    ],
-    "cons": [
-      "masculino"
-    ]
+    "pros": [],
+    "cons": []
   },
   {
     "brand": "NEW BALANCE",
     "model": "",
-    "version": "masculino",
+    "version": "",
     "name": "Fresh Foam X 1080 V14",
     "slug": "new-balance-fresh-foam-x-1080-v14",
     "category": "",
@@ -2511,8 +2277,8 @@ var SHOES = [
     "price": 1.935,
     "price_formatted": "R$ 1,94",
     "budget": "acima1000",
-    "drop": "masculino",
-    "weight": "masculino",
+    "drop": "",
+    "weight": "",
     "levels": [
       "intermediario",
       "avancado"
@@ -2528,21 +2294,19 @@ var SHOES = [
     "priors": [
       "amortecimento"
     ],
-    "technologies": [
-      "masculino"
-    ],
+    "technologies": [],
     "affiliate_links": {
       "amazon": {
         "url": "https://amzn.to/4rcfUHd",
         "price": 1.935
       }
     },
-    "rating": "masculino",
-    "reviews_count": "masculino",
-    "release_year": "masculino",
+    "rating": "",
+    "reviews_count": "",
+    "release_year": "",
     "is_best_seller": true,
     "images": [
-      "masculino"
+      "https://images-na.ssl-images-amazon.com/images/I/51aLwIrAcvL.jpg"
     ],
     "emoji": "👟",
     "tags": [
@@ -2551,17 +2315,13 @@ var SHOES = [
     ],
     "description": "Fresh Foam X — o mais macio da NB. Perfeito para longas distâncias sem fadiga articular.",
     "reason": "Fresh Foam X — o mais macio da NB. Perfeito para longas distâncias sem fadiga articular.",
-    "pros": [
-      "masculino"
-    ],
-    "cons": [
-      "masculino"
-    ]
+    "pros": [],
+    "cons": []
   },
   {
     "brand": "NEW BALANCE",
     "model": "",
-    "version": "masculino",
+    "version": "",
     "name": "M860v14",
     "slug": "new-balance-m860v14",
     "category": "",
@@ -2572,8 +2332,8 @@ var SHOES = [
     "price": 1.037,
     "price_formatted": "R$ 1,04",
     "budget": "acima1000",
-    "drop": "masculino",
-    "weight": "masculino",
+    "drop": "",
+    "weight": "",
     "levels": [
       "iniciante",
       "intermediario"
@@ -2591,21 +2351,19 @@ var SHOES = [
       "custo",
       "durabilidade"
     ],
-    "technologies": [
-      "masculino"
-    ],
+    "technologies": [],
     "affiliate_links": {
       "amazon": {
         "url": "https://amzn.to/4aYFkly",
         "price": 1.037
       }
     },
-    "rating": "masculino",
-    "reviews_count": "masculino",
-    "release_year": "masculino",
+    "rating": "",
+    "reviews_count": "",
+    "release_year": "",
     "is_best_seller": false,
     "images": [
-      "masculino"
+      "https://m.media-amazon.com/images/I/61yRHJJzjrL._AC_SY500_.jpg"
     ],
     "emoji": "👟",
     "tags": [
@@ -2614,17 +2372,13 @@ var SHOES = [
     ],
     "description": "Controle de pronação com excelente custo-benefício. Suporte medial confiável e confortável.",
     "reason": "Controle de pronação com excelente custo-benefício. Suporte medial confiável e confortável.",
-    "pros": [
-      "masculino"
-    ],
-    "cons": [
-      "masculino"
-    ]
+    "pros": [],
+    "cons": []
   },
   {
     "brand": "NEW BALANCE",
     "model": "",
-    "version": "feminino",
+    "version": "",
     "name": "Fresh Foam X 1080 V14",
     "slug": "new-balance-fresh-foam-x-1080-v14",
     "category": "",
@@ -2635,8 +2389,8 @@ var SHOES = [
     "price": 808.11,
     "price_formatted": "R$ 808,11",
     "budget": "600a1000",
-    "drop": "feminino",
-    "weight": "feminino",
+    "drop": "",
+    "weight": "",
     "levels": [
       "iniciante",
       "intermediario"
@@ -2653,21 +2407,19 @@ var SHOES = [
       "amortecimento",
       "leveza"
     ],
-    "technologies": [
-      "feminino"
-    ],
+    "technologies": [],
     "affiliate_links": {
       "amazon": {
         "url": "https://amzn.to/4rknGyU",
         "price": 808.11
       }
     },
-    "rating": "feminino",
-    "reviews_count": "feminino",
-    "release_year": "feminino",
+    "rating": "",
+    "reviews_count": "",
+    "release_year": "",
     "is_best_seller": true,
     "images": [
-      "feminino"
+      "https://m.media-amazon.com/images/I/51Z+ohQHSIL._AC_SY625_.jpg"
     ],
     "emoji": "👟",
     "tags": [
@@ -2676,17 +2428,13 @@ var SHOES = [
     ],
     "description": "Tecnologia Fresh Foam com amortecimento macio e leveza para treinos diários e longas distâncias",
     "reason": "Tecnologia Fresh Foam com amortecimento macio e leveza para treinos diários e longas distâncias",
-    "pros": [
-      "feminino"
-    ],
-    "cons": [
-      "feminino"
-    ]
+    "pros": [],
+    "cons": []
   },
   {
     "brand": "NIKE",
     "model": "",
-    "version": "masculino",
+    "version": "",
     "name": "Pegasus 41",
     "slug": "nike-pegasus-41",
     "category": "",
@@ -2697,8 +2445,8 @@ var SHOES = [
     "price": 664.99,
     "price_formatted": "R$ 664,99",
     "budget": "600a1000",
-    "drop": "masculino",
-    "weight": "masculino",
+    "drop": "",
+    "weight": "",
     "levels": [
       "iniciante",
       "intermediario",
@@ -2718,9 +2466,7 @@ var SHOES = [
       "custo",
       "durabilidade"
     ],
-    "technologies": [
-      "masculino"
-    ],
+    "technologies": [],
     "affiliate_links": {
       "amazon": {
         "url": "https://amzn.to/4lMlD5y",
@@ -2731,12 +2477,12 @@ var SHOES = [
         "price": 664.99
       }
     },
-    "rating": "masculino",
-    "reviews_count": "masculino",
-    "release_year": "masculino",
+    "rating": "",
+    "reviews_count": "",
+    "release_year": "",
     "is_best_seller": true,
     "images": [
-      "masculino"
+      "https://m.media-amazon.com/images/I/71I5TWi+77L._AC_SY500_.jpg"
     ],
     "emoji": "👟",
     "tags": [
@@ -2745,17 +2491,13 @@ var SHOES = [
     ],
     "description": "O tênis de corrida mais vendido do mundo. Versátil, durável e confortável para qualquer treino.",
     "reason": "O tênis de corrida mais vendido do mundo. Versátil, durável e confortável para qualquer treino.",
-    "pros": [
-      "masculino"
-    ],
-    "cons": [
-      "masculino"
-    ]
+    "pros": [],
+    "cons": []
   },
   {
     "brand": "NIKE",
     "model": "",
-    "version": "feminino",
+    "version": "",
     "name": "Pegasus 41",
     "slug": "nike-pegasus-41",
     "category": "",
@@ -2766,8 +2508,8 @@ var SHOES = [
     "price": 683.99,
     "price_formatted": "R$ 683,99",
     "budget": "600a1000",
-    "drop": "feminino",
-    "weight": "feminino",
+    "drop": "",
+    "weight": "",
     "levels": [
       "iniciante",
       "intermediario",
@@ -2787,9 +2529,7 @@ var SHOES = [
       "custo",
       "durabilidade"
     ],
-    "technologies": [
-      "feminino"
-    ],
+    "technologies": [],
     "affiliate_links": {
       "amazon": {
         "url": "https://amzn.to/40D0qkP",
@@ -2800,12 +2540,12 @@ var SHOES = [
         "price": 683.99
       }
     },
-    "rating": "feminino",
-    "reviews_count": "feminino",
-    "release_year": "feminino",
+    "rating": "",
+    "reviews_count": "",
+    "release_year": "",
     "is_best_seller": false,
     "images": [
-      "feminino"
+      "https://m.media-amazon.com/images/I/51uEAp-HMPL._AC_SY500_.jpg"
     ],
     "emoji": "👟",
     "tags": [
@@ -2814,17 +2554,13 @@ var SHOES = [
     ],
     "description": "O tênis de corrida mais vendido do mundo. Versátil, durável e confortável para qualquer treino.",
     "reason": "O tênis de corrida mais vendido do mundo. Versátil, durável e confortável para qualquer treino.",
-    "pros": [
-      "feminino"
-    ],
-    "cons": [
-      "feminino"
-    ]
+    "pros": [],
+    "cons": []
   },
   {
     "brand": "NIKE",
     "model": "",
-    "version": "masculino",
+    "version": "",
     "name": "Reactx Infinity Run 4",
     "slug": "nike-reactx-infinity-run-4",
     "category": "",
@@ -2835,8 +2571,8 @@ var SHOES = [
     "price": 1.396,
     "price_formatted": "R$ 1,40",
     "budget": "acima1000",
-    "drop": "masculino",
-    "weight": "masculino",
+    "drop": "",
+    "weight": "",
     "levels": [
       "iniciante",
       "intermediario"
@@ -2855,21 +2591,19 @@ var SHOES = [
       "amortecimento",
       "durabilidade"
     ],
-    "technologies": [
-      "masculino"
-    ],
+    "technologies": [],
     "affiliate_links": {
       "amazon": {
         "url": "https://amzn.to/4cYE30i",
         "price": 1.396
       }
     },
-    "rating": "masculino",
-    "reviews_count": "masculino",
-    "release_year": "masculino",
+    "rating": "",
+    "reviews_count": "",
+    "release_year": "",
     "is_best_seller": false,
     "images": [
-      "masculino"
+      "https://images-na.ssl-images-amazon.com/images/I/71RUemZxatL.jpg"
     ],
     "emoji": "👟",
     "tags": [
@@ -2878,17 +2612,13 @@ var SHOES = [
     ],
     "description": "Projetado para reduzir lesões. ReactX + Flyknit criam suporte e maciez difícil de bater.",
     "reason": "Projetado para reduzir lesões. ReactX + Flyknit criam suporte e maciez difícil de bater.",
-    "pros": [
-      "masculino"
-    ],
-    "cons": [
-      "masculino"
-    ]
+    "pros": [],
+    "cons": []
   },
   {
     "brand": "NIKE",
     "model": "",
-    "version": "unissex",
+    "version": "",
     "name": "Reactx Infinity Run 4",
     "slug": "nike-reactx-infinity-run-4",
     "category": "",
@@ -2899,8 +2629,8 @@ var SHOES = [
     "price": 1.284,
     "price_formatted": "R$ 1,28",
     "budget": "acima1000",
-    "drop": "unissex",
-    "weight": "unissex",
+    "drop": "",
+    "weight": "",
     "levels": [
       "iniciante",
       "intermediario"
@@ -2919,21 +2649,19 @@ var SHOES = [
       "amortecimento",
       "durabilidade"
     ],
-    "technologies": [
-      "unissex"
-    ],
+    "technologies": [],
     "affiliate_links": {
       "amazon": {
         "url": "https://amzn.to/3MHgLl9",
         "price": 1.284
       }
     },
-    "rating": "unissex",
-    "reviews_count": "unissex",
-    "release_year": "unissex",
+    "rating": "",
+    "reviews_count": "",
+    "release_year": "",
     "is_best_seller": false,
     "images": [
-      "unissex"
+      "https://m.media-amazon.com/images/I/51YiODrVayL._AC_SX500_.jpg"
     ],
     "emoji": "👟",
     "tags": [
@@ -2942,17 +2670,13 @@ var SHOES = [
     ],
     "description": "Projetado para reduzir lesões. ReactX + Flyknit criam suporte e maciez difícil de bater.",
     "reason": "Projetado para reduzir lesões. ReactX + Flyknit criam suporte e maciez difícil de bater.",
-    "pros": [
-      "unissex"
-    ],
-    "cons": [
-      "unissex"
-    ]
+    "pros": [],
+    "cons": []
   },
   {
     "brand": "NIKE",
     "model": "",
-    "version": "masculino",
+    "version": "",
     "name": "Vaporfly 3",
     "slug": "nike-vaporfly-3",
     "category": "",
@@ -2963,8 +2687,8 @@ var SHOES = [
     "price": 1.22,
     "price_formatted": "R$ 1,22",
     "budget": "acima1000",
-    "drop": "masculino",
-    "weight": "masculino",
+    "drop": "",
+    "weight": "",
     "levels": [
       "avancado"
     ],
@@ -2982,21 +2706,19 @@ var SHOES = [
     "priors": [
       "leveza"
     ],
-    "technologies": [
-      "masculino"
-    ],
+    "technologies": [],
     "affiliate_links": {
       "amazon": {
         "url": "https://amzn.to/46AElXp",
         "price": 1.22
       }
     },
-    "rating": "masculino",
-    "reviews_count": "masculino",
-    "release_year": "masculino",
+    "rating": "",
+    "reviews_count": "",
+    "release_year": "",
     "is_best_seller": false,
     "images": [
-      "masculino"
+      "https://images-na.ssl-images-amazon.com/images/I/71HZUzZaEeL.jpg"
     ],
     "emoji": "👟",
     "tags": [
@@ -3006,17 +2728,13 @@ var SHOES = [
     ],
     "description": "Placa de carbono + espuma ZoomX. O tênis de corrida mais rápido do mundo para bater seu PR.",
     "reason": "Placa de carbono + espuma ZoomX. O tênis de corrida mais rápido do mundo para bater seu PR.",
-    "pros": [
-      "masculino"
-    ],
-    "cons": [
-      "masculino"
-    ]
+    "pros": [],
+    "cons": []
   },
   {
     "brand": "NIKE",
     "model": "",
-    "version": "masculino",
+    "version": "",
     "name": "Vomero Plus",
     "slug": "nike-vomero-plus",
     "category": "",
@@ -3027,15 +2745,13 @@ var SHOES = [
     "price": 1234.99,
     "price_formatted": "R$ 1.234,99",
     "budget": "acima1000",
-    "drop": "masculino",
-    "weight": "masculino",
+    "drop": "",
+    "weight": "",
     "levels": [],
     "terrenos": [],
     "pisadas": [],
     "priors": [],
-    "technologies": [
-      "masculino"
-    ],
+    "technologies": [],
     "affiliate_links": {
       "amazon": {
         "url": "https://amzn.to/4dt98th",
@@ -3046,28 +2762,24 @@ var SHOES = [
         "price": 1234.99
       }
     },
-    "rating": "masculino",
-    "reviews_count": "masculino",
-    "release_year": "masculino",
+    "rating": "",
+    "reviews_count": "",
+    "release_year": "",
     "is_best_seller": false,
     "images": [
-      "masculino"
+      "https://imgnike-a.akamaihd.net/1920x1920/05924154A2.jpg"
     ],
     "emoji": "👟",
     "tags": [],
     "description": "",
     "reason": "",
-    "pros": [
-      "masculino"
-    ],
-    "cons": [
-      "masculino"
-    ]
+    "pros": [],
+    "cons": []
   },
   {
     "brand": "NIKE",
     "model": "",
-    "version": "feminino",
+    "version": "",
     "name": "Vomero Plus",
     "slug": "nike-vomero-plus",
     "category": "",
@@ -3078,15 +2790,13 @@ var SHOES = [
     "price": 1234.99,
     "price_formatted": "R$ 1.234,99",
     "budget": "acima1000",
-    "drop": "feminino",
-    "weight": "feminino",
+    "drop": "",
+    "weight": "",
     "levels": [],
     "terrenos": [],
     "pisadas": [],
     "priors": [],
-    "technologies": [
-      "feminino"
-    ],
+    "technologies": [],
     "affiliate_links": {
       "amazon": {
         "url": "https://amzn.to/4cXLGEl",
@@ -3097,28 +2807,24 @@ var SHOES = [
         "price": 1234.99
       }
     },
-    "rating": "feminino",
-    "reviews_count": "feminino",
-    "release_year": "feminino",
+    "rating": "",
+    "reviews_count": "",
+    "release_year": "",
     "is_best_seller": false,
     "images": [
-      "feminino"
+      "https://imgnike-a.akamaihd.net/360x360/059366NEA2.jpg"
     ],
     "emoji": "👟",
     "tags": [],
     "description": "",
     "reason": "",
-    "pros": [
-      "feminino"
-    ],
-    "cons": [
-      "feminino"
-    ]
+    "pros": [],
+    "cons": []
   },
   {
     "brand": "NIKE",
     "model": "",
-    "version": "masculino",
+    "version": "",
     "name": "ZoomX Ultrafly Trail",
     "slug": "nike-zoomx-ultrafly-trail",
     "category": "",
@@ -3129,8 +2835,8 @@ var SHOES = [
     "price": 2.171,
     "price_formatted": "R$ 2,17",
     "budget": "acima1000",
-    "drop": "masculino",
-    "weight": "masculino",
+    "drop": "",
+    "weight": "",
     "levels": [
       "avancado"
     ],
@@ -3143,21 +2849,19 @@ var SHOES = [
     "priors": [
       "leveza"
     ],
-    "technologies": [
-      "masculino"
-    ],
+    "technologies": [],
     "affiliate_links": {
       "amazon": {
         "url": "https://amzn.to/47nlgrQ",
         "price": 2.171
       }
     },
-    "rating": "masculino",
-    "reviews_count": "masculino",
-    "release_year": "masculino",
+    "rating": "",
+    "reviews_count": "",
+    "release_year": "",
     "is_best_seller": false,
     "images": [
-      "masculino"
+      "https://images-na.ssl-images-amazon.com/images/I/61jBJ9a4NJL.jpg"
     ],
     "emoji": "👟",
     "tags": [
@@ -3166,17 +2870,13 @@ var SHOES = [
     ],
     "description": "Primeiro carbon plate trail da Nike. ZoomX + placa de carbono para voar nas trilhas mais exigentes.",
     "reason": "Primeiro carbon plate trail da Nike. ZoomX + placa de carbono para voar nas trilhas mais exigentes.",
-    "pros": [
-      "masculino"
-    ],
-    "cons": [
-      "masculino"
-    ]
+    "pros": [],
+    "cons": []
   },
   {
     "brand": "OLYMPIKUS",
     "model": "",
-    "version": "masculino",
+    "version": "",
     "name": "Corre Grafeno 3",
     "slug": "olympikus-corre-grafeno-3",
     "category": "",
@@ -3187,8 +2887,8 @@ var SHOES = [
     "price": 600.0,
     "price_formatted": "R$ 600,00",
     "budget": "300a600",
-    "drop": "masculino",
-    "weight": "masculino",
+    "drop": "",
+    "weight": "",
     "levels": [
       "iniciante"
     ],
@@ -3205,21 +2905,19 @@ var SHOES = [
     "priors": [
       "custo"
     ],
-    "technologies": [
-      "masculino"
-    ],
+    "technologies": [],
     "affiliate_links": {
       "amazon": {
         "url": "https://amzn.to/3NiTshD",
         "price": 600.0
       }
     },
-    "rating": "masculino",
-    "reviews_count": "masculino",
-    "release_year": "masculino",
+    "rating": "",
+    "reviews_count": "",
+    "release_year": "",
     "is_best_seller": false,
     "images": [
-      "masculino"
+      "https://images-na.ssl-images-amazon.com/images/I/51sD2zFgzTL.jpg"
     ],
     "emoji": "👟",
     "tags": [
@@ -3228,17 +2926,13 @@ var SHOES = [
     ],
     "description": "Melhor custo-benefício nacional para iniciantes. Amortecimento adequado com preço super acessível.",
     "reason": "Melhor custo-benefício nacional para iniciantes. Amortecimento adequado com preço super acessível.",
-    "pros": [
-      "masculino"
-    ],
-    "cons": [
-      "masculino"
-    ]
+    "pros": [],
+    "cons": []
   },
   {
     "brand": "OLYMPIKUS",
     "model": "",
-    "version": "feminino",
+    "version": "",
     "name": "Pride",
     "slug": "olympikus-pride",
     "category": "",
@@ -3249,8 +2943,8 @@ var SHOES = [
     "price": 285.0,
     "price_formatted": "R$ 285,00",
     "budget": "ate300",
-    "drop": "feminino",
-    "weight": "feminino",
+    "drop": "",
+    "weight": "",
     "levels": [
       "iniciante"
     ],
@@ -3267,21 +2961,19 @@ var SHOES = [
     "priors": [
       "custo"
     ],
-    "technologies": [
-      "feminino"
-    ],
+    "technologies": [],
     "affiliate_links": {
       "amazon": {
         "url": "https://amzn.to/4rKTg9U",
         "price": 285.0
       }
     },
-    "rating": "feminino",
-    "reviews_count": "feminino",
-    "release_year": "feminino",
+    "rating": "",
+    "reviews_count": "",
+    "release_year": "",
     "is_best_seller": false,
     "images": [
-      "feminino"
+      "https://m.media-amazon.com/images/I/61jqkYeBlqL._AC_SY500_.jpg"
     ],
     "emoji": "👟",
     "tags": [
@@ -3290,17 +2982,13 @@ var SHOES = [
     ],
     "description": "Melhor custo-benefício nacional para iniciantes. Tênis nacional leve e confortável para iniciantes. Ótimo custo-benefício para treinos diários.",
     "reason": "Melhor custo-benefício nacional para iniciantes. Tênis nacional leve e confortável para iniciantes. Ótimo custo-benefício para treinos diários.",
-    "pros": [
-      "feminino"
-    ],
-    "cons": [
-      "feminino"
-    ]
+    "pros": [],
+    "cons": []
   },
   {
     "brand": "OLYMPIKUS",
     "model": "",
-    "version": "masculino",
+    "version": "",
     "name": "Challenger",
     "slug": "olympikus-challenger",
     "category": "",
@@ -3311,8 +2999,8 @@ var SHOES = [
     "price": 249.9,
     "price_formatted": "R$ 249,90",
     "budget": "ate300",
-    "drop": "masculino",
-    "weight": "masculino",
+    "drop": "",
+    "weight": "",
     "levels": [
       "iniciante",
       "intermediario"
@@ -3329,21 +3017,19 @@ var SHOES = [
       "amortecimento",
       "custo"
     ],
-    "technologies": [
-      "masculino"
-    ],
+    "technologies": [],
     "affiliate_links": {
       "amazon": {
         "url": "https://amzn.to/4s630fg",
         "price": 249.9
       }
     },
-    "rating": "masculino",
-    "reviews_count": "masculino",
-    "release_year": "masculino",
+    "rating": "",
+    "reviews_count": "",
+    "release_year": "",
     "is_best_seller": false,
     "images": [
-      "masculino"
+      "https://m.media-amazon.com/images/I/51WUvXlRWbL._AC_SX679_.jpg"
     ],
     "emoji": "👟",
     "tags": [
@@ -3352,17 +3038,13 @@ var SHOES = [
     ],
     "description": "Ótimo custo-benefício nacional com amortecimento EVA e sola antiderrapante Gripper",
     "reason": "Ótimo custo-benefício nacional com amortecimento EVA e sola antiderrapante Gripper",
-    "pros": [
-      "masculino"
-    ],
-    "cons": [
-      "masculino"
-    ]
+    "pros": [],
+    "cons": []
   },
   {
     "brand": "OLYMPIKUS",
     "model": "",
-    "version": "masculino",
+    "version": "",
     "name": "Orbita",
     "slug": "olympikus-orbita",
     "category": "",
@@ -3373,8 +3055,8 @@ var SHOES = [
     "price": 229.9,
     "price_formatted": "R$ 229,90",
     "budget": "ate300",
-    "drop": "masculino",
-    "weight": "masculino",
+    "drop": "",
+    "weight": "",
     "levels": [
       "iniciante"
     ],
@@ -3390,21 +3072,19 @@ var SHOES = [
       "leveza",
       "custo"
     ],
-    "technologies": [
-      "masculino"
-    ],
+    "technologies": [],
     "affiliate_links": {
       "amazon": {
         "url": "https://amzn.to/47k1FZG",
         "price": 229.9
       }
     },
-    "rating": "masculino",
-    "reviews_count": "masculino",
-    "release_year": "masculino",
+    "rating": "",
+    "reviews_count": "",
+    "release_year": "",
     "is_best_seller": false,
     "images": [
-      "masculino"
+      "https://m.media-amazon.com/images/I/51bmHlqn4bL._AC_SX679_.jpg"
     ],
     "emoji": "👟",
     "tags": [
@@ -3413,17 +3093,13 @@ var SHOES = [
     ],
     "description": "Leve e versátil com tecnologia Evasense para treinos diários com excelente custo-benefício",
     "reason": "Leve e versátil com tecnologia Evasense para treinos diários com excelente custo-benefício",
-    "pros": [
-      "masculino"
-    ],
-    "cons": [
-      "masculino"
-    ]
+    "pros": [],
+    "cons": []
   },
   {
     "brand": "OLYMPIKUS",
     "model": "",
-    "version": "feminino",
+    "version": "",
     "name": "Essential",
     "slug": "olympikus-essential",
     "category": "",
@@ -3434,8 +3110,8 @@ var SHOES = [
     "price": 249.9,
     "price_formatted": "R$ 249,90",
     "budget": "ate300",
-    "drop": "feminino",
-    "weight": "feminino",
+    "drop": "",
+    "weight": "",
     "levels": [
       "iniciante",
       "intermediario"
@@ -3453,21 +3129,19 @@ var SHOES = [
       "leveza",
       "custo"
     ],
-    "technologies": [
-      "feminino"
-    ],
+    "technologies": [],
     "affiliate_links": {
       "amazon": {
         "url": "https://amzn.to/4sz9HX0",
         "price": 249.9
       }
     },
-    "rating": "feminino",
-    "reviews_count": "feminino",
-    "release_year": "feminino",
+    "rating": "",
+    "reviews_count": "",
+    "release_year": "",
     "is_best_seller": false,
     "images": [
-      "feminino"
+      "https://m.media-amazon.com/images/I/519-VwNeLGL._AC_SY625_.jpg"
     ],
     "emoji": "👟",
     "tags": [
@@ -3477,17 +3151,13 @@ var SHOES = [
     ],
     "description": "Tecnologia Evasense e Hypersox com leveza, amortecimento e ótimo custo-benefício para treinos diários",
     "reason": "Tecnologia Evasense e Hypersox com leveza, amortecimento e ótimo custo-benefício para treinos diários",
-    "pros": [
-      "feminino"
-    ],
-    "cons": [
-      "feminino"
-    ]
+    "pros": [],
+    "cons": []
   },
   {
     "brand": "OLYMPIKUS",
     "model": "",
-    "version": "unissex",
+    "version": "",
     "name": "Challenger 5",
     "slug": "olympikus-challenger-5",
     "category": "",
@@ -3498,8 +3168,8 @@ var SHOES = [
     "price": 218.4,
     "price_formatted": "R$ 218,40",
     "budget": "ate300",
-    "drop": "unissex",
-    "weight": "unissex",
+    "drop": "",
+    "weight": "",
     "levels": [
       "iniciante",
       "intermediario"
@@ -3517,21 +3187,19 @@ var SHOES = [
       "custo",
       "leveza"
     ],
-    "technologies": [
-      "unissex"
-    ],
+    "technologies": [],
     "affiliate_links": {
       "amazon": {
         "url": "https://amzn.to/3NmoBAR",
         "price": 218.4
       }
     },
-    "rating": "unissex",
-    "reviews_count": "unissex",
-    "release_year": "unissex",
+    "rating": "",
+    "reviews_count": "",
+    "release_year": "",
     "is_best_seller": false,
     "images": [
-      "unissex"
+      "https://m.media-amazon.com/images/I/519Fz1ewJdL._AC_SX679_.jpg"
     ],
     "emoji": "👟",
     "tags": [
@@ -3541,17 +3209,13 @@ var SHOES = [
     ],
     "description": "Tecnologia Eleva+ com cabedal Hypersox tipo meia e solado Gripper antiderrapante, ótimo custo-benefício para iniciantes",
     "reason": "Tecnologia Eleva+ com cabedal Hypersox tipo meia e solado Gripper antiderrapante, ótimo custo-benefício para iniciantes",
-    "pros": [
-      "unissex"
-    ],
-    "cons": [
-      "unissex"
-    ]
+    "pros": [],
+    "cons": []
   },
   {
     "brand": "PUMA",
     "model": "",
-    "version": "masculino",
+    "version": "",
     "name": "Velocity Nitro 3",
     "slug": "puma-velocity-nitro-3",
     "category": "",
@@ -3562,8 +3226,8 @@ var SHOES = [
     "price": 843.0,
     "price_formatted": "R$ 843,00",
     "budget": "600a1000",
-    "drop": "masculino",
-    "weight": "masculino",
+    "drop": "",
+    "weight": "",
     "levels": [
       "iniciante",
       "intermediario"
@@ -3582,21 +3246,19 @@ var SHOES = [
       "leveza",
       "custo"
     ],
-    "technologies": [
-      "masculino"
-    ],
+    "technologies": [],
     "affiliate_links": {
       "amazon": {
         "url": "https://amzn.to/4csjpWe",
         "price": 843.0
       }
     },
-    "rating": "masculino",
-    "reviews_count": "masculino",
-    "release_year": "masculino",
+    "rating": "",
+    "reviews_count": "",
+    "release_year": "",
     "is_best_seller": false,
     "images": [
-      "masculino"
+      "https://images-na.ssl-images-amazon.com/images/I/71UQQbuiu+L.jpg"
     ],
     "emoji": "👟",
     "tags": [
@@ -3605,17 +3267,13 @@ var SHOES = [
     ],
     "description": "Espuma Nitro leve e responsiva com ótimo custo-benefício. Surpreende pela leveza no preço acessível.",
     "reason": "Espuma Nitro leve e responsiva com ótimo custo-benefício. Surpreende pela leveza no preço acessível.",
-    "pros": [
-      "masculino"
-    ],
-    "cons": [
-      "masculino"
-    ]
+    "pros": [],
+    "cons": []
   },
   {
     "brand": "PUMA",
     "model": "",
-    "version": "unissex",
+    "version": "",
     "name": "Aviator Light Pro BDP",
     "slug": "puma-aviator-light-pro-bdp",
     "category": "",
@@ -3626,8 +3284,8 @@ var SHOES = [
     "price": 220.59,
     "price_formatted": "R$ 220,59",
     "budget": "ate300",
-    "drop": "unissex",
-    "weight": "unissex",
+    "drop": "",
+    "weight": "",
     "levels": [
       "iniciante",
       "intermediario"
@@ -3645,21 +3303,19 @@ var SHOES = [
       "leveza",
       "retorno"
     ],
-    "technologies": [
-      "unissex"
-    ],
+    "technologies": [],
     "affiliate_links": {
       "amazon": {
         "url": "https://amzn.to/4biWkmL",
         "price": 220.59
       }
     },
-    "rating": "unissex",
-    "reviews_count": "unissex",
-    "release_year": "unissex",
+    "rating": "",
+    "reviews_count": "",
+    "release_year": "",
     "is_best_seller": false,
     "images": [
-      "unissex"
+      "https://m.media-amazon.com/images/I/71EwAA8xjIL._AC_SY500_.jpg"
     ],
     "emoji": "👟",
     "tags": [
@@ -3669,17 +3325,13 @@ var SHOES = [
     ],
     "description": "Entressola ProFoam leve para amortecimento instantâneo e retorno de energia, cabedal mesh respirável e solado de borracha para tração",
     "reason": "Entressola ProFoam leve para amortecimento instantâneo e retorno de energia, cabedal mesh respirável e solado de borracha para tração",
-    "pros": [
-      "unissex"
-    ],
-    "cons": [
-      "unissex"
-    ]
+    "pros": [],
+    "cons": []
   },
   {
     "brand": "SALOMON",
     "model": "",
-    "version": "masculino",
+    "version": "",
     "name": "Speedcross 6 Trail",
     "slug": "salomon-speedcross-6-trail",
     "category": "",
@@ -3690,8 +3342,8 @@ var SHOES = [
     "price": 1.741,
     "price_formatted": "R$ 1,74",
     "budget": "acima1000",
-    "drop": "masculino",
-    "weight": "masculino",
+    "drop": "",
+    "weight": "",
     "levels": [
       "intermediario",
       "avancado"
@@ -3707,21 +3359,19 @@ var SHOES = [
     "priors": [
       "durabilidade"
     ],
-    "technologies": [
-      "masculino"
-    ],
+    "technologies": [],
     "affiliate_links": {
       "amazon": {
         "url": "https://amzn.to/409UZJS",
         "price": 1.741
       }
     },
-    "rating": "masculino",
-    "reviews_count": "masculino",
-    "release_year": "masculino",
+    "rating": "",
+    "reviews_count": "",
+    "release_year": "",
     "is_best_seller": false,
     "images": [
-      "masculino"
+      "https://m.media-amazon.com/images/I/814NjheLBcL._AC_SX300_SY300_QL70_ML2_.jpg"
     ],
     "emoji": "👟",
     "tags": [
@@ -3730,17 +3380,13 @@ var SHOES = [
     ],
     "description": "Grip Contagrip extremo para trilhas. Para corredoras de trail que não abrem mão de performance.",
     "reason": "Grip Contagrip extremo para trilhas. Para corredoras de trail que não abrem mão de performance.",
-    "pros": [
-      "masculino"
-    ],
-    "cons": [
-      "masculino"
-    ]
+    "pros": [],
+    "cons": []
   },
   {
     "brand": "SALOMON",
     "model": "",
-    "version": "masculino",
+    "version": "",
     "name": "Ultra Glide 2",
     "slug": "salomon-ultra-glide-2",
     "category": "",
@@ -3751,8 +3397,8 @@ var SHOES = [
     "price": 1.043,
     "price_formatted": "R$ 1,04",
     "budget": "acima1000",
-    "drop": "masculino",
-    "weight": "masculino",
+    "drop": "",
+    "weight": "",
     "levels": [
       "intermediario",
       "avancado"
@@ -3768,21 +3414,19 @@ var SHOES = [
       "amortecimento",
       "durabilidade"
     ],
-    "technologies": [
-      "masculino"
-    ],
+    "technologies": [],
     "affiliate_links": {
       "amazon": {
         "url": "https://amzn.to/3MVPADc",
         "price": 1.043
       }
     },
-    "rating": "masculino",
-    "reviews_count": "masculino",
-    "release_year": "masculino",
+    "rating": "",
+    "reviews_count": "",
+    "release_year": "",
     "is_best_seller": false,
     "images": [
-      "masculino"
+      "https://images-na.ssl-images-amazon.com/images/I/51gcZC19IXL.jpg"
     ],
     "emoji": "👟",
     "tags": [
@@ -3791,17 +3435,13 @@ var SHOES = [
     ],
     "description": "Amortecimento generoso para trilhas longas. Combina o conforto de estrada com grip de trail.",
     "reason": "Amortecimento generoso para trilhas longas. Combina o conforto de estrada com grip de trail.",
-    "pros": [
-      "masculino"
-    ],
-    "cons": [
-      "masculino"
-    ]
+    "pros": [],
+    "cons": []
   },
   {
     "brand": "SAUCONY",
     "model": "",
-    "version": "masculino",
+    "version": "",
     "name": "Endorphin Speed 4",
     "slug": "saucony-endorphin-speed-4",
     "category": "",
@@ -3812,8 +3452,8 @@ var SHOES = [
     "price": 1.481,
     "price_formatted": "R$ 1,48",
     "budget": "acima1000",
-    "drop": "masculino",
-    "weight": "masculino",
+    "drop": "",
+    "weight": "",
     "levels": [
       "intermediario",
       "avancado"
@@ -3828,21 +3468,19 @@ var SHOES = [
     "priors": [
       "leveza"
     ],
-    "technologies": [
-      "masculino"
-    ],
+    "technologies": [],
     "affiliate_links": {
       "amazon": {
         "url": "https://amzn.to/4aZuoUF",
         "price": 1.481
       }
     },
-    "rating": "masculino",
-    "reviews_count": "masculino",
-    "release_year": "masculino",
+    "rating": "",
+    "reviews_count": "",
+    "release_year": "",
     "is_best_seller": false,
     "images": [
-      "masculino"
+      "https://m.media-amazon.com/images/I/61HHqi-wpuL._AC_SY500_.jpg"
     ],
     "emoji": "👟",
     "tags": [
@@ -3851,17 +3489,13 @@ var SHOES = [
     ],
     "description": "Carbon plate + PWRRUN HG. O tênis de competição da Saucony para bater recordes pessoais.",
     "reason": "Carbon plate + PWRRUN HG. O tênis de competição da Saucony para bater recordes pessoais.",
-    "pros": [
-      "masculino"
-    ],
-    "cons": [
-      "masculino"
-    ]
+    "pros": [],
+    "cons": []
   },
   {
     "brand": "Skechers",
     "model": "",
-    "version": "masculino",
+    "version": "",
     "name": "Arch Fit Orvan Drex",
     "slug": "skechers-arch-fit-orvan-drex",
     "category": "",
@@ -3872,8 +3506,8 @@ var SHOES = [
     "price": 399.9,
     "price_formatted": "R$ 399,90",
     "budget": "300a600",
-    "drop": "masculino",
-    "weight": "masculino",
+    "drop": "",
+    "weight": "",
     "levels": [
       "iniciante"
     ],
@@ -3889,21 +3523,19 @@ var SHOES = [
       "amortecimento",
       "conforto"
     ],
-    "technologies": [
-      "masculino"
-    ],
+    "technologies": [],
     "affiliate_links": {
       "amazon": {
         "url": "https://amzn.to/4aY4ult",
         "price": 399.9
       }
     },
-    "rating": "masculino",
-    "reviews_count": "masculino",
-    "release_year": "masculino",
+    "rating": "",
+    "reviews_count": "",
+    "release_year": "",
     "is_best_seller": false,
     "images": [
-      "masculino"
+      "https://m.media-amazon.com/images/I/71gYxjqbteL._AC_SY500_.jpg"
     ],
     "emoji": "👟",
     "tags": [
@@ -3912,17 +3544,13 @@ var SHOES = [
     ],
     "description": "Palmilha Arch Fit com suporte de arco certificado por podólogos para máximo conforto no dia a dia",
     "reason": "Palmilha Arch Fit com suporte de arco certificado por podólogos para máximo conforto no dia a dia",
-    "pros": [
-      "masculino"
-    ],
-    "cons": [
-      "masculino"
-    ]
+    "pros": [],
+    "cons": []
   },
   {
     "brand": "Under Armour",
     "model": "",
-    "version": "feminino",
+    "version": "",
     "name": "Charged Great",
     "slug": "under-armour-charged-great",
     "category": "",
@@ -3933,8 +3561,8 @@ var SHOES = [
     "price": 269.9,
     "price_formatted": "R$ 269,90",
     "budget": "ate300",
-    "drop": "feminino",
-    "weight": "feminino",
+    "drop": "",
+    "weight": "",
     "levels": [
       "iniciante",
       "intermediario"
@@ -3951,21 +3579,19 @@ var SHOES = [
       "amortecimento",
       "leveza"
     ],
-    "technologies": [
-      "feminino"
-    ],
+    "technologies": [],
     "affiliate_links": {
       "amazon": {
         "url": "https://amzn.to/4rYjl5o",
         "price": 269.9
       }
     },
-    "rating": "feminino",
-    "reviews_count": "feminino",
-    "release_year": "feminino",
+    "rating": "",
+    "reviews_count": "",
+    "release_year": "",
     "is_best_seller": false,
     "images": [
-      "feminino"
+      "https://m.media-amazon.com/images/I/61cNbsYKgPL._AC_SY500_.jpg"
     ],
     "emoji": "👟",
     "tags": [
@@ -3975,17 +3601,13 @@ var SHOES = [
     ],
     "description": "Tecnologia Charged no solado para amortecimento responsivo e retorno de energia. Cabedal em mesh respirável para conforto em treinos diários",
     "reason": "Tecnologia Charged no solado para amortecimento responsivo e retorno de energia. Cabedal em mesh respirável para conforto em treinos diários",
-    "pros": [
-      "feminino"
-    ],
-    "cons": [
-      "feminino"
-    ]
+    "pros": [],
+    "cons": []
   },
   {
     "brand": "Under Armour",
     "model": "",
-    "version": "masculino",
+    "version": "",
     "name": "Charged Hit SE",
     "slug": "under-armour-charged-hit-se",
     "category": "",
@@ -3996,8 +3618,8 @@ var SHOES = [
     "price": 469.9,
     "price_formatted": "R$ 469,90",
     "budget": "300a600",
-    "drop": "masculino",
-    "weight": "masculino",
+    "drop": "",
+    "weight": "",
     "levels": [
       "iniciante",
       "intermediario"
@@ -4014,21 +3636,19 @@ var SHOES = [
       "amortecimento",
       "durabilidade"
     ],
-    "technologies": [
-      "masculino"
-    ],
+    "technologies": [],
     "affiliate_links": {
       "amazon": {
         "url": "https://amzn.to/4bd2MeK",
         "price": 469.9
       }
     },
-    "rating": "masculino",
-    "reviews_count": "masculino",
-    "release_year": "masculino",
+    "rating": "",
+    "reviews_count": "",
+    "release_year": "",
     "is_best_seller": false,
     "images": [
-      "masculino"
+      "https://m.media-amazon.com/images/I/61FtBlh+DJL._AC_SY625_.jpg"
     ],
     "emoji": "👟",
     "tags": [
@@ -4037,17 +3657,13 @@ var SHOES = [
     ],
     "description": "Tecnologia Charged Cushioning com amortecimento responsivo e borracha de alta abrasão para treinos diários",
     "reason": "Tecnologia Charged Cushioning com amortecimento responsivo e borracha de alta abrasão para treinos diários",
-    "pros": [
-      "masculino"
-    ],
-    "cons": [
-      "masculino"
-    ]
+    "pros": [],
+    "cons": []
   },
   {
     "brand": "OLYMPIKUS",
     "model": "",
-    "version": "unissex",
+    "version": "",
     "name": "Marte",
     "slug": "olympikus-marte",
     "category": "",
@@ -4058,8 +3674,8 @@ var SHOES = [
     "price": 189.87,
     "price_formatted": "R$ 189,87",
     "budget": "ate300",
-    "drop": "unissex",
-    "weight": "unissex",
+    "drop": "",
+    "weight": "",
     "levels": [
       "iniciante",
       "intermediario"
@@ -4073,9 +3689,7 @@ var SHOES = [
       "neutra"
     ],
     "priors": [],
-    "technologies": [
-      "unissex"
-    ],
+    "technologies": [],
     "affiliate_links": {
       "amazon": {
         "url": "https://amzn.to/4lBTTR7",
@@ -4086,12 +3700,12 @@ var SHOES = [
         "price": 199.99
       }
     },
-    "rating": "unissex",
-    "reviews_count": "unissex",
-    "release_year": "unissex",
+    "rating": "",
+    "reviews_count": "",
+    "release_year": "",
     "is_best_seller": false,
     "images": [
-      "unissex"
+      "https://m.media-amazon.com/images/I/51D5Mo21ocL._AC_SY500_.jpg"
     ],
     "emoji": "👟",
     "tags": [
@@ -4101,17 +3715,13 @@ var SHOES = [
     ],
     "description": "Tecnologia EVAsense para máxima maciez e leveza no dia a dia. Cabedal respirável e solado de borracha para boa tração no asfalto e esteira",
     "reason": "Tecnologia EVAsense para máxima maciez e leveza no dia a dia. Cabedal respirável e solado de borracha para boa tração no asfalto e esteira",
-    "pros": [
-      "unissex"
-    ],
-    "cons": [
-      "unissex"
-    ]
+    "pros": [],
+    "cons": []
   },
   {
     "brand": "OLYMPIKUS",
     "model": "",
-    "version": "unissex",
+    "version": "",
     "name": "Pride 4",
     "slug": "olympikus-pride-4",
     "category": "",
@@ -4122,8 +3732,8 @@ var SHOES = [
     "price": 299.99,
     "price_formatted": "R$ 299,99",
     "budget": "300a600",
-    "drop": "unissex",
-    "weight": "unissex",
+    "drop": "",
+    "weight": "",
     "levels": [
       "iniciante",
       "intermediario"
@@ -4141,9 +3751,7 @@ var SHOES = [
       "leveza",
       "durabilidade"
     ],
-    "technologies": [
-      "unissex"
-    ],
+    "technologies": [],
     "affiliate_links": {
       "amazon": {
         "url": "https://amzn.to/3OVO4Sa",
@@ -4154,12 +3762,12 @@ var SHOES = [
         "price": 299.99
       }
     },
-    "rating": "unissex",
-    "reviews_count": "unissex",
-    "release_year": "unissex",
+    "rating": "",
+    "reviews_count": "",
+    "release_year": "",
     "is_best_seller": false,
     "images": [
-      "unissex"
+      "imgs/placeholder.jpg"
     ],
     "emoji": "👟",
     "tags": [
@@ -4167,17 +3775,13 @@ var SHOES = [
     ],
     "description": "Tecnologia Eleva Pro 2.0 na entressola para amortecimento responsivo e durabilidade. Solado Gripper antiderrapante e cabedal respirável para treinos regulares",
     "reason": "Tecnologia Eleva Pro 2.0 na entressola para amortecimento responsivo e durabilidade. Solado Gripper antiderrapante e cabedal respirável para treinos regulares",
-    "pros": [
-      "unissex"
-    ],
-    "cons": [
-      "unissex"
-    ]
+    "pros": [],
+    "cons": []
   },
   {
     "brand": "NEW BALANCE",
     "model": "",
-    "version": "unissex",
+    "version": "",
     "name": "530",
     "slug": "new-balance-530",
     "category": "",
@@ -4188,8 +3792,8 @@ var SHOES = [
     "price": 699.9,
     "price_formatted": "R$ 699,90",
     "budget": "600a1000",
-    "drop": "unissex",
-    "weight": "unissex",
+    "drop": "",
+    "weight": "",
     "levels": [
       "iniciante",
       "intermediario"
@@ -4207,21 +3811,19 @@ var SHOES = [
       "leveza",
       "custo"
     ],
-    "technologies": [
-      "unissex"
-    ],
+    "technologies": [],
     "affiliate_links": {
       "amazon": {
         "url": "https://amzn.to/479rJa7",
         "price": 699.9
       }
     },
-    "rating": "unissex",
-    "reviews_count": "unissex",
-    "release_year": "unissex",
+    "rating": "",
+    "reviews_count": "",
+    "release_year": "",
     "is_best_seller": false,
     "images": [
-      "unissex"
+      "https://m.media-amazon.com/images/I/71umOc7Na8L._AC_SY500_.jpg"
     ],
     "emoji": "👟",
     "tags": [
@@ -4231,17 +3833,13 @@ var SHOES = [
     ],
     "description": "Clássico retrô com entressola ENCAP para amortecimento duradouro. Cabedal em couro sintético e mesh para conforto e estilo versátil no dia a dia",
     "reason": "Clássico retrô com entressola ENCAP para amortecimento duradouro. Cabedal em couro sintético e mesh para conforto e estilo versátil no dia a dia",
-    "pros": [
-      "unissex"
-    ],
-    "cons": [
-      "unissex"
-    ]
+    "pros": [],
+    "cons": []
   },
   {
     "brand": "MIZUNO",
     "model": "",
-    "version": "unissex",
+    "version": "",
     "name": "Base Ride",
     "slug": "mizuno-base-ride",
     "category": "",
@@ -4252,8 +3850,8 @@ var SHOES = [
     "price": 449.99,
     "price_formatted": "R$ 449,99",
     "budget": "600a1000",
-    "drop": "unissex",
-    "weight": "unissex",
+    "drop": "",
+    "weight": "",
     "levels": [
       "iniciante",
       "intermediario"
@@ -4271,9 +3869,7 @@ var SHOES = [
       "leveza",
       "custo"
     ],
-    "technologies": [
-      "unissex"
-    ],
+    "technologies": [],
     "affiliate_links": {
       "amazon": {
         "url": "https://amzn.to/4s2XGJx",
@@ -4284,12 +3880,12 @@ var SHOES = [
         "price": 449.99
       }
     },
-    "rating": "unissex",
-    "reviews_count": "unissex",
-    "release_year": "unissex",
+    "rating": "",
+    "reviews_count": "",
+    "release_year": "",
     "is_best_seller": false,
     "images": [
-      "unissex"
+      "https://m.media-amazon.com/images/I/612YIPVucEL._AC_SY500_.jpg"
     ],
     "emoji": "👟",
     "tags": [
@@ -4299,17 +3895,13 @@ var SHOES = [
     ],
     "description": "Clássico retrô com entressola ENCAP para amortecimento duradouro. Cabedal em couro sintético e mesh para conforto e estilo versátil no dia a dia",
     "reason": "Clássico retrô com entressola ENCAP para amortecimento duradouro. Cabedal em couro sintético e mesh para conforto e estilo versátil no dia a dia",
-    "pros": [
-      "unissex"
-    ],
-    "cons": [
-      "unissex"
-    ]
+    "pros": [],
+    "cons": []
   },
   {
     "brand": "MIZUNO",
     "model": "",
-    "version": "feminino",
+    "version": "",
     "name": "Creation 26",
     "slug": "mizuno-creation-26",
     "category": "",
@@ -4320,8 +3912,8 @@ var SHOES = [
     "price": 679.99,
     "price_formatted": "R$ 679,99",
     "budget": "600a1000",
-    "drop": "feminino",
-    "weight": "feminino",
+    "drop": "",
+    "weight": "",
     "levels": [
       "iniciante",
       "intermediario"
@@ -4338,9 +3930,7 @@ var SHOES = [
       "amortecimento",
       "durabilidade"
     ],
-    "technologies": [
-      "feminino"
-    ],
+    "technologies": [],
     "affiliate_links": {
       "amazon": {
         "url": "https://amzn.to/46KPFjN",
@@ -4351,12 +3941,12 @@ var SHOES = [
         "price": 679.99
       }
     },
-    "rating": "feminino",
-    "reviews_count": "feminino",
-    "release_year": "feminino",
+    "rating": "",
+    "reviews_count": "",
+    "release_year": "",
     "is_best_seller": false,
     "images": [
-      "feminino"
+      "https://m.media-amazon.com/images/I/51ifrRin22L._AC_SY500_.jpg"
     ],
     "emoji": "👟",
     "tags": [
@@ -4366,17 +3956,13 @@ var SHOES = [
     ],
     "description": "Tecnologia Wave para absorção de impacto e estabilidade. Espuma AP+ na entressola para conforto duradouro em treinos longos e uso diário",
     "reason": "Tecnologia Wave para absorção de impacto e estabilidade. Espuma AP+ na entressola para conforto duradouro em treinos longos e uso diário",
-    "pros": [
-      "feminino"
-    ],
-    "cons": [
-      "feminino"
-    ]
+    "pros": [],
+    "cons": []
   },
   {
     "brand": "MIZUNO",
     "model": "",
-    "version": "unissex",
+    "version": "",
     "name": "Creation 26",
     "slug": "mizuno-creation-26",
     "category": "",
@@ -4387,8 +3973,8 @@ var SHOES = [
     "price": 679.99,
     "price_formatted": "R$ 679,99",
     "budget": "600a1000",
-    "drop": "unissex",
-    "weight": "unissex",
+    "drop": "",
+    "weight": "",
     "levels": [
       "iniciante",
       "intermediario"
@@ -4405,9 +3991,7 @@ var SHOES = [
       "amortecimento",
       "durabilidade"
     ],
-    "technologies": [
-      "unissex"
-    ],
+    "technologies": [],
     "affiliate_links": {
       "amazon": {
         "url": "https://amzn.to/412oc9N",
@@ -4418,12 +4002,12 @@ var SHOES = [
         "price": 679.99
       }
     },
-    "rating": "unissex",
-    "reviews_count": "unissex",
-    "release_year": "unissex",
+    "rating": "",
+    "reviews_count": "",
+    "release_year": "",
     "is_best_seller": false,
     "images": [
-      "unissex"
+      "https://m.media-amazon.com/images/I/61qwpkLkodL._AC_SY500_.jpg"
     ],
     "emoji": "👟",
     "tags": [
@@ -4433,17 +4017,13 @@ var SHOES = [
     ],
     "description": "Tecnologia Wave para absorção de impacto e estabilidade. Espuma AP+ na entressola para conforto duradouro em treinos longos e uso diário",
     "reason": "Tecnologia Wave para absorção de impacto e estabilidade. Espuma AP+ na entressola para conforto duradouro em treinos longos e uso diário",
-    "pros": [
-      "unissex"
-    ],
-    "cons": [
-      "unissex"
-    ]
+    "pros": [],
+    "cons": []
   },
   {
     "brand": "ASICS",
     "model": "",
-    "version": "unissex",
+    "version": "",
     "name": "Superblast 2",
     "slug": "asics-superblast-2",
     "category": "",
@@ -4454,8 +4034,8 @@ var SHOES = [
     "price": 1552.85,
     "price_formatted": "R$ 1.552,85",
     "budget": "acima1000",
-    "drop": "unissex",
-    "weight": "unissex",
+    "drop": "",
+    "weight": "",
     "levels": [
       "intermediario",
       "avancado"
@@ -4472,21 +4052,19 @@ var SHOES = [
       "leveza",
       "amortecimento"
     ],
-    "technologies": [
-      "unissex"
-    ],
+    "technologies": [],
     "affiliate_links": {
       "amazon": {
         "url": "https://amzn.to/4d7EIN1",
         "price": 1552.85
       }
     },
-    "rating": "unissex",
-    "reviews_count": "unissex",
-    "release_year": "unissex",
+    "rating": "",
+    "reviews_count": "",
+    "release_year": "",
     "is_best_seller": false,
     "images": [
-      "unissex"
+      "https://m.media-amazon.com/images/I/61nVPmZFSoL._AC_SY500_.jpg"
     ],
     "emoji": "👟",
     "tags": [
@@ -4496,17 +4074,13 @@ var SHOES = [
     ],
     "description": "Entressola FF BLAST+ Eco para amortecimento máximo com leveza extrema. Ideal para treinos longos e corredores que buscam alto desempenho sem sacrificar o conforto",
     "reason": "Entressola FF BLAST+ Eco para amortecimento máximo com leveza extrema. Ideal para treinos longos e corredores que buscam alto desempenho sem sacrificar o conforto",
-    "pros": [
-      "unissex"
-    ],
-    "cons": [
-      "unissex"
-    ]
+    "pros": [],
+    "cons": []
   },
   {
     "brand": "MIZUNO",
     "model": "",
-    "version": "unissex",
+    "version": "",
     "name": "Neo Zen",
     "slug": "mizuno-neo-zen",
     "category": "",
@@ -4517,8 +4091,8 @@ var SHOES = [
     "price": 1402.88,
     "price_formatted": "R$ 1.402,88",
     "budget": "acima1000",
-    "drop": "unissex",
-    "weight": "unissex",
+    "drop": "",
+    "weight": "",
     "levels": [
       "iniciante",
       "intermediario"
@@ -4535,21 +4109,19 @@ var SHOES = [
       "amortecimento",
       "leveza"
     ],
-    "technologies": [
-      "unissex"
-    ],
+    "technologies": [],
     "affiliate_links": {
       "amazon": {
         "url": "https://amzn.to/4saqM9C",
         "price": 1402.88
       }
     },
-    "rating": "unissex",
-    "reviews_count": "unissex",
-    "release_year": "unissex",
+    "rating": "",
+    "reviews_count": "",
+    "release_year": "",
     "is_best_seller": false,
     "images": [
-      "unissex"
+      "https://m.media-amazon.com/images/I/71pGo9F0wnL._AC_SY500_.jpg"
     ],
     "emoji": "👟",
     "tags": [
@@ -4559,17 +4131,13 @@ var SHOES = [
     ],
     "description": "Entressola macia e responsiva para uma pisada suave e confortável. Design minimalista com excelente absorção de impacto para treinos do dia a dia",
     "reason": "Entressola macia e responsiva para uma pisada suave e confortável. Design minimalista com excelente absorção de impacto para treinos do dia a dia",
-    "pros": [
-      "unissex"
-    ],
-    "cons": [
-      "unissex"
-    ]
+    "pros": [],
+    "cons": []
   },
   {
     "brand": "OLYMPIKUS",
     "model": "",
-    "version": "unissex",
+    "version": "",
     "name": "Rua",
     "slug": "olympikus-rua",
     "category": "",
@@ -4580,8 +4148,8 @@ var SHOES = [
     "price": 204.9,
     "price_formatted": "R$ 204,90",
     "budget": "ate300",
-    "drop": "unissex",
-    "weight": "unissex",
+    "drop": "",
+    "weight": "",
     "levels": [
       "iniciante",
       "intermediario"
@@ -4598,21 +4166,19 @@ var SHOES = [
       "amortecimento",
       "custo"
     ],
-    "technologies": [
-      "unissex"
-    ],
+    "technologies": [],
     "affiliate_links": {
       "amazon": {
         "url": "https://amzn.to/4un2UBh",
         "price": 204.9
       }
     },
-    "rating": "unissex",
-    "reviews_count": "unissex",
-    "release_year": "unissex",
+    "rating": "",
+    "reviews_count": "",
+    "release_year": "",
     "is_best_seller": false,
     "images": [
-      "unissex"
+      "https://m.media-amazon.com/images/I/61Rx2TlzVUL._AC_SY500_.jpg"
     ],
     "emoji": "👟",
     "tags": [
@@ -4622,17 +4188,13 @@ var SHOES = [
     ],
     "description": "Tênis brasileiro leve com tecnologia Hypersox e amortecimento suave, ideal para treinos de rua e esteira",
     "reason": "Tênis brasileiro leve com tecnologia Hypersox e amortecimento suave, ideal para treinos de rua e esteira",
-    "pros": [
-      "unissex"
-    ],
-    "cons": [
-      "unissex"
-    ]
+    "pros": [],
+    "cons": []
   },
   {
     "brand": "MIZUNO",
     "model": "",
-    "version": "unissex",
+    "version": "",
     "name": "Wave Dynasty 7",
     "slug": "mizuno-wave-dynasty-7",
     "category": "",
@@ -4643,8 +4205,8 @@ var SHOES = [
     "price": 379.99,
     "price_formatted": "R$ 379,99",
     "budget": "300a600",
-    "drop": "unissex",
-    "weight": "unissex",
+    "drop": "",
+    "weight": "",
     "levels": [
       "iniciante",
       "intermediario"
@@ -4663,9 +4225,7 @@ var SHOES = [
       "durabilidade",
       "custo"
     ],
-    "technologies": [
-      "unissex"
-    ],
+    "technologies": [],
     "affiliate_links": {
       "amazon": {
         "url": "https://amzn.to/4105W0O",
@@ -4676,12 +4236,12 @@ var SHOES = [
         "price": 379.99
       }
     },
-    "rating": "unissex",
-    "reviews_count": "unissex",
-    "release_year": "unissex",
+    "rating": "",
+    "reviews_count": "",
+    "release_year": "",
     "is_best_seller": false,
     "images": [
-      "unissex"
+      "https://m.media-amazon.com/images/I/61MzvFVQufL._AC_SY500_.jpg"
     ],
     "emoji": "👟",
     "tags": [
@@ -4691,17 +4251,13 @@ var SHOES = [
     ],
     "description": "Tecnologia Mizuno Wave para estabilidade e amortecimento, cabedal mesh respirável e solado X10 de alta durabilidade",
     "reason": "Tecnologia Mizuno Wave para estabilidade e amortecimento, cabedal mesh respirável e solado X10 de alta durabilidade",
-    "pros": [
-      "unissex"
-    ],
-    "cons": [
-      "unissex"
-    ]
+    "pros": [],
+    "cons": []
   },
   {
     "brand": "MIZUNO",
     "model": "",
-    "version": "unissex",
+    "version": "",
     "name": "Enigma 2",
     "slug": "mizuno-enigma-2",
     "category": "",
@@ -4712,8 +4268,8 @@ var SHOES = [
     "price": 299.99,
     "price_formatted": "R$ 299,99",
     "budget": "300a600",
-    "drop": "unissex",
-    "weight": "unissex",
+    "drop": "",
+    "weight": "",
     "levels": [
       "iniciante",
       "intermediario"
@@ -4730,9 +4286,7 @@ var SHOES = [
       "amortecimento",
       "custo"
     ],
-    "technologies": [
-      "unissex"
-    ],
+    "technologies": [],
     "affiliate_links": {
       "amazon": {
         "url": "https://amzn.to/47GParh",
@@ -4743,12 +4297,12 @@ var SHOES = [
         "price": 299.99
       }
     },
-    "rating": "unissex",
-    "reviews_count": "unissex",
-    "release_year": "unissex",
+    "rating": "",
+    "reviews_count": "",
+    "release_year": "",
     "is_best_seller": false,
     "images": [
-      "unissex"
+      "https://m.media-amazon.com/images/I/51tKTairIAL._AC_SY500_.jpg"
     ],
     "emoji": "👟",
     "tags": [
@@ -4758,17 +4312,13 @@ var SHOES = [
     ],
     "description": "SoftierFoam na entressola para maciez superior, cabedal respirável e solado de borracha resistente. Ideal para treinos leves e caminhada",
     "reason": "SoftierFoam na entressola para maciez superior, cabedal respirável e solado de borracha resistente. Ideal para treinos leves e caminhada",
-    "pros": [
-      "unissex"
-    ],
-    "cons": [
-      "unissex"
-    ]
+    "pros": [],
+    "cons": []
   },
   {
     "brand": "MIZUNO",
     "model": "",
-    "version": "unissex",
+    "version": "",
     "name": "Wave Prophecy Beta 2",
     "slug": "mizuno-wave-prophecy-beta-2",
     "category": "",
@@ -4779,8 +4329,8 @@ var SHOES = [
     "price": 1299.99,
     "price_formatted": "R$ 1.299,99",
     "budget": "acima1000",
-    "drop": "unissex",
-    "weight": "unissex",
+    "drop": "",
+    "weight": "",
     "levels": [
       "intermediario",
       "avancado"
@@ -4796,9 +4346,7 @@ var SHOES = [
       "amortecimento",
       "durabilidade"
     ],
-    "technologies": [
-      "unissex"
-    ],
+    "technologies": [],
     "affiliate_links": {
       "amazon": {
         "url": "https://amzn.to/40Z6STb",
@@ -4809,12 +4357,12 @@ var SHOES = [
         "price": 1299.99
       }
     },
-    "rating": "unissex",
-    "reviews_count": "unissex",
-    "release_year": "unissex",
+    "rating": "",
+    "reviews_count": "",
+    "release_year": "",
     "is_best_seller": false,
     "images": [
-      "unissex"
+      "https://m.media-amazon.com/images/I/5178yONIZbL._AC_SY500_.jpg"
     ],
     "emoji": "👟",
     "tags": [
@@ -4824,17 +4372,13 @@ var SHOES = [
     ],
     "description": "Placa Wave em TPU com entressola U4icX para passada macia e responsiva. Solado X10 em borracha e carbono de alta durabilidade. O tênis premium da Mizuno.",
     "reason": "Placa Wave em TPU com entressola U4icX para passada macia e responsiva. Solado X10 em borracha e carbono de alta durabilidade. O tênis premium da Mizuno.",
-    "pros": [
-      "unissex"
-    ],
-    "cons": [
-      "unissex"
-    ]
+    "pros": [],
+    "cons": []
   },
   {
     "brand": "MIZUNO",
     "model": "",
-    "version": "feminino",
+    "version": "",
     "name": "Glow 3",
     "slug": "mizuno-glow-3",
     "category": "",
@@ -4845,8 +4389,8 @@ var SHOES = [
     "price": 399.99,
     "price_formatted": "R$ 399,99",
     "budget": "300a600",
-    "drop": "feminino",
-    "weight": "feminino",
+    "drop": "",
+    "weight": "",
     "levels": [
       "iniciante",
       "intermediario"
@@ -4863,9 +4407,7 @@ var SHOES = [
       "leveza",
       "custo"
     ],
-    "technologies": [
-      "feminino"
-    ],
+    "technologies": [],
     "affiliate_links": {
       "amazon": {
         "url": "https://amzn.to/4sE1b95",
@@ -4876,12 +4418,12 @@ var SHOES = [
         "price": 399.99
       }
     },
-    "rating": "feminino",
-    "reviews_count": "feminino",
-    "release_year": "feminino",
+    "rating": "",
+    "reviews_count": "",
+    "release_year": "",
     "is_best_seller": false,
     "images": [
-      "feminino"
+      "https://m.media-amazon.com/images/I/611RirAWR7L._AC_SY500_.jpg"
     ],
     "emoji": "👟",
     "tags": [
@@ -4891,17 +4433,13 @@ var SHOES = [
     ],
     "description": "Desenvolvido para mulheres, com SoftierFoam para maciez e cabedal em tecido Unit ultra-respirável. Leve, estiloso e versátil do treino ao dia a dia.",
     "reason": "Desenvolvido para mulheres, com SoftierFoam para maciez e cabedal em tecido Unit ultra-respirável. Leve, estiloso e versátil do treino ao dia a dia.",
-    "pros": [
-      "feminino"
-    ],
-    "cons": [
-      "feminino"
-    ]
+    "pros": [],
+    "cons": []
   },
   {
     "brand": "MIZUNO",
     "model": "",
-    "version": "masculino",
+    "version": "",
     "name": "Wave Daichi 9",
     "slug": "mizuno-wave-daichi-9",
     "category": "",
@@ -4912,8 +4450,8 @@ var SHOES = [
     "price": 699.99,
     "price_formatted": "R$ 699,99",
     "budget": "600a1000",
-    "drop": "masculino",
-    "weight": "masculino",
+    "drop": "",
+    "weight": "",
     "levels": [
       "intermediario",
       "avancado"
@@ -4929,9 +4467,7 @@ var SHOES = [
       "durabilidade",
       "amortecimento"
     ],
-    "technologies": [
-      "masculino"
-    ],
+    "technologies": [],
     "affiliate_links": {
       "amazon": {
         "url": "https://amzn.to/3N4KK6K",
@@ -4942,12 +4478,12 @@ var SHOES = [
         "price": 699.99
       }
     },
-    "rating": "masculino",
-    "reviews_count": "masculino",
-    "release_year": "masculino",
+    "rating": "",
+    "reviews_count": "",
+    "release_year": "",
     "is_best_seller": false,
     "images": [
-      "masculino"
+      "https://m.media-amazon.com/images/I/61GRqg1hwgL._AC_SY500_.jpg"
     ],
     "emoji": "👟",
     "tags": [
@@ -4957,17 +4493,13 @@ var SHOES = [
     ],
     "description": "Solado Vibram Megagrip com excelente aderência em qualquer terreno, entressola Enerzy para retorno de energia e placa protetora anti-rochas. O tênis de trilha mais completo da Mizuno.",
     "reason": "Solado Vibram Megagrip com excelente aderência em qualquer terreno, entressola Enerzy para retorno de energia e placa protetora anti-rochas. O tênis de trilha mais completo da Mizuno.",
-    "pros": [
-      "masculino"
-    ],
-    "cons": [
-      "masculino"
-    ]
+    "pros": [],
+    "cons": []
   },
   {
     "brand": "MIZUNO",
     "model": "",
-    "version": "feminino",
+    "version": "",
     "name": "Wave Daichi 9",
     "slug": "mizuno-wave-daichi-9",
     "category": "",
@@ -4978,8 +4510,8 @@ var SHOES = [
     "price": 699.99,
     "price_formatted": "R$ 699,99",
     "budget": "600a1000",
-    "drop": "feminino",
-    "weight": "feminino",
+    "drop": "",
+    "weight": "",
     "levels": [
       "intermediario",
       "avancado"
@@ -4995,9 +4527,7 @@ var SHOES = [
       "durabilidade",
       "amortecimento"
     ],
-    "technologies": [
-      "feminino"
-    ],
+    "technologies": [],
     "affiliate_links": {
       "amazon": {
         "url": "https://amzn.to/4s6fumP",
@@ -5008,12 +4538,12 @@ var SHOES = [
         "price": 699.99
       }
     },
-    "rating": "feminino",
-    "reviews_count": "feminino",
-    "release_year": "feminino",
+    "rating": "",
+    "reviews_count": "",
+    "release_year": "",
     "is_best_seller": false,
     "images": [
-      "feminino"
+      "https://m.media-amazon.com/images/I/51dEdz7PxZL._AC_SY500_.jpg"
     ],
     "emoji": "👟",
     "tags": [
@@ -5023,17 +4553,13 @@ var SHOES = [
     ],
     "description": "Versão feminina do melhor tênis de trilha Mizuno. Solado Vibram Megagrip, Enerzy na entressola e proteção anti-rochas para conquistar qualquer terreno com confiança.",
     "reason": "Versão feminina do melhor tênis de trilha Mizuno. Solado Vibram Megagrip, Enerzy na entressola e proteção anti-rochas para conquistar qualquer terreno com confiança.",
-    "pros": [
-      "feminino"
-    ],
-    "cons": [
-      "feminino"
-    ]
+    "pros": [],
+    "cons": []
   },
   {
     "brand": "New Balance",
     "model": "",
-    "version": "masculino",
+    "version": "",
     "name": "1080 v15",
     "slug": "new-balance-1080-v15",
     "category": "",
@@ -5044,8 +4570,8 @@ var SHOES = [
     "price": 1.299,
     "price_formatted": "R$ 1,30",
     "budget": "acima1000",
-    "drop": "masculino",
-    "weight": "masculino",
+    "drop": "",
+    "weight": "",
     "levels": [
       "iniciante",
       "intermediario",
@@ -5061,21 +4587,19 @@ var SHOES = [
       "amortecimento",
       "durabilidade"
     ],
-    "technologies": [
-      "masculino"
-    ],
+    "technologies": [],
     "affiliate_links": {
       "amazon": {
         "url": "https://amzn.to/4uI7lqG",
         "price": 1.299
       }
     },
-    "rating": "masculino",
-    "reviews_count": "masculino",
-    "release_year": "masculino",
+    "rating": "",
+    "reviews_count": "",
+    "release_year": "",
     "is_best_seller": false,
     "images": [
-      "masculino"
+      "https://m.media-amazon.com/images/I/61FYoxCE8OL._AC_SY500_.jpg"
     ],
     "emoji": "🏃",
     "tags": [
@@ -5086,17 +4610,13 @@ var SHOES = [
     ],
     "description": "Treino diário premium com a nova espuma Infinion — mais leve e responsiva que a Fresh Foam. Ideal para treinos longos e recuperação.",
     "reason": "Treino diário premium com a nova espuma Infinion — mais leve e responsiva que a Fresh Foam. Ideal para treinos longos e recuperação.",
-    "pros": [
-      "masculino"
-    ],
-    "cons": [
-      "masculino"
-    ]
+    "pros": [],
+    "cons": []
   },
   {
     "brand": "New Balance",
     "model": "",
-    "version": "feminino",
+    "version": "",
     "name": "1080 v15",
     "slug": "new-balance-1080-v15",
     "category": "",
@@ -5107,8 +4627,8 @@ var SHOES = [
     "price": 1.3,
     "price_formatted": "R$ 1,30",
     "budget": "acima1000",
-    "drop": "feminino",
-    "weight": "feminino",
+    "drop": "",
+    "weight": "",
     "levels": [
       "iniciante",
       "intermediario",
@@ -5124,21 +4644,19 @@ var SHOES = [
       "amortecimento",
       "durabilidade"
     ],
-    "technologies": [
-      "feminino"
-    ],
+    "technologies": [],
     "affiliate_links": {
       "amazon": {
         "url": "https://amzn.to/4b8JVD5",
         "price": 1.3
       }
     },
-    "rating": "feminino",
-    "reviews_count": "feminino",
-    "release_year": "feminino",
+    "rating": "",
+    "reviews_count": "",
+    "release_year": "",
     "is_best_seller": false,
     "images": [
-      "feminino"
+      "https://m.media-amazon.com/images/I/81wTUqT6pWL._AC_SX500_.jpg"
     ],
     "emoji": "🏃",
     "tags": [
@@ -5149,17 +4667,13 @@ var SHOES = [
     ],
     "description": "Treino diário premium com a nova espuma Infinion — mais leve e responsiva que a Fresh Foam. Ideal para treinos longos e recuperação.",
     "reason": "Treino diário premium com a nova espuma Infinion — mais leve e responsiva que a Fresh Foam. Ideal para treinos longos e recuperação.",
-    "pros": [
-      "feminino"
-    ],
-    "cons": [
-      "feminino"
-    ]
+    "pros": [],
+    "cons": []
   },
   {
     "brand": "New Balance",
     "model": "",
-    "version": "feminino",
+    "version": "",
     "name": "FuelCell SuperComp Elite v5",
     "slug": "new-balance-fuelcell-supercomp-elite-v5",
     "category": "",
@@ -5170,8 +4684,8 @@ var SHOES = [
     "price": 2.199,
     "price_formatted": "R$ 2,20",
     "budget": "acima1000",
-    "drop": "feminino",
-    "weight": "feminino",
+    "drop": "",
+    "weight": "",
     "levels": [
       "intermediario",
       "avancado"
@@ -5186,21 +4700,19 @@ var SHOES = [
       "leveza",
       "amortecimento"
     ],
-    "technologies": [
-      "feminino"
-    ],
+    "technologies": [],
     "affiliate_links": {
       "amazon": {
         "url": "https://amzn.to/3NnNw78",
         "price": 2.199
       }
     },
-    "rating": "feminino",
-    "reviews_count": "feminino",
-    "release_year": "feminino",
+    "rating": "",
+    "reviews_count": "",
+    "release_year": "",
     "is_best_seller": false,
     "images": [
-      "feminino"
+      "https://m.media-amazon.com/images/I/71q16VFjN9L._AC_SX500_.jpg"
     ],
     "emoji": "⚡",
     "tags": [
@@ -5211,17 +4723,13 @@ var SHOES = [
     ],
     "description": "Super shoe com placa de carbono para maratona e provas longas. Alternativa forte ao Vaporfly para corredores de alto rendimento.",
     "reason": "Super shoe com placa de carbono para maratona e provas longas. Alternativa forte ao Vaporfly para corredores de alto rendimento.",
-    "pros": [
-      "feminino"
-    ],
-    "cons": [
-      "feminino"
-    ]
+    "pros": [],
+    "cons": []
   },
   {
     "brand": "New Balance",
     "model": "",
-    "version": "masculino",
+    "version": "",
     "name": "Fresh Foam X Hierro v8",
     "slug": "new-balance-fresh-foam-x-hierro-v8",
     "category": "",
@@ -5232,8 +4740,8 @@ var SHOES = [
     "price": 1281.86,
     "price_formatted": "R$ 1.281,86",
     "budget": "acima1000",
-    "drop": "masculino",
-    "weight": "masculino",
+    "drop": "",
+    "weight": "",
     "levels": [
       "iniciante",
       "intermediario",
@@ -5250,9 +4758,7 @@ var SHOES = [
       "amortecimento",
       "durabilidade"
     ],
-    "technologies": [
-      "masculino"
-    ],
+    "technologies": [],
     "affiliate_links": {
       "amazon": {
         "url": "https://amzn.to/4sHcrBo",
@@ -5263,12 +4769,12 @@ var SHOES = [
         "price": 0.0
       }
     },
-    "rating": "masculino",
-    "reviews_count": "masculino",
-    "release_year": "masculino",
+    "rating": "",
+    "reviews_count": "",
+    "release_year": "",
     "is_best_seller": false,
     "images": [
-      "masculino"
+      "https://m.media-amazon.com/images/I/51jw--PJVpL._AC_SY500_.jpg"
     ],
     "emoji": "🏔️",
     "tags": [
@@ -5279,17 +4785,13 @@ var SHOES = [
     ],
     "description": "Trail confortável para terrenos técnicos com amortecimento Fresh Foam X. Ótima tração em trilhas e terra.",
     "reason": "Trail confortável para terrenos técnicos com amortecimento Fresh Foam X. Ótima tração em trilhas e terra.",
-    "pros": [
-      "masculino"
-    ],
-    "cons": [
-      "masculino"
-    ]
+    "pros": [],
+    "cons": []
   },
   {
     "brand": "New Balance",
     "model": "",
-    "version": "feminino",
+    "version": "",
     "name": "New Balance Rebel v5",
     "slug": "new-balance-new-balance-rebel-v5",
     "category": "",
@@ -5300,8 +4802,8 @@ var SHOES = [
     "price": 989.79,
     "price_formatted": "R$ 989,79",
     "budget": "600a1000",
-    "drop": "feminino",
-    "weight": "feminino",
+    "drop": "",
+    "weight": "",
     "levels": [
       "intermediario",
       "avancado"
@@ -5316,21 +4818,19 @@ var SHOES = [
       "leveza",
       "amortecimento"
     ],
-    "technologies": [
-      "feminino"
-    ],
+    "technologies": [],
     "affiliate_links": {
       "amazon": {
         "url": "https://amzn.to/40rgjL1",
         "price": 989.79
       }
     },
-    "rating": "feminino",
-    "reviews_count": "feminino",
-    "release_year": "feminino",
+    "rating": "",
+    "reviews_count": "",
+    "release_year": "",
     "is_best_seller": false,
     "images": [
-      "feminino"
+      "https://m.media-amazon.com/images/I/71+9s4rDg-L._AC_SY500_.jpg"
     ],
     "emoji": "🪶",
     "tags": [
@@ -5341,17 +4841,13 @@ var SHOES = [
     ],
     "description": "Tênis leve com placa de nylon para treinos rápidos e provas curtas. Responsivo e versátil para quem busca velocidade no dia a dia.",
     "reason": "Tênis leve com placa de nylon para treinos rápidos e provas curtas. Responsivo e versátil para quem busca velocidade no dia a dia.",
-    "pros": [
-      "feminino"
-    ],
-    "cons": [
-      "feminino"
-    ]
+    "pros": [],
+    "cons": []
   },
   {
     "brand": "New Balance",
     "model": "",
-    "version": "masculino",
+    "version": "",
     "name": "New Balance Rebel v5",
     "slug": "new-balance-new-balance-rebel-v5",
     "category": "",
@@ -5362,8 +4858,8 @@ var SHOES = [
     "price": 1099.87,
     "price_formatted": "R$ 1.099,87",
     "budget": "acima1000",
-    "drop": "masculino",
-    "weight": "masculino",
+    "drop": "",
+    "weight": "",
     "levels": [
       "intermediario",
       "avancado"
@@ -5378,21 +4874,19 @@ var SHOES = [
       "leveza",
       "amortecimento"
     ],
-    "technologies": [
-      "masculino"
-    ],
+    "technologies": [],
     "affiliate_links": {
       "amazon": {
         "url": "https://amzn.to/4s96D3T",
         "price": 1099.87
       }
     },
-    "rating": "masculino",
-    "reviews_count": "masculino",
-    "release_year": "masculino",
+    "rating": "",
+    "reviews_count": "",
+    "release_year": "",
     "is_best_seller": false,
     "images": [
-      "masculino"
+      "https://m.media-amazon.com/images/I/61YvL0uMf7L._AC_SY500_.jpg"
     ],
     "emoji": "🪶",
     "tags": [
@@ -5403,17 +4897,13 @@ var SHOES = [
     ],
     "description": "Tênis leve com placa de nylon para treinos rápidos e provas curtas. Responsivo e versátil para quem busca velocidade no dia a dia.",
     "reason": "Tênis leve com placa de nylon para treinos rápidos e provas curtas. Responsivo e versátil para quem busca velocidade no dia a dia.",
-    "pros": [
-      "masculino"
-    ],
-    "cons": [
-      "masculino"
-    ]
+    "pros": [],
+    "cons": []
   },
   {
     "brand": "Hoka",
     "model": "",
-    "version": "masculino",
+    "version": "",
     "name": "Hoka Clifton 10",
     "slug": "hoka-hoka-clifton-10",
     "category": "",
@@ -5424,8 +4914,8 @@ var SHOES = [
     "price": 1.3,
     "price_formatted": "R$ 1,30",
     "budget": "acima1000",
-    "drop": "masculino",
-    "weight": "masculino",
+    "drop": "",
+    "weight": "",
     "levels": [
       "iniciante",
       "intermediario",
@@ -5441,21 +4931,19 @@ var SHOES = [
       "amortecimento",
       "durabilidade"
     ],
-    "technologies": [
-      "masculino"
-    ],
+    "technologies": [],
     "affiliate_links": {
       "amazon": {
         "url": "https://amzn.to/3Ny1lzU",
         "price": 1.3
       }
     },
-    "rating": "masculino",
-    "reviews_count": "masculino",
-    "release_year": "masculino",
+    "rating": "",
+    "reviews_count": "",
+    "release_year": "",
     "is_best_seller": true,
     "images": [
-      "masculino"
+      "https://m.media-amazon.com/images/I/610N9clHcfL._AC_SY695_.jpg"
     ],
     "emoji": "☁️",
     "tags": [
@@ -5466,17 +4954,13 @@ var SHOES = [
     ],
     "description": "Um dos tênis mais confortáveis do mercado. Stack maximalist e drop de 8mm para proteção máxima em treinos diários. Ideal para iniciantes e longas distâncias.",
     "reason": "Um dos tênis mais confortáveis do mercado. Stack maximalist e drop de 8mm para proteção máxima em treinos diários. Ideal para iniciantes e longas distâncias.",
-    "pros": [
-      "masculino"
-    ],
-    "cons": [
-      "masculino"
-    ]
+    "pros": [],
+    "cons": []
   },
   {
     "brand": "Hoka",
     "model": "",
-    "version": "feminino",
+    "version": "",
     "name": "Hoka Clifton 10",
     "slug": "hoka-hoka-clifton-10",
     "category": "",
@@ -5487,8 +4971,8 @@ var SHOES = [
     "price": 1299.99,
     "price_formatted": "R$ 1.299,99",
     "budget": "acima1000",
-    "drop": "feminino",
-    "weight": "feminino",
+    "drop": "",
+    "weight": "",
     "levels": [
       "iniciante",
       "intermediario",
@@ -5504,21 +4988,19 @@ var SHOES = [
       "amortecimento",
       "durabilidade"
     ],
-    "technologies": [
-      "feminino"
-    ],
+    "technologies": [],
     "affiliate_links": {
       "amazon": {
         "url": "https://amzn.to/4sErZWD",
         "price": 1299.99
       }
     },
-    "rating": "feminino",
-    "reviews_count": "feminino",
-    "release_year": "feminino",
+    "rating": "",
+    "reviews_count": "",
+    "release_year": "",
     "is_best_seller": false,
     "images": [
-      "feminino"
+      "https://m.media-amazon.com/images/I/51bXQrff2ZL._AC_SY500_.jpg"
     ],
     "emoji": "☁️",
     "tags": [
@@ -5529,17 +5011,13 @@ var SHOES = [
     ],
     "description": "Um dos tênis mais confortáveis do mercado. Stack maximalist e drop de 8mm para proteção máxima em treinos diários. Ideal para iniciantes e longas distâncias.",
     "reason": "Um dos tênis mais confortáveis do mercado. Stack maximalist e drop de 8mm para proteção máxima em treinos diários. Ideal para iniciantes e longas distâncias.",
-    "pros": [
-      "feminino"
-    ],
-    "cons": [
-      "feminino"
-    ]
+    "pros": [],
+    "cons": []
   },
   {
     "brand": "Hoka",
     "model": "",
-    "version": "unissex",
+    "version": "",
     "name": "Hoka Rocket X 3",
     "slug": "hoka-hoka-rocket-x-3",
     "category": "",
@@ -5550,8 +5028,8 @@ var SHOES = [
     "price": 2.4,
     "price_formatted": "R$ 2,40",
     "budget": "acima1000",
-    "drop": "unissex",
-    "weight": "unissex",
+    "drop": "",
+    "weight": "",
     "levels": [
       "intermediario",
       "avancado"
@@ -5566,21 +5044,19 @@ var SHOES = [
       "leveza",
       "amortecimento"
     ],
-    "technologies": [
-      "unissex"
-    ],
+    "technologies": [],
     "affiliate_links": {
       "amazon": {
         "url": "https://amzn.to/46WrNd3",
         "price": 2.4
       }
     },
-    "rating": "unissex",
-    "reviews_count": "unissex",
-    "release_year": "unissex",
+    "rating": "",
+    "reviews_count": "",
+    "release_year": "",
     "is_best_seller": false,
     "images": [
-      "unissex"
+      "https://m.media-amazon.com/images/I/61FlAJi0tsL._AC_SY500_.jpg"
     ],
     "emoji": "🚀",
     "tags": [
@@ -5591,17 +5067,13 @@ var SHOES = [
     ],
     "description": "Super shoe da Hoka com placa de carbono para maratona. Amortecimento maximalista com propulsão de elite para dia de prova.",
     "reason": "Super shoe da Hoka com placa de carbono para maratona. Amortecimento maximalista com propulsão de elite para dia de prova.",
-    "pros": [
-      "unissex"
-    ],
-    "cons": [
-      "unissex"
-    ]
+    "pros": [],
+    "cons": []
   },
   {
     "brand": "Saucony",
     "model": "",
-    "version": "masculino|feminino",
+    "version": "",
     "name": "Saucony Endorphin Pro 4",
     "slug": "saucony-saucony-endorphin-pro-4",
     "category": "",
@@ -5613,8 +5085,8 @@ var SHOES = [
     "price": 1.524,
     "price_formatted": "R$ 1,52",
     "budget": "acima1000",
-    "drop": "masculino|feminino",
-    "weight": "masculino|feminino",
+    "drop": "",
+    "weight": "",
     "levels": [
       "intermediario",
       "avancado"
@@ -5629,23 +5101,19 @@ var SHOES = [
       "leveza",
       "amortecimento"
     ],
-    "technologies": [
-      "masculino",
-      "feminino"
-    ],
+    "technologies": [],
     "affiliate_links": {
       "amazon": {
         "url": "https://amzn.to/4uAu8EP",
         "price": 1.524
       }
     },
-    "rating": "masculino|feminino",
-    "reviews_count": "masculino|feminino",
-    "release_year": "masculino|feminino",
+    "rating": "",
+    "reviews_count": "",
+    "release_year": "",
     "is_best_seller": false,
     "images": [
-      "masculino",
-      "feminino"
+      "https://m.media-amazon.com/images/I/71NTdjs6iVL._AC_SY500_.jpg"
     ],
     "emoji": "⚡",
     "tags": [
@@ -5656,19 +5124,13 @@ var SHOES = [
     ],
     "description": "Um dos melhores tênis de maratona em custo-benefício. Placa de carbono com espuma PWRRUN PB para corredores que querem velocidade.",
     "reason": "Um dos melhores tênis de maratona em custo-benefício. Placa de carbono com espuma PWRRUN PB para corredores que querem velocidade.",
-    "pros": [
-      "masculino",
-      "feminino"
-    ],
-    "cons": [
-      "masculino",
-      "feminino"
-    ]
+    "pros": [],
+    "cons": []
   },
   {
     "brand": "Saucony",
     "model": "",
-    "version": "masculino",
+    "version": "",
     "name": "Saucony Endorphin Speed 5",
     "slug": "saucony-saucony-endorphin-speed-5",
     "category": "",
@@ -5679,8 +5141,8 @@ var SHOES = [
     "price": 1799.26,
     "price_formatted": "R$ 1.799,26",
     "budget": "acima1000",
-    "drop": "masculino",
-    "weight": "masculino",
+    "drop": "",
+    "weight": "",
     "levels": [
       "intermediario",
       "avancado"
@@ -5695,21 +5157,19 @@ var SHOES = [
       "leveza",
       "amortecimento"
     ],
-    "technologies": [
-      "masculino"
-    ],
+    "technologies": [],
     "affiliate_links": {
       "amazon": {
         "url": "https://amzn.to/40vH9S7",
         "price": 1799.26
       }
     },
-    "rating": "masculino",
-    "reviews_count": "masculino",
-    "release_year": "masculino",
+    "rating": "",
+    "reviews_count": "",
+    "release_year": "",
     "is_best_seller": false,
     "images": [
-      "masculino"
+      "https://m.media-amazon.com/images/I/71Kn-Dm570L._AC_SY500_.jpg"
     ],
     "emoji": "🏃",
     "tags": [
@@ -5720,17 +5180,13 @@ var SHOES = [
     ],
     "description": "Treino rápido com placa de nylon e espuma PWRRUN PB. Versátil para treinos longos e provas — o companheiro de treino do Endorphin Pro.",
     "reason": "Treino rápido com placa de nylon e espuma PWRRUN PB. Versátil para treinos longos e provas — o companheiro de treino do Endorphin Pro.",
-    "pros": [
-      "masculino"
-    ],
-    "cons": [
-      "masculino"
-    ]
+    "pros": [],
+    "cons": []
   },
   {
     "brand": "Saucony",
     "model": "",
-    "version": "masculino",
+    "version": "",
     "name": "Saucony Triumph 23",
     "slug": "saucony-saucony-triumph-23",
     "category": "",
@@ -5741,8 +5197,8 @@ var SHOES = [
     "price": 1585.65,
     "price_formatted": "R$ 1.585,65",
     "budget": "acima1000",
-    "drop": "masculino",
-    "weight": "masculino",
+    "drop": "",
+    "weight": "",
     "levels": [
       "iniciante",
       "intermediario",
@@ -5758,21 +5214,19 @@ var SHOES = [
       "amortecimento",
       "durabilidade"
     ],
-    "technologies": [
-      "masculino"
-    ],
+    "technologies": [],
     "affiliate_links": {
       "amazon": {
         "url": "https://amzn.to/4ltmU1a",
         "price": 1585.65
       }
     },
-    "rating": "masculino",
-    "reviews_count": "masculino",
-    "release_year": "masculino",
+    "rating": "",
+    "reviews_count": "",
+    "release_year": "",
     "is_best_seller": false,
     "images": [
-      "masculino"
+      "https://m.media-amazon.com/images/I/81oEoDyhA+L._AC_SY500_.jpg"
     ],
     "emoji": "🛡️",
     "tags": [
@@ -5783,17 +5237,13 @@ var SHOES = [
     ],
     "description": "Treino longo premium com espuma PWRRUN PB reformulada — mais leve e responsiva. Ideal para quem acumula quilometragem com conforto.",
     "reason": "Treino longo premium com espuma PWRRUN PB reformulada — mais leve e responsiva. Ideal para quem acumula quilometragem com conforto.",
-    "pros": [
-      "masculino"
-    ],
-    "cons": [
-      "masculino"
-    ]
+    "pros": [],
+    "cons": []
   },
   {
     "brand": "Saucony",
     "model": "",
-    "version": "masculino",
+    "version": "",
     "name": "Saucony Peregrine 15",
     "slug": "saucony-saucony-peregrine-15",
     "category": "",
@@ -5804,8 +5254,8 @@ var SHOES = [
     "price": 895.66,
     "price_formatted": "R$ 895,66",
     "budget": "600a1000",
-    "drop": "masculino",
-    "weight": "masculino",
+    "drop": "",
+    "weight": "",
     "levels": [
       "iniciante",
       "intermediario",
@@ -5822,21 +5272,19 @@ var SHOES = [
       "amortecimento",
       "durabilidade"
     ],
-    "technologies": [
-      "masculino"
-    ],
+    "technologies": [],
     "affiliate_links": {
       "amazon": {
         "url": "https://amzn.to/4bnOqIy",
         "price": 895.66
       }
     },
-    "rating": "masculino",
-    "reviews_count": "masculino",
-    "release_year": "masculino",
+    "rating": "",
+    "reviews_count": "",
+    "release_year": "",
     "is_best_seller": false,
     "images": [
-      "masculino"
+      "https://m.media-amazon.com/images/I/81e9TDaRR5L._AC_SY500_.jpg"
     ],
     "emoji": "🌲",
     "tags": [
@@ -5847,17 +5295,13 @@ var SHOES = [
     ],
     "description": "Um dos melhores tênis de trilha para todos os níveis. Tração confiável em terra e pedras com boa proteção de amortecimento.",
     "reason": "Um dos melhores tênis de trilha para todos os níveis. Tração confiável em terra e pedras com boa proteção de amortecimento.",
-    "pros": [
-      "masculino"
-    ],
-    "cons": [
-      "masculino"
-    ]
+    "pros": [],
+    "cons": []
   },
   {
     "brand": "Saucony",
     "model": "",
-    "version": "feminino",
+    "version": "",
     "name": "Saucony Peregrine 15",
     "slug": "saucony-saucony-peregrine-15",
     "category": "",
@@ -5868,8 +5312,8 @@ var SHOES = [
     "price": 919.78,
     "price_formatted": "R$ 919,78",
     "budget": "600a1000",
-    "drop": "feminino",
-    "weight": "feminino",
+    "drop": "",
+    "weight": "",
     "levels": [
       "iniciante",
       "intermediario",
@@ -5886,21 +5330,19 @@ var SHOES = [
       "amortecimento",
       "durabilidade"
     ],
-    "technologies": [
-      "feminino"
-    ],
+    "technologies": [],
     "affiliate_links": {
       "amazon": {
         "url": "https://amzn.to/47LagEW",
         "price": 919.78
       }
     },
-    "rating": "feminino",
-    "reviews_count": "feminino",
-    "release_year": "feminino",
+    "rating": "",
+    "reviews_count": "",
+    "release_year": "",
     "is_best_seller": false,
     "images": [
-      "feminino"
+      "https://m.media-amazon.com/images/I/71il-oCGRXL._AC_SY500_.jpg"
     ],
     "emoji": "🌲",
     "tags": [
@@ -5911,17 +5353,13 @@ var SHOES = [
     ],
     "description": "Um dos melhores tênis de trilha para todos os níveis. Tração confiável em terra e pedras com boa proteção de amortecimento.",
     "reason": "Um dos melhores tênis de trilha para todos os níveis. Tração confiável em terra e pedras com boa proteção de amortecimento.",
-    "pros": [
-      "feminino"
-    ],
-    "cons": [
-      "feminino"
-    ]
+    "pros": [],
+    "cons": []
   },
   {
     "brand": "Salomon",
     "model": "",
-    "version": "feminino",
+    "version": "",
     "name": "Salomon Sense Ride 5",
     "slug": "salomon-salomon-sense-ride-5",
     "category": "",
@@ -5932,8 +5370,8 @@ var SHOES = [
     "price": 1120.02,
     "price_formatted": "R$ 1.120,02",
     "budget": "acima1000",
-    "drop": "feminino",
-    "weight": "feminino",
+    "drop": "",
+    "weight": "",
     "levels": [
       "iniciante",
       "intermediario",
@@ -5950,21 +5388,19 @@ var SHOES = [
       "amortecimento",
       "durabilidade"
     ],
-    "technologies": [
-      "feminino"
-    ],
+    "technologies": [],
     "affiliate_links": {
       "amazon": {
         "url": "https://amzn.to/4b92uXF",
         "price": 1120.02
       }
     },
-    "rating": "feminino",
-    "reviews_count": "feminino",
-    "release_year": "feminino",
+    "rating": "",
+    "reviews_count": "",
+    "release_year": "",
     "is_best_seller": false,
     "images": [
-      "feminino"
+      "https://m.media-amazon.com/images/I/710D-lXE4uL._AC_SY500_.jpg"
     ],
     "emoji": "🌿",
     "tags": [
@@ -5975,17 +5411,13 @@ var SHOES = [
     ],
     "description": "Trail versátil para quem corre em terrenos mistos. Menos agressivo que o Speedcross — ideal para trilhas suaves e corrida mista road-to-trail.",
     "reason": "Trail versátil para quem corre em terrenos mistos. Menos agressivo que o Speedcross — ideal para trilhas suaves e corrida mista road-to-trail.",
-    "pros": [
-      "feminino"
-    ],
-    "cons": [
-      "feminino"
-    ]
+    "pros": [],
+    "cons": []
   },
   {
     "brand": "Olympikus",
     "model": "",
-    "version": "masculino",
+    "version": "",
     "name": "Corre Grafeno 3",
     "slug": "olympikus-corre-grafeno-3",
     "category": "",
@@ -5996,8 +5428,8 @@ var SHOES = [
     "price": 599.99,
     "price_formatted": "R$ 599,99",
     "budget": "300a600",
-    "drop": "masculino",
-    "weight": "masculino",
+    "drop": "",
+    "weight": "",
     "levels": [
       "iniciante",
       "intermediario"
@@ -6012,9 +5444,7 @@ var SHOES = [
       "custo",
       "leveza"
     ],
-    "technologies": [
-      "masculino"
-    ],
+    "technologies": [],
     "affiliate_links": {
       "amazon": {
         "url": "https://amzn.to/3NC4q1S",
@@ -6025,12 +5455,12 @@ var SHOES = [
         "price": 599.99
       }
     },
-    "rating": "masculino",
-    "reviews_count": "masculino",
-    "release_year": "masculino",
+    "rating": "",
+    "reviews_count": "",
+    "release_year": "",
     "is_best_seller": false,
     "images": [
-      "masculino"
+      "https://m.media-amazon.com/images/I/51Z-DdVYfOL._AC_SY500_.jpg"
     ],
     "emoji": "🇧🇷",
     "tags": [
@@ -6041,17 +5471,13 @@ var SHOES = [
     ],
     "description": "Versão tecnológica do Corre com placa de grafeno para mais propulsão. A evolução nacional para quem quer performance sem pagar preço de importado.",
     "reason": "Versão tecnológica do Corre com placa de grafeno para mais propulsão. A evolução nacional para quem quer performance sem pagar preço de importado.",
-    "pros": [
-      "masculino"
-    ],
-    "cons": [
-      "masculino"
-    ]
+    "pros": [],
+    "cons": []
   },
   {
     "brand": "Olympikus",
     "model": "",
-    "version": "masculino",
+    "version": "",
     "name": "Olympikus Challenger 5",
     "slug": "olympikus-olympikus-challenger-5",
     "category": "",
@@ -6062,8 +5488,8 @@ var SHOES = [
     "price": 209.99,
     "price_formatted": "R$ 209,99",
     "budget": "ate300",
-    "drop": "masculino",
-    "weight": "masculino",
+    "drop": "",
+    "weight": "",
     "levels": [
       "iniciante"
     ],
@@ -6078,9 +5504,7 @@ var SHOES = [
       "custo",
       "durabilidade"
     ],
-    "technologies": [
-      "masculino"
-    ],
+    "technologies": [],
     "affiliate_links": {
       "amazon": {
         "url": "https://amzn.to/3OZCYM2",
@@ -6091,12 +5515,12 @@ var SHOES = [
         "price": 249.99
       }
     },
-    "rating": "masculino",
-    "reviews_count": "masculino",
-    "release_year": "masculino",
+    "rating": "",
+    "reviews_count": "",
+    "release_year": "",
     "is_best_seller": false,
     "images": [
-      "masculino"
+      "https://m.media-amazon.com/images/I/51fOqAnmsIL._AC_SX522_.jpg"
     ],
     "emoji": "🇧🇷",
     "tags": [
@@ -6107,11 +5531,7 @@ var SHOES = [
     ],
     "description": "A entrada mais acessível para quem quer começar a correr. Funcional e confortável para treinos curtos e caminhadas no asfalto.",
     "reason": "A entrada mais acessível para quem quer começar a correr. Funcional e confortável para treinos curtos e caminhadas no asfalto.",
-    "pros": [
-      "masculino"
-    ],
-    "cons": [
-      "masculino"
-    ]
+    "pros": [],
+    "cons": []
   }
 ];

@@ -74,6 +74,7 @@ def main():
         # Função auxiliar para buscar chaves, ignorando maiúsculas/minúsculas e espaços extras
         def get_val(*possible_keys):
             for pk in possible_keys:
+                if not pk or pk == "": continue # Evita dar match em "" que existe em qualquer string
                 for k in keys:
                     if pk.lower() in k.lower().strip():
                         val = row[k]
