@@ -21,17 +21,27 @@ def calculate_price_range(price_num):
     else:
         return "acima1000"
 
-def extract_numeric_price(price_str):
-    if pd.isna(price_str) or price_str == "":
+def extract_numeric_price(price_val):
+    if pd.isna(price_val) or price_val == "":
         return 0.0
-    if isinstance(price_str, (int, float)):
-        return float(price_str)
+    if isinstance(price_val, (int, float)):
+        return float(price_val)
+    
+    # Se for string, limpa e tenta converter
+    s = str(price_val)
     # Extrai o valor numérico de strings como "R$ 899,90" -> 899.90
-    clean_str = re.sub(r'[^\d,.-]', '', str(price_str))
+    clean_str = re.sub(r'[^\d,.-]', '', s)
     if not clean_str:
         return 0.0
-    # Substitui ponto de milhar se houver (ex: 1.200,50 -> 1200,50) e vírgula por ponto
-    clean_str = clean_str.replace('.', '').replace(',', '.')
+    
+    # Lógica para detectar se o separador decimal é vírgula ou ponto
+    # Se houver vírgula e ponto, assume ponto como milhar e vírgula como decimal (BR)
+    if ',' in clean_str and '.' in clean_str:
+        clean_str = clean_str.replace('.', '').replace(',', '.')
+    # Se houver apenas vírgula, assume que é decimal (BR)
+    elif ',' in clean_str:
+        clean_str = clean_str.replace(',', '.')
+    
     try:
         return float(clean_str)
     except:
@@ -66,7 +76,10 @@ def main():
             for pk in possible_keys:
                 for k in keys:
                     if pk.lower() in k.lower().strip():
-                        return str(row[k]).strip()
+                        val = row[k]
+                        if isinstance(val, str):
+                            return val.strip()
+                        return val
             return ""
 
         brand = get_val("marca", "brand")

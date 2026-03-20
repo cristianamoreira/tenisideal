@@ -41,7 +41,7 @@ var SHOES = [
       },
       "oficial": {
         "url": "https://tidd.ly/3P8j6q3",
-        "price": 199999.0
+        "price": 1999.99
       }
     },
     "rating": "masculino",
@@ -76,8 +76,8 @@ var SHOES = [
       "masculino"
     ],
     "discipline": [],
-    "price": 131378.0,
-    "price_formatted": "R$ 131.378,00",
+    "price": 1313.78,
+    "price_formatted": "R$ 1.313,78",
     "budget": "acima1000",
     "drop": "masculino",
     "weight": "masculino",
@@ -101,11 +101,11 @@ var SHOES = [
     "affiliate_links": {
       "amazon": {
         "url": "https://amzn.to/3NEjLPv",
-        "price": 131378.0
+        "price": 1313.78
       },
       "oficial": {
         "url": "https://tidd.ly/4sdrK5h",
-        "price": 139999.0
+        "price": 1399.99
       }
     },
     "rating": "masculino",
@@ -140,8 +140,8 @@ var SHOES = [
       "unissex"
     ],
     "discipline": [],
-    "price": 39988.0,
-    "price_formatted": "R$ 39.988,00",
+    "price": 399.88,
+    "price_formatted": "R$ 399,88",
     "budget": "300a600",
     "drop": "unissex",
     "weight": "unissex",
@@ -168,11 +168,11 @@ var SHOES = [
     "affiliate_links": {
       "amazon": {
         "url": "https://amzn.to/4b7FF5t",
-        "price": 39988.0
+        "price": 399.88
       },
       "oficial": {
         "url": "https://tidd.ly/4bwPHNU",
-        "price": 39999.0
+        "price": 399.99
       }
     },
     "rating": "unissex",
@@ -207,8 +207,8 @@ var SHOES = [
       "masculino"
     ],
     "discipline": [],
-    "price": 94511.0,
-    "price_formatted": "R$ 94.511,00",
+    "price": 945.11,
+    "price_formatted": "R$ 945,11",
     "budget": "acima1000",
     "drop": "masculino",
     "weight": "masculino",
@@ -235,11 +235,11 @@ var SHOES = [
     "affiliate_links": {
       "amazon": {
         "url": "https://amzn.to/4cKN7pN",
-        "price": 94511.0
+        "price": 945.11
       },
       "oficial": {
         "url": "https://tidd.ly/4uycDoE",
-        "price": 109999.0
+        "price": 1099.99
       }
     },
     "rating": "masculino",
@@ -275,8 +275,8 @@ var SHOES = [
       "masculino"
     ],
     "discipline": [],
-    "price": 2089.75,
-    "price_formatted": "R$ 2.089,75",
+    "price": 1199.99,
+    "price_formatted": "R$ 1.199,99",
     "budget": "acima1000",
     "drop": "masculino",
     "weight": "masculino",
@@ -294,7 +294,7 @@ var SHOES = [
       },
       "oficial": {
         "url": "https://tidd.ly/4sa8qG5",
-        "price": 119999.0
+        "price": 1199.99
       }
     },
     "rating": "masculino",
@@ -359,7 +359,7 @@ var SHOES = [
       },
       "oficial": {
         "url": "https://tidd.ly/40vVjmg",
-        "price": 109999.0
+        "price": 1099.99
       }
     },
     "rating": "feminino",
@@ -428,7 +428,7 @@ var SHOES = [
       },
       "oficial": {
         "url": "https://tidd.ly/4dkCMkk",
-        "price": 59999.0
+        "price": 599.99
       }
     },
     "rating": "feminino",
@@ -464,8 +464,8 @@ var SHOES = [
       "feminino"
     ],
     "discipline": [],
-    "price": 1851.66,
-    "price_formatted": "R$ 1.851,66",
+    "price": 1199.99,
+    "price_formatted": "R$ 1.199,99",
     "budget": "acima1000",
     "drop": "feminino",
     "weight": "feminino",
@@ -497,7 +497,7 @@ var SHOES = [
       },
       "oficial": {
         "url": "https://tidd.ly/3PBf5KM",
-        "price": 119999.0
+        "price": 1199.99
       }
     },
     "rating": "feminino",
@@ -597,8 +597,8 @@ var SHOES = [
       "masculino"
     ],
     "discipline": [],
-    "price": 1540.0,
-    "price_formatted": "R$ 1.540,00",
+    "price": 1.54,
+    "price_formatted": "R$ 1,54",
     "budget": "acima1000",
     "drop": "masculino",
     "weight": "masculino",
@@ -625,7 +625,7 @@ var SHOES = [
     "affiliate_links": {
       "amazon": {
         "url": "https://amzn.to/4b8n1uk",
-        "price": 1540.0
+        "price": 1.54
       }
     },
     "rating": "masculino",
@@ -660,8 +660,8 @@ var SHOES = [
       "masculino"
     ],
     "discipline": [],
-    "price": 1174.0,
-    "price_formatted": "R$ 1.174,00",
+    "price": 1.174,
+    "price_formatted": "R$ 1,17",
     "budget": "acima1000",
     "drop": "masculino",
     "weight": "masculino",
@@ -688,7 +688,7 @@ var SHOES = [
     "affiliate_links": {
       "amazon": {
         "url": "https://amzn.to/3OFw26D",
-        "price": 1174.0
+        "price": 1.174
       }
     },
     "rating": "masculino",
@@ -723,8 +723,8 @@ var SHOES = [
       "masculino"
     ],
     "discipline": [],
-    "price": 1300.0,
-    "price_formatted": "R$ 1.300,00",
+    "price": 1.3,
+    "price_formatted": "R$ 1,30",
     "budget": "acima1000",
     "drop": "masculino",
     "weight": "masculino",
@@ -750,7 +750,7 @@ var SHOES = [
     "affiliate_links": {
       "amazon": {
         "url": "https://amzn.to/3OP4Dzd",
-        "price": 1300.0
+        "price": 1.3
       }
     },
     "rating": "masculino",
@@ -847,8 +847,8 @@ var SHOES = [
       "masculino"
     ],
     "discipline": [],
-    "price": 1398.0,
-    "price_formatted": "R$ 1.398,00",
+    "price": 1.398,
+    "price_formatted": "R$ 1,40",
     "budget": "acima1000",
     "drop": "masculino",
     "weight": "masculino",
@@ -875,7 +875,7 @@ var SHOES = [
     "affiliate_links": {
       "amazon": {
         "url": "https://amzn.to/3NhE4Cb",
-        "price": 1398.0
+        "price": 1.398
       }
     },
     "rating": "masculino",
@@ -1356,8 +1356,8 @@ var SHOES = [
       "masculino"
     ],
     "discipline": [],
-    "price": 1315.0,
-    "price_formatted": "R$ 1.315,00",
+    "price": 1.315,
+    "price_formatted": "R$ 1,31",
     "budget": "acima1000",
     "drop": "masculino",
     "weight": "masculino",
@@ -1385,7 +1385,7 @@ var SHOES = [
     "affiliate_links": {
       "amazon": {
         "url": "https://amzn.to/4aYytsk",
-        "price": 1315.0
+        "price": 1.315
       }
     },
     "rating": "masculino",
@@ -1730,8 +1730,8 @@ var SHOES = [
       "masculino"
     ],
     "discipline": [],
-    "price": 1249.0,
-    "price_formatted": "R$ 1.249,00",
+    "price": 1.249,
+    "price_formatted": "R$ 1,25",
     "budget": "acima1000",
     "drop": "masculino",
     "weight": "masculino",
@@ -1759,7 +1759,7 @@ var SHOES = [
     "affiliate_links": {
       "amazon": {
         "url": "https://amzn.to/409HQk0",
-        "price": 1249.0
+        "price": 1.249
       }
     },
     "rating": "masculino",
@@ -1794,8 +1794,8 @@ var SHOES = [
       "masculino"
     ],
     "discipline": [],
-    "price": 1781.0,
-    "price_formatted": "R$ 1.781,00",
+    "price": 1.781,
+    "price_formatted": "R$ 1,78",
     "budget": "acima1000",
     "drop": "masculino",
     "weight": "masculino",
@@ -1823,7 +1823,7 @@ var SHOES = [
     "affiliate_links": {
       "amazon": {
         "url": "https://amzn.to/4stApQS",
-        "price": 1781.0
+        "price": 1.781
       }
     },
     "rating": "masculino",
@@ -1858,8 +1858,8 @@ var SHOES = [
       "masculino"
     ],
     "discipline": [],
-    "price": 1120.0,
-    "price_formatted": "R$ 1.120,00",
+    "price": 1.12,
+    "price_formatted": "R$ 1,12",
     "budget": "acima1000",
     "drop": "masculino",
     "weight": "masculino",
@@ -1887,7 +1887,7 @@ var SHOES = [
     "affiliate_links": {
       "amazon": {
         "url": "https://amzn.to/4u9y3YW",
-        "price": 1120.0
+        "price": 1.12
       }
     },
     "rating": "masculino",
@@ -1922,8 +1922,8 @@ var SHOES = [
       "masculino"
     ],
     "discipline": [],
-    "price": 1299.0,
-    "price_formatted": "R$ 1.299,00",
+    "price": 1.299,
+    "price_formatted": "R$ 1,30",
     "budget": "acima1000",
     "drop": "masculino",
     "weight": "masculino",
@@ -1951,7 +1951,7 @@ var SHOES = [
     "affiliate_links": {
       "amazon": {
         "url": "https://amzn.to/4ssofHW",
-        "price": 1299.0
+        "price": 1.299
       }
     },
     "rating": "masculino",
@@ -1986,8 +1986,8 @@ var SHOES = [
       "masculino"
     ],
     "discipline": [],
-    "price": 1233.0,
-    "price_formatted": "R$ 1.233,00",
+    "price": 1.233,
+    "price_formatted": "R$ 1,23",
     "budget": "acima1000",
     "drop": "masculino",
     "weight": "masculino",
@@ -2013,7 +2013,7 @@ var SHOES = [
     "affiliate_links": {
       "amazon": {
         "url": "https://amzn.to/3Pe4Age",
-        "price": 1233.0
+        "price": 1.233
       }
     },
     "rating": "masculino",
@@ -2048,8 +2048,8 @@ var SHOES = [
       "masculino"
     ],
     "discipline": [],
-    "price": 650.0,
-    "price_formatted": "R$ 650,00",
+    "price": 649.99,
+    "price_formatted": "R$ 649,99",
     "budget": "600a1000",
     "drop": "masculino",
     "weight": "masculino",
@@ -2080,7 +2080,7 @@ var SHOES = [
       },
       "oficial": {
         "url": "https://tidd.ly/4umRr4C",
-        "price": 64999.0
+        "price": 649.99
       }
     },
     "rating": "masculino",
@@ -2148,7 +2148,7 @@ var SHOES = [
       },
       "oficial": {
         "url": "https://tidd.ly/40tllXn",
-        "price": 54999.0
+        "price": 549.99
       }
     },
     "rating": "masculino",
@@ -2215,7 +2215,7 @@ var SHOES = [
       },
       "oficial": {
         "url": "https://tidd.ly/4diuTvL",
-        "price": 119999.0
+        "price": 1199.99
       }
     },
     "rating": "masculino",
@@ -2250,8 +2250,8 @@ var SHOES = [
       "unissex"
     ],
     "discipline": [],
-    "price": 407.0,
-    "price_formatted": "R$ 407,00",
+    "price": 329.99,
+    "price_formatted": "R$ 329,99",
     "budget": "300a600",
     "drop": "unissex",
     "weight": "unissex",
@@ -2283,7 +2283,7 @@ var SHOES = [
       },
       "oficial": {
         "url": "https://tidd.ly/4dcnka0",
-        "price": 32999.0
+        "price": 329.99
       }
     },
     "rating": "unissex",
@@ -2445,8 +2445,8 @@ var SHOES = [
       "masculino"
     ],
     "discipline": [],
-    "price": 1037.0,
-    "price_formatted": "R$ 1.037,00",
+    "price": 1.037,
+    "price_formatted": "R$ 1,04",
     "budget": "acima1000",
     "drop": "masculino",
     "weight": "masculino",
@@ -2473,7 +2473,7 @@ var SHOES = [
     "affiliate_links": {
       "amazon": {
         "url": "https://amzn.to/47lOeZa",
-        "price": 1037.0
+        "price": 1.037
       }
     },
     "rating": "masculino",
@@ -2508,8 +2508,8 @@ var SHOES = [
       "masculino"
     ],
     "discipline": [],
-    "price": 1935.0,
-    "price_formatted": "R$ 1.935,00",
+    "price": 1.935,
+    "price_formatted": "R$ 1,94",
     "budget": "acima1000",
     "drop": "masculino",
     "weight": "masculino",
@@ -2534,7 +2534,7 @@ var SHOES = [
     "affiliate_links": {
       "amazon": {
         "url": "https://amzn.to/4rcfUHd",
-        "price": 1935.0
+        "price": 1.935
       }
     },
     "rating": "masculino",
@@ -2569,8 +2569,8 @@ var SHOES = [
       "masculino"
     ],
     "discipline": [],
-    "price": 1037.0,
-    "price_formatted": "R$ 1.037,00",
+    "price": 1.037,
+    "price_formatted": "R$ 1,04",
     "budget": "acima1000",
     "drop": "masculino",
     "weight": "masculino",
@@ -2597,7 +2597,7 @@ var SHOES = [
     "affiliate_links": {
       "amazon": {
         "url": "https://amzn.to/4aYFkly",
-        "price": 1037.0
+        "price": 1.037
       }
     },
     "rating": "masculino",
@@ -2724,7 +2724,7 @@ var SHOES = [
     "affiliate_links": {
       "amazon": {
         "url": "https://amzn.to/4lMlD5y",
-        "price": 84461.0
+        "price": 844.61
       },
       "oficial": {
         "url": "https://tidd.ly/47bxsfp",
@@ -2832,8 +2832,8 @@ var SHOES = [
       "masculino"
     ],
     "discipline": [],
-    "price": 1396.0,
-    "price_formatted": "R$ 1.396,00",
+    "price": 1.396,
+    "price_formatted": "R$ 1,40",
     "budget": "acima1000",
     "drop": "masculino",
     "weight": "masculino",
@@ -2861,7 +2861,7 @@ var SHOES = [
     "affiliate_links": {
       "amazon": {
         "url": "https://amzn.to/4cYE30i",
-        "price": 1396.0
+        "price": 1.396
       }
     },
     "rating": "masculino",
@@ -2896,8 +2896,8 @@ var SHOES = [
       "unissex"
     ],
     "discipline": [],
-    "price": 1284.0,
-    "price_formatted": "R$ 1.284,00",
+    "price": 1.284,
+    "price_formatted": "R$ 1,28",
     "budget": "acima1000",
     "drop": "unissex",
     "weight": "unissex",
@@ -2925,7 +2925,7 @@ var SHOES = [
     "affiliate_links": {
       "amazon": {
         "url": "https://amzn.to/3MHgLl9",
-        "price": 1284.0
+        "price": 1.284
       }
     },
     "rating": "unissex",
@@ -2960,8 +2960,8 @@ var SHOES = [
       "masculino"
     ],
     "discipline": [],
-    "price": 1220.0,
-    "price_formatted": "R$ 1.220,00",
+    "price": 1.22,
+    "price_formatted": "R$ 1,22",
     "budget": "acima1000",
     "drop": "masculino",
     "weight": "masculino",
@@ -2988,7 +2988,7 @@ var SHOES = [
     "affiliate_links": {
       "amazon": {
         "url": "https://amzn.to/46AElXp",
-        "price": 1220.0
+        "price": 1.22
       }
     },
     "rating": "masculino",
@@ -3024,8 +3024,8 @@ var SHOES = [
       "masculino"
     ],
     "discipline": [],
-    "price": 123499.0,
-    "price_formatted": "R$ 123.499,00",
+    "price": 1234.99,
+    "price_formatted": "R$ 1.234,99",
     "budget": "acima1000",
     "drop": "masculino",
     "weight": "masculino",
@@ -3039,11 +3039,11 @@ var SHOES = [
     "affiliate_links": {
       "amazon": {
         "url": "https://amzn.to/4dt98th",
-        "price": 186073.0
+        "price": 1860.73
       },
       "oficial": {
         "url": "https://tidd.ly/3PaPl86",
-        "price": 123499.0
+        "price": 1234.99
       }
     },
     "rating": "masculino",
@@ -3075,8 +3075,8 @@ var SHOES = [
       "feminino"
     ],
     "discipline": [],
-    "price": 1813.66,
-    "price_formatted": "R$ 1.813,66",
+    "price": 1234.99,
+    "price_formatted": "R$ 1.234,99",
     "budget": "acima1000",
     "drop": "feminino",
     "weight": "feminino",
@@ -3094,7 +3094,7 @@ var SHOES = [
       },
       "oficial": {
         "url": "https://tidd.ly/4lAM120",
-        "price": 123499.0
+        "price": 1234.99
       }
     },
     "rating": "feminino",
@@ -3126,8 +3126,8 @@ var SHOES = [
       "masculino"
     ],
     "discipline": [],
-    "price": 2171.0,
-    "price_formatted": "R$ 2.171,00",
+    "price": 2.171,
+    "price_formatted": "R$ 2,17",
     "budget": "acima1000",
     "drop": "masculino",
     "weight": "masculino",
@@ -3149,7 +3149,7 @@ var SHOES = [
     "affiliate_links": {
       "amazon": {
         "url": "https://amzn.to/47nlgrQ",
-        "price": 2171.0
+        "price": 2.171
       }
     },
     "rating": "masculino",
@@ -3687,8 +3687,8 @@ var SHOES = [
       "masculino"
     ],
     "discipline": [],
-    "price": 1741.0,
-    "price_formatted": "R$ 1.741,00",
+    "price": 1.741,
+    "price_formatted": "R$ 1,74",
     "budget": "acima1000",
     "drop": "masculino",
     "weight": "masculino",
@@ -3713,7 +3713,7 @@ var SHOES = [
     "affiliate_links": {
       "amazon": {
         "url": "https://amzn.to/409UZJS",
-        "price": 1741.0
+        "price": 1.741
       }
     },
     "rating": "masculino",
@@ -3748,8 +3748,8 @@ var SHOES = [
       "masculino"
     ],
     "discipline": [],
-    "price": 1043.0,
-    "price_formatted": "R$ 1.043,00",
+    "price": 1.043,
+    "price_formatted": "R$ 1,04",
     "budget": "acima1000",
     "drop": "masculino",
     "weight": "masculino",
@@ -3774,7 +3774,7 @@ var SHOES = [
     "affiliate_links": {
       "amazon": {
         "url": "https://amzn.to/3MVPADc",
-        "price": 1043.0
+        "price": 1.043
       }
     },
     "rating": "masculino",
@@ -3809,8 +3809,8 @@ var SHOES = [
       "masculino"
     ],
     "discipline": [],
-    "price": 1481.0,
-    "price_formatted": "R$ 1.481,00",
+    "price": 1.481,
+    "price_formatted": "R$ 1,48",
     "budget": "acima1000",
     "drop": "masculino",
     "weight": "masculino",
@@ -3834,7 +3834,7 @@ var SHOES = [
     "affiliate_links": {
       "amazon": {
         "url": "https://amzn.to/4aZuoUF",
-        "price": 1481.0
+        "price": 1.481
       }
     },
     "rating": "masculino",
@@ -4083,7 +4083,7 @@ var SHOES = [
       },
       "oficial": {
         "url": "https://tidd.ly/4bmcWtJ",
-        "price": 19999.0
+        "price": 199.99
       }
     },
     "rating": "unissex",
@@ -4119,8 +4119,8 @@ var SHOES = [
       "unissex"
     ],
     "discipline": [],
-    "price": 339.8,
-    "price_formatted": "R$ 339,80",
+    "price": 299.99,
+    "price_formatted": "R$ 299,99",
     "budget": "300a600",
     "drop": "unissex",
     "weight": "unissex",
@@ -4151,7 +4151,7 @@ var SHOES = [
       },
       "oficial": {
         "url": "https://tidd.ly/4bwL2LU",
-        "price": 29999.0
+        "price": 299.99
       }
     },
     "rating": "unissex",
@@ -4249,8 +4249,8 @@ var SHOES = [
       "unissex"
     ],
     "discipline": [],
-    "price": 649.9,
-    "price_formatted": "R$ 649,90",
+    "price": 449.99,
+    "price_formatted": "R$ 449,99",
     "budget": "600a1000",
     "drop": "unissex",
     "weight": "unissex",
@@ -4281,7 +4281,7 @@ var SHOES = [
       },
       "oficial": {
         "url": "https://tidd.ly/4b93ye7",
-        "price": 44999.0
+        "price": 449.99
       }
     },
     "rating": "unissex",
@@ -4317,8 +4317,8 @@ var SHOES = [
       "feminino"
     ],
     "discipline": [],
-    "price": 699.99,
-    "price_formatted": "R$ 699,99",
+    "price": 679.99,
+    "price_formatted": "R$ 679,99",
     "budget": "600a1000",
     "drop": "feminino",
     "weight": "feminino",
@@ -4348,7 +4348,7 @@ var SHOES = [
       },
       "oficial": {
         "url": "https://tidd.ly/4lyvEmO",
-        "price": 67999.0
+        "price": 679.99
       }
     },
     "rating": "feminino",
@@ -4415,7 +4415,7 @@ var SHOES = [
       },
       "oficial": {
         "url": "https://tidd.ly/4bIoSY4",
-        "price": 67999.0
+        "price": 679.99
       }
     },
     "rating": "unissex",
@@ -4673,7 +4673,7 @@ var SHOES = [
       },
       "oficial": {
         "url": "https://tidd.ly/4736aI1",
-        "price": 37999.0
+        "price": 379.99
       }
     },
     "rating": "unissex",
@@ -4709,8 +4709,8 @@ var SHOES = [
       "unissex"
     ],
     "discipline": [],
-    "price": 29999.0,
-    "price_formatted": "R$ 29.999,00",
+    "price": 299.99,
+    "price_formatted": "R$ 299,99",
     "budget": "300a600",
     "drop": "unissex",
     "weight": "unissex",
@@ -4736,11 +4736,11 @@ var SHOES = [
     "affiliate_links": {
       "amazon": {
         "url": "https://amzn.to/47GParh",
-        "price": 29999.0
+        "price": 299.99
       },
       "oficial": {
         "url": "https://tidd.ly/4bbBUgI",
-        "price": 29999.0
+        "price": 299.99
       }
     },
     "rating": "unissex",
@@ -4806,7 +4806,7 @@ var SHOES = [
       },
       "oficial": {
         "url": "https://tidd.ly/3NAinxj",
-        "price": 129999.0
+        "price": 1299.99
       }
     },
     "rating": "unissex",
@@ -4873,7 +4873,7 @@ var SHOES = [
       },
       "oficial": {
         "url": "https://tidd.ly/3P0R9QY",
-        "price": 39999.0
+        "price": 399.99
       }
     },
     "rating": "feminino",
@@ -4939,7 +4939,7 @@ var SHOES = [
       },
       "oficial": {
         "url": "https://tidd.ly/4sdgExe",
-        "price": 69999.0
+        "price": 699.99
       }
     },
     "rating": "masculino",
@@ -5005,7 +5005,7 @@ var SHOES = [
       },
       "oficial": {
         "url": "https://tidd.ly/4s4637n",
-        "price": 69999.0
+        "price": 699.99
       }
     },
     "rating": "feminino",
@@ -5041,8 +5041,8 @@ var SHOES = [
       "masculino"
     ],
     "discipline": [],
-    "price": 1299.0,
-    "price_formatted": "R$ 1.299,00",
+    "price": 1.299,
+    "price_formatted": "R$ 1,30",
     "budget": "acima1000",
     "drop": "masculino",
     "weight": "masculino",
@@ -5067,7 +5067,7 @@ var SHOES = [
     "affiliate_links": {
       "amazon": {
         "url": "https://amzn.to/4uI7lqG",
-        "price": 1299.0
+        "price": 1.299
       }
     },
     "rating": "masculino",
@@ -5104,8 +5104,8 @@ var SHOES = [
       "feminino"
     ],
     "discipline": [],
-    "price": 1300.0,
-    "price_formatted": "R$ 1.300,00",
+    "price": 1.3,
+    "price_formatted": "R$ 1,30",
     "budget": "acima1000",
     "drop": "feminino",
     "weight": "feminino",
@@ -5130,7 +5130,7 @@ var SHOES = [
     "affiliate_links": {
       "amazon": {
         "url": "https://amzn.to/4b8JVD5",
-        "price": 1300.0
+        "price": 1.3
       }
     },
     "rating": "feminino",
@@ -5167,8 +5167,8 @@ var SHOES = [
       "feminino"
     ],
     "discipline": [],
-    "price": 2199.0,
-    "price_formatted": "R$ 2.199,00",
+    "price": 2.199,
+    "price_formatted": "R$ 2,20",
     "budget": "acima1000",
     "drop": "feminino",
     "weight": "feminino",
@@ -5192,7 +5192,7 @@ var SHOES = [
     "affiliate_links": {
       "amazon": {
         "url": "https://amzn.to/3NnNw78",
-        "price": 2199.0
+        "price": 2.199
       }
     },
     "rating": "feminino",
@@ -5421,8 +5421,8 @@ var SHOES = [
       "masculino"
     ],
     "discipline": [],
-    "price": 1300.0,
-    "price_formatted": "R$ 1.300,00",
+    "price": 1.3,
+    "price_formatted": "R$ 1,30",
     "budget": "acima1000",
     "drop": "masculino",
     "weight": "masculino",
@@ -5447,7 +5447,7 @@ var SHOES = [
     "affiliate_links": {
       "amazon": {
         "url": "https://amzn.to/3Ny1lzU",
-        "price": 1300.0
+        "price": 1.3
       }
     },
     "rating": "masculino",
@@ -5547,8 +5547,8 @@ var SHOES = [
       "unissex"
     ],
     "discipline": [],
-    "price": 2400.0,
-    "price_formatted": "R$ 2.400,00",
+    "price": 2.4,
+    "price_formatted": "R$ 2,40",
     "budget": "acima1000",
     "drop": "unissex",
     "weight": "unissex",
@@ -5572,7 +5572,7 @@ var SHOES = [
     "affiliate_links": {
       "amazon": {
         "url": "https://amzn.to/46WrNd3",
-        "price": 2400.0
+        "price": 2.4
       }
     },
     "rating": "unissex",
@@ -5610,8 +5610,8 @@ var SHOES = [
       "feminino"
     ],
     "discipline": [],
-    "price": 1524.0,
-    "price_formatted": "R$ 1.524,00",
+    "price": 1.524,
+    "price_formatted": "R$ 1,52",
     "budget": "acima1000",
     "drop": "masculino|feminino",
     "weight": "masculino|feminino",
@@ -5636,7 +5636,7 @@ var SHOES = [
     "affiliate_links": {
       "amazon": {
         "url": "https://amzn.to/4uAu8EP",
-        "price": 1524.0
+        "price": 1.524
       }
     },
     "rating": "masculino|feminino",
@@ -5992,8 +5992,8 @@ var SHOES = [
       "masculino"
     ],
     "discipline": [],
-    "price": 600.0,
-    "price_formatted": "R$ 600,00",
+    "price": 599.99,
+    "price_formatted": "R$ 599,99",
     "budget": "300a600",
     "drop": "masculino",
     "weight": "masculino",
@@ -6021,7 +6021,7 @@ var SHOES = [
       },
       "oficial": {
         "url": "https://tidd.ly/3PBl3LF",
-        "price": 59999.0
+        "price": 599.99
       }
     },
     "rating": "masculino",
@@ -6087,7 +6087,7 @@ var SHOES = [
       },
       "oficial": {
         "url": "https://tidd.ly/4utSjEM",
-        "price": 24999.0
+        "price": 249.99
       }
     },
     "rating": "masculino",
