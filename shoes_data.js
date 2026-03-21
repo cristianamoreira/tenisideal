@@ -1,4 +1,4 @@
-// Gerado automaticamente via fetch_shoes.py
+// Gerado automaticamente via fetch_shoes.py - 2026-03-21 00:31 UTC
 var SHOES = [
   {
     "brand": "ADIDAS",
