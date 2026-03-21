@@ -1892,6 +1892,7 @@
 
       .shoe.shoe-featured .simg {
         flex: none;
+        /* FIX: Prevents Safari flex-basis 40% bug on mobile column */
         width: 100%;
         min-width: unset;
         height: 200px;
@@ -2196,7 +2197,7 @@
     function escapeHtml(str) {
       if (!str) return '';
       return String(str).replace(/[&<>"']/g, function (m) {
-        return { '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' }[m];
+        return { '&': '&amp;', '<': '<', '>': '>', '"': '&quot;', "'": '&#39;' }[m];
       });
     }
 
@@ -3034,257 +3035,22 @@
         showScreen('sLanding');
       }
     }
-    fetch("https://docs.google.com/spreadsheets/d/e/2PACX-1vTPbsAdJERK3wKqjEhpYZeDO5al9Ach4e-UqtnPQ0u__3zKf2oTNN4plh2YYg8B_RRiBB_lAO7lY0tQ/pub?output=csv")
-      .then(function (response) {
-        if (!response.ok) throw new Error('HTTP ' + response.status);
-        return response.text();
-      })
-      .then(function (csv) {
-        function parseCSVRow(row) {
-          const cols = [];
-          let cur = '', inQ = false;
-          for (let i = 0; i < row.length; i++) {
-            const c = row[i];
-            if (c === '"') { inQ = !inQ; }
-            else if (c === ',' && !inQ) { cols.push(cur); cur = ''; }
-            else { cur += c; }
-          }
-          cols.push(cur);
-          return cols;
-        }
-
-        // Parse header row to find column indices dynamically
-        const allRows = csv.split("\n");
-        const headerCols = parseCSVRow(allRows[0]);
-        var colMap = {};
-        headerCols.forEach(function (h, i) {
-          colMap[h.replace(/^#\s*/, '').trim().toLowerCase()] = i;
-        });
-        console.log("Colunas encontradas na planilha:", colMap);
-
-        // Helper to find column by partial match
-        function findCol(partials) {
-          for (var p = 0; p < partials.length; p++) {
-            var search = partials[p].toLowerCase();
-            var keys = Object.keys(colMap);
-            for (var k = 0; k < keys.length; k++) {
-              if (keys[k].indexOf(search) > -1) return colMap[keys[k]];
-            }
-          }
-          return -1;
-        }
-
-        var CI = {
-          sexo: findCol(['masculino', 'feminino', 'sexo', 'gender']),
-          brand: findCol(['marca', 'brand']),
-          name: findCol(['nome do tênis', 'name', 'nome']),
-          img: findCol(['url da imagem', 'img', 'imagem', 'url_imagem']),
-          emoji: findCol(['emoji']),
-          tags: findCol(['tag1', 'tags']),
-          price: findCol(['preco_amazon', 'r$ 000', 'price', 'preço', 'preco']),
-          priceOficial: findCol(['preco_oficial', 'preco oficial', 'preço oficial', 'site oficial', 'valor oficial']),
-          parcelas: findCol(['parcelas_oficial', 'parcelas']),
-          budget: findCol(['price_range', 'ate300', 'budget', 'orçamento', 'orcamento']),
-          levels: findCol(['runner_level', 'iniciante|intermediario', 'levels', 'nível', 'nivel']),
-          pisadas: findCol(['pronation', 'neutra|pronada', 'pisadas', 'pisada']),
-          terrenos: findCol(['terrain', 'asfalto|trilha', 'terrenos', 'terreno']),
-          priors: findCol(['feature', 'amortecimento|leveza', 'priors', 'prioridade']),
-          reason: findCol(['reason', 'motivo', 'descrição', 'descricao']),
-          link: findCol(['link_amazon', 'link afiliado amazon', 'amazon']),
-          popular: findCol(['popular', 'best_seller']),
-          linkAwin: findCol(['link_oficial', 'link_awin', 'awin', 'link_loja', 'site_oficial', 'official_link', 'oficial']),
-          linkNetshoes: findCol(['netshoes', 'link_netshoes']),
-          discipline: findCol(['discipline', 'disciplina']),
-        };
-        console.log("Mapeamento de colunas:", CI);
-
-        function gc(cols, key) {
-          var idx = CI[key];
-          if (idx === undefined || idx < 0 || idx >= cols.length) return '';
-          return (cols[idx] || '').replace(/\r/g, '').trim();
-        }
-
-        const rows = allRows.slice(1).filter(function (r) { return r.trim(); });
-
-        SHOES = rows.map(function (row) {
-          const cols = parseCSVRow(row);
-          var linkAmazon = gc(cols, 'link');
-          var linkAwin = gc(cols, 'linkAwin');
-          var linkNetshoes = gc(cols, 'linkNetshoes');
-          var priceAmazon = gc(cols, 'price');       // preco_amazon
-          var priceOficial = gc(cols, 'priceOficial');// preco_oficial (nova col)
-          var parcelas = gc(cols, 'parcelas');    // parcelas_oficial (nova col)
-          var brand = gc(cols, 'brand');
-
-          // Monta offers no novo formato
-          var offers = [];
-          if (linkAmazon && linkAmazon !== '-') {
-            offers.push({
-              store: 'Amazon',
-              price: cleanPrice(priceAmazon),
-              installments: '6x sem juros',
-              link: linkAmazon
-            });
-          }
-          if (linkAwin && linkAwin !== '-') {
-            var storeMap = {
-              'ADIDAS': 'Adidas', 'ASICS': 'ASICS', 'BROOKS': 'Brooks', 'FILA': 'Fila',
-              'HOKA': 'Hoka', 'MIZUNO': 'Mizuno', 'NEW BALANCE': 'New Balance',
-              'NIKE': 'Nike', 'OLYMPIKUS': 'Olympikus', 'PUMA': 'Puma',
-              'SALOMON': 'Salomon', 'SAUCONY': 'Saucony', 'SKECHERS': 'Skechers',
-              'UNDER ARMOUR': 'Under Armour'
-            };
-            var storeName = storeMap[brand.toUpperCase()] || brand;
-            offers.push({
-              store: storeName,
-              price: cleanPrice(priceOficial),
-              installments: parcelas || 'ver condições',
-              link: linkAwin
-            });
-          }
-          // Ordena por preço (menor primeiro, 0 vai por último)
-          offers.sort(function (a, b) {
-            if (!a.price || a.price <= 0) return 1;
-            if (!b.price || b.price <= 0) return -1;
-            return a.price - b.price;
-          });
-
-          return {
-            sexo: sp(gc(cols, 'sexo')),
-            brand: brand,
-            name: gc(cols, 'name'),
-            img: gc(cols, 'img'),
-            images: [gc(cols, 'img')],
-            emoji: gc(cols, 'emoji'),
-            tags: sp(gc(cols, 'tags')),
-            // BUGFIX: Nunca usa o preço da Amazon se há ofertas mas o preço da primeira oferta (ex: oficial) é desconhecido
-            price: offers.length > 0 ? (offers[0].price || 0) : cleanPrice(priceAmazon),
-            _sheetPriceAmazon: cleanPrice(priceAmazon),
-            budget: gc(cols, 'budget'),
-            levels: sp(gc(cols, 'levels')),
-            pisadas: sp(gc(cols, 'pisadas')),
-            terrenos: sp(gc(cols, 'terrenos')),
-            discipline: sp(gc(cols, 'discipline')),
-            priors: sp(gc(cols, 'priors')),
-            reason: gc(cols, 'reason'),
-            link: linkAmazon,
-            popular: gc(cols, 'popular').toLowerCase(),
-            offers: offers,
-            distancias: []
-          };
-        });
-
-        // console.log("Tênis carregados da planilha:", SHOES.length);
-        // if (SHOES.length > 0) console.log("Estrutura do primeiro tênis:", JSON.stringify(SHOES[0], null, 2));
-        window.shoesLoaded = true;
-
-        // ── Enriquece preços com dados scraped da API TenisIdeal ──────────────
-        fetch('https://tenisideal-api.onrender.com/api/products')
-          .then(function (r) { return r.json(); })
-          .then(function (apiProducts) {
-
-            // ITEM 3: normKey — normaliza para casar API ↔ planilha
-            function normKey(brand, name) {
-              return (brand + ' ' + name)
-                .normalize('NFD').replace(/[\u0300-\u036f]/g, '') // remove diacríticos
-                .toLowerCase().replace(/[^a-z0-9 ]/g, '')
-                .replace(/\s+/g, ' ').trim();
-            }
-
-            // Indexa API por normKey
-            var apiIndex = {};
-            apiProducts.forEach(function (p) {
-              apiIndex[normKey(p.brand, p.model)] = p;
-            });
-
-            var enriched = 0;
-            SHOES.forEach(function (sh) {
-              var apiProd = apiIndex[normKey(sh.brand || '', sh.name || '')];
-              if (!apiProd) return;
-
-              // ITEM 2: não sobrescreve sh.price com string — usa campos separados
-              if (apiProd.best_offer && apiProd.best_offer.price > 0) {
-                sh.price_numeric = apiProd.best_offer.price;
-                sh.price_display = 'R$ ' + apiProd.best_offer.price.toLocaleString('pt-BR', { minimumFractionDigits: 2, maximumFractionDigits: 2 });
-              }
-
-              // ITEM 4: garante que sh.offers existe e adiciona/atualiza entradas da API
-              sh.offers = sh.offers || [];
-              if (apiProd.offers && apiProd.offers.length > 0) {
-                apiProd.offers.forEach(function (apiOffer) {
-                  if (!apiOffer.affiliate_link || apiOffer.affiliate_link === '-') return;
-                  // Procura se já existe essa loja em sh.offers
-                  var existing = sh.offers.find(function (o) {
-                    return o.store === apiOffer.store || o.link === apiOffer.affiliate_link;
-                  });
-                  if (existing) {
-                    // Atualiza preço scraped se disponível
-                    if (apiOffer.price > 0) existing.price = apiOffer.price;
-                  } else {
-                    // Adiciona nova entrada da API
-                    sh.offers.push({
-                      store: apiOffer.store,
-                      price: apiOffer.price || 0,
-                      installments: apiOffer.store === 'Amazon' ? '6x sem juros' : 'ver condições',
-                      link: apiOffer.affiliate_link
-                    });
-                  }
-                });
-                // Re-ordena por preço após enrich
-                sh.offers.sort(function (a, b) {
-                  if (!a.price || a.price <= 0) return 1;
-                  if (!b.price || b.price <= 0) return -1;
-                  return a.price - b.price;
-                });
-                enriched++;
-              }
-            });
-
-            // ITEM 5: garante que todo sh tem sh.offers (mesmo vazio) para o renderer
-            SHOES.forEach(function (sh) {
-              if (!sh.offers || !sh.offers.length) {
-                sh.offers = [];
-                if (sh.link && sh.link !== '-') {
-                  sh.offers.push({
-                    store: 'Amazon',
-                    price: parsePrice(sh.price),
-                    installments: '6x sem juros',
-                    link: sh.link
-                  });
-                }
-              }
-            });
-
-            console.log('✅ Preços enriquecidos via API:', enriched, 'tênis atualizados');
-
-            // ITEM 6: Debug — inspeciona estrutura após enriquecimento
-          })
-          .catch(function (e) {
-            console.warn('API de preços indisponível, usando preços da planilha:', e.message);
-          });
-        // ─────────────────────────────────────────────────────────────────────
-      })
-      .catch(function (err) {
-        console.warn("Sheets indisponível, checando fallback local:", err);
-        // Tenta usar o fallback se a variável SHOES local der ruim
-        if (typeof SHOES !== 'undefined' && SHOES.length > 0) {
-          console.log("Fallback imediato: Usando dados locais do shoes_data.js");
+    // Fonte de dados: shoes_data.js (gerado via fetch_shoes.py a partir do Excel local)
+    // NÃO busca do Google Sheets em tempo real — use python3 fetch_shoes.py para atualizar.
+    if (typeof SHOES !== 'undefined' && SHOES.length > 0) {
+      window.shoesLoaded = true;
+    } else {
+      // Fallback: tenta o JSON estático
+      fetch('./shoes-fallback.json')
+        .then(function (r) { return r.json(); })
+        .then(function (data) {
+          SHOES = data;
           window.shoesLoaded = true;
-          return;
-        }
-
-        return fetch('./shoes-fallback.json')
-          .then(function (r) { return r.json(); })
-          .then(function (data) {
-            SHOES = data;
-            window.shoesLoaded = true;
-            console.log("Fallback carregado:", SHOES.length, "tênis");
-          })
-          .catch(function (fallbackErr) {
-            console.error("Fallback também falhou:", fallbackErr);
-            window.shoesLoadError = true;
-          });
-      });
+        })
+        .catch(function () {
+          window.shoesLoadError = true;
+        });
+    }
 
     // Tracking de abandono de resultados
     window.hasClickedAffiliate = false;
