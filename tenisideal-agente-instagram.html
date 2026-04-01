@@ -762,11 +762,7 @@
       <button class="nav-btn" onclick="showScreen('config')"><span class="nav-icon">◎</span> Configurações</button>
 
       <div class="sidebar-footer">
-        <div class="token-status" id="token-status">
-          <div class="dot red" id="status-dot"></div>
-          <span id="status-text">Buffer não conectado</span>
-        </div>
-        <div style="margin-top:8px;font-size:11px;color:var(--muted2)">@tenisideal.com.br</div>
+            <div style="margin-top:8px;font-size:11px;color:var(--muted2)">@tenisideal.com.br</div>
       </div>
     </div>
 
@@ -868,16 +864,16 @@
                 </div>
               </div>
               <div id="preview-actions" style="display:none;margin-top:16px;display:none;flex-direction:column;gap:8px">
-                <button class="btn btn-lime" onclick="schedulePost()" style="width:100%;justify-content:center"
-                  id="btn-schedule">
-                  ◈ Agendar no Buffer
+                <button class="btn btn-lime"  style="width:100%;justify-content:center"
+                  id="btn-schedule" onclick="saveToQueue()">
+                  ◈ Salvar Ideia na Fila
                 </button>
                 <button class="btn btn-outline" onclick="regeneratePost()" style="width:100%;justify-content:center">
                   ↺ Regenerar
                 </button>
                 <div class="loading" id="loading-sched">
                   <div class="spinner"></div>
-                  <span>Agendando no Buffer...</span>
+                  <span>Salvando ideia...</span>
                 </div>
               </div>
             </div>
@@ -936,24 +932,11 @@
           <div class="field">
             <label>Claude API Key (sk-ant-...)</label>
             <input type="password" id="cfg-anthropic-key" placeholder="Cole sua chave da API do Claude aqui">
+            <button class="btn btn-lime" onclick="saveAnthropicKey()" style="margin-top:12px;">Salvar Chave Seguro</button>
           </div>
         </div>
 
-        <div class="card">
-          <div class="card-title">Buffer API</div>
-          <div class="field">
-            <label>Access Token</label>
-            <input type="password" id="cfg-buffer-token" placeholder="Cole seu token aqui">
-          </div>
-          <div class="field">
-            <label>Channel ID do Instagram</label>
-            <input type="text" id="cfg-channel-id" placeholder="Será detectado automaticamente">
-          </div>
-          <button class="btn btn-lime" onclick="saveAndConnect()">Conectar Buffer</button>
-          <div class="loading" id="loading-connect">
-            <div class="spinner"></div><span>Conectando...</span>
-          </div>
-        </div>
+        
 
         <div class="card">
           <div class="card-title">Preferências de Posting</div>
@@ -1003,7 +986,7 @@
     // ══════════════════════════════════════════════
     const STATE = {
       anthropicKey: localStorage.getItem('ti_anthropic_key') || '',
-      bufferToken: localStorage.getItem('ti_buffer_token') || '',
+      
       channelId: localStorage.getItem('ti_channel_id') || '',
       queue: JSON.parse(localStorage.getItem('ti_queue') || '[]'),
       prefs: JSON.parse(localStorage.getItem('ti_prefs') || JSON.stringify({
@@ -1040,11 +1023,8 @@
     // ══════════════════════════════════════════════
     document.addEventListener('DOMContentLoaded', () => {
       if (STATE.anthropicKey) document.getElementById('cfg-anthropic-key').value = STATE.anthropicKey;
-      if (STATE.bufferToken) {
-        document.getElementById('cfg-buffer-token').value = STATE.bufferToken;
-        updateConnectionStatus(true);
-      }
-      if (STATE.channelId) document.getElementById('cfg-channel-id').value = STATE.channelId;
+      
+      
 
       const today = new Date();
       document.getElementById('sched-date').value = today.toISOString().split('T')[0];
@@ -1227,7 +1207,7 @@ Retorne SOMENTE um JSON com: {"caption": "texto SEM hashtags", "hashtags": "#has
         <div class="ig-avatar">TI</div>
         <div>
           <div class="ig-handle">tenisideal.com.br</div>
-          <div class="ig-sub">${post.schedDate} às ${post.schedTime}</div>
+          <div class="ig-sub">Gerado pelo Claude</div>
         </div>
       </div>
       <div class="post-img-placeholder">
@@ -1245,86 +1225,47 @@ Retorne SOMENTE um JSON com: {"caption": "texto SEM hashtags", "hashtags": "#has
     // ══════════════════════════════════════════════
     //  SCHEDULE TO BUFFER
     // ══════════════════════════════════════════════
-    async function schedulePost() {
-      if (!STATE.bufferToken) {
-        toast('Configure o token do Buffer primeiro!', 'error');
-        showScreen('config');
-        return;
-      }
-      if (!STATE.channelId) {
-        toast('Configure o Channel ID do Instagram no Buffer!', 'error');
-        return;
-      }
+    
+// ══════════════════════════════════════════════
+//  SAVE TO LOCAL QUEUE
+// ══════════════════════════════════════════════
+async function saveToQueue() {
+  const caption = document.getElementById('editable-caption')?.innerText || STATE.currentPost.caption;
+  const hashtags = document.getElementById('editable-hashtags')?.innerText || STATE.currentPost.hashtags;
 
-      const caption = document.getElementById('editable-caption')?.innerText || STATE.currentPost.caption;
-      const hashtags = document.getElementById('editable-hashtags')?.innerText || STATE.currentPost.hashtags;
-      const fullText = caption + '\n\n' + hashtags;
+  const schedDate = document.getElementById('sched-date').value;
+  const schedTime = document.getElementById('sched-time').value;
 
-      const schedDate = document.getElementById('sched-date').value;
-      const schedTime = document.getElementById('sched-time').value;
-      const dueAt = new Date(schedDate + 'T' + schedTime + ':00').toISOString();
+  setLoading('sched', true);
+  document.getElementById('btn-schedule').disabled = true;
 
-      setLoading('sched', true);
-      document.getElementById('btn-schedule').disabled = true;
+  setTimeout(() => {
+    const postId = 'local_' + Date.now();
+    const entry = {
+      id: postId,
+      type: STATE.currentType,
+      caption: caption,
+      hashtags: hashtags,
+      shoe: STATE.currentPost.shoe,
+      date: schedDate,
+      time: schedTime,
+      status: 'draft',
+      createdAt: new Date().toISOString()
+    };
+    STATE.queue.unshift(entry);
+    localStorage.setItem('ti_queue', JSON.stringify(STATE.queue));
 
-      try {
-        const formData = new URLSearchParams();
-        formData.append('access_token', STATE.bufferToken);
-        formData.append('text', fullText);
-        formData.append('profile_ids[]', STATE.channelId);
-        formData.append('shorten', 'false');
-        // For scheduled_at, buffer expects unix timestamp or UTC string.
-        // Se for immediate mode, ignore, but we use scheduled_at
-        formData.append('scheduled_at', dueAt);
+    toast('✓ Post salvo na fila de ideias!', 'success');
+    renderQueue();
 
-        // Anexando foto para evitar rejeição do Instagram (IG exige media obrigatoriamente)
-        formData.append('media[photo]', 'https://tenisideal.com.br/imgs/og-image.jpg');
+    document.getElementById('preview-area').innerHTML = `<div style="text-align:center;padding:40px 0;color:var(--muted);font-size:13px">Ideia salva! Gere a próxima.</div>`;
+    document.getElementById('preview-actions').style.display = 'none';
+    setLoading('sched', false);
+    document.getElementById('btn-schedule').disabled = false;
+  }, 500);
+}
 
-        const res = await fetch('https://api.bufferapp.com/1/updates/create.json', {
-          method: 'POST',
-          body: formData
-        });
-
-        const data = await res.json();
-
-        if (data.success) {
-          const postId = data.updates && data.updates[0] ? data.updates[0].id : ('local_' + Date.now());
-          // Save to local queue
-          const entry = {
-            id: postId,
-            type: STATE.currentType,
-            caption: caption,
-            hashtags: hashtags,
-            shoe: STATE.currentPost.shoe,
-            date: schedDate,
-            time: schedTime,
-            status: 'scheduled',
-            createdAt: new Date().toISOString()
-          };
-          STATE.queue.unshift(entry);
-          localStorage.setItem('ti_queue', JSON.stringify(STATE.queue));
-
-          toast('✓ Post agendado com sucesso no Buffer!', 'success');
-          renderQueue();
-
-          // Reset preview
-          document.getElementById('preview-area').innerHTML = `<div style="text-align:center;padding:40px 0;color:var(--muted);font-size:13px">Post agendado! Gere o próximo.</div>`;
-          document.getElementById('preview-actions').style.display = 'none';
-
-        } else {
-          const errMsg = result?.message || JSON.stringify(data?.errors || 'Erro desconhecido');
-          throw new Error(errMsg);
-        }
-
-      } catch (e) {
-        toast('Erro ao agendar: ' + e.message, 'error');
-      } finally {
-        setLoading('sched', false);
-        document.getElementById('btn-schedule').disabled = false;
-      }
-    }
-
-    // ══════════════════════════════════════════════
+// ══════════════════════════════════════════════
     //  QUEUE
     // ══════════════════════════════════════════════
     function renderQueue() {
@@ -1418,58 +1359,19 @@ Retorne SOMENTE um JSON com: {"caption": "texto SEM hashtags", "hashtags": "#has
     // ══════════════════════════════════════════════
     //  SETTINGS
     // ══════════════════════════════════════════════
-    async function saveAndConnect() {
-      const anthropicKey = document.getElementById('cfg-anthropic-key').value.trim();
-      if (anthropicKey) {
-        STATE.anthropicKey = anthropicKey;
-        localStorage.setItem('ti_anthropic_key', anthropicKey);
-      }
+    
+async function saveAnthropicKey() {
+  const anthropicKey = document.getElementById('cfg-anthropic-key').value.trim();
+  if (anthropicKey) {
+    STATE.anthropicKey = anthropicKey;
+    localStorage.setItem('ti_anthropic_key', anthropicKey);
+    toast('✓ Chave da IA salva com sucesso!', 'success');
+  } else {
+    toast('Cole a chave da API do Claude!', 'error');
+  }
+}
 
-      const token = document.getElementById('cfg-buffer-token').value.trim();
-      const channelId = document.getElementById('cfg-channel-id').value.trim();
-
-      if (!token) { toast('Cole o token do Buffer!', 'error'); return; }
-
-      setLoading('connect', true);
-
-      try {
-        // Busca os profiles usando a API REST v1 para evitar problemas com os novos schemas GraphQL
-        const res = await fetch('https://api.bufferapp.com/1/profiles.json?access_token=' + encodeURIComponent(token));
-        const data = await res.json();
-
-        if (data.error) throw new Error(data.error);
-
-        const channels = Array.isArray(data) ? data : [];
-
-        STATE.bufferToken = token;
-        localStorage.setItem('ti_buffer_token', token);
-
-        // Auto-detect Instagram channel
-        const igChannel = channels.find(c => c.service === 'instagram');
-        if (igChannel && !channelId) {
-          STATE.channelId = igChannel.id;
-          document.getElementById('cfg-channel-id').value = igChannel.id;
-          localStorage.setItem('ti_channel_id', igChannel.id);
-          toast(`✓ Conectado! Instagram detectado: ${igChannel.name}`, 'success');
-        } else if (channelId) {
-          STATE.channelId = channelId;
-          localStorage.setItem('ti_channel_id', channelId);
-          toast('✓ Buffer conectado com sucesso!', 'success');
-        } else {
-          toast('✓ Token válido, mas nenhum Instagram encontrado. Conecte sua conta no Buffer.', 'error');
-        }
-
-        updateConnectionStatus(true);
-
-      } catch (e) {
-        toast('Erro ao conectar: ' + e.message, 'error');
-        updateConnectionStatus(false);
-      } finally {
-        setLoading('connect', false);
-      }
-    }
-
-    function savePrefs() {
+function savePrefs() {
       STATE.prefs.defaultTime = document.getElementById('cfg-default-time').value;
       STATE.prefs.hashtags = document.getElementById('toggle-hashtags').classList.contains('on');
       STATE.prefs.rotation = document.getElementById('toggle-rotation').classList.contains('on');
