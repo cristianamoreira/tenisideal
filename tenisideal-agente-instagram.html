@@ -1146,7 +1146,7 @@ Retorne SOMENTE um JSON com: {"caption": "texto SEM hashtags", "hashtags": "#has
       }
 
       try {
-        const proxyUrl = 'https://tenisideal.com.br/.netlify/functions/anthropic';
+        const proxyUrl = '/.netlify/functions/anthropic';
         const response = await fetch(proxyUrl, {
           method: 'POST',
           headers: {
