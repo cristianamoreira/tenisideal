@@ -762,7 +762,7 @@
       <button class="nav-btn" onclick="showScreen('config')"><span class="nav-icon">◎</span> Configurações</button>
 
       <div class="sidebar-footer">
-            <div style="margin-top:8px;font-size:11px;color:var(--muted2)">@tenisideal.com.br</div>
+        <div style="margin-top:8px;font-size:11px;color:var(--muted2)">@tenisideal.com.br</div>
       </div>
     </div>
 
@@ -864,8 +864,8 @@
                 </div>
               </div>
               <div id="preview-actions" style="display:none;margin-top:16px;display:none;flex-direction:column;gap:8px">
-                <button class="btn btn-lime"  style="width:100%;justify-content:center"
-                  id="btn-schedule" onclick="saveToQueue()">
+                <button class="btn btn-lime" style="width:100%;justify-content:center" id="btn-schedule"
+                  onclick="saveToQueue()">
                   ◈ Salvar Ideia na Fila
                 </button>
                 <button class="btn btn-outline" onclick="regeneratePost()" style="width:100%;justify-content:center">
@@ -932,11 +932,12 @@
           <div class="field">
             <label>Claude API Key (sk-ant-...)</label>
             <input type="password" id="cfg-anthropic-key" placeholder="Cole sua chave da API do Claude aqui">
-            <button class="btn btn-lime" onclick="saveAnthropicKey()" style="margin-top:12px;">Salvar Chave Seguro</button>
+            <button class="btn btn-lime" onclick="saveAnthropicKey()" style="margin-top:12px;">Salvar Chave
+              Seguro</button>
           </div>
         </div>
 
-        
+
 
         <div class="card">
           <div class="card-title">Preferências de Posting</div>
@@ -986,7 +987,7 @@
     // ══════════════════════════════════════════════
     const STATE = {
       anthropicKey: localStorage.getItem('ti_anthropic_key') || '',
-      
+
       channelId: localStorage.getItem('ti_channel_id') || '',
       queue: JSON.parse(localStorage.getItem('ti_queue') || '[]'),
       prefs: JSON.parse(localStorage.getItem('ti_prefs') || JSON.stringify({
@@ -1023,8 +1024,8 @@
     // ══════════════════════════════════════════════
     document.addEventListener('DOMContentLoaded', () => {
       if (STATE.anthropicKey) document.getElementById('cfg-anthropic-key').value = STATE.anthropicKey;
-      
-      
+
+
 
       const today = new Date();
       document.getElementById('sched-date').value = today.toISOString().split('T')[0];
@@ -1145,7 +1146,7 @@ Retorne SOMENTE um JSON com: {"caption": "texto SEM hashtags", "hashtags": "#has
       }
 
       try {
-        const proxyUrl = 'https://corsproxy.io/?url=' + encodeURIComponent('https://api.anthropic.com/v1/messages');
+        const proxyUrl = 'https://tenisideal.com.br/.netlify/functions/anthropic';
         const response = await fetch(proxyUrl, {
           method: 'POST',
           headers: {
@@ -1225,47 +1226,47 @@ Retorne SOMENTE um JSON com: {"caption": "texto SEM hashtags", "hashtags": "#has
     // ══════════════════════════════════════════════
     //  SCHEDULE TO BUFFER
     // ══════════════════════════════════════════════
-    
-// ══════════════════════════════════════════════
-//  SAVE TO LOCAL QUEUE
-// ══════════════════════════════════════════════
-async function saveToQueue() {
-  const caption = document.getElementById('editable-caption')?.innerText || STATE.currentPost.caption;
-  const hashtags = document.getElementById('editable-hashtags')?.innerText || STATE.currentPost.hashtags;
 
-  const schedDate = document.getElementById('sched-date').value;
-  const schedTime = document.getElementById('sched-time').value;
+    // ══════════════════════════════════════════════
+    //  SAVE TO LOCAL QUEUE
+    // ══════════════════════════════════════════════
+    async function saveToQueue() {
+      const caption = document.getElementById('editable-caption')?.innerText || STATE.currentPost.caption;
+      const hashtags = document.getElementById('editable-hashtags')?.innerText || STATE.currentPost.hashtags;
 
-  setLoading('sched', true);
-  document.getElementById('btn-schedule').disabled = true;
+      const schedDate = document.getElementById('sched-date').value;
+      const schedTime = document.getElementById('sched-time').value;
 
-  setTimeout(() => {
-    const postId = 'local_' + Date.now();
-    const entry = {
-      id: postId,
-      type: STATE.currentType,
-      caption: caption,
-      hashtags: hashtags,
-      shoe: STATE.currentPost.shoe,
-      date: schedDate,
-      time: schedTime,
-      status: 'draft',
-      createdAt: new Date().toISOString()
-    };
-    STATE.queue.unshift(entry);
-    localStorage.setItem('ti_queue', JSON.stringify(STATE.queue));
+      setLoading('sched', true);
+      document.getElementById('btn-schedule').disabled = true;
 
-    toast('✓ Post salvo na fila de ideias!', 'success');
-    renderQueue();
+      setTimeout(() => {
+        const postId = 'local_' + Date.now();
+        const entry = {
+          id: postId,
+          type: STATE.currentType,
+          caption: caption,
+          hashtags: hashtags,
+          shoe: STATE.currentPost.shoe,
+          date: schedDate,
+          time: schedTime,
+          status: 'draft',
+          createdAt: new Date().toISOString()
+        };
+        STATE.queue.unshift(entry);
+        localStorage.setItem('ti_queue', JSON.stringify(STATE.queue));
 
-    document.getElementById('preview-area').innerHTML = `<div style="text-align:center;padding:40px 0;color:var(--muted);font-size:13px">Ideia salva! Gere a próxima.</div>`;
-    document.getElementById('preview-actions').style.display = 'none';
-    setLoading('sched', false);
-    document.getElementById('btn-schedule').disabled = false;
-  }, 500);
-}
+        toast('✓ Post salvo na fila de ideias!', 'success');
+        renderQueue();
 
-// ══════════════════════════════════════════════
+        document.getElementById('preview-area').innerHTML = `<div style="text-align:center;padding:40px 0;color:var(--muted);font-size:13px">Ideia salva! Gere a próxima.</div>`;
+        document.getElementById('preview-actions').style.display = 'none';
+        setLoading('sched', false);
+        document.getElementById('btn-schedule').disabled = false;
+      }, 500);
+    }
+
+    // ══════════════════════════════════════════════
     //  QUEUE
     // ══════════════════════════════════════════════
     function renderQueue() {
@@ -1359,19 +1360,19 @@ async function saveToQueue() {
     // ══════════════════════════════════════════════
     //  SETTINGS
     // ══════════════════════════════════════════════
-    
-async function saveAnthropicKey() {
-  const anthropicKey = document.getElementById('cfg-anthropic-key').value.trim();
-  if (anthropicKey) {
-    STATE.anthropicKey = anthropicKey;
-    localStorage.setItem('ti_anthropic_key', anthropicKey);
-    toast('✓ Chave da IA salva com sucesso!', 'success');
-  } else {
-    toast('Cole a chave da API do Claude!', 'error');
-  }
-}
 
-function savePrefs() {
+    async function saveAnthropicKey() {
+      const anthropicKey = document.getElementById('cfg-anthropic-key').value.trim();
+      if (anthropicKey) {
+        STATE.anthropicKey = anthropicKey;
+        localStorage.setItem('ti_anthropic_key', anthropicKey);
+        toast('✓ Chave da IA salva com sucesso!', 'success');
+      } else {
+        toast('Cole a chave da API do Claude!', 'error');
+      }
+    }
+
+    function savePrefs() {
       STATE.prefs.defaultTime = document.getElementById('cfg-default-time').value;
       STATE.prefs.hashtags = document.getElementById('toggle-hashtags').classList.contains('on');
       STATE.prefs.rotation = document.getElementById('toggle-rotation').classList.contains('on');
