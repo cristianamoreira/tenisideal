@@ -3,7 +3,7 @@ import sys
 import re
 import pandas as pd
 
-FILE_PATH = "tenisideal-catalogo atualizada.xlsx"
+FILE_PATH = "tenisideal-catalogo_atualizada.xlsx"
 
 def parse_list(val):
     if not val or pd.isna(val) or val == "":
@@ -94,10 +94,12 @@ def main():
         link_amazon = get_val("link_amazon", "amazon")
         link_oficial = get_val("link_oficial", "oficial")
         link_netshoes = get_val("link_netshoes", "netshoes")
+        link_nike = get_val("link_nike", "nike")
         
         price_amazon = extract_numeric_price(get_val("preco_amazon", "price_amazon"))
         price_oficial = extract_numeric_price(get_val("preco_oficial", "price_oficial"))
         price_netshoes = extract_numeric_price(get_val("preco_netshoes", "price_netshoes"))
+        price_nike = extract_numeric_price(get_val("preco_nike", "price_nike"))
 
         if link_amazon and link_amazon != "" and link_amazon != "-": 
             affiliate_links["amazon"] = {"url": link_amazon, "price": price_amazon}
@@ -105,6 +107,8 @@ def main():
             affiliate_links["oficial"] = {"url": link_oficial, "price": price_oficial}
         if link_netshoes and link_netshoes != "" and link_netshoes != "-": 
             affiliate_links["netshoes"] = {"url": link_netshoes, "price": price_netshoes}
+        if link_nike and link_nike != "" and link_nike != "-": 
+            affiliate_links["nike"] = {"url": link_nike, "price": price_nike}
 
         # Determinamos o melhor preço principal a partir das ofertas encontradas
         best_price = 0.0

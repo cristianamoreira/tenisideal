@@ -3002,7 +3002,7 @@
               var offer = links[key];
               var url = (typeof offer === 'string') ? offer : (offer ? offer.url : null);
               var price = (typeof offer === 'object' && offer && offer.price) ? offer.price : null;
-              var labelMap = { amazon: 'Amazon', oficial: ('Loja ' + (sh.brand || 'Oficial')), netshoes: 'Netshoes' };
+              var labelMap = { amazon: 'Amazon', oficial: ('Loja ' + (sh.brand || 'Oficial')), netshoes: 'Netshoes', nike: 'Nike' };
               if (url && url !== '-' && url.trim() !== '') {
                 // BUGFIX: Não usa sh.price (Amazon) como fallback para loja oficial se o preço for nulo
                 var finalPrice = cleanPrice(price);

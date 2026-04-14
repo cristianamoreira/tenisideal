@@ -1,4 +1,4 @@
-// Gerado automaticamente via fetch_shoes.py - 2026-03-21 00:31 UTC
+// Gerado automaticamente via fetch_shoes.py
 var SHOES = [
   {
     "brand": "ADIDAS",
@@ -256,9 +256,17 @@ var SHOES = [
     "budget": "acima1000",
     "drop": "",
     "weight": "",
-    "levels": [],
-    "terrenos": [],
-    "pisadas": [],
+    "levels": [
+      "intermediario",
+      "avancado"
+    ],
+    "terrenos": [
+      "trilha",
+      "mista"
+    ],
+    "pisadas": [
+      "neutra"
+    ],
     "priors": [],
     "technologies": [],
     "affiliate_links": {
@@ -280,8 +288,8 @@ var SHOES = [
     ],
     "emoji": "👟",
     "tags": [],
-    "description": "",
-    "reason": "",
+    "description": "Solado Traxion agressivo para trilha. Amortecimento React para longas distâncias fora do asfalto.",
+    "reason": "Solado Traxion agressivo para trilha. Amortecimento React para longas distâncias fora do asfalto.",
     "pros": [],
     "cons": []
   },
@@ -543,8 +551,8 @@ var SHOES = [
       "masculino"
     ],
     "discipline": [],
-    "price": 1.54,
-    "price_formatted": "R$ 1,54",
+    "price": 1540.0,
+    "price_formatted": "R$ 1.540,00",
     "budget": "acima1000",
     "drop": "",
     "weight": "",
@@ -569,7 +577,7 @@ var SHOES = [
     "affiliate_links": {
       "amazon": {
         "url": "https://amzn.to/4b8n1uk",
-        "price": 1.54
+        "price": 1540.0
       }
     },
     "rating": "",
@@ -600,8 +608,8 @@ var SHOES = [
       "masculino"
     ],
     "discipline": [],
-    "price": 1.174,
-    "price_formatted": "R$ 1,17",
+    "price": 1174.0,
+    "price_formatted": "R$ 1.174,00",
     "budget": "acima1000",
     "drop": "",
     "weight": "",
@@ -626,7 +634,7 @@ var SHOES = [
     "affiliate_links": {
       "amazon": {
         "url": "https://amzn.to/3OFw26D",
-        "price": 1.174
+        "price": 1174.0
       }
     },
     "rating": "",
@@ -657,8 +665,8 @@ var SHOES = [
       "masculino"
     ],
     "discipline": [],
-    "price": 1.3,
-    "price_formatted": "R$ 1,30",
+    "price": 1300.0,
+    "price_formatted": "R$ 1.300,00",
     "budget": "acima1000",
     "drop": "",
     "weight": "",
@@ -682,7 +690,7 @@ var SHOES = [
     "affiliate_links": {
       "amazon": {
         "url": "https://amzn.to/3OP4Dzd",
-        "price": 1.3
+        "price": 1300.0
       }
     },
     "rating": "",
@@ -769,8 +777,8 @@ var SHOES = [
       "masculino"
     ],
     "discipline": [],
-    "price": 1.398,
-    "price_formatted": "R$ 1,40",
+    "price": 1398.0,
+    "price_formatted": "R$ 1.398,00",
     "budget": "acima1000",
     "drop": "",
     "weight": "",
@@ -795,7 +803,7 @@ var SHOES = [
     "affiliate_links": {
       "amazon": {
         "url": "https://amzn.to/3NhE4Cb",
-        "price": 1.398
+        "price": 1398.0
       }
     },
     "rating": "",
@@ -1230,8 +1238,8 @@ var SHOES = [
       "masculino"
     ],
     "discipline": [],
-    "price": 1.315,
-    "price_formatted": "R$ 1,31",
+    "price": 1315.0,
+    "price_formatted": "R$ 1.315,00",
     "budget": "acima1000",
     "drop": "",
     "weight": "",
@@ -1257,7 +1265,7 @@ var SHOES = [
     "affiliate_links": {
       "amazon": {
         "url": "https://amzn.to/4aYytsk",
-        "price": 1.315
+        "price": 1315.0
       }
     },
     "rating": "",
@@ -1568,8 +1576,8 @@ var SHOES = [
       "masculino"
     ],
     "discipline": [],
-    "price": 1.249,
-    "price_formatted": "R$ 1,25",
+    "price": 1249.0,
+    "price_formatted": "R$ 1.249,00",
     "budget": "acima1000",
     "drop": "",
     "weight": "",
@@ -1595,7 +1603,7 @@ var SHOES = [
     "affiliate_links": {
       "amazon": {
         "url": "https://amzn.to/409HQk0",
-        "price": 1.249
+        "price": 1249.0
       }
     },
     "rating": "",
@@ -1626,8 +1634,8 @@ var SHOES = [
       "masculino"
     ],
     "discipline": [],
-    "price": 1.781,
-    "price_formatted": "R$ 1,78",
+    "price": 1781.0,
+    "price_formatted": "R$ 1.781,00",
     "budget": "acima1000",
     "drop": "",
     "weight": "",
@@ -1653,7 +1661,7 @@ var SHOES = [
     "affiliate_links": {
       "amazon": {
         "url": "https://amzn.to/4stApQS",
-        "price": 1.781
+        "price": 1781.0
       }
     },
     "rating": "",
@@ -1684,8 +1692,8 @@ var SHOES = [
       "masculino"
     ],
     "discipline": [],
-    "price": 1.12,
-    "price_formatted": "R$ 1,12",
+    "price": 1120.0,
+    "price_formatted": "R$ 1.120,00",
     "budget": "acima1000",
     "drop": "",
     "weight": "",
@@ -1711,7 +1719,7 @@ var SHOES = [
     "affiliate_links": {
       "amazon": {
         "url": "https://amzn.to/4u9y3YW",
-        "price": 1.12
+        "price": 1120.0
       }
     },
     "rating": "",
@@ -1742,8 +1750,8 @@ var SHOES = [
       "masculino"
     ],
     "discipline": [],
-    "price": 1.299,
-    "price_formatted": "R$ 1,30",
+    "price": 1299.0,
+    "price_formatted": "R$ 1.299,00",
     "budget": "acima1000",
     "drop": "",
     "weight": "",
@@ -1769,7 +1777,7 @@ var SHOES = [
     "affiliate_links": {
       "amazon": {
         "url": "https://amzn.to/4ssofHW",
-        "price": 1.299
+        "price": 1299.0
       }
     },
     "rating": "",
@@ -1800,8 +1808,8 @@ var SHOES = [
       "masculino"
     ],
     "discipline": [],
-    "price": 1.233,
-    "price_formatted": "R$ 1,23",
+    "price": 1233.0,
+    "price_formatted": "R$ 1.233,00",
     "budget": "acima1000",
     "drop": "",
     "weight": "",
@@ -1825,7 +1833,7 @@ var SHOES = [
     "affiliate_links": {
       "amazon": {
         "url": "https://amzn.to/3Pe4Age",
-        "price": 1.233
+        "price": 1233.0
       }
     },
     "rating": "",
@@ -2217,8 +2225,8 @@ var SHOES = [
       "masculino"
     ],
     "discipline": [],
-    "price": 1.037,
-    "price_formatted": "R$ 1,04",
+    "price": 1037.0,
+    "price_formatted": "R$ 1.037,00",
     "budget": "acima1000",
     "drop": "",
     "weight": "",
@@ -2243,7 +2251,7 @@ var SHOES = [
     "affiliate_links": {
       "amazon": {
         "url": "https://amzn.to/47lOeZa",
-        "price": 1.037
+        "price": 1037.0
       }
     },
     "rating": "",
@@ -2274,8 +2282,8 @@ var SHOES = [
       "masculino"
     ],
     "discipline": [],
-    "price": 1.935,
-    "price_formatted": "R$ 1,94",
+    "price": 1935.0,
+    "price_formatted": "R$ 1.935,00",
     "budget": "acima1000",
     "drop": "",
     "weight": "",
@@ -2298,7 +2306,7 @@ var SHOES = [
     "affiliate_links": {
       "amazon": {
         "url": "https://amzn.to/4rcfUHd",
-        "price": 1.935
+        "price": 1935.0
       }
     },
     "rating": "",
@@ -2329,8 +2337,8 @@ var SHOES = [
       "masculino"
     ],
     "discipline": [],
-    "price": 1.037,
-    "price_formatted": "R$ 1,04",
+    "price": 1037.0,
+    "price_formatted": "R$ 1.037,00",
     "budget": "acima1000",
     "drop": "",
     "weight": "",
@@ -2355,7 +2363,7 @@ var SHOES = [
     "affiliate_links": {
       "amazon": {
         "url": "https://amzn.to/4aYFkly",
-        "price": 1.037
+        "price": 1037.0
       }
     },
     "rating": "",
@@ -2568,8 +2576,8 @@ var SHOES = [
       "masculino"
     ],
     "discipline": [],
-    "price": 1.396,
-    "price_formatted": "R$ 1,40",
+    "price": 1396.0,
+    "price_formatted": "R$ 1.396,00",
     "budget": "acima1000",
     "drop": "",
     "weight": "",
@@ -2595,7 +2603,7 @@ var SHOES = [
     "affiliate_links": {
       "amazon": {
         "url": "https://amzn.to/4cYE30i",
-        "price": 1.396
+        "price": 1396.0
       }
     },
     "rating": "",
@@ -2626,8 +2634,8 @@ var SHOES = [
       "unissex"
     ],
     "discipline": [],
-    "price": 1.284,
-    "price_formatted": "R$ 1,28",
+    "price": 1284.0,
+    "price_formatted": "R$ 1.284,00",
     "budget": "acima1000",
     "drop": "",
     "weight": "",
@@ -2653,7 +2661,7 @@ var SHOES = [
     "affiliate_links": {
       "amazon": {
         "url": "https://amzn.to/3MHgLl9",
-        "price": 1.284
+        "price": 1284.0
       }
     },
     "rating": "",
@@ -2684,8 +2692,8 @@ var SHOES = [
       "masculino"
     ],
     "discipline": [],
-    "price": 1.22,
-    "price_formatted": "R$ 1,22",
+    "price": 1220.0,
+    "price_formatted": "R$ 1.220,00",
     "budget": "acima1000",
     "drop": "",
     "weight": "",
@@ -2710,7 +2718,7 @@ var SHOES = [
     "affiliate_links": {
       "amazon": {
         "url": "https://amzn.to/46AElXp",
-        "price": 1.22
+        "price": 1220.0
       }
     },
     "rating": "",
@@ -2747,9 +2755,18 @@ var SHOES = [
     "budget": "acima1000",
     "drop": "",
     "weight": "",
-    "levels": [],
-    "terrenos": [],
-    "pisadas": [],
+    "levels": [
+      "intermediario",
+      "avancado"
+    ],
+    "terrenos": [
+      "asfalto",
+      "esteira",
+      "mista"
+    ],
+    "pisadas": [
+      "neutra"
+    ],
     "priors": [],
     "technologies": [],
     "affiliate_links": {
@@ -2771,8 +2788,8 @@ var SHOES = [
     ],
     "emoji": "👟",
     "tags": [],
-    "description": "",
-    "reason": "",
+    "description": "Máximo amortecimento Nike com espuma ZoomX. Para corredores que buscam leveza e proteção nas longas.",
+    "reason": "Máximo amortecimento Nike com espuma ZoomX. Para corredores que buscam leveza e proteção nas longas.",
     "pros": [],
     "cons": []
   },
@@ -2792,9 +2809,18 @@ var SHOES = [
     "budget": "acima1000",
     "drop": "",
     "weight": "",
-    "levels": [],
-    "terrenos": [],
-    "pisadas": [],
+    "levels": [
+      "intermediario",
+      "avancado"
+    ],
+    "terrenos": [
+      "asfalto",
+      "esteira",
+      "mista"
+    ],
+    "pisadas": [
+      "neutra"
+    ],
     "priors": [],
     "technologies": [],
     "affiliate_links": {
@@ -2816,8 +2842,8 @@ var SHOES = [
     ],
     "emoji": "👟",
     "tags": [],
-    "description": "",
-    "reason": "",
+    "description": "Máximo amortecimento Nike com espuma ZoomX. Para corredores que buscam leveza e proteção nas longas.",
+    "reason": "Máximo amortecimento Nike com espuma ZoomX. Para corredores que buscam leveza e proteção nas longas.",
     "pros": [],
     "cons": []
   },
@@ -2832,8 +2858,8 @@ var SHOES = [
       "masculino"
     ],
     "discipline": [],
-    "price": 2.171,
-    "price_formatted": "R$ 2,17",
+    "price": 2171.0,
+    "price_formatted": "R$ 2.171,00",
     "budget": "acima1000",
     "drop": "",
     "weight": "",
@@ -2853,7 +2879,7 @@ var SHOES = [
     "affiliate_links": {
       "amazon": {
         "url": "https://amzn.to/47nlgrQ",
-        "price": 2.171
+        "price": 2171.0
       }
     },
     "rating": "",
@@ -2870,6 +2896,1091 @@ var SHOES = [
     ],
     "description": "Primeiro carbon plate trail da Nike. ZoomX + placa de carbono para voar nas trilhas mais exigentes.",
     "reason": "Primeiro carbon plate trail da Nike. ZoomX + placa de carbono para voar nas trilhas mais exigentes.",
+    "pros": [],
+    "cons": []
+  },
+  {
+    "brand": "NIKE",
+    "model": "",
+    "version": "",
+    "name": "Downshifter 13",
+    "slug": "nike-downshifter-13",
+    "category": "",
+    "sexo": [
+      "masculino"
+    ],
+    "discipline": [],
+    "price": 427.49,
+    "price_formatted": "R$ 427,49",
+    "budget": "300a600",
+    "drop": "",
+    "weight": "",
+    "levels": [
+      "iniciante",
+      "intermediario"
+    ],
+    "terrenos": [
+      "asfalto",
+      "esteira",
+      "mista"
+    ],
+    "pisadas": [
+      "neutra",
+      "naosabe"
+    ],
+    "priors": [],
+    "technologies": [],
+    "affiliate_links": {
+      "amazon": {
+        "url": "https://amzn.to/3PGBkzj",
+        "price": 0.0
+      },
+      "oficial": {
+        "url": "https://tidd.ly/4vag1pL",
+        "price": 427.49
+      }
+    },
+    "rating": "",
+    "reviews_count": "",
+    "release_year": "",
+    "is_best_seller": false,
+    "images": [
+      "https://m.media-amazon.com/images/I/71o5tMvjF0L._AC_SY500_.jpg"
+    ],
+    "emoji": "👟",
+    "tags": [
+      "Melhor Nike barato"
+    ],
+    "description": "Tênis acessível e versátil da Nike. Ótimo para iniciantes que querem um calçado confiável para o dia a dia.",
+    "reason": "Tênis acessível e versátil da Nike. Ótimo para iniciantes que querem um calçado confiável para o dia a dia.",
+    "pros": [],
+    "cons": []
+  },
+  {
+    "brand": "NIKE",
+    "model": "",
+    "version": "",
+    "name": "Downshifter 13",
+    "slug": "nike-downshifter-13",
+    "category": "",
+    "sexo": [
+      "Feminino"
+    ],
+    "discipline": [],
+    "price": 360.99,
+    "price_formatted": "R$ 360,99",
+    "budget": "300a600",
+    "drop": "",
+    "weight": "",
+    "levels": [
+      "iniciante",
+      "intermediario"
+    ],
+    "terrenos": [
+      "asfalto",
+      "esteira",
+      "mista"
+    ],
+    "pisadas": [
+      "neutra",
+      "naosabe"
+    ],
+    "priors": [],
+    "technologies": [],
+    "affiliate_links": {
+      "amazon": {
+        "url": "https://amzn.to/3PQYhzJ",
+        "price": 398.9
+      },
+      "oficial": {
+        "url": "https://tidd.ly/4sUwTj1",
+        "price": 360.99
+      }
+    },
+    "rating": "",
+    "reviews_count": "",
+    "release_year": "",
+    "is_best_seller": false,
+    "images": [
+      "https://m.media-amazon.com/images/I/710jZp-z7sL._AC_SY500_.jpg"
+    ],
+    "emoji": "👟",
+    "tags": [],
+    "description": "Tênis acessível e versátil da Nike. Ótimo para iniciantes que querem um calçado confiável para o dia a dia.",
+    "reason": "Tênis acessível e versátil da Nike. Ótimo para iniciantes que querem um calçado confiável para o dia a dia.",
+    "pros": [],
+    "cons": []
+  },
+  {
+    "brand": "NIKE",
+    "model": "",
+    "version": "",
+    "name": "Revolution 8",
+    "slug": "nike-revolution-8",
+    "category": "",
+    "sexo": [
+      "Feminino"
+    ],
+    "discipline": [],
+    "price": 303.99,
+    "price_formatted": "R$ 303,99",
+    "budget": "300a600",
+    "drop": "",
+    "weight": "",
+    "levels": [
+      "iniciante"
+    ],
+    "terrenos": [
+      "asfalto",
+      "esteira",
+      "mista"
+    ],
+    "pisadas": [
+      "neutra",
+      "naosabe"
+    ],
+    "priors": [],
+    "technologies": [],
+    "affiliate_links": {
+      "amazon": {
+        "url": "https://amzn.to/3Q2FZeO",
+        "price": 398.9
+      },
+      "oficial": {
+        "url": "https://tidd.ly/4sUwTj1",
+        "price": 303.99
+      }
+    },
+    "rating": "",
+    "reviews_count": "",
+    "release_year": "",
+    "is_best_seller": false,
+    "images": [
+      "https://m.media-amazon.com/images/I/61978oDJ-iL._AC_SY625_.jpg"
+    ],
+    "emoji": "👟",
+    "tags": [],
+    "description": "Entrada ideal no universo Nike. Leve, respirável e com bom amortecimento para treinos regulares.",
+    "reason": "Entrada ideal no universo Nike. Leve, respirável e com bom amortecimento para treinos regulares.",
+    "pros": [],
+    "cons": []
+  },
+  {
+    "brand": "NIKE",
+    "model": "",
+    "version": "",
+    "name": "Revolution 8",
+    "slug": "nike-revolution-8",
+    "category": "",
+    "sexo": [
+      "masculino"
+    ],
+    "discipline": [],
+    "price": 303.99,
+    "price_formatted": "R$ 303,99",
+    "budget": "300a600",
+    "drop": "",
+    "weight": "",
+    "levels": [
+      "iniciante"
+    ],
+    "terrenos": [
+      "asfalto",
+      "esteira",
+      "mista"
+    ],
+    "pisadas": [
+      "neutra",
+      "naosabe"
+    ],
+    "priors": [],
+    "technologies": [],
+    "affiliate_links": {
+      "amazon": {
+        "url": "https://amzn.to/481HjFd",
+        "price": 398.9
+      },
+      "oficial": {
+        "url": "https://tidd.ly/4tw1HXi",
+        "price": 303.99
+      }
+    },
+    "rating": "",
+    "reviews_count": "",
+    "release_year": "",
+    "is_best_seller": false,
+    "images": [
+      "https://m.media-amazon.com/images/I/61+4HuCd9yL._AC_SY625_.jpg"
+    ],
+    "emoji": "👟",
+    "tags": [],
+    "description": "Entrada ideal no universo Nike. Leve, respirável e com bom amortecimento para treinos regulares.",
+    "reason": "Entrada ideal no universo Nike. Leve, respirável e com bom amortecimento para treinos regulares.",
+    "pros": [],
+    "cons": []
+  },
+  {
+    "brand": "NIKE",
+    "model": "",
+    "version": "",
+    "name": "Winflo 11",
+    "slug": "nike-winflo-11",
+    "category": "",
+    "sexo": [
+      "masculino"
+    ],
+    "discipline": [],
+    "price": 489.99,
+    "price_formatted": "R$ 489,99",
+    "budget": "300a600",
+    "drop": "",
+    "weight": "",
+    "levels": [
+      "iniciante",
+      "intermediario"
+    ],
+    "terrenos": [
+      "asfalto",
+      "esteira",
+      "mista"
+    ],
+    "pisadas": [
+      "neutra",
+      "naosabe"
+    ],
+    "priors": [],
+    "technologies": [],
+    "affiliate_links": {
+      "amazon": {
+        "url": "https://amzn.to/41aiuD9",
+        "price": 766.84
+      },
+      "oficial": {
+        "url": "https://tidd.ly/48c9bpY",
+        "price": 489.99
+      }
+    },
+    "rating": "",
+    "reviews_count": "",
+    "release_year": "",
+    "is_best_seller": false,
+    "images": [
+      "https://m.media-amazon.com/images/I/61n-683dSvL._AC_SY625_.jpg"
+    ],
+    "emoji": "👟",
+    "tags": [],
+    "description": "Amortecimento React responsivo para treinos diários. Leve e estável com excelente retorno de energia.",
+    "reason": "Amortecimento React responsivo para treinos diários. Leve e estável com excelente retorno de energia.",
+    "pros": [],
+    "cons": []
+  },
+  {
+    "brand": "NIKE",
+    "model": "",
+    "version": "",
+    "name": "Winflo 11",
+    "slug": "nike-winflo-11",
+    "category": "",
+    "sexo": [
+      "feminino"
+    ],
+    "discipline": [],
+    "price": 399.99,
+    "price_formatted": "R$ 399,99",
+    "budget": "300a600",
+    "drop": "",
+    "weight": "",
+    "levels": [
+      "iniciante",
+      "intermediario"
+    ],
+    "terrenos": [
+      "asfalto",
+      "esteira",
+      "mista"
+    ],
+    "pisadas": [
+      "neutra",
+      "naosabe"
+    ],
+    "priors": [],
+    "technologies": [],
+    "affiliate_links": {
+      "amazon": {
+        "url": "https://amzn.to/4bSZuiI",
+        "price": 756.98
+      },
+      "oficial": {
+        "url": "https://tidd.ly/4dnmibo",
+        "price": 399.99
+      }
+    },
+    "rating": "",
+    "reviews_count": "",
+    "release_year": "",
+    "is_best_seller": false,
+    "images": [
+      "https://m.media-amazon.com/images/I/71PZ2x9ndbL._AC_SY625_.jpg"
+    ],
+    "emoji": "👟",
+    "tags": [],
+    "description": "Amortecimento React responsivo para treinos diários. Leve e estável com excelente retorno de energia.",
+    "reason": "Amortecimento React responsivo para treinos diários. Leve e estável com excelente retorno de energia.",
+    "pros": [],
+    "cons": []
+  },
+  {
+    "brand": "NIKE",
+    "model": "",
+    "version": "",
+    "name": "Quest 5",
+    "slug": "nike-quest-5",
+    "category": "",
+    "sexo": [
+      "masculino"
+    ],
+    "discipline": [],
+    "price": 474.99,
+    "price_formatted": "R$ 474,99",
+    "budget": "300a600",
+    "drop": "",
+    "weight": "",
+    "levels": [
+      "iniciante",
+      "intermediario"
+    ],
+    "terrenos": [
+      "asfalto",
+      "esteira",
+      "mista"
+    ],
+    "pisadas": [
+      "neutra",
+      "naosabe"
+    ],
+    "priors": [],
+    "technologies": [],
+    "affiliate_links": {
+      "amazon": {
+        "url": "https://amzn.to/4du7oQD",
+        "price": 595.67
+      },
+      "oficial": {
+        "url": "https://tidd.ly/4dnmibo",
+        "price": 474.99
+      }
+    },
+    "rating": "",
+    "reviews_count": "",
+    "release_year": "",
+    "is_best_seller": false,
+    "images": [
+      "https://m.media-amazon.com/images/I/71Pb0HGV0BL._AC_SX500_.jpg"
+    ],
+    "emoji": "👟",
+    "tags": [],
+    "description": "Custo-benefício sólido da Nike. Entressola firme e solado durável para treinos frequentes.",
+    "reason": "Custo-benefício sólido da Nike. Entressola firme e solado durável para treinos frequentes.",
+    "pros": [],
+    "cons": []
+  },
+  {
+    "brand": "NIKE",
+    "model": "",
+    "version": "",
+    "name": "Quest 5",
+    "slug": "nike-quest-5",
+    "category": "",
+    "sexo": [
+      "feminino"
+    ],
+    "discipline": [],
+    "price": 531.99,
+    "price_formatted": "R$ 531,99",
+    "budget": "300a600",
+    "drop": "",
+    "weight": "",
+    "levels": [
+      "iniciante",
+      "intermediario"
+    ],
+    "terrenos": [
+      "asfalto",
+      "esteira",
+      "mista"
+    ],
+    "pisadas": [
+      "neutra",
+      "naosabe"
+    ],
+    "priors": [],
+    "technologies": [],
+    "affiliate_links": {
+      "amazon": {
+        "url": "https://amzn.to/4c9ugCM",
+        "price": 783.7
+      },
+      "oficial": {
+        "url": "https://tidd.ly/41MDsrO",
+        "price": 531.99
+      }
+    },
+    "rating": "",
+    "reviews_count": "",
+    "release_year": "",
+    "is_best_seller": false,
+    "images": [
+      "https://m.media-amazon.com/images/I/5159ub-QvHL._AC_SY500_.jpg"
+    ],
+    "emoji": "👟",
+    "tags": [],
+    "description": "Custo-benefício sólido da Nike. Entressola firme e solado durável para treinos frequentes.",
+    "reason": "Custo-benefício sólido da Nike. Entressola firme e solado durável para treinos frequentes.",
+    "pros": [],
+    "cons": []
+  },
+  {
+    "brand": "NIKE",
+    "model": "",
+    "version": "",
+    "name": "Air Zoom Alphafly 3",
+    "slug": "nike-air-zoom-alphafly-3",
+    "category": "",
+    "sexo": [
+      "masculino"
+    ],
+    "discipline": [],
+    "price": 1781.24,
+    "price_formatted": "R$ 1.781,24",
+    "budget": "acima1000",
+    "drop": "",
+    "weight": "",
+    "levels": [
+      "avancado"
+    ],
+    "terrenos": [
+      "asfalto",
+      "pista"
+    ],
+    "pisadas": [
+      "neutra"
+    ],
+    "priors": [],
+    "technologies": [],
+    "affiliate_links": {
+      "amazon": {
+        "url": "https://amzn.to/47FMzxW",
+        "price": 2593.3
+      },
+      "oficial": {
+        "url": "https://tidd.ly/4ctXAnN",
+        "price": 1781.24
+      }
+    },
+    "rating": "",
+    "reviews_count": "",
+    "release_year": "",
+    "is_best_seller": false,
+    "images": [
+      "https://m.media-amazon.com/images/I/71AS9nTHr5L._AC_SY500_.jpg"
+    ],
+    "emoji": "👟",
+    "tags": [],
+    "description": "Placa de carbono + ZoomX. O tênis de corrida mais rápido para maratonistas que buscam bater recordes.",
+    "reason": "Placa de carbono + ZoomX. O tênis de corrida mais rápido para maratonistas que buscam bater recordes.",
+    "pros": [],
+    "cons": []
+  },
+  {
+    "brand": "NIKE",
+    "model": "",
+    "version": "",
+    "name": "Air Zoom Alphafly 3",
+    "slug": "nike-air-zoom-alphafly-3",
+    "category": "",
+    "sexo": [
+      "feminino"
+    ],
+    "discipline": [],
+    "price": 2064.16,
+    "price_formatted": "R$ 2.064,16",
+    "budget": "acima1000",
+    "drop": "",
+    "weight": "",
+    "levels": [
+      "avancado"
+    ],
+    "terrenos": [
+      "asfalto",
+      "pista"
+    ],
+    "pisadas": [
+      "neutra"
+    ],
+    "priors": [],
+    "technologies": [],
+    "affiliate_links": {
+      "amazon": {
+        "url": "https://amzn.to/3PHg9x1",
+        "price": 2064.16
+      },
+      "oficial": {
+        "url": "https://tidd.ly/4bQ2XOS",
+        "price": 2184.99
+      }
+    },
+    "rating": "",
+    "reviews_count": "",
+    "release_year": "",
+    "is_best_seller": false,
+    "images": [
+      "https://m.media-amazon.com/images/I/61AS9nTHr5L._AC_SY500_.jpg"
+    ],
+    "emoji": "👟",
+    "tags": [],
+    "description": "Placa de carbono + ZoomX. O tênis de corrida mais rápido para maratonistas que buscam bater recordes.",
+    "reason": "Placa de carbono + ZoomX. O tênis de corrida mais rápido para maratonistas que buscam bater recordes.",
+    "pros": [],
+    "cons": []
+  },
+  {
+    "brand": "NIKE",
+    "model": "",
+    "version": "",
+    "name": "Zoom Fly 6",
+    "slug": "nike-zoom-fly-6",
+    "category": "",
+    "sexo": [
+      "feminino"
+    ],
+    "discipline": [],
+    "price": 1402.05,
+    "price_formatted": "R$ 1.402,05",
+    "budget": "acima1000",
+    "drop": "",
+    "weight": "",
+    "levels": [
+      "intermediario",
+      "avancado"
+    ],
+    "terrenos": [
+      "asfalto",
+      "pista"
+    ],
+    "pisadas": [
+      "neutra"
+    ],
+    "priors": [],
+    "technologies": [],
+    "affiliate_links": {
+      "amazon": {
+        "url": "https://amzn.to/4cpqWog",
+        "price": 1402.05
+      },
+      "oficial": {
+        "url": "https://tidd.ly/4bQ2XOS",
+        "price": 1424.99
+      }
+    },
+    "rating": "",
+    "reviews_count": "",
+    "release_year": "",
+    "is_best_seller": false,
+    "images": [
+      "https://imgnike-a.akamaihd.net/360x360/058279A1A2.jpg"
+    ],
+    "emoji": "👟",
+    "tags": [],
+    "description": "Placa de carbono leve para treinos de velocidade e provas. Espuma React X com excelente retorno de energia.",
+    "reason": "Placa de carbono leve para treinos de velocidade e provas. Espuma React X com excelente retorno de energia.",
+    "pros": [],
+    "cons": []
+  },
+  {
+    "brand": "NIKE",
+    "model": "",
+    "version": "",
+    "name": "Structure 25",
+    "slug": "nike-structure-25",
+    "category": "",
+    "sexo": [
+      "masculino"
+    ],
+    "discipline": [],
+    "price": 807.49,
+    "price_formatted": "R$ 807,49",
+    "budget": "acima1000",
+    "drop": "",
+    "weight": "",
+    "levels": [
+      "iniciante",
+      "intermediario"
+    ],
+    "terrenos": [
+      "asfalto",
+      "esteira",
+      "mista"
+    ],
+    "pisadas": [
+      "pronada"
+    ],
+    "priors": [],
+    "technologies": [],
+    "affiliate_links": {
+      "amazon": {
+        "url": "https://amzn.to/4vc5NFv",
+        "price": 1290.601
+      },
+      "oficial": {
+        "url": "https://tidd.ly/3PR0H1h",
+        "price": 807.49
+      }
+    },
+    "rating": "",
+    "reviews_count": "",
+    "release_year": "",
+    "is_best_seller": false,
+    "images": [
+      "https://imgnike-a.akamaihd.net/360x360/026862IIA1.jpg"
+    ],
+    "emoji": "👟",
+    "tags": [],
+    "description": "Tênis de estabilidade Nike com suporte medial para pronação. Durável e confortável para treinos diários.",
+    "reason": "Tênis de estabilidade Nike com suporte medial para pronação. Durável e confortável para treinos diários.",
+    "pros": [],
+    "cons": []
+  },
+  {
+    "brand": "NIKE",
+    "model": "",
+    "version": "",
+    "name": "Invincible 3",
+    "slug": "nike-invincible-3",
+    "category": "",
+    "sexo": [
+      "masculino"
+    ],
+    "discipline": [],
+    "price": 1009.2112,
+    "price_formatted": "R$ 1.009,21",
+    "budget": "acima1000",
+    "drop": "",
+    "weight": "",
+    "levels": [
+      "intermediario",
+      "avancado"
+    ],
+    "terrenos": [
+      "asfalto",
+      "esteira",
+      "mista"
+    ],
+    "pisadas": [
+      "neutra"
+    ],
+    "priors": [],
+    "technologies": [],
+    "affiliate_links": {
+      "amazon": {
+        "url": "https://amzn.to/4sjy2j1",
+        "price": 1009.2112
+      },
+      "oficial": {
+        "url": "https://tidd.ly/3PR0H1h",
+        "price": 1424.99
+      }
+    },
+    "rating": "",
+    "reviews_count": "",
+    "release_year": "",
+    "is_best_seller": false,
+    "images": [
+      "https://imgnike-a.akamaihd.net/360x360/025231IMA9.jpg"
+    ],
+    "emoji": "👟",
+    "tags": [],
+    "description": "Máximo amortecimento ZoomX para recuperação ativa. Passada ultra macia para treinos de volume alto.",
+    "reason": "Máximo amortecimento ZoomX para recuperação ativa. Passada ultra macia para treinos de volume alto.",
+    "pros": [],
+    "cons": []
+  },
+  {
+    "brand": "NIKE",
+    "model": "",
+    "version": "",
+    "name": "Invincible 3",
+    "slug": "nike-invincible-3",
+    "category": "",
+    "sexo": [
+      "feminino"
+    ],
+    "discipline": [],
+    "price": 934.3512,
+    "price_formatted": "R$ 934,35",
+    "budget": "600a1000",
+    "drop": "",
+    "weight": "",
+    "levels": [
+      "intermediario",
+      "avancado"
+    ],
+    "terrenos": [
+      "asfalto",
+      "esteira",
+      "mista"
+    ],
+    "pisadas": [
+      "neutra"
+    ],
+    "priors": [],
+    "technologies": [],
+    "affiliate_links": {
+      "amazon": {
+        "url": "https://amzn.to/3QkDVPm",
+        "price": 934.3512
+      },
+      "oficial": {
+        "url": "https://tidd.ly/4txL7WZ",
+        "price": 1424.99
+      }
+    },
+    "rating": "",
+    "reviews_count": "",
+    "release_year": "",
+    "is_best_seller": false,
+    "images": [
+      "https://m.media-amazon.com/images/I/71rJSyxTadL._AC_SY500_.jpg"
+    ],
+    "emoji": "👟",
+    "tags": [],
+    "description": "Máximo amortecimento ZoomX para recuperação ativa. Passada ultra macia para treinos de volume alto.",
+    "reason": "Máximo amortecimento ZoomX para recuperação ativa. Passada ultra macia para treinos de volume alto.",
+    "pros": [],
+    "cons": []
+  },
+  {
+    "brand": "NIKE",
+    "model": "",
+    "version": "",
+    "name": "Vomero 18",
+    "slug": "nike-vomero-18",
+    "category": "",
+    "sexo": [
+      "masculino"
+    ],
+    "discipline": [],
+    "price": 949.99,
+    "price_formatted": "R$ 949,99",
+    "budget": "600a1000",
+    "drop": "",
+    "weight": "",
+    "levels": [
+      "intermediario",
+      "avancado"
+    ],
+    "terrenos": [
+      "asfalto",
+      "esteira",
+      "mista"
+    ],
+    "pisadas": [
+      "neutra"
+    ],
+    "priors": [],
+    "technologies": [],
+    "affiliate_links": {
+      "amazon": {
+        "url": "https://amzn.to/4maXIN5",
+        "price": 2029.6812
+      },
+      "oficial": {
+        "url": "https://tidd.ly/3NYKhn2",
+        "price": 949.99
+      }
+    },
+    "rating": "",
+    "reviews_count": "",
+    "release_year": "",
+    "is_best_seller": false,
+    "images": [
+      "https://imgnike-a.akamaihd.net/360x360/05640155A2.jpg"
+    ],
+    "emoji": "👟",
+    "tags": [],
+    "description": "Amortecimento premium ZoomX com fit personalizado. Para quem quer conforto máximo sem abrir mão da leveza.",
+    "reason": "Amortecimento premium ZoomX com fit personalizado. Para quem quer conforto máximo sem abrir mão da leveza.",
+    "pros": [],
+    "cons": []
+  },
+  {
+    "brand": "NIKE",
+    "model": "",
+    "version": "",
+    "name": "Vomero 18",
+    "slug": "nike-vomero-18",
+    "category": "",
+    "sexo": [
+      "feminino"
+    ],
+    "discipline": [],
+    "price": 949.99,
+    "price_formatted": "R$ 949,99",
+    "budget": "600a1000",
+    "drop": "",
+    "weight": "",
+    "levels": [
+      "intermediario",
+      "avancado"
+    ],
+    "terrenos": [
+      "asfalto",
+      "esteira",
+      "mista"
+    ],
+    "pisadas": [
+      "neutra"
+    ],
+    "priors": [],
+    "technologies": [],
+    "affiliate_links": {
+      "amazon": {
+        "url": "https://amzn.to/419eqD7",
+        "price": 1542.5212
+      },
+      "oficial": {
+        "url": "https://tidd.ly/3NYKhn2",
+        "price": 949.99
+      }
+    },
+    "rating": "",
+    "reviews_count": "",
+    "release_year": "",
+    "is_best_seller": false,
+    "images": [
+      "https://imgnike-a.akamaihd.net/360x360/06072556A1.jpg"
+    ],
+    "emoji": "👟",
+    "tags": [],
+    "description": "Amortecimento premium ZoomX com fit personalizado. Para quem quer conforto máximo sem abrir mão da leveza.",
+    "reason": "Amortecimento premium ZoomX com fit personalizado. Para quem quer conforto máximo sem abrir mão da leveza.",
+    "pros": [],
+    "cons": []
+  },
+  {
+    "brand": "NIKE",
+    "model": "",
+    "version": "",
+    "name": "Pegasus Trail 5",
+    "slug": "nike-pegasus-trail-5",
+    "category": "",
+    "sexo": [
+      "feminino"
+    ],
+    "discipline": [],
+    "price": 968.99,
+    "price_formatted": "R$ 968,99",
+    "budget": "acima1000",
+    "drop": "",
+    "weight": "",
+    "levels": [
+      "intermediario",
+      "avancado"
+    ],
+    "terrenos": [
+      "trilha",
+      "mista"
+    ],
+    "pisadas": [
+      "neutra"
+    ],
+    "priors": [],
+    "technologies": [],
+    "affiliate_links": {
+      "amazon": {
+        "url": "https://amzn.to/419eqD7",
+        "price": 1115.961
+      },
+      "oficial": {
+        "url": "https://tidd.ly/3NYKhn2",
+        "price": 968.99
+      }
+    },
+    "rating": "",
+    "reviews_count": "",
+    "release_year": "",
+    "is_best_seller": false,
+    "images": [
+      "https://imgnike-a.akamaihd.net/360x360/028652A1A7.jpg"
+    ],
+    "emoji": "👟",
+    "tags": [],
+    "description": "Grip Traxion para trilhas com amortecimento React X. Para quem quer performance fora do asfalto.",
+    "reason": "Grip Traxion para trilhas com amortecimento React X. Para quem quer performance fora do asfalto.",
+    "pros": [],
+    "cons": []
+  },
+  {
+    "brand": "NIKE",
+    "model": "",
+    "version": "",
+    "name": "Pegasus Trail 5",
+    "slug": "nike-pegasus-trail-5",
+    "category": "",
+    "sexo": [
+      "masculino"
+    ],
+    "discipline": [],
+    "price": 1139.99,
+    "price_formatted": "R$ 1.139,99",
+    "budget": "acima1000",
+    "drop": "",
+    "weight": "",
+    "levels": [
+      "intermediario",
+      "avancado"
+    ],
+    "terrenos": [
+      "trilha",
+      "mista"
+    ],
+    "pisadas": [
+      "neutra"
+    ],
+    "priors": [],
+    "technologies": [],
+    "affiliate_links": {
+      "amazon": {
+        "url": "https://amzn.to/3PHhxjd",
+        "price": 1230.241
+      },
+      "oficial": {
+        "url": "https://tidd.ly/3NICxFF",
+        "price": 1139.99
+      }
+    },
+    "rating": "",
+    "reviews_count": "",
+    "release_year": "",
+    "is_best_seller": false,
+    "images": [
+      "https://imgnike-a.akamaihd.net/360x360/028651NZA2.jpg"
+    ],
+    "emoji": "👟",
+    "tags": [],
+    "description": "Grip Traxion para trilhas com amortecimento React X. Para quem quer performance fora do asfalto.",
+    "reason": "Grip Traxion para trilhas com amortecimento React X. Para quem quer performance fora do asfalto.",
+    "pros": [],
+    "cons": []
+  },
+  {
+    "brand": "NIKE",
+    "model": "",
+    "version": "",
+    "name": "Pegasus 41",
+    "slug": "nike-pegasus-41",
+    "category": "",
+    "sexo": [
+      "masculino"
+    ],
+    "discipline": [],
+    "price": 664.99,
+    "price_formatted": "R$ 664,99",
+    "budget": "600a1000",
+    "drop": "",
+    "weight": "",
+    "levels": [
+      "iniciante",
+      "intermediario",
+      "avancado"
+    ],
+    "terrenos": [
+      "asfalto",
+      "esteira",
+      "mista"
+    ],
+    "pisadas": [
+      "neutra",
+      "naosabe"
+    ],
+    "priors": [],
+    "technologies": [],
+    "affiliate_links": {
+      "amazon": {
+        "url": "https://amzn.to/4vfm24M",
+        "price": 1095.1112
+      },
+      "oficial": {
+        "url": "https://tidd.ly/4vfNHTe",
+        "price": 664.99
+      }
+    },
+    "rating": "",
+    "reviews_count": "",
+    "release_year": "",
+    "is_best_seller": false,
+    "images": [
+      "https://imgnike-a.akamaihd.net/360x360/02865952A1.jpg"
+    ],
+    "emoji": "👟",
+    "tags": [],
+    "description": "O clássico mais versátil da Nike. React X responsivo para qualquer distância e ritmo.",
+    "reason": "O clássico mais versátil da Nike. React X responsivo para qualquer distância e ritmo.",
+    "pros": [],
+    "cons": []
+  },
+  {
+    "brand": "NIKE",
+    "model": "",
+    "version": "",
+    "name": "Pegasus 41",
+    "slug": "nike-pegasus-41",
+    "category": "",
+    "sexo": [
+      "feminino"
+    ],
+    "discipline": [],
+    "price": 759.99,
+    "price_formatted": "R$ 759,99",
+    "budget": "600a1000",
+    "drop": "",
+    "weight": "",
+    "levels": [
+      "iniciante",
+      "intermediario",
+      "avancado"
+    ],
+    "terrenos": [
+      "asfalto",
+      "esteira",
+      "mista"
+    ],
+    "pisadas": [
+      "neutra",
+      "naosabe"
+    ],
+    "priors": [],
+    "technologies": [],
+    "affiliate_links": {
+      "amazon": {
+        "url": "https://amzn.to/4c3gSjs",
+        "price": 910.5012
+      },
+      "oficial": {
+        "url": "https://tidd.ly/4c7v8YD",
+        "price": 759.99
+      }
+    },
+    "rating": "",
+    "reviews_count": "",
+    "release_year": "",
+    "is_best_seller": false,
+    "images": [
+      "https://imgnike-a.akamaihd.net/360x360/028661IDA11.jpg"
+    ],
+    "emoji": "👟",
+    "tags": [],
+    "description": "O clássico mais versátil da Nike. React X responsivo para qualquer distância e ritmo.",
+    "reason": "O clássico mais versátil da Nike. React X responsivo para qualquer distância e ritmo.",
     "pros": [],
     "cons": []
   },
@@ -3339,8 +4450,8 @@ var SHOES = [
       "masculino"
     ],
     "discipline": [],
-    "price": 1.741,
-    "price_formatted": "R$ 1,74",
+    "price": 1741.0,
+    "price_formatted": "R$ 1.741,00",
     "budget": "acima1000",
     "drop": "",
     "weight": "",
@@ -3363,7 +4474,7 @@ var SHOES = [
     "affiliate_links": {
       "amazon": {
         "url": "https://amzn.to/409UZJS",
-        "price": 1.741
+        "price": 1741.0
       }
     },
     "rating": "",
@@ -3394,8 +4505,8 @@ var SHOES = [
       "masculino"
     ],
     "discipline": [],
-    "price": 1.043,
-    "price_formatted": "R$ 1,04",
+    "price": 1043.0,
+    "price_formatted": "R$ 1.043,00",
     "budget": "acima1000",
     "drop": "",
     "weight": "",
@@ -3418,7 +4529,7 @@ var SHOES = [
     "affiliate_links": {
       "amazon": {
         "url": "https://amzn.to/3MVPADc",
-        "price": 1.043
+        "price": 1043.0
       }
     },
     "rating": "",
@@ -3449,8 +4560,8 @@ var SHOES = [
       "masculino"
     ],
     "discipline": [],
-    "price": 1.481,
-    "price_formatted": "R$ 1,48",
+    "price": 1481.0,
+    "price_formatted": "R$ 1.481,00",
     "budget": "acima1000",
     "drop": "",
     "weight": "",
@@ -3472,7 +4583,7 @@ var SHOES = [
     "affiliate_links": {
       "amazon": {
         "url": "https://amzn.to/4aZuoUF",
-        "price": 1.481
+        "price": 1481.0
       }
     },
     "rating": "",
@@ -3767,7 +4878,7 @@ var SHOES = [
     "release_year": "",
     "is_best_seller": false,
     "images": [
-      "imgs/placeholder.jpg"
+      "https://www.tenisideal.com.br/imgs/43561394_3-012-01.jpg"
     ],
     "emoji": "👟",
     "tags": [
@@ -4567,8 +5678,8 @@ var SHOES = [
       "masculino"
     ],
     "discipline": [],
-    "price": 1.299,
-    "price_formatted": "R$ 1,30",
+    "price": 1299.0,
+    "price_formatted": "R$ 1.299,00",
     "budget": "acima1000",
     "drop": "",
     "weight": "",
@@ -4591,7 +5702,7 @@ var SHOES = [
     "affiliate_links": {
       "amazon": {
         "url": "https://amzn.to/4uI7lqG",
-        "price": 1.299
+        "price": 1299.0
       }
     },
     "rating": "",
@@ -4624,8 +5735,8 @@ var SHOES = [
       "feminino"
     ],
     "discipline": [],
-    "price": 1.3,
-    "price_formatted": "R$ 1,30",
+    "price": 1300.0,
+    "price_formatted": "R$ 1.300,00",
     "budget": "acima1000",
     "drop": "",
     "weight": "",
@@ -4648,7 +5759,7 @@ var SHOES = [
     "affiliate_links": {
       "amazon": {
         "url": "https://amzn.to/4b8JVD5",
-        "price": 1.3
+        "price": 1300.0
       }
     },
     "rating": "",
@@ -4681,8 +5792,8 @@ var SHOES = [
       "feminino"
     ],
     "discipline": [],
-    "price": 2.199,
-    "price_formatted": "R$ 2,20",
+    "price": 2199.0,
+    "price_formatted": "R$ 2.199,00",
     "budget": "acima1000",
     "drop": "",
     "weight": "",
@@ -4704,7 +5815,7 @@ var SHOES = [
     "affiliate_links": {
       "amazon": {
         "url": "https://amzn.to/3NnNw78",
-        "price": 2.199
+        "price": 2199.0
       }
     },
     "rating": "",
@@ -4911,8 +6022,8 @@ var SHOES = [
       "masculino"
     ],
     "discipline": [],
-    "price": 1.3,
-    "price_formatted": "R$ 1,30",
+    "price": 1300.0,
+    "price_formatted": "R$ 1.300,00",
     "budget": "acima1000",
     "drop": "",
     "weight": "",
@@ -4935,7 +6046,7 @@ var SHOES = [
     "affiliate_links": {
       "amazon": {
         "url": "https://amzn.to/3Ny1lzU",
-        "price": 1.3
+        "price": 1300.0
       }
     },
     "rating": "",
@@ -5025,8 +6136,8 @@ var SHOES = [
       "unissex"
     ],
     "discipline": [],
-    "price": 2.4,
-    "price_formatted": "R$ 2,40",
+    "price": 2400.0,
+    "price_formatted": "R$ 2.400,00",
     "budget": "acima1000",
     "drop": "",
     "weight": "",
@@ -5048,7 +6159,7 @@ var SHOES = [
     "affiliate_links": {
       "amazon": {
         "url": "https://amzn.to/46WrNd3",
-        "price": 2.4
+        "price": 2400.0
       }
     },
     "rating": "",
@@ -5082,8 +6193,8 @@ var SHOES = [
       "feminino"
     ],
     "discipline": [],
-    "price": 1.524,
-    "price_formatted": "R$ 1,52",
+    "price": 1524.0,
+    "price_formatted": "R$ 1.524,00",
     "budget": "acima1000",
     "drop": "",
     "weight": "",
@@ -5105,7 +6216,7 @@ var SHOES = [
     "affiliate_links": {
       "amazon": {
         "url": "https://amzn.to/4uAu8EP",
-        "price": 1.524
+        "price": 1524.0
       }
     },
     "rating": "",
