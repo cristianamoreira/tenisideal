@@ -41,6 +41,26 @@
   </script>
   <!-- TikTok Pixel Code End -->
 
+  <!-- Meta Pixel Code -->
+  <script>
+    !function (f, b, e, v, n, t, s) {
+      if (f.fbq) return; n = f.fbq = function () {
+        n.callMethod ?
+        n.callMethod.apply(n, arguments) : n.queue.push(arguments)
+      };
+      if (!f._fbq) f._fbq = n; n.push = n; n.loaded = !0; n.version = '2.0';
+      n.queue = []; t = b.createElement(e); t.async = !0;
+      t.src = v; s = b.getElementsByTagName(e)[0];
+      s.parentNode.insertBefore(t, s)
+    }(window, document, 'script',
+      'https://connect.facebook.net/en_US/fbevents.js');
+    fbq('init', '569050183736247');
+    fbq('track', 'PageView');
+  </script>
+  <noscript><img height="1" width="1" style="display:none"
+      src="https://www.facebook.com/tr?id=569050183736247&ev=PageView&noscript=1" /></noscript>
+  <!-- End Meta Pixel Code -->
+
   <!-- Google Ads Conversion Tracking: Clique de saída -->
   <script>
     function gtag_report_conversion(url) {
@@ -864,6 +884,15 @@
 
     #sResult.active {
       display: block;
+      animation: fu .35s ease
+    }
+
+    #sEmail.active {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      min-height: calc(100vh - 65px);
       animation: fu .35s ease
     }
 
@@ -2033,7 +2062,7 @@
         Meu Tênis 👟</button>
       <div style="margin-top:16px; font-size:13px; color:var(--gray); display:flex; align-items:center; gap:8px;">
         <span style="color:var(--yellow); font-size:16px;">★★★★★</span>
-        <span>+12.000 corredores já encontraram o seu tênis ideal</span>
+        <span>Usado por corredores de todo o Brasil</span>
       </div>
 
       <div class="brands-section">
@@ -2093,6 +2122,7 @@
         <div class="profile-card-text" id="profileText"></div>
       </div>
       <div class="sgrid" id="shoesGrid"></div>
+
       <div class="share-row">
         <span class="share-label">Compartilhar meu perfil de corredor</span>
         <div class="share-btns">
@@ -2695,6 +2725,60 @@
       cur = 0; ans = {}; showScreen('sLanding');
     });
 
+    // ─── BREVO INTEGRATION ───────────────────────────────────────────
+    var BREVO_API_KEY = ''; // REMOVED DUE TO SECRETS
+
+    function mapearLink(tenis) {
+      var t = (tenis || '').toLowerCase();
+      if (t.indexOf('mizuno') > -1) return 'https://www.tenisideal.com.br/mizuno-wave-prophecy-preco';
+      if (t.indexOf('adidas') > -1) return 'https://www.tenisideal.com.br/adidas-ultraboost-preco';
+      if (t.indexOf('olympikus') > -1) return 'https://www.tenisideal.com.br/olympikus-corre-3-preco';
+      return 'https://www.tenisideal.com.br';
+    }
+
+    function enviarParaBrevo(email, tenis, link) {
+      return fetch('https://api.brevo.com/v3/contacts', {
+        method: 'POST',
+        headers: {
+          'Content-Type': 'application/json',
+          'api-key': BREVO_API_KEY
+        },
+        body: JSON.stringify({
+          email: email,
+          listIds: [3],
+          updateEnabled: true,
+          attributes: {
+            ORIGEM: 'Quiz Tenisideal',
+            TENIS_RECOMENDADO: tenis,
+            LINK_TENIS: link
+          }
+        })
+      }).catch(function (e) { console.warn('Brevo error:', e); });
+    }
+
+    function submitEmail() {
+      var email = document.getElementById('emailInput').value.trim();
+      if (!email || email.indexOf('@') < 0) {
+        document.getElementById('emailInput').style.borderColor = '#ff3b30';
+        return;
+      }
+      gtag('event', 'email_capturado', { email_domain: email.split('@')[1] });
+      if (typeof fbq !== 'undefined') fbq('track', 'Lead');
+      if (typeof ttq !== 'undefined') ttq.track('Subscribe');
+      try { localStorage.setItem('ti_email', email); } catch (e) { }
+
+      // Pega o tênis #1 recomendado guardado no buildResult
+      var tenis = (window._topTenis) ? window._topTenis.brand + ' ' + window._topTenis.name : '';
+      var link = mapearLink(tenis);
+
+      enviarParaBrevo(email, tenis, link);
+
+      // Mostra mensagem de sucesso
+      document.getElementById('emailForm').style.display = 'none';
+      document.getElementById('emailSuccess').style.display = 'block';
+    }
+    // ─────────────────────────────────────────────────────────────────
+
     function buildResult() {
       if (window.shoesLoadError) {
         showScreen('sResult');
@@ -2735,7 +2819,6 @@
             '<button class="bretry" onclick="location.reload()">↺ Recarregar página</button>' +
             '</div>';
           document.getElementById('resSub').textContent = '';
-
         }
         return;
       }
@@ -2744,6 +2827,8 @@
         if (typeof gtag !== 'undefined') gtag('event', 'quiz_completed');
         if (typeof ttq !== 'undefined') ttq.track('CompleteRegistration', { content_name: 'quiz_completed' });
         var tops = getTop3();
+        // Guarda o tênis #1 para usar no submitEmail
+        window._topTenis = (tops && tops.length > 0) ? tops[0].sh : null;
 
         if (!tops || tops.length === 0) {
           showScreen('sResult');
@@ -2870,6 +2955,7 @@
               if (typeof gtag_report_conversion !== 'undefined') gtag_report_conversion(url);
               if (typeof gtag !== 'undefined') gtag('event', 'click_afiliado', { 'shoe_name': safeName });
               if (typeof ttq !== 'undefined') ttq.track('AddToWishlist', { content_name: safeName });
+              if (typeof fbq !== 'undefined') fbq('track', 'InitiateCheckout', { content_name: safeName });
             } catch (e) {
               console.error('Erro no tracking:', e);
             }
@@ -3042,6 +3128,10 @@
           grid.appendChild(card);
         }
         showScreen('sResult');
+        // Meta Pixel: resultado do quiz visualizado
+        if (typeof fbq !== 'undefined') fbq('track', 'ViewContent');
+        // Popup de email — aparece 8s após ver os resultados
+        window.setTimeout(function () { openEmailPopup(); }, 8000);
         // Item 1 JS: scroll para o painel de compra no mobile
         window.setTimeout(function () {
           ensureVisible(document.querySelector('.comparison-box'));
@@ -3094,6 +3184,58 @@
       <div class="faq-items" id="faqItems"></div>
     </div>
   </div>
+
+  <!-- POPUP EMAIL -->
+  <div id="emailPopupOverlay"
+    style="display:none;position:fixed;inset:0;background:rgba(0,0,0,0.75);z-index:9999;align-items:center;justify-content:center;padding:20px;">
+    <div
+      style="background:#141414;border:1px solid #2a2a2a;border-radius:12px;max-width:440px;width:100%;padding:36px 32px;position:relative;text-align:center;animation:fadeUp .35s ease both;">
+      <button onclick="closeEmailPopup()"
+        style="position:absolute;top:14px;right:16px;background:none;border:none;color:#555;font-size:20px;cursor:pointer;line-height:1;">✕</button>
+      <div
+        style="font-size:11px;color:#c8f000;font-weight:700;letter-spacing:.15em;text-transform:uppercase;margin-bottom:12px;">
+        🎟️ Só para assinantes</div>
+      <h3
+        style="font-family:'Bebas Neue',sans-serif;font-size:2rem;margin:0 0 10px;letter-spacing:.03em;line-height:1.1;">
+        Cupons que não<br>aparecem no site</h3>
+      <p style="color:#888;font-size:14px;line-height:1.6;margin:0 0 24px;">Nossos assinantes recebem cupons exclusivos
+        e promoções antes de todo mundo. Grátis, sem spam.</p>
+      <div id="emailForm" style="display:flex;flex-direction:column;gap:10px;">
+        <input id="emailInput" type="email" placeholder="seu@email.com"
+          style="background:#0a0a0a;border:1px solid #2a2a2a;color:#fff;font-size:15px;padding:13px 16px;border-radius:4px;outline:none;font-family:'DM Sans',sans-serif;transition:border-color .2s;text-align:center;"
+          onfocus="this.style.borderColor='#c8f000'" onblur="this.style.borderColor='#2a2a2a'"
+          onkeydown="if(event.key==='Enter')submitEmail()">
+        <button onclick="submitEmail()"
+          style="background:#c8f000;color:#000;font-family:'Bebas Neue',sans-serif;font-size:1.1rem;padding:14px;border:none;border-radius:4px;cursor:pointer;font-weight:700;transition:background .2s;"
+          onmouseover="this.style.background='#a8d900'" onmouseout="this.style.background='#c8f000'">
+          Quero cupons exclusivos →
+        </button>
+      </div>
+      <div id="emailSuccess" style="display:none;color:#c8f000;font-size:16px;padding:12px 0;">✅ Pronto! Você já está na
+        lista de ofertas exclusivas.</div>
+      <p style="font-size:11px;color:#333;margin:14px 0 0;">🔒 Sem spam. Cancele quando quiser.</p>
+    </div>
+  </div>
+
+  <script>
+    function openEmailPopup() {
+      try { if (localStorage.getItem('ti_email_dismissed')) return; } catch (e) { }
+      var overlay = document.getElementById('emailPopupOverlay');
+      overlay.style.display = 'flex';
+      document.body.style.overflow = 'hidden';
+    }
+    function closeEmailPopup() {
+      document.getElementById('emailPopupOverlay').style.display = 'none';
+      document.body.style.overflow = '';
+      try { localStorage.setItem('ti_email_dismissed', '1'); } catch (e) { }
+    }
+    document.getElementById('emailPopupOverlay').addEventListener('click', function (e) {
+      if (e.target === this) closeEmailPopup();
+    });
+    document.addEventListener('keydown', function (e) {
+      if (e.key === 'Escape') closeEmailPopup();
+    });
+  </script>
 
   <script>
     var faqs = [
