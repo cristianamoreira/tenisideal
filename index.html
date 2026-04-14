@@ -46,7 +46,7 @@
     !function (f, b, e, v, n, t, s) {
       if (f.fbq) return; n = f.fbq = function () {
         n.callMethod ?
-        n.callMethod.apply(n, arguments) : n.queue.push(arguments)
+          n.callMethod.apply(n, arguments) : n.queue.push(arguments)
       };
       if (!f._fbq) f._fbq = n; n.push = n; n.loaded = !0; n.version = '2.0';
       n.queue = []; t = b.createElement(e); t.async = !0;
@@ -110,10 +110,15 @@
       background: #ff9900;
       color: #000;
       border-color: #ff9900;
+      font-size: 18px;
+      padding: 16px 20px;
+      font-weight: bold;
+      box-shadow: 0 4px 15px rgba(255, 153, 0, 0.4);
     }
 
     .bbuy.bbuy-amazon:hover {
       background: #e38800;
+      transform: translateY(-2px);
     }
 
     .comparison-box.highlight-amazon {
@@ -2722,6 +2727,8 @@
     document.getElementById('btnRetry').addEventListener('click', function () {
       document.getElementById('pw').style.display = 'none';
       document.getElementById('pf').style.width = '0%';
+      var sticky = document.getElementById('stickyCta');
+      if (sticky) sticky.style.display = 'none';
       cur = 0; ans = {}; showScreen('sLanding');
     });
 
@@ -3040,6 +3047,7 @@
                 return '';
               }
               btnsHTML += '<div class="sprice" style="margin-top:20px; font-size:24px; font-weight:700;">' + priceVal + '<span style="font-size:14px; color:var(--gray); font-weight:400; margin-left:6px;">' + paymentLabel(best) + '</span></div>';
+              btnsHTML += '<div style="color:#ff3b30; font-size:12px; font-weight:700; text-align:center; margin-bottom:12px; display:inline-flex; align-items:center; gap:5px;"><span style="font-size:16px;">⏳</span> Estoque limitado: O preço pode subir</div>';
               btnsHTML += makeBtnHTML(best.url, 'COMPRAR NA AMAZON', true).replace('class="bbuy"', 'class="bbuy bbuy-amazon"');
             } else {
               // Scenario 2 & 3: Comparador
@@ -3086,6 +3094,7 @@
               btnsHTML += '<div class="best-price-value">' + priceVal + '<span>' + paymentLabel(best) + '</span></div>';
               var labelBest = 'COMPRAR NA ' + (best.label || best.store).toUpperCase();
 
+              btnsHTML += '<div style="color:#ff3b30; font-size:12px; font-weight:700; text-align:center; margin-bottom:12px; margin-top:8px; display:inline-flex; align-items:center; gap:5px;"><span style="font-size:16px;">⏳</span> Estoque limitado: O preço pode subir</div>';
               var btnHtmlRaw = makeBtnHTML(best.url, labelBest, true);
               if (best.key === 'amazon') {
                 // override class for orange
@@ -3128,6 +3137,23 @@
           grid.appendChild(card);
         }
         showScreen('sResult');
+        if (window.innerWidth <= 480 && tops.length > 0) {
+          var bestShoe = tops[0].sh;
+          var hasAmazon = false;
+          var storeLink = '';
+          var safeName = bestShoe.name.replace(/'/g, "\\'");
+          if (bestShoe.offers && bestShoe.offers.length > 0) {
+            var offerAmazon = bestShoe.offers.find(function (o) { return o.key === 'amazon'; });
+            if (offerAmazon) { storeLink = offerAmazon.url; hasAmazon = true; }
+            else { storeLink = bestShoe.offers[0].url; }
+          } else { storeLink = bestShoe.link || bestShoe.affiliate_links?.amazon || ''; }
+          if (storeLink) {
+            var stickyHtml = '<div id="stickyCta" style="position:fixed;bottom:0;left:0;right:0;background:#1a1a1a;padding:12px 16px 24px;z-index:9999;box-shadow:0 -4px 15px rgba(0,0,0,0.6);border-top:1px solid #2a2a2a;text-align:center;"><div style="color:#ff3b30;font-size:12px;font-weight:800;margin-bottom:8px;text-transform:uppercase;">⚠️ Últimas unidades em estoque</div><a href="' + storeLink + '" target="_blank" onclick="try{gtag_report_conversion(\'' + storeLink + '\')}catch(e){}" class="bbuy ' + (hasAmazon ? 'bbuy-amazon' : '') + '" style="font-size:18px;padding:14px;display:block;font-weight:bold;margin:0 auto;max-width:100%;text-decoration:none;">' + (hasAmazon ? 'VER NA AMAZON' : 'VER NA LOJA') + ' →</a></div>';
+            var oldSticky = document.getElementById('stickyCta');
+            if (oldSticky) oldSticky.remove();
+            document.body.insertAdjacentHTML('beforeend', stickyHtml);
+          }
+        }
         // Meta Pixel: resultado do quiz visualizado
         if (typeof fbq !== 'undefined') fbq('track', 'ViewContent');
         // Popup de email — aparece 8s após ver os resultados
