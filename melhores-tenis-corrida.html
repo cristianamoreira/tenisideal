@@ -1,222 +1,272 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
-
 <head>
-    <!-- Google tag (gtag.js) -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=AW-18004382554"></script>
     <script>
-        window.dataLayer = window.dataLayer || [];
-        function gtag() { dataLayer.push(arguments); }
-        gtag('js', new Date());
-
-        gtag('config', 'AW-18004382554');
+        window.dataLayer=window.dataLayer||[];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js',new Date());
+        gtag('config','AW-18004382554');
+        gtag('config','G-GE2YJ60PPY');
     </script>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Os Melhores Tênis para Corrida em 2026 — Guia Completo com Rankings</title>
-    <meta name="description"
-        content="Confira o guia definitivo dos melhores tênis para corrida de 2026. Comparações entre Mizuno, Adidas, Nike e as melhores ofertas do mercado.">
-
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=DM+Sans:wght@400;500;700&display=swap"
-        rel="stylesheet">
-    <link rel="stylesheet" href="styles-lp.css">
-
+    <meta name="description" content="Confira o guia definitivo dos melhores tênis para corrida de 2026. Comparações entre Mizuno, Adidas, Nike, Hoka e as melhores ofertas do mercado.">
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=DM+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
     <style>
-        .guide-section {
-            padding: 60px 20px;
-            max-width: 900px;
-            margin: 0 auto;
-            line-height: 1.6;
-        }
-
-        .guide-section h2 {
-            font-family: 'Bebas Neue';
-            font-size: 44px;
-            margin-bottom: 24px;
-            color: var(--yellow);
-        }
-
-        .brand-pills {
-            display: flex;
-            gap: 12px;
-            flex-wrap: wrap;
-            margin: 30px 0;
-        }
-
-        .brand-pill {
-            background: var(--card);
-            border: 1px solid var(--border);
-            padding: 10px 24px;
-            border-radius: 30px;
-            color: var(--white);
-            text-decoration: none;
-            font-weight: 600;
-            transition: .2s;
-        }
-
-        .brand-pill:hover {
-            border-color: var(--yellow);
-            background: var(--yellow);
-            color: #000;
-        }
-
-        .top-selection {
-            display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
-            gap: 30px;
-            margin-top: 40px;
-        }
-
-        .top-card {
-            background: var(--card);
-            border: 1px solid var(--border);
-            border-radius: 12px;
-            overflow: hidden;
-            display: flex;
-            flex-direction: column;
-            transition: .3s;
-        }
-
-        .top-card:hover {
-            transform: translateY(-8px);
-            border-color: var(--yellow);
-        }
-
-        .top-img {
-            height: 180px;
-            background: #fff;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            padding: 20px;
-        }
-
-        .top-img img {
-            max-height: 100%;
-            max-width: 100%;
-            object-fit: contain;
-        }
-
-        .top-info {
-            padding: 24px;
-            flex: 1;
-            display: flex;
-            flex-direction: column;
-        }
-
-        .top-info h3 {
-            font-family: 'Bebas Neue';
-            font-size: 26px;
-            margin-bottom: 10px;
-            color: var(--white);
-        }
-
-        .top-info p {
-            font-size: 14px;
-            color: var(--gray);
-            margin-bottom: 20px;
-            flex: 1;
-        }
+        :root{--black:#0a0a0a;--green:#c8f000;--green-dark:#a8d900;--white:#fff;--gray:#888;--border:#2a2a2a;--card-bg:#141414;}
+        *{margin:0;padding:0;box-sizing:border-box;}
+        body{background:var(--black);color:var(--white);font-family:'DM Sans',sans-serif;}
+        header{padding:20px 40px;border-bottom:1px solid var(--border);display:flex;justify-content:space-between;align-items:center;}
+        .logo{font-family:'Bebas Neue',sans-serif;font-size:26px;letter-spacing:3px;text-decoration:none;color:var(--white);}
+        .logo span{color:var(--green);}
+        .hero{padding:60px 40px 40px;max-width:900px;margin:0 auto;text-align:center;}
+        .hero-badge{display:inline-block;background:var(--green);color:var(--black);font-size:11px;font-weight:700;letter-spacing:.1em;text-transform:uppercase;padding:5px 14px;border-radius:2px;margin-bottom:20px;}
+        h1{font-family:'Bebas Neue',sans-serif;font-size:clamp(42px,7vw,72px);line-height:1;margin-bottom:16px;}
+        h1 span{color:var(--green);}
+        .hero p{font-size:17px;color:var(--gray);line-height:1.7;max-width:600px;margin:0 auto 32px;}
+        .brand-pills{display:flex;gap:10px;flex-wrap:wrap;justify-content:center;margin-bottom:32px;}
+        .brand-pill{background:var(--card-bg);border:1px solid var(--border);padding:8px 20px;border-radius:30px;color:var(--white);text-decoration:none;font-size:14px;font-weight:600;transition:.2s;}
+        .brand-pill:hover,.brand-pill.active{border-color:var(--green);background:var(--green);color:var(--black);}
+        .guide{padding:0 40px 40px;max-width:900px;margin:0 auto;}
+        .guide-tip{background:var(--card-bg);border-left:4px solid var(--green);padding:20px 24px;border-radius:4px;margin:24px 0;font-size:15px;color:var(--gray);line-height:1.7;}
+        .guide-tip strong{color:var(--white);}
+        .products{padding:20px 40px 60px;max-width:1100px;margin:0 auto;}
+        .products-label{font-size:11px;color:var(--green);letter-spacing:.15em;text-transform:uppercase;margin-bottom:8px;}
+        .products-title{font-family:'Bebas Neue',sans-serif;font-size:2rem;margin-bottom:32px;}
+        .grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(280px,1fr));gap:16px;}
+        .card{background:var(--card-bg);border:1px solid var(--border);border-radius:4px;overflow:hidden;display:flex;flex-direction:column;transition:border-color .2s,transform .2s;}
+        .card:hover{border-color:#3a3a3a;transform:translateY(-2px);}
+        .card-img{height:200px;background:#1a1a1a;display:flex;align-items:center;justify-content:center;}
+        .card-img img{width:100%;height:100%;object-fit:contain;padding:16px;}
+        .card-body{padding:16px;display:flex;flex-direction:column;gap:8px;flex:1;}
+        .card-top-row{display:flex;justify-content:space-between;align-items:center;}
+        .card-brand{font-size:10px;color:var(--green);font-weight:700;letter-spacing:.1em;text-transform:uppercase;}
+        .card-level{font-size:10px;color:var(--gray);background:#222;padding:2px 8px;border-radius:10px;}
+        .card-name{font-family:'Bebas Neue',sans-serif;font-size:1.3rem;letter-spacing:.03em;}
+        .card-reason{font-size:13px;color:var(--gray);line-height:1.5;flex:1;}
+        .card-price{font-family:'Bebas Neue',sans-serif;font-size:1.8rem;color:var(--green);letter-spacing:.02em;}
+        .card-price.ver-preco{font-size:1rem;color:var(--gray);}
+        .card-parcelas{font-size:12px;color:var(--gray);}
+        .card-btns{display:flex;flex-direction:column;gap:8px;margin-top:4px;}
+        .btn-amazon{display:flex;justify-content:space-between;align-items:center;background:var(--green);color:var(--black);font-weight:700;font-size:14px;padding:11px 16px;text-decoration:none;border-radius:3px;transition:.2s;}
+        .btn-amazon:hover{background:var(--green-dark);}
+        .btn-sec{display:flex;justify-content:space-between;align-items:center;background:transparent;border:1px solid var(--border);color:var(--gray);font-size:13px;padding:9px 16px;text-decoration:none;border-radius:3px;transition:.2s;}
+        .btn-sec:hover{border-color:#555;color:var(--white);}
+        .quiz-cta{margin:0 40px 60px;background:linear-gradient(135deg,#0f1800 0%,#141414 100%);border:1px solid rgba(200,240,0,0.2);border-radius:6px;padding:3rem;display:flex;align-items:center;justify-content:space-between;gap:2rem;}
+        .quiz-cta h3{font-family:'Bebas Neue',sans-serif;font-size:2rem;margin-bottom:8px;}
+        .quiz-cta p{font-size:14px;color:var(--gray);}
+        .btn-quiz{display:inline-flex;align-items:center;gap:8px;background:transparent;border:1px solid var(--green);color:var(--green);font-family:'Bebas Neue',sans-serif;font-size:18px;padding:14px 28px;text-decoration:none;border-radius:3px;white-space:nowrap;transition:.2s;}
+        .btn-quiz:hover{background:var(--green);color:var(--black);}
+        .afiliado-note{text-align:center;font-size:11px;color:#444;padding:0 40px 40px;}
+        footer{padding:40px;border-top:1px solid var(--border);text-align:center;font-size:12px;color:var(--gray);}
+        footer a{color:var(--green);text-decoration:none;margin:0 12px;}
+        @media(max-width:600px){header,.hero,.guide,.products,.quiz-cta{padding-left:20px;padding-right:20px;}.quiz-cta{flex-direction:column;text-align:center;}}
     </style>
 </head>
-
 <body>
-    <header
-        style="padding: 15px 40px; border-bottom: 1px solid var(--border); display: flex; justify-content: center; background: var(--black);">
-        <a href="/"
-            style="font-family: 'Bebas Neue'; font-size: 24px; color: var(--white); text-decoration: none; letter-spacing: 2px;">
-            TÊNIS<span>IDEAL</span>
-        </a>
+    <header>
+        <a href="index.html" class="logo"><span>Tênis</span>ideal</a>
+        <a href="index.html" style="font-size:13px;color:var(--gray);text-decoration:none;">← Voltar ao quiz</a>
     </header>
 
-    <section class="hero">
-        <div class="badge">Guia Definitivo 2026</div>
-        <h1 class="hero-title">Os Melhores Tênis<br><span style="color:var(--yellow)">para Corrida</span></h1>
-        <p class="hero-subtitle">Não sabe qual tênis comprar? Criamos o guia mais completo do Brasil, separando os
-            melhores modelos por categoria, marca e objetivo.</p>
-
+    <div class="hero">
+        <div class="hero-badge">🏆 Guia Definitivo 2026</div>
+        <h1>Os Melhores Tênis <span>para Corrida</span></h1>
+        <p>Não sabe qual tênis comprar? Separamos os melhores modelos por nível, marca e objetivo para você não errar na escolha.</p>
         <div class="brand-pills">
-            <a href="/melhores-tenis-adidas" class="brand-pill">Melhores Adidas</a>
-            <a href="/melhores-tenis-mizuno" class="brand-pill">Melhores Mizuno</a>
-            <a href="/melhores-tenis-olympikus" class="brand-pill">Melhores Olympikus</a>
-            <a href="/" class="brand-pill" style="border-color: var(--yellow);">Mudar Marca</a>
+            <a href="melhores-tenis-adidas.html" class="brand-pill">Melhores Adidas</a>
+            <a href="melhores-tenis-mizuno.html" class="brand-pill">Melhores Mizuno</a>
+            <a href="melhores-tenis-olympikus.html" class="brand-pill">Melhores Olympikus</a>
+            <a href="tenis-ate-500.html" class="brand-pill">Até R$ 500</a>
+        </div>
+    </div>
+
+    <div class="guide">
+        <div class="guide-tip">
+            💡 <strong>Como escolher:</strong> Se você é iniciante, priorize amortecimento. Se já treina com frequência, modelos mais leves e responsivos vão melhorar sua performance. Pisada pronada ou supinada? Use o quiz para uma indicação personalizada.
+        </div>
+    </div>
+
+    <section class="products">
+        <div class="products-label">Seleção atualizada · Todos os perfis</div>
+        <h2 class="products-title">9 Melhores Opções de 2026</h2>
+        <div class="grid">
+        <div class="card">
+          <div class="card-img"><img src="https://m.media-amazon.com/images/I/51yBZPU0PtL._AC_SY500_.jpg" alt="Adidas Response Runner 2" loading="lazy" onerror="this.style.opacity=0"></div>
+          <div class="card-body">
+            <div class="card-top-row">
+              <div class="card-brand">Adidas</div>
+              <div class="card-level">Iniciante</div>
+            </div>
+            <div class="card-name">Response Runner 2</div>
+            <div class="card-reason">Estrutura firme e estável para iniciantes. Entrega tração e durabilidade para treinos diários sem gastar muito.</div>
+            <div class="card-price">R$ 399,99</div>
+            <div class="card-parcelas">4 x R$ 100,00 sem juros </div>
+            <div class="card-btns">
+              <a href="https://amzn.to/4b7FF5t" target="_blank" rel="nofollow" class="btn-amazon" onclick="gtag('event','click_afiliado',{store:'Amazon',product:'Adidas Response Runner 2'})">Ver na Amazon →</a>
+              <a href="https://tidd.ly/4bwPHNU" target="_blank" rel="nofollow" class="btn-sec" onclick="gtag('event','click_afiliado',{store:'Oficial',product:'Adidas Response Runner 2'})">Loja Oficial →</a>
+            </div>
+          </div>
+        </div>
+        <div class="card">
+          <div class="card-img"><img src="https://images-na.ssl-images-amazon.com/images/I/71Y43mJ5zeL.jpg" alt="Asics Gel-Cumulus 26" loading="lazy" onerror="this.style.opacity=0"></div>
+          <div class="card-body">
+            <div class="card-top-row">
+              <div class="card-brand">Asics</div>
+              <div class="card-level">Iniciante</div>
+            </div>
+            <div class="card-name">Gel-Cumulus 26</div>
+            <div class="card-reason">Gel duplo + FlyteFoam para treinos diários confortáveis. Irmão mais acessível do Nimbus.</div>
+            <div class="card-price">R$ 900,00</div>
+            
+            <div class="card-btns">
+              <a href="https://amzn.to/477x4ys" target="_blank" rel="nofollow" class="btn-amazon" onclick="gtag('event','click_afiliado',{store:'Amazon',product:'Asics Gel-Cumulus 26'})">Ver na Amazon →</a>
+              
+            </div>
+          </div>
+        </div>
+        <div class="card">
+          <div class="card-img"><img src="https://m.media-amazon.com/images/I/71AhLqeaRrL._AC_SX500_.jpg" alt="New Balance FuelCell Rebel V5" loading="lazy" onerror="this.style.opacity=0"></div>
+          <div class="card-body">
+            <div class="card-top-row">
+              <div class="card-brand">New Balance</div>
+              <div class="card-level">Iniciante</div>
+            </div>
+            <div class="card-name">FuelCell Rebel V5</div>
+            <div class="card-reason">FuelCell foam de alta resposta para corredores que buscam leveza e energia a cada passada. Ideal para treinos de ritmo e provas de 5 a 21km.</div>
+            <div class="card-price">R$ 989,79</div>
+            
+            <div class="card-btns">
+              <a href="https://amzn.to/4liLXE5" target="_blank" rel="nofollow" class="btn-amazon" onclick="gtag('event','click_afiliado',{store:'Amazon',product:'New Balance FuelCell Rebel V5'})">Ver na Amazon →</a>
+              
+            </div>
+          </div>
+        </div>
+        <div class="card">
+          <div class="card-img"><img src="https://images-na.ssl-images-amazon.com/images/I/71EJN-HyMWL.jpg" alt="Brooks Adrenaline GTS 24 Supportive" loading="lazy" onerror="this.style.opacity=0"></div>
+          <div class="card-body">
+            <div class="card-top-row">
+              <div class="card-brand">Brooks</div>
+              <div class="card-level">Todos os níveis</div>
+            </div>
+            <div class="card-name">Adrenaline GTS 24 Supportive</div>
+            <div class="card-reason">GuideRails exclusivo suporta o excesso de movimento sem travar a pisada natural. Indicado por fisios.</div>
+            <div class="card-price">R$ 987,00</div>
+            
+            <div class="card-btns">
+              <a href="https://amzn.to/4u7e6Sr" target="_blank" rel="nofollow" class="btn-amazon" onclick="gtag('event','click_afiliado',{store:'Amazon',product:'Brooks Adrenaline GTS 24 Supportive'})">Ver na Amazon →</a>
+              
+            </div>
+          </div>
+        </div>
+        <div class="card">
+          <div class="card-img"><img src="https://m.media-amazon.com/images/I/51DEAqmvGdL._AC_SY625_.jpg" alt="Fila Float Maxxi" loading="lazy" onerror="this.style.opacity=0"></div>
+          <div class="card-body">
+            <div class="card-top-row">
+              <div class="card-brand">Fila</div>
+              <div class="card-level">Todos os níveis</div>
+            </div>
+            <div class="card-name">Float Maxxi</div>
+            <div class="card-reason">Alto amortecimento FLOAT com ótimo custo-benefício para corridas em asfalto</div>
+            <div class="card-price">R$ 539,90</div>
+            
+            <div class="card-btns">
+              <a href="https://amzn.to/4aZSxMh" target="_blank" rel="nofollow" class="btn-amazon" onclick="gtag('event','click_afiliado',{store:'Amazon',product:'Fila Float Maxxi'})">Ver na Amazon →</a>
+              
+            </div>
+          </div>
+        </div>
+        <div class="card">
+          <div class="card-img"><img src="https://images-na.ssl-images-amazon.com/images/I/71cO3lBXuML.jpg" alt="Hoka Bondi 8" loading="lazy" onerror="this.style.opacity=0"></div>
+          <div class="card-body">
+            <div class="card-top-row">
+              <div class="card-brand">Hoka</div>
+              <div class="card-level">Todos os níveis</div>
+            </div>
+            <div class="card-name">Bondi 8</div>
+            <div class="card-reason">O rei do amortecimento máximo. Perfeito para dias de recuperação ou corredores que precisam de proteção extra.</div>
+            <div class="card-price ver-preco">Ver preço</div>
+            
+            <div class="card-btns">
+              <a href="https://amzn.to/409HQk0" target="_blank" rel="nofollow" class="btn-amazon" onclick="gtag('event','click_afiliado',{store:'Amazon',product:'Hoka Bondi 8'})">Ver na Amazon →</a>
+              
+            </div>
+          </div>
+        </div>
+        <div class="card">
+          <div class="card-img"><img src="https://m.media-amazon.com/images/I/71qHhWE-T7L._AC_SY500_.jpg" alt="Mizuno Wave Inspire 21" loading="lazy" onerror="this.style.opacity=0"></div>
+          <div class="card-body">
+            <div class="card-top-row">
+              <div class="card-brand">Mizuno</div>
+              <div class="card-level">Iniciante</div>
+            </div>
+            <div class="card-name">Wave Inspire 21</div>
+            <div class="card-reason">Suporte Wave duplo para pronadores. Mais macio que o Wave Creation, ideal para treinos longos.</div>
+            <div class="card-price">R$ 649,99</div>
+            <div class="card-parcelas">10 x R$64,99 sem juros</div>
+            <div class="card-btns">
+              <a href="https://amzn.to/4b5N32t" target="_blank" rel="nofollow" class="btn-amazon" onclick="gtag('event','click_afiliado',{store:'Amazon',product:'Mizuno Wave Inspire 21'})">Ver na Amazon →</a>
+              <a href="https://tidd.ly/4umRr4C" target="_blank" rel="nofollow" class="btn-sec" onclick="gtag('event','click_afiliado',{store:'Oficial',product:'Mizuno Wave Inspire 21'})">Loja Oficial →</a>
+            </div>
+          </div>
+        </div>
+        <div class="card">
+          <div class="card-img"><img src="https://m.media-amazon.com/images/I/71I5TWi+77L._AC_SY500_.jpg" alt="Nike Pegasus 41" loading="lazy" onerror="this.style.opacity=0"></div>
+          <div class="card-body">
+            <div class="card-top-row">
+              <div class="card-brand">Nike</div>
+              <div class="card-level">Todos os níveis</div>
+            </div>
+            <div class="card-name">Pegasus 41</div>
+            <div class="card-reason">O tênis de corrida mais vendido do mundo. Versátil, durável e confortável para qualquer treino.</div>
+            <div class="card-price">R$ 664,99</div>
+            <div class="card-parcelas">7x de R$ 100,00 sem juros</div>
+            <div class="card-btns">
+              <a href="https://amzn.to/4lMlD5y" target="_blank" rel="nofollow" class="btn-amazon" onclick="gtag('event','click_afiliado',{store:'Amazon',product:'Nike Pegasus 41'})">Ver na Amazon →</a>
+              <a href="https://tidd.ly/47bxsfp" target="_blank" rel="nofollow" class="btn-sec" onclick="gtag('event','click_afiliado',{store:'Oficial',product:'Nike Pegasus 41'})">Loja Oficial →</a>
+            </div>
+          </div>
+        </div>
+        <div class="card">
+          <div class="card-img"><img src="https://images-na.ssl-images-amazon.com/images/I/51sD2zFgzTL.jpg" alt="Olympikus Corre Grafeno 3" loading="lazy" onerror="this.style.opacity=0"></div>
+          <div class="card-body">
+            <div class="card-top-row">
+              <div class="card-brand">Olympikus</div>
+              <div class="card-level">Iniciante</div>
+            </div>
+            <div class="card-name">Corre Grafeno 3</div>
+            <div class="card-reason">Melhor custo-benefício nacional para iniciantes. Amortecimento adequado com preço super acessível.</div>
+            <div class="card-price">R$ 600,00</div>
+            
+            <div class="card-btns">
+              <a href="https://amzn.to/3NiTshD" target="_blank" rel="nofollow" class="btn-amazon" onclick="gtag('event','click_afiliado',{store:'Amazon',product:'Olympikus Corre Grafeno 3'})">Ver na Amazon →</a>
+              
+            </div>
+          </div>
+        </div>
         </div>
     </section>
 
-    <main class="container">
-        <section class="guide-section">
-            <h2>Como escolher o tênis ideal?</h2>
-            <p>A escolha do tênis de corrida perfeito depende de três pilares fundamentais: <strong>seu nível de
-                    experiência</strong>, <strong>seu tipo de pisada</strong> e <strong>a superfície onde você
-                    corre</strong>. Um erro na escolha pode causar dores no joelho, canelite ou até lesões mais graves.
-            </p>
+    <div class="quiz-cta">
+        <div>
+            <h3>Quer uma indicação personalizada?</h3>
+            <p>Responda 7 perguntas e descubra os 3 modelos exatos para o seu perfil, pisada e orçamento.</p>
+        </div>
+        <a href="index.html" class="btn-quiz">👟 Fazer o Quiz Grátis →</a>
+    </div>
 
-            <div
-                style="margin: 40px 0; background: var(--card); padding: 30px; border-radius: 12px; border-left: 4px solid var(--yellow);">
-                <p><strong>Dica de Especialista:</strong> Se você é iniciante, procure tênis com mais amortecimento. Se
-                    já busca performance e tempo, modelos com placa de carbono ou mais leves são o caminho.</p>
-            </div>
+    <p class="afiliado-note">* Os links são de afiliado. Ao comprar você apoia o Tênisideal sem custo adicional. Preços e disponibilidade podem variar.</p>
 
-            <h2 class="text-center mt-40">Nossas Principais Recomendações</h2>
-            <div class="top-selection">
-                <!-- Adidas -->
-                <div class="top-card">
-                    <div class="top-img"><img src="https://m.media-amazon.com/images/I/51G36T8+hbL._AC_SY625_.jpg"
-                            alt="Ultraboost"></div>
-                    <div class="top-info">
-                        <h3>Adidas Ultraboost 5</h3>
-                        <p>Referência mundial em conforto e retorno de energia. Ideal para rodagens longas e proteção
-                            articular.</p>
-                        <a href="/adidas-ultraboost-review" class="cta-button"
-                            style="padding: 14px; font-size: 16px;">Ver Review Completo</a>
-                    </div>
-                </div>
-                <!-- Mizuno -->
-                <div class="top-card">
-                    <div class="top-img"><img src="https://m.media-amazon.com/images/I/5178yONIZbL._AC_SY500_.jpg"
-                            alt="Wave Prophecy"></div>
-                    <div class="top-info">
-                        <h3>Mizuno Wave Prophecy</h3>
-                        <p>O "tanque de guerra" da Mizuno. Estabilidade extrema e um amortecimento que dura centenas de
-                            quilômetros.</p>
-                        <a href="/mizuno-wave-prophecy-review" class="cta-button"
-                            style="padding: 14px; font-size: 16px;">Ver Review Completo</a>
-                    </div>
-                </div>
-                <!-- Olympikus -->
-                <div class="top-card">
-                    <div class="top-img"><img src="https://m.media-amazon.com/images/I/61rTby9WbrL.jpg" alt="Corre 3">
-                    </div>
-                    <div class="top-info">
-                        <h3>Olympikus Corre 3</h3>
-                        <p>O fenômeno nacional. Leveza impressionante com o melhor custo-benefício que você vai
-                            encontrar hoje.</p>
-                        <a href="/olympikus-corre-3-review" class="cta-button"
-                            style="padding: 14px; font-size: 16px;">Ver Review Completo</a>
-                    </div>
-                </div>
-            </div>
-
-            <div class="text-center mt-40 mb-40">
-                <h2 style="font-size: 42px;">Cansado de pesquisar?</h2>
-                <p style="margin-bottom: 30px; font-size: 18px; color: var(--gray);">Deixe nossa inteligência analisar
-                    seu perfil e te dar o nome do tênis perfeito agora mesmo.</p>
-                <a href="/" class="cta-button" style="padding: 20px 60px; font-size: 22px;">Fazer o Quiz Gratuito →</a>
-            </div>
-        </section>
-    </main>
-
-    <footer style="padding: 60px 20px; border-top: 1px solid var(--border); text-align: center; background: #000;">
-        <p style="color: var(--gray); font-size: 14px; margin-bottom: 20px;">&copy; 2026 Tênis Ideal. Todos os direitos
-            reservados.</p>
-        <div style="display: flex; justify-content: center; gap: 20px; font-size: 13px;">
-            <a href="/" style="color: var(--yellow); text-decoration: none;">Voltar ao Início</a>
-            <a href="/melhores-tenis-mizuno" style="color: var(--yellow); text-decoration: none;">Ranking Mizuno</a>
-            <a href="/melhores-tenis-adidas" style="color: var(--yellow); text-decoration: none;">Ranking Adidas</a>
+    <footer>
+        <p>&copy; 2026 Tênisideal.</p>
+        <div style="margin-top:12px;">
+            <a href="melhores-tenis-adidas.html">Ranking Adidas</a>
+            <a href="melhores-tenis-mizuno.html">Ranking Mizuno</a>
+            <a href="melhores-tenis-olympikus.html">Ranking Olympikus</a>
+            <a href="index.html">Voltar ao Quiz</a>
         </div>
     </footer>
 </body>
-
 </html>
