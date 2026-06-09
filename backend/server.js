@@ -266,6 +266,13 @@ function extractPrice(html) {
     if (p > 0) return p;
   }
 
+  // Try OpenGraph/Meta property price
+  const metaMatch = html.match(/<meta[^>]*property="product:price:amount"[^>]*content="([\d.,]+)"/i);
+  if (metaMatch) {
+    const p = parsePrice(metaMatch[1]);
+    if (p > 0) return p;
+  }
+
   // Try price patterns  R$ X.XXX,XX
   const brPriceMatch = html.match(/R\$\s*([\d.]+,\d{2})/);
   if (brPriceMatch) {

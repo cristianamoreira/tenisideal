@@ -1,0 +1,13 @@
+{
+  "type": "service_account",
+  "project_id": "fiery-airlock-498900-t5",
+  "private_key_id": "d4e249e5c1a350e0367ea0ef32798886e5689782",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvQIBADANBgkqhkiG9w0BAQEFAASCBKcwggSjAgEAAoIBAQCodMXb+9hJozRP\neMG+92dTn5UyLweq8QPJVJK3kPAVirfetxBB6juKrZii1+tUl1N0eNOdUD8hBgr8\nw+RH56B6neFO6bdoCN2QBxxdduM9RTYxqhaszbkTgoi3WlrXgZB2mfxkStngGJsI\ne/y71s9wuy1XYrG6JyLxQzHR8gfO3fbcfO0atinJkUy0BG+jzKgPaY2X5Qz6mAdp\nfDqa2+ha0ctONNkT/Zr9qZjl/iTzPFzum4NWvOU0vbgd0g2AtFDH3NSofTHIZd24\nBIQD1KMPOXrSE/mkXk++/mYED2foT+f5BUC6ub/f+RMimaRDdIDoNKtEBH9e+JKG\n1hi+hoxfAgMBAAECggEAEF6clYZxG6LE5A4fga+n9kvVIzXHwHhAPnG9+iGW+vjq\najWO2mDpHU5GPVjPEP7NiM1u/uP75nkgWzSr+8LJ6PBrow/6Fx15blQKkRiK93rA\ny+2z22H4YKl4IJ0io7t+7s+C47oUVv79HcNyqUw0B0fhHZNFIwpHjntRnY2v7Y2i\n3yxEdEgaTN4NQsWosAtwjq2beh7et9Pz/GAhUPwk3Nr2JjbfoP75v29PMOKDJsYl\n42A4CtbfWjigCGCwmf9hGhltoORbKJxoSFUaUamdHvFVYpC8jII7lvxFzDTWsxzh\nL0dg7QyleQk+sWr31gOarkmty1QarE1tBV83aza1pQKBgQDUd5O4QTh7q/pfLmdB\ni83tR7IsCCzZghC9IIqWuZd2GFbrXDp3M4JWJJu/XaAn4bopg9qZmb9DG4gJOLlS\njFnadqGsc2RnBDa2aLYKK1dJUDCVXK1jwF0OFZz9UIwddYQLOcJul75AyMh2mg7d\nJ0gZGp7Eiy+CbB/39b0bOm+jhQKBgQDK+LZ94xiPJPOjlcbYw/8bfc5T7NgQeHs9\nAaX651a+EqbPk9+8yiCXx5X5hbnb+VuVlEYNNeOjOGJQDEfSqehgbjFCXQOQyEL5\nshjtJHyD3w3eIGXBwbmUa5Tzi6GQRidHxHv0L+cyFZK+y6Vbwy2F74nMZGFhBmDX\nZO5EtYw7kwKBgQC6OhFFSA1dAPGUKdUhc4vMtbHqvEOrZkCLtREkaYnjXhQZeZ5Z\nStGr9ax6AHNXYZfNuZ+KUGN/S4tiIdD2FMTRIng08nOHg/78xS0CHtkEDoB2+mOT\n8lDd/n263rXhQFa7jCXqz6BXomVq5z+uAjdEobuVpDXBSEqBCWh2jDK8DQKBgEVa\nMDjZdNXMYXdewP/mEG/bT7m7bqRKFonk20rc6vWtN9QricJfKj3SU3tb5wKztEhq\nznjLFgn6RRVm7M+dgKoaXLh5QbOhyci5wuycj/MbLwjb9wj6YafGDrIc3sqGPfu2\ntkfcalnhpy+MM+cjzJU8INB26BMX89UFRqixg8YDAoGAZnY1HGzrBIGNl+3s/+aC\npEPkBa1EJXzk/cW6QrCDpiTFUi4AIu1Rn5yiKScWae0lmhxHLGYpHx+IqYTtfQF5\nL9jkzyvNY+Cxf+faQBb99R9rozGS2zQYDSHi6Pn2S2Kanr6XoEd/S/JuBh9OzFJ9\nNoEBScokQYXlcfKLNyCFxWY=\n-----END PRIVATE KEY-----\n",
+  "client_email": "robotenis@fiery-airlock-498900-t5.iam.gserviceaccount.com",
+  "client_id": "115129831282390915258",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/robotenis%40fiery-airlock-498900-t5.iam.gserviceaccount.com",
+  "universe_domain": "googleapis.com"
+}

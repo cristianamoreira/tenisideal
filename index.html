@@ -71,8 +71,26 @@
     }
   </script>
 
-  <!-- Dados Locais dos Tênis -->
-  <script src="shoes_data_v1774054458.js"></script>
+  <!-- Os dados dos tênis agora são carregados via API dinamicamente -->
+  <script>
+    window.SHOES = [];
+    async function loadShoesFromAPI() {
+      try {
+        const response = await fetch('/.netlify/functions/products');
+        if (response.ok) {
+          window.SHOES = await response.json();
+          console.log("Tênis carregados da planilha:", window.SHOES.length);
+        }
+      } catch (e) {
+        console.error("Erro carregando tênis:", e);
+      }
+    }
+    // O carregamento ocorrerá bloqueando a UI inicial ou silenciosamente
+    document.addEventListener("DOMContentLoaded", () => {
+      // Inicia o fetch o mais cedo possível
+      window.shoesPromise = loadShoesFromAPI();
+    });
+  </script>
 
   <!-- Schema Markup -->
   <script type="application/ld+json">
