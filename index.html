@@ -116,7 +116,100 @@
     document.addEventListener("DOMContentLoaded", () => {
       loadShoes();
       initSocialProof();
+      initMetricsTracking();
     });
+
+    // RASTREAMENTO DE MÉTRICAS E HIT TARGETS
+    function initMetricsTracking() {
+      // Inicializa contadores no localStorage
+      const today = new Date().toDateString();
+      const lastTracked = localStorage.getItem('metricsDate');
+
+      if (lastTracked !== today) {
+        // Novo dia, resetar contadores
+        localStorage.setItem('quizStartsToday', '0');
+        localStorage.setItem('clicksToday', '0');
+        localStorage.setItem('visitorsToday', '0');
+        localStorage.setItem('conversionsToday', '0');
+        localStorage.setItem('revenueToday', '0');
+        localStorage.setItem('metricsDate', today);
+      }
+
+      // Incrementar visitantes únicos (uma vez por sessão)
+      if (!sessionStorage.getItem('visitorTracked')) {
+        const current = parseInt(localStorage.getItem('visitorsToday') || '0');
+        localStorage.setItem('visitorsToday', current + 1);
+        sessionStorage.setItem('visitorTracked', 'true');
+      }
+
+      // Rastrear quando quiz começa
+      const originalStartClick = document.getElementById('btnStart');
+      if (originalStartClick) {
+        originalStartClick.addEventListener('click', function() {
+          setTimeout(() => {
+            const current = parseInt(localStorage.getItem('quizStartsToday') || '0');
+            localStorage.setItem('quizStartsToday', current + 1);
+
+            // Chamar função de verificação de metas
+            checkHitTargets();
+          }, 100);
+        });
+      }
+
+      // Rastrear cliques em "Comprar"
+      window.trackAffiliateClick = function(url, name) {
+        const current = parseInt(localStorage.getItem('clicksToday') || '0');
+        localStorage.setItem('clicksToday', current + 1);
+        checkHitTargets();
+        return true;
+      };
+    }
+
+    // Verificar se atingiu metas e enviar notificação
+    async function checkHitTargets() {
+      try {
+        const response = await fetch('/.netlify/functions/check-metrics', {
+          method: 'GET'
+        });
+        const result = await response.json();
+        if (result.success) {
+          console.log('✅ Métricas verificadas:', result.metrics);
+          // Se alguma meta foi atingida, mostrar notificação
+          if (result.notificationsSent.quizStarts ||
+              result.notificationsSent.clickRate ||
+              result.notificationsSent.conversions ||
+              result.notificationsSent.revenue) {
+            showNotification('🎉 Meta atingida! Verifique seu email.');
+          }
+        }
+      } catch (error) {
+        console.error('Erro ao verificar hit targets:', error);
+      }
+    }
+
+    // Notificação visual no navegador
+    function showNotification(message) {
+      const notification = document.createElement('div');
+      notification.style.cssText = `
+        position: fixed;
+        bottom: 20px;
+        right: 20px;
+        background: #c8ff00;
+        color: #000;
+        padding: 16px 24px;
+        border-radius: 8px;
+        font-weight: 600;
+        z-index: 10000;
+        animation: slideIn 0.3s ease;
+      `;
+      notification.textContent = message;
+      document.body.appendChild(notification);
+
+      setTimeout(() => {
+        notification.style.animation = 'slideOut 0.3s ease';
+        setTimeout(() => notification.remove(), 300);
+      }, 5000);
+    }
 
     // SOCIAL PROOF DINÂMICA - Aumenta engajamento e FOMO
     function initSocialProof() {

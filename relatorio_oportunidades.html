@@ -1,0 +1,510 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Relatório de Oportunidades — TênisIdeal</title>
+<style>
+  @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Bebas+Neue&display=swap');
+
+  :root {
+    --bg: #0d0f14;
+    --card: #161a23;
+    --border: #252a38;
+    --text: #e8eaf0;
+    --muted: #6b7280;
+    --green: #10B981;
+    --yellow: #F59E0B;
+    --red: #EF4444;
+    --blue: #3B82F6;
+    --purple: #8B5CF6;
+  }
+
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+
+  body {
+    font-family: 'Inter', sans-serif;
+    background: var(--bg);
+    color: var(--text);
+    min-height: 100vh;
+    padding: 32px 24px;
+  }
+
+  .header {
+    text-align: center;
+    margin-bottom: 40px;
+  }
+
+  .logo {
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 2rem;
+    letter-spacing: 2px;
+    color: var(--text);
+    margin-bottom: 8px;
+  }
+
+  .logo span { color: var(--green); }
+
+  .header p {
+    color: var(--muted);
+    font-size: 0.875rem;
+  }
+
+  .kpi-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+    gap: 16px;
+    margin-bottom: 32px;
+  }
+
+  .kpi {
+    background: var(--card);
+    border: 1px solid var(--border);
+    border-radius: 12px;
+    padding: 20px;
+    text-align: center;
+  }
+
+  .kpi-value {
+    font-size: 1.75rem;
+    font-weight: 700;
+    margin-bottom: 4px;
+  }
+
+  .kpi-label {
+    font-size: 0.75rem;
+    color: var(--muted);
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+  }
+
+  .kpi.green .kpi-value { color: var(--green); }
+  .kpi.yellow .kpi-value { color: var(--yellow); }
+  .kpi.red .kpi-value { color: var(--red); }
+  .kpi.blue .kpi-value { color: var(--blue); }
+  .kpi.purple .kpi-value { color: var(--purple); }
+
+  .section-title {
+    font-size: 1.1rem;
+    font-weight: 600;
+    margin-bottom: 16px;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+  }
+
+  .alert-box {
+    background: rgba(239, 68, 68, 0.1);
+    border: 1px solid rgba(239, 68, 68, 0.3);
+    border-radius: 10px;
+    padding: 16px 20px;
+    margin-bottom: 24px;
+    font-size: 0.875rem;
+    line-height: 1.6;
+  }
+
+  .alert-box strong { color: var(--red); }
+
+  .table-wrap {
+    overflow-x: auto;
+    border-radius: 12px;
+    border: 1px solid var(--border);
+  }
+
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    font-size: 0.8rem;
+  }
+
+  thead th {
+    background: #1e2433;
+    padding: 12px 10px;
+    text-align: left;
+    font-size: 0.7rem;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    color: var(--muted);
+    white-space: nowrap;
+    border-bottom: 1px solid var(--border);
+  }
+
+  tbody tr {
+    border-bottom: 1px solid var(--border);
+    transition: background 0.15s;
+  }
+
+  tbody tr:hover { background: rgba(255,255,255,0.03); }
+
+  tbody tr.row-1 { border-left: 3px solid var(--red); }
+  tbody tr.row-2 { border-left: 3px solid var(--yellow); }
+  tbody tr.row-3 { border-left: 3px solid var(--green); }
+
+  td {
+    padding: 10px 10px;
+    vertical-align: top;
+  }
+
+  .rank { color: var(--muted); font-weight: 600; text-align: center; }
+
+  .url-cell a {
+    color: var(--blue);
+    text-decoration: none;
+    font-weight: 500;
+    word-break: break-all;
+  }
+
+  .url-cell a:hover { text-decoration: underline; }
+
+  .num { text-align: right; font-variant-numeric: tabular-nums; white-space: nowrap; }
+  .pos { color: var(--purple); }
+  .afil { color: var(--yellow); }
+  .ganhos { color: var(--green); }
+  .pot { color: var(--blue); }
+
+  .taxa-cell { min-width: 100px; }
+  .taxa-bar-wrap {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+  }
+  .taxa-bar {
+    height: 6px;
+    background: var(--green);
+    border-radius: 3px;
+    flex-shrink: 0;
+    transition: width 0.3s;
+  }
+
+  .badge {
+    white-space: nowrap;
+    font-size: 0.75rem;
+    font-weight: 600;
+  }
+
+  .rec {
+    color: var(--muted);
+    font-size: 0.75rem;
+    line-height: 1.5;
+    min-width: 220px;
+    max-width: 300px;
+  }
+
+  .footer {
+    text-align: center;
+    margin-top: 40px;
+    color: var(--muted);
+    font-size: 0.75rem;
+  }
+
+  .fontes-tag {
+    display: inline-flex;
+    align-items: center;
+    gap: 4px;
+    background: var(--card);
+    border: 1px solid var(--border);
+    border-radius: 999px;
+    padding: 3px 10px;
+    font-size: 0.7rem;
+    margin: 2px;
+  }
+</style>
+</head>
+<body>
+
+<div class="header">
+  <div class="logo">Tênis<span>ideal</span></div>
+  <p>Relatório de Oportunidades de Receita — Gerado em 19/06/2026 às 00:01</p>
+  <p style="margin-top:6px">
+    Fontes: <span class="fontes-tag">✓ EXEMPLO</span>
+  </p>
+</div>
+
+<div class="kpi-grid">
+  <div class="kpi blue">
+    <div class="kpi-value">5,065</div>
+    <div class="kpi-label">Visitas Orgânicas</div>
+  </div>
+  <div class="kpi yellow">
+    <div class="kpi-value">161</div>
+    <div class="kpi-label">Cliques Afiliados</div>
+  </div>
+  <div class="kpi green">
+    <div class="kpi-value">R$ 20</div>
+    <div class="kpi-label">Ganhos Reais</div>
+  </div>
+  <div class="kpi purple">
+    <div class="kpi-value">R$ 4089</div>
+    <div class="kpi-label">Potencial Estimado</div>
+  </div>
+  <div class="kpi red">
+    <div class="kpi-value">9</div>
+    <div class="kpi-label">Páginas Alta Prioridade</div>
+  </div>
+  <div class="kpi red">
+    <div class="kpi-value">6</div>
+    <div class="kpi-label">Páginas Sem Clique Afiliado</div>
+  </div>
+</div>
+
+<div class="alert-box">⚠️ <strong>6 páginas</strong> com tráfego orgânico mas <strong>zero cliques</strong> em links afiliados. Este é o maior vazamento de receita do seu site. Verifique se os botões de compra estão visíveis e funcionando.</div>
+
+<div class="section-title">📋 Ranking de Oportunidades (Top 50)</div>
+
+<div class="table-wrap">
+<table>
+  <thead>
+    <tr>
+      <th>#</th>
+      <th>Página</th>
+      <th>Visitas Org.</th>
+      <th>Posição Google</th>
+      <th>Cliques Afil.</th>
+      <th>Taxa Clique</th>
+      <th>Ganhos Reais</th>
+      <th>Potencial/mês</th>
+      <th>Prioridade</th>
+      <th>Recomendação</th>
+    </tr>
+  </thead>
+  <tbody>
+    
+        <tr class="row-1">
+            <td class="rank">#1</td>
+            <td class="url-cell">
+                <a href="https://tenisideal.com.br/" target="_blank">/</a>
+            </td>
+            <td class="num">1,200</td>
+            <td class="num pos">3.2º</td>
+            <td class="num afil">0</td>
+            <td class="taxa-cell">
+                <div class="taxa-bar-wrap">
+                    <div class="taxa-bar" style="width:0%"></div>
+                    <span>0.0%</span>
+                </div>
+            </td>
+            <td class="num ganhos">R$ 0.00</td>
+            <td class="num pot">R$ 960.00</td>
+            <td class="badge">🔴 ALTA</td>
+            <td class="rec">🚨 Alto tráfego mas ZERO cliques no link afiliado. Verifique se o botão de compra está visível e funcionando.</td>
+        </tr>
+        <tr class="row-1">
+            <td class="rank">#2</td>
+            <td class="url-cell">
+                <a href="https://tenisideal.com.br/melhores-tenis-corrida.html" target="_blank">/melhores-tenis-corrida.html</a>
+            </td>
+            <td class="num">890</td>
+            <td class="num pos">4.3º</td>
+            <td class="num afil">62</td>
+            <td class="taxa-cell">
+                <div class="taxa-bar-wrap">
+                    <div class="taxa-bar" style="width:70%"></div>
+                    <span>7.0%</span>
+                </div>
+            </td>
+            <td class="num ganhos">R$ 8.10</td>
+            <td class="num pot">R$ 667.50</td>
+            <td class="badge">🔴 ALTA</td>
+            <td class="rec">✅ Boa conversão! Considere aumentar o tráfego com anúncios pagos ou link interno de outras páginas.</td>
+        </tr>
+        <tr class="row-1">
+            <td class="rank">#3</td>
+            <td class="url-cell">
+                <a href="https://tenisideal.com.br/melhor-tenis-corrida.html" target="_blank">/melhor-tenis-corrida.html</a>
+            </td>
+            <td class="num">670</td>
+            <td class="num pos">5.8º</td>
+            <td class="num afil">45</td>
+            <td class="taxa-cell">
+                <div class="taxa-bar-wrap">
+                    <div class="taxa-bar" style="width:67%"></div>
+                    <span>6.7%</span>
+                </div>
+            </td>
+            <td class="num ganhos">R$ 5.80</td>
+            <td class="num pot">R$ 502.50</td>
+            <td class="badge">🔴 ALTA</td>
+            <td class="rec">✅ Boa conversão! Considere aumentar o tráfego com anúncios pagos ou link interno de outras páginas.</td>
+        </tr>
+        <tr class="row-1">
+            <td class="rank">#4</td>
+            <td class="url-cell">
+                <a href="https://tenisideal.com.br/tenis-ate-500.html" target="_blank">/tenis-ate-500.html</a>
+            </td>
+            <td class="num">540</td>
+            <td class="num pos">6.0º</td>
+            <td class="num afil">12</td>
+            <td class="taxa-cell">
+                <div class="taxa-bar-wrap">
+                    <div class="taxa-bar" style="width:22%"></div>
+                    <span>2.2%</span>
+                </div>
+            </td>
+            <td class="num ganhos">R$ 1.40</td>
+            <td class="num pot">R$ 540.00</td>
+            <td class="badge">🔴 ALTA</td>
+            <td class="rec">Taxa abaixo da meta (meta: 5%). Tente adicionar comparação de preços, reviews ou tabela de vantagens.</td>
+        </tr>
+        <tr class="row-1">
+            <td class="rank">#5</td>
+            <td class="url-cell">
+                <a href="https://tenisideal.com.br/mizuno-wave-prophecy-preco.html" target="_blank">/mizuno-wave-prophecy-preco.html</a>
+            </td>
+            <td class="num">480</td>
+            <td class="num pos">5.1º</td>
+            <td class="num afil">38</td>
+            <td class="taxa-cell">
+                <div class="taxa-bar-wrap">
+                    <div class="taxa-bar" style="width:79%"></div>
+                    <span>7.9%</span>
+                </div>
+            </td>
+            <td class="num ganhos">R$ 4.20</td>
+            <td class="num pot">R$ 360.00</td>
+            <td class="badge">🔴 ALTA</td>
+            <td class="rec">✅ Boa conversão! Considere aumentar o tráfego com anúncios pagos ou link interno de outras páginas.</td>
+        </tr>
+        <tr class="row-1">
+            <td class="rank">#6</td>
+            <td class="url-cell">
+                <a href="https://tenisideal.com.br/blog.html" target="_blank">/blog.html</a>
+            </td>
+            <td class="num">340</td>
+            <td class="num pos">9.8º</td>
+            <td class="num afil">0</td>
+            <td class="taxa-cell">
+                <div class="taxa-bar-wrap">
+                    <div class="taxa-bar" style="width:0%"></div>
+                    <span>0.0%</span>
+                </div>
+            </td>
+            <td class="num ganhos">R$ 0.00</td>
+            <td class="num pot">R$ 272.00</td>
+            <td class="badge">🔴 ALTA</td>
+            <td class="rec">🚨 Alto tráfego mas ZERO cliques no link afiliado. Verifique se o botão de compra está visível e funcionando.</td>
+        </tr>
+        <tr class="row-1">
+            <td class="rank">#7</td>
+            <td class="url-cell">
+                <a href="https://tenisideal.com.br/adidas-ultraboost-preco.html" target="_blank">/adidas-ultraboost-preco.html</a>
+            </td>
+            <td class="num">310</td>
+            <td class="num pos">7.4º</td>
+            <td class="num afil">4</td>
+            <td class="taxa-cell">
+                <div class="taxa-bar-wrap">
+                    <div class="taxa-bar" style="width:13%"></div>
+                    <span>1.3%</span>
+                </div>
+            </td>
+            <td class="num ganhos">R$ 0.50</td>
+            <td class="num pot">R$ 279.00</td>
+            <td class="badge">🔴 ALTA</td>
+            <td class="rec">Taxa abaixo da meta (meta: 5%). Tente adicionar comparação de preços, reviews ou tabela de vantagens.</td>
+        </tr>
+        <tr class="row-1">
+            <td class="rank">#8</td>
+            <td class="url-cell">
+                <a href="https://tenisideal.com.br/olympikus-corre-3-preco.html" target="_blank">/olympikus-corre-3-preco.html</a>
+            </td>
+            <td class="num">220</td>
+            <td class="num pos">8.9º</td>
+            <td class="num afil">0</td>
+            <td class="taxa-cell">
+                <div class="taxa-bar-wrap">
+                    <div class="taxa-bar" style="width:0%"></div>
+                    <span>0.0%</span>
+                </div>
+            </td>
+            <td class="num ganhos">R$ 0.00</td>
+            <td class="num pot">R$ 176.00</td>
+            <td class="badge">🔴 ALTA</td>
+            <td class="rec">🚨 Alto tráfego mas ZERO cliques no link afiliado. Verifique se o botão de compra está visível e funcionando.</td>
+        </tr>
+        <tr class="row-1">
+            <td class="rank">#9</td>
+            <td class="url-cell">
+                <a href="https://tenisideal.com.br/tenis-pisada-supinada.html" target="_blank">/tenis-pisada-supinada.html</a>
+            </td>
+            <td class="num">190</td>
+            <td class="num pos">11.2º</td>
+            <td class="num afil">0</td>
+            <td class="taxa-cell">
+                <div class="taxa-bar-wrap">
+                    <div class="taxa-bar" style="width:0%"></div>
+                    <span>0.0%</span>
+                </div>
+            </td>
+            <td class="num ganhos">R$ 0.00</td>
+            <td class="num pot">R$ 152.00</td>
+            <td class="badge">🔴 ALTA</td>
+            <td class="rec">🚨 Alto tráfego mas ZERO cliques no link afiliado. Verifique se o botão de compra está visível e funcionando.</td>
+        </tr>
+        <tr class="row-2">
+            <td class="rank">#10</td>
+            <td class="url-cell">
+                <a href="https://tenisideal.com.br/melhores-tenis-adidas.html" target="_blank">/melhores-tenis-adidas.html</a>
+            </td>
+            <td class="num">130</td>
+            <td class="num pos">14.5º</td>
+            <td class="num afil">0</td>
+            <td class="taxa-cell">
+                <div class="taxa-bar-wrap">
+                    <div class="taxa-bar" style="width:0%"></div>
+                    <span>0.0%</span>
+                </div>
+            </td>
+            <td class="num ganhos">R$ 0.00</td>
+            <td class="num pot">R$ 104.00</td>
+            <td class="badge">🟡 MÉDIA</td>
+            <td class="rec">🚨 Alto tráfego mas ZERO cliques no link afiliado. Verifique se o botão de compra está visível e funcionando.</td>
+        </tr>
+        <tr class="row-2">
+            <td class="rank">#11</td>
+            <td class="url-cell">
+                <a href="https://tenisideal.com.br/melhores-tenis-mizuno.html" target="_blank">/melhores-tenis-mizuno.html</a>
+            </td>
+            <td class="num">95</td>
+            <td class="num pos">16.2º</td>
+            <td class="num afil">0</td>
+            <td class="taxa-cell">
+                <div class="taxa-bar-wrap">
+                    <div class="taxa-bar" style="width:0%"></div>
+                    <span>0.0%</span>
+                </div>
+            </td>
+            <td class="num ganhos">R$ 0.00</td>
+            <td class="num pot">R$ 76.00</td>
+            <td class="badge">🟡 MÉDIA</td>
+            <td class="rec">🚨 Alto tráfego mas ZERO cliques no link afiliado. Verifique se o botão de compra está visível e funcionando.</td>
+        </tr>
+        <tr class="row-3">
+            <td class="rank">#12</td>
+            <td class="url-cell">
+                <a href="https://tenisideal.com.br/index.html" target="_blank">/index.html</a>
+            </td>
+            <td class="num">0</td>
+            <td class="num pos">0.0º</td>
+            <td class="num afil">0</td>
+            <td class="taxa-cell">
+                <div class="taxa-bar-wrap">
+                    <div class="taxa-bar" style="width:0%"></div>
+                    <span>0.0%</span>
+                </div>
+            </td>
+            <td class="num ganhos">R$ 0.00</td>
+            <td class="num pot">R$ 0.00</td>
+            <td class="badge">🟢 BAIXA</td>
+            <td class="rec">Página sem tráfego orgânico. Foque em SEO ou crie conteúdo para este URL.</td>
+        </tr>
+  </tbody>
+</table>
+</div>
+
+<div class="footer">
+  <p>TênisIdeal · Automação nº 1 · 19/06/2026 às 00:01</p>
+  <p style="margin-top:4px">Potencial calculado com meta de 5% de taxa de clique. Ganhos estimados com base na comissão média das redes.</p>
+</div>
+
+</body>
+</html>

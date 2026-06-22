@@ -1,25 +1,58 @@
+#!/usr/bin/env python3
+"""
+scraper_por_url.py
+------------------
+👟 SCRAPER POR URL + GOOGLE SHEETS 👟
+Com suporte a:
+- Exclusão lógica (--delete <product_id> -> ativo=nao)
+- Reativação (--reactivate <product_id> -> ativo=sim)
+- Comparação de preços multi-lojas (merge automático se produto já existe)
+- Fallback interativo/manual se a extração falhar (aceita "s" e "sim")
+- Classificação inteligente via Gemini AI
+"""
+
+import argparse
+import sys
+import os
+import re
+import json
+import unicodedata
+import hashlib
 import requests
 from bs4 import BeautifulSoup
 import gspread
 from google.oauth2.service_account import Credentials
 import google.generativeai as genai
-import os
-import re
-import json
-import unicodedata
 
 # ==============================================================================
 # ⚙️ CONFIGURAÇÕES
 # ==============================================================================
-SHEET_URL = "https://docs.google.com/spreadsheets/d/1SrOeEOwQsR5BcNcVni0W20c5npazOn5iKHpIr3Zy42Y/edit"
+SHEET_ID = "1SrOeEOwQsR5BcNcVni0W20c5npazOn5iKHpIr3Zy42Y"
 CREDENTIALS_FILE = "credenciais.json"
 
-# Usa a chave GEMINI_API_KEY do ambiente (exportada no terminal) ou pede no fallback
-GEMINI_API_KEY = os.environ.get("GEMINI_API_KEY", "") 
+# Usa a chave GEMINI_API_KEY do ambiente ou pede fallback
+GEMINI_API_KEY = os.environ.get("GEMINI_API_KEY", "")
 
-HEADERS = {
+HEADERS_HTTP = {
     "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"
 }
+
+STORES = ["amazon", "loja_oficial", "netshoes"]
+STORE_LABELS = {
+    "amazon": "Amazon",
+    "loja_oficial": "Loja Oficial",
+    "netshoes": "Netshoes"
+}
+
+SCHEMA_COLS = [
+    "product_id", "ativo", "marca", "nome", "versao", 
+    "sexo", "img", "emoji", "tags", "nível", 
+    "pisada", "terreno", "priors", "razão", 
+    "link_amazon", "preco_amazon", "parcelas_amazon",
+    "link_loja_oficial", "preco_loja_oficial", "parcelas_loja_oficial", "preco_pix_oficial",
+    "link_netshoes", "preco_netshoes", "preco_pix_netshoes", "parcelas_netshoes",
+    "budget"
+]
 
 # ==============================================================================
 # 🔗 CONEXÃO COM GOOGLE SHEETS
@@ -32,12 +65,46 @@ def conectar_planilha():
         ]
         credentials = Credentials.from_service_account_file(CREDENTIALS_FILE, scopes=scopes)
         client = gspread.authorize(credentials)
-        sheet = client.open_by_url(SHEET_URL).sheet1
+        sheet = client.open_by_key(SHEET_ID).sheet1
         return sheet
     except Exception as e:
         print(f"❌ Erro ao conectar no Google Sheets: {e}")
-        print("Verifique se o arquivo credenciais.json está na pasta e se a planilha foi compartilhada com o email do robô.")
-        exit(1)
+        print("Verifique se o arquivo credenciais.json está na pasta e se a planilha foi compartilhada.")
+        sys.exit(1)
+
+# ==============================================================================
+# 📋 HELPER PARA OBTER REGISTROS DA PLANILHA SEM ERRO DE CABEÇALHOS DUPLICADOS
+# ==============================================================================
+def obter_registros(sheet):
+    try:
+        all_values = sheet.get_all_values()
+        if not all_values:
+            return []
+        # Limpar cabeçalhos e identificar colunas válidas (ignorar vazias)
+        headers = [h.strip() for h in all_values[0]]
+        records = []
+        for row in all_values[1:]:
+            record = {}
+            for idx, val in enumerate(row):
+                if idx < len(headers):
+                    header = headers[idx]
+                    if header:  # Ignora colunas sem cabeçalho
+                        record[header] = val
+            records.append(record)
+        return records
+    except Exception as e:
+        print(f"❌ Erro ao ler registros da planilha: {e}")
+        return []
+
+# ==============================================================================
+# 🪪 GERADOR DE SLUG (IDENTIFICADOR ÚNICO)
+# ==============================================================================
+def gerar_slug(marca, nome, versao=""):
+    base = f"{marca} {nome} {versao}".strip().lower()
+    s = unicodedata.normalize('NFKD', base).encode('ASCII', 'ignore').decode().lower()
+    s = re.sub(r'[^a-z0-9]+', '-', s).strip('-')
+    suffix = hashlib.md5(s.encode()).hexdigest()[:4]
+    return f"{s}-{suffix}"
 
 # ==============================================================================
 # 🤖 INTEGRAÇÃO COM GEMINI AI
@@ -52,27 +119,31 @@ def analisar_tenis_com_gemini(nome_tenis, preco_str):
         return {}
 
     genai.configure(api_key=GEMINI_API_KEY)
-    model = genai.GenerativeModel('gemini-1.5-flash')
+    model = genai.GenerativeModel('gemini-2.0-flash')
     
-    # Define o budget base
-    budget = "300a600"
-    try:
-        preco_num = float(re.sub(r'[^\d,.-]', '', preco_str).replace('.', '').replace(',', '.'))
-        if preco_num < 300: budget = "ate300"
-        elif 300 <= preco_num <= 600: budget = "300a600"
-        elif 600 < preco_num <= 1000: budget = "600a1000"
-        else: budget = "acima1000"
-    except:
-        pass
+    # Detectar gênero explícito no nome para usar como override
+    nome_lower = nome_tenis.lower()
+    genero_detectado = None
+    if any(p in nome_lower for p in ['feminino', 'feminina', 'women', 'woman', ' w ', '-w-', 'wmns', 'mujer']):
+        genero_detectado = 'feminino'
+    elif any(p in nome_lower for p in ['masculino', 'masculina', 'men', 'man', ' m ', '-m-', 'mens', 'hombre']):
+        genero_detectado = 'masculino'
+
+    instrucao_sexo = ""
+    if genero_detectado:
+        instrucao_sexo = f'\n⚠️ ATENÇÃO: O nome do produto contém indicação explícita de gênero. O campo "sexo" DEVE ser obrigatoriamente "{genero_detectado}". NÃO use "unissex" neste caso.'
 
     prompt = f"""
 Você é um especialista em tênis de corrida. Analise o seguinte modelo: "{nome_tenis}".
-Responda OBRIGATORIAMENTE em formato JSON válido contendo APENAS as propriedades abaixo. Siga estritamente as opções permitidas para os arrays.
+Responda OBRIGATORIAMENTE em formato JSON válido contendo APENAS as propriedades abaixo. Siga estritamente as opções permitidas.
+{instrucao_sexo}
 
 Opções:
-- sexo: ["masculino", "feminino", "unissex"]
+- sexo: ["masculino", "feminino", "unissex"] — Se o nome contiver feminino/women/wmns use "feminino"; se contiver masculino/men/mens use "masculino"; senão analise o modelo.
 - brand: O nome da marca em MAIÚSCULO (ex: "NIKE", "ADIDAS")
-- tags: Uma ou duas tags curtas separadas por | (ex: "Amortecimento|Velocidade")
+- tags: Exatamente 1 ou 2 tags de TECNOLOGIA ou CARACTERÍSTICA FÍSICA, separadas por |.
+    PERMITIDO: nomes de tecnologias (ex: "ZoomX", "Boost", "PWRRUN", "Wave", "React", "DNA Loft", "CloudTec"), materiais (ex: "Knit", "Gore-Tex") ou diferenciais físicos (ex: "Placa de carbono", "Drop zero").
+    PROIBIDO: NÃO use em tags palavras que já existem em outras colunas: "Iniciante", "Intermediário", "Avançado", "Treino", "Maratona", "Diário", "Asfalto", "Trilha", "Esteira", "Pista", "Neutra", "Pronada", "Supinada", "Leveza", "Custo", "Durabilidade", "Velocidade", "Conforto".
 - levels: ["iniciante", "intermediario", "avancado"] (pode ter mais de um separado por |)
 - pisadas: ["neutra", "pronada", "supinada", "naosabe"] (pode ter mais de um separado por |)
 - terrenos: ["asfalto", "pista", "esteira", "trilha", "mista"] (pode ter mais de um separado por |)
@@ -83,18 +154,22 @@ Exemplo de saída esperada:
 {{
   "sexo": "masculino",
   "brand": "NIKE",
-  "tags": "Amortecimento|Leveza",
+  "tags": "ZoomX|Placa de carbono",
   "levels": "iniciante|intermediario",
   "pisadas": "neutra|naosabe",
   "terrenos": "asfalto|esteira|mista",
-  "priors": "amortecimento|conforto",
+  "priors": "amortecimento|custo",
   "reason": "Amortecimento excepcional da linha Pegasus, perfeito para treinos longos."
 }}
 """
     try:
         response = model.generate_content(prompt)
         texto = response.text.replace("```json", "").replace("```", "").strip()
-        return json.loads(texto)
+        resultado = json.loads(texto)
+        # Override de segurança: se o nome tem gênero explícito, força o valor correto
+        if genero_detectado:
+            resultado["sexo"] = genero_detectado
+        return resultado
     except Exception as e:
         print(f"⚠️ Erro na classificação do Gemini: {e}")
         return {}
@@ -105,7 +180,11 @@ Exemplo de saída esperada:
 def extrair_dados_da_url(url):
     print(f"\nAcessando {url} ...")
     try:
-        response = requests.get(url, headers=HEADERS, timeout=15)
+        response = requests.get(url, headers=HEADERS_HTTP, timeout=15)
+        if response.status_code != 200:
+            print(f"⚠️ Resposta da loja não foi 200 (Status: {response.status_code})")
+            return "", "", ""
+            
         soup = BeautifulSoup(response.content, 'html.parser')
 
         # 1. Tentar pegar o Nome (Title)
@@ -116,8 +195,8 @@ def extrair_dados_da_url(url):
             title_tag = soup.find("title")
             if title_tag: nome = title_tag.text
 
-        # Limpar o nome (remover "Comprar", "Tênis", "- Loja Oficial", etc.)
-        nome = re.sub(r'(?i)(comprar|tênis|tenis|loja oficial|masculino|feminino|- |\|).*', '', nome).strip()
+        # Limpar o nome
+        nome = re.sub(r'(?i)(comprar|loja oficial|- |\|).*', '', nome).strip()
 
         # 2. Tentar pegar a Imagem
         imagem = ""
@@ -126,199 +205,296 @@ def extrair_dados_da_url(url):
 
         # 3. Tentar pegar o Preço
         preco = ""
-        # Buscar no meta
         meta_price = soup.find("meta", property="product:price:amount")
         if meta_price:
-            preco = f"R${meta_price.get('content', '')}"
+            preco = f"R$ {meta_price.get('content', '')}"
         
-        # Buscar no HTML por padrões de R$ 
         if not preco:
             textos_precos = re.findall(r'R\$\s*[\d.]+(?:,\d{2})?', response.text)
             if textos_precos:
-                # Pega o primeiro que parecer válido
                 preco = textos_precos[0]
 
         return nome, preco, imagem
 
     except Exception as e:
-        print(f"⚠️ Erro ao tentar ler a URL: {e}")
+        print(f"⚠️ Erro ao ler a URL: {e}")
         return "", "", ""
 
-# ==============================================================================
-# 🪪 GERADOR DE SLUG (IDENTIFICADOR ÚNICO)
-# ==============================================================================
-def gerar_slug(nome, marca=""):
-    # Concatena marca e nome para garantir unicidade (ex: "Nike Pegasus 42")
-    texto = f"{marca} {nome}".strip().lower()
-    
-    # Remove acentos (ex: tênis -> tenis)
-    texto = unicodedata.normalize('NFKD', texto)
-    texto = "".join([c for c in texto if not unicodedata.combining(c)])
-    
-    # Remove caracteres especiais, mantendo letras e números
-    texto = re.sub(r'[^a-z0-9\s-]', '', texto)
-    
-    # Troca espaços por hifens
-    slug = re.sub(r'[-\s]+', '-', texto).strip('-')
-    return slug
+def get_store_from_url(url):
+    url_lower = url.lower()
+    if "amazon" in url_lower:
+        return "amazon"
+    elif "netshoes" in url_lower:
+        return "netshoes"
+    else:
+        return "loja_oficial"
 
 # ==============================================================================
-# 🚀 FUNÇÃO PRINCIPAL
+# 🛠️ OPERAÇÕES DA PLANILHA
 # ==============================================================================
-def main():
-    print("=========================================")
-    print("👟 SCRAPER POR URL + GOOGLE SHEETS 👟")
-    print("=========================================")
-    print("Conectando à planilha...")
+def marcar_inativo(product_id):
     sheet = conectar_planilha()
-    print("✅ Planilha conectada!")
-
-    while True:
-        url_input = input("\n🔗 Cole a URL do produto (ou digite 'sair' para encerrar): ").strip()
-        if url_input.lower() == 'sair':
+    records = obter_registros(sheet)
+    found_idx = -1
+    for idx, row in enumerate(records):
+        if str(row.get("product_id", "")).strip() == product_id.strip():
+            found_idx = idx + 2  # +2: 1-indexed and header
             break
-        if not url_input.startswith("http"):
-            print("URL inválida.")
-            continue
-
-        nome_extraido, preco_extraido, img_extraida = extrair_dados_da_url(url_input)
-
-        print("-" * 40)
-        print("DADOS EXTRAÍDOS AUTOMATICAMENTE:")
-        print(f"NOME:  {nome_extraido}")
-        print(f"PREÇO: {preco_extraido}")
-        print(f"IMG:   {img_extraida}")
-        print("-" * 40)
-
-        # Determinar qual tipo de loja é a URL
-        is_amazon = "amazon" in url_input.lower()
-        is_netshoes = "netshoes" in url_input.lower()
-        # Assumiremos "Oficial" para Nike/Adidas/Mizuno/Olympikus ou qualquer outra loja genérica que não seja as acima
-        is_oficial = not is_amazon and not is_netshoes
-
-        # Lógica de Identidade: Ler toda a planilha e verificar Slugs
-        linhas = sheet.get_all_values()
-        
-        # Pular o cabeçalho (linha 0 do array, linha 1 da planilha)
-        encontrou_linha = -1
-        slug_novo = gerar_slug(nome_extraido) 
-        
-        for idx, linha in enumerate(linhas):
-            if idx == 0: continue # pula cabeçalho
-            # As colunas são: 0:sexo, 1:brand, 2:name ...
-            if len(linha) > 2:
-                marca_linha = linha[1]
-                nome_linha = linha[2]
-                slug_linha = gerar_slug(nome_linha, marca_linha)
-                
-                # Se ainda não temos uma marca no nome_extraido, podemos tentar cruzar só com o nome
-                slug_novo_com_marca = gerar_slug(nome_extraido, marca_linha)
-                
-                # Tenta match exato pelo nome limpo ou nome+marca
-                if slug_novo == slug_linha or slug_novo_com_marca == slug_linha:
-                    encontrou_linha = idx + 1 # +1 porque gspread começa em 1
-                    break
-        
-        # --- LÓGICA DE MERGE AUTOMÁTICO ---
-        if encontrou_linha != -1:
-            print(f"🔍 Produto ID '{slug_novo}' encontrado na linha {encontrou_linha}!")
             
-            # As colunas de links no Google Sheets são (A=1, B=2...):
-            # N (14) = amazon_link
-            # P (16) = awin_link (Oficial)
-            # Q (17) = netshoes_link
-            
-            col_alvo = 0
-            nome_col = ""
-            if is_amazon: 
-                col_alvo = 14
-                nome_col = "Amazon"
-            elif is_netshoes: 
-                col_alvo = 17
-                nome_col = "Netshoes"
-            else: 
-                col_alvo = 16
-                nome_col = "Loja Oficial"
-                
-            print(f"⚙️ Atualizando oferta da loja {nome_col} automaticamente...")
-            try:
-                sheet.update_cell(encontrou_linha, col_alvo, url_input)
-                # Atualiza também o preço (coluna G = 7) se for Oficial, ou mantemos o original?
-                # Vamos manter seguro e apenas adicionar o link secundário para o usuário validar
-                print(f"✅ SUCESSO! Link atualizado na linha {encontrou_linha}.")
-            except Exception as e:
-                print(f"❌ Erro ao atualizar planilha: {e}")
-            
-            continue # Pula a criação e vai para a próxima URL
-            
-        # Fallback manual caso o bloqueio do site impeça a extração (e não seja duplicado)
-        if not nome_extraido or not preco_extraido:
-            print("⚠️ Não foi possível extrair Nome/Preço automaticamente (possível bloqueio da loja).")
-            res = input("Deseja digitar manualmente? (s/n): ").strip().lower()
-            if res == 's':
-                if not nome_extraido: nome_extraido = input("Digite o NOME do tênis: ").strip()
-                if not preco_extraido: preco_extraido = input("Digite o PREÇO (ex: R$500): ").strip()
-                if not img_extraida: img_extraida = input("Cole a URL da IMAGEM: ").strip()
-            else:
-                print("Pulando URL...")
-                continue
-
-        # Se passou direto, é um produto NOVO. Mandar pro Gemini
-
-        print("🧠 Enviando para a Inteligência Artificial classificar...")
-        ia_specs = analisar_tenis_com_gemini(nome_extraido, preco_extraido)
+    if found_idx == -1:
+        print(f"⚠️ Produto com ID '{product_id}' não encontrado.")
+        return
         
-        if not ia_specs:
-            print("⚠️ IA não conseguiu classificar. Inserindo dados mínimos.")
-            ia_specs = {}
+    sheet.update_cell(found_idx, 2, "nao")  # coluna B é 'ativo'
+    print(f"✅ Produto '{product_id}' marcado como INATIVO com sucesso.")
 
-        # Determinar orçamento (budget) com base no preço formatado final
-        budget = "300a600"
+def reativar(product_id):
+    sheet = conectar_planilha()
+    records = obter_registros(sheet)
+    found_idx = -1
+    for idx, row in enumerate(records):
+        if str(row.get("product_id", "")).strip() == product_id.strip():
+            found_idx = idx + 2
+            break
+            
+    if found_idx == -1:
+        print(f"⚠️ Produto com ID '{product_id}' não encontrado.")
+        return
+        
+    sheet.update_cell(found_idx, 2, "sim")
+    print(f"✅ Produto '{product_id}' reativado com sucesso (ATIVO).")
+
+# ==============================================================================
+# 🚀 PROCESSO DE INSERÇÃO / ATUALIZAÇÃO
+# ==============================================================================
+def processar_produto(url, sexo_cli=None):
+    sheet = conectar_planilha()
+    store = get_store_from_url(url)
+    store_label = STORE_LABELS.get(store, store)
+    
+    nome_extraido, preco_extraido, img_extraida = extrair_dados_da_url(url)
+
+    print("-" * 40)
+    print("DADOS EXTRAÍDOS AUTOMATICAMENTE:")
+    print(f"NOME:  {nome_extraido}")
+    print(f"PREÇO: {preco_extraido}")
+    print(f"IMG:   {img_extraida}")
+    print("-" * 40)
+
+    # Fallback manual caso falhe
+    if not nome_extraido or not preco_extraido:
+        print("⚠️ Não foi possível extrair Nome/Preço automaticamente (possível bloqueio da loja).")
+        res = input("Deseja digitar manualmente? (s/n): ").strip().lower()
+        if res in ("s", "sim"):
+            if not nome_extraido: nome_extraido = input("Digite o NOME do tênis: ").strip()
+            if not preco_extraido: preco_extraido = input("Digite o PREÇO listado (ex: R$ 500,00): ").strip()
+            if not img_extraida: img_extraida = input("Cole a URL da IMAGEM: ").strip()
+        else:
+            print("Pulando URL...")
+            return
+
+    # Solicitar versão opcional
+    versao = ""
+    res_v = input("Deseja informar uma VERSÃO/Variante específica? (ex: Trail, Shield, V2) [Pressione Enter para pular]: ").strip()
+    if res_v:
+        versao = res_v
+
+    # Classificação Gemini
+    print("🧠 Enviando para a Inteligência Artificial classificar...")
+    ia_specs = analisar_tenis_com_gemini(nome_extraido, preco_extraido)
+    
+    # Se a classificação falhar ou retornar vazia (ex: limite de cota 429)
+    if not ia_specs:
+        print("\n⚠️ O Gemini atingiu o limite de cota ou falhou. Vamos preencher as especificações manualmente:")
+        ia_specs = {}
+        
+        # Marca
+        marca_input = input("Digite a MARCA do tênis [Enter para usar 'Nike']: ").strip().upper()
+        ia_specs["brand"] = marca_input if marca_input else "NIKE"
+        
+        # Gênero
+        sexo_input = input("Gênero [masculino/feminino/unissex] [Enter para unissex]: ").strip().lower()
+        ia_specs["sexo"] = sexo_input if sexo_input in ["masculino", "feminino", "unissex"] else "unissex"
+        
+        # Tags
+        tags_input = input("Digite as TAGS separadas por | (ex: Gel|Knit) [Enter para pular]: ").strip()
+        ia_specs["tags"] = tags_input
+        
+        # Nível
+        nivel_input = input("Nível [iniciante/intermediario/avancado] [Enter para iniciante]: ").strip().lower()
+        ia_specs["levels"] = nivel_input if nivel_input in ["iniciante", "intermediario", "avancado"] else "iniciante"
+        
+        # Pisada
+        pisada_input = input("Pisada [neutra/pronada/supinada/naosabe] [Enter para neutra]: ").strip().lower()
+        ia_specs["pisadas"] = pisada_input if pisada_input in ["neutra", "pronada", "supinada", "naosabe"] else "neutra"
+        
+        # Terreno
+        terreno_input = input("Terreno [asfalto/pista/esteira/trilha/mista] [Enter para asfalto]: ").strip().lower()
+        ia_specs["terrenos"] = terreno_input if terreno_input in ["asfalto", "pista", "esteira", "trilha", "mista"] else "asfalto"
+        
+        # Prioridades
+        priors_input = input("Prioridades [amortecimento/leveza/durabilidade/custo] [Enter para custo]: ").strip().lower()
+        ia_specs["priors"] = priors_input if priors_input in ["amortecimento", "leveza", "durabilidade", "custo"] else "custo"
+        
+        # Razão
+        reason_input = input("Frase de recomendação (razão) [Enter para pular]: ").strip()
+        ia_specs["reason"] = reason_input
+        
+    marca = ia_specs.get("brand", "Nike").title()
+    
+    # Gerar slug para busca
+    slug_novo = gerar_slug(marca, nome_extraido, versao)
+    
+    # Carregar registros sem erros de cabeçalho duplicado
+    records = obter_registros(sheet)
+    encontrou_linha = -1
+    for idx, row in enumerate(records):
+        if str(row.get("product_id", "")).strip() == slug_novo:
+            encontrou_linha = idx + 2
+            break
+
+    # Se já existe, atualiza apenas a oferta daquela loja (Merge)
+    if encontrou_linha != -1:
+        print(f"🔍 Produto ID '{slug_novo}' encontrado na linha {encontrou_linha}!")
+        print(f"⚙️ Atualizando oferta da loja {store_label}...")
+        
+        store_base_col = SCHEMA_COLS.index(f"link_{store}") + 1 # +1 gspread 1-based
+        
+        # Coleta parcelas e pix do terminal
+        preco_pix = ""
+        if store != "amazon":
+            preco_pix = input(f"Preço PIX na {store_label} (ex: R$ 450,00) [Enter para pular]: ").strip()
+        parcelas = input(f"Condições de parcelamento na {store_label} (ex: 10x sem juros) [Enter para pular]: ").strip()
+        
         try:
-            p = float(re.sub(r'[^\d,.-]', '', preco_extraido).replace('.', '').replace(',', '.'))
-            if p < 300: budget = "ate300"
-            elif 300 <= p <= 600: budget = "300a600"
-            elif 600 <= p <= 1000: budget = "600a1000"
-            else: budget = "acima1000"
-        except: pass
-
-        # Determinar em qual coluna de link inserir baseado na URL
-        link_amazon = url_input if "amazon" in url_input else ""
-        link_netshoes = url_input if "netshoes" in url_input else ""
-        # Assumiremos "Oficial" para Nike/Adidas/Mizuno/Olympikus
-        link_oficial = url_input if ("nike" in url_input or "adidas" in url_input or "mizuno" in url_input or "olympikus" in url_input) else ""
-
-        # Ordem exata das colunas:
-        # 0:sexo, 1:brand, 2:name, 3:img, 4:emoji, 5:tags, 6:price, 7:budget, 8:levels, 
-        # 9:pisadas, 10:terrenos, 11:priors, 12:reason, 13:amazon_link, 14:popular, 15:awin_link (Oficial), 16:netshoes_link
-        
-        nova_linha = [
-            ia_specs.get("sexo", "unissex"),
-            ia_specs.get("brand", "DESCONHECIDA"),
-            nome_extraido,
-            img_extraida,
-            "👟",
-            ia_specs.get("tags", ""),
-            preco_extraido,
-            budget,
-            ia_specs.get("levels", "iniciante"),
-            ia_specs.get("pisadas", "neutra"),
-            ia_specs.get("terrenos", "asfalto"),
-            ia_specs.get("priors", "custo"),
-            ia_specs.get("reason", ""),
-            link_amazon,
-            "", # popular
-            link_oficial,
-            link_netshoes
-        ]
-
-        # Inserir no Google Sheets
-        print("📝 Escrevendo nova linha no Google Sheets...")
-        try:
-            sheet.append_row(nova_linha)
-            print("✅ SUCESSO! Produto adicionado com perfeição!")
+            sheet.update_cell(encontrou_linha, store_base_col, url)            # link
+            sheet.update_cell(encontrou_linha, store_base_col + 1, preco_extraido) # preco
+            
+            if store == "amazon":
+                if parcelas:
+                    sheet.update_cell(encontrou_linha, store_base_col + 2, parcelas) # parcelas
+            elif store == "loja_oficial":
+                if parcelas:
+                    sheet.update_cell(encontrou_linha, store_base_col + 2, parcelas) # parcelas
+                if preco_pix:
+                    sheet.update_cell(encontrou_linha, store_base_col + 3, preco_pix) # preco_pix
+            elif store == "netshoes":
+                if preco_pix:
+                    sheet.update_cell(encontrou_linha, store_base_col + 2, preco_pix) # preco_pix
+                if parcelas:
+                    sheet.update_cell(encontrou_linha, store_base_col + 3, parcelas) # parcelas
+                
+            # Garante que o produto esteja ativo se receber nova oferta
+            sheet.update_cell(encontrou_linha, 2, "sim")
+            print(f"✅ SUCESSO! Oferta da loja {store_label} atualizada na linha {encontrou_linha}.")
         except Exception as e:
-            print(f"❌ Erro ao adicionar linha na planilha: {e}")
+            print(f"❌ Erro ao atualizar planilha: {e}")
+        return
 
+    # Se é um produto NOVO, preenche tudo e anexa nova linha
+    print(f"✨ Cadastrando novo produto '{nome_extraido}' com ID '{slug_novo}'...")
+    
+    # Preço PIX e parcelamento específicos da loja
+    preco_pix = ""
+    if store != "amazon":
+        preco_pix = input(f"Preço PIX na {store_label} (ex: R$ 450,00) [Enter para pular]: ").strip()
+    parcelas = input(f"Condições de parcelamento na {store_label} (ex: 10x sem juros) [Enter para pular]: ").strip()
+
+    # Determinar orçamento (budget)
+    budget = "300a600"
+    try:
+        p_val = preco_pix or preco_extraido
+        p = float(re.sub(r'[^\d,.-]', '', p_val).replace('.', '').replace(',', '.'))
+        if p < 300: budget = "ate300"
+        elif 300 <= p <= 600: budget = "300a600"
+        elif 600 < p <= 1000: budget = "600a1000"
+        else: budget = "acima1000"
+    except:
+        pass
+
+    # Determinar gênero (sexo)
+    sexo_final = ia_specs.get("sexo", "unissex")
+    if sexo_cli:
+        sexo_final = sexo_cli
+        print(f"⚧️ Gênero forçado via argumento: {sexo_final}")
+    else:
+        print(f"⚧️ Gênero detectado: {sexo_final}")
+        sexo_input = input("Alterar gênero? [m]asculino / [f]eminino / [u]nissex ou [Enter] para manter: ").strip().lower()
+        if sexo_input in ["m", "masculino"]:
+            sexo_final = "masculino"
+        elif sexo_input in ["f", "feminino"]:
+            sexo_final = "feminino"
+        elif sexo_input in ["u", "unissex"]:
+            sexo_final = "unissex"
+
+    # Cria dicionário do produto
+    prod_dict = {col: "" for col in SCHEMA_COLS}
+    prod_dict["product_id"] = slug_novo
+    prod_dict["ativo"] = "sim"
+    prod_dict["marca"] = marca
+    prod_dict["nome"] = nome_extraido
+    prod_dict["versao"] = versao
+    prod_dict["sexo"] = sexo_final
+    prod_dict["img"] = img_extraida
+    prod_dict["emoji"] = "👟"
+    prod_dict["tags"] = ia_specs.get("tags", "")
+    prod_dict["budget"] = budget
+    prod_dict["nível"] = ia_specs.get("levels", "iniciante")
+    prod_dict["pisada"] = ia_specs.get("pisadas", "neutra")
+    prod_dict["terreno"] = ia_specs.get("terrenos", "asfalto")
+    prod_dict["priors"] = ia_specs.get("priors", "custo")
+    prod_dict["razão"] = ia_specs.get("reason", "")
+    
+    # Insere link, preco, pix, parcelas específicos da loja
+    prod_dict[f"link_{store}"] = url
+    prod_dict[f"preco_{store}"] = preco_extraido
+    if store != "amazon":
+        if store == "loja_oficial":
+            prod_dict["preco_pix_oficial"] = preco_pix
+        elif store == "netshoes":
+            prod_dict["preco_pix_netshoes"] = preco_pix
+    prod_dict[f"parcelas_{store}"] = parcelas
+
+    nova_linha = [prod_dict[col] for col in SCHEMA_COLS]
+    
+    try:
+        sheet.append_row(nova_linha)
+        print("✅ SUCESSO! Novo produto adicionado com perfeição!")
+    except Exception as e:
+        print(f"❌ Erro ao adicionar linha na planilha: {e}")
+
+# ==============================================================================
+# 🎮 ENTRYPOINT
+# ==============================================================================
 if __name__ == "__main__":
-    main()
+    parser = argparse.ArgumentParser(description="Scraper TenisIdeal com exclusão lógica e fallback manual")
+    parser.add_argument("url", nargs="?", help="URL do produto a ser inserido")
+    parser.add_argument("--delete", help="Marca produto como inativo usando product_id")
+    parser.add_argument("--reactivate", help="Reativa produto usando product_id")
+    parser.add_argument("--sexo", choices=["masculino", "feminino", "unissex"], help="Força o gênero do produto")
+    args = parser.parse_args()
+
+    if args.delete:
+        marcar_inativo(args.delete)
+        sys.exit(0)
+        
+    if args.reactivate:
+        reativar(args.reactivate)
+        sys.exit(0)
+        
+    if args.url:
+        processar_produto(args.url, sexo_cli=args.sexo)
+    else:
+        # Modo interativo padrão se nenhum argumento for fornecido
+        print("=========================================")
+        print("👟 SCRAPER POR URL + GOOGLE SHEETS 👟")
+        print("=========================================")
+        while True:
+            url_input = input("\n🔗 Cole a URL do produto (ou digite 'sair' para encerrar): ").strip()
+            if url_input.lower() == 'sair':
+                print("👋 Programa finalizado.")
+                break
+            if not url_input.startswith("http"):
+                print("URL inválida.")
+                continue
+            processar_produto(url_input)

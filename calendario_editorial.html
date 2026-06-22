@@ -1,0 +1,1092 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Calendário Editorial — TênisIdeal</title>
+<style>
+  @import url('https://fonts.googleapis.com/css2?family=Outfit:wght@400;500;600;700&family=Bebas+Neue&display=swap');
+
+  :root {
+    --bg: #090b0f;
+    --card-bg: rgba(22, 28, 45, 0.5);
+    --border: rgba(255, 255, 255, 0.08);
+    --border-hover: rgba(255, 255, 255, 0.15);
+    --text: #f1f3f9;
+    --muted: #8b9bb4;
+    --green: #10B981;
+    --yellow: #F59E0B;
+    --red: #EF4444;
+    --blue: #3B82F6;
+    --purple: #8B5CF6;
+  }
+
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+
+  body {
+    font-family: 'Outfit', sans-serif;
+    background: var(--bg);
+    color: var(--text);
+    min-height: 100vh;
+    padding: 40px 24px;
+    background-image: radial-gradient(circle at 10% 20%, rgba(59, 130, 246, 0.05) 0%, transparent 40%),
+                      radial-gradient(circle at 90% 80%, rgba(139, 92, 246, 0.05) 0%, transparent 40%);
+  }
+
+  .container {
+    max-width: 900px;
+    margin: 0 auto;
+  }
+
+  .header {
+    text-align: center;
+    margin-bottom: 40px;
+  }
+
+  .logo {
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 2.5rem;
+    letter-spacing: 2px;
+    color: var(--text);
+    margin-bottom: 8px;
+  }
+
+  .logo span { color: var(--green); }
+
+  .header p {
+    color: var(--muted);
+    font-size: 0.95rem;
+  }
+
+  .tag-seeds {
+    margin-top: 12px;
+    display: flex;
+    justify-content: center;
+    gap: 8px;
+    flex-wrap: wrap;
+  }
+
+  .seed-badge {
+    background: rgba(255, 255, 255, 0.05);
+    border: 1px solid var(--border);
+    padding: 4px 12px;
+    border-radius: 99px;
+    font-size: 0.8rem;
+    color: var(--muted);
+  }
+
+  .stats-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+    gap: 16px;
+    margin-bottom: 40px;
+  }
+
+  .stat-card {
+    background: var(--card-bg);
+    border: 1px solid var(--border);
+    border-radius: 16px;
+    padding: 24px;
+    text-align: center;
+    backdrop-filter: blur(8px);
+  }
+
+  .stat-val {
+    font-size: 2.25rem;
+    font-weight: 700;
+    margin-bottom: 4px;
+  }
+
+  .stat-lbl {
+    font-size: 0.8rem;
+    color: var(--muted);
+    text-transform: uppercase;
+    letter-spacing: 1px;
+  }
+
+  .stat-card.green .stat-val { color: var(--green); }
+  .stat-card.yellow .stat-val { color: var(--yellow); }
+  .stat-card.red .stat-val { color: var(--red); }
+  .stat-card.blue .stat-val { color: var(--blue); }
+
+  .filters-bar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 24px;
+    background: rgba(255, 255, 255, 0.02);
+    border: 1px solid var(--border);
+    padding: 12px 20px;
+    border-radius: 12px;
+  }
+
+  .filters-lbl {
+    font-size: 0.9rem;
+    color: var(--muted);
+  }
+
+  .filter-btns {
+    display: flex;
+    gap: 8px;
+  }
+
+  .filter-btn {
+    background: rgba(255, 255, 255, 0.05);
+    border: 1px solid var(--border);
+    padding: 6px 14px;
+    border-radius: 8px;
+    color: var(--muted);
+    font-size: 0.85rem;
+    cursor: pointer;
+    transition: all 0.2s;
+  }
+
+  .filter-btn:hover, .filter-btn.active {
+    background: var(--text);
+    color: var(--bg);
+    border-color: var(--text);
+  }
+
+  .cards-list {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  .card {
+    background: var(--card-bg);
+    border: 1px solid var(--border);
+    border-radius: 18px;
+    padding: 24px;
+    transition: all 0.3s;
+    backdrop-filter: blur(8px);
+  }
+
+  .card:hover {
+    border-color: var(--border-hover);
+    transform: translateY(-2px);
+    box-shadow: 0 8px 30px rgba(0, 0, 0, 0.3);
+  }
+
+  .card-comp-low { border-left: 4px solid var(--green); }
+  .card-comp-medium { border-left: 4px solid var(--yellow); }
+  .card-comp-high { border-left: 4px solid var(--red); }
+
+  .card-header {
+    display: flex;
+    align-items: flex-start;
+    gap: 16px;
+    margin-bottom: 16px;
+  }
+
+  .rank-number {
+    background: rgba(255, 255, 255, 0.05);
+    border: 1px solid var(--border);
+    width: 36px;
+    height: 36px;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 700;
+    color: var(--muted);
+    flex-shrink: 0;
+  }
+
+  .header-main {
+    flex-grow: 1;
+  }
+
+  .header-main h3 {
+    font-size: 1.15rem;
+    font-weight: 600;
+    line-height: 1.4;
+    margin-bottom: 4px;
+  }
+
+  .kw-label {
+    font-size: 0.85rem;
+    color: var(--muted);
+  }
+
+  .kw-label strong {
+    color: var(--text);
+  }
+
+  .badges-wrap {
+    display: flex;
+    gap: 8px;
+    align-items: center;
+    flex-shrink: 0;
+  }
+
+  .badge {
+    font-size: 0.75rem;
+    font-weight: 600;
+    padding: 4px 10px;
+    border-radius: 6px;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+  }
+
+  .intent-informacional { background: rgba(59, 130, 246, 0.15); color: var(--blue); border: 1px solid rgba(59, 130, 246, 0.3); }
+  .intent-comercial { background: rgba(139, 92, 246, 0.15); color: var(--purple); border: 1px solid rgba(139, 92, 246, 0.3); }
+  .intent-transacional { background: rgba(245, 158, 11, 0.15); color: var(--yellow); border: 1px solid rgba(245, 158, 11, 0.3); }
+
+  .comp-low { background: rgba(16, 185, 129, 0.15); color: var(--green); border: 1px solid rgba(16, 185, 129, 0.3); }
+  .comp-medium { background: rgba(245, 158, 11, 0.15); color: var(--yellow); border: 1px solid rgba(245, 158, 11, 0.3); }
+  .comp-high { background: rgba(239, 68, 68, 0.15); color: var(--red); border: 1px solid rgba(239, 68, 68, 0.3); }
+
+  .card-body {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+  }
+
+  .analysis-section {
+    display: flex;
+    gap: 24px;
+    background: rgba(0, 0, 0, 0.15);
+    padding: 12px 20px;
+    border-radius: 12px;
+  }
+
+  .metric-mini {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .metric-val {
+    font-size: 1.1rem;
+    font-weight: 600;
+  }
+
+  .metric-lbl {
+    font-size: 0.75rem;
+    color: var(--muted);
+  }
+
+  .briefing-toggle-btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 6px;
+    background: rgba(255, 255, 255, 0.03);
+    border: 1px solid var(--border);
+    padding: 8px;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 0.85rem;
+    color: var(--muted);
+    transition: all 0.2s;
+  }
+
+  .briefing-toggle-btn:hover {
+    background: rgba(255, 255, 255, 0.07);
+    color: var(--text);
+  }
+
+  .briefing-toggle-btn svg {
+    width: 16px;
+    height: 16px;
+    fill: currentColor;
+    transition: transform 0.2s;
+  }
+
+  .briefing-toggle-btn.active svg {
+    transform: rotate(180deg);
+  }
+
+  .briefing-drawer {
+    margin-top: 10px;
+    border-top: 1px dashed var(--border);
+    padding-top: 16px;
+  }
+
+  .briefing-drawer.hidden {
+    display: none;
+  }
+
+  .drawer-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 24px;
+  }
+
+  @media (max-width: 768px) {
+    .drawer-grid {
+      grid-template-columns: 1fr;
+    }
+    .card-header {
+      flex-direction: column;
+      gap: 12px;
+    }
+    .badges-wrap {
+      align-self: flex-start;
+    }
+  }
+
+  .sub-title {
+    font-size: 0.9rem;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    color: var(--muted);
+    margin-bottom: 12px;
+    font-weight: 600;
+  }
+
+  .outline-list {
+    list-style: none;
+    font-size: 0.85rem;
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+  }
+
+  .outline-list li {
+    padding-left: 14px;
+    position: relative;
+    line-height: 1.4;
+  }
+
+  .outline-list li::before {
+    content: "•";
+    position: absolute;
+    left: 0;
+    color: var(--green);
+  }
+
+  .shoes-wrap {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 6px;
+  }
+
+  .shoe-tag {
+    background: rgba(255, 255, 255, 0.05);
+    border: 1px solid var(--border);
+    padding: 4px 10px;
+    border-radius: 6px;
+    font-size: 0.8rem;
+    color: var(--text);
+  }
+
+  .shoe-tag.none {
+    color: var(--muted);
+    border-style: dashed;
+  }
+
+  .serp-list {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .serp-item {
+    display: flex;
+    gap: 12px;
+    background: rgba(0,0,0,0.1);
+    padding: 8px 12px;
+    border-radius: 8px;
+    border: 1px solid rgba(255,255,255,0.02);
+  }
+
+  .serp-rank {
+    font-size: 0.8rem;
+    font-weight: 700;
+    color: var(--muted);
+    width: 20px;
+    flex-shrink: 0;
+  }
+
+  .serp-content {
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+  }
+
+  .serp-title {
+    color: var(--blue);
+    font-size: 0.8rem;
+    font-weight: 500;
+    text-decoration: none;
+    line-height: 1.3;
+  }
+
+  .serp-title:hover {
+    text-decoration: underline;
+  }
+
+  .serp-meta {
+    display: flex;
+    gap: 8px;
+    flex-wrap: wrap;
+    align-items: center;
+    font-size: 0.7rem;
+    margin-top: 4px;
+  }
+
+  .serp-url {
+    color: var(--muted);
+  }
+
+  .badge-ecom, .badge-blog {
+    padding: 1px 6px;
+    border-radius: 3px;
+    font-weight: 600;
+  }
+
+  .badge-ecom { background: rgba(239, 68, 68, 0.1); color: var(--red); }
+  .badge-blog { background: rgba(16, 185, 129, 0.1); color: var(--green); }
+
+  .serp-opt {
+    color: var(--muted);
+  }
+  .serp-opt.True {
+    color: var(--green);
+    font-weight: 500;
+  }
+
+  .footer {
+    text-align: center;
+    margin-top: 60px;
+    color: var(--muted);
+    font-size: 0.8rem;
+  }
+</style>
+</head>
+<body>
+
+<div class="container">
+
+  <div class="header">
+    <div class="logo">Tênis<span>ideal</span></div>
+    <h1>Calendário Editorial Mensal</h1>
+    <p>As 10 melhores oportunidades de palavras-chave selecionadas por ROI e baixa concorrência.</p>
+    <p style="margin-top:4px">Gerado em: 19/06/2026 às 00:08</p>
+    <div class="tag-seeds">
+      <span class="seed-badge">Semente: tênis de corrida</span><span class="seed-badge">Semente: melhor tênis de corrida</span><span class="seed-badge">Semente: tênis de corrida barato</span><span class="seed-badge">Semente: tênis para pisada pronada</span>
+    </div>
+  </div>
+
+  <div class="stats-grid">
+    <div class="stat-card blue">
+      <div class="stat-val">10</div>
+      <div class="stat-lbl">Oportunidades</div>
+    </div>
+    <div class="stat-card green">
+      <div class="stat-val">0</div>
+      <div class="stat-lbl">Concorrência Fácil</div>
+    </div>
+    <div class="stat-card yellow">
+      <div class="stat-val">10</div>
+      <div class="stat-lbl">Concorrência Média</div>
+    </div>
+    <div class="stat-card red">
+      <div class="stat-val">0</div>
+      <div class="stat-lbl">Concorrência Difícil</div>
+    </div>
+  </div>
+
+  <div class="filters-bar">
+    <span class="filters-lbl">Filtrar por Dificuldade:</span>
+    <div class="filter-btns">
+      <button class="filter-btn active" onclick="filterDifficulty('todos')">Todos</button>
+      <button class="filter-btn" onclick="filterDifficulty('fácil')">Fácil</button>
+      <button class="filter-btn" onclick="filterDifficulty('média')">Média</button>
+      <button class="filter-btn" onclick="filterDifficulty('difícil')">Difícil</button>
+    </div>
+  </div>
+
+  <div class="cards-list">
+    
+        <div class="card card-comp-medium" data-comp="média">
+            <div class="card-header">
+                <span class="rank-number">#1</span>
+                <div class="header-main">
+                    <h3>Os Melhor Tenis De Corrida Feminino Barato que Valem a Pena em 2026</h3>
+                    <p class="kw-label">Palavra-chave: <strong>melhor tenis de corrida feminino barato</strong></p>
+                </div>
+                <div class="badges-wrap">
+                    <span class="badge intent-comercial">Comercial</span>
+                    <span class="badge comp-medium">Média (50/100)</span>
+                </div>
+            </div>
+            
+            <div class="card-body">
+                <div class="analysis-section">
+                    <div class="metric-mini">
+                        <div class="metric-val">7/10</div>
+                        <div class="metric-lbl">Índice de Interesse</div>
+                    </div>
+                    <div class="metric-mini">
+                        <div class="metric-val">64</div>
+                        <div class="metric-lbl">Score Oportunidade</div>
+                    </div>
+                </div>
+                
+                <div class="briefing-toggle-btn" onclick="toggleBriefing(this)">
+                    <span>Ver Briefing e Concorrentes</span>
+                    <svg viewBox="0 0 24 24"><path d="M7 10l5 5 5-5z"/></svg>
+                </div>
+                
+                <div class="briefing-drawer hidden">
+                    <div class="drawer-grid">
+                        <div class="briefing-left">
+                            <h4 class="sub-title">📝 Estrutura Sugerida do Artigo</h4>
+                            <ul class="outline-list">
+                                <li>## 1. Introdução: Por que Escolher com Cuidado?</li><li>## 2. Fatores Críticos a Analisar (Amortecimento, Peso, Drop)</li><li>## 3. Tabela Resumo dos Selecionados</li><li>## 4. Análise Detalhada dos Melhores Modelos</li><li>## 5. Qual o Mais Barato do Ranking?</li><li>## 6. Como Identificar Sua Pisada Corrida</li><li>## 7. Conclusão: Escolha do Editor</li>
+                            </ul>
+                            
+                            <h4 class="sub-title" style="margin-top:20px;">👟 Tênis Sugeridos para Incluir</h4>
+                            <div class="shoes-wrap">
+                                <span class="shoe-tag">Olympikus Corre 3</span><span class="shoe-tag">Nike Pegasus 40</span><span class="shoe-tag">Mizuno Wave Rider 27</span><span class="shoe-tag">Adidas Duramo Speed</span>
+                            </div>
+                        </div>
+                        
+                        <div class="briefing-right">
+                            <h4 class="sub-title">🔍 Quem está ranqueando na busca (Top 4)</h4>
+                            <div class="serp-list">
+                                
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="card card-comp-medium" data-comp="média">
+            <div class="card-header">
+                <span class="rank-number">#2</span>
+                <div class="header-main">
+                    <h3>Os Melhor Tenis De Corrida Barato que Valem a Pena em 2026</h3>
+                    <p class="kw-label">Palavra-chave: <strong>melhor tenis de corrida barato</strong></p>
+                </div>
+                <div class="badges-wrap">
+                    <span class="badge intent-comercial">Comercial</span>
+                    <span class="badge comp-medium">Média (50/100)</span>
+                </div>
+            </div>
+            
+            <div class="card-body">
+                <div class="analysis-section">
+                    <div class="metric-mini">
+                        <div class="metric-val">7/10</div>
+                        <div class="metric-lbl">Índice de Interesse</div>
+                    </div>
+                    <div class="metric-mini">
+                        <div class="metric-val">64</div>
+                        <div class="metric-lbl">Score Oportunidade</div>
+                    </div>
+                </div>
+                
+                <div class="briefing-toggle-btn" onclick="toggleBriefing(this)">
+                    <span>Ver Briefing e Concorrentes</span>
+                    <svg viewBox="0 0 24 24"><path d="M7 10l5 5 5-5z"/></svg>
+                </div>
+                
+                <div class="briefing-drawer hidden">
+                    <div class="drawer-grid">
+                        <div class="briefing-left">
+                            <h4 class="sub-title">📝 Estrutura Sugerida do Artigo</h4>
+                            <ul class="outline-list">
+                                <li>## 1. Introdução: Por que Escolher com Cuidado?</li><li>## 2. Fatores Críticos a Analisar (Amortecimento, Peso, Drop)</li><li>## 3. Tabela Resumo dos Selecionados</li><li>## 4. Análise Detalhada dos Melhores Modelos</li><li>## 5. Qual o Mais Barato do Ranking?</li><li>## 6. Como Identificar Sua Pisada Corrida</li><li>## 7. Conclusão: Escolha do Editor</li>
+                            </ul>
+                            
+                            <h4 class="sub-title" style="margin-top:20px;">👟 Tênis Sugeridos para Incluir</h4>
+                            <div class="shoes-wrap">
+                                <span class="shoe-tag">Olympikus Corre 3</span><span class="shoe-tag">Nike Pegasus 40</span><span class="shoe-tag">Mizuno Wave Rider 27</span><span class="shoe-tag">Adidas Duramo Speed</span>
+                            </div>
+                        </div>
+                        
+                        <div class="briefing-right">
+                            <h4 class="sub-title">🔍 Quem está ranqueando na busca (Top 4)</h4>
+                            <div class="serp-list">
+                                
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="card card-comp-medium" data-comp="média">
+            <div class="card-header">
+                <span class="rank-number">#3</span>
+                <div class="header-main">
+                    <h3>Os Melhor Tênis De Corrida Até 500 Reais que Valem a Pena em 2026</h3>
+                    <p class="kw-label">Palavra-chave: <strong>melhor tênis de corrida até 500 reais</strong></p>
+                </div>
+                <div class="badges-wrap">
+                    <span class="badge intent-comercial">Comercial</span>
+                    <span class="badge comp-medium">Média (50/100)</span>
+                </div>
+            </div>
+            
+            <div class="card-body">
+                <div class="analysis-section">
+                    <div class="metric-mini">
+                        <div class="metric-val">6/10</div>
+                        <div class="metric-lbl">Índice de Interesse</div>
+                    </div>
+                    <div class="metric-mini">
+                        <div class="metric-val">62</div>
+                        <div class="metric-lbl">Score Oportunidade</div>
+                    </div>
+                </div>
+                
+                <div class="briefing-toggle-btn" onclick="toggleBriefing(this)">
+                    <span>Ver Briefing e Concorrentes</span>
+                    <svg viewBox="0 0 24 24"><path d="M7 10l5 5 5-5z"/></svg>
+                </div>
+                
+                <div class="briefing-drawer hidden">
+                    <div class="drawer-grid">
+                        <div class="briefing-left">
+                            <h4 class="sub-title">📝 Estrutura Sugerida do Artigo</h4>
+                            <ul class="outline-list">
+                                <li>## 1. Introdução: Por que Escolher com Cuidado?</li><li>## 2. Fatores Críticos a Analisar (Amortecimento, Peso, Drop)</li><li>## 3. Tabela Resumo dos Selecionados</li><li>## 4. Análise Detalhada dos Melhores Modelos</li><li>## 5. Qual o Mais Barato do Ranking?</li><li>## 6. Como Identificar Sua Pisada Corrida</li><li>## 7. Conclusão: Escolha do Editor</li>
+                            </ul>
+                            
+                            <h4 class="sub-title" style="margin-top:20px;">👟 Tênis Sugeridos para Incluir</h4>
+                            <div class="shoes-wrap">
+                                <span class="shoe-tag">Olympikus Corre 3</span><span class="shoe-tag">Nike Pegasus 40</span><span class="shoe-tag">Mizuno Wave Rider 27</span><span class="shoe-tag">Adidas Duramo Speed</span>
+                            </div>
+                        </div>
+                        
+                        <div class="briefing-right">
+                            <h4 class="sub-title">🔍 Quem está ranqueando na busca (Top 4)</h4>
+                            <div class="serp-list">
+                                
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="card card-comp-medium" data-comp="média">
+            <div class="card-header">
+                <span class="rank-number">#4</span>
+                <div class="header-main">
+                    <h3>Os Melhor Tenis De Corrida Mais Barato que Valem a Pena em 2026</h3>
+                    <p class="kw-label">Palavra-chave: <strong>melhor tenis de corrida mais barato</strong></p>
+                </div>
+                <div class="badges-wrap">
+                    <span class="badge intent-comercial">Comercial</span>
+                    <span class="badge comp-medium">Média (50/100)</span>
+                </div>
+            </div>
+            
+            <div class="card-body">
+                <div class="analysis-section">
+                    <div class="metric-mini">
+                        <div class="metric-val">6/10</div>
+                        <div class="metric-lbl">Índice de Interesse</div>
+                    </div>
+                    <div class="metric-mini">
+                        <div class="metric-val">62</div>
+                        <div class="metric-lbl">Score Oportunidade</div>
+                    </div>
+                </div>
+                
+                <div class="briefing-toggle-btn" onclick="toggleBriefing(this)">
+                    <span>Ver Briefing e Concorrentes</span>
+                    <svg viewBox="0 0 24 24"><path d="M7 10l5 5 5-5z"/></svg>
+                </div>
+                
+                <div class="briefing-drawer hidden">
+                    <div class="drawer-grid">
+                        <div class="briefing-left">
+                            <h4 class="sub-title">📝 Estrutura Sugerida do Artigo</h4>
+                            <ul class="outline-list">
+                                <li>## 1. Introdução: Por que Escolher com Cuidado?</li><li>## 2. Fatores Críticos a Analisar (Amortecimento, Peso, Drop)</li><li>## 3. Tabela Resumo dos Selecionados</li><li>## 4. Análise Detalhada dos Melhores Modelos</li><li>## 5. Qual o Mais Barato do Ranking?</li><li>## 6. Como Identificar Sua Pisada Corrida</li><li>## 7. Conclusão: Escolha do Editor</li>
+                            </ul>
+                            
+                            <h4 class="sub-title" style="margin-top:20px;">👟 Tênis Sugeridos para Incluir</h4>
+                            <div class="shoes-wrap">
+                                <span class="shoe-tag">Olympikus Corre 3</span><span class="shoe-tag">Nike Pegasus 40</span><span class="shoe-tag">Mizuno Wave Rider 27</span><span class="shoe-tag">Adidas Duramo Speed</span>
+                            </div>
+                        </div>
+                        
+                        <div class="briefing-right">
+                            <h4 class="sub-title">🔍 Quem está ranqueando na busca (Top 4)</h4>
+                            <div class="serp-list">
+                                
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="card card-comp-medium" data-comp="média">
+            <div class="card-header">
+                <span class="rank-number">#5</span>
+                <div class="header-main">
+                    <h3>Os Melhor Tenis De Corrida Masculino Barato que Valem a Pena em 2026</h3>
+                    <p class="kw-label">Palavra-chave: <strong>melhor tenis de corrida masculino barato</strong></p>
+                </div>
+                <div class="badges-wrap">
+                    <span class="badge intent-comercial">Comercial</span>
+                    <span class="badge comp-medium">Média (50/100)</span>
+                </div>
+            </div>
+            
+            <div class="card-body">
+                <div class="analysis-section">
+                    <div class="metric-mini">
+                        <div class="metric-val">5/10</div>
+                        <div class="metric-lbl">Índice de Interesse</div>
+                    </div>
+                    <div class="metric-mini">
+                        <div class="metric-val">60</div>
+                        <div class="metric-lbl">Score Oportunidade</div>
+                    </div>
+                </div>
+                
+                <div class="briefing-toggle-btn" onclick="toggleBriefing(this)">
+                    <span>Ver Briefing e Concorrentes</span>
+                    <svg viewBox="0 0 24 24"><path d="M7 10l5 5 5-5z"/></svg>
+                </div>
+                
+                <div class="briefing-drawer hidden">
+                    <div class="drawer-grid">
+                        <div class="briefing-left">
+                            <h4 class="sub-title">📝 Estrutura Sugerida do Artigo</h4>
+                            <ul class="outline-list">
+                                <li>## 1. Introdução: Por que Escolher com Cuidado?</li><li>## 2. Fatores Críticos a Analisar (Amortecimento, Peso, Drop)</li><li>## 3. Tabela Resumo dos Selecionados</li><li>## 4. Análise Detalhada dos Melhores Modelos</li><li>## 5. Qual o Mais Barato do Ranking?</li><li>## 6. Como Identificar Sua Pisada Corrida</li><li>## 7. Conclusão: Escolha do Editor</li>
+                            </ul>
+                            
+                            <h4 class="sub-title" style="margin-top:20px;">👟 Tênis Sugeridos para Incluir</h4>
+                            <div class="shoes-wrap">
+                                <span class="shoe-tag">Olympikus Corre 3</span><span class="shoe-tag">Nike Pegasus 40</span><span class="shoe-tag">Mizuno Wave Rider 27</span><span class="shoe-tag">Adidas Duramo Speed</span>
+                            </div>
+                        </div>
+                        
+                        <div class="briefing-right">
+                            <h4 class="sub-title">🔍 Quem está ranqueando na busca (Top 4)</h4>
+                            <div class="serp-list">
+                                
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="card card-comp-medium" data-comp="média">
+            <div class="card-header">
+                <span class="rank-number">#6</span>
+                <div class="header-main">
+                    <h3>Os Melhor Tênis De Corrida Barato que Valem a Pena em 2026</h3>
+                    <p class="kw-label">Palavra-chave: <strong>melhor tênis de corrida barato</strong></p>
+                </div>
+                <div class="badges-wrap">
+                    <span class="badge intent-comercial">Comercial</span>
+                    <span class="badge comp-medium">Média (50/100)</span>
+                </div>
+            </div>
+            
+            <div class="card-body">
+                <div class="analysis-section">
+                    <div class="metric-mini">
+                        <div class="metric-val">5/10</div>
+                        <div class="metric-lbl">Índice de Interesse</div>
+                    </div>
+                    <div class="metric-mini">
+                        <div class="metric-val">60</div>
+                        <div class="metric-lbl">Score Oportunidade</div>
+                    </div>
+                </div>
+                
+                <div class="briefing-toggle-btn" onclick="toggleBriefing(this)">
+                    <span>Ver Briefing e Concorrentes</span>
+                    <svg viewBox="0 0 24 24"><path d="M7 10l5 5 5-5z"/></svg>
+                </div>
+                
+                <div class="briefing-drawer hidden">
+                    <div class="drawer-grid">
+                        <div class="briefing-left">
+                            <h4 class="sub-title">📝 Estrutura Sugerida do Artigo</h4>
+                            <ul class="outline-list">
+                                <li>## 1. Introdução: Por que Escolher com Cuidado?</li><li>## 2. Fatores Críticos a Analisar (Amortecimento, Peso, Drop)</li><li>## 3. Tabela Resumo dos Selecionados</li><li>## 4. Análise Detalhada dos Melhores Modelos</li><li>## 5. Qual o Mais Barato do Ranking?</li><li>## 6. Como Identificar Sua Pisada Corrida</li><li>## 7. Conclusão: Escolha do Editor</li>
+                            </ul>
+                            
+                            <h4 class="sub-title" style="margin-top:20px;">👟 Tênis Sugeridos para Incluir</h4>
+                            <div class="shoes-wrap">
+                                <span class="shoe-tag">Olympikus Corre 3</span><span class="shoe-tag">Nike Pegasus 40</span><span class="shoe-tag">Mizuno Wave Rider 27</span><span class="shoe-tag">Adidas Duramo Speed</span>
+                            </div>
+                        </div>
+                        
+                        <div class="briefing-right">
+                            <h4 class="sub-title">🔍 Quem está ranqueando na busca (Top 4)</h4>
+                            <div class="serp-list">
+                                
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="card card-comp-medium" data-comp="média">
+            <div class="card-header">
+                <span class="rank-number">#7</span>
+                <div class="header-main">
+                    <h3>Os Tenis De Corrida Melhor Custo Beneficio Feminino que Valem a Pena em 2026</h3>
+                    <p class="kw-label">Palavra-chave: <strong>tenis de corrida melhor custo beneficio feminino</strong></p>
+                </div>
+                <div class="badges-wrap">
+                    <span class="badge intent-comercial">Comercial</span>
+                    <span class="badge comp-medium">Média (50/100)</span>
+                </div>
+            </div>
+            
+            <div class="card-body">
+                <div class="analysis-section">
+                    <div class="metric-mini">
+                        <div class="metric-val">4/10</div>
+                        <div class="metric-lbl">Índice de Interesse</div>
+                    </div>
+                    <div class="metric-mini">
+                        <div class="metric-val">58</div>
+                        <div class="metric-lbl">Score Oportunidade</div>
+                    </div>
+                </div>
+                
+                <div class="briefing-toggle-btn" onclick="toggleBriefing(this)">
+                    <span>Ver Briefing e Concorrentes</span>
+                    <svg viewBox="0 0 24 24"><path d="M7 10l5 5 5-5z"/></svg>
+                </div>
+                
+                <div class="briefing-drawer hidden">
+                    <div class="drawer-grid">
+                        <div class="briefing-left">
+                            <h4 class="sub-title">📝 Estrutura Sugerida do Artigo</h4>
+                            <ul class="outline-list">
+                                <li>## 1. Introdução: Por que Escolher com Cuidado?</li><li>## 2. Fatores Críticos a Analisar (Amortecimento, Peso, Drop)</li><li>## 3. Tabela Resumo dos Selecionados</li><li>## 4. Análise Detalhada dos Melhores Modelos</li><li>## 5. Qual o Mais Barato do Ranking?</li><li>## 6. Como Identificar Sua Pisada Corrida</li><li>## 7. Conclusão: Escolha do Editor</li>
+                            </ul>
+                            
+                            <h4 class="sub-title" style="margin-top:20px;">👟 Tênis Sugeridos para Incluir</h4>
+                            <div class="shoes-wrap">
+                                <span class="shoe-tag">Olympikus Corre 3</span><span class="shoe-tag">Nike Pegasus 40</span><span class="shoe-tag">Mizuno Wave Rider 27</span><span class="shoe-tag">Adidas Duramo Speed</span>
+                            </div>
+                        </div>
+                        
+                        <div class="briefing-right">
+                            <h4 class="sub-title">🔍 Quem está ranqueando na busca (Top 4)</h4>
+                            <div class="serp-list">
+                                
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="card card-comp-medium" data-comp="média">
+            <div class="card-header">
+                <span class="rank-number">#8</span>
+                <div class="header-main">
+                    <h3>Os Tenis De Corrida Melhor Custo Beneficio Masculino que Valem a Pena em 2026</h3>
+                    <p class="kw-label">Palavra-chave: <strong>tenis de corrida melhor custo beneficio masculino</strong></p>
+                </div>
+                <div class="badges-wrap">
+                    <span class="badge intent-comercial">Comercial</span>
+                    <span class="badge comp-medium">Média (50/100)</span>
+                </div>
+            </div>
+            
+            <div class="card-body">
+                <div class="analysis-section">
+                    <div class="metric-mini">
+                        <div class="metric-val">4/10</div>
+                        <div class="metric-lbl">Índice de Interesse</div>
+                    </div>
+                    <div class="metric-mini">
+                        <div class="metric-val">58</div>
+                        <div class="metric-lbl">Score Oportunidade</div>
+                    </div>
+                </div>
+                
+                <div class="briefing-toggle-btn" onclick="toggleBriefing(this)">
+                    <span>Ver Briefing e Concorrentes</span>
+                    <svg viewBox="0 0 24 24"><path d="M7 10l5 5 5-5z"/></svg>
+                </div>
+                
+                <div class="briefing-drawer hidden">
+                    <div class="drawer-grid">
+                        <div class="briefing-left">
+                            <h4 class="sub-title">📝 Estrutura Sugerida do Artigo</h4>
+                            <ul class="outline-list">
+                                <li>## 1. Introdução: Por que Escolher com Cuidado?</li><li>## 2. Fatores Críticos a Analisar (Amortecimento, Peso, Drop)</li><li>## 3. Tabela Resumo dos Selecionados</li><li>## 4. Análise Detalhada dos Melhores Modelos</li><li>## 5. Qual o Mais Barato do Ranking?</li><li>## 6. Como Identificar Sua Pisada Corrida</li><li>## 7. Conclusão: Escolha do Editor</li>
+                            </ul>
+                            
+                            <h4 class="sub-title" style="margin-top:20px;">👟 Tênis Sugeridos para Incluir</h4>
+                            <div class="shoes-wrap">
+                                <span class="shoe-tag">Olympikus Corre 3</span><span class="shoe-tag">Nike Pegasus 40</span><span class="shoe-tag">Mizuno Wave Rider 27</span><span class="shoe-tag">Adidas Duramo Speed</span>
+                            </div>
+                        </div>
+                        
+                        <div class="briefing-right">
+                            <h4 class="sub-title">🔍 Quem está ranqueando na busca (Top 4)</h4>
+                            <div class="serp-list">
+                                
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="card card-comp-medium" data-comp="média">
+            <div class="card-header">
+                <span class="rank-number">#9</span>
+                <div class="header-main">
+                    <h3>Os Tenis De Corrida Feminino Melhor Custo Beneficio 2025 que Valem a Pena em 2026</h3>
+                    <p class="kw-label">Palavra-chave: <strong>tenis de corrida feminino melhor custo beneficio 2025</strong></p>
+                </div>
+                <div class="badges-wrap">
+                    <span class="badge intent-comercial">Comercial</span>
+                    <span class="badge comp-medium">Média (50/100)</span>
+                </div>
+            </div>
+            
+            <div class="card-body">
+                <div class="analysis-section">
+                    <div class="metric-mini">
+                        <div class="metric-val">4/10</div>
+                        <div class="metric-lbl">Índice de Interesse</div>
+                    </div>
+                    <div class="metric-mini">
+                        <div class="metric-val">58</div>
+                        <div class="metric-lbl">Score Oportunidade</div>
+                    </div>
+                </div>
+                
+                <div class="briefing-toggle-btn" onclick="toggleBriefing(this)">
+                    <span>Ver Briefing e Concorrentes</span>
+                    <svg viewBox="0 0 24 24"><path d="M7 10l5 5 5-5z"/></svg>
+                </div>
+                
+                <div class="briefing-drawer hidden">
+                    <div class="drawer-grid">
+                        <div class="briefing-left">
+                            <h4 class="sub-title">📝 Estrutura Sugerida do Artigo</h4>
+                            <ul class="outline-list">
+                                <li>## 1. Introdução: Por que Escolher com Cuidado?</li><li>## 2. Fatores Críticos a Analisar (Amortecimento, Peso, Drop)</li><li>## 3. Tabela Resumo dos Selecionados</li><li>## 4. Análise Detalhada dos Melhores Modelos</li><li>## 5. Qual o Mais Barato do Ranking?</li><li>## 6. Como Identificar Sua Pisada Corrida</li><li>## 7. Conclusão: Escolha do Editor</li>
+                            </ul>
+                            
+                            <h4 class="sub-title" style="margin-top:20px;">👟 Tênis Sugeridos para Incluir</h4>
+                            <div class="shoes-wrap">
+                                <span class="shoe-tag">Olympikus Corre 3</span><span class="shoe-tag">Nike Pegasus 40</span><span class="shoe-tag">Mizuno Wave Rider 27</span><span class="shoe-tag">Adidas Duramo Speed</span>
+                            </div>
+                        </div>
+                        
+                        <div class="briefing-right">
+                            <h4 class="sub-title">🔍 Quem está ranqueando na busca (Top 4)</h4>
+                            <div class="serp-list">
+                                
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="card card-comp-medium" data-comp="média">
+            <div class="card-header">
+                <span class="rank-number">#10</span>
+                <div class="header-main">
+                    <h3>Os Tenis De Corrida Masculino Melhor Custo Beneficio 2025 que Valem a Pena em 2026</h3>
+                    <p class="kw-label">Palavra-chave: <strong>tenis de corrida masculino melhor custo beneficio 2025</strong></p>
+                </div>
+                <div class="badges-wrap">
+                    <span class="badge intent-comercial">Comercial</span>
+                    <span class="badge comp-medium">Média (50/100)</span>
+                </div>
+            </div>
+            
+            <div class="card-body">
+                <div class="analysis-section">
+                    <div class="metric-mini">
+                        <div class="metric-val">4/10</div>
+                        <div class="metric-lbl">Índice de Interesse</div>
+                    </div>
+                    <div class="metric-mini">
+                        <div class="metric-val">58</div>
+                        <div class="metric-lbl">Score Oportunidade</div>
+                    </div>
+                </div>
+                
+                <div class="briefing-toggle-btn" onclick="toggleBriefing(this)">
+                    <span>Ver Briefing e Concorrentes</span>
+                    <svg viewBox="0 0 24 24"><path d="M7 10l5 5 5-5z"/></svg>
+                </div>
+                
+                <div class="briefing-drawer hidden">
+                    <div class="drawer-grid">
+                        <div class="briefing-left">
+                            <h4 class="sub-title">📝 Estrutura Sugerida do Artigo</h4>
+                            <ul class="outline-list">
+                                <li>## 1. Introdução: Por que Escolher com Cuidado?</li><li>## 2. Fatores Críticos a Analisar (Amortecimento, Peso, Drop)</li><li>## 3. Tabela Resumo dos Selecionados</li><li>## 4. Análise Detalhada dos Melhores Modelos</li><li>## 5. Qual o Mais Barato do Ranking?</li><li>## 6. Como Identificar Sua Pisada Corrida</li><li>## 7. Conclusão: Escolha do Editor</li>
+                            </ul>
+                            
+                            <h4 class="sub-title" style="margin-top:20px;">👟 Tênis Sugeridos para Incluir</h4>
+                            <div class="shoes-wrap">
+                                <span class="shoe-tag">Olympikus Corre 3</span><span class="shoe-tag">Nike Pegasus 40</span><span class="shoe-tag">Mizuno Wave Rider 27</span><span class="shoe-tag">Adidas Duramo Speed</span>
+                            </div>
+                        </div>
+                        
+                        <div class="briefing-right">
+                            <h4 class="sub-title">🔍 Quem está ranqueando na busca (Top 4)</h4>
+                            <div class="serp-list">
+                                
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+  </div>
+
+  <div class="footer">
+    <p>TênisIdeal · Automação nº 2 · 19/06/2026 às 00:08</p>
+    <p style="margin-top:4px">Briefings gerados e analisados a partir das SERPs brasileiras em tempo real.</p>
+  </div>
+
+</div>
+
+<script>
+  function toggleBriefing(btn) {
+    btn.classList.toggle('active');
+    const drawer = btn.nextElementSibling;
+    drawer.classList.toggle('hidden');
+    
+    const textEl = btn.querySelector('span');
+    if (drawer.classList.contains('hidden')) {
+      textEl.innerText = "Ver Briefing e Concorrentes";
+    } else {
+      textEl.innerText = "Fechar Briefing";
+    }
+  }
+
+  function filterDifficulty(diff) {
+    // Atualiza botões
+    const btns = document.querySelectorAll('.filter-btn');
+    btns.forEach(btn => btn.classList.remove('active'));
+    
+    event.target.classList.add('active');
+    
+    // Filtra cards
+    const cards = document.querySelectorAll('.card');
+    cards.forEach(card => {
+      if (diff === 'todos') {
+        card.style.display = 'block';
+      } else {
+        const cardComp = card.getAttribute('data-comp');
+        if (cardComp === diff) {
+          card.style.display = 'block';
+        } else {
+          card.style.display = 'none';
+        }
+      }
+    });
+  }
+</script>
+
+</body>
+</html>
