@@ -115,7 +115,50 @@
 
     document.addEventListener("DOMContentLoaded", () => {
       loadShoes();
+      initSocialProof();
     });
+
+    // SOCIAL PROOF DINÂMICA - Aumenta engajamento e FOMO
+    function initSocialProof() {
+      const names = [
+        { name: 'Maria', city: 'SP' },
+        { name: 'Carlos', city: 'RJ' },
+        { name: 'Ana', city: 'MG' },
+        { name: 'João', city: 'BA' },
+        { name: 'Paula', city: 'PR' },
+        { name: 'Lucas', city: 'SC' },
+        { name: 'Beatriz', city: 'RS' },
+        { name: 'Felipe', city: 'DF' }
+      ];
+
+      function updateSocialProof() {
+        // Atualiza contador de pessoas respondendo (2-5)
+        const peopleNow = Math.floor(Math.random() * 4) + 2;
+        const peopleEl = document.getElementById('peopleNow');
+        if (peopleEl) peopleEl.textContent = peopleNow;
+
+        // Atualiza últimas pessoas que responderam
+        const lastPeopleEl = document.getElementById('lastPeople');
+        if (lastPeopleEl) {
+          const selected = names.sort(() => 0.5 - Math.random()).slice(0, 3);
+          const times = ['há 2 minutos', 'há 8 minutos', 'há 12 minutos'];
+          lastPeopleEl.innerHTML = selected
+            .map((p, i) => `💬 <strong>${p.name}</strong> (${p.city}) terminou ${times[i]}`)
+            .join('<br>');
+        }
+
+        // Atualiza vagas disponíveis (10-15)
+        const slotsEl = document.getElementById('slotsLeft');
+        if (slotsEl) {
+          const slots = Math.floor(Math.random() * 6) + 10;
+          slotsEl.textContent = slots;
+        }
+      }
+
+      // Atualiza a cada 15-30 segundos
+      updateSocialProof();
+      setInterval(updateSocialProof, 20000);
+    }
   </script>
 
   <!-- Schema Markup -->
@@ -2110,6 +2153,26 @@
       <div style="margin-top:16px; font-size:13px; color:var(--gray); display:flex; align-items:center; gap:8px; flex-wrap:wrap;">
         <span style="color:var(--yellow); font-size:16px;">★★★★★ 4.9/5</span>
         <span>567 corredores satisfeitos • Resultado em 1 min</span>
+      </div>
+
+      <!-- SOCIAL PROOF DINÂMICA -->
+      <div id="socialProofWidget" style="margin-top:24px; padding:16px; background:rgba(200,255,0,0.05); border:1px solid rgba(200,255,0,0.2); border-radius:8px;">
+        <div style="display:flex; align-items:center; gap:8px; margin-bottom:12px;">
+          <span style="font-size:18px;">🟢</span>
+          <span style="font-size:13px; font-weight:600; color:var(--white);">
+            <span id="peopleNow">3</span> pessoas respondendo agora
+          </span>
+        </div>
+        <div style="font-size:12px; color:var(--gray); line-height:1.4;">
+          <div id="lastPeople" style="margin-bottom:8px;">
+            💬 <strong>Maria</strong> (SP) terminou há 2 minutos<br>
+            💬 <strong>Carlos</strong> (RJ) terminou há 8 minutos<br>
+            💬 <strong>Ana</strong> (MG) terminou há 12 minutos
+          </div>
+          <div style="padding-top:8px; border-top:1px solid rgba(200,255,0,0.1); color:var(--yellow); font-weight:600;">
+            ⚡ Aproveite: Apenas <span id="slotsLeft">12</span> vagas disponíveis hoje
+          </div>
+        </div>
       </div>
 
       <div style="margin-top:48px; padding-top:32px; border-top:1px solid var(--border);">
