@@ -165,6 +165,45 @@
       };
     }
 
+    // PASSO 2: Motivação entre perguntas
+    const motivations = [
+      { emoji: '🎉', text: 'Ótimo começo!', sub: 'Vamos lá!' },
+      { emoji: '⚡', text: 'Tá ficando bom!', sub: 'Já tá quase lá' },
+      { emoji: '🔥', text: 'Você tá indo bem!', sub: 'Mais um pouco' },
+      { emoji: '💪', text: 'Falta pouco!', sub: 'Último esforço' },
+      { emoji: '🎯', text: 'Quase pronto!', sub: 'Uma última pergunta' }
+    ];
+
+    function showQuizMotivation(step) {
+      const motiv = motivations[step] || motivations[0];
+      const div = document.createElement('div');
+      div.className = 'quiz-motivation show';
+      div.innerHTML = `
+        <div class="quiz-motivation-text">${motiv.emoji} ${motiv.text}</div>
+        <div class="quiz-motivation-sub">${motiv.sub}</div>
+      `;
+      const qwrap = document.querySelector('.qwrap');
+      if (qwrap && qwrap.firstChild) {
+        qwrap.insertBefore(div, qwrap.firstChild);
+      }
+      setTimeout(() => div.remove(), 2000);
+    }
+
+    // Confetti animation quando completa o quiz
+    function createConfetti() {
+      for (let i = 0; i < 30; i++) {
+        const confetti = document.createElement('div');
+        confetti.className = 'confetti';
+        confetti.style.left = Math.random() * 100 + 'vw';
+        confetti.style.backgroundColor = ['var(--yellow)', '#ff3b30', '#00c3ff', '#00ff88'][
+          Math.floor(Math.random() * 4)
+        ];
+        confetti.style.animationDelay = Math.random() * 0.5 + 's';
+        document.body.appendChild(confetti);
+        setTimeout(() => confetti.remove(), 2500);
+      }
+    }
+
     // Verificar se atingiu metas e enviar notificação
     async function checkHitTargets() {
       try {
@@ -641,6 +680,61 @@
       margin-bottom: 10px;
       text-transform: uppercase;
       letter-spacing: .5px;
+    }
+
+    /* PASSO 2: Motivação e Celebração */
+    .quiz-motivation {
+      display: none;
+      text-align: center;
+      padding: 24px;
+      background: rgba(200, 255, 0, 0.1);
+      border: 1px solid rgba(200, 255, 0, 0.3);
+      border-radius: 12px;
+      margin-bottom: 24px;
+      animation: slideIn 0.5s ease;
+    }
+
+    .quiz-motivation.show {
+      display: block;
+    }
+
+    .quiz-motivation-text {
+      font-size: 18px;
+      font-weight: 700;
+      color: var(--yellow);
+      margin-bottom: 8px;
+    }
+
+    .quiz-motivation-sub {
+      font-size: 13px;
+      color: var(--gray);
+    }
+
+    @keyframes slideIn {
+      from { opacity: 0; transform: translateY(-10px); }
+      to { opacity: 1; transform: translateY(0); }
+    }
+
+    @keyframes bounce {
+      0%, 100% { transform: scale(1); }
+      50% { transform: scale(1.1); }
+    }
+
+    .confetti {
+      position: fixed;
+      width: 10px;
+      height: 10px;
+      background: var(--yellow);
+      animation: fall 2s linear forwards;
+      pointer-events: none;
+      border-radius: 50%;
+    }
+
+    @keyframes fall {
+      to {
+        transform: translateY(100vh) rotate(360deg);
+        opacity: 0;
+      }
     }
 
     .trust-footer {
@@ -2324,7 +2418,7 @@
 
   <section class="screen" id="sQuiz">
     <div class="qwrap">
-      <div class="qcnt">Pergunta <em id="qNum">01</em> / 07</div>
+      <div class="qcnt">Pergunta <em id="qNum">01</em> / 06</div>
       <h2 class="qtitle" id="qTitle"></h2>
       <p class="qhint" id="qHint"></p>
       <div class="opts" id="opts"></div>
@@ -2581,12 +2675,10 @@
         ]
       },
       {
-        id: 'terreno', title: 'Onde você costuma correr?', hint: 'A superfície influencia diretamente a escolha do tênis.', opts: [
-          { v: 'asfalto', icon: '🏙️', label: 'Asfalto / Rua', desc: 'Calçadas, ruas e pistas urbanas' },
-          { v: 'trilha', icon: '🌲', label: 'Trilha / Terra', desc: 'Estradas de terra, parques naturais' },
-          { v: 'pista', icon: '🏟️', label: 'Pista de atletismo', desc: 'Pista oficial' },
-          { v: 'esteira', icon: '🏋️', label: 'Esteira', desc: 'Treino indoor em academia' },
-          { v: 'mista', icon: '🔀', label: 'Mista', desc: 'Corro em diferentes superfícies' }
+        id: 'terreno', title: 'Onde você costuma correr?', hint: 'Escolha o terreno principal onde treina.', opts: [
+          { v: 'asfalto', icon: '🏙️', label: 'Asfalto/Rua', desc: 'Calçadas, ruas, pistas urbanas' },
+          { v: 'trilha', icon: '🌲', label: 'Trilha', desc: 'Terra, parques, trilhas naturais' },
+          { v: 'esteira', icon: '🏋️', label: 'Esteira/Indoor', desc: 'Treino em academia ou indoor' }
         ]
       },
       {
@@ -2595,14 +2687,6 @@
           { v: 'media', icon: '🏃', label: '5 a 15 km', desc: 'Distância moderada, treinos regulares' },
           { v: 'longa', icon: '🎽', label: '15 km ou mais', desc: 'Longas distâncias e meias maratonas' },
           { v: 'maratona', icon: '🏅', label: 'Maratona', desc: 'Preparação para 42 km' }
-        ]
-      },
-      {
-        id: 'prioridade', title: 'O que é mais importante para você?', hint: 'Escolha o fator que mais pesa na hora de comprar.', opts: [
-          { v: 'amortecimento', icon: '☁️', label: 'Amortecimento', desc: 'Máximo conforto e proteção articular' },
-          { v: 'leveza', icon: '🪶', label: 'Leveza e velocidade', desc: 'Ganhar performance e tempo' },
-          { v: 'durabilidade', icon: '🛡️', label: 'Durabilidade', desc: 'Tênis que dure muito tempo' },
-          { v: 'custo', icon: '💰', label: 'Melhor custo-benefício', desc: 'Boa qualidade pelo menor preço' }
         ]
       },
       {
@@ -2656,13 +2740,13 @@
     function applyWetResult() {
       if (!wetPisadaSelected) return;
       ans['pisada'] = wetPisadaSelected;
-      cur = 3; // pula direto para pergunta 4 (terreno)
+      cur = 4; // pula direto para pergunta 5 (distância)
       closeModal();
       setTimeout(function () { renderQ(); }, 200);
     }
     function skipWetTest() {
       // prossegue sem definir pisada (fica como naosabe já marcado)
-      cur = 3;
+      cur = 4;
       closeModal();
       setTimeout(function () { renderQ(); }, 200);
     }
@@ -2853,8 +2937,15 @@
 
     document.getElementById('btnNext').addEventListener('click', function () {
       if (!ans[Qs[cur].id]) return;
-      if (cur < Qs.length - 1) { cur++; renderQ(); }
-      else { showScreen('sLoading'); setTimeout(buildResult, 2200); }
+      if (cur < Qs.length - 1) {
+        showQuizMotivation(cur); // Mostrar motivação PASSO 2
+        cur++;
+        renderQ();
+      } else {
+        createConfetti(); // Celebração ao completar PASSO 2
+        showScreen('sLoading');
+        setTimeout(buildResult, 2200);
+      }
     });
 
     document.getElementById('btnBack').addEventListener('click', function () {
