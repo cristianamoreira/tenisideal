@@ -38,9 +38,9 @@ jobs:
           GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
         run: echo "GEMINI_API_KEY=$GEMINI_API_KEY" >> $GITHUB_ENV
 
-      - name: 🕷️ Executar scraper de preços
+      - name: 🕷️ Executar scraper automático
         run: |
-          python scraper_por_url.py
+          python scraper_automatico.py
 
       - name: 📤 Commit das mudanças
         run: |
