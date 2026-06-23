@@ -32,13 +32,12 @@ jobs:
           GOOGLE_CREDENTIALS: ${{ secrets.GOOGLE_CREDENTIALS }}
         run: |
           echo "$GOOGLE_CREDENTIALS" > credenciais.json
-
-      - name: 🔑 Configurar Gemini API
-        env:
-          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
-        run: echo "GEMINI_API_KEY=$GEMINI_API_KEY" >> $GITHUB_ENV
+          echo "✅ Credenciais salvas em credenciais.json"
 
       - name: 🕷️ Executar scraper automático
+        env:
+          GOOGLE_CREDENTIALS: ${{ secrets.GOOGLE_CREDENTIALS }}
+          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
         run: |
           python scraper_automatico.py
 

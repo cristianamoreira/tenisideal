@@ -35,14 +35,22 @@ HEADERS_HTTP = {
 # 🔗 CONEXÃO COM GOOGLE SHEETS
 # ==============================================================================
 def conectar_planilha():
-    """Conecta ao Google Sheets usando credenciais de variável de ambiente"""
+    """Conecta ao Google Sheets usando credenciais de variável de ambiente ou arquivo"""
     try:
-        if not CREDENTIALS_JSON:
-            print("❌ Erro: GOOGLE_CREDENTIALS não configurado")
-            return None
+        credentials_dict = None
 
-        # Parse das credenciais JSON
-        credentials_dict = json.loads(CREDENTIALS_JSON)
+        # Tenta ler de variável de ambiente primeiro
+        if CREDENTIALS_JSON:
+            credentials_dict = json.loads(CREDENTIALS_JSON)
+            print("✅ Credenciais carregadas de variável de ambiente")
+        # Fallback: tenta ler do arquivo credenciais.json
+        elif os.path.exists("credenciais.json"):
+            with open("credenciais.json", "r") as f:
+                credentials_dict = json.load(f)
+            print("✅ Credenciais carregadas do arquivo credenciais.json")
+        else:
+            print("❌ Erro: GOOGLE_CREDENTIALS não configurado e arquivo credenciais.json não encontrado")
+            return None
 
         scopes = [
             "https://www.googleapis.com/auth/spreadsheets",
