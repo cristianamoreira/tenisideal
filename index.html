@@ -3104,7 +3104,7 @@
       if (ans.pisada) linhas.push('👣 Pisada: ' + (pis[ans.pisada] || ans.pisada));
       if (ans.terreno) linhas.push('🌍 Terreno: ' + (ter[ans.terreno] || ans.terreno));
       if (ans.distancia) linhas.push('📏 Distância: ' + (dist[ans.distancia] || ans.distancia));
-      if (ans.prioridade) linhas.push('⚡ Foco: ' + (prior[ans.prioridade] || ans.prioridade));
+      
       if (nomeTenis) {
         linhas.push('');
         linhas.push('🥇 Meu tênis ideal: ' + nomeTenis);
@@ -3125,7 +3125,7 @@
       var nivel = lvl[ans.nivel] || '';
       var pisada = pis[ans.pisada] || '';
       var terreno = ter[ans.terreno] || '';
-      var prior_ = prior[ans.prioridade] || '';
+      var prior_ = '';
       var emoji = emojiNivel[ans.nivel] || '🏃';
 
       var linhas = [];
@@ -3321,7 +3321,7 @@
           var nivel = nivelMap[ans.nivel] || '';
           var pisada = pisadaMap[ans.pisada] || '';
           var terreno = terrenoMap[ans.terreno] || '';
-          var prior = priorMap[ans.prioridade] || '';
+          var prior = '';
           var dist = distMap[ans.distancia] || '';
           var emoji = emojiMap[ans.nivel] || '🏃';
 
@@ -3348,7 +3348,7 @@
           pisada: { neutra: '👣 Neutra', pronada: '↙️ Pronada', supinada: '↗️ Supinada', naosabe: '🤷 A avaliar' },
           distancia: { curta: '⚡ Até 5km', media: '🏃 5–15km', longa: '🎽 15km+', maratona: '🏅 Maratona' },
           terreno: { asfalto: '🏙️ Asfalto', trilha: '🌲 Trilha', pista: '🏟️ Pista', esteira: '🏋️ Esteira', mista: '🔀 Mista' },
-          prioridade: { amortecimento: '☁️ Amortecimento', leveza: '🪶 Leveza', durabilidade: '🛡️ Durabilidade', custo: '💰 Custo-benefício' }
+          
         };
         var grid = document.getElementById('shoesGrid');
         grid.innerHTML = '';
@@ -3364,10 +3364,10 @@
           pisada: { neutra: '👣 Pisada neutra', pronada: '👣 Pisada pronada', supinada: '👣 Pisada supinada', naosabe: '👣 Pisada a avaliar' },
           terreno: { asfalto: '🏙️ Asfalto', trilha: '🌲 Trilha', pista: '🏟️ Pista', esteira: '🏋️ Esteira', mista: '🔀 Terreno misto' },
           distancia: { curta: '📏 Até 5km', media: '📏 5–15km', longa: '📏 15km+', maratona: '📏 Maratona' },
-          prioridade: { amortecimento: '☁️ Amortecimento', leveza: '🪶 Leveza', durabilidade: '🛡️ Durabilidade', custo: '💰 Custo-benefício' }
+          
         };
         var checkItems = '';
-        ['nivel', 'pisada', 'terreno', 'distancia', 'prioridade'].forEach(function (k) {
+        ['nivel', 'pisada', 'terreno', 'distancia', 'orcamento'].forEach(function (k) {
           if (ans[k] && checkMap[k] && checkMap[k][ans[k]]) {
             checkItems += '<span style="display:inline-flex;align-items:center;gap:5px;font-size:13px;color:var(--gl);background:var(--card);border:1px solid var(--border);padding:5px 12px;border-radius:20px;">✔ ' + checkMap[k][ans[k]] + '</span>';
           }
