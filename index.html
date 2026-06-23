@@ -398,12 +398,12 @@
       border: 1px solid var(--border);
       border-radius: 12px;
       margin-top: 20px;
-      padding: 24px;
-      padding-bottom: 20px;
+      padding: 28px;
+      padding-bottom: 24px;
       /* espaço extra para o botão respirar */
       display: flex !important;
       flex-direction: column;
-      gap: 12px;
+      gap: 16px;
       overflow: visible;
       /* nunca corta o botão filho */
       box-sizing: border-box;
@@ -1022,7 +1022,88 @@
       border-radius: 50%
     }
 
+    /* 📱 MOBILE OPTIMIZATION - 320px to 768px */
+    @media(max-width:768px) {
+      /* Header responsivo */
+      header {
+        padding: 16px 20px;
+        flex-direction: column;
+        gap: 12px;
+      }
+
+      .logo {
+        font-size: 20px;
+        letter-spacing: 2px;
+      }
+
+      .pw {
+        max-width: 100%;
+        margin-left: 0;
+      }
+
+      /* Botões maiores para touch */
+      .bnext {
+        padding: 18px 28px;
+        font-size: 18px;
+        min-height: 50px;
+        width: 100%;
+      }
+
+      .bback {
+        padding: 18px 20px;
+        font-size: 15px;
+        min-height: 50px;
+        width: 100%;
+      }
+
+      .nav {
+        flex-direction: column;
+        width: 100%;
+        gap: 10px;
+      }
+
+      /* Cards com mais espaçamento */
+      .comparison-box {
+        padding: 20px;
+        margin-top: 16px;
+        gap: 16px;
+      }
+
+      /* Texto maior no quiz */
+      .best-price-value {
+        font-size: 28px;
+      }
+
+      /* Botões de ação */
+      .bbuy {
+        width: 100%;
+        padding: 16px 20px;
+        font-size: 16px;
+        min-height: 48px;
+      }
+    }
+
     @media(max-width:480px) {
+      /* Extra pequeno - otimização final */
+      header {
+        padding: 12px 16px;
+      }
+
+      .logo {
+        font-size: 18px;
+        letter-spacing: 1px;
+      }
+
+      .bnext, .bback {
+        font-size: 16px;
+        padding: 16px 20px;
+        min-height: 48px;
+      }
+
+      .nav {
+        gap: 8px;
+      }
+
       .opts.grid2 {
         grid-template-columns: 1fr 1fr
       }
@@ -1038,6 +1119,22 @@
 
       .opts.grid2 .odesc {
         font-size: 12px
+      }
+
+      /* Mejor espaciado en el mobile muy pequeño */
+      .comparison-box {
+        padding: 16px;
+        gap: 12px;
+      }
+
+      .best-price-value {
+        font-size: 24px;
+      }
+
+      .bbuy {
+        font-size: 14px;
+        padding: 14px 16px;
+        min-height: 44px;
       }
     }
 
@@ -1058,13 +1155,14 @@
       font-size: 17px;
       text-transform: uppercase;
       letter-spacing: 1px;
-      padding: 16px 32px;
+      padding: 18px 32px;
       border: none;
       cursor: pointer;
       border-radius: 3px;
       transition: all .2s;
       opacity: .35;
-      pointer-events: none
+      pointer-events: none;
+      min-height: 52px;
     }
 
     .bnext.on {
@@ -1088,11 +1186,12 @@
       font-size: 16px;
       text-transform: uppercase;
       letter-spacing: 1px;
-      padding: 16px 24px;
+      padding: 18px 24px;
       border: 1.5px solid var(--border);
       cursor: pointer;
       border-radius: 3px;
-      transition: all .2s
+      transition: all .2s;
+      min-height: 52px;
     }
 
     .bback:hover {
