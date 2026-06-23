@@ -214,7 +214,7 @@ var SHOES = [
     "technologies": [],
     "affiliate_links": {
       "amazon": {
-        "url": "https://amzn.to/4cKN7pN",
+        "url": "https://www.amazon.com.br/s?k=Ultraboost+5",
         "price": 945.11
       },
       "oficial": {
@@ -737,7 +737,7 @@ var SHOES = [
     "technologies": [],
     "affiliate_links": {
       "amazon": {
-        "url": "https://amzn.to/4ugSqmP",
+        "url": "https://www.amazon.com.br/s?k=Gel-Nimbus+26",
         "price": 1796.17
       }
     },
@@ -910,7 +910,7 @@ var SHOES = [
     "technologies": [],
     "affiliate_links": {
       "amazon": {
-        "url": "https://amzn.to/4rSbMx8",
+        "url": "https://www.amazon.com.br/s?k=Gel-Venture+10",
         "price": 699.9
       }
     },
@@ -1256,7 +1256,7 @@ var SHOES = [
     "technologies": [],
     "affiliate_links": {
       "amazon": {
-        "url": "https://amzn.to/4aYytsk",
+        "url": "https://www.amazon.com.br/s?k=Ghost+16",
         "price": 1.315
       }
     },
@@ -3020,7 +3020,7 @@ var SHOES = [
     "technologies": [],
     "affiliate_links": {
       "amazon": {
-        "url": "https://amzn.to/4s630fg",
+        "url": "https://www.amazon.com.br/s?k=Challenger",
         "price": 249.9
       }
     },
@@ -3132,7 +3132,7 @@ var SHOES = [
     "technologies": [],
     "affiliate_links": {
       "amazon": {
-        "url": "https://amzn.to/4sz9HX0",
+        "url": "https://www.amazon.com.br/s?k=Essential",
         "price": 249.9
       }
     },
@@ -3692,7 +3692,7 @@ var SHOES = [
     "technologies": [],
     "affiliate_links": {
       "amazon": {
-        "url": "https://amzn.to/4lBTTR7",
+        "url": "https://www.amazon.com.br/s?k=Marte",
         "price": 189.87
       },
       "oficial": {
@@ -4169,7 +4169,7 @@ var SHOES = [
     "technologies": [],
     "affiliate_links": {
       "amazon": {
-        "url": "https://amzn.to/4un2UBh",
+        "url": "https://www.amazon.com.br/s?k=Rua",
         "price": 204.9
       }
     },
@@ -4530,7 +4530,7 @@ var SHOES = [
     "technologies": [],
     "affiliate_links": {
       "amazon": {
-        "url": "https://amzn.to/4s6fumP",
+        "url": "https://www.amazon.com.br/s?k=Wave+Daichi+9",
         "price": 699.99
       },
       "oficial": {
@@ -4590,7 +4590,7 @@ var SHOES = [
     "technologies": [],
     "affiliate_links": {
       "amazon": {
-        "url": "https://amzn.to/4uI7lqG",
+        "url": "https://www.amazon.com.br/s?k=1080+v15",
         "price": 1.299
       }
     },
@@ -4934,7 +4934,7 @@ var SHOES = [
     "technologies": [],
     "affiliate_links": {
       "amazon": {
-        "url": "https://amzn.to/3Ny1lzU",
+        "url": "https://www.amazon.com.br/s?k=Hoka+Clifton+10",
         "price": 1.3
       }
     },
