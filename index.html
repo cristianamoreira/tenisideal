@@ -2896,37 +2896,38 @@
       var s = 0;
 
       // NÍVEL (+4)
-      if (sh.levels.includes(ans.nivel)) {
+      if (sh.levels && sh.levels.includes(ans.nivel)) {
         s += 4;
       }
 
       // PISADA (+6 — mais importante)
       if (ans.pisada === 'naosabe') {
-        if (sh.pisadas.includes('neutra')) {
+        if (sh.pisada && sh.pisada.includes('neutra')) {
           s += 3;
         }
       } else {
-        if (sh.pisadas.includes(ans.pisada)) {
+        if (sh.pisada && sh.pisada.includes(ans.pisada)) {
           s += 6;
         }
       }
 
       // TERRENO (+3)
-      if (sh.terrenos.includes(ans.terreno)) {
+      if (sh.terreno && sh.terreno.includes(ans.terreno)) {
         s += 3;
       }
 
       // DISTÂNCIA (+3)
-      if (sh.distancias && sh.distancias.length > 0 && ans.distancia) {
-        if (sh.distancias.includes(ans.distancia)) {
+      if (sh.distancia && sh.distancia.length > 0 && ans.distancia) {
+        if (sh.distancia.includes(ans.distancia)) {
           s += 3;
         }
       }
 
       // PRIORIDADE (+3)
-      if (sh.priors.includes(ans.prioridade)) {
-        s += 3;
-      }
+      // Campo prioridade não está em uso, comentado
+      // if (sh.priors && sh.priors.includes(ans.prioridade)) {
+      //   s += 3;
+      // }
 
       // ORÇAMENTO (+2)
       var bo = ['ate300', '300a600', '600a1000', 'acima1000'];

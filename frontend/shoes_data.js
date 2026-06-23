@@ -67,7 +67,8 @@ var SHOES = [
     "distancia": [
       "curta",
       "media"
-    ]
+    ],
+    "photo": "https://via.placeholder.com/300x300/1a1a1a/c8ff00?text=Adizero+Adios+Pro+4"
   },
   {
     "brand": "ADIDAS",
@@ -135,7 +136,8 @@ var SHOES = [
     "distancia": [
       "curta",
       "media"
-    ]
+    ],
+    "photo": "https://via.placeholder.com/300x300/1a1a1a/c8ff00?text=Adizero+Boston+13"
   },
   {
     "brand": "ADIDAS",
@@ -212,7 +214,8 @@ var SHOES = [
       "media",
       "longa",
       "maratona"
-    ]
+    ],
+    "photo": "https://via.placeholder.com/300x300/1a1a1a/c8ff00?text=Response+Runner+2"
   },
   {
     "brand": "ADIDAS",
@@ -284,7 +287,8 @@ var SHOES = [
     "distancia": [
       "longa",
       "maratona"
-    ]
+    ],
+    "photo": "https://via.placeholder.com/300x300/1a1a1a/c8ff00?text=Ultraboost+5"
   },
   {
     "brand": "ADIDAS",
@@ -342,7 +346,8 @@ var SHOES = [
       "media",
       "longa",
       "maratona"
-    ]
+    ],
+    "photo": "https://via.placeholder.com/300x300/1a1a1a/c8ff00?text=Terrex+Agravic+Speed+2"
   },
   {
     "brand": "ADIDAS",
@@ -415,7 +420,8 @@ var SHOES = [
     "distancia": [
       "longa",
       "maratona"
-    ]
+    ],
+    "photo": "https://via.placeholder.com/300x300/1a1a1a/c8ff00?text=Ultraboost+5"
   },
   {
     "brand": "ADIDAS",
@@ -494,7 +500,8 @@ var SHOES = [
       "media",
       "longa",
       "maratona"
-    ]
+    ],
+    "photo": "https://via.placeholder.com/300x300/1a1a1a/c8ff00?text=Duramo+Speed+2"
   },
   {
     "brand": "Adidas",
@@ -567,7 +574,8 @@ var SHOES = [
     "distancia": [
       "longa",
       "maratona"
-    ]
+    ],
+    "photo": "https://via.placeholder.com/300x300/1a1a1a/c8ff00?text=Ultraboost+22"
   },
   {
     "brand": "ASICS",
@@ -636,7 +644,8 @@ var SHOES = [
     "distancia": [
       "media",
       "curta"
-    ]
+    ],
+    "photo": "https://via.placeholder.com/300x300/1a1a1a/c8ff00?text=Gel-Cumulus+26"
   },
   {
     "brand": "ASICS",
@@ -704,7 +713,8 @@ var SHOES = [
     "distancia": [
       "media",
       "longa"
-    ]
+    ],
+    "photo": "https://via.placeholder.com/300x300/1a1a1a/c8ff00?text=Gel-Kayano+31"
   },
   {
     "brand": "ASICS",
@@ -772,7 +782,8 @@ var SHOES = [
     "distancia": [
       "media",
       "longa"
-    ]
+    ],
+    "photo": "https://via.placeholder.com/300x300/1a1a1a/c8ff00?text=Gel-Kayano+31+Matcha"
   },
   {
     "brand": "ASICS",
@@ -838,7 +849,8 @@ var SHOES = [
     ],
     "distancia": [
       "media"
-    ]
+    ],
+    "photo": "https://via.placeholder.com/300x300/1a1a1a/c8ff00?text=Gel-Nimbus+26"
   },
   {
     "brand": "ASICS",
@@ -904,7 +916,8 @@ var SHOES = [
     ],
     "distancia": [
       "media"
-    ]
+    ],
+    "photo": "https://via.placeholder.com/300x300/1a1a1a/c8ff00?text=Gel-Nimbus+26"
   },
   {
     "brand": "ASICS",
@@ -971,7 +984,8 @@ var SHOES = [
     ],
     "distancia": [
       "media"
-    ]
+    ],
+    "photo": "https://via.placeholder.com/300x300/1a1a1a/c8ff00?text=Gel-Trabuco+12"
   },
   {
     "brand": "ASICS",
@@ -1041,7 +1055,8 @@ var SHOES = [
     ],
     "distancia": [
       "media"
-    ]
+    ],
+    "photo": "https://via.placeholder.com/300x300/1a1a1a/c8ff00?text=Gel-Pulse+15+SE"
   },
   {
     "brand": "ASICS",
@@ -1108,7 +1123,8 @@ var SHOES = [
     ],
     "distancia": [
       "media"
-    ]
+    ],
+    "photo": "https://via.placeholder.com/300x300/1a1a1a/c8ff00?text=Gel-Venture+10"
   },
   {
     "brand": "NEW BALANCE",
@@ -1181,7 +1197,8 @@ var SHOES = [
       "media",
       "longa",
       "maratona"
-    ]
+    ],
+    "photo": "https://via.placeholder.com/300x300/1a1a1a/c8ff00?text=FuelCell+Rebel+V5"
   },
   {
     "brand": "ASICS",
@@ -1247,7 +1264,8 @@ var SHOES = [
     ],
     "distancia": [
       "media"
-    ]
+    ],
+    "photo": "https://via.placeholder.com/300x300/1a1a1a/c8ff00?text=Gel-Shinobi+2"
   },
   {
     "brand": "ASICS",
@@ -1316,7 +1334,8 @@ var SHOES = [
     "distancia": [
       "media",
       "longa"
-    ]
+    ],
+    "photo": "https://via.placeholder.com/300x300/1a1a1a/c8ff00?text=Gel-Kayano+32"
   },
   {
     "brand": "BROOKS",
@@ -1385,7 +1404,8 @@ var SHOES = [
     ],
     "distancia": [
       "media"
-    ]
+    ],
+    "photo": "https://via.placeholder.com/300x300/1a1a1a/c8ff00?text=Adrenaline+GTS+24+Supportive"
   },
   {
     "brand": "BROOKS",
@@ -1454,7 +1474,8 @@ var SHOES = [
     ],
     "distancia": [
       "media"
-    ]
+    ],
+    "photo": "https://via.placeholder.com/300x300/1a1a1a/c8ff00?text=Adrenaline+GTS+24+Weatherized"
   },
   {
     "brand": "BROOKS",
@@ -1528,7 +1549,8 @@ var SHOES = [
       "media",
       "longa",
       "maratona"
-    ]
+    ],
+    "photo": "https://via.placeholder.com/300x300/1a1a1a/c8ff00?text=Ghost+16"
   },
   {
     "brand": "BROOKS",
@@ -1601,7 +1623,8 @@ var SHOES = [
       "media",
       "longa",
       "maratona"
-    ]
+    ],
+    "photo": "https://via.placeholder.com/300x300/1a1a1a/c8ff00?text=Ghost+14+Neutral"
   },
   {
     "brand": "FILA",
@@ -1675,7 +1698,8 @@ var SHOES = [
       "media",
       "longa",
       "maratona"
-    ]
+    ],
+    "photo": "https://via.placeholder.com/300x300/1a1a1a/c8ff00?text=Float+Maxxi"
   },
   {
     "brand": "FILA",
@@ -1744,7 +1768,8 @@ var SHOES = [
       "media",
       "longa",
       "maratona"
-    ]
+    ],
+    "photo": "https://via.placeholder.com/300x300/1a1a1a/c8ff00?text=Racer+Fastpace"
   },
   {
     "brand": "FILA",
@@ -1816,7 +1841,8 @@ var SHOES = [
       "media",
       "longa",
       "maratona"
-    ]
+    ],
+    "photo": "https://via.placeholder.com/300x300/1a1a1a/c8ff00?text=Racer+Comet"
   },
   {
     "brand": "FILA",
@@ -1888,7 +1914,8 @@ var SHOES = [
       "media",
       "longa",
       "maratona"
-    ]
+    ],
+    "photo": "https://via.placeholder.com/300x300/1a1a1a/c8ff00?text=Recovery"
   },
   {
     "brand": "HOKA",
@@ -1955,7 +1982,8 @@ var SHOES = [
     ],
     "distancia": [
       "longa"
-    ]
+    ],
+    "photo": "https://via.placeholder.com/300x300/1a1a1a/c8ff00?text=Bondi+8"
   },
   {
     "brand": "HOKA",
@@ -2022,7 +2050,8 @@ var SHOES = [
     ],
     "distancia": [
       "longa"
-    ]
+    ],
+    "photo": "https://via.placeholder.com/300x300/1a1a1a/c8ff00?text=Bondi+8+Road"
   },
   {
     "brand": "HOKA",
@@ -2089,7 +2118,8 @@ var SHOES = [
     ],
     "distancia": [
       "longa"
-    ]
+    ],
+    "photo": "https://via.placeholder.com/300x300/1a1a1a/c8ff00?text=Clifton+9"
   },
   {
     "brand": "HOKA",
@@ -2156,7 +2186,8 @@ var SHOES = [
     ],
     "distancia": [
       "longa"
-    ]
+    ],
+    "photo": "https://via.placeholder.com/300x300/1a1a1a/c8ff00?text=Clifton+9"
   },
   {
     "brand": "HOKA",
@@ -2221,7 +2252,8 @@ var SHOES = [
     ],
     "distancia": [
       "longa"
-    ]
+    ],
+    "photo": "https://via.placeholder.com/300x300/1a1a1a/c8ff00?text=Speedgoat+6"
   },
   {
     "brand": "MIZUNO",
@@ -2292,7 +2324,8 @@ var SHOES = [
     ],
     "distancia": [
       "media"
-    ]
+    ],
+    "photo": "https://via.placeholder.com/300x300/1a1a1a/c8ff00?text=Wave+Inspire+21"
   },
   {
     "brand": "MIZUNO",
@@ -2365,7 +2398,8 @@ var SHOES = [
     ],
     "distancia": [
       "media"
-    ]
+    ],
+    "photo": "https://via.placeholder.com/300x300/1a1a1a/c8ff00?text=Wave+Rider+28"
   },
   {
     "brand": "MIZUNO",
@@ -2435,7 +2469,8 @@ var SHOES = [
     ],
     "distancia": [
       "media"
-    ]
+    ],
+    "photo": "https://via.placeholder.com/300x300/1a1a1a/c8ff00?text=Wave+Sky+9"
   },
   {
     "brand": "MIZUNO",
@@ -2514,7 +2549,8 @@ var SHOES = [
       "media",
       "longa",
       "maratona"
-    ]
+    ],
+    "photo": "https://via.placeholder.com/300x300/1a1a1a/c8ff00?text=Victory+RSP"
   },
   {
     "brand": "NEW BALANCE",
@@ -2587,7 +2623,8 @@ var SHOES = [
       "media",
       "longa",
       "maratona"
-    ]
+    ],
+    "photo": "https://via.placeholder.com/300x300/1a1a1a/c8ff00?text=413v3"
   },
   {
     "brand": "NEW BALANCE",
@@ -2660,7 +2697,8 @@ var SHOES = [
       "media",
       "longa",
       "maratona"
-    ]
+    ],
+    "photo": "https://via.placeholder.com/300x300/1a1a1a/c8ff00?text=411v3"
   },
   {
     "brand": "NEW BALANCE",
@@ -2733,7 +2771,8 @@ var SHOES = [
       "media",
       "longa",
       "maratona"
-    ]
+    ],
+    "photo": "https://via.placeholder.com/300x300/1a1a1a/c8ff00?text=M860v14"
   },
   {
     "brand": "NEW BALANCE",
@@ -2804,7 +2843,8 @@ var SHOES = [
       "media",
       "longa",
       "maratona"
-    ]
+    ],
+    "photo": "https://via.placeholder.com/300x300/1a1a1a/c8ff00?text=Fresh+Foam+X+1080+V14"
   },
   {
     "brand": "NEW BALANCE",
@@ -2877,7 +2917,8 @@ var SHOES = [
       "media",
       "longa",
       "maratona"
-    ]
+    ],
+    "photo": "https://via.placeholder.com/300x300/1a1a1a/c8ff00?text=M860v14"
   },
   {
     "brand": "NEW BALANCE",
@@ -2949,7 +2990,8 @@ var SHOES = [
       "media",
       "longa",
       "maratona"
-    ]
+    ],
+    "photo": "https://via.placeholder.com/300x300/1a1a1a/c8ff00?text=Fresh+Foam+X+1080+V14"
   },
   {
     "brand": "NIKE",
@@ -3028,7 +3070,8 @@ var SHOES = [
       "media",
       "longa",
       "maratona"
-    ]
+    ],
+    "photo": "https://via.placeholder.com/300x300/1a1a1a/c8ff00?text=Pegasus+41"
   },
   {
     "brand": "NIKE",
@@ -3107,7 +3150,8 @@ var SHOES = [
       "media",
       "longa",
       "maratona"
-    ]
+    ],
+    "photo": "https://via.placeholder.com/300x300/1a1a1a/c8ff00?text=Pegasus+41"
   },
   {
     "brand": "NIKE",
@@ -3181,7 +3225,8 @@ var SHOES = [
       "media",
       "longa",
       "maratona"
-    ]
+    ],
+    "photo": "https://via.placeholder.com/300x300/1a1a1a/c8ff00?text=Reactx+Infinity+Run+4"
   },
   {
     "brand": "NIKE",
@@ -3255,7 +3300,8 @@ var SHOES = [
       "media",
       "longa",
       "maratona"
-    ]
+    ],
+    "photo": "https://via.placeholder.com/300x300/1a1a1a/c8ff00?text=Reactx+Infinity+Run+4"
   },
   {
     "brand": "NIKE",
@@ -3329,7 +3375,8 @@ var SHOES = [
       "media",
       "longa",
       "maratona"
-    ]
+    ],
+    "photo": "https://via.placeholder.com/300x300/1a1a1a/c8ff00?text=Vaporfly+3"
   },
   {
     "brand": "NIKE",
@@ -3390,7 +3437,8 @@ var SHOES = [
       "media",
       "longa",
       "maratona"
-    ]
+    ],
+    "photo": "https://via.placeholder.com/300x300/1a1a1a/c8ff00?text=Vomero+Plus"
   },
   {
     "brand": "NIKE",
@@ -3451,7 +3499,8 @@ var SHOES = [
       "media",
       "longa",
       "maratona"
-    ]
+    ],
+    "photo": "https://via.placeholder.com/300x300/1a1a1a/c8ff00?text=Vomero+Plus"
   },
   {
     "brand": "NIKE",
@@ -3513,7 +3562,8 @@ var SHOES = [
     "distancia": [
       "longa",
       "maratona"
-    ]
+    ],
+    "photo": "https://via.placeholder.com/300x300/1a1a1a/c8ff00?text=ZoomX+Ultrafly+Trail"
   },
   {
     "brand": "OLYMPIKUS",
@@ -3585,7 +3635,8 @@ var SHOES = [
       "media",
       "longa",
       "maratona"
-    ]
+    ],
+    "photo": "https://via.placeholder.com/300x300/1a1a1a/c8ff00?text=Corre+Grafeno+3"
   },
   {
     "brand": "OLYMPIKUS",
@@ -3657,7 +3708,8 @@ var SHOES = [
       "media",
       "longa",
       "maratona"
-    ]
+    ],
+    "photo": "https://via.placeholder.com/300x300/1a1a1a/c8ff00?text=Pride"
   },
   {
     "brand": "OLYMPIKUS",
@@ -3729,7 +3781,8 @@ var SHOES = [
       "media",
       "longa",
       "maratona"
-    ]
+    ],
+    "photo": "https://via.placeholder.com/300x300/1a1a1a/c8ff00?text=Challenger"
   },
   {
     "brand": "OLYMPIKUS",
@@ -3800,7 +3853,8 @@ var SHOES = [
       "media",
       "longa",
       "maratona"
-    ]
+    ],
+    "photo": "https://via.placeholder.com/300x300/1a1a1a/c8ff00?text=Orbita"
   },
   {
     "brand": "OLYMPIKUS",
@@ -3874,7 +3928,8 @@ var SHOES = [
       "media",
       "longa",
       "maratona"
-    ]
+    ],
+    "photo": "https://via.placeholder.com/300x300/1a1a1a/c8ff00?text=Essential"
   },
   {
     "brand": "OLYMPIKUS",
@@ -3948,7 +4003,8 @@ var SHOES = [
       "media",
       "longa",
       "maratona"
-    ]
+    ],
+    "photo": "https://via.placeholder.com/300x300/1a1a1a/c8ff00?text=Challenger+5"
   },
   {
     "brand": "PUMA",
@@ -4022,7 +4078,8 @@ var SHOES = [
       "media",
       "longa",
       "maratona"
-    ]
+    ],
+    "photo": "https://via.placeholder.com/300x300/1a1a1a/c8ff00?text=Velocity+Nitro+3"
   },
   {
     "brand": "PUMA",
@@ -4096,7 +4153,8 @@ var SHOES = [
       "media",
       "longa",
       "maratona"
-    ]
+    ],
+    "photo": "https://via.placeholder.com/300x300/1a1a1a/c8ff00?text=Aviator+Light+Pro+BDP"
   },
   {
     "brand": "SALOMON",
@@ -4163,7 +4221,8 @@ var SHOES = [
       "media",
       "longa",
       "maratona"
-    ]
+    ],
+    "photo": "https://via.placeholder.com/300x300/1a1a1a/c8ff00?text=Speedcross+6+Trail"
   },
   {
     "brand": "SALOMON",
@@ -4230,7 +4289,8 @@ var SHOES = [
     "distancia": [
       "longa",
       "maratona"
-    ]
+    ],
+    "photo": "https://via.placeholder.com/300x300/1a1a1a/c8ff00?text=Ultra+Glide+2"
   },
   {
     "brand": "SAUCONY",
@@ -4300,7 +4360,8 @@ var SHOES = [
       "media",
       "longa",
       "maratona"
-    ]
+    ],
+    "photo": "https://via.placeholder.com/300x300/1a1a1a/c8ff00?text=Endorphin+Speed+4"
   },
   {
     "brand": "Skechers",
@@ -4371,7 +4432,8 @@ var SHOES = [
       "media",
       "longa",
       "maratona"
-    ]
+    ],
+    "photo": "https://via.placeholder.com/300x300/1a1a1a/c8ff00?text=Arch+Fit+Orvan+Drex"
   },
   {
     "brand": "Under Armour",
@@ -4444,7 +4506,8 @@ var SHOES = [
       "media",
       "longa",
       "maratona"
-    ]
+    ],
+    "photo": "https://via.placeholder.com/300x300/1a1a1a/c8ff00?text=Charged+Great"
   },
   {
     "brand": "Under Armour",
@@ -4516,7 +4579,8 @@ var SHOES = [
       "media",
       "longa",
       "maratona"
-    ]
+    ],
+    "photo": "https://via.placeholder.com/300x300/1a1a1a/c8ff00?text=Charged+Hit+SE"
   },
   {
     "brand": "OLYMPIKUS",
@@ -4590,7 +4654,8 @@ var SHOES = [
       "media",
       "longa",
       "maratona"
-    ]
+    ],
+    "photo": "https://via.placeholder.com/300x300/1a1a1a/c8ff00?text=Marte"
   },
   {
     "brand": "OLYMPIKUS",
@@ -4666,7 +4731,8 @@ var SHOES = [
       "media",
       "longa",
       "maratona"
-    ]
+    ],
+    "photo": "https://via.placeholder.com/300x300/1a1a1a/c8ff00?text=Pride+4"
   },
   {
     "brand": "NEW BALANCE",
@@ -4740,7 +4806,8 @@ var SHOES = [
       "media",
       "longa",
       "maratona"
-    ]
+    ],
+    "photo": "https://via.placeholder.com/300x300/1a1a1a/c8ff00?text=530"
   },
   {
     "brand": "MIZUNO",
@@ -4818,7 +4885,8 @@ var SHOES = [
       "media",
       "longa",
       "maratona"
-    ]
+    ],
+    "photo": "https://via.placeholder.com/300x300/1a1a1a/c8ff00?text=Base+Ride"
   },
   {
     "brand": "MIZUNO",
@@ -4895,7 +4963,8 @@ var SHOES = [
       "media",
       "longa",
       "maratona"
-    ]
+    ],
+    "photo": "https://via.placeholder.com/300x300/1a1a1a/c8ff00?text=Creation+26"
   },
   {
     "brand": "MIZUNO",
@@ -4972,7 +5041,8 @@ var SHOES = [
       "media",
       "longa",
       "maratona"
-    ]
+    ],
+    "photo": "https://via.placeholder.com/300x300/1a1a1a/c8ff00?text=Creation+26"
   },
   {
     "brand": "ASICS",
@@ -5045,7 +5115,8 @@ var SHOES = [
       "media",
       "longa",
       "maratona"
-    ]
+    ],
+    "photo": "https://via.placeholder.com/300x300/1a1a1a/c8ff00?text=Superblast+2"
   },
   {
     "brand": "MIZUNO",
@@ -5118,7 +5189,8 @@ var SHOES = [
       "media",
       "longa",
       "maratona"
-    ]
+    ],
+    "photo": "https://via.placeholder.com/300x300/1a1a1a/c8ff00?text=Neo+Zen"
   },
   {
     "brand": "OLYMPIKUS",
@@ -5191,7 +5263,8 @@ var SHOES = [
       "media",
       "longa",
       "maratona"
-    ]
+    ],
+    "photo": "https://via.placeholder.com/300x300/1a1a1a/c8ff00?text=Rua"
   },
   {
     "brand": "MIZUNO",
@@ -5264,7 +5337,8 @@ var SHOES = [
     ],
     "distancia": [
       "media"
-    ]
+    ],
+    "photo": "https://via.placeholder.com/300x300/1a1a1a/c8ff00?text=Wave+Dynasty+7"
   },
   {
     "brand": "MIZUNO",
@@ -5341,7 +5415,8 @@ var SHOES = [
       "media",
       "longa",
       "maratona"
-    ]
+    ],
+    "photo": "https://via.placeholder.com/300x300/1a1a1a/c8ff00?text=Enigma+2"
   },
   {
     "brand": "MIZUNO",
@@ -5411,7 +5486,8 @@ var SHOES = [
     ],
     "distancia": [
       "media"
-    ]
+    ],
+    "photo": "https://via.placeholder.com/300x300/1a1a1a/c8ff00?text=Wave+Prophecy+Beta+2"
   },
   {
     "brand": "MIZUNO",
@@ -5488,7 +5564,8 @@ var SHOES = [
       "media",
       "longa",
       "maratona"
-    ]
+    ],
+    "photo": "https://via.placeholder.com/300x300/1a1a1a/c8ff00?text=Glow+3"
   },
   {
     "brand": "MIZUNO",
@@ -5558,7 +5635,8 @@ var SHOES = [
     ],
     "distancia": [
       "media"
-    ]
+    ],
+    "photo": "https://via.placeholder.com/300x300/1a1a1a/c8ff00?text=Wave+Daichi+9"
   },
   {
     "brand": "MIZUNO",
@@ -5628,7 +5706,8 @@ var SHOES = [
     ],
     "distancia": [
       "media"
-    ]
+    ],
+    "photo": "https://via.placeholder.com/300x300/1a1a1a/c8ff00?text=Wave+Daichi+9"
   },
   {
     "brand": "New Balance",
@@ -5701,7 +5780,8 @@ var SHOES = [
       "media",
       "longa",
       "maratona"
-    ]
+    ],
+    "photo": "https://via.placeholder.com/300x300/1a1a1a/c8ff00?text=1080+v15"
   },
   {
     "brand": "New Balance",
@@ -5774,7 +5854,8 @@ var SHOES = [
       "media",
       "longa",
       "maratona"
-    ]
+    ],
+    "photo": "https://via.placeholder.com/300x300/1a1a1a/c8ff00?text=1080+v15"
   },
   {
     "brand": "New Balance",
@@ -5846,7 +5927,8 @@ var SHOES = [
       "media",
       "longa",
       "maratona"
-    ]
+    ],
+    "photo": "https://via.placeholder.com/300x300/1a1a1a/c8ff00?text=FuelCell+SuperComp+Elite+v5"
   },
   {
     "brand": "New Balance",
@@ -5924,7 +6006,8 @@ var SHOES = [
       "media",
       "longa",
       "maratona"
-    ]
+    ],
+    "photo": "https://via.placeholder.com/300x300/1a1a1a/c8ff00?text=Fresh+Foam+X+Hierro+v8"
   },
   {
     "brand": "New Balance",
@@ -5996,7 +6079,8 @@ var SHOES = [
       "media",
       "longa",
       "maratona"
-    ]
+    ],
+    "photo": "https://via.placeholder.com/300x300/1a1a1a/c8ff00?text=New+Balance+Rebel+v5"
   },
   {
     "brand": "New Balance",
@@ -6068,7 +6152,8 @@ var SHOES = [
       "media",
       "longa",
       "maratona"
-    ]
+    ],
+    "photo": "https://via.placeholder.com/300x300/1a1a1a/c8ff00?text=New+Balance+Rebel+v5"
   },
   {
     "brand": "Hoka",
@@ -6134,7 +6219,8 @@ var SHOES = [
     ],
     "distancia": [
       "longa"
-    ]
+    ],
+    "photo": "https://via.placeholder.com/300x300/1a1a1a/c8ff00?text=Hoka+Clifton+10"
   },
   {
     "brand": "Hoka",
@@ -6200,7 +6286,8 @@ var SHOES = [
     ],
     "distancia": [
       "longa"
-    ]
+    ],
+    "photo": "https://via.placeholder.com/300x300/1a1a1a/c8ff00?text=Hoka+Clifton+10"
   },
   {
     "brand": "Hoka",
@@ -6272,7 +6359,8 @@ var SHOES = [
       "media",
       "longa",
       "maratona"
-    ]
+    ],
+    "photo": "https://via.placeholder.com/300x300/1a1a1a/c8ff00?text=Hoka+Rocket+X+3"
   },
   {
     "brand": "Saucony",
@@ -6345,7 +6433,8 @@ var SHOES = [
       "media",
       "longa",
       "maratona"
-    ]
+    ],
+    "photo": "https://via.placeholder.com/300x300/1a1a1a/c8ff00?text=Saucony+Endorphin+Pro+4"
   },
   {
     "brand": "Saucony",
@@ -6417,7 +6506,8 @@ var SHOES = [
       "media",
       "longa",
       "maratona"
-    ]
+    ],
+    "photo": "https://via.placeholder.com/300x300/1a1a1a/c8ff00?text=Saucony+Endorphin+Speed+5"
   },
   {
     "brand": "Saucony",
@@ -6490,7 +6580,8 @@ var SHOES = [
       "media",
       "longa",
       "maratona"
-    ]
+    ],
+    "photo": "https://via.placeholder.com/300x300/1a1a1a/c8ff00?text=Saucony+Triumph+23"
   },
   {
     "brand": "Saucony",
@@ -6560,7 +6651,8 @@ var SHOES = [
       "media",
       "longa",
       "maratona"
-    ]
+    ],
+    "photo": "https://via.placeholder.com/300x300/1a1a1a/c8ff00?text=Saucony+Peregrine+15"
   },
   {
     "brand": "Saucony",
@@ -6630,7 +6722,8 @@ var SHOES = [
       "media",
       "longa",
       "maratona"
-    ]
+    ],
+    "photo": "https://via.placeholder.com/300x300/1a1a1a/c8ff00?text=Saucony+Peregrine+15"
   },
   {
     "brand": "Salomon",
@@ -6700,7 +6793,8 @@ var SHOES = [
       "media",
       "longa",
       "maratona"
-    ]
+    ],
+    "photo": "https://via.placeholder.com/300x300/1a1a1a/c8ff00?text=Salomon+Sense+Ride+5"
   },
   {
     "brand": "Olympikus",
@@ -6776,7 +6870,8 @@ var SHOES = [
       "media",
       "longa",
       "maratona"
-    ]
+    ],
+    "photo": "https://via.placeholder.com/300x300/1a1a1a/c8ff00?text=Corre+Grafeno+3"
   },
   {
     "brand": "Olympikus",
@@ -6852,6 +6947,7 @@ var SHOES = [
       "media",
       "longa",
       "maratona"
-    ]
+    ],
+    "photo": "https://via.placeholder.com/300x300/1a1a1a/c8ff00?text=Olympikus+Challenger+5"
   }
 ];
