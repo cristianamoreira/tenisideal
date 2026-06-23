@@ -1,0 +1,19 @@
+{
+  "name": "tenisideal",
+  "version": "1.0.0",
+  "description": "Quiz-based shoe recommendation platform",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "shoes",
+    "quiz",
+    "recommendation"
+  ],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "node-fetch": "^2.7.0"
+  }
+}
