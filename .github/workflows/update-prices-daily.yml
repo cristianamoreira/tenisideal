@@ -47,7 +47,7 @@ jobs:
           git config --local user.name "GitHub Actions"
           git add -A
           git diff --cached --quiet || git commit -m "🔄 Atualizar preços - $(date +'%Y-%m-%d %H:%M:%S')"
-          git push
+          git push https://${{ github.actor }}:${{ secrets.GITHUB_TOKEN }}@github.com/${{ github.repository }}.git
 
       - name: 📧 Notificar sucesso
         if: success()
