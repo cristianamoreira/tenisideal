@@ -57,7 +57,17 @@ var SHOES = [
     "description": "5 hastes de fibra de carbono EnergyRods 2.0. O favorito dos campeões de maratona no mundo inteiro.",
     "reason": "5 hastes de fibra de carbono EnergyRods 2.0. O favorito dos campeões de maratona no mundo inteiro.",
     "pros": [],
-    "cons": []
+    "cons": [],
+    "pisada": [
+      "neutra"
+    ],
+    "terreno": [
+      "asfalto"
+    ],
+    "distancia": [
+      "curta",
+      "media"
+    ]
   },
   {
     "brand": "ADIDAS",
@@ -115,7 +125,17 @@ var SHOES = [
     "description": "A porta de entrada para os tênis de velocidade. Lightstrike Pro sem placa de carbono, mas com toda a rapidez.",
     "reason": "A porta de entrada para os tênis de velocidade. Lightstrike Pro sem placa de carbono, mas com toda a rapidez.",
     "pros": [],
-    "cons": []
+    "cons": [],
+    "pisada": [
+      "neutra"
+    ],
+    "terreno": [
+      "asfalto"
+    ],
+    "distancia": [
+      "curta",
+      "media"
+    ]
   },
   {
     "brand": "ADIDAS",
@@ -176,7 +196,23 @@ var SHOES = [
     "description": "Estrutura firme e estável para iniciantes. Entrega tração e durabilidade para treinos diários sem gastar muito.",
     "reason": "Estrutura firme e estável para iniciantes. Entrega tração e durabilidade para treinos diários sem gastar muito.",
     "pros": [],
-    "cons": []
+    "cons": [],
+    "pisada": [
+      "neutra",
+      "pronada",
+      "supinada"
+    ],
+    "terreno": [
+      "asfalto",
+      "trilha",
+      "esteira"
+    ],
+    "distancia": [
+      "curta",
+      "media",
+      "longa",
+      "maratona"
+    ]
   },
   {
     "brand": "ADIDAS",
@@ -238,7 +274,17 @@ var SHOES = [
     "description": "Tecnologia Boost devolve energia a cada passada. Queridinho para longas distâncias com conforto máximo.",
     "reason": "Tecnologia Boost devolve energia a cada passada. Queridinho para longas distâncias com conforto máximo.",
     "pros": [],
-    "cons": []
+    "cons": [],
+    "pisada": [
+      "neutra"
+    ],
+    "terreno": [
+      "asfalto"
+    ],
+    "distancia": [
+      "longa",
+      "maratona"
+    ]
   },
   {
     "brand": "ADIDAS",
@@ -283,7 +329,20 @@ var SHOES = [
     "description": "",
     "reason": "",
     "pros": [],
-    "cons": []
+    "cons": [],
+    "pisada": [
+      "neutra",
+      "supinada"
+    ],
+    "terreno": [
+      "trilha"
+    ],
+    "distancia": [
+      "curta",
+      "media",
+      "longa",
+      "maratona"
+    ]
   },
   {
     "brand": "ADIDAS",
@@ -346,7 +405,17 @@ var SHOES = [
     "description": "Lightboost 2.0 mais leve e responsivo. Primeknit ajusta como uma meia. Excelente para treinos longos com retorno máximo de energia.",
     "reason": "Lightboost 2.0 mais leve e responsivo. Primeknit ajusta como uma meia. Excelente para treinos longos com retorno máximo de energia.",
     "pros": [],
-    "cons": []
+    "cons": [],
+    "pisada": [
+      "neutra"
+    ],
+    "terreno": [
+      "asfalto"
+    ],
+    "distancia": [
+      "longa",
+      "maratona"
+    ]
   },
   {
     "brand": "ADIDAS",
@@ -409,7 +478,23 @@ var SHOES = [
     "description": "Lightstrike responsivo com solado TPU durável. Leve e rápido para treinos diários até 10km. Excelente custo-benefício para quem quer performance sem gastar muito.",
     "reason": "Lightstrike responsivo com solado TPU durável. Leve e rápido para treinos diários até 10km. Excelente custo-benefício para quem quer performance sem gastar muito.",
     "pros": [],
-    "cons": []
+    "cons": [],
+    "pisada": [
+      "neutra",
+      "pronada",
+      "supinada"
+    ],
+    "terreno": [
+      "asfalto",
+      "trilha",
+      "esteira"
+    ],
+    "distancia": [
+      "curta",
+      "media",
+      "longa",
+      "maratona"
+    ]
   },
   {
     "brand": "Adidas",
@@ -472,7 +557,17 @@ var SHOES = [
     "description": "Entressola Boost com retorno de energia excepcional, cabedal tipo meia e solado Continental para máximo amortecimento e tração",
     "reason": "Entressola Boost com retorno de energia excepcional, cabedal tipo meia e solado Continental para máximo amortecimento e tração",
     "pros": [],
-    "cons": []
+    "cons": [],
+    "pisada": [
+      "neutra"
+    ],
+    "terreno": [
+      "asfalto"
+    ],
+    "distancia": [
+      "longa",
+      "maratona"
+    ]
   },
   {
     "brand": "ASICS",
@@ -530,7 +625,18 @@ var SHOES = [
     "description": "Gel duplo + FlyteFoam para treinos diários confortáveis. Irmão mais acessível do Nimbus.",
     "reason": "Gel duplo + FlyteFoam para treinos diários confortáveis. Irmão mais acessível do Nimbus.",
     "pros": [],
-    "cons": []
+    "cons": [],
+    "pisada": [
+      "neutra",
+      "pronada"
+    ],
+    "terreno": [
+      "asfalto"
+    ],
+    "distancia": [
+      "media",
+      "curta"
+    ]
   },
   {
     "brand": "ASICS",
@@ -587,7 +693,18 @@ var SHOES = [
     "description": "Desenvolvido para pronadores. Suporte medial avançado + Gel duplo: estabilidade sem abrir mão do conforto.",
     "reason": "Desenvolvido para pronadores. Suporte medial avançado + Gel duplo: estabilidade sem abrir mão do conforto.",
     "pros": [],
-    "cons": []
+    "cons": [],
+    "pisada": [
+      "neutra",
+      "pronada"
+    ],
+    "terreno": [
+      "asfalto"
+    ],
+    "distancia": [
+      "media",
+      "longa"
+    ]
   },
   {
     "brand": "ASICS",
@@ -644,7 +761,18 @@ var SHOES = [
     "description": "O melhor tênis de controle de pronação. Suporte medial + Gel duplo para estabilidade máxima.",
     "reason": "O melhor tênis de controle de pronação. Suporte medial + Gel duplo para estabilidade máxima.",
     "pros": [],
-    "cons": []
+    "cons": [],
+    "pisada": [
+      "neutra",
+      "pronada"
+    ],
+    "terreno": [
+      "asfalto"
+    ],
+    "distancia": [
+      "media",
+      "longa"
+    ]
   },
   {
     "brand": "ASICS",
@@ -700,7 +828,17 @@ var SHOES = [
     "description": "Amortecimento FlyteFoam excepcional. Ideal para iniciantes que precisam de proteção extra nas articulações.",
     "reason": "Amortecimento FlyteFoam excepcional. Ideal para iniciantes que precisam de proteção extra nas articulações.",
     "pros": [],
-    "cons": []
+    "cons": [],
+    "pisada": [
+      "neutra",
+      "pronada"
+    ],
+    "terreno": [
+      "asfalto"
+    ],
+    "distancia": [
+      "media"
+    ]
   },
   {
     "brand": "ASICS",
@@ -756,7 +894,17 @@ var SHOES = [
     "description": "Amortecimento FlyteFoam excepcional para longas distâncias. Proteção articular superior para corredoras.",
     "reason": "Amortecimento FlyteFoam excepcional para longas distâncias. Proteção articular superior para corredoras.",
     "pros": [],
-    "cons": []
+    "cons": [],
+    "pisada": [
+      "neutra",
+      "pronada"
+    ],
+    "terreno": [
+      "asfalto"
+    ],
+    "distancia": [
+      "media"
+    ]
   },
   {
     "brand": "ASICS",
@@ -813,7 +961,17 @@ var SHOES = [
     "description": "Proteção no bico e solado com travas. Funciona bem em trilhas leves e estradas mistas.",
     "reason": "Proteção no bico e solado com travas. Funciona bem em trilhas leves e estradas mistas.",
     "pros": [],
-    "cons": []
+    "cons": [],
+    "pisada": [
+      "neutra",
+      "pronada"
+    ],
+    "terreno": [
+      "asfalto"
+    ],
+    "distancia": [
+      "media"
+    ]
   },
   {
     "brand": "ASICS",
@@ -873,7 +1031,17 @@ var SHOES = [
     "description": "GEL no calcanhar + FlyteFoam leve. Ótimo custo-benefício para o dia a dia. Cabedal respirável e durável para treinos regulares.",
     "reason": "GEL no calcanhar + FlyteFoam leve. Ótimo custo-benefício para o dia a dia. Cabedal respirável e durável para treinos regulares.",
     "pros": [],
-    "cons": []
+    "cons": [],
+    "pisada": [
+      "neutra",
+      "pronada"
+    ],
+    "terreno": [
+      "asfalto"
+    ],
+    "distancia": [
+      "media"
+    ]
   },
   {
     "brand": "ASICS",
@@ -930,7 +1098,17 @@ var SHOES = [
     "description": "Tecnologia GEL ASICS com excelente amortecimento e tração para trilha e asfalto",
     "reason": "Tecnologia GEL ASICS com excelente amortecimento e tração para trilha e asfalto",
     "pros": [],
-    "cons": []
+    "cons": [],
+    "pisada": [
+      "neutra",
+      "pronada"
+    ],
+    "terreno": [
+      "asfalto"
+    ],
+    "distancia": [
+      "media"
+    ]
   },
   {
     "brand": "NEW BALANCE",
@@ -987,7 +1165,23 @@ var SHOES = [
     "description": "Tecnologia GEL ASICS com excelente amortecimento e tração para trilha e asfalto",
     "reason": "Tecnologia GEL ASICS com excelente amortecimento e tração para trilha e asfalto",
     "pros": [],
-    "cons": []
+    "cons": [],
+    "pisada": [
+      "neutra",
+      "pronada",
+      "supinada"
+    ],
+    "terreno": [
+      "asfalto",
+      "trilha",
+      "esteira"
+    ],
+    "distancia": [
+      "curta",
+      "media",
+      "longa",
+      "maratona"
+    ]
   },
   {
     "brand": "ASICS",
@@ -1043,7 +1237,17 @@ var SHOES = [
     "description": "Tecnologia GEL na entressola EVA para absorção de impacto, cabedal mesh respirável e solado emborrachado resistente",
     "reason": "Tecnologia GEL na entressola EVA para absorção de impacto, cabedal mesh respirável e solado emborrachado resistente",
     "pros": [],
-    "cons": []
+    "cons": [],
+    "pisada": [
+      "neutra",
+      "pronada"
+    ],
+    "terreno": [
+      "asfalto"
+    ],
+    "distancia": [
+      "media"
+    ]
   },
   {
     "brand": "ASICS",
@@ -1101,7 +1305,18 @@ var SHOES = [
     "description": "4D Guidance System com espuma FF BLAST PLUS para estabilidade máxima, ideal para longas distâncias e corredoras com pisada pronada",
     "reason": "4D Guidance System com espuma FF BLAST PLUS para estabilidade máxima, ideal para longas distâncias e corredoras com pisada pronada",
     "pros": [],
-    "cons": []
+    "cons": [],
+    "pisada": [
+      "neutra",
+      "pronada"
+    ],
+    "terreno": [
+      "asfalto"
+    ],
+    "distancia": [
+      "media",
+      "longa"
+    ]
   },
   {
     "brand": "BROOKS",
@@ -1159,7 +1374,18 @@ var SHOES = [
     "description": "GuideRails exclusivo suporta o excesso de movimento sem travar a pisada natural. Indicado por fisios.",
     "reason": "GuideRails exclusivo suporta o excesso de movimento sem travar a pisada natural. Indicado por fisios.",
     "pros": [],
-    "cons": []
+    "cons": [],
+    "pisada": [
+      "pronada"
+    ],
+    "terreno": [
+      "asfalto",
+      "trilha",
+      "esteira"
+    ],
+    "distancia": [
+      "media"
+    ]
   },
   {
     "brand": "BROOKS",
@@ -1217,7 +1443,18 @@ var SHOES = [
     "description": "O tênis de controle mais recomendado por fisioterapeutas. GuideRails adapta ao movimento único de cada corredora.",
     "reason": "O tênis de controle mais recomendado por fisioterapeutas. GuideRails adapta ao movimento único de cada corredora.",
     "pros": [],
-    "cons": []
+    "cons": [],
+    "pisada": [
+      "pronada"
+    ],
+    "terreno": [
+      "asfalto",
+      "trilha",
+      "esteira"
+    ],
+    "distancia": [
+      "media"
+    ]
   },
   {
     "brand": "BROOKS",
@@ -1275,7 +1512,23 @@ var SHOES = [
     "description": "DNA Loft v3 oferece maciez consistente do início ao fim do treino. Ótimo tênis de treino diário.",
     "reason": "DNA Loft v3 oferece maciez consistente do início ao fim do treino. Ótimo tênis de treino diário.",
     "pros": [],
-    "cons": []
+    "cons": [],
+    "pisada": [
+      "neutra",
+      "pronada",
+      "supinada"
+    ],
+    "terreno": [
+      "asfalto",
+      "trilha",
+      "esteira"
+    ],
+    "distancia": [
+      "curta",
+      "media",
+      "longa",
+      "maratona"
+    ]
   },
   {
     "brand": "BROOKS",
@@ -1332,7 +1585,23 @@ var SHOES = [
     "description": "Amortecimento DNA LOFT com solado de garras para trilha leve, combina o conforto de um tênis de rua com tração fora do asfalto",
     "reason": "Amortecimento DNA LOFT com solado de garras para trilha leve, combina o conforto de um tênis de rua com tração fora do asfalto",
     "pros": [],
-    "cons": []
+    "cons": [],
+    "pisada": [
+      "neutra",
+      "pronada",
+      "supinada"
+    ],
+    "terreno": [
+      "asfalto",
+      "trilha",
+      "esteira"
+    ],
+    "distancia": [
+      "curta",
+      "media",
+      "longa",
+      "maratona"
+    ]
   },
   {
     "brand": "FILA",
@@ -1390,7 +1659,23 @@ var SHOES = [
     "description": "Alto amortecimento FLOAT com ótimo custo-benefício para corridas em asfalto",
     "reason": "Alto amortecimento FLOAT com ótimo custo-benefício para corridas em asfalto",
     "pros": [],
-    "cons": []
+    "cons": [],
+    "pisada": [
+      "neutra",
+      "pronada",
+      "supinada"
+    ],
+    "terreno": [
+      "asfalto",
+      "trilha",
+      "esteira"
+    ],
+    "distancia": [
+      "curta",
+      "media",
+      "longa",
+      "maratona"
+    ]
   },
   {
     "brand": "FILA",
@@ -1443,7 +1728,23 @@ var SHOES = [
     "description": "amortecimento|durabilidade|custo",
     "reason": "amortecimento|durabilidade|custo",
     "pros": [],
-    "cons": []
+    "cons": [],
+    "pisada": [
+      "neutra",
+      "pronada",
+      "supinada"
+    ],
+    "terreno": [
+      "asfalto",
+      "trilha",
+      "esteira"
+    ],
+    "distancia": [
+      "curta",
+      "media",
+      "longa",
+      "maratona"
+    ]
   },
   {
     "brand": "FILA",
@@ -1499,7 +1800,23 @@ var SHOES = [
     "description": "Solado maximalista com entressola EVA e ponteiras TPU para amortecimento e estabilidade em corridas de até 10km",
     "reason": "Solado maximalista com entressola EVA e ponteiras TPU para amortecimento e estabilidade em corridas de até 10km",
     "pros": [],
-    "cons": []
+    "cons": [],
+    "pisada": [
+      "neutra",
+      "pronada",
+      "supinada"
+    ],
+    "terreno": [
+      "asfalto",
+      "trilha",
+      "esteira"
+    ],
+    "distancia": [
+      "curta",
+      "media",
+      "longa",
+      "maratona"
+    ]
   },
   {
     "brand": "FILA",
@@ -1555,7 +1872,23 @@ var SHOES = [
     "description": "Solado Energized Rubber da linha Float transforma impacto em propulsão, com cabedal mesh e contraforte estruturado para estabilidade",
     "reason": "Solado Energized Rubber da linha Float transforma impacto em propulsão, com cabedal mesh e contraforte estruturado para estabilidade",
     "pros": [],
-    "cons": []
+    "cons": [],
+    "pisada": [
+      "neutra",
+      "pronada",
+      "supinada"
+    ],
+    "terreno": [
+      "asfalto",
+      "trilha",
+      "esteira"
+    ],
+    "distancia": [
+      "curta",
+      "media",
+      "longa",
+      "maratona"
+    ]
   },
   {
     "brand": "HOKA",
@@ -1613,7 +1946,16 @@ var SHOES = [
     "description": "O rei do amortecimento máximo. Perfeito para dias de recuperação ou corredores que precisam de proteção extra.",
     "reason": "O rei do amortecimento máximo. Perfeito para dias de recuperação ou corredores que precisam de proteção extra.",
     "pros": [],
-    "cons": []
+    "cons": [],
+    "pisada": [
+      "neutra"
+    ],
+    "terreno": [
+      "asfalto"
+    ],
+    "distancia": [
+      "longa"
+    ]
   },
   {
     "brand": "HOKA",
@@ -1671,7 +2013,16 @@ var SHOES = [
     "description": "Amortecimento máximo para recuperação ativa ou corredoras que precisam de proteção articular extra.",
     "reason": "Amortecimento máximo para recuperação ativa ou corredoras que precisam de proteção articular extra.",
     "pros": [],
-    "cons": []
+    "cons": [],
+    "pisada": [
+      "neutra"
+    ],
+    "terreno": [
+      "asfalto"
+    ],
+    "distancia": [
+      "longa"
+    ]
   },
   {
     "brand": "HOKA",
@@ -1729,7 +2080,16 @@ var SHOES = [
     "description": "Amortecimento máximo com peso surpreendentemente baixo. Ótimo para treinos longos e recuperação.",
     "reason": "Amortecimento máximo com peso surpreendentemente baixo. Ótimo para treinos longos e recuperação.",
     "pros": [],
-    "cons": []
+    "cons": [],
+    "pisada": [
+      "neutra"
+    ],
+    "terreno": [
+      "asfalto"
+    ],
+    "distancia": [
+      "longa"
+    ]
   },
   {
     "brand": "HOKA",
@@ -1787,7 +2147,16 @@ var SHOES = [
     "description": "Amortecimento máximo com leveza surpreendente. Ótimo para treinos longos e recuperação ativa.",
     "reason": "Amortecimento máximo com leveza surpreendente. Ótimo para treinos longos e recuperação ativa.",
     "pros": [],
-    "cons": []
+    "cons": [],
+    "pisada": [
+      "neutra"
+    ],
+    "terreno": [
+      "asfalto"
+    ],
+    "distancia": [
+      "longa"
+    ]
   },
   {
     "brand": "HOKA",
@@ -1843,7 +2212,16 @@ var SHOES = [
     "description": "Favorito dos ultramaratonistas: amortecimento generoso com grip confiável nas piores condições.",
     "reason": "Favorito dos ultramaratonistas: amortecimento generoso com grip confiável nas piores condições.",
     "pros": [],
-    "cons": []
+    "cons": [],
+    "pisada": [
+      "supinada"
+    ],
+    "terreno": [
+      "trilha"
+    ],
+    "distancia": [
+      "longa"
+    ]
   },
   {
     "brand": "MIZUNO",
@@ -1904,7 +2282,17 @@ var SHOES = [
     "description": "Suporte Wave duplo para pronadores. Mais macio que o Wave Creation, ideal para treinos longos.",
     "reason": "Suporte Wave duplo para pronadores. Mais macio que o Wave Creation, ideal para treinos longos.",
     "pros": [],
-    "cons": []
+    "cons": [],
+    "pisada": [
+      "neutra",
+      "pronada"
+    ],
+    "terreno": [
+      "asfalto"
+    ],
+    "distancia": [
+      "media"
+    ]
   },
   {
     "brand": "MIZUNO",
@@ -1967,7 +2355,17 @@ var SHOES = [
     "description": "Placa Wave entrega estabilidade e suavidade juntas. Excelente custo-benefício e muito durável.",
     "reason": "Placa Wave entrega estabilidade e suavidade juntas. Excelente custo-benefício e muito durável.",
     "pros": [],
-    "cons": []
+    "cons": [],
+    "pisada": [
+      "neutra",
+      "pronada"
+    ],
+    "terreno": [
+      "asfalto"
+    ],
+    "distancia": [
+      "media"
+    ]
   },
   {
     "brand": "MIZUNO",
@@ -2027,7 +2425,17 @@ var SHOES = [
     "description": "O tênis de maior amortecimento da Mizuno. Wave Sky + Enerzy Foam para longas distâncias em total conforto.",
     "reason": "O tênis de maior amortecimento da Mizuno. Wave Sky + Enerzy Foam para longas distâncias em total conforto.",
     "pros": [],
-    "cons": []
+    "cons": [],
+    "pisada": [
+      "neutra",
+      "pronada"
+    ],
+    "terreno": [
+      "asfalto"
+    ],
+    "distancia": [
+      "media"
+    ]
   },
   {
     "brand": "MIZUNO",
@@ -2090,7 +2498,23 @@ var SHOES = [
     "description": "Response Foam gera mais retorno de energia e leveza. Cabedal Jacquard respirável e solado X10 durável. Ótima entrada na corrida com tecnologia Mizuno.",
     "reason": "Response Foam gera mais retorno de energia e leveza. Cabedal Jacquard respirável e solado X10 durável. Ótima entrada na corrida com tecnologia Mizuno.",
     "pros": [],
-    "cons": []
+    "cons": [],
+    "pisada": [
+      "neutra",
+      "pronada",
+      "supinada"
+    ],
+    "terreno": [
+      "asfalto",
+      "trilha",
+      "esteira"
+    ],
+    "distancia": [
+      "curta",
+      "media",
+      "longa",
+      "maratona"
+    ]
   },
   {
     "brand": "NEW BALANCE",
@@ -2147,7 +2571,23 @@ var SHOES = [
     "description": "Ótima entrada no mundo da corrida. Cabedal respirável e amortecimento ABZORB para o dia a dia.",
     "reason": "Ótima entrada no mundo da corrida. Cabedal respirável e amortecimento ABZORB para o dia a dia.",
     "pros": [],
-    "cons": []
+    "cons": [],
+    "pisada": [
+      "neutra",
+      "pronada",
+      "supinada"
+    ],
+    "terreno": [
+      "asfalto",
+      "trilha",
+      "esteira"
+    ],
+    "distancia": [
+      "curta",
+      "media",
+      "longa",
+      "maratona"
+    ]
   },
   {
     "brand": "NEW BALANCE",
@@ -2204,7 +2644,23 @@ var SHOES = [
     "description": "Ótima entrada no mundo da corrida. Cabedal respirável e amortecimento ABZORB para quem está começando.",
     "reason": "Ótima entrada no mundo da corrida. Cabedal respirável e amortecimento ABZORB para quem está começando.",
     "pros": [],
-    "cons": []
+    "cons": [],
+    "pisada": [
+      "neutra",
+      "pronada",
+      "supinada"
+    ],
+    "terreno": [
+      "asfalto",
+      "trilha",
+      "esteira"
+    ],
+    "distancia": [
+      "curta",
+      "media",
+      "longa",
+      "maratona"
+    ]
   },
   {
     "brand": "NEW BALANCE",
@@ -2261,7 +2717,23 @@ var SHOES = [
     "description": "Referência em controle de pronação com ótimo custo-benefício. Suporte medial confiável e confortável.",
     "reason": "Referência em controle de pronação com ótimo custo-benefício. Suporte medial confiável e confortável.",
     "pros": [],
-    "cons": []
+    "cons": [],
+    "pisada": [
+      "neutra",
+      "pronada",
+      "supinada"
+    ],
+    "terreno": [
+      "asfalto",
+      "trilha",
+      "esteira"
+    ],
+    "distancia": [
+      "curta",
+      "media",
+      "longa",
+      "maratona"
+    ]
   },
   {
     "brand": "NEW BALANCE",
@@ -2316,7 +2788,23 @@ var SHOES = [
     "description": "Fresh Foam X — o mais macio da NB. Perfeito para longas distâncias sem fadiga articular.",
     "reason": "Fresh Foam X — o mais macio da NB. Perfeito para longas distâncias sem fadiga articular.",
     "pros": [],
-    "cons": []
+    "cons": [],
+    "pisada": [
+      "neutra",
+      "pronada",
+      "supinada"
+    ],
+    "terreno": [
+      "asfalto",
+      "trilha",
+      "esteira"
+    ],
+    "distancia": [
+      "curta",
+      "media",
+      "longa",
+      "maratona"
+    ]
   },
   {
     "brand": "NEW BALANCE",
@@ -2373,7 +2861,23 @@ var SHOES = [
     "description": "Controle de pronação com excelente custo-benefício. Suporte medial confiável e confortável.",
     "reason": "Controle de pronação com excelente custo-benefício. Suporte medial confiável e confortável.",
     "pros": [],
-    "cons": []
+    "cons": [],
+    "pisada": [
+      "neutra",
+      "pronada",
+      "supinada"
+    ],
+    "terreno": [
+      "asfalto",
+      "trilha",
+      "esteira"
+    ],
+    "distancia": [
+      "curta",
+      "media",
+      "longa",
+      "maratona"
+    ]
   },
   {
     "brand": "NEW BALANCE",
@@ -2429,7 +2933,23 @@ var SHOES = [
     "description": "Tecnologia Fresh Foam com amortecimento macio e leveza para treinos diários e longas distâncias",
     "reason": "Tecnologia Fresh Foam com amortecimento macio e leveza para treinos diários e longas distâncias",
     "pros": [],
-    "cons": []
+    "cons": [],
+    "pisada": [
+      "neutra",
+      "pronada",
+      "supinada"
+    ],
+    "terreno": [
+      "asfalto",
+      "trilha",
+      "esteira"
+    ],
+    "distancia": [
+      "curta",
+      "media",
+      "longa",
+      "maratona"
+    ]
   },
   {
     "brand": "NIKE",
@@ -2492,7 +3012,23 @@ var SHOES = [
     "description": "O tênis de corrida mais vendido do mundo. Versátil, durável e confortável para qualquer treino.",
     "reason": "O tênis de corrida mais vendido do mundo. Versátil, durável e confortável para qualquer treino.",
     "pros": [],
-    "cons": []
+    "cons": [],
+    "pisada": [
+      "neutra",
+      "pronada",
+      "supinada"
+    ],
+    "terreno": [
+      "asfalto",
+      "trilha",
+      "esteira"
+    ],
+    "distancia": [
+      "curta",
+      "media",
+      "longa",
+      "maratona"
+    ]
   },
   {
     "brand": "NIKE",
@@ -2555,7 +3091,23 @@ var SHOES = [
     "description": "O tênis de corrida mais vendido do mundo. Versátil, durável e confortável para qualquer treino.",
     "reason": "O tênis de corrida mais vendido do mundo. Versátil, durável e confortável para qualquer treino.",
     "pros": [],
-    "cons": []
+    "cons": [],
+    "pisada": [
+      "neutra",
+      "pronada",
+      "supinada"
+    ],
+    "terreno": [
+      "asfalto",
+      "trilha",
+      "esteira"
+    ],
+    "distancia": [
+      "curta",
+      "media",
+      "longa",
+      "maratona"
+    ]
   },
   {
     "brand": "NIKE",
@@ -2613,7 +3165,23 @@ var SHOES = [
     "description": "Projetado para reduzir lesões. ReactX + Flyknit criam suporte e maciez difícil de bater.",
     "reason": "Projetado para reduzir lesões. ReactX + Flyknit criam suporte e maciez difícil de bater.",
     "pros": [],
-    "cons": []
+    "cons": [],
+    "pisada": [
+      "neutra",
+      "pronada",
+      "supinada"
+    ],
+    "terreno": [
+      "asfalto",
+      "trilha",
+      "esteira"
+    ],
+    "distancia": [
+      "curta",
+      "media",
+      "longa",
+      "maratona"
+    ]
   },
   {
     "brand": "NIKE",
@@ -2671,7 +3239,23 @@ var SHOES = [
     "description": "Projetado para reduzir lesões. ReactX + Flyknit criam suporte e maciez difícil de bater.",
     "reason": "Projetado para reduzir lesões. ReactX + Flyknit criam suporte e maciez difícil de bater.",
     "pros": [],
-    "cons": []
+    "cons": [],
+    "pisada": [
+      "neutra",
+      "pronada",
+      "supinada"
+    ],
+    "terreno": [
+      "asfalto",
+      "trilha",
+      "esteira"
+    ],
+    "distancia": [
+      "curta",
+      "media",
+      "longa",
+      "maratona"
+    ]
   },
   {
     "brand": "NIKE",
@@ -2729,7 +3313,23 @@ var SHOES = [
     "description": "Placa de carbono + espuma ZoomX. O tênis de corrida mais rápido do mundo para bater seu PR.",
     "reason": "Placa de carbono + espuma ZoomX. O tênis de corrida mais rápido do mundo para bater seu PR.",
     "pros": [],
-    "cons": []
+    "cons": [],
+    "pisada": [
+      "neutra",
+      "pronada",
+      "supinada"
+    ],
+    "terreno": [
+      "asfalto",
+      "trilha",
+      "esteira"
+    ],
+    "distancia": [
+      "curta",
+      "media",
+      "longa",
+      "maratona"
+    ]
   },
   {
     "brand": "NIKE",
@@ -2774,7 +3374,23 @@ var SHOES = [
     "description": "",
     "reason": "",
     "pros": [],
-    "cons": []
+    "cons": [],
+    "pisada": [
+      "neutra",
+      "pronada",
+      "supinada"
+    ],
+    "terreno": [
+      "asfalto",
+      "trilha",
+      "esteira"
+    ],
+    "distancia": [
+      "curta",
+      "media",
+      "longa",
+      "maratona"
+    ]
   },
   {
     "brand": "NIKE",
@@ -2819,7 +3435,23 @@ var SHOES = [
     "description": "",
     "reason": "",
     "pros": [],
-    "cons": []
+    "cons": [],
+    "pisada": [
+      "neutra",
+      "pronada",
+      "supinada"
+    ],
+    "terreno": [
+      "asfalto",
+      "trilha",
+      "esteira"
+    ],
+    "distancia": [
+      "curta",
+      "media",
+      "longa",
+      "maratona"
+    ]
   },
   {
     "brand": "NIKE",
@@ -2871,7 +3503,17 @@ var SHOES = [
     "description": "Primeiro carbon plate trail da Nike. ZoomX + placa de carbono para voar nas trilhas mais exigentes.",
     "reason": "Primeiro carbon plate trail da Nike. ZoomX + placa de carbono para voar nas trilhas mais exigentes.",
     "pros": [],
-    "cons": []
+    "cons": [],
+    "pisada": [
+      "supinada"
+    ],
+    "terreno": [
+      "trilha"
+    ],
+    "distancia": [
+      "longa",
+      "maratona"
+    ]
   },
   {
     "brand": "OLYMPIKUS",
@@ -2927,7 +3569,23 @@ var SHOES = [
     "description": "Melhor custo-benefício nacional para iniciantes. Amortecimento adequado com preço super acessível.",
     "reason": "Melhor custo-benefício nacional para iniciantes. Amortecimento adequado com preço super acessível.",
     "pros": [],
-    "cons": []
+    "cons": [],
+    "pisada": [
+      "neutra",
+      "pronada",
+      "supinada"
+    ],
+    "terreno": [
+      "asfalto",
+      "trilha",
+      "esteira"
+    ],
+    "distancia": [
+      "curta",
+      "media",
+      "longa",
+      "maratona"
+    ]
   },
   {
     "brand": "OLYMPIKUS",
@@ -2983,7 +3641,23 @@ var SHOES = [
     "description": "Melhor custo-benefício nacional para iniciantes. Tênis nacional leve e confortável para iniciantes. Ótimo custo-benefício para treinos diários.",
     "reason": "Melhor custo-benefício nacional para iniciantes. Tênis nacional leve e confortável para iniciantes. Ótimo custo-benefício para treinos diários.",
     "pros": [],
-    "cons": []
+    "cons": [],
+    "pisada": [
+      "neutra",
+      "pronada",
+      "supinada"
+    ],
+    "terreno": [
+      "asfalto",
+      "trilha",
+      "esteira"
+    ],
+    "distancia": [
+      "curta",
+      "media",
+      "longa",
+      "maratona"
+    ]
   },
   {
     "brand": "OLYMPIKUS",
@@ -3039,7 +3713,23 @@ var SHOES = [
     "description": "Ótimo custo-benefício nacional com amortecimento EVA e sola antiderrapante Gripper",
     "reason": "Ótimo custo-benefício nacional com amortecimento EVA e sola antiderrapante Gripper",
     "pros": [],
-    "cons": []
+    "cons": [],
+    "pisada": [
+      "neutra",
+      "pronada",
+      "supinada"
+    ],
+    "terreno": [
+      "asfalto",
+      "trilha",
+      "esteira"
+    ],
+    "distancia": [
+      "curta",
+      "media",
+      "longa",
+      "maratona"
+    ]
   },
   {
     "brand": "OLYMPIKUS",
@@ -3094,7 +3784,23 @@ var SHOES = [
     "description": "Leve e versátil com tecnologia Evasense para treinos diários com excelente custo-benefício",
     "reason": "Leve e versátil com tecnologia Evasense para treinos diários com excelente custo-benefício",
     "pros": [],
-    "cons": []
+    "cons": [],
+    "pisada": [
+      "neutra",
+      "pronada",
+      "supinada"
+    ],
+    "terreno": [
+      "asfalto",
+      "trilha",
+      "esteira"
+    ],
+    "distancia": [
+      "curta",
+      "media",
+      "longa",
+      "maratona"
+    ]
   },
   {
     "brand": "OLYMPIKUS",
@@ -3152,7 +3858,23 @@ var SHOES = [
     "description": "Tecnologia Evasense e Hypersox com leveza, amortecimento e ótimo custo-benefício para treinos diários",
     "reason": "Tecnologia Evasense e Hypersox com leveza, amortecimento e ótimo custo-benefício para treinos diários",
     "pros": [],
-    "cons": []
+    "cons": [],
+    "pisada": [
+      "neutra",
+      "pronada",
+      "supinada"
+    ],
+    "terreno": [
+      "asfalto",
+      "trilha",
+      "esteira"
+    ],
+    "distancia": [
+      "curta",
+      "media",
+      "longa",
+      "maratona"
+    ]
   },
   {
     "brand": "OLYMPIKUS",
@@ -3210,7 +3932,23 @@ var SHOES = [
     "description": "Tecnologia Eleva+ com cabedal Hypersox tipo meia e solado Gripper antiderrapante, ótimo custo-benefício para iniciantes",
     "reason": "Tecnologia Eleva+ com cabedal Hypersox tipo meia e solado Gripper antiderrapante, ótimo custo-benefício para iniciantes",
     "pros": [],
-    "cons": []
+    "cons": [],
+    "pisada": [
+      "neutra",
+      "pronada",
+      "supinada"
+    ],
+    "terreno": [
+      "asfalto",
+      "trilha",
+      "esteira"
+    ],
+    "distancia": [
+      "curta",
+      "media",
+      "longa",
+      "maratona"
+    ]
   },
   {
     "brand": "PUMA",
@@ -3268,7 +4006,23 @@ var SHOES = [
     "description": "Espuma Nitro leve e responsiva com ótimo custo-benefício. Surpreende pela leveza no preço acessível.",
     "reason": "Espuma Nitro leve e responsiva com ótimo custo-benefício. Surpreende pela leveza no preço acessível.",
     "pros": [],
-    "cons": []
+    "cons": [],
+    "pisada": [
+      "neutra",
+      "pronada",
+      "supinada"
+    ],
+    "terreno": [
+      "asfalto",
+      "trilha",
+      "esteira"
+    ],
+    "distancia": [
+      "curta",
+      "media",
+      "longa",
+      "maratona"
+    ]
   },
   {
     "brand": "PUMA",
@@ -3326,7 +4080,23 @@ var SHOES = [
     "description": "Entressola ProFoam leve para amortecimento instantâneo e retorno de energia, cabedal mesh respirável e solado de borracha para tração",
     "reason": "Entressola ProFoam leve para amortecimento instantâneo e retorno de energia, cabedal mesh respirável e solado de borracha para tração",
     "pros": [],
-    "cons": []
+    "cons": [],
+    "pisada": [
+      "neutra",
+      "pronada",
+      "supinada"
+    ],
+    "terreno": [
+      "asfalto",
+      "trilha",
+      "esteira"
+    ],
+    "distancia": [
+      "curta",
+      "media",
+      "longa",
+      "maratona"
+    ]
   },
   {
     "brand": "SALOMON",
@@ -3381,7 +4151,19 @@ var SHOES = [
     "description": "Grip Contagrip extremo para trilhas. Para corredoras de trail que não abrem mão de performance.",
     "reason": "Grip Contagrip extremo para trilhas. Para corredoras de trail que não abrem mão de performance.",
     "pros": [],
-    "cons": []
+    "cons": [],
+    "pisada": [
+      "supinada"
+    ],
+    "terreno": [
+      "trilha"
+    ],
+    "distancia": [
+      "curta",
+      "media",
+      "longa",
+      "maratona"
+    ]
   },
   {
     "brand": "SALOMON",
@@ -3436,7 +4218,19 @@ var SHOES = [
     "description": "Amortecimento generoso para trilhas longas. Combina o conforto de estrada com grip de trail.",
     "reason": "Amortecimento generoso para trilhas longas. Combina o conforto de estrada com grip de trail.",
     "pros": [],
-    "cons": []
+    "cons": [],
+    "pisada": [
+      "neutra",
+      "pronada",
+      "supinada"
+    ],
+    "terreno": [
+      "asfalto"
+    ],
+    "distancia": [
+      "longa",
+      "maratona"
+    ]
   },
   {
     "brand": "SAUCONY",
@@ -3490,7 +4284,23 @@ var SHOES = [
     "description": "Carbon plate + PWRRUN HG. O tênis de competição da Saucony para bater recordes pessoais.",
     "reason": "Carbon plate + PWRRUN HG. O tênis de competição da Saucony para bater recordes pessoais.",
     "pros": [],
-    "cons": []
+    "cons": [],
+    "pisada": [
+      "neutra",
+      "pronada",
+      "supinada"
+    ],
+    "terreno": [
+      "asfalto",
+      "trilha",
+      "esteira"
+    ],
+    "distancia": [
+      "curta",
+      "media",
+      "longa",
+      "maratona"
+    ]
   },
   {
     "brand": "Skechers",
@@ -3545,7 +4355,23 @@ var SHOES = [
     "description": "Palmilha Arch Fit com suporte de arco certificado por podólogos para máximo conforto no dia a dia",
     "reason": "Palmilha Arch Fit com suporte de arco certificado por podólogos para máximo conforto no dia a dia",
     "pros": [],
-    "cons": []
+    "cons": [],
+    "pisada": [
+      "neutra",
+      "pronada",
+      "supinada"
+    ],
+    "terreno": [
+      "asfalto",
+      "trilha",
+      "esteira"
+    ],
+    "distancia": [
+      "curta",
+      "media",
+      "longa",
+      "maratona"
+    ]
   },
   {
     "brand": "Under Armour",
@@ -3602,7 +4428,23 @@ var SHOES = [
     "description": "Tecnologia Charged no solado para amortecimento responsivo e retorno de energia. Cabedal em mesh respirável para conforto em treinos diários",
     "reason": "Tecnologia Charged no solado para amortecimento responsivo e retorno de energia. Cabedal em mesh respirável para conforto em treinos diários",
     "pros": [],
-    "cons": []
+    "cons": [],
+    "pisada": [
+      "neutra",
+      "pronada",
+      "supinada"
+    ],
+    "terreno": [
+      "asfalto",
+      "trilha",
+      "esteira"
+    ],
+    "distancia": [
+      "curta",
+      "media",
+      "longa",
+      "maratona"
+    ]
   },
   {
     "brand": "Under Armour",
@@ -3658,7 +4500,23 @@ var SHOES = [
     "description": "Tecnologia Charged Cushioning com amortecimento responsivo e borracha de alta abrasão para treinos diários",
     "reason": "Tecnologia Charged Cushioning com amortecimento responsivo e borracha de alta abrasão para treinos diários",
     "pros": [],
-    "cons": []
+    "cons": [],
+    "pisada": [
+      "neutra",
+      "pronada",
+      "supinada"
+    ],
+    "terreno": [
+      "asfalto",
+      "trilha",
+      "esteira"
+    ],
+    "distancia": [
+      "curta",
+      "media",
+      "longa",
+      "maratona"
+    ]
   },
   {
     "brand": "OLYMPIKUS",
@@ -3716,7 +4574,23 @@ var SHOES = [
     "description": "Tecnologia EVAsense para máxima maciez e leveza no dia a dia. Cabedal respirável e solado de borracha para boa tração no asfalto e esteira",
     "reason": "Tecnologia EVAsense para máxima maciez e leveza no dia a dia. Cabedal respirável e solado de borracha para boa tração no asfalto e esteira",
     "pros": [],
-    "cons": []
+    "cons": [],
+    "pisada": [
+      "neutra",
+      "pronada",
+      "supinada"
+    ],
+    "terreno": [
+      "asfalto",
+      "trilha",
+      "esteira"
+    ],
+    "distancia": [
+      "curta",
+      "media",
+      "longa",
+      "maratona"
+    ]
   },
   {
     "brand": "OLYMPIKUS",
@@ -3776,7 +4650,23 @@ var SHOES = [
     "description": "Tecnologia Eleva Pro 2.0 na entressola para amortecimento responsivo e durabilidade. Solado Gripper antiderrapante e cabedal respirável para treinos regulares",
     "reason": "Tecnologia Eleva Pro 2.0 na entressola para amortecimento responsivo e durabilidade. Solado Gripper antiderrapante e cabedal respirável para treinos regulares",
     "pros": [],
-    "cons": []
+    "cons": [],
+    "pisada": [
+      "neutra",
+      "pronada",
+      "supinada"
+    ],
+    "terreno": [
+      "asfalto",
+      "trilha",
+      "esteira"
+    ],
+    "distancia": [
+      "curta",
+      "media",
+      "longa",
+      "maratona"
+    ]
   },
   {
     "brand": "NEW BALANCE",
@@ -3834,7 +4724,23 @@ var SHOES = [
     "description": "Clássico retrô com entressola ENCAP para amortecimento duradouro. Cabedal em couro sintético e mesh para conforto e estilo versátil no dia a dia",
     "reason": "Clássico retrô com entressola ENCAP para amortecimento duradouro. Cabedal em couro sintético e mesh para conforto e estilo versátil no dia a dia",
     "pros": [],
-    "cons": []
+    "cons": [],
+    "pisada": [
+      "neutra",
+      "pronada",
+      "supinada"
+    ],
+    "terreno": [
+      "asfalto",
+      "trilha",
+      "esteira"
+    ],
+    "distancia": [
+      "curta",
+      "media",
+      "longa",
+      "maratona"
+    ]
   },
   {
     "brand": "MIZUNO",
@@ -3896,7 +4802,23 @@ var SHOES = [
     "description": "Clássico retrô com entressola ENCAP para amortecimento duradouro. Cabedal em couro sintético e mesh para conforto e estilo versátil no dia a dia",
     "reason": "Clássico retrô com entressola ENCAP para amortecimento duradouro. Cabedal em couro sintético e mesh para conforto e estilo versátil no dia a dia",
     "pros": [],
-    "cons": []
+    "cons": [],
+    "pisada": [
+      "neutra",
+      "pronada",
+      "supinada"
+    ],
+    "terreno": [
+      "asfalto",
+      "trilha",
+      "esteira"
+    ],
+    "distancia": [
+      "curta",
+      "media",
+      "longa",
+      "maratona"
+    ]
   },
   {
     "brand": "MIZUNO",
@@ -3957,7 +4879,23 @@ var SHOES = [
     "description": "Tecnologia Wave para absorção de impacto e estabilidade. Espuma AP+ na entressola para conforto duradouro em treinos longos e uso diário",
     "reason": "Tecnologia Wave para absorção de impacto e estabilidade. Espuma AP+ na entressola para conforto duradouro em treinos longos e uso diário",
     "pros": [],
-    "cons": []
+    "cons": [],
+    "pisada": [
+      "neutra",
+      "pronada",
+      "supinada"
+    ],
+    "terreno": [
+      "asfalto",
+      "trilha",
+      "esteira"
+    ],
+    "distancia": [
+      "curta",
+      "media",
+      "longa",
+      "maratona"
+    ]
   },
   {
     "brand": "MIZUNO",
@@ -4018,7 +4956,23 @@ var SHOES = [
     "description": "Tecnologia Wave para absorção de impacto e estabilidade. Espuma AP+ na entressola para conforto duradouro em treinos longos e uso diário",
     "reason": "Tecnologia Wave para absorção de impacto e estabilidade. Espuma AP+ na entressola para conforto duradouro em treinos longos e uso diário",
     "pros": [],
-    "cons": []
+    "cons": [],
+    "pisada": [
+      "neutra",
+      "pronada",
+      "supinada"
+    ],
+    "terreno": [
+      "asfalto",
+      "trilha",
+      "esteira"
+    ],
+    "distancia": [
+      "curta",
+      "media",
+      "longa",
+      "maratona"
+    ]
   },
   {
     "brand": "ASICS",
@@ -4075,7 +5029,23 @@ var SHOES = [
     "description": "Entressola FF BLAST+ Eco para amortecimento máximo com leveza extrema. Ideal para treinos longos e corredores que buscam alto desempenho sem sacrificar o conforto",
     "reason": "Entressola FF BLAST+ Eco para amortecimento máximo com leveza extrema. Ideal para treinos longos e corredores que buscam alto desempenho sem sacrificar o conforto",
     "pros": [],
-    "cons": []
+    "cons": [],
+    "pisada": [
+      "neutra",
+      "pronada",
+      "supinada"
+    ],
+    "terreno": [
+      "asfalto",
+      "trilha",
+      "esteira"
+    ],
+    "distancia": [
+      "curta",
+      "media",
+      "longa",
+      "maratona"
+    ]
   },
   {
     "brand": "MIZUNO",
@@ -4132,7 +5102,23 @@ var SHOES = [
     "description": "Entressola macia e responsiva para uma pisada suave e confortável. Design minimalista com excelente absorção de impacto para treinos do dia a dia",
     "reason": "Entressola macia e responsiva para uma pisada suave e confortável. Design minimalista com excelente absorção de impacto para treinos do dia a dia",
     "pros": [],
-    "cons": []
+    "cons": [],
+    "pisada": [
+      "neutra",
+      "pronada",
+      "supinada"
+    ],
+    "terreno": [
+      "asfalto",
+      "trilha",
+      "esteira"
+    ],
+    "distancia": [
+      "curta",
+      "media",
+      "longa",
+      "maratona"
+    ]
   },
   {
     "brand": "OLYMPIKUS",
@@ -4189,7 +5175,23 @@ var SHOES = [
     "description": "Tênis brasileiro leve com tecnologia Hypersox e amortecimento suave, ideal para treinos de rua e esteira",
     "reason": "Tênis brasileiro leve com tecnologia Hypersox e amortecimento suave, ideal para treinos de rua e esteira",
     "pros": [],
-    "cons": []
+    "cons": [],
+    "pisada": [
+      "neutra",
+      "pronada",
+      "supinada"
+    ],
+    "terreno": [
+      "asfalto",
+      "trilha",
+      "esteira"
+    ],
+    "distancia": [
+      "curta",
+      "media",
+      "longa",
+      "maratona"
+    ]
   },
   {
     "brand": "MIZUNO",
@@ -4252,7 +5254,17 @@ var SHOES = [
     "description": "Tecnologia Mizuno Wave para estabilidade e amortecimento, cabedal mesh respirável e solado X10 de alta durabilidade",
     "reason": "Tecnologia Mizuno Wave para estabilidade e amortecimento, cabedal mesh respirável e solado X10 de alta durabilidade",
     "pros": [],
-    "cons": []
+    "cons": [],
+    "pisada": [
+      "neutra",
+      "pronada"
+    ],
+    "terreno": [
+      "asfalto"
+    ],
+    "distancia": [
+      "media"
+    ]
   },
   {
     "brand": "MIZUNO",
@@ -4313,7 +5325,23 @@ var SHOES = [
     "description": "SoftierFoam na entressola para maciez superior, cabedal respirável e solado de borracha resistente. Ideal para treinos leves e caminhada",
     "reason": "SoftierFoam na entressola para maciez superior, cabedal respirável e solado de borracha resistente. Ideal para treinos leves e caminhada",
     "pros": [],
-    "cons": []
+    "cons": [],
+    "pisada": [
+      "neutra",
+      "pronada",
+      "supinada"
+    ],
+    "terreno": [
+      "asfalto",
+      "trilha",
+      "esteira"
+    ],
+    "distancia": [
+      "curta",
+      "media",
+      "longa",
+      "maratona"
+    ]
   },
   {
     "brand": "MIZUNO",
@@ -4373,7 +5401,17 @@ var SHOES = [
     "description": "Placa Wave em TPU com entressola U4icX para passada macia e responsiva. Solado X10 em borracha e carbono de alta durabilidade. O tênis premium da Mizuno.",
     "reason": "Placa Wave em TPU com entressola U4icX para passada macia e responsiva. Solado X10 em borracha e carbono de alta durabilidade. O tênis premium da Mizuno.",
     "pros": [],
-    "cons": []
+    "cons": [],
+    "pisada": [
+      "neutra",
+      "pronada"
+    ],
+    "terreno": [
+      "asfalto"
+    ],
+    "distancia": [
+      "media"
+    ]
   },
   {
     "brand": "MIZUNO",
@@ -4434,7 +5472,23 @@ var SHOES = [
     "description": "Desenvolvido para mulheres, com SoftierFoam para maciez e cabedal em tecido Unit ultra-respirável. Leve, estiloso e versátil do treino ao dia a dia.",
     "reason": "Desenvolvido para mulheres, com SoftierFoam para maciez e cabedal em tecido Unit ultra-respirável. Leve, estiloso e versátil do treino ao dia a dia.",
     "pros": [],
-    "cons": []
+    "cons": [],
+    "pisada": [
+      "neutra",
+      "pronada",
+      "supinada"
+    ],
+    "terreno": [
+      "asfalto",
+      "trilha",
+      "esteira"
+    ],
+    "distancia": [
+      "curta",
+      "media",
+      "longa",
+      "maratona"
+    ]
   },
   {
     "brand": "MIZUNO",
@@ -4494,7 +5548,17 @@ var SHOES = [
     "description": "Solado Vibram Megagrip com excelente aderência em qualquer terreno, entressola Enerzy para retorno de energia e placa protetora anti-rochas. O tênis de trilha mais completo da Mizuno.",
     "reason": "Solado Vibram Megagrip com excelente aderência em qualquer terreno, entressola Enerzy para retorno de energia e placa protetora anti-rochas. O tênis de trilha mais completo da Mizuno.",
     "pros": [],
-    "cons": []
+    "cons": [],
+    "pisada": [
+      "neutra",
+      "pronada"
+    ],
+    "terreno": [
+      "asfalto"
+    ],
+    "distancia": [
+      "media"
+    ]
   },
   {
     "brand": "MIZUNO",
@@ -4554,7 +5618,17 @@ var SHOES = [
     "description": "Versão feminina do melhor tênis de trilha Mizuno. Solado Vibram Megagrip, Enerzy na entressola e proteção anti-rochas para conquistar qualquer terreno com confiança.",
     "reason": "Versão feminina do melhor tênis de trilha Mizuno. Solado Vibram Megagrip, Enerzy na entressola e proteção anti-rochas para conquistar qualquer terreno com confiança.",
     "pros": [],
-    "cons": []
+    "cons": [],
+    "pisada": [
+      "neutra",
+      "pronada"
+    ],
+    "terreno": [
+      "asfalto"
+    ],
+    "distancia": [
+      "media"
+    ]
   },
   {
     "brand": "New Balance",
@@ -4611,7 +5685,23 @@ var SHOES = [
     "description": "Treino diário premium com a nova espuma Infinion — mais leve e responsiva que a Fresh Foam. Ideal para treinos longos e recuperação.",
     "reason": "Treino diário premium com a nova espuma Infinion — mais leve e responsiva que a Fresh Foam. Ideal para treinos longos e recuperação.",
     "pros": [],
-    "cons": []
+    "cons": [],
+    "pisada": [
+      "neutra",
+      "pronada",
+      "supinada"
+    ],
+    "terreno": [
+      "asfalto",
+      "trilha",
+      "esteira"
+    ],
+    "distancia": [
+      "curta",
+      "media",
+      "longa",
+      "maratona"
+    ]
   },
   {
     "brand": "New Balance",
@@ -4668,7 +5758,23 @@ var SHOES = [
     "description": "Treino diário premium com a nova espuma Infinion — mais leve e responsiva que a Fresh Foam. Ideal para treinos longos e recuperação.",
     "reason": "Treino diário premium com a nova espuma Infinion — mais leve e responsiva que a Fresh Foam. Ideal para treinos longos e recuperação.",
     "pros": [],
-    "cons": []
+    "cons": [],
+    "pisada": [
+      "neutra",
+      "pronada",
+      "supinada"
+    ],
+    "terreno": [
+      "asfalto",
+      "trilha",
+      "esteira"
+    ],
+    "distancia": [
+      "curta",
+      "media",
+      "longa",
+      "maratona"
+    ]
   },
   {
     "brand": "New Balance",
@@ -4724,7 +5830,23 @@ var SHOES = [
     "description": "Super shoe com placa de carbono para maratona e provas longas. Alternativa forte ao Vaporfly para corredores de alto rendimento.",
     "reason": "Super shoe com placa de carbono para maratona e provas longas. Alternativa forte ao Vaporfly para corredores de alto rendimento.",
     "pros": [],
-    "cons": []
+    "cons": [],
+    "pisada": [
+      "neutra",
+      "pronada",
+      "supinada"
+    ],
+    "terreno": [
+      "asfalto",
+      "trilha",
+      "esteira"
+    ],
+    "distancia": [
+      "curta",
+      "media",
+      "longa",
+      "maratona"
+    ]
   },
   {
     "brand": "New Balance",
@@ -4786,7 +5908,23 @@ var SHOES = [
     "description": "Trail confortável para terrenos técnicos com amortecimento Fresh Foam X. Ótima tração em trilhas e terra.",
     "reason": "Trail confortável para terrenos técnicos com amortecimento Fresh Foam X. Ótima tração em trilhas e terra.",
     "pros": [],
-    "cons": []
+    "cons": [],
+    "pisada": [
+      "neutra",
+      "pronada",
+      "supinada"
+    ],
+    "terreno": [
+      "asfalto",
+      "trilha",
+      "esteira"
+    ],
+    "distancia": [
+      "curta",
+      "media",
+      "longa",
+      "maratona"
+    ]
   },
   {
     "brand": "New Balance",
@@ -4842,7 +5980,23 @@ var SHOES = [
     "description": "Tênis leve com placa de nylon para treinos rápidos e provas curtas. Responsivo e versátil para quem busca velocidade no dia a dia.",
     "reason": "Tênis leve com placa de nylon para treinos rápidos e provas curtas. Responsivo e versátil para quem busca velocidade no dia a dia.",
     "pros": [],
-    "cons": []
+    "cons": [],
+    "pisada": [
+      "neutra",
+      "pronada",
+      "supinada"
+    ],
+    "terreno": [
+      "asfalto",
+      "trilha",
+      "esteira"
+    ],
+    "distancia": [
+      "curta",
+      "media",
+      "longa",
+      "maratona"
+    ]
   },
   {
     "brand": "New Balance",
@@ -4898,7 +6052,23 @@ var SHOES = [
     "description": "Tênis leve com placa de nylon para treinos rápidos e provas curtas. Responsivo e versátil para quem busca velocidade no dia a dia.",
     "reason": "Tênis leve com placa de nylon para treinos rápidos e provas curtas. Responsivo e versátil para quem busca velocidade no dia a dia.",
     "pros": [],
-    "cons": []
+    "cons": [],
+    "pisada": [
+      "neutra",
+      "pronada",
+      "supinada"
+    ],
+    "terreno": [
+      "asfalto",
+      "trilha",
+      "esteira"
+    ],
+    "distancia": [
+      "curta",
+      "media",
+      "longa",
+      "maratona"
+    ]
   },
   {
     "brand": "Hoka",
@@ -4955,7 +6125,16 @@ var SHOES = [
     "description": "Um dos tênis mais confortáveis do mercado. Stack maximalist e drop de 8mm para proteção máxima em treinos diários. Ideal para iniciantes e longas distâncias.",
     "reason": "Um dos tênis mais confortáveis do mercado. Stack maximalist e drop de 8mm para proteção máxima em treinos diários. Ideal para iniciantes e longas distâncias.",
     "pros": [],
-    "cons": []
+    "cons": [],
+    "pisada": [
+      "neutra"
+    ],
+    "terreno": [
+      "asfalto"
+    ],
+    "distancia": [
+      "longa"
+    ]
   },
   {
     "brand": "Hoka",
@@ -5012,7 +6191,16 @@ var SHOES = [
     "description": "Um dos tênis mais confortáveis do mercado. Stack maximalist e drop de 8mm para proteção máxima em treinos diários. Ideal para iniciantes e longas distâncias.",
     "reason": "Um dos tênis mais confortáveis do mercado. Stack maximalist e drop de 8mm para proteção máxima em treinos diários. Ideal para iniciantes e longas distâncias.",
     "pros": [],
-    "cons": []
+    "cons": [],
+    "pisada": [
+      "neutra"
+    ],
+    "terreno": [
+      "asfalto"
+    ],
+    "distancia": [
+      "longa"
+    ]
   },
   {
     "brand": "Hoka",
@@ -5068,7 +6256,23 @@ var SHOES = [
     "description": "Super shoe da Hoka com placa de carbono para maratona. Amortecimento maximalista com propulsão de elite para dia de prova.",
     "reason": "Super shoe da Hoka com placa de carbono para maratona. Amortecimento maximalista com propulsão de elite para dia de prova.",
     "pros": [],
-    "cons": []
+    "cons": [],
+    "pisada": [
+      "neutra",
+      "pronada",
+      "supinada"
+    ],
+    "terreno": [
+      "asfalto",
+      "trilha",
+      "esteira"
+    ],
+    "distancia": [
+      "curta",
+      "media",
+      "longa",
+      "maratona"
+    ]
   },
   {
     "brand": "Saucony",
@@ -5125,7 +6329,23 @@ var SHOES = [
     "description": "Um dos melhores tênis de maratona em custo-benefício. Placa de carbono com espuma PWRRUN PB para corredores que querem velocidade.",
     "reason": "Um dos melhores tênis de maratona em custo-benefício. Placa de carbono com espuma PWRRUN PB para corredores que querem velocidade.",
     "pros": [],
-    "cons": []
+    "cons": [],
+    "pisada": [
+      "neutra",
+      "pronada",
+      "supinada"
+    ],
+    "terreno": [
+      "asfalto",
+      "trilha",
+      "esteira"
+    ],
+    "distancia": [
+      "curta",
+      "media",
+      "longa",
+      "maratona"
+    ]
   },
   {
     "brand": "Saucony",
@@ -5181,7 +6401,23 @@ var SHOES = [
     "description": "Treino rápido com placa de nylon e espuma PWRRUN PB. Versátil para treinos longos e provas — o companheiro de treino do Endorphin Pro.",
     "reason": "Treino rápido com placa de nylon e espuma PWRRUN PB. Versátil para treinos longos e provas — o companheiro de treino do Endorphin Pro.",
     "pros": [],
-    "cons": []
+    "cons": [],
+    "pisada": [
+      "neutra",
+      "pronada",
+      "supinada"
+    ],
+    "terreno": [
+      "asfalto",
+      "trilha",
+      "esteira"
+    ],
+    "distancia": [
+      "curta",
+      "media",
+      "longa",
+      "maratona"
+    ]
   },
   {
     "brand": "Saucony",
@@ -5238,7 +6474,23 @@ var SHOES = [
     "description": "Treino longo premium com espuma PWRRUN PB reformulada — mais leve e responsiva. Ideal para quem acumula quilometragem com conforto.",
     "reason": "Treino longo premium com espuma PWRRUN PB reformulada — mais leve e responsiva. Ideal para quem acumula quilometragem com conforto.",
     "pros": [],
-    "cons": []
+    "cons": [],
+    "pisada": [
+      "neutra",
+      "pronada",
+      "supinada"
+    ],
+    "terreno": [
+      "asfalto",
+      "trilha",
+      "esteira"
+    ],
+    "distancia": [
+      "curta",
+      "media",
+      "longa",
+      "maratona"
+    ]
   },
   {
     "brand": "Saucony",
@@ -5296,7 +6548,19 @@ var SHOES = [
     "description": "Um dos melhores tênis de trilha para todos os níveis. Tração confiável em terra e pedras com boa proteção de amortecimento.",
     "reason": "Um dos melhores tênis de trilha para todos os níveis. Tração confiável em terra e pedras com boa proteção de amortecimento.",
     "pros": [],
-    "cons": []
+    "cons": [],
+    "pisada": [
+      "supinada"
+    ],
+    "terreno": [
+      "trilha"
+    ],
+    "distancia": [
+      "curta",
+      "media",
+      "longa",
+      "maratona"
+    ]
   },
   {
     "brand": "Saucony",
@@ -5354,7 +6618,19 @@ var SHOES = [
     "description": "Um dos melhores tênis de trilha para todos os níveis. Tração confiável em terra e pedras com boa proteção de amortecimento.",
     "reason": "Um dos melhores tênis de trilha para todos os níveis. Tração confiável em terra e pedras com boa proteção de amortecimento.",
     "pros": [],
-    "cons": []
+    "cons": [],
+    "pisada": [
+      "supinada"
+    ],
+    "terreno": [
+      "trilha"
+    ],
+    "distancia": [
+      "curta",
+      "media",
+      "longa",
+      "maratona"
+    ]
   },
   {
     "brand": "Salomon",
@@ -5412,7 +6688,19 @@ var SHOES = [
     "description": "Trail versátil para quem corre em terrenos mistos. Menos agressivo que o Speedcross — ideal para trilhas suaves e corrida mista road-to-trail.",
     "reason": "Trail versátil para quem corre em terrenos mistos. Menos agressivo que o Speedcross — ideal para trilhas suaves e corrida mista road-to-trail.",
     "pros": [],
-    "cons": []
+    "cons": [],
+    "pisada": [
+      "supinada"
+    ],
+    "terreno": [
+      "trilha"
+    ],
+    "distancia": [
+      "curta",
+      "media",
+      "longa",
+      "maratona"
+    ]
   },
   {
     "brand": "Olympikus",
@@ -5472,7 +6760,23 @@ var SHOES = [
     "description": "Versão tecnológica do Corre com placa de grafeno para mais propulsão. A evolução nacional para quem quer performance sem pagar preço de importado.",
     "reason": "Versão tecnológica do Corre com placa de grafeno para mais propulsão. A evolução nacional para quem quer performance sem pagar preço de importado.",
     "pros": [],
-    "cons": []
+    "cons": [],
+    "pisada": [
+      "neutra",
+      "pronada",
+      "supinada"
+    ],
+    "terreno": [
+      "asfalto",
+      "trilha",
+      "esteira"
+    ],
+    "distancia": [
+      "curta",
+      "media",
+      "longa",
+      "maratona"
+    ]
   },
   {
     "brand": "Olympikus",
@@ -5532,6 +6836,22 @@ var SHOES = [
     "description": "A entrada mais acessível para quem quer começar a correr. Funcional e confortável para treinos curtos e caminhadas no asfalto.",
     "reason": "A entrada mais acessível para quem quer começar a correr. Funcional e confortável para treinos curtos e caminhadas no asfalto.",
     "pros": [],
-    "cons": []
+    "cons": [],
+    "pisada": [
+      "neutra",
+      "pronada",
+      "supinada"
+    ],
+    "terreno": [
+      "asfalto",
+      "trilha",
+      "esteira"
+    ],
+    "distancia": [
+      "curta",
+      "media",
+      "longa",
+      "maratona"
+    ]
   }
 ];
