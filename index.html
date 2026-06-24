@@ -3622,13 +3622,13 @@
 
           card.innerHTML =
             '<div class="simg"><img src="' + ((sh.images && sh.images.length > 0) ? sh.images[0] : (sh.img || 'imgs/placeholder.jpg')) + '" alt="' + sh.name + '" loading="lazy" onerror="this.src=\'imgs/placeholder.jpg\'"></div>' +
-            '<div class="sbody">' +
+            '<div class="sbody" style="background: var(--card);">' +
             topBadge +
             popularBadge +
-            '<div class="sbrand">' + sh.brand + '</div>' +
-            '<div class="sname">' + sh.name + '</div>' +
+            '<div class="sbrand" style="display: block; visibility: visible;">' + (sh.brand || '') + '</div>' +
+            '<div class="sname" style="display: block; visibility: visible; color: #1a1a1a; font-size: 22px; font-weight: bold; margin-bottom: 10px;">' + (sh.name || '') + '</div>' +
             compatibilityHTML +
-            '<p class="sreason">' + description + '</p>' +
+            '<p class="sreason" style="display: block; visibility: visible;">' + description + '</p>' +
             '<div class="stags">' + th + '</div>' +
             btnsHTML +
             '</div>';
