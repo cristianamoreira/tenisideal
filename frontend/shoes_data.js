@@ -1,4 +1,4 @@
-// Sincronizado de Google Sheets - Link Único (Funcional)
+// Sincronizado de Google Sheets - Links EXATOS da Planilha
 var SHOES = [
   {
     "brand": "ADIDAS",
@@ -7,22 +7,11 @@ var SHOES = [
     "sexo": [
       "masculino"
     ],
-    "budget": "300a600",
-    "price": 500,
-    "price_formatted": "R$ 0,00",
-    "levels": [
-      "intermediario",
-      "avancado"
-    ],
-    "pisada": [
-      "neutra",
-      "pronada"
-    ],
-    "terreno": [
-      "asfalto",
-      "pista",
-      "mista"
-    ],
+    "budget": "",
+    "price": 0,
+    "levels": [],
+    "pisada": [],
+    "terreno": [],
     "distancia": [
       "media",
       "longa"
@@ -49,22 +38,11 @@ var SHOES = [
     "sexo": [
       "masculino"
     ],
-    "budget": "300a600",
-    "price": 500,
-    "price_formatted": "R$ 0,00",
-    "levels": [
-      "intermediario",
-      "avancado"
-    ],
-    "pisada": [
-      "neutra",
-      "pronada"
-    ],
-    "terreno": [
-      "asfalto",
-      "pista",
-      "mista"
-    ],
+    "budget": "",
+    "price": 0,
+    "levels": [],
+    "pisada": [],
+    "terreno": [],
     "distancia": [
       "media",
       "longa"
@@ -91,22 +69,11 @@ var SHOES = [
     "sexo": [
       "unissex"
     ],
-    "budget": "300a600",
+    "budget": "",
     "price": 399.99,
-    "price_formatted": "R$ 399,99",
-    "levels": [
-      "intermediario",
-      "avancado"
-    ],
-    "pisada": [
-      "neutra",
-      "pronada"
-    ],
-    "terreno": [
-      "asfalto",
-      "pista",
-      "mista"
-    ],
+    "levels": [],
+    "pisada": [],
+    "terreno": [],
     "distancia": [
       "media",
       "longa"
@@ -133,22 +100,11 @@ var SHOES = [
     "sexo": [
       "masculino"
     ],
-    "budget": "300a600",
-    "price": 500,
-    "price_formatted": "R$ 0,00",
-    "levels": [
-      "intermediario",
-      "avancado"
-    ],
-    "pisada": [
-      "neutra",
-      "pronada"
-    ],
-    "terreno": [
-      "asfalto",
-      "pista",
-      "mista"
-    ],
+    "budget": "",
+    "price": 0,
+    "levels": [],
+    "pisada": [],
+    "terreno": [],
     "distancia": [
       "media",
       "longa"
@@ -176,22 +132,11 @@ var SHOES = [
     "sexo": [
       "masculino"
     ],
-    "budget": "300a600",
-    "price": 500,
-    "price_formatted": "R$ 0,00",
-    "levels": [
-      "intermediario",
-      "avancado"
-    ],
-    "pisada": [
-      "neutra",
-      "pronada"
-    ],
-    "terreno": [
-      "asfalto",
-      "pista",
-      "mista"
-    ],
+    "budget": "",
+    "price": 0,
+    "levels": [],
+    "pisada": [],
+    "terreno": [],
     "distancia": [
       "media",
       "longa"
@@ -215,22 +160,11 @@ var SHOES = [
     "sexo": [
       "feminino"
     ],
-    "budget": "300a600",
-    "price": 500,
-    "price_formatted": "R$ 0,00",
-    "levels": [
-      "intermediario",
-      "avancado"
-    ],
-    "pisada": [
-      "neutra",
-      "pronada"
-    ],
-    "terreno": [
-      "asfalto",
-      "pista",
-      "mista"
-    ],
+    "budget": "",
+    "price": 0,
+    "levels": [],
+    "pisada": [],
+    "terreno": [],
     "distancia": [
       "media",
       "longa"
@@ -258,22 +192,11 @@ var SHOES = [
     "sexo": [
       "feminino"
     ],
-    "budget": "300a600",
+    "budget": "",
     "price": 599.99,
-    "price_formatted": "R$ 599,99",
-    "levels": [
-      "intermediario",
-      "avancado"
-    ],
-    "pisada": [
-      "neutra",
-      "pronada"
-    ],
-    "terreno": [
-      "asfalto",
-      "pista",
-      "mista"
-    ],
+    "levels": [],
+    "pisada": [],
+    "terreno": [],
     "distancia": [
       "media",
       "longa"
@@ -301,22 +224,11 @@ var SHOES = [
     "sexo": [
       "feminino"
     ],
-    "budget": "300a600",
-    "price": 500,
-    "price_formatted": "R$ 0,00",
-    "levels": [
-      "intermediario",
-      "avancado"
-    ],
-    "pisada": [
-      "neutra",
-      "pronada"
-    ],
-    "terreno": [
-      "asfalto",
-      "pista",
-      "mista"
-    ],
+    "budget": "",
+    "price": 0,
+    "levels": [],
+    "pisada": [],
+    "terreno": [],
     "distancia": [
       "media",
       "longa"
@@ -344,19 +256,11 @@ var SHOES = [
     "sexo": [
       "unissex"
     ],
-    "budget": "300a600",
-    "price": 500,
-    "price_formatted": "R$ 0,00",
-    "levels": [
-      "intermediário",
-      "avançado"
-    ],
-    "pisada": [
-      "neutra"
-    ],
-    "terreno": [
-      "asfalto"
-    ],
+    "budget": "",
+    "price": 0,
+    "levels": [],
+    "pisada": [],
+    "terreno": [],
     "distancia": [
       "media",
       "longa"
@@ -384,23 +288,11 @@ var SHOES = [
     "sexo": [
       "masculino"
     ],
-    "budget": "600a1000",
+    "budget": "",
     "price": 719.1,
-    "price_formatted": "R$ 719,10",
-    "levels": [
-      "intermediario",
-      "avancado"
-    ],
-    "pisada": [
-      "neutra",
-      "pronada",
-      "supinada"
-    ],
-    "terreno": [
-      "asfalto",
-      "trilha",
-      "mista"
-    ],
+    "levels": [],
+    "pisada": [],
+    "terreno": [],
     "distancia": [
       "media",
       "longa"
@@ -427,23 +319,11 @@ var SHOES = [
     "sexo": [
       "masculino"
     ],
-    "budget": "300a600",
-    "price": 500,
-    "price_formatted": "R$ 0,00",
-    "levels": [
-      "intermediario",
-      "avancado"
-    ],
-    "pisada": [
-      "neutra",
-      "pronada",
-      "supinada"
-    ],
-    "terreno": [
-      "asfalto",
-      "trilha",
-      "mista"
-    ],
+    "budget": "",
+    "price": 0,
+    "levels": [],
+    "pisada": [],
+    "terreno": [],
     "distancia": [
       "media",
       "longa"
@@ -470,23 +350,11 @@ var SHOES = [
     "sexo": [
       "masculino"
     ],
-    "budget": "300a600",
-    "price": 500,
-    "price_formatted": "R$ 0,00",
-    "levels": [
-      "intermediario",
-      "avancado"
-    ],
-    "pisada": [
-      "neutra",
-      "pronada",
-      "supinada"
-    ],
-    "terreno": [
-      "asfalto",
-      "trilha",
-      "mista"
-    ],
+    "budget": "",
+    "price": 0,
+    "levels": [],
+    "pisada": [],
+    "terreno": [],
     "distancia": [
       "media",
       "longa"
@@ -513,23 +381,11 @@ var SHOES = [
     "sexo": [
       "masculino"
     ],
-    "budget": "300a600",
-    "price": 500,
-    "price_formatted": "R$ 0,00",
-    "levels": [
-      "intermediario",
-      "avancado"
-    ],
-    "pisada": [
-      "neutra",
-      "pronada",
-      "supinada"
-    ],
-    "terreno": [
-      "asfalto",
-      "trilha",
-      "mista"
-    ],
+    "budget": "",
+    "price": 0,
+    "levels": [],
+    "pisada": [],
+    "terreno": [],
     "distancia": [
       "media",
       "longa"
@@ -556,23 +412,11 @@ var SHOES = [
     "sexo": [
       "feminino"
     ],
-    "budget": "300a600",
-    "price": 500,
-    "price_formatted": "R$ 0,00",
-    "levels": [
-      "intermediario",
-      "avancado"
-    ],
-    "pisada": [
-      "neutra",
-      "pronada",
-      "supinada"
-    ],
-    "terreno": [
-      "asfalto",
-      "trilha",
-      "mista"
-    ],
+    "budget": "",
+    "price": 0,
+    "levels": [],
+    "pisada": [],
+    "terreno": [],
     "distancia": [
       "media",
       "longa"
@@ -599,23 +443,11 @@ var SHOES = [
     "sexo": [
       "masculino"
     ],
-    "budget": "600a1000",
+    "budget": "",
     "price": 899.99,
-    "price_formatted": "R$ 899,99",
-    "levels": [
-      "intermediario",
-      "avancado"
-    ],
-    "pisada": [
-      "neutra",
-      "pronada",
-      "supinada"
-    ],
-    "terreno": [
-      "asfalto",
-      "trilha",
-      "mista"
-    ],
+    "levels": [],
+    "pisada": [],
+    "terreno": [],
     "distancia": [
       "media",
       "longa"
@@ -642,23 +474,11 @@ var SHOES = [
     "sexo": [
       "masculino"
     ],
-    "budget": "600a1000",
+    "budget": "",
     "price": 749.99,
-    "price_formatted": "R$ 749,99",
-    "levels": [
-      "intermediario",
-      "avancado"
-    ],
-    "pisada": [
-      "neutra",
-      "pronada",
-      "supinada"
-    ],
-    "terreno": [
-      "asfalto",
-      "trilha",
-      "mista"
-    ],
+    "levels": [],
+    "pisada": [],
+    "terreno": [],
     "distancia": [
       "media",
       "longa"
@@ -686,23 +506,11 @@ var SHOES = [
     "sexo": [
       "feminino"
     ],
-    "budget": "300a600",
+    "budget": "",
     "price": 599.99,
-    "price_formatted": "R$ 599,99",
-    "levels": [
-      "intermediario",
-      "avancado"
-    ],
-    "pisada": [
-      "neutra",
-      "pronada",
-      "supinada"
-    ],
-    "terreno": [
-      "asfalto",
-      "trilha",
-      "mista"
-    ],
+    "levels": [],
+    "pisada": [],
+    "terreno": [],
     "distancia": [
       "media",
       "longa"
@@ -730,23 +538,11 @@ var SHOES = [
     "sexo": [
       "feminino"
     ],
-    "budget": "600a1000",
+    "budget": "",
     "price": 649.99,
-    "price_formatted": "R$ 649,99",
-    "levels": [
-      "intermediario",
-      "avancado"
-    ],
-    "pisada": [
-      "neutra",
-      "pronada",
-      "supinada"
-    ],
-    "terreno": [
-      "asfalto",
-      "trilha",
-      "mista"
-    ],
+    "levels": [],
+    "pisada": [],
+    "terreno": [],
     "distancia": [
       "media",
       "longa"
@@ -773,23 +569,11 @@ var SHOES = [
     "sexo": [
       "feminino"
     ],
-    "budget": "300a600",
-    "price": 500,
-    "price_formatted": "R$ 0,00",
-    "levels": [
-      "intermediario",
-      "avancado"
-    ],
-    "pisada": [
-      "neutra",
-      "pronada",
-      "supinada"
-    ],
-    "terreno": [
-      "asfalto",
-      "trilha",
-      "mista"
-    ],
+    "budget": "",
+    "price": 0,
+    "levels": [],
+    "pisada": [],
+    "terreno": [],
     "distancia": [
       "media",
       "longa"
@@ -817,20 +601,11 @@ var SHOES = [
     "sexo": [
       "masculino"
     ],
-    "budget": "600a1000",
+    "budget": "",
     "price": 999.99,
-    "price_formatted": "R$ 999,99",
-    "levels": [
-      "intermediario",
-      "avancado"
-    ],
-    "pisada": [
-      "neutra"
-    ],
-    "terreno": [
-      "asfalto",
-      "pista"
-    ],
+    "levels": [],
+    "pisada": [],
+    "terreno": [],
     "distancia": [
       "media",
       "longa"
@@ -857,20 +632,11 @@ var SHOES = [
     "sexo": [
       "masculino"
     ],
-    "budget": "300a600",
-    "price": 500,
-    "price_formatted": "R$ 0,00",
-    "levels": [
-      "intermediario",
-      "avancado"
-    ],
-    "pisada": [
-      "neutra"
-    ],
-    "terreno": [
-      "asfalto",
-      "pista"
-    ],
+    "budget": "",
+    "price": 0,
+    "levels": [],
+    "pisada": [],
+    "terreno": [],
     "distancia": [
       "media",
       "longa"
@@ -897,20 +663,11 @@ var SHOES = [
     "sexo": [
       "masculino"
     ],
-    "budget": "300a600",
-    "price": 500,
-    "price_formatted": "R$ 0,00",
-    "levels": [
-      "intermediario",
-      "avancado"
-    ],
-    "pisada": [
-      "neutra"
-    ],
-    "terreno": [
-      "asfalto",
-      "pista"
-    ],
+    "budget": "",
+    "price": 0,
+    "levels": [],
+    "pisada": [],
+    "terreno": [],
     "distancia": [
       "media",
       "longa"
@@ -937,32 +694,17 @@ var SHOES = [
     "sexo": [
       "feminino"
     ],
-    "budget": "600a1000",
+    "budget": "",
     "price": 999.99,
-    "price_formatted": "R$ 999,99",
-    "levels": [
-      "intermediario",
-      "avancado"
-    ],
-    "pisada": [
-      "neutra"
-    ],
-    "terreno": [
-      "asfalto",
-      "pista"
-    ],
+    "levels": [],
+    "pisada": [],
+    "terreno": [],
     "distancia": [
       "media",
       "longa"
     ],
     "photo": "https://m.media-amazon.com/images/I/81FrDKqWbIL._AC_SY500_.jpg",
-    "affiliate_links": {
-      "oficial": {
-        "url": "https://www.awin1.com/cread.php?awinmid=15503&awinaffid=2800712&clickref=tenisideal_22&p=[[Ghost 14 Neutral]]",
-        "store": "BROOKS",
-        "label": "COMPRAR NA BROOKS"
-      }
-    },
+    "affiliate_links": {},
     "tags": [
       "Amortecimento",
       "Durabilidade",
@@ -980,28 +722,15 @@ var SHOES = [
     ],
     "budget": "300a600",
     "price": 359.9,
-    "price_formatted": "R$ 359,90",
-    "levels": [
-      "iniciante"
-    ],
-    "pisada": [
-      "neutra"
-    ],
-    "terreno": [
-      "asfalto"
-    ],
+    "levels": [],
+    "pisada": [],
+    "terreno": [],
     "distancia": [
       "media",
       "longa"
     ],
     "photo": "https://static.netshoes.com.br/produtos/tenis-fila-speed-lite-masculino/38/SFK-06IV-038/SFK-06IV-038_detalhe1.jpg?ts=1781150133",
-    "affiliate_links": {
-      "oficial": {
-        "url": "https://www.awin1.com/cread.php?awinmid=15503&awinaffid=2800712&clickref=tenisideal_23&p=[[Fila Speed Lite ]]",
-        "store": "FILA",
-        "label": "COMPRAR NA FILA"
-      }
-    },
+    "affiliate_links": {},
     "tags": [
       "Training",
       "Estabilidade"
@@ -1016,36 +745,17 @@ var SHOES = [
     "sexo": [
       "feminino"
     ],
-    "budget": "300a600",
+    "budget": "",
     "price": 349.99,
-    "price_formatted": "R$ 349,99",
-    "levels": [
-      "iniciante",
-      "intermediario",
-      "avancado"
-    ],
-    "pisada": [
-      "neutra",
-      "pronada",
-      "supinada"
-    ],
-    "terreno": [
-      "asfalto",
-      "pista",
-      "mista"
-    ],
+    "levels": [],
+    "pisada": [],
+    "terreno": [],
     "distancia": [
       "media",
       "longa"
     ],
     "photo": "https://m.media-amazon.com/images/I/51DEAqmvGdL._AC_SY625_.jpg",
-    "affiliate_links": {
-      "oficial": {
-        "url": "https://www.awin1.com/cread.php?awinmid=15503&awinaffid=2800712&clickref=tenisideal_24&p=[[Float Maxxi]]",
-        "store": "FILA",
-        "label": "COMPRAR NA FILA"
-      }
-    },
+    "affiliate_links": {},
     "tags": [
       "Amortecimento",
       "Corrida"
@@ -1060,36 +770,17 @@ var SHOES = [
     "sexo": [
       "masculino"
     ],
-    "budget": "ate300",
+    "budget": "",
     "price": 299.99,
-    "price_formatted": "R$ 299,99",
-    "levels": [
-      "iniciante",
-      "intermediario",
-      "avancado"
-    ],
-    "pisada": [
-      "neutra",
-      "pronada",
-      "supinada"
-    ],
-    "terreno": [
-      "asfalto",
-      "pista",
-      "mista"
-    ],
+    "levels": [],
+    "pisada": [],
+    "terreno": [],
     "distancia": [
       "media",
       "longa"
     ],
     "photo": "https://m.media-amazon.com/images/I/517Z6pntJHL._AC_SY625_.jpg",
-    "affiliate_links": {
-      "oficial": {
-        "url": "https://www.awin1.com/cread.php?awinmid=15503&awinaffid=2800712&clickref=tenisideal_25&p=[[Racer Fastpace]]",
-        "store": "FILA",
-        "label": "COMPRAR NA FILA"
-      }
-    },
+    "affiliate_links": {},
     "tags": [
       "Amortecimento",
       "Durabilidade"
@@ -1104,36 +795,17 @@ var SHOES = [
     "sexo": [
       "feminino"
     ],
-    "budget": "ate300",
+    "budget": "",
     "price": 289.99,
-    "price_formatted": "R$ 289,99",
-    "levels": [
-      "iniciante",
-      "intermediario",
-      "avancado"
-    ],
-    "pisada": [
-      "neutra",
-      "pronada",
-      "supinada"
-    ],
-    "terreno": [
-      "asfalto",
-      "pista",
-      "mista"
-    ],
+    "levels": [],
+    "pisada": [],
+    "terreno": [],
     "distancia": [
       "media",
       "longa"
     ],
     "photo": "https://m.media-amazon.com/images/I/61rKjTIK4SL._AC_SY625_.jpg",
-    "affiliate_links": {
-      "oficial": {
-        "url": "https://www.awin1.com/cread.php?awinmid=15503&awinaffid=2800712&clickref=tenisideal_26&p=[[Racer Comet]]",
-        "store": "FILA",
-        "label": "COMPRAR NA FILA"
-      }
-    },
+    "affiliate_links": {},
     "tags": [
       "Amortecimento",
       "Estabilidade"
@@ -1148,36 +820,17 @@ var SHOES = [
     "sexo": [
       "feminino"
     ],
-    "budget": "ate300",
+    "budget": "",
     "price": 269.99,
-    "price_formatted": "R$ 269,99",
-    "levels": [
-      "iniciante",
-      "intermediario",
-      "avancado"
-    ],
-    "pisada": [
-      "neutra",
-      "pronada",
-      "supinada"
-    ],
-    "terreno": [
-      "asfalto",
-      "pista",
-      "mista"
-    ],
+    "levels": [],
+    "pisada": [],
+    "terreno": [],
     "distancia": [
       "media",
       "longa"
     ],
     "photo": "https://m.media-amazon.com/images/I/51Y79XZ2xcL._AC_SY500_.jpg",
-    "affiliate_links": {
-      "oficial": {
-        "url": "https://www.awin1.com/cread.php?awinmid=15503&awinaffid=2800712&clickref=tenisideal_27&p=[[Recovery]]",
-        "store": "FILA",
-        "label": "COMPRAR NA FILA"
-      }
-    },
+    "affiliate_links": {},
     "tags": [
       "Amortecimento",
       "Estabilidade"
@@ -1192,32 +845,17 @@ var SHOES = [
     "sexo": [
       "masculino"
     ],
-    "budget": "ate300",
+    "budget": "",
     "price": 1.3,
-    "price_formatted": "R$ 1,30",
-    "levels": [
-      "intermediario",
-      "avancado"
-    ],
-    "pisada": [
-      "neutra"
-    ],
-    "terreno": [
-      "asfalto",
-      "trilha"
-    ],
+    "levels": [],
+    "pisada": [],
+    "terreno": [],
     "distancia": [
       "media",
       "longa"
     ],
     "photo": "https://m.media-amazon.com/images/I/610N9clHcfL._AC_SY695_.jpg",
-    "affiliate_links": {
-      "oficial": {
-        "url": "https://www.awin1.com/cread.php?awinmid=15503&awinaffid=2800712&clickref=tenisideal_28&p=[[Hoka Clifton 10]]",
-        "store": "HOKA",
-        "label": "COMPRAR NA HOKA"
-      }
-    },
+    "affiliate_links": {},
     "tags": [
       "Amortecimento",
       "Treino diário",
@@ -1234,32 +872,17 @@ var SHOES = [
     "sexo": [
       "feminino"
     ],
-    "budget": "300a600",
-    "price": 500,
-    "price_formatted": "R$ 0,00",
-    "levels": [
-      "intermediario",
-      "avancado"
-    ],
-    "pisada": [
-      "neutra"
-    ],
-    "terreno": [
-      "asfalto",
-      "trilha"
-    ],
+    "budget": "",
+    "price": 0,
+    "levels": [],
+    "pisada": [],
+    "terreno": [],
     "distancia": [
       "media",
       "longa"
     ],
     "photo": "https://m.media-amazon.com/images/I/51bXQrff2ZL._AC_SY500_.jpg",
-    "affiliate_links": {
-      "oficial": {
-        "url": "https://www.awin1.com/cread.php?awinmid=15503&awinaffid=2800712&clickref=tenisideal_29&p=[[Hoka Clifton 10]]",
-        "store": "HOKA",
-        "label": "COMPRAR NA HOKA"
-      }
-    },
+    "affiliate_links": {},
     "tags": [
       "Amortecimento",
       "Treino diário",
@@ -1276,32 +899,17 @@ var SHOES = [
     "sexo": [
       "unissex"
     ],
-    "budget": "ate300",
+    "budget": "",
     "price": 2.4,
-    "price_formatted": "R$ 2,40",
-    "levels": [
-      "intermediario",
-      "avancado"
-    ],
-    "pisada": [
-      "neutra"
-    ],
-    "terreno": [
-      "asfalto",
-      "trilha"
-    ],
+    "levels": [],
+    "pisada": [],
+    "terreno": [],
     "distancia": [
       "media",
       "longa"
     ],
     "photo": "https://m.media-amazon.com/images/I/61FlAJi0tsL._AC_SY500_.jpg",
-    "affiliate_links": {
-      "oficial": {
-        "url": "https://www.awin1.com/cread.php?awinmid=15503&awinaffid=2800712&clickref=tenisideal_30&p=[[Hoka Rocket X 3]]",
-        "store": "HOKA",
-        "label": "COMPRAR NA HOKA"
-      }
-    },
+    "affiliate_links": {},
     "tags": [
       "Carbono",
       "Maratona",
@@ -1318,32 +926,17 @@ var SHOES = [
     "sexo": [
       "masculino"
     ],
-    "budget": "ate300",
+    "budget": "",
     "price": 1.12,
-    "price_formatted": "R$ 1,12",
-    "levels": [
-      "intermediario",
-      "avancado"
-    ],
-    "pisada": [
-      "neutra"
-    ],
-    "terreno": [
-      "asfalto",
-      "trilha"
-    ],
+    "levels": [],
+    "pisada": [],
+    "terreno": [],
     "distancia": [
       "media",
       "longa"
     ],
     "photo": "https://images-na.ssl-images-amazon.com/images/I/61Gkm+6EdqL.jpg",
-    "affiliate_links": {
-      "oficial": {
-        "url": "https://www.awin1.com/cread.php?awinmid=15503&awinaffid=2800712&clickref=tenisideal_31&p=[[Clifton 9]]",
-        "store": "HOKA",
-        "label": "COMPRAR NA HOKA"
-      }
-    },
+    "affiliate_links": {},
     "tags": [
       "Maxi-Soft",
       "Leve"
@@ -1358,32 +951,17 @@ var SHOES = [
     "sexo": [
       "masculino"
     ],
-    "budget": "ate300",
+    "budget": "",
     "price": 1.299,
-    "price_formatted": "R$ 1,30",
-    "levels": [
-      "intermediario",
-      "avancado"
-    ],
-    "pisada": [
-      "neutra"
-    ],
-    "terreno": [
-      "asfalto",
-      "trilha"
-    ],
+    "levels": [],
+    "pisada": [],
+    "terreno": [],
     "distancia": [
       "media",
       "longa"
     ],
     "photo": "https://m.media-amazon.com/images/I/61IG0fi5z+L._AC_SY500_.jpg",
-    "affiliate_links": {
-      "oficial": {
-        "url": "https://www.awin1.com/cread.php?awinmid=15503&awinaffid=2800712&clickref=tenisideal_32&p=[[Clifton 9]]",
-        "store": "HOKA",
-        "label": "COMPRAR NA HOKA"
-      }
-    },
+    "affiliate_links": {},
     "tags": [
       "Maxi-Soft",
       "Leve"
@@ -1398,32 +976,17 @@ var SHOES = [
     "sexo": [
       "masculino"
     ],
-    "budget": "ate300",
+    "budget": "",
     "price": 1.233,
-    "price_formatted": "R$ 1,23",
-    "levels": [
-      "intermediario",
-      "avancado"
-    ],
-    "pisada": [
-      "neutra"
-    ],
-    "terreno": [
-      "asfalto",
-      "trilha"
-    ],
+    "levels": [],
+    "pisada": [],
+    "terreno": [],
     "distancia": [
       "media",
       "longa"
     ],
     "photo": "https://images-na.ssl-images-amazon.com/images/I/71pT4bBn39L.jpg",
-    "affiliate_links": {
-      "oficial": {
-        "url": "https://www.awin1.com/cread.php?awinmid=15503&awinaffid=2800712&clickref=tenisideal_33&p=[[Speedgoat 6]]",
-        "store": "HOKA",
-        "label": "COMPRAR NA HOKA"
-      }
-    },
+    "affiliate_links": {},
     "tags": [
       "Ultra Trail",
       "Conforto"
@@ -1438,21 +1001,11 @@ var SHOES = [
     "sexo": [
       "masculino"
     ],
-    "budget": "600a1000",
+    "budget": "",
     "price": 650.0,
-    "price_formatted": "R$ 650,00",
-    "levels": [
-      "intermediario",
-      "avancado"
-    ],
-    "pisada": [
-      "neutra",
-      "pronada"
-    ],
-    "terreno": [
-      "asfalto",
-      "trilha"
-    ],
+    "levels": [],
+    "pisada": [],
+    "terreno": [],
     "distancia": [
       "media",
       "longa"
@@ -1479,21 +1032,11 @@ var SHOES = [
     "sexo": [
       "masculino"
     ],
-    "budget": "300a600",
+    "budget": "",
     "price": 549.99,
-    "price_formatted": "R$ 549,99",
-    "levels": [
-      "intermediario",
-      "avancado"
-    ],
-    "pisada": [
-      "neutra",
-      "pronada"
-    ],
-    "terreno": [
-      "asfalto",
-      "trilha"
-    ],
+    "levels": [],
+    "pisada": [],
+    "terreno": [],
     "distancia": [
       "media",
       "longa"
@@ -1521,21 +1064,11 @@ var SHOES = [
     "sexo": [
       "masculino"
     ],
-    "budget": "300a600",
-    "price": 500,
-    "price_formatted": "R$ 0,00",
-    "levels": [
-      "intermediario",
-      "avancado"
-    ],
-    "pisada": [
-      "neutra",
-      "pronada"
-    ],
-    "terreno": [
-      "asfalto",
-      "trilha"
-    ],
+    "budget": "",
+    "price": 0,
+    "levels": [],
+    "pisada": [],
+    "terreno": [],
     "distancia": [
       "media",
       "longa"
@@ -1562,21 +1095,11 @@ var SHOES = [
     "sexo": [
       "unissex"
     ],
-    "budget": "300a600",
+    "budget": "",
     "price": 407.0,
-    "price_formatted": "R$ 407,00",
-    "levels": [
-      "intermediario",
-      "avancado"
-    ],
-    "pisada": [
-      "neutra",
-      "pronada"
-    ],
-    "terreno": [
-      "asfalto",
-      "trilha"
-    ],
+    "levels": [],
+    "pisada": [],
+    "terreno": [],
     "distancia": [
       "media",
       "longa"
@@ -1604,21 +1127,11 @@ var SHOES = [
     "sexo": [
       "unissex"
     ],
-    "budget": "300a600",
+    "budget": "",
     "price": 449.99,
-    "price_formatted": "R$ 449,99",
-    "levels": [
-      "intermediario",
-      "avancado"
-    ],
-    "pisada": [
-      "neutra",
-      "pronada"
-    ],
-    "terreno": [
-      "asfalto",
-      "trilha"
-    ],
+    "levels": [],
+    "pisada": [],
+    "terreno": [],
     "distancia": [
       "media",
       "longa"
@@ -1646,21 +1159,11 @@ var SHOES = [
     "sexo": [
       "feminino"
     ],
-    "budget": "600a1000",
+    "budget": "",
     "price": 679.99,
-    "price_formatted": "R$ 679,99",
-    "levels": [
-      "intermediario",
-      "avancado"
-    ],
-    "pisada": [
-      "neutra",
-      "pronada"
-    ],
-    "terreno": [
-      "asfalto",
-      "trilha"
-    ],
+    "levels": [],
+    "pisada": [],
+    "terreno": [],
     "distancia": [
       "media",
       "longa"
@@ -1688,21 +1191,11 @@ var SHOES = [
     "sexo": [
       "unissex"
     ],
-    "budget": "600a1000",
+    "budget": "",
     "price": 679.99,
-    "price_formatted": "R$ 679,99",
-    "levels": [
-      "intermediario",
-      "avancado"
-    ],
-    "pisada": [
-      "neutra",
-      "pronada"
-    ],
-    "terreno": [
-      "asfalto",
-      "trilha"
-    ],
+    "levels": [],
+    "pisada": [],
+    "terreno": [],
     "distancia": [
       "media",
       "longa"
@@ -1730,33 +1223,17 @@ var SHOES = [
     "sexo": [
       "unissex"
     ],
-    "budget": "300a600",
-    "price": 500,
-    "price_formatted": "R$ 0,00",
-    "levels": [
-      "intermediario",
-      "avancado"
-    ],
-    "pisada": [
-      "neutra",
-      "pronada"
-    ],
-    "terreno": [
-      "asfalto",
-      "trilha"
-    ],
+    "budget": "",
+    "price": 0,
+    "levels": [],
+    "pisada": [],
+    "terreno": [],
     "distancia": [
       "media",
       "longa"
     ],
     "photo": "https://m.media-amazon.com/images/I/71pGo9F0wnL._AC_SY500_.jpg",
-    "affiliate_links": {
-      "oficial": {
-        "url": "https://www.awin1.com/cread.php?awinmid=15503&awinaffid=2800712&clickref=tenisideal_41&p=[[Neo Zen]]",
-        "store": "MIZUNO",
-        "label": "COMPRAR NA MIZUNO"
-      }
-    },
+    "affiliate_links": {},
     "tags": [
       "Amortecimento",
       "Leveza",
@@ -1772,21 +1249,11 @@ var SHOES = [
     "sexo": [
       "unissex"
     ],
-    "budget": "300a600",
+    "budget": "",
     "price": 379.99,
-    "price_formatted": "R$ 379,99",
-    "levels": [
-      "intermediario",
-      "avancado"
-    ],
-    "pisada": [
-      "neutra",
-      "pronada"
-    ],
-    "terreno": [
-      "asfalto",
-      "trilha"
-    ],
+    "levels": [],
+    "pisada": [],
+    "terreno": [],
     "distancia": [
       "media",
       "longa"
@@ -1814,21 +1281,11 @@ var SHOES = [
     "sexo": [
       "unissex"
     ],
-    "budget": "ate300",
+    "budget": "",
     "price": 299.99,
-    "price_formatted": "R$ 299,99",
-    "levels": [
-      "intermediario",
-      "avancado"
-    ],
-    "pisada": [
-      "neutra",
-      "pronada"
-    ],
-    "terreno": [
-      "asfalto",
-      "trilha"
-    ],
+    "levels": [],
+    "pisada": [],
+    "terreno": [],
     "distancia": [
       "media",
       "longa"
@@ -1856,21 +1313,11 @@ var SHOES = [
     "sexo": [
       "unissex"
     ],
-    "budget": "300a600",
-    "price": 500,
-    "price_formatted": "R$ 0,00",
-    "levels": [
-      "intermediario",
-      "avancado"
-    ],
-    "pisada": [
-      "neutra",
-      "pronada"
-    ],
-    "terreno": [
-      "asfalto",
-      "trilha"
-    ],
+    "budget": "",
+    "price": 0,
+    "levels": [],
+    "pisada": [],
+    "terreno": [],
     "distancia": [
       "media",
       "longa"
@@ -1898,21 +1345,11 @@ var SHOES = [
     "sexo": [
       "feminino"
     ],
-    "budget": "300a600",
+    "budget": "",
     "price": 399.99,
-    "price_formatted": "R$ 399,99",
-    "levels": [
-      "intermediario",
-      "avancado"
-    ],
-    "pisada": [
-      "neutra",
-      "pronada"
-    ],
-    "terreno": [
-      "asfalto",
-      "trilha"
-    ],
+    "levels": [],
+    "pisada": [],
+    "terreno": [],
     "distancia": [
       "media",
       "longa"
@@ -1940,21 +1377,11 @@ var SHOES = [
     "sexo": [
       "masculino"
     ],
-    "budget": "600a1000",
+    "budget": "",
     "price": 699.99,
-    "price_formatted": "R$ 699,99",
-    "levels": [
-      "intermediario",
-      "avancado"
-    ],
-    "pisada": [
-      "neutra",
-      "pronada"
-    ],
-    "terreno": [
-      "asfalto",
-      "trilha"
-    ],
+    "levels": [],
+    "pisada": [],
+    "terreno": [],
     "distancia": [
       "media",
       "longa"
@@ -1982,21 +1409,11 @@ var SHOES = [
     "sexo": [
       "feminino"
     ],
-    "budget": "600a1000",
+    "budget": "",
     "price": 699.99,
-    "price_formatted": "R$ 699,99",
-    "levels": [
-      "intermediario",
-      "avancado"
-    ],
-    "pisada": [
-      "neutra",
-      "pronada"
-    ],
-    "terreno": [
-      "asfalto",
-      "trilha"
-    ],
+    "levels": [],
+    "pisada": [],
+    "terreno": [],
     "distancia": [
       "media",
       "longa"
@@ -2024,32 +1441,17 @@ var SHOES = [
     "sexo": [
       "feminino"
     ],
-    "budget": "600a1000",
+    "budget": "",
     "price": 808.11,
-    "price_formatted": "R$ 808,11",
-    "levels": [
-      "iniciante",
-      "intermediario"
-    ],
-    "pisada": [
-      "neutra"
-    ],
-    "terreno": [
-      "asfalto",
-      "esteira"
-    ],
+    "levels": [],
+    "pisada": [],
+    "terreno": [],
     "distancia": [
       "media",
       "longa"
     ],
     "photo": "https://m.media-amazon.com/images/I/51Z+ohQHSIL._AC_SY625_.jpg",
-    "affiliate_links": {
-      "oficial": {
-        "url": "https://www.awin1.com/cread.php?awinmid=15503&awinaffid=2800712&clickref=tenisideal_48&p=[[Fresh Foam X 1080 V14]]",
-        "store": "NEW BALANCE",
-        "label": "COMPRAR NA NEW BALANCE"
-      }
-    },
+    "affiliate_links": {},
     "tags": [
       "Amortecimento",
       "Conforto"
@@ -2064,32 +1466,17 @@ var SHOES = [
     "sexo": [
       "unissex"
     ],
-    "budget": "600a1000",
+    "budget": "",
     "price": 699.9,
-    "price_formatted": "R$ 699,90",
-    "levels": [
-      "iniciante",
-      "intermediario"
-    ],
-    "pisada": [
-      "neutra"
-    ],
-    "terreno": [
-      "asfalto",
-      "esteira"
-    ],
+    "levels": [],
+    "pisada": [],
+    "terreno": [],
     "distancia": [
       "media",
       "longa"
     ],
     "photo": "https://m.media-amazon.com/images/I/71umOc7Na8L._AC_SY500_.jpg",
-    "affiliate_links": {
-      "oficial": {
-        "url": "https://www.awin1.com/cread.php?awinmid=15503&awinaffid=2800712&clickref=tenisideal_49&p=[[530]]",
-        "store": "NEW BALANCE",
-        "label": "COMPRAR NA NEW BALANCE"
-      }
-    },
+    "affiliate_links": {},
     "tags": [
       "Amortecimento",
       "Estilo",
@@ -2105,32 +1492,17 @@ var SHOES = [
     "sexo": [
       "masculino"
     ],
-    "budget": "ate300",
+    "budget": "",
     "price": 1.299,
-    "price_formatted": "R$ 1,30",
-    "levels": [
-      "iniciante",
-      "intermediario"
-    ],
-    "pisada": [
-      "neutra"
-    ],
-    "terreno": [
-      "asfalto",
-      "esteira"
-    ],
+    "levels": [],
+    "pisada": [],
+    "terreno": [],
     "distancia": [
       "media",
       "longa"
     ],
     "photo": "https://m.media-amazon.com/images/I/61FYoxCE8OL._AC_SY500_.jpg",
-    "affiliate_links": {
-      "oficial": {
-        "url": "https://www.awin1.com/cread.php?awinmid=15503&awinaffid=2800712&clickref=tenisideal_50&p=[[1080 v15]]",
-        "store": "NEW BALANCE",
-        "label": "COMPRAR NA NEW BALANCE"
-      }
-    },
+    "affiliate_links": {},
     "tags": [
       "Amortecimento",
       "Treino diário",
@@ -2147,32 +1519,17 @@ var SHOES = [
     "sexo": [
       "feminino"
     ],
-    "budget": "ate300",
+    "budget": "",
     "price": 1.3,
-    "price_formatted": "R$ 1,30",
-    "levels": [
-      "iniciante",
-      "intermediario"
-    ],
-    "pisada": [
-      "neutra"
-    ],
-    "terreno": [
-      "asfalto",
-      "esteira"
-    ],
+    "levels": [],
+    "pisada": [],
+    "terreno": [],
     "distancia": [
       "media",
       "longa"
     ],
     "photo": "https://m.media-amazon.com/images/I/81wTUqT6pWL._AC_SX500_.jpg",
-    "affiliate_links": {
-      "oficial": {
-        "url": "https://www.awin1.com/cread.php?awinmid=15503&awinaffid=2800712&clickref=tenisideal_51&p=[[1080 v15]]",
-        "store": "NEW BALANCE",
-        "label": "COMPRAR NA NEW BALANCE"
-      }
-    },
+    "affiliate_links": {},
     "tags": [
       "Amortecimento",
       "Treino diário",
@@ -2189,32 +1546,17 @@ var SHOES = [
     "sexo": [
       "feminino"
     ],
-    "budget": "ate300",
+    "budget": "",
     "price": 2.199,
-    "price_formatted": "R$ 2,20",
-    "levels": [
-      "iniciante",
-      "intermediario"
-    ],
-    "pisada": [
-      "neutra"
-    ],
-    "terreno": [
-      "asfalto",
-      "esteira"
-    ],
+    "levels": [],
+    "pisada": [],
+    "terreno": [],
     "distancia": [
       "media",
       "longa"
     ],
     "photo": "https://m.media-amazon.com/images/I/71q16VFjN9L._AC_SX500_.jpg",
-    "affiliate_links": {
-      "oficial": {
-        "url": "https://www.awin1.com/cread.php?awinmid=15503&awinaffid=2800712&clickref=tenisideal_52&p=[[FuelCell SuperComp Elite v5]]",
-        "store": "NEW BALANCE",
-        "label": "COMPRAR NA NEW BALANCE"
-      }
-    },
+    "affiliate_links": {},
     "tags": [
       "Carbono",
       "Maratona",
@@ -2231,32 +1573,17 @@ var SHOES = [
     "sexo": [
       "masculino"
     ],
-    "budget": "300a600",
-    "price": 500,
-    "price_formatted": "R$ 0,00",
-    "levels": [
-      "iniciante",
-      "intermediario"
-    ],
-    "pisada": [
-      "neutra"
-    ],
-    "terreno": [
-      "asfalto",
-      "esteira"
-    ],
+    "budget": "",
+    "price": 0,
+    "levels": [],
+    "pisada": [],
+    "terreno": [],
     "distancia": [
       "media",
       "longa"
     ],
     "photo": "https://m.media-amazon.com/images/I/51jw--PJVpL._AC_SY500_.jpg",
-    "affiliate_links": {
-      "oficial": {
-        "url": "https://www.awin1.com/cread.php?awinmid=15503&awinaffid=2800712&clickref=tenisideal_53&p=[[Fresh Foam X Hierro v8]]",
-        "store": "NEW BALANCE",
-        "label": "COMPRAR NA NEW BALANCE"
-      }
-    },
+    "affiliate_links": {},
     "tags": [
       "Trilha",
       "Amortecimento",
@@ -2273,32 +1600,17 @@ var SHOES = [
     "sexo": [
       "feminino"
     ],
-    "budget": "600a1000",
+    "budget": "",
     "price": 989.79,
-    "price_formatted": "R$ 989,79",
-    "levels": [
-      "iniciante",
-      "intermediario"
-    ],
-    "pisada": [
-      "neutra"
-    ],
-    "terreno": [
-      "asfalto",
-      "esteira"
-    ],
+    "levels": [],
+    "pisada": [],
+    "terreno": [],
     "distancia": [
       "media",
       "longa"
     ],
     "photo": "https://m.media-amazon.com/images/I/71+9s4rDg-L._AC_SY500_.jpg",
-    "affiliate_links": {
-      "oficial": {
-        "url": "https://www.awin1.com/cread.php?awinmid=15503&awinaffid=2800712&clickref=tenisideal_54&p=[[New Balance Rebel v5]]",
-        "store": "NEW BALANCE",
-        "label": "COMPRAR NA NEW BALANCE"
-      }
-    },
+    "affiliate_links": {},
     "tags": [
       "Leveza",
       "Rápido",
@@ -2315,32 +1627,17 @@ var SHOES = [
     "sexo": [
       "masculino"
     ],
-    "budget": "300a600",
-    "price": 500,
-    "price_formatted": "R$ 0,00",
-    "levels": [
-      "iniciante",
-      "intermediario"
-    ],
-    "pisada": [
-      "neutra"
-    ],
-    "terreno": [
-      "asfalto",
-      "esteira"
-    ],
+    "budget": "",
+    "price": 0,
+    "levels": [],
+    "pisada": [],
+    "terreno": [],
     "distancia": [
       "media",
       "longa"
     ],
     "photo": "https://m.media-amazon.com/images/I/61YvL0uMf7L._AC_SY500_.jpg",
-    "affiliate_links": {
-      "oficial": {
-        "url": "https://www.awin1.com/cread.php?awinmid=15503&awinaffid=2800712&clickref=tenisideal_55&p=[[New Balance Rebel v5]]",
-        "store": "NEW BALANCE",
-        "label": "COMPRAR NA NEW BALANCE"
-      }
-    },
+    "affiliate_links": {},
     "tags": [
       "Leveza",
       "Rápido",
@@ -2357,24 +1654,11 @@ var SHOES = [
     "sexo": [
       "masculino"
     ],
-    "budget": "300a600",
-    "price": 500,
-    "price_formatted": "R$ 0,00",
-    "levels": [
-      "iniciante",
-      "intermediario",
-      "avancado"
-    ],
-    "pisada": [
-      "neutra",
-      "pronada",
-      "supinada"
-    ],
-    "terreno": [
-      "asfalto",
-      "pista",
-      "mista"
-    ],
+    "budget": "",
+    "price": 0,
+    "levels": [],
+    "pisada": [],
+    "terreno": [],
     "distancia": [
       "media",
       "longa"
@@ -2398,24 +1682,11 @@ var SHOES = [
     "sexo": [
       "feminino"
     ],
-    "budget": "300a600",
-    "price": 500,
-    "price_formatted": "R$ 0,00",
-    "levels": [
-      "iniciante",
-      "intermediario",
-      "avancado"
-    ],
-    "pisada": [
-      "neutra",
-      "pronada",
-      "supinada"
-    ],
-    "terreno": [
-      "asfalto",
-      "pista",
-      "mista"
-    ],
+    "budget": "",
+    "price": 0,
+    "levels": [],
+    "pisada": [],
+    "terreno": [],
     "distancia": [
       "media",
       "longa"
@@ -2439,36 +1710,17 @@ var SHOES = [
     "sexo": [
       "masculino"
     ],
-    "budget": "ate300",
+    "budget": "",
     "price": 2.171,
-    "price_formatted": "R$ 2,17",
-    "levels": [
-      "iniciante",
-      "intermediario",
-      "avancado"
-    ],
-    "pisada": [
-      "neutra",
-      "pronada",
-      "supinada"
-    ],
-    "terreno": [
-      "asfalto",
-      "pista",
-      "mista"
-    ],
+    "levels": [],
+    "pisada": [],
+    "terreno": [],
     "distancia": [
       "media",
       "longa"
     ],
     "photo": "https://images-na.ssl-images-amazon.com/images/I/61jBJ9a4NJL.jpg",
-    "affiliate_links": {
-      "oficial": {
-        "url": "https://www.awin1.com/cread.php?awinmid=15576&awinaffid=2800712&clickref=tenisideal_58&p=[[ZoomX Ultrafly Trail]]",
-        "store": "NIKE",
-        "label": "COMPRAR NA NIKE"
-      }
-    },
+    "affiliate_links": {},
     "tags": [
       "Trail",
       "Carbono"
@@ -2483,24 +1735,11 @@ var SHOES = [
     "sexo": [
       "masculino"
     ],
-    "budget": "300a600",
+    "budget": "",
     "price": 427.49,
-    "price_formatted": "R$ 427,49",
-    "levels": [
-      "iniciante",
-      "intermediario",
-      "avancado"
-    ],
-    "pisada": [
-      "neutra",
-      "pronada",
-      "supinada"
-    ],
-    "terreno": [
-      "asfalto",
-      "pista",
-      "mista"
-    ],
+    "levels": [],
+    "pisada": [],
+    "terreno": [],
     "distancia": [
       "media",
       "longa"
@@ -2526,24 +1765,11 @@ var SHOES = [
     "sexo": [
       "Feminino"
     ],
-    "budget": "300a600",
+    "budget": "",
     "price": 360.99,
-    "price_formatted": "R$ 360,99",
-    "levels": [
-      "iniciante",
-      "intermediario",
-      "avancado"
-    ],
-    "pisada": [
-      "neutra",
-      "pronada",
-      "supinada"
-    ],
-    "terreno": [
-      "asfalto",
-      "pista",
-      "mista"
-    ],
+    "levels": [],
+    "pisada": [],
+    "terreno": [],
     "distancia": [
       "media",
       "longa"
@@ -2567,24 +1793,11 @@ var SHOES = [
     "sexo": [
       "Feminino"
     ],
-    "budget": "300a600",
+    "budget": "",
     "price": 303.99,
-    "price_formatted": "R$ 303,99",
-    "levels": [
-      "iniciante",
-      "intermediario",
-      "avancado"
-    ],
-    "pisada": [
-      "neutra",
-      "pronada",
-      "supinada"
-    ],
-    "terreno": [
-      "asfalto",
-      "pista",
-      "mista"
-    ],
+    "levels": [],
+    "pisada": [],
+    "terreno": [],
     "distancia": [
       "media",
       "longa"
@@ -2608,24 +1821,11 @@ var SHOES = [
     "sexo": [
       "masculino"
     ],
-    "budget": "300a600",
+    "budget": "",
     "price": 303.99,
-    "price_formatted": "R$ 303,99",
-    "levels": [
-      "iniciante",
-      "intermediario",
-      "avancado"
-    ],
-    "pisada": [
-      "neutra",
-      "pronada",
-      "supinada"
-    ],
-    "terreno": [
-      "asfalto",
-      "pista",
-      "mista"
-    ],
+    "levels": [],
+    "pisada": [],
+    "terreno": [],
     "distancia": [
       "media",
       "longa"
@@ -2649,24 +1849,11 @@ var SHOES = [
     "sexo": [
       "masculino"
     ],
-    "budget": "300a600",
+    "budget": "",
     "price": 489.99,
-    "price_formatted": "R$ 489,99",
-    "levels": [
-      "iniciante",
-      "intermediario",
-      "avancado"
-    ],
-    "pisada": [
-      "neutra",
-      "pronada",
-      "supinada"
-    ],
-    "terreno": [
-      "asfalto",
-      "pista",
-      "mista"
-    ],
+    "levels": [],
+    "pisada": [],
+    "terreno": [],
     "distancia": [
       "media",
       "longa"
@@ -2690,24 +1877,11 @@ var SHOES = [
     "sexo": [
       "feminino"
     ],
-    "budget": "300a600",
+    "budget": "",
     "price": 399.99,
-    "price_formatted": "R$ 399,99",
-    "levels": [
-      "iniciante",
-      "intermediario",
-      "avancado"
-    ],
-    "pisada": [
-      "neutra",
-      "pronada",
-      "supinada"
-    ],
-    "terreno": [
-      "asfalto",
-      "pista",
-      "mista"
-    ],
+    "levels": [],
+    "pisada": [],
+    "terreno": [],
     "distancia": [
       "media",
       "longa"
@@ -2731,24 +1905,11 @@ var SHOES = [
     "sexo": [
       "masculino"
     ],
-    "budget": "300a600",
+    "budget": "",
     "price": 474.99,
-    "price_formatted": "R$ 474,99",
-    "levels": [
-      "iniciante",
-      "intermediario",
-      "avancado"
-    ],
-    "pisada": [
-      "neutra",
-      "pronada",
-      "supinada"
-    ],
-    "terreno": [
-      "asfalto",
-      "pista",
-      "mista"
-    ],
+    "levels": [],
+    "pisada": [],
+    "terreno": [],
     "distancia": [
       "media",
       "longa"
@@ -2772,24 +1933,11 @@ var SHOES = [
     "sexo": [
       "feminino"
     ],
-    "budget": "300a600",
+    "budget": "",
     "price": 531.99,
-    "price_formatted": "R$ 531,99",
-    "levels": [
-      "iniciante",
-      "intermediario",
-      "avancado"
-    ],
-    "pisada": [
-      "neutra",
-      "pronada",
-      "supinada"
-    ],
-    "terreno": [
-      "asfalto",
-      "pista",
-      "mista"
-    ],
+    "levels": [],
+    "pisada": [],
+    "terreno": [],
     "distancia": [
       "media",
       "longa"
@@ -2813,24 +1961,11 @@ var SHOES = [
     "sexo": [
       "masculino"
     ],
-    "budget": "300a600",
-    "price": 500,
-    "price_formatted": "R$ 0,00",
-    "levels": [
-      "iniciante",
-      "intermediario",
-      "avancado"
-    ],
-    "pisada": [
-      "neutra",
-      "pronada",
-      "supinada"
-    ],
-    "terreno": [
-      "asfalto",
-      "pista",
-      "mista"
-    ],
+    "budget": "",
+    "price": 0,
+    "levels": [],
+    "pisada": [],
+    "terreno": [],
     "distancia": [
       "media",
       "longa"
@@ -2854,24 +1989,11 @@ var SHOES = [
     "sexo": [
       "feminino"
     ],
-    "budget": "300a600",
-    "price": 500,
-    "price_formatted": "R$ 0,00",
-    "levels": [
-      "iniciante",
-      "intermediario",
-      "avancado"
-    ],
-    "pisada": [
-      "neutra",
-      "pronada",
-      "supinada"
-    ],
-    "terreno": [
-      "asfalto",
-      "pista",
-      "mista"
-    ],
+    "budget": "",
+    "price": 0,
+    "levels": [],
+    "pisada": [],
+    "terreno": [],
     "distancia": [
       "media",
       "longa"
@@ -2895,24 +2017,11 @@ var SHOES = [
     "sexo": [
       "feminino"
     ],
-    "budget": "300a600",
-    "price": 500,
-    "price_formatted": "R$ 0,00",
-    "levels": [
-      "iniciante",
-      "intermediario",
-      "avancado"
-    ],
-    "pisada": [
-      "neutra",
-      "pronada",
-      "supinada"
-    ],
-    "terreno": [
-      "asfalto",
-      "pista",
-      "mista"
-    ],
+    "budget": "",
+    "price": 0,
+    "levels": [],
+    "pisada": [],
+    "terreno": [],
     "distancia": [
       "media",
       "longa"
@@ -2936,24 +2045,11 @@ var SHOES = [
     "sexo": [
       "masculino"
     ],
-    "budget": "600a1000",
+    "budget": "",
     "price": 807.49,
-    "price_formatted": "R$ 807,49",
-    "levels": [
-      "iniciante",
-      "intermediario",
-      "avancado"
-    ],
-    "pisada": [
-      "neutra",
-      "pronada",
-      "supinada"
-    ],
-    "terreno": [
-      "asfalto",
-      "pista",
-      "mista"
-    ],
+    "levels": [],
+    "pisada": [],
+    "terreno": [],
     "distancia": [
       "media",
       "longa"
@@ -2977,24 +2073,11 @@ var SHOES = [
     "sexo": [
       "masculino"
     ],
-    "budget": "300a600",
-    "price": 500,
-    "price_formatted": "R$ 0,00",
-    "levels": [
-      "iniciante",
-      "intermediario",
-      "avancado"
-    ],
-    "pisada": [
-      "neutra",
-      "pronada",
-      "supinada"
-    ],
-    "terreno": [
-      "asfalto",
-      "pista",
-      "mista"
-    ],
+    "budget": "",
+    "price": 0,
+    "levels": [],
+    "pisada": [],
+    "terreno": [],
     "distancia": [
       "media",
       "longa"
@@ -3018,24 +2101,11 @@ var SHOES = [
     "sexo": [
       "feminino"
     ],
-    "budget": "600a1000",
+    "budget": "",
     "price": 934.35,
-    "price_formatted": "R$ 934,35",
-    "levels": [
-      "iniciante",
-      "intermediario",
-      "avancado"
-    ],
-    "pisada": [
-      "neutra",
-      "pronada",
-      "supinada"
-    ],
-    "terreno": [
-      "asfalto",
-      "pista",
-      "mista"
-    ],
+    "levels": [],
+    "pisada": [],
+    "terreno": [],
     "distancia": [
       "media",
       "longa"
@@ -3059,24 +2129,11 @@ var SHOES = [
     "sexo": [
       "masculino"
     ],
-    "budget": "600a1000",
+    "budget": "",
     "price": 949.99,
-    "price_formatted": "R$ 949,99",
-    "levels": [
-      "iniciante",
-      "intermediario",
-      "avancado"
-    ],
-    "pisada": [
-      "neutra",
-      "pronada",
-      "supinada"
-    ],
-    "terreno": [
-      "asfalto",
-      "pista",
-      "mista"
-    ],
+    "levels": [],
+    "pisada": [],
+    "terreno": [],
     "distancia": [
       "media",
       "longa"
@@ -3100,24 +2157,11 @@ var SHOES = [
     "sexo": [
       "feminino"
     ],
-    "budget": "600a1000",
+    "budget": "",
     "price": 949.99,
-    "price_formatted": "R$ 949,99",
-    "levels": [
-      "iniciante",
-      "intermediario",
-      "avancado"
-    ],
-    "pisada": [
-      "neutra",
-      "pronada",
-      "supinada"
-    ],
-    "terreno": [
-      "asfalto",
-      "pista",
-      "mista"
-    ],
+    "levels": [],
+    "pisada": [],
+    "terreno": [],
     "distancia": [
       "media",
       "longa"
@@ -3141,24 +2185,11 @@ var SHOES = [
     "sexo": [
       "feminino"
     ],
-    "budget": "600a1000",
+    "budget": "",
     "price": 968.99,
-    "price_formatted": "R$ 968,99",
-    "levels": [
-      "iniciante",
-      "intermediario",
-      "avancado"
-    ],
-    "pisada": [
-      "neutra",
-      "pronada",
-      "supinada"
-    ],
-    "terreno": [
-      "asfalto",
-      "pista",
-      "mista"
-    ],
+    "levels": [],
+    "pisada": [],
+    "terreno": [],
     "distancia": [
       "media",
       "longa"
@@ -3182,24 +2213,11 @@ var SHOES = [
     "sexo": [
       "masculino"
     ],
-    "budget": "300a600",
-    "price": 500,
-    "price_formatted": "R$ 0,00",
-    "levels": [
-      "iniciante",
-      "intermediario",
-      "avancado"
-    ],
-    "pisada": [
-      "neutra",
-      "pronada",
-      "supinada"
-    ],
-    "terreno": [
-      "asfalto",
-      "pista",
-      "mista"
-    ],
+    "budget": "",
+    "price": 0,
+    "levels": [],
+    "pisada": [],
+    "terreno": [],
     "distancia": [
       "media",
       "longa"
@@ -3223,24 +2241,11 @@ var SHOES = [
     "sexo": [
       "masculino"
     ],
-    "budget": "600a1000",
+    "budget": "",
     "price": 664.99,
-    "price_formatted": "R$ 664,99",
-    "levels": [
-      "iniciante",
-      "intermediario",
-      "avancado"
-    ],
-    "pisada": [
-      "neutra",
-      "pronada",
-      "supinada"
-    ],
-    "terreno": [
-      "asfalto",
-      "pista",
-      "mista"
-    ],
+    "levels": [],
+    "pisada": [],
+    "terreno": [],
     "distancia": [
       "media",
       "longa"
@@ -3264,24 +2269,11 @@ var SHOES = [
     "sexo": [
       "feminino"
     ],
-    "budget": "600a1000",
+    "budget": "",
     "price": 759.99,
-    "price_formatted": "R$ 759,99",
-    "levels": [
-      "iniciante",
-      "intermediario",
-      "avancado"
-    ],
-    "pisada": [
-      "neutra",
-      "pronada",
-      "supinada"
-    ],
-    "terreno": [
-      "asfalto",
-      "pista",
-      "mista"
-    ],
+    "levels": [],
+    "pisada": [],
+    "terreno": [],
     "distancia": [
       "media",
       "longa"
@@ -3305,18 +2297,11 @@ var SHOES = [
     "sexo": [
       "masculino"
     ],
-    "budget": "300a600",
+    "budget": "",
     "price": 347.37,
-    "price_formatted": "R$ 347,37",
-    "levels": [
-      "iniciante"
-    ],
-    "pisada": [
-      "neutra"
-    ],
-    "terreno": [
-      "mista"
-    ],
+    "levels": [],
+    "pisada": [],
+    "terreno": [],
     "distancia": [
       "media",
       "longa"
@@ -3344,18 +2329,11 @@ var SHOES = [
     "sexo": [
       "feminino"
     ],
-    "budget": "ate300",
+    "budget": "",
     "price": 50.0,
-    "price_formatted": "R$ 50,00",
-    "levels": [
-      "iniciante"
-    ],
-    "pisada": [
-      "neutra"
-    ],
-    "terreno": [
-      "asfalto"
-    ],
+    "levels": [],
+    "pisada": [],
+    "terreno": [],
     "distancia": [
       "media",
       "longa"
@@ -3379,36 +2357,17 @@ var SHOES = [
     "sexo": [
       "feminino"
     ],
-    "budget": "ate300",
+    "budget": "",
     "price": 285.0,
-    "price_formatted": "R$ 285,00",
-    "levels": [
-      "iniciante",
-      "intermediario",
-      "avancado"
-    ],
-    "pisada": [
-      "neutra",
-      "pronada",
-      "supinada"
-    ],
-    "terreno": [
-      "asfalto",
-      "pista",
-      "mista"
-    ],
+    "levels": [],
+    "pisada": [],
+    "terreno": [],
     "distancia": [
       "media",
       "longa"
     ],
     "photo": "https://m.media-amazon.com/images/I/61jqkYeBlqL._AC_SY500_.jpg",
-    "affiliate_links": {
-      "oficial": {
-        "url": "https://www.awin1.com/cread.php?awinmid=15503&awinaffid=2800712&clickref=tenisideal_81&p=[[Pride]]",
-        "store": "OLYMPIKUS",
-        "label": "COMPRAR NA OLYMPIKUS"
-      }
-    },
+    "affiliate_links": {},
     "tags": [
       "Nacional",
       "Acessível"
@@ -3423,36 +2382,17 @@ var SHOES = [
     "sexo": [
       "masculino"
     ],
-    "budget": "ate300",
+    "budget": "",
     "price": 249.9,
-    "price_formatted": "R$ 249,90",
-    "levels": [
-      "iniciante",
-      "intermediario",
-      "avancado"
-    ],
-    "pisada": [
-      "neutra",
-      "pronada",
-      "supinada"
-    ],
-    "terreno": [
-      "asfalto",
-      "pista",
-      "mista"
-    ],
+    "levels": [],
+    "pisada": [],
+    "terreno": [],
     "distancia": [
       "media",
       "longa"
     ],
     "photo": "https://m.media-amazon.com/images/I/51WUvXlRWbL._AC_SX679_.jpg",
-    "affiliate_links": {
-      "oficial": {
-        "url": "https://www.awin1.com/cread.php?awinmid=15503&awinaffid=2800712&clickref=tenisideal_82&p=[[Challenger]]",
-        "store": "OLYMPIKUS",
-        "label": "COMPRAR NA OLYMPIKUS"
-      }
-    },
+    "affiliate_links": {},
     "tags": [
       "Amortecimento",
       "Custo-benefício"
@@ -3467,36 +2407,17 @@ var SHOES = [
     "sexo": [
       "masculino"
     ],
-    "budget": "ate300",
+    "budget": "",
     "price": 229.9,
-    "price_formatted": "R$ 229,90",
-    "levels": [
-      "iniciante",
-      "intermediario",
-      "avancado"
-    ],
-    "pisada": [
-      "neutra",
-      "pronada",
-      "supinada"
-    ],
-    "terreno": [
-      "asfalto",
-      "pista",
-      "mista"
-    ],
+    "levels": [],
+    "pisada": [],
+    "terreno": [],
     "distancia": [
       "media",
       "longa"
     ],
     "photo": "https://m.media-amazon.com/images/I/51bmHlqn4bL._AC_SX679_.jpg",
-    "affiliate_links": {
-      "oficial": {
-        "url": "https://www.awin1.com/cread.php?awinmid=15503&awinaffid=2800712&clickref=tenisideal_83&p=[[Orbita]]",
-        "store": "OLYMPIKUS",
-        "label": "COMPRAR NA OLYMPIKUS"
-      }
-    },
+    "affiliate_links": {},
     "tags": [
       "Leveza",
       "Versatilidade"
@@ -3511,36 +2432,17 @@ var SHOES = [
     "sexo": [
       "feminino"
     ],
-    "budget": "ate300",
+    "budget": "",
     "price": 249.9,
-    "price_formatted": "R$ 249,90",
-    "levels": [
-      "iniciante",
-      "intermediario",
-      "avancado"
-    ],
-    "pisada": [
-      "neutra",
-      "pronada",
-      "supinada"
-    ],
-    "terreno": [
-      "asfalto",
-      "pista",
-      "mista"
-    ],
+    "levels": [],
+    "pisada": [],
+    "terreno": [],
     "distancia": [
       "media",
       "longa"
     ],
     "photo": "https://m.media-amazon.com/images/I/519-VwNeLGL._AC_SY625_.jpg",
-    "affiliate_links": {
-      "oficial": {
-        "url": "https://www.awin1.com/cread.php?awinmid=15503&awinaffid=2800712&clickref=tenisideal_84&p=[[Essential]]",
-        "store": "OLYMPIKUS",
-        "label": "COMPRAR NA OLYMPIKUS"
-      }
-    },
+    "affiliate_links": {},
     "tags": [
       "Amortecimento",
       "Leveza",
@@ -3556,36 +2458,17 @@ var SHOES = [
     "sexo": [
       "unissex"
     ],
-    "budget": "ate300",
+    "budget": "",
     "price": 218.4,
-    "price_formatted": "R$ 218,40",
-    "levels": [
-      "iniciante",
-      "intermediario",
-      "avancado"
-    ],
-    "pisada": [
-      "neutra",
-      "pronada",
-      "supinada"
-    ],
-    "terreno": [
-      "asfalto",
-      "pista",
-      "mista"
-    ],
+    "levels": [],
+    "pisada": [],
+    "terreno": [],
     "distancia": [
       "media",
       "longa"
     ],
     "photo": "https://m.media-amazon.com/images/I/519Fz1ewJdL._AC_SX679_.jpg",
-    "affiliate_links": {
-      "oficial": {
-        "url": "https://www.awin1.com/cread.php?awinmid=15503&awinaffid=2800712&clickref=tenisideal_85&p=[[Challenger 5]]",
-        "store": "OLYMPIKUS",
-        "label": "COMPRAR NA OLYMPIKUS"
-      }
-    },
+    "affiliate_links": {},
     "tags": [
       "Amortecimento",
       "Custo-benefício",
@@ -3601,24 +2484,11 @@ var SHOES = [
     "sexo": [
       "unissex"
     ],
-    "budget": "ate300",
+    "budget": "",
     "price": 199.99,
-    "price_formatted": "R$ 199,99",
-    "levels": [
-      "iniciante",
-      "intermediario",
-      "avancado"
-    ],
-    "pisada": [
-      "neutra",
-      "pronada",
-      "supinada"
-    ],
-    "terreno": [
-      "asfalto",
-      "pista",
-      "mista"
-    ],
+    "levels": [],
+    "pisada": [],
+    "terreno": [],
     "distancia": [
       "media",
       "longa"
@@ -3648,16 +2518,9 @@ var SHOES = [
     ],
     "budget": "ate300",
     "price": 299.99,
-    "price_formatted": "R$ 299,99",
-    "levels": [
-      "Iniciante"
-    ],
-    "pisada": [
-      "neutra"
-    ],
-    "terreno": [
-      "mista"
-    ],
+    "levels": [],
+    "pisada": [],
+    "terreno": [],
     "distancia": [
       "media",
       "longa"
@@ -3685,36 +2548,17 @@ var SHOES = [
     "sexo": [
       "unissex"
     ],
-    "budget": "ate300",
+    "budget": "",
     "price": 204.9,
-    "price_formatted": "R$ 204,90",
-    "levels": [
-      "iniciante",
-      "intermediario",
-      "avancado"
-    ],
-    "pisada": [
-      "neutra",
-      "pronada",
-      "supinada"
-    ],
-    "terreno": [
-      "asfalto",
-      "pista",
-      "mista"
-    ],
+    "levels": [],
+    "pisada": [],
+    "terreno": [],
     "distancia": [
       "media",
       "longa"
     ],
     "photo": "https://m.media-amazon.com/images/I/61Rx2TlzVUL._AC_SY500_.jpg",
-    "affiliate_links": {
-      "oficial": {
-        "url": "https://www.awin1.com/cread.php?awinmid=15503&awinaffid=2800712&clickref=tenisideal_88&p=[[Rua]]",
-        "store": "OLYMPIKUS",
-        "label": "COMPRAR NA OLYMPIKUS"
-      }
-    },
+    "affiliate_links": {},
     "tags": [
       "Leve",
       "Conforto",
@@ -3730,24 +2574,11 @@ var SHOES = [
     "sexo": [
       "masculino"
     ],
-    "budget": "300a600",
+    "budget": "",
     "price": 599.99,
-    "price_formatted": "R$ 599,99",
-    "levels": [
-      "iniciante",
-      "intermediario",
-      "avancado"
-    ],
-    "pisada": [
-      "neutra",
-      "pronada",
-      "supinada"
-    ],
-    "terreno": [
-      "asfalto",
-      "pista",
-      "mista"
-    ],
+    "levels": [],
+    "pisada": [],
+    "terreno": [],
     "distancia": [
       "media",
       "longa"
@@ -3776,24 +2607,11 @@ var SHOES = [
     "sexo": [
       "masculino"
     ],
-    "budget": "ate300",
+    "budget": "",
     "price": 249.99,
-    "price_formatted": "R$ 249,99",
-    "levels": [
-      "iniciante",
-      "intermediario",
-      "avancado"
-    ],
-    "pisada": [
-      "neutra",
-      "pronada",
-      "supinada"
-    ],
-    "terreno": [
-      "asfalto",
-      "pista",
-      "mista"
-    ],
+    "levels": [],
+    "pisada": [],
+    "terreno": [],
     "distancia": [
       "media",
       "longa"
@@ -3822,36 +2640,17 @@ var SHOES = [
     "sexo": [
       "unissex"
     ],
-    "budget": "300a600",
+    "budget": "",
     "price": 599.99,
-    "price_formatted": "R$ 599,99",
-    "levels": [
-      "iniciante",
-      "intermediario",
-      "avancado"
-    ],
-    "pisada": [
-      "neutra",
-      "pronada",
-      "supinada"
-    ],
-    "terreno": [
-      "asfalto",
-      "pista",
-      "mista"
-    ],
+    "levels": [],
+    "pisada": [],
+    "terreno": [],
     "distancia": [
       "media",
       "longa"
     ],
     "photo": "",
-    "affiliate_links": {
-      "oficial": {
-        "url": "https://www.awin1.com/cread.php?awinmid=15503&awinaffid=2800712&clickref=tenisideal_91&p=[[Olympikus Corre Trilha]]",
-        "store": "OLYMPIKUS",
-        "label": "COMPRAR NA OLYMPIKUS"
-      }
-    },
+    "affiliate_links": {},
     "tags": [],
     "description": "https://amazon.com.br/s?k=Olympikus%20Corre%20Trilha&tag=tenisideal26-20",
     "reason": "https://amazon.com.br/s?k=Olympikus%20Corre%20Trilha&tag=tenisideal26-20"
@@ -3863,36 +2662,17 @@ var SHOES = [
     "sexo": [
       "masculino"
     ],
-    "budget": "ate300",
+    "budget": "",
     "price": 1.043,
-    "price_formatted": "R$ 1,04",
-    "levels": [
-      "iniciante",
-      "intermediario",
-      "avancado"
-    ],
-    "pisada": [
-      "neutra",
-      "pronada",
-      "supinada"
-    ],
-    "terreno": [
-      "asfalto",
-      "pista",
-      "mista"
-    ],
+    "levels": [],
+    "pisada": [],
+    "terreno": [],
     "distancia": [
       "media",
       "longa"
     ],
     "photo": "https://images-na.ssl-images-amazon.com/images/I/51gcZC19IXL.jpg",
-    "affiliate_links": {
-      "oficial": {
-        "url": "https://www.awin1.com/cread.php?awinmid=15503&awinaffid=2800712&clickref=tenisideal_92&p=[[Ultra Glide 2]]",
-        "store": "SALOMON",
-        "label": "COMPRAR NA SALOMON"
-      }
-    },
+    "affiliate_links": {},
     "tags": [
       "Trail",
       "Conforto"
@@ -3907,32 +2687,17 @@ var SHOES = [
     "sexo": [
       "masculino"
     ],
-    "budget": "ate300",
+    "budget": "",
     "price": 1.481,
-    "price_formatted": "R$ 1,48",
-    "levels": [
-      "intermediario",
-      "avancado"
-    ],
-    "pisada": [
-      "neutra",
-      "pronada"
-    ],
-    "terreno": [
-      "asfalto"
-    ],
+    "levels": [],
+    "pisada": [],
+    "terreno": [],
     "distancia": [
       "media",
       "longa"
     ],
     "photo": "https://m.media-amazon.com/images/I/61HHqi-wpuL._AC_SY500_.jpg",
-    "affiliate_links": {
-      "oficial": {
-        "url": "https://www.awin1.com/cread.php?awinmid=15503&awinaffid=2800712&clickref=tenisideal_93&p=[[Endorphin Speed 4]]",
-        "store": "SAUCONY",
-        "label": "COMPRAR NA SAUCONY"
-      }
-    },
+    "affiliate_links": {},
     "tags": [
       "Carbono",
       "Velocidade"
@@ -3948,32 +2713,17 @@ var SHOES = [
       "masculino",
       "feminino"
     ],
-    "budget": "ate300",
+    "budget": "",
     "price": 1.524,
-    "price_formatted": "R$ 1,52",
-    "levels": [
-      "intermediario",
-      "avancado"
-    ],
-    "pisada": [
-      "neutra",
-      "pronada"
-    ],
-    "terreno": [
-      "asfalto"
-    ],
+    "levels": [],
+    "pisada": [],
+    "terreno": [],
     "distancia": [
       "media",
       "longa"
     ],
     "photo": "https://m.media-amazon.com/images/I/71NTdjs6iVL._AC_SY500_.jpg",
-    "affiliate_links": {
-      "oficial": {
-        "url": "https://www.awin1.com/cread.php?awinmid=15503&awinaffid=2800712&clickref=tenisideal_94&p=[[Saucony Endorphin Pro 4]]",
-        "store": "SAUCONY",
-        "label": "COMPRAR NA SAUCONY"
-      }
-    },
+    "affiliate_links": {},
     "tags": [
       "Carbono",
       "Maratona",
@@ -3990,32 +2740,17 @@ var SHOES = [
     "sexo": [
       "masculino"
     ],
-    "budget": "300a600",
-    "price": 500,
-    "price_formatted": "R$ 0,00",
-    "levels": [
-      "intermediario",
-      "avancado"
-    ],
-    "pisada": [
-      "neutra",
-      "pronada"
-    ],
-    "terreno": [
-      "asfalto"
-    ],
+    "budget": "",
+    "price": 0,
+    "levels": [],
+    "pisada": [],
+    "terreno": [],
     "distancia": [
       "media",
       "longa"
     ],
     "photo": "https://m.media-amazon.com/images/I/71Kn-Dm570L._AC_SY500_.jpg",
-    "affiliate_links": {
-      "oficial": {
-        "url": "https://www.awin1.com/cread.php?awinmid=15503&awinaffid=2800712&clickref=tenisideal_95&p=[[Saucony Endorphin Speed 5]]",
-        "store": "SAUCONY",
-        "label": "COMPRAR NA SAUCONY"
-      }
-    },
+    "affiliate_links": {},
     "tags": [
       "Nylon plate",
       "Treino rápido",
@@ -4032,32 +2767,17 @@ var SHOES = [
     "sexo": [
       "masculino"
     ],
-    "budget": "300a600",
-    "price": 500,
-    "price_formatted": "R$ 0,00",
-    "levels": [
-      "intermediario",
-      "avancado"
-    ],
-    "pisada": [
-      "neutra",
-      "pronada"
-    ],
-    "terreno": [
-      "asfalto"
-    ],
+    "budget": "",
+    "price": 0,
+    "levels": [],
+    "pisada": [],
+    "terreno": [],
     "distancia": [
       "media",
       "longa"
     ],
     "photo": "https://m.media-amazon.com/images/I/81oEoDyhA+L._AC_SY500_.jpg",
-    "affiliate_links": {
-      "oficial": {
-        "url": "https://www.awin1.com/cread.php?awinmid=15503&awinaffid=2800712&clickref=tenisideal_96&p=[[Saucony Triumph 23]]",
-        "store": "SAUCONY",
-        "label": "COMPRAR NA SAUCONY"
-      }
-    },
+    "affiliate_links": {},
     "tags": [
       "Amortecimento",
       "Treino longo",
@@ -4074,32 +2794,17 @@ var SHOES = [
     "sexo": [
       "masculino"
     ],
-    "budget": "600a1000",
+    "budget": "",
     "price": 895.66,
-    "price_formatted": "R$ 895,66",
-    "levels": [
-      "intermediario",
-      "avancado"
-    ],
-    "pisada": [
-      "neutra",
-      "pronada"
-    ],
-    "terreno": [
-      "asfalto"
-    ],
+    "levels": [],
+    "pisada": [],
+    "terreno": [],
     "distancia": [
       "media",
       "longa"
     ],
     "photo": "https://m.media-amazon.com/images/I/81e9TDaRR5L._AC_SY500_.jpg",
-    "affiliate_links": {
-      "oficial": {
-        "url": "https://www.awin1.com/cread.php?awinmid=15503&awinaffid=2800712&clickref=tenisideal_97&p=[[Saucony Peregrine 15]]",
-        "store": "SAUCONY",
-        "label": "COMPRAR NA SAUCONY"
-      }
-    },
+    "affiliate_links": {},
     "tags": [
       "Trail",
       "Versátil",
@@ -4116,32 +2821,17 @@ var SHOES = [
     "sexo": [
       "feminino"
     ],
-    "budget": "600a1000",
+    "budget": "",
     "price": 919.78,
-    "price_formatted": "R$ 919,78",
-    "levels": [
-      "intermediario",
-      "avancado"
-    ],
-    "pisada": [
-      "neutra",
-      "pronada"
-    ],
-    "terreno": [
-      "asfalto"
-    ],
+    "levels": [],
+    "pisada": [],
+    "terreno": [],
     "distancia": [
       "media",
       "longa"
     ],
     "photo": "https://m.media-amazon.com/images/I/71il-oCGRXL._AC_SY500_.jpg",
-    "affiliate_links": {
-      "oficial": {
-        "url": "https://www.awin1.com/cread.php?awinmid=15503&awinaffid=2800712&clickref=tenisideal_98&p=[[Saucony Peregrine 15]]",
-        "store": "SAUCONY",
-        "label": "COMPRAR NA SAUCONY"
-      }
-    },
+    "affiliate_links": {},
     "tags": [
       "Trail",
       "Versátil",
@@ -4158,36 +2848,17 @@ var SHOES = [
     "sexo": [
       "feminino"
     ],
-    "budget": "300a600",
-    "price": 500,
-    "price_formatted": "R$ 0,00",
-    "levels": [
-      "iniciante",
-      "intermediario",
-      "avancado"
-    ],
-    "pisada": [
-      "neutra",
-      "pronada",
-      "supinada"
-    ],
-    "terreno": [
-      "asfalto",
-      "pista",
-      "mista"
-    ],
+    "budget": "",
+    "price": 0,
+    "levels": [],
+    "pisada": [],
+    "terreno": [],
     "distancia": [
       "media",
       "longa"
     ],
     "photo": "https://m.media-amazon.com/images/I/710D-lXE4uL._AC_SY500_.jpg",
-    "affiliate_links": {
-      "oficial": {
-        "url": "https://www.awin1.com/cread.php?awinmid=15503&awinaffid=2800712&clickref=tenisideal_99&p=[[Salomon Sense Ride 5]]",
-        "store": "SALOMON",
-        "label": "COMPRAR NA SALOMON"
-      }
-    },
+    "affiliate_links": {},
     "tags": [
       "Trail",
       "Versátil",
@@ -4204,36 +2875,17 @@ var SHOES = [
     "sexo": [
       "masculino"
     ],
-    "budget": "300a600",
+    "budget": "",
     "price": 399.9,
-    "price_formatted": "R$ 399,90",
-    "levels": [
-      "iniciante",
-      "intermediario",
-      "avancado"
-    ],
-    "pisada": [
-      "neutra",
-      "pronada",
-      "supinada"
-    ],
-    "terreno": [
-      "asfalto",
-      "pista",
-      "mista"
-    ],
+    "levels": [],
+    "pisada": [],
+    "terreno": [],
     "distancia": [
       "media",
       "longa"
     ],
     "photo": "https://m.media-amazon.com/images/I/71gYxjqbteL._AC_SY500_.jpg",
-    "affiliate_links": {
-      "oficial": {
-        "url": "https://www.awin1.com/cread.php?awinmid=15503&awinaffid=2800712&clickref=tenisideal_100&p=[[Arch Fit Orvan Drex]]",
-        "store": "SKECHERS",
-        "label": "COMPRAR NA SKECHERS"
-      }
-    },
+    "affiliate_links": {},
     "tags": [
       "Conforto",
       "Amortecimento"
@@ -4248,36 +2900,17 @@ var SHOES = [
     "sexo": [
       "feminino"
     ],
-    "budget": "ate300",
+    "budget": "",
     "price": 269.9,
-    "price_formatted": "R$ 269,90",
-    "levels": [
-      "iniciante",
-      "intermediario",
-      "avancado"
-    ],
-    "pisada": [
-      "neutra",
-      "pronada",
-      "supinada"
-    ],
-    "terreno": [
-      "asfalto",
-      "pista",
-      "mista"
-    ],
+    "levels": [],
+    "pisada": [],
+    "terreno": [],
     "distancia": [
       "media",
       "longa"
     ],
     "photo": "https://m.media-amazon.com/images/I/61cNbsYKgPL._AC_SY500_.jpg",
-    "affiliate_links": {
-      "oficial": {
-        "url": "https://www.awin1.com/cread.php?awinmid=15503&awinaffid=2800712&clickref=tenisideal_101&p=[[Charged Great]]",
-        "store": "UNDER ARMOUR",
-        "label": "COMPRAR NA UNDER ARMOUR"
-      }
-    },
+    "affiliate_links": {},
     "tags": [
       "Amortecimento",
       "Leveza",
@@ -4293,36 +2926,17 @@ var SHOES = [
     "sexo": [
       "masculino"
     ],
-    "budget": "300a600",
+    "budget": "",
     "price": 469.9,
-    "price_formatted": "R$ 469,90",
-    "levels": [
-      "iniciante",
-      "intermediario",
-      "avancado"
-    ],
-    "pisada": [
-      "neutra",
-      "pronada",
-      "supinada"
-    ],
-    "terreno": [
-      "asfalto",
-      "pista",
-      "mista"
-    ],
+    "levels": [],
+    "pisada": [],
+    "terreno": [],
     "distancia": [
       "media",
       "longa"
     ],
     "photo": "https://m.media-amazon.com/images/I/61FtBlh+DJL._AC_SY625_.jpg",
-    "affiliate_links": {
-      "oficial": {
-        "url": "https://www.awin1.com/cread.php?awinmid=15503&awinaffid=2800712&clickref=tenisideal_102&p=[[Charged Hit SE]]",
-        "store": "UNDER ARMOUR",
-        "label": "COMPRAR NA UNDER ARMOUR"
-      }
-    },
+    "affiliate_links": {},
     "tags": [
       "Amortecimento",
       "Durabilidade"
