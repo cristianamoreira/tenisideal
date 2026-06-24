@@ -7,7 +7,7 @@ var SHOES = [
     "sexo": [
       "masculino"
     ],
-    "budget": "",
+    "budget": "acima1000",
     "price": 1999.99,
     "price_formatted": "R$ 1.999,99",
     "levels": [],
@@ -43,7 +43,7 @@ var SHOES = [
     "sexo": [
       "masculino"
     ],
-    "budget": "",
+    "budget": "acima1000",
     "price": 1399.99,
     "price_formatted": "R$ 1.399,99",
     "levels": [],
@@ -79,7 +79,7 @@ var SHOES = [
     "sexo": [
       "unissex"
     ],
-    "budget": "",
+    "budget": "300a600",
     "price": 399.99,
     "price_formatted": "R$ 399,99",
     "levels": [],
@@ -115,7 +115,7 @@ var SHOES = [
     "sexo": [
       "masculino"
     ],
-    "budget": "",
+    "budget": "acima1000",
     "price": 1099.99,
     "price_formatted": "R$ 1.099,99",
     "levels": [],
@@ -152,7 +152,7 @@ var SHOES = [
     "sexo": [
       "masculino"
     ],
-    "budget": "",
+    "budget": "acima1000",
     "price": 1199.99,
     "price_formatted": "R$ 1.199,99",
     "levels": [],
@@ -185,7 +185,7 @@ var SHOES = [
     "sexo": [
       "feminino"
     ],
-    "budget": "",
+    "budget": "acima1000",
     "price": 1099.99,
     "price_formatted": "R$ 1.099,99",
     "levels": [],
@@ -222,7 +222,7 @@ var SHOES = [
     "sexo": [
       "feminino"
     ],
-    "budget": "",
+    "budget": "300a600",
     "price": 599.99,
     "price_formatted": "R$ 599,99",
     "levels": [],
@@ -259,7 +259,7 @@ var SHOES = [
     "sexo": [
       "feminino"
     ],
-    "budget": "",
+    "budget": "acima1000",
     "price": 1199.99,
     "price_formatted": "R$ 1.199,99",
     "levels": [],
@@ -296,7 +296,7 @@ var SHOES = [
     "sexo": [
       "unissex"
     ],
-    "budget": "",
+    "budget": "acima1000",
     "price": 1139.9,
     "price_formatted": "R$ 1.139,90",
     "levels": [
@@ -340,7 +340,7 @@ var SHOES = [
     "sexo": [
       "masculino"
     ],
-    "budget": "",
+    "budget": "600a1000",
     "price": 719.1,
     "price_formatted": "R$ 719,10",
     "levels": [],
@@ -376,7 +376,7 @@ var SHOES = [
     "sexo": [
       "masculino"
     ],
-    "budget": "",
+    "budget": "acima1000",
     "price": 1399.99,
     "price_formatted": "R$ 1.399,99",
     "levels": [],
@@ -412,7 +412,7 @@ var SHOES = [
     "sexo": [
       "masculino"
     ],
-    "budget": "",
+    "budget": "acima1000",
     "price": 1899.99,
     "price_formatted": "R$ 1.899,99",
     "levels": [],
@@ -448,7 +448,7 @@ var SHOES = [
     "sexo": [
       "masculino"
     ],
-    "budget": "",
+    "budget": "acima1000",
     "price": 1499.99,
     "price_formatted": "R$ 1.499,99",
     "levels": [],
@@ -484,7 +484,7 @@ var SHOES = [
     "sexo": [
       "feminino"
     ],
-    "budget": "",
+    "budget": "acima1000",
     "price": 1499.99,
     "price_formatted": "R$ 1.499,99",
     "levels": [],
@@ -520,7 +520,7 @@ var SHOES = [
     "sexo": [
       "masculino"
     ],
-    "budget": "",
+    "budget": "600a1000",
     "price": 899.99,
     "price_formatted": "R$ 899,99",
     "levels": [],
@@ -556,7 +556,7 @@ var SHOES = [
     "sexo": [
       "masculino"
     ],
-    "budget": "",
+    "budget": "600a1000",
     "price": 749.99,
     "price_formatted": "R$ 749,99",
     "levels": [],
@@ -593,7 +593,7 @@ var SHOES = [
     "sexo": [
       "feminino"
     ],
-    "budget": "",
+    "budget": "300a600",
     "price": 599.99,
     "price_formatted": "R$ 599,99",
     "levels": [],
@@ -630,7 +630,7 @@ var SHOES = [
     "sexo": [
       "feminino"
     ],
-    "budget": "",
+    "budget": "600a1000",
     "price": 649.99,
     "price_formatted": "R$ 649,99",
     "levels": [],
@@ -666,7 +666,7 @@ var SHOES = [
     "sexo": [
       "feminino"
     ],
-    "budget": "",
+    "budget": "acima1000",
     "price": 1399.99,
     "price_formatted": "R$ 1.399,99",
     "levels": [],
@@ -703,7 +703,7 @@ var SHOES = [
     "sexo": [
       "masculino"
     ],
-    "budget": "",
+    "budget": "600a1000",
     "price": 999.99,
     "price_formatted": "R$ 999,99",
     "levels": [],
@@ -739,7 +739,7 @@ var SHOES = [
     "sexo": [
       "masculino"
     ],
-    "budget": "",
+    "budget": "acima1000",
     "price": 1049.99,
     "price_formatted": "R$ 1.049,99",
     "levels": [],
@@ -775,7 +775,7 @@ var SHOES = [
     "sexo": [
       "masculino"
     ],
-    "budget": "",
+    "budget": "acima1000",
     "price": 1099.99,
     "price_formatted": "R$ 1.099,99",
     "levels": [],
@@ -811,7 +811,7 @@ var SHOES = [
     "sexo": [
       "feminino"
     ],
-    "budget": "",
+    "budget": "600a1000",
     "price": 999.99,
     "price_formatted": "R$ 999,99",
     "levels": [],
@@ -878,7 +878,7 @@ var SHOES = [
     "sexo": [
       "feminino"
     ],
-    "budget": "",
+    "budget": "300a600",
     "price": 349.99,
     "price_formatted": "R$ 349,99",
     "levels": [],
@@ -906,7 +906,7 @@ var SHOES = [
     "sexo": [
       "masculino"
     ],
-    "budget": "",
+    "budget": "ate300",
     "price": 299.99,
     "price_formatted": "R$ 299,99",
     "levels": [],
@@ -934,7 +934,7 @@ var SHOES = [
     "sexo": [
       "feminino"
     ],
-    "budget": "",
+    "budget": "ate300",
     "price": 289.99,
     "price_formatted": "R$ 289,99",
     "levels": [],
@@ -962,7 +962,7 @@ var SHOES = [
     "sexo": [
       "feminino"
     ],
-    "budget": "",
+    "budget": "ate300",
     "price": 269.99,
     "price_formatted": "R$ 269,99",
     "levels": [],
@@ -990,7 +990,7 @@ var SHOES = [
     "sexo": [
       "masculino"
     ],
-    "budget": "",
+    "budget": "acima1000",
     "price": 1300.0,
     "price_formatted": "R$ 1.300,00",
     "levels": [],
@@ -1020,7 +1020,7 @@ var SHOES = [
     "sexo": [
       "feminino"
     ],
-    "budget": "",
+    "budget": "acima1000",
     "price": 1299.99,
     "price_formatted": "R$ 1.299,99",
     "levels": [],
@@ -1050,7 +1050,7 @@ var SHOES = [
     "sexo": [
       "unissex"
     ],
-    "budget": "",
+    "budget": "acima1000",
     "price": 2400.0,
     "price_formatted": "R$ 2.400,00",
     "levels": [],
@@ -1080,7 +1080,7 @@ var SHOES = [
     "sexo": [
       "masculino"
     ],
-    "budget": "",
+    "budget": "acima1000",
     "price": 1120.0,
     "price_formatted": "R$ 1.120,00",
     "levels": [],
@@ -1108,7 +1108,7 @@ var SHOES = [
     "sexo": [
       "masculino"
     ],
-    "budget": "",
+    "budget": "acima1000",
     "price": 1299.0,
     "price_formatted": "R$ 1.299,00",
     "levels": [],
@@ -1136,7 +1136,7 @@ var SHOES = [
     "sexo": [
       "masculino"
     ],
-    "budget": "",
+    "budget": "acima1000",
     "price": 1233.0,
     "price_formatted": "R$ 1.233,00",
     "levels": [],
@@ -1164,7 +1164,7 @@ var SHOES = [
     "sexo": [
       "masculino"
     ],
-    "budget": "",
+    "budget": "600a1000",
     "price": 650.0,
     "price_formatted": "R$ 650,00",
     "levels": [],
@@ -1196,7 +1196,7 @@ var SHOES = [
     "sexo": [
       "masculino"
     ],
-    "budget": "",
+    "budget": "300a600",
     "price": 549.99,
     "price_formatted": "R$ 549,99",
     "levels": [],
@@ -1229,7 +1229,7 @@ var SHOES = [
     "sexo": [
       "masculino"
     ],
-    "budget": "",
+    "budget": "acima1000",
     "price": 1199.99,
     "price_formatted": "R$ 1.199,99",
     "levels": [],
@@ -1261,7 +1261,7 @@ var SHOES = [
     "sexo": [
       "unissex"
     ],
-    "budget": "",
+    "budget": "300a600",
     "price": 407.0,
     "price_formatted": "R$ 407,00",
     "levels": [],
@@ -1294,7 +1294,7 @@ var SHOES = [
     "sexo": [
       "unissex"
     ],
-    "budget": "",
+    "budget": "300a600",
     "price": 449.99,
     "price_formatted": "R$ 449,99",
     "levels": [],
@@ -1327,7 +1327,7 @@ var SHOES = [
     "sexo": [
       "feminino"
     ],
-    "budget": "",
+    "budget": "600a1000",
     "price": 679.99,
     "price_formatted": "R$ 679,99",
     "levels": [],
@@ -1360,7 +1360,7 @@ var SHOES = [
     "sexo": [
       "unissex"
     ],
-    "budget": "",
+    "budget": "600a1000",
     "price": 679.99,
     "price_formatted": "R$ 679,99",
     "levels": [],
@@ -1393,7 +1393,7 @@ var SHOES = [
     "sexo": [
       "unissex"
     ],
-    "budget": "",
+    "budget": "acima1000",
     "price": 1402.88,
     "price_formatted": "R$ 1.402,88",
     "levels": [],
@@ -1422,7 +1422,7 @@ var SHOES = [
     "sexo": [
       "unissex"
     ],
-    "budget": "",
+    "budget": "ate300",
     "price": 279.99,
     "price_formatted": "R$ 279,99",
     "levels": [],
@@ -1459,7 +1459,7 @@ var SHOES = [
     "sexo": [
       "unissex"
     ],
-    "budget": "",
+    "budget": "ate300",
     "price": 299.99,
     "price_formatted": "R$ 299,99",
     "levels": [],
@@ -1492,7 +1492,7 @@ var SHOES = [
     "sexo": [
       "unissex"
     ],
-    "budget": "",
+    "budget": "acima1000",
     "price": 1299.99,
     "price_formatted": "R$ 1.299,99",
     "levels": [],
@@ -1525,7 +1525,7 @@ var SHOES = [
     "sexo": [
       "feminino"
     ],
-    "budget": "",
+    "budget": "300a600",
     "price": 399.99,
     "price_formatted": "R$ 399,99",
     "levels": [],
@@ -1558,7 +1558,7 @@ var SHOES = [
     "sexo": [
       "masculino"
     ],
-    "budget": "",
+    "budget": "600a1000",
     "price": 699.99,
     "price_formatted": "R$ 699,99",
     "levels": [],
@@ -1591,7 +1591,7 @@ var SHOES = [
     "sexo": [
       "feminino"
     ],
-    "budget": "",
+    "budget": "600a1000",
     "price": 699.99,
     "price_formatted": "R$ 699,99",
     "levels": [],
@@ -1624,7 +1624,7 @@ var SHOES = [
     "sexo": [
       "feminino"
     ],
-    "budget": "",
+    "budget": "600a1000",
     "price": 808.11,
     "price_formatted": "R$ 808,11",
     "levels": [],
@@ -1652,7 +1652,7 @@ var SHOES = [
     "sexo": [
       "unissex"
     ],
-    "budget": "",
+    "budget": "600a1000",
     "price": 699.9,
     "price_formatted": "R$ 699,90",
     "levels": [],
@@ -1681,7 +1681,7 @@ var SHOES = [
     "sexo": [
       "masculino"
     ],
-    "budget": "",
+    "budget": "acima1000",
     "price": 1299.0,
     "price_formatted": "R$ 1.299,00",
     "levels": [],
@@ -1711,7 +1711,7 @@ var SHOES = [
     "sexo": [
       "feminino"
     ],
-    "budget": "",
+    "budget": "acima1000",
     "price": 1300.0,
     "price_formatted": "R$ 1.300,00",
     "levels": [],
@@ -1741,7 +1741,7 @@ var SHOES = [
     "sexo": [
       "feminino"
     ],
-    "budget": "",
+    "budget": "acima1000",
     "price": 2199.0,
     "price_formatted": "R$ 2.199,00",
     "levels": [],
@@ -1771,7 +1771,7 @@ var SHOES = [
     "sexo": [
       "masculino"
     ],
-    "budget": "",
+    "budget": "acima1000",
     "price": 1281.86,
     "price_formatted": "R$ 1.281,86",
     "levels": [],
@@ -1801,7 +1801,7 @@ var SHOES = [
     "sexo": [
       "feminino"
     ],
-    "budget": "",
+    "budget": "600a1000",
     "price": 989.79,
     "price_formatted": "R$ 989,79",
     "levels": [],
@@ -1831,7 +1831,7 @@ var SHOES = [
     "sexo": [
       "masculino"
     ],
-    "budget": "",
+    "budget": "acima1000",
     "price": 1099.87,
     "price_formatted": "R$ 1.099,87",
     "levels": [],
@@ -1861,7 +1861,7 @@ var SHOES = [
     "sexo": [
       "masculino"
     ],
-    "budget": "",
+    "budget": "acima1000",
     "price": 1234.99,
     "price_formatted": "R$ 1.234,99",
     "levels": [],
@@ -1890,7 +1890,7 @@ var SHOES = [
     "sexo": [
       "feminino"
     ],
-    "budget": "",
+    "budget": "acima1000",
     "price": 1234.99,
     "price_formatted": "R$ 1.234,99",
     "levels": [],
@@ -1919,7 +1919,7 @@ var SHOES = [
     "sexo": [
       "masculino"
     ],
-    "budget": "",
+    "budget": "acima1000",
     "price": 2171.0,
     "price_formatted": "R$ 2.171,00",
     "levels": [],
@@ -1951,7 +1951,7 @@ var SHOES = [
     "sexo": [
       "masculino"
     ],
-    "budget": "",
+    "budget": "300a600",
     "price": 427.49,
     "price_formatted": "R$ 427,49",
     "levels": [],
@@ -1982,7 +1982,7 @@ var SHOES = [
     "sexo": [
       "Feminino"
     ],
-    "budget": "",
+    "budget": "300a600",
     "price": 360.99,
     "price_formatted": "R$ 360,99",
     "levels": [],
@@ -2011,7 +2011,7 @@ var SHOES = [
     "sexo": [
       "Feminino"
     ],
-    "budget": "",
+    "budget": "300a600",
     "price": 303.99,
     "price_formatted": "R$ 303,99",
     "levels": [],
@@ -2040,7 +2040,7 @@ var SHOES = [
     "sexo": [
       "masculino"
     ],
-    "budget": "",
+    "budget": "300a600",
     "price": 303.99,
     "price_formatted": "R$ 303,99",
     "levels": [],
@@ -2069,7 +2069,7 @@ var SHOES = [
     "sexo": [
       "masculino"
     ],
-    "budget": "",
+    "budget": "300a600",
     "price": 489.99,
     "price_formatted": "R$ 489,99",
     "levels": [],
@@ -2098,7 +2098,7 @@ var SHOES = [
     "sexo": [
       "feminino"
     ],
-    "budget": "",
+    "budget": "300a600",
     "price": 399.99,
     "price_formatted": "R$ 399,99",
     "levels": [],
@@ -2127,7 +2127,7 @@ var SHOES = [
     "sexo": [
       "masculino"
     ],
-    "budget": "",
+    "budget": "300a600",
     "price": 474.99,
     "price_formatted": "R$ 474,99",
     "levels": [],
@@ -2156,7 +2156,7 @@ var SHOES = [
     "sexo": [
       "feminino"
     ],
-    "budget": "",
+    "budget": "300a600",
     "price": 531.99,
     "price_formatted": "R$ 531,99",
     "levels": [],
@@ -2185,7 +2185,7 @@ var SHOES = [
     "sexo": [
       "masculino"
     ],
-    "budget": "",
+    "budget": "acima1000",
     "price": 1781.24,
     "price_formatted": "R$ 1.781,24",
     "levels": [],
@@ -2214,7 +2214,7 @@ var SHOES = [
     "sexo": [
       "feminino"
     ],
-    "budget": "",
+    "budget": "acima1000",
     "price": 2064.16,
     "price_formatted": "R$ 2.064,16",
     "levels": [],
@@ -2243,7 +2243,7 @@ var SHOES = [
     "sexo": [
       "feminino"
     ],
-    "budget": "",
+    "budget": "acima1000",
     "price": 1402.05,
     "price_formatted": "R$ 1.402,05",
     "levels": [],
@@ -2272,7 +2272,7 @@ var SHOES = [
     "sexo": [
       "masculino"
     ],
-    "budget": "",
+    "budget": "600a1000",
     "price": 807.49,
     "price_formatted": "R$ 807,49",
     "levels": [],
@@ -2301,7 +2301,7 @@ var SHOES = [
     "sexo": [
       "masculino"
     ],
-    "budget": "",
+    "budget": "acima1000",
     "price": 1009.21,
     "price_formatted": "R$ 1.009,21",
     "levels": [],
@@ -2330,7 +2330,7 @@ var SHOES = [
     "sexo": [
       "feminino"
     ],
-    "budget": "",
+    "budget": "600a1000",
     "price": 934.35,
     "price_formatted": "R$ 934,35",
     "levels": [],
@@ -2359,7 +2359,7 @@ var SHOES = [
     "sexo": [
       "masculino"
     ],
-    "budget": "",
+    "budget": "600a1000",
     "price": 949.99,
     "price_formatted": "R$ 949,99",
     "levels": [],
@@ -2388,7 +2388,7 @@ var SHOES = [
     "sexo": [
       "feminino"
     ],
-    "budget": "",
+    "budget": "600a1000",
     "price": 949.99,
     "price_formatted": "R$ 949,99",
     "levels": [],
@@ -2417,7 +2417,7 @@ var SHOES = [
     "sexo": [
       "feminino"
     ],
-    "budget": "",
+    "budget": "600a1000",
     "price": 968.99,
     "price_formatted": "R$ 968,99",
     "levels": [],
@@ -2446,7 +2446,7 @@ var SHOES = [
     "sexo": [
       "masculino"
     ],
-    "budget": "",
+    "budget": "acima1000",
     "price": 1139.99,
     "price_formatted": "R$ 1.139,99",
     "levels": [],
@@ -2475,7 +2475,7 @@ var SHOES = [
     "sexo": [
       "masculino"
     ],
-    "budget": "",
+    "budget": "600a1000",
     "price": 664.99,
     "price_formatted": "R$ 664,99",
     "levels": [],
@@ -2504,7 +2504,7 @@ var SHOES = [
     "sexo": [
       "feminino"
     ],
-    "budget": "",
+    "budget": "600a1000",
     "price": 759.99,
     "price_formatted": "R$ 759,99",
     "levels": [],
@@ -2533,7 +2533,7 @@ var SHOES = [
     "sexo": [
       "masculino"
     ],
-    "budget": "",
+    "budget": "300a600",
     "price": 347.36,
     "price_formatted": "R$ 347,36",
     "levels": [
@@ -2576,7 +2576,7 @@ var SHOES = [
     "sexo": [
       "feminino"
     ],
-    "budget": "",
+    "budget": "ate300",
     "price": 50.0,
     "price_formatted": "R$ 50,00",
     "levels": [
@@ -2611,7 +2611,7 @@ var SHOES = [
     "sexo": [
       "feminino"
     ],
-    "budget": "",
+    "budget": "ate300",
     "price": 285.0,
     "price_formatted": "R$ 285,00",
     "levels": [],
@@ -2639,7 +2639,7 @@ var SHOES = [
     "sexo": [
       "masculino"
     ],
-    "budget": "",
+    "budget": "ate300",
     "price": 249.9,
     "price_formatted": "R$ 249,90",
     "levels": [],
@@ -2667,7 +2667,7 @@ var SHOES = [
     "sexo": [
       "masculino"
     ],
-    "budget": "",
+    "budget": "ate300",
     "price": 229.9,
     "price_formatted": "R$ 229,90",
     "levels": [],
@@ -2695,7 +2695,7 @@ var SHOES = [
     "sexo": [
       "feminino"
     ],
-    "budget": "",
+    "budget": "ate300",
     "price": 249.9,
     "price_formatted": "R$ 249,90",
     "levels": [],
@@ -2724,7 +2724,7 @@ var SHOES = [
     "sexo": [
       "unissex"
     ],
-    "budget": "",
+    "budget": "ate300",
     "price": 218.4,
     "price_formatted": "R$ 218,40",
     "levels": [],
@@ -2753,7 +2753,7 @@ var SHOES = [
     "sexo": [
       "unissex"
     ],
-    "budget": "",
+    "budget": "ate300",
     "price": 189.87,
     "price_formatted": "R$ 189,87",
     "levels": [],
@@ -2829,7 +2829,7 @@ var SHOES = [
     "sexo": [
       "unissex"
     ],
-    "budget": "",
+    "budget": "ate300",
     "price": 204.9,
     "price_formatted": "R$ 204,90",
     "levels": [],
@@ -2858,7 +2858,7 @@ var SHOES = [
     "sexo": [
       "masculino"
     ],
-    "budget": "",
+    "budget": "300a600",
     "price": 599.99,
     "price_formatted": "R$ 599,99",
     "levels": [],
@@ -2892,7 +2892,7 @@ var SHOES = [
     "sexo": [
       "masculino"
     ],
-    "budget": "",
+    "budget": "ate300",
     "price": 209.99,
     "price_formatted": "R$ 209,99",
     "levels": [],
@@ -2926,7 +2926,7 @@ var SHOES = [
     "sexo": [
       "unissex"
     ],
-    "budget": "",
+    "budget": "300a600",
     "price": 599.99,
     "price_formatted": "R$ 599,99",
     "levels": [],
@@ -2948,7 +2948,7 @@ var SHOES = [
     "sexo": [
       "masculino"
     ],
-    "budget": "",
+    "budget": "acima1000",
     "price": 1043.0,
     "price_formatted": "R$ 1.043,00",
     "levels": [],
@@ -2976,7 +2976,7 @@ var SHOES = [
     "sexo": [
       "masculino"
     ],
-    "budget": "",
+    "budget": "acima1000",
     "price": 1481.0,
     "price_formatted": "R$ 1.481,00",
     "levels": [],
@@ -3005,7 +3005,7 @@ var SHOES = [
       "masculino",
       "feminino"
     ],
-    "budget": "",
+    "budget": "acima1000",
     "price": 1524.0,
     "price_formatted": "R$ 1.524,00",
     "levels": [],
@@ -3035,7 +3035,7 @@ var SHOES = [
     "sexo": [
       "masculino"
     ],
-    "budget": "",
+    "budget": "acima1000",
     "price": 1799.26,
     "price_formatted": "R$ 1.799,26",
     "levels": [],
@@ -3065,7 +3065,7 @@ var SHOES = [
     "sexo": [
       "masculino"
     ],
-    "budget": "",
+    "budget": "acima1000",
     "price": 1585.65,
     "price_formatted": "R$ 1.585,65",
     "levels": [],
@@ -3095,7 +3095,7 @@ var SHOES = [
     "sexo": [
       "masculino"
     ],
-    "budget": "",
+    "budget": "600a1000",
     "price": 895.66,
     "price_formatted": "R$ 895,66",
     "levels": [],
@@ -3125,7 +3125,7 @@ var SHOES = [
     "sexo": [
       "feminino"
     ],
-    "budget": "",
+    "budget": "600a1000",
     "price": 919.78,
     "price_formatted": "R$ 919,78",
     "levels": [],
@@ -3155,7 +3155,7 @@ var SHOES = [
     "sexo": [
       "feminino"
     ],
-    "budget": "",
+    "budget": "acima1000",
     "price": 1120.02,
     "price_formatted": "R$ 1.120,02",
     "levels": [],
@@ -3185,7 +3185,7 @@ var SHOES = [
     "sexo": [
       "masculino"
     ],
-    "budget": "",
+    "budget": "300a600",
     "price": 399.9,
     "price_formatted": "R$ 399,90",
     "levels": [],
@@ -3213,7 +3213,7 @@ var SHOES = [
     "sexo": [
       "feminino"
     ],
-    "budget": "",
+    "budget": "ate300",
     "price": 269.9,
     "price_formatted": "R$ 269,90",
     "levels": [],
@@ -3242,7 +3242,7 @@ var SHOES = [
     "sexo": [
       "masculino"
     ],
-    "budget": "",
+    "budget": "300a600",
     "price": 469.9,
     "price_formatted": "R$ 469,90",
     "levels": [],
