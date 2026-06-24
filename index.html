@@ -1446,21 +1446,21 @@
     /* Primeiro card ocupa toda a largura */
     .shoe.shoe-featured {
       grid-column: 1 / -1;
-      flex-direction: row;
+      flex-direction: column;
       border-color: rgba(200, 255, 0, .4);
       box-shadow: 0 0 0 1px rgba(200, 255, 0, .15), 0 16px 48px rgba(0, 0, 0, .35);
-      min-height: 360px;
+      min-height: auto;
     }
 
     .shoe.shoe-featured .simg {
-      flex: 0 0 45%;
-      width: 45%;
-      min-width: 45%;
+      flex: 0 0 auto;
+      width: 100%;
+      min-width: 100%;
       height: auto;
       min-height: 320px;
       max-height: none;
-      border-bottom: none;
-      border-right: 1px solid #e8e8e8;
+      border-bottom: 1px solid #e8e8e8;
+      border-right: none;
       flex-shrink: 0;
       display: flex;
       align-items: center;
@@ -1470,8 +1470,8 @@
 
     .shoe.shoe-featured .simg img {
       object-fit: contain;
-      max-height: 280px;
-      width: 95%;
+      max-height: 300px;
+      width: 90%;
     }
 
     .shoe.shoe-featured .simg img:not([src]),
@@ -1488,10 +1488,10 @@
 
     .shoe.shoe-featured .sbody {
       flex: 1;
-      padding: 36px 42px;
+      padding: 32px 36px;
       display: flex;
       flex-direction: column;
-      justify-content: space-between;
+      justify-content: flex-start;
       background: #fafafa;
     }
 
