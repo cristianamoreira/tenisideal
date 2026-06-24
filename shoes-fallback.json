@@ -189,45 +189,6 @@
   },
   {
     "brand": "ADIDAS",
-    "name": "Ultraboost 5",
-    "slug": "adidas-ultraboost-5-14f9",
-    "sexo": [
-      "feminino"
-    ],
-    "budget": "acima1000",
-    "price": 1099.99,
-    "price_formatted": "R$ 1.099,99",
-    "levels": [],
-    "pisada": [],
-    "terreno": [],
-    "distancia": [],
-    "photo": "https://m.media-amazon.com/images/G/32/gno/sprites/nav-sprite-global-1x-reorg-privacy._AC_SY500_.jpg",
-    "affiliate_links": {
-      "amazon": {
-        "url": "https://www.netshoes.com.br/search?q=Ultraboost%205&utm_source=tenisideal&utm_medium=affiliate&utm_campaign=shoes&affid=4683922",
-        "price": 0
-      },
-      "oficial": {
-        "url": "https://www.awin1.com/cread.php?awinmid=15503&awinaffid=4683922&clickref=tenisideal_6",
-        "price": 0
-      },
-      "netshoes": {
-        "url": "https://www.netshoes.com.br/search?q=Ultraboost%205&utm_source=tenisideal&utm_medium=affiliate&utm_campaign=shoes&affid=4683922",
-        "price": 0
-      }
-    },
-    "tags": [
-      "Boost",
-      "Leveza",
-      "Premium"
-    ],
-    "description": "Lightboost 2.0 mais leve e responsivo. Primeknit ajusta como uma meia. Excelente para treinos longos com retorno máximo de energia.",
-    "reason": "Lightboost 2.0 mais leve e responsivo. Primeknit ajusta como uma meia. Excelente para treinos longos com retorno máximo de energia.",
-    "price_minimo": 1099.99,
-    "tem_variacao_tamanho_cor": true
-  },
-  {
-    "brand": "ADIDAS",
     "name": "Duramo Speed 2",
     "slug": "adidas-duramo-speed-2-d990",
     "sexo": [
@@ -499,44 +460,6 @@
     ],
     "description": "Amortecimento FlyteFoam excepcional. Ideal para iniciantes que precisam de proteção extra nas articulações.",
     "reason": "Amortecimento FlyteFoam excepcional. Ideal para iniciantes que precisam de proteção extra nas articulações.",
-    "price_minimo": 1499.99,
-    "tem_variacao_tamanho_cor": true
-  },
-  {
-    "brand": "ASICS",
-    "name": "Gel-Nimbus 26",
-    "slug": "asics-gel-nimbus-26-2ecb",
-    "sexo": [
-      "feminino"
-    ],
-    "budget": "acima1000",
-    "price": 1499.99,
-    "price_formatted": "R$ 1.499,99",
-    "levels": [],
-    "pisada": [],
-    "terreno": [],
-    "distancia": [],
-    "photo": "https://m.media-amazon.com/images/I/61PWopvUgnL._AC_SY395_.jpg",
-    "affiliate_links": {
-      "amazon": {
-        "url": "https://www.netshoes.com.br/search?q=Gel-Nimbus%2026&utm_source=tenisideal&utm_medium=affiliate&utm_campaign=shoes&affid=4683922",
-        "price": 0
-      },
-      "oficial": {
-        "url": "https://www.awin1.com/cread.php?awinmid=15815&awinaffid=4683922&clickref=tenisideal_14",
-        "price": 0
-      },
-      "netshoes": {
-        "url": "https://www.netshoes.com.br/search?q=Gel-Nimbus%2026&utm_source=tenisideal&utm_medium=affiliate&utm_campaign=shoes&affid=4683922",
-        "price": 0
-      }
-    },
-    "tags": [
-      "Amortecimento",
-      "Neutro"
-    ],
-    "description": "Amortecimento FlyteFoam excepcional para longas distâncias. Proteção articular superior para corredoras.",
-    "reason": "Amortecimento FlyteFoam excepcional para longas distâncias. Proteção articular superior para corredoras.",
     "price_minimo": 1499.99,
     "tem_variacao_tamanho_cor": true
   },
@@ -1072,38 +995,6 @@
   },
   {
     "brand": "HOKA",
-    "name": "Hoka Clifton 10",
-    "slug": "hoka-hoka-clifton-10-63b0",
-    "sexo": [
-      "feminino"
-    ],
-    "budget": "acima1000",
-    "price": 1299.99,
-    "price_formatted": "R$ 1.299,99",
-    "levels": [],
-    "pisada": [],
-    "terreno": [],
-    "distancia": [],
-    "photo": "https://m.media-amazon.com/images/I/51bXQrff2ZL._AC_SY395_.jpg",
-    "affiliate_links": {
-      "amazon": {
-        "url": "https://amzn.to/4sErZWD",
-        "price": 1299.99
-      }
-    },
-    "tags": [
-      "Amortecimento",
-      "Treino diário",
-      "Conforto",
-      "Iniciante"
-    ],
-    "description": "Um dos tênis mais confortáveis do mercado. Stack maximalist e drop de 8mm para proteção máxima em treinos diários. Ideal para iniciantes e longas distâncias.",
-    "reason": "Um dos tênis mais confortáveis do mercado. Stack maximalist e drop de 8mm para proteção máxima em treinos diários. Ideal para iniciantes e longas distâncias.",
-    "price_minimo": 1299.99,
-    "tem_variacao_tamanho_cor": true
-  },
-  {
-    "brand": "HOKA",
     "name": "Hoka Rocket X 3",
     "slug": "hoka-hoka-rocket-x-3-8a26",
     "sexo": [
@@ -1162,36 +1053,6 @@
     "description": "Amortecimento máximo com peso surpreendentemente baixo. Ótimo para treinos longos e recuperação.",
     "reason": "Amortecimento máximo com peso surpreendentemente baixo. Ótimo para treinos longos e recuperação.",
     "price_minimo": 1120.0,
-    "tem_variacao_tamanho_cor": true
-  },
-  {
-    "brand": "HOKA",
-    "name": "Clifton 9",
-    "slug": "hoka-clifton-9-c3bd",
-    "sexo": [
-      "masculino"
-    ],
-    "budget": "acima1000",
-    "price": 1299.0,
-    "price_formatted": "R$ 1.299,00",
-    "levels": [],
-    "pisada": [],
-    "terreno": [],
-    "distancia": [],
-    "photo": "https://m.media-amazon.com/images/I/61IG0fi5z+L._AC_SY395_.jpg",
-    "affiliate_links": {
-      "amazon": {
-        "url": "https://www.netshoes.com.br/search?q=Clifton%209&utm_source=tenisideal&utm_medium=affiliate&utm_campaign=shoes&affid=4683922",
-        "price": 0
-      }
-    },
-    "tags": [
-      "Maxi-Soft",
-      "Leve"
-    ],
-    "description": "Amortecimento máximo com leveza surpreendente. Ótimo para treinos longos e recuperação ativa.",
-    "reason": "Amortecimento máximo com leveza surpreendente. Ótimo para treinos longos e recuperação ativa.",
-    "price_minimo": 1299.0,
     "tem_variacao_tamanho_cor": true
   },
   {
@@ -1434,41 +1295,6 @@
   },
   {
     "brand": "MIZUNO",
-    "name": "Creation 26",
-    "slug": "mizuno-creation-26-1939",
-    "sexo": [
-      "unissex"
-    ],
-    "budget": "600a1000",
-    "price": 679.99,
-    "price_formatted": "R$ 679,99",
-    "levels": [],
-    "pisada": [],
-    "terreno": [],
-    "distancia": [],
-    "photo": "https://m.media-amazon.com/images/I/61qwpkLkodL._AC_SY395_.jpg",
-    "affiliate_links": {
-      "amazon": {
-        "url": "https://www.netshoes.com.br/search?q=Creation%2026&utm_source=tenisideal&utm_medium=affiliate&utm_campaign=shoes&affid=4683922",
-        "price": 0
-      },
-      "oficial": {
-        "url": "https://tidd.ly/4bIoSY4",
-        "price": 0
-      }
-    },
-    "tags": [
-      "Amortecimento",
-      "Estabilidade",
-      "Conforto"
-    ],
-    "description": "Tecnologia Wave para absorção de impacto e estabilidade. Espuma AP+ na entressola para conforto duradouro em treinos longos e uso diário",
-    "reason": "Tecnologia Wave para absorção de impacto e estabilidade. Espuma AP+ na entressola para conforto duradouro em treinos longos e uso diário",
-    "price_minimo": 679.99,
-    "tem_variacao_tamanho_cor": true
-  },
-  {
-    "brand": "MIZUNO",
     "name": "Neo Zen",
     "slug": "mizuno-neo-zen-20fd",
     "sexo": [
@@ -1678,41 +1504,6 @@
     "tem_variacao_tamanho_cor": true
   },
   {
-    "brand": "MIZUNO",
-    "name": "Wave Daichi 9",
-    "slug": "mizuno-wave-daichi-9-c8bf",
-    "sexo": [
-      "feminino"
-    ],
-    "budget": "600a1000",
-    "price": 699.99,
-    "price_formatted": "R$ 699,99",
-    "levels": [],
-    "pisada": [],
-    "terreno": [],
-    "distancia": [],
-    "photo": "https://m.media-amazon.com/images/I/51dEdz7PxZL._AC_SY500_.jpg",
-    "affiliate_links": {
-      "amazon": {
-        "url": "https://www.netshoes.com.br/search?q=Wave%20Daichi%209&utm_source=tenisideal&utm_medium=affiliate&utm_campaign=shoes&affid=4683922",
-        "price": 0
-      },
-      "oficial": {
-        "url": "https://tidd.ly/4s4637n",
-        "price": 0
-      }
-    },
-    "tags": [
-      "Trilha",
-      "Vibram",
-      "Performance"
-    ],
-    "description": "Versão feminina do melhor tênis de trilha Mizuno. Solado Vibram Megagrip, Enerzy na entressola e proteção anti-rochas para conquistar qualquer terreno com confiança.",
-    "reason": "Versão feminina do melhor tênis de trilha Mizuno. Solado Vibram Megagrip, Enerzy na entressola e proteção anti-rochas para conquistar qualquer terreno com confiança.",
-    "price_minimo": 699.99,
-    "tem_variacao_tamanho_cor": true
-  },
-  {
     "brand": "NEW BALANCE",
     "name": "Fresh Foam X 1080 V14",
     "slug": "new-balance-fresh-foam-x-1080-v14-5491",
@@ -1803,38 +1594,6 @@
     "description": "Treino diário premium com a nova espuma Infinion — mais leve e responsiva que a Fresh Foam. Ideal para treinos longos e recuperação.",
     "reason": "Treino diário premium com a nova espuma Infinion — mais leve e responsiva que a Fresh Foam. Ideal para treinos longos e recuperação.",
     "price_minimo": 1299.0,
-    "tem_variacao_tamanho_cor": true
-  },
-  {
-    "brand": "NEW BALANCE",
-    "name": "1080 v15",
-    "slug": "new-balance-1080-v15-581a",
-    "sexo": [
-      "feminino"
-    ],
-    "budget": "acima1000",
-    "price": 1300.0,
-    "price_formatted": "R$ 1.300,00",
-    "levels": [],
-    "pisada": [],
-    "terreno": [],
-    "distancia": [],
-    "photo": "https://m.media-amazon.com/images/I/81wTUqT6pWL._AC_SX395_.jpg",
-    "affiliate_links": {
-      "amazon": {
-        "url": "https://amzn.to/4b8JVD5",
-        "price": 1300.0
-      }
-    },
-    "tags": [
-      "Amortecimento",
-      "Treino diário",
-      "Longa distância",
-      "Infinion foam"
-    ],
-    "description": "Treino diário premium com a nova espuma Infinion — mais leve e responsiva que a Fresh Foam. Ideal para treinos longos e recuperação.",
-    "reason": "Treino diário premium com a nova espuma Infinion — mais leve e responsiva que a Fresh Foam. Ideal para treinos longos e recuperação.",
-    "price_minimo": 1300.0,
     "tem_variacao_tamanho_cor": true
   },
   {
@@ -1934,74 +1693,11 @@
     "tem_variacao_tamanho_cor": true
   },
   {
-    "brand": "NEW BALANCE",
-    "name": "New Balance Rebel v5",
-    "slug": "new-balance-new-balance-rebel-v5-d65f",
-    "sexo": [
-      "masculino"
-    ],
-    "budget": "acima1000",
-    "price": 1099.87,
-    "price_formatted": "R$ 1.099,87",
-    "levels": [],
-    "pisada": [],
-    "terreno": [],
-    "distancia": [],
-    "photo": "https://m.media-amazon.com/images/I/61ZimMkH0OL._AC_SY500_.jpg",
-    "affiliate_links": {
-      "amazon": {
-        "url": "https://amzn.to/4s96D3T",
-        "price": 1099.87
-      }
-    },
-    "tags": [
-      "Leveza",
-      "Rápido",
-      "Nylon plate",
-      "Treino"
-    ],
-    "description": "Tênis leve com placa de nylon para treinos rápidos e provas curtas. Responsivo e versátil para quem busca velocidade no dia a dia.",
-    "reason": "Tênis leve com placa de nylon para treinos rápidos e provas curtas. Responsivo e versátil para quem busca velocidade no dia a dia.",
-    "price_minimo": 1099.87,
-    "tem_variacao_tamanho_cor": true
-  },
-  {
     "brand": "NIKE",
     "name": "Vomero Plus",
     "slug": "nike-vomero-plus-38b7",
     "sexo": [
       "masculino"
-    ],
-    "budget": "acima1000",
-    "price": 1234.99,
-    "price_formatted": "R$ 1.234,99",
-    "levels": [],
-    "pisada": [],
-    "terreno": [],
-    "distancia": [],
-    "photo": "https://m.media-amazon.com/images/G/32/gno/sprites/nav-sprite-global-1x-reorg-privacy._AC_SY500_.jpg",
-    "affiliate_links": {
-      "amazon": {
-        "url": "https://www.netshoes.com.br/search?q=Vomero%20Plus&utm_source=tenisideal&utm_medium=affiliate&utm_campaign=shoes&affid=4683922",
-        "price": 0
-      },
-      "oficial": {
-        "url": "https://tidd.ly/4lAM120",
-        "price": 0
-      }
-    },
-    "tags": [],
-    "description": "Máximo amortecimento Nike com espuma ZoomX. Para corredores que buscam leveza e proteção nas longas.",
-    "reason": "Máximo amortecimento Nike com espuma ZoomX. Para corredores que buscam leveza e proteção nas longas.",
-    "price_minimo": 1234.99,
-    "tem_variacao_tamanho_cor": true
-  },
-  {
-    "brand": "NIKE",
-    "name": "Vomero Plus",
-    "slug": "nike-vomero-plus-38b7",
-    "sexo": [
-      "feminino"
     ],
     "budget": "acima1000",
     "price": 1234.99,
@@ -2096,72 +1792,10 @@
   },
   {
     "brand": "NIKE",
-    "name": "Downshifter 13",
-    "slug": "nike-downshifter-13-9f96",
-    "sexo": [
-      "Feminino"
-    ],
-    "budget": "300a600",
-    "price": 360.99,
-    "price_formatted": "R$ 360,99",
-    "levels": [],
-    "pisada": [],
-    "terreno": [],
-    "distancia": [],
-    "photo": "https://m.media-amazon.com/images/I/710jZp-z7sL._AC_SY500_.jpg",
-    "affiliate_links": {
-      "amazon": {
-        "url": "https://www.netshoes.com.br/search?q=Downshifter%2013&utm_source=tenisideal&utm_medium=affiliate&utm_campaign=shoes&affid=4683922",
-        "price": 0
-      },
-      "oficial": {
-        "url": "https://tidd.ly/4sUwTj1",
-        "price": 0
-      }
-    },
-    "tags": [],
-    "description": "Tênis acessível e versátil da Nike. Ótimo para iniciantes que querem um calçado confiável para o dia a dia.",
-    "reason": "Tênis acessível e versátil da Nike. Ótimo para iniciantes que querem um calçado confiável para o dia a dia.",
-    "price_minimo": 360.99,
-    "tem_variacao_tamanho_cor": true
-  },
-  {
-    "brand": "NIKE",
     "name": "Revolution 8",
     "slug": "nike-revolution-8-3567",
     "sexo": [
       "Feminino"
-    ],
-    "budget": "300a600",
-    "price": 303.99,
-    "price_formatted": "R$ 303,99",
-    "levels": [],
-    "pisada": [],
-    "terreno": [],
-    "distancia": [],
-    "photo": "https://m.media-amazon.com/images/G/32/gno/sprites/nav-sprite-global-1x-reorg-privacy._AC_SY500_.jpg",
-    "affiliate_links": {
-      "amazon": {
-        "url": "https://www.netshoes.com.br/search?q=Revolution%208&utm_source=tenisideal&utm_medium=affiliate&utm_campaign=shoes&affid=4683922",
-        "price": 0
-      },
-      "oficial": {
-        "url": "https://tidd.ly/4tw1HXi",
-        "price": 0
-      }
-    },
-    "tags": [],
-    "description": "Entrada ideal no universo Nike. Leve, respirável e com bom amortecimento para treinos regulares.",
-    "reason": "Entrada ideal no universo Nike. Leve, respirável e com bom amortecimento para treinos regulares.",
-    "price_minimo": 303.99,
-    "tem_variacao_tamanho_cor": true
-  },
-  {
-    "brand": "NIKE",
-    "name": "Revolution 8",
-    "slug": "nike-revolution-8-3567",
-    "sexo": [
-      "masculino"
     ],
     "budget": "300a600",
     "price": 303.99,
@@ -2220,37 +1854,6 @@
   },
   {
     "brand": "NIKE",
-    "name": "Winflo 11",
-    "slug": "nike-winflo-11-faf1",
-    "sexo": [
-      "feminino"
-    ],
-    "budget": "300a600",
-    "price": 399.99,
-    "price_formatted": "R$ 399,99",
-    "levels": [],
-    "pisada": [],
-    "terreno": [],
-    "distancia": [],
-    "photo": "https://m.media-amazon.com/images/I/71PZ2x9ndbL._AC_SY500_.jpg",
-    "affiliate_links": {
-      "amazon": {
-        "url": "https://www.netshoes.com.br/search?q=Winflo%2011&utm_source=tenisideal&utm_medium=affiliate&utm_campaign=shoes&affid=4683922",
-        "price": 0
-      },
-      "oficial": {
-        "url": "https://tidd.ly/4dnmibo",
-        "price": 0
-      }
-    },
-    "tags": [],
-    "description": "Amortecimento React responsivo para treinos diários. Leve e estável com excelente retorno de energia.",
-    "reason": "Amortecimento React responsivo para treinos diários. Leve e estável com excelente retorno de energia.",
-    "price_minimo": 399.99,
-    "tem_variacao_tamanho_cor": true
-  },
-  {
-    "brand": "NIKE",
     "name": "Quest 5",
     "slug": "nike-quest-5-3868",
     "sexo": [
@@ -2282,37 +1885,6 @@
   },
   {
     "brand": "NIKE",
-    "name": "Quest 5",
-    "slug": "nike-quest-5-3868",
-    "sexo": [
-      "feminino"
-    ],
-    "budget": "300a600",
-    "price": 531.99,
-    "price_formatted": "R$ 531,99",
-    "levels": [],
-    "pisada": [],
-    "terreno": [],
-    "distancia": [],
-    "photo": "https://m.media-amazon.com/images/I/5159ub-QvHL._AC_SY395_.jpg",
-    "affiliate_links": {
-      "amazon": {
-        "url": "https://www.netshoes.com.br/search?q=Quest%205&utm_source=tenisideal&utm_medium=affiliate&utm_campaign=shoes&affid=4683922",
-        "price": 0
-      },
-      "oficial": {
-        "url": "https://tidd.ly/41MDsrO",
-        "price": 0
-      }
-    },
-    "tags": [],
-    "description": "Custo-benefício sólido da Nike. Entressola firme e solado durável para treinos frequentes.",
-    "reason": "Custo-benefício sólido da Nike. Entressola firme e solado durável para treinos frequentes.",
-    "price_minimo": 531.99,
-    "tem_variacao_tamanho_cor": true
-  },
-  {
-    "brand": "NIKE",
     "name": "Air Zoom Alphafly 3",
     "slug": "nike-air-zoom-alphafly-3-3ff6",
     "sexo": [
@@ -2340,37 +1912,6 @@
     "description": "Placa de carbono + ZoomX. O tênis de corrida mais rápido para maratonistas que buscam bater recordes.",
     "reason": "Placa de carbono + ZoomX. O tênis de corrida mais rápido para maratonistas que buscam bater recordes.",
     "price_minimo": 1781.24,
-    "tem_variacao_tamanho_cor": true
-  },
-  {
-    "brand": "NIKE",
-    "name": "Air Zoom Alphafly 3",
-    "slug": "nike-air-zoom-alphafly-3-3ff6",
-    "sexo": [
-      "feminino"
-    ],
-    "budget": "acima1000",
-    "price": 2064.16,
-    "price_formatted": "R$ 2.064,16",
-    "levels": [],
-    "pisada": [],
-    "terreno": [],
-    "distancia": [],
-    "photo": "https://m.media-amazon.com/images/G/32/gno/sprites/nav-sprite-global-1x-reorg-privacy._AC_SY500_.jpg",
-    "affiliate_links": {
-      "amazon": {
-        "url": "https://www.netshoes.com.br/search?q=Air%20Zoom%20Alphafly%203&utm_source=tenisideal&utm_medium=affiliate&utm_campaign=shoes&affid=4683922",
-        "price": 0
-      },
-      "oficial": {
-        "url": "https://tidd.ly/4bQ2XOS",
-        "price": 0
-      }
-    },
-    "tags": [],
-    "description": "Placa de carbono + ZoomX. O tênis de corrida mais rápido para maratonistas que buscam bater recordes.",
-    "reason": "Placa de carbono + ZoomX. O tênis de corrida mais rápido para maratonistas que buscam bater recordes.",
-    "price_minimo": 2064.16,
     "tem_variacao_tamanho_cor": true
   },
   {
@@ -2468,37 +2009,6 @@
   },
   {
     "brand": "NIKE",
-    "name": "Invincible 3",
-    "slug": "nike-invincible-3-1773",
-    "sexo": [
-      "feminino"
-    ],
-    "budget": "600a1000",
-    "price": 934.35,
-    "price_formatted": "R$ 934,35",
-    "levels": [],
-    "pisada": [],
-    "terreno": [],
-    "distancia": [],
-    "photo": "https://m.media-amazon.com/images/G/32/gno/sprites/nav-sprite-global-1x-reorg-privacy._AC_SY500_.jpg",
-    "affiliate_links": {
-      "amazon": {
-        "url": "https://www.netshoes.com.br/search?q=Invincible%203&utm_source=tenisideal&utm_medium=affiliate&utm_campaign=shoes&affid=4683922",
-        "price": 0
-      },
-      "oficial": {
-        "url": "https://tidd.ly/4txL7WZ",
-        "price": 0
-      }
-    },
-    "tags": [],
-    "description": "Máximo amortecimento ZoomX para recuperação ativa. Passada ultra macia para treinos de volume alto.",
-    "reason": "Máximo amortecimento ZoomX para recuperação ativa. Passada ultra macia para treinos de volume alto.",
-    "price_minimo": 934.35,
-    "tem_variacao_tamanho_cor": true
-  },
-  {
-    "brand": "NIKE",
     "name": "Vomero 18",
     "slug": "nike-vomero-18-f1ae",
     "sexo": [
@@ -2512,37 +2022,6 @@
     "terreno": [],
     "distancia": [],
     "photo": "https://m.media-amazon.com/images/G/32/gno/sprites/nav-sprite-global-1x-reorg-privacy._AC_SY500_.jpg",
-    "affiliate_links": {
-      "amazon": {
-        "url": "https://www.netshoes.com.br/search?q=Vomero%2018&utm_source=tenisideal&utm_medium=affiliate&utm_campaign=shoes&affid=4683922",
-        "price": 0
-      },
-      "oficial": {
-        "url": "https://tidd.ly/3NYKhn2",
-        "price": 0
-      }
-    },
-    "tags": [],
-    "description": "Amortecimento premium ZoomX com fit personalizado. Para quem quer conforto máximo sem abrir mão da leveza.",
-    "reason": "Amortecimento premium ZoomX com fit personalizado. Para quem quer conforto máximo sem abrir mão da leveza.",
-    "price_minimo": 949.99,
-    "tem_variacao_tamanho_cor": true
-  },
-  {
-    "brand": "NIKE",
-    "name": "Vomero 18",
-    "slug": "nike-vomero-18-f1ae",
-    "sexo": [
-      "feminino"
-    ],
-    "budget": "600a1000",
-    "price": 949.99,
-    "price_formatted": "R$ 949,99",
-    "levels": [],
-    "pisada": [],
-    "terreno": [],
-    "distancia": [],
-    "photo": "https://m.media-amazon.com/images/I/81c-2ZO2FJL._AC_SX395_.jpg",
     "affiliate_links": {
       "amazon": {
         "url": "https://www.netshoes.com.br/search?q=Vomero%2018&utm_source=tenisideal&utm_medium=affiliate&utm_campaign=shoes&affid=4683922",
@@ -2592,37 +2071,6 @@
   },
   {
     "brand": "NIKE",
-    "name": "Pegasus Trail 5",
-    "slug": "nike-pegasus-trail-5-9a0b",
-    "sexo": [
-      "masculino"
-    ],
-    "budget": "acima1000",
-    "price": 1139.99,
-    "price_formatted": "R$ 1.139,99",
-    "levels": [],
-    "pisada": [],
-    "terreno": [],
-    "distancia": [],
-    "photo": "https://m.media-amazon.com/images/I/81ofEa-LJ7L._AC_SY500_.jpg",
-    "affiliate_links": {
-      "amazon": {
-        "url": "https://www.netshoes.com.br/search?q=Pegasus%20Trail%205&utm_source=tenisideal&utm_medium=affiliate&utm_campaign=shoes&affid=4683922",
-        "price": 0
-      },
-      "oficial": {
-        "url": "https://tidd.ly/3NICxFF",
-        "price": 0
-      }
-    },
-    "tags": [],
-    "description": "Grip Traxion para trilhas com amortecimento React X. Para quem quer performance fora do asfalto.",
-    "reason": "Grip Traxion para trilhas com amortecimento React X. Para quem quer performance fora do asfalto.",
-    "price_minimo": 1139.99,
-    "tem_variacao_tamanho_cor": true
-  },
-  {
-    "brand": "NIKE",
     "name": "Pegasus 41",
     "slug": "nike-pegasus-41-f156",
     "sexo": [
@@ -2650,37 +2098,6 @@
     "description": "O clássico mais versátil da Nike. React X responsivo para qualquer distância e ritmo.",
     "reason": "O clássico mais versátil da Nike. React X responsivo para qualquer distância e ritmo.",
     "price_minimo": 664.99,
-    "tem_variacao_tamanho_cor": true
-  },
-  {
-    "brand": "NIKE",
-    "name": "Pegasus 41",
-    "slug": "nike-pegasus-41-f156",
-    "sexo": [
-      "feminino"
-    ],
-    "budget": "600a1000",
-    "price": 759.99,
-    "price_formatted": "R$ 759,99",
-    "levels": [],
-    "pisada": [],
-    "terreno": [],
-    "distancia": [],
-    "photo": "https://m.media-amazon.com/images/I/71N-48xCjSL._AC_SY500_.jpg",
-    "affiliate_links": {
-      "amazon": {
-        "url": "https://www.netshoes.com.br/search?q=Pegasus%2041&utm_source=tenisideal&utm_medium=affiliate&utm_campaign=shoes&affid=4683922",
-        "price": 0
-      },
-      "oficial": {
-        "url": "https://tidd.ly/4c7v8YD",
-        "price": 0
-      }
-    },
-    "tags": [],
-    "description": "O clássico mais versátil da Nike. React X responsivo para qualquer distância e ritmo.",
-    "reason": "O clássico mais versátil da Nike. React X responsivo para qualquer distância e ritmo.",
-    "price_minimo": 759.99,
     "tem_variacao_tamanho_cor": true
   },
   {
@@ -3311,38 +2728,6 @@
     "description": "Um dos melhores tênis de trilha para todos os níveis. Tração confiável em terra e pedras com boa proteção de amortecimento.",
     "reason": "Um dos melhores tênis de trilha para todos os níveis. Tração confiável em terra e pedras com boa proteção de amortecimento.",
     "price_minimo": 895.66,
-    "tem_variacao_tamanho_cor": true
-  },
-  {
-    "brand": "SAUCONY",
-    "name": "Saucony Peregrine 15",
-    "slug": "saucony-saucony-peregrine-15-7f81",
-    "sexo": [
-      "feminino"
-    ],
-    "budget": "600a1000",
-    "price": 919.78,
-    "price_formatted": "R$ 919,78",
-    "levels": [],
-    "pisada": [],
-    "terreno": [],
-    "distancia": [],
-    "photo": "https://m.media-amazon.com/images/I/71il-oCGRXL._AC_SY395_.jpg",
-    "affiliate_links": {
-      "amazon": {
-        "url": "https://amzn.to/47LagEW",
-        "price": 919.78
-      }
-    },
-    "tags": [
-      "Trail",
-      "Versátil",
-      "Tração",
-      "Intermediário"
-    ],
-    "description": "Um dos melhores tênis de trilha para todos os níveis. Tração confiável em terra e pedras com boa proteção de amortecimento.",
-    "reason": "Um dos melhores tênis de trilha para todos os níveis. Tração confiável em terra e pedras com boa proteção de amortecimento.",
-    "price_minimo": 919.78,
     "tem_variacao_tamanho_cor": true
   },
   {

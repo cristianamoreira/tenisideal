@@ -3026,8 +3026,19 @@
         return pa - pb;
       });
 
-      // retorna até 3 resultados
-      return sc.slice(0, 3).map(function (x) { return { sh: x.sh, score: x.s }; });
+      // Filtrar duplicatas (mesmo product_id ou mesmo brand+name) e retornar 3 produtos únicos
+      var seen = {};
+      var result = [];
+      for (var i = 0; i < sc.length && result.length < 3; i++) {
+        var sh = sc[i].sh;
+        var key = (sh.brand || '') + '|' + (sh.name || '');
+        if (!seen[key]) {
+          seen[key] = true;
+          result.push({ sh: sh, score: sc[i].s });
+        }
+      }
+
+      return result;
     }
 
     function showScreen(id) {
