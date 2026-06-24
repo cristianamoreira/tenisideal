@@ -2981,6 +2981,38 @@
         }
       }
 
+      // FALLBACK: Se não conseguiu 3 produtos, buscar mais amplo (sem filtro de nível)
+      if (result.length < 3) {
+        pool = SHOES.filter(function (sh) {
+          var raw = Array.isArray(sh.sexo) ? sh.sexo : [sh.sexo || ''];
+          var vals = raw.map(function (v) { return (v || '').toLowerCase().replace(/\r/g, '').trim(); });
+          return vals.indexOf(sexo) > -1 || vals.indexOf('unissex') > -1;
+        });
+
+        var poolOrc2 = pool.filter(function (sh) {
+          return sh.budget === bo[bi];
+        });
+
+        if (poolOrc2.length > 0) pool = poolOrc2;
+
+        var sc2 = pool.map(function (sh) { return { sh: sh, s: Math.random() }; });
+        sc2.sort(function (a, b) {
+          var pa = calcShoePrice(a.sh) || Infinity;
+          var pb = calcShoePrice(b.sh) || Infinity;
+          return pa - pb;
+        });
+
+        var seen2 = {};
+        for (var i = 0; i < sc2.length && result.length < 3; i++) {
+          var sh = sc2[i].sh;
+          var key = (sh.brand || '') + '|' + (sh.name || '');
+          if (!seen2[key]) {
+            seen2[key] = true;
+            result.push({ sh: sh, score: Math.random() });
+          }
+        }
+      }
+
       return result;
     }
 
