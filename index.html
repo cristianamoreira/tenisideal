@@ -3656,9 +3656,11 @@
             if (offerAmazon) { storeLink = offerAmazon.url; hasAmazon = true; }
             else { storeLink = bestShoe.offers[0].url; }
           } else { storeLink = bestShoe.link || bestShoe.affiliate_links?.amazon || ''; }
+          // Sticky CTA removido - interface limpa sem banners fixos
           if (storeLink) {
-            //             var stickyHtml = '<div id="stickyCta" style="position:fixed;bottom:0;left:0;right:0;background:#1a1a1a;padding:12px 16px 24px;z-index:9999;box-shadow:0 -4px 15px rgba(0,0,0,0.6);border-top:1px solid #2a2a2a;text-align:center;"><div style="color:#ff3b30;font-size:12px;font-weight:800;margin-bottom:8px;text-transform:uppercase;">⚠️ Últimas unidades em estoque</div><a href="' + storeLink + '" target="_blank" onclick="try{gtag_report_conversion(\'' + storeLink + '\')}catch(e){}" class="bbuy ' + (hasAmazon ? 'bbuy-amazon' : '') + '" style="font-size:18px;padding:14px;display:block;font-weight:bold;margin:0 auto;max-width:100%;text-decoration:none;">' + (hasAmazon ? 'VER NA AMAZON' : 'VER NA LOJA') + ' →</a></div>';
-            document.body.insertAdjacentHTML('beforeend', stickyHtml);
+            // Banner sticky desabilitado para melhor UX mobile
+            // var stickyHtml = '...';
+            // document.body.insertAdjacentHTML('beforeend', stickyHtml);
           }
         }
         // Meta Pixel: resultado do quiz visualizado
