@@ -248,29 +248,8 @@
       };
     }
 
-    // PASSO 2: Motivação entre perguntas
-    const motivations = [
-      { emoji: '🎉', text: 'Ótimo começo!', sub: 'Vamos lá!' },
-      { emoji: '⚡', text: 'Tá ficando bom!', sub: 'Já tá quase lá' },
-      { emoji: '🔥', text: 'Você tá indo bem!', sub: 'Mais um pouco' },
-      { emoji: '💪', text: 'Falta pouco!', sub: 'Último esforço' },
-      { emoji: '🎯', text: 'Quase pronto!', sub: 'Uma última pergunta' }
-    ];
-
-    function showQuizMotivation(step) {
-      const motiv = motivations[step] || motivations[0];
-      const div = document.createElement('div');
-      div.className = 'quiz-motivation show';
-      div.innerHTML = `
-        <div class="quiz-motivation-text">${motiv.emoji} ${motiv.text}</div>
-        <div class="quiz-motivation-sub">${motiv.sub}</div>
-      `;
-      const qwrap = document.querySelector('.qwrap');
-      if (qwrap && qwrap.firstChild) {
-        qwrap.insertBefore(div, qwrap.firstChild);
-      }
-      setTimeout(() => div.remove(), 2000);
-    }
+    // PASSO 2: Motivação entre perguntas (DESABILITADO - estava atrapalhando a navegação)
+    // Removido: Barras de motivação que empurravam a tela para baixo
 
     // Confetti animation quando completa o quiz
     function createConfetti() {
@@ -766,32 +745,7 @@
     }
 
     /* PASSO 2: Motivação e Celebração */
-    .quiz-motivation {
-      display: none;
-      text-align: center;
-      padding: 24px;
-      background: rgba(200, 255, 0, 0.1);
-      border: 1px solid rgba(200, 255, 0, 0.3);
-      border-radius: 12px;
-      margin-bottom: 24px;
-      animation: slideIn 0.5s ease;
-    }
-
-    .quiz-motivation.show {
-      display: block;
-    }
-
-    .quiz-motivation-text {
-      font-size: 18px;
-      font-weight: 700;
-      color: var(--yellow);
-      margin-bottom: 8px;
-    }
-
-    .quiz-motivation-sub {
-      font-size: 13px;
-      color: var(--gray);
-    }
+    /* .quiz-motivation CSS removido - barras de motivação desabilitadas */
 
     @keyframes slideIn {
       from { opacity: 0; transform: translateY(-10px); }
@@ -3116,7 +3070,7 @@
     document.getElementById('btnNext').addEventListener('click', function () {
       if (!ans[Qs[cur].id]) return;
       if (cur < Qs.length - 1) {
-        showQuizMotivation(cur); // Mostrar motivação PASSO 2
+        // showQuizMotivation(cur); // DESABILITADO - estava atrapalhando a navegação
         cur++;
         renderQ();
       } else {
