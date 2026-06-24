@@ -1,4 +1,4 @@
-// Sincronizado de Google Sheets - Planilha Correta
+// Sincronizado de Google Sheets - Preços Corrigidos
 var SHOES = [
   {
     "brand": "ADIDAS",
@@ -8,7 +8,7 @@ var SHOES = [
       "masculino"
     ],
     "budget": "",
-    "price": 1562.03,
+    "price": 1999.99,
     "levels": [],
     "pisada": [],
     "terreno": [],
@@ -41,7 +41,7 @@ var SHOES = [
       "masculino"
     ],
     "budget": "",
-    "price": 0,
+    "price": 1399.99,
     "levels": [],
     "pisada": [],
     "terreno": [],
@@ -107,7 +107,7 @@ var SHOES = [
       "masculino"
     ],
     "budget": "",
-    "price": 945.11,
+    "price": 1099.99,
     "levels": [],
     "pisada": [],
     "terreno": [],
@@ -141,7 +141,7 @@ var SHOES = [
       "masculino"
     ],
     "budget": "",
-    "price": 0,
+    "price": 1199.99,
     "levels": [],
     "pisada": [],
     "terreno": [],
@@ -171,7 +171,7 @@ var SHOES = [
       "feminino"
     ],
     "budget": "",
-    "price": 0,
+    "price": 1099.99,
     "levels": [],
     "pisada": [],
     "terreno": [],
@@ -239,7 +239,7 @@ var SHOES = [
       "feminino"
     ],
     "budget": "",
-    "price": 0,
+    "price": 1199.99,
     "levels": [],
     "pisada": [],
     "terreno": [],
@@ -431,7 +431,7 @@ var SHOES = [
       "feminino"
     ],
     "budget": "",
-    "price": 0,
+    "price": 1796.17,
     "levels": [],
     "pisada": [],
     "terreno": [],
@@ -573,7 +573,7 @@ var SHOES = [
       "feminino"
     ],
     "budget": "",
-    "price": 0,
+    "price": 1718.19,
     "levels": [],
     "pisada": [],
     "terreno": [],
@@ -686,7 +686,7 @@ var SHOES = [
       "feminino"
     ],
     "budget": "",
-    "price": 0,
+    "price": 1326.63,
     "levels": [],
     "pisada": [],
     "terreno": [],
@@ -896,7 +896,7 @@ var SHOES = [
       "feminino"
     ],
     "budget": "",
-    "price": 0,
+    "price": 1299.99,
     "levels": [],
     "pisada": [],
     "terreno": [],
@@ -1107,7 +1107,7 @@ var SHOES = [
       "masculino"
     ],
     "budget": "",
-    "price": 0,
+    "price": 1199.99,
     "levels": [],
     "pisada": [],
     "terreno": [],
@@ -1276,7 +1276,7 @@ var SHOES = [
       "unissex"
     ],
     "budget": "",
-    "price": 0,
+    "price": 1402.88,
     "levels": [],
     "pisada": [],
     "terreno": [],
@@ -1378,7 +1378,7 @@ var SHOES = [
       "unissex"
     ],
     "budget": "",
-    "price": 0,
+    "price": 1299.99,
     "levels": [],
     "pisada": [],
     "terreno": [],
@@ -1661,7 +1661,7 @@ var SHOES = [
       "masculino"
     ],
     "budget": "",
-    "price": 0,
+    "price": 1281.86,
     "levels": [],
     "pisada": [],
     "terreno": [],
@@ -1721,7 +1721,7 @@ var SHOES = [
       "masculino"
     ],
     "budget": "",
-    "price": 0,
+    "price": 1099.87,
     "levels": [],
     "pisada": [],
     "terreno": [],
@@ -1751,7 +1751,7 @@ var SHOES = [
       "masculino"
     ],
     "budget": "",
-    "price": 0,
+    "price": 1234.99,
     "levels": [],
     "pisada": [],
     "terreno": [],
@@ -1781,7 +1781,7 @@ var SHOES = [
       "feminino"
     ],
     "budget": "",
-    "price": 0,
+    "price": 1234.99,
     "levels": [],
     "pisada": [],
     "terreno": [],
@@ -2081,7 +2081,7 @@ var SHOES = [
       "masculino"
     ],
     "budget": "",
-    "price": 0,
+    "price": 1781.24,
     "levels": [],
     "pisada": [],
     "terreno": [],
@@ -2111,7 +2111,7 @@ var SHOES = [
       "feminino"
     ],
     "budget": "",
-    "price": 0,
+    "price": 2184.99,
     "levels": [],
     "pisada": [],
     "terreno": [],
@@ -2141,7 +2141,7 @@ var SHOES = [
       "feminino"
     ],
     "budget": "",
-    "price": 0,
+    "price": 1424.99,
     "levels": [],
     "pisada": [],
     "terreno": [],
@@ -2201,7 +2201,7 @@ var SHOES = [
       "masculino"
     ],
     "budget": "",
-    "price": 0,
+    "price": 1424.99,
     "levels": [],
     "pisada": [],
     "terreno": [],
@@ -2231,7 +2231,7 @@ var SHOES = [
       "feminino"
     ],
     "budget": "",
-    "price": 934.35,
+    "price": 1424.99,
     "levels": [],
     "pisada": [],
     "terreno": [],
@@ -2351,7 +2351,7 @@ var SHOES = [
       "masculino"
     ],
     "budget": "",
-    "price": 0,
+    "price": 1139.99,
     "levels": [],
     "pisada": [],
     "terreno": [],
@@ -2948,7 +2948,7 @@ var SHOES = [
       "masculino"
     ],
     "budget": "",
-    "price": 0,
+    "price": 1799.26,
     "levels": [],
     "pisada": [],
     "terreno": [],
@@ -2978,7 +2978,7 @@ var SHOES = [
       "masculino"
     ],
     "budget": "",
-    "price": 0,
+    "price": 1585.65,
     "levels": [],
     "pisada": [],
     "terreno": [],
@@ -3068,7 +3068,7 @@ var SHOES = [
       "feminino"
     ],
     "budget": "",
-    "price": 0,
+    "price": 1120.02,
     "levels": [],
     "pisada": [],
     "terreno": [],
