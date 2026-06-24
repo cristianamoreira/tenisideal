@@ -14,7 +14,7 @@ var SHOES = [
     "pisada": [],
     "terreno": [],
     "distancia": [],
-    "photo": "https://m.media-amazon.com/images/I/612KZekuqML._AC_SY500_.jpg",
+    "photo": "https://m.media-amazon.com/images/G/32/gno/sprites/nav-sprite-global-1x-reorg-privacy._AC_SY500_.jpg",
     "affiliate_links": {
       "amazon": {
         "url": "https://amzn.to/4l8FKKD",
@@ -46,7 +46,7 @@ var SHOES = [
     "pisada": [],
     "terreno": [],
     "distancia": [],
-    "photo": "https://m.media-amazon.com/images/I/51yLvMtXjYL._AC_SY500_.jpg",
+    "photo": "https://via.placeholder.com/300x300/1a1a1a/c8ff00?text=Adizero%20Boston%2013",
     "affiliate_links": {
       "amazon": {
         "url": "https://amzn.to/3NEjLPv",
@@ -78,7 +78,7 @@ var SHOES = [
     "pisada": [],
     "terreno": [],
     "distancia": [],
-    "photo": "https://m.media-amazon.com/images/I/51yBZPU0PtL._AC_SY500_.jpg",
+    "photo": "https://m.media-amazon.com/images/G/32/gno/sprites/nav-sprite-global-1x-reorg-privacy._AC_SY500_.jpg",
     "affiliate_links": {
       "amazon": {
         "url": "https://amzn.to/4b7FF5t",
@@ -110,7 +110,7 @@ var SHOES = [
     "pisada": [],
     "terreno": [],
     "distancia": [],
-    "photo": "https://m.media-amazon.com/images/I/412-RoXwVDL._AC_SY675_.jpg",
+    "photo": "https://via.placeholder.com/300x300/1a1a1a/c8ff00?text=Ultraboost%205",
     "affiliate_links": {
       "amazon": {
         "url": "https://amzn.to/4cKN7pN",
@@ -143,7 +143,7 @@ var SHOES = [
     "pisada": [],
     "terreno": [],
     "distancia": [],
-    "photo": "https://m.media-amazon.com/images/I/61wvkUfpJxL._AC_SY500_.jpg",
+    "photo": "https://via.placeholder.com/300x300/1a1a1a/c8ff00?text=Terrex%20Agravic%20Speed%202",
     "affiliate_links": {
       "amazon": {
         "url": "https://amzn.to/4bthoHb",
@@ -172,7 +172,7 @@ var SHOES = [
     "pisada": [],
     "terreno": [],
     "distancia": [],
-    "photo": "https://m.media-amazon.com/images/I/416hAw4kf6L._AC_SY500_.jpg",
+    "photo": "https://m.media-amazon.com/images/G/32/gno/sprites/nav-sprite-global-1x-reorg-privacy._AC_SY500_.jpg",
     "affiliate_links": {
       "amazon": {
         "url": "https://amzn.to/4sOTugy",
@@ -205,7 +205,7 @@ var SHOES = [
     "pisada": [],
     "terreno": [],
     "distancia": [],
-    "photo": "https://m.media-amazon.com/images/I/61ewML3UceL._AC_SY675_.jpg",
+    "photo": "https://m.media-amazon.com/images/G/32/gno/sprites/nav-sprite-global-1x-reorg-privacy._AC_SY500_.jpg",
     "affiliate_links": {
       "amazon": {
         "url": "https://amzn.to/4b7TOAW",
@@ -238,7 +238,7 @@ var SHOES = [
     "pisada": [],
     "terreno": [],
     "distancia": [],
-    "photo": "https://m.media-amazon.com/images/I/510EloSk7eL._AC_SY625_.jpg",
+    "photo": "https://via.placeholder.com/300x300/1a1a1a/c8ff00?text=Ultraboost%2022",
     "affiliate_links": {
       "amazon": {
         "url": "https://amzn.to/4un9Bn2",
@@ -278,7 +278,7 @@ var SHOES = [
       "asfalto"
     ],
     "distancia": [],
-    "photo": "https://m.media-amazon.com/images/I/61nVPmZFSoL._AC_SY500_.jpg",
+    "photo": "https://via.placeholder.com/300x300/1a1a1a/c8ff00?text=Superblast%202",
     "affiliate_links": {
       "amazon": {
         "url": "https://amzn.to/4d7EIN1",
@@ -311,7 +311,7 @@ var SHOES = [
     "pisada": [],
     "terreno": [],
     "distancia": [],
-    "photo": "https://images-na.ssl-images-amazon.com/images/I/71Y43mJ5zeL.jpg",
+    "photo": "https://m.media-amazon.com/images/G/32/gno/sprites/nav-sprite-global-1x-reorg-privacy._AC_SY500_.jpg",
     "affiliate_links": {
       "amazon": {
         "url": "https://amzn.to/477x4ys",
@@ -343,7 +343,7 @@ var SHOES = [
     "pisada": [],
     "terreno": [],
     "distancia": [],
-    "photo": "https://images-na.ssl-images-amazon.com/images/I/61lZORb7jLL.jpg",
+    "photo": "https://via.placeholder.com/300x300/1a1a1a/c8ff00?text=Gel-Kayano%2031",
     "affiliate_links": {
       "amazon": {
         "url": "https://amzn.to/4b8n1uk",
@@ -371,7 +371,7 @@ var SHOES = [
     "pisada": [],
     "terreno": [],
     "distancia": [],
-    "photo": "https://m.media-amazon.com/images/I/61BJEFWbbnL._AC_SY500_.jpg",
+    "photo": "https://via.placeholder.com/300x300/1a1a1a/c8ff00?text=Gel-Kayano%2031%20Matcha",
     "affiliate_links": {
       "amazon": {
         "url": "https://amzn.to/3OFw26D",
@@ -399,7 +399,7 @@ var SHOES = [
     "pisada": [],
     "terreno": [],
     "distancia": [],
-    "photo": "https://images-na.ssl-images-amazon.com/images/I/61EYOnNOMbL.jpg",
+    "photo": "https://via.placeholder.com/300x300/1a1a1a/c8ff00?text=Gel-Nimbus%2026",
     "affiliate_links": {
       "amazon": {
         "url": "https://amzn.to/3OP4Dzd",
@@ -427,7 +427,7 @@ var SHOES = [
     "pisada": [],
     "terreno": [],
     "distancia": [],
-    "photo": "https://m.media-amazon.com/images/I/61aPga42FKL._AC_SY500_.jpg",
+    "photo": "https://via.placeholder.com/300x300/1a1a1a/c8ff00?text=Gel-Nimbus%2026",
     "affiliate_links": {
       "amazon": {
         "url": "https://amzn.to/4ugSqmP",
@@ -455,7 +455,7 @@ var SHOES = [
     "pisada": [],
     "terreno": [],
     "distancia": [],
-    "photo": "https://images-na.ssl-images-amazon.com/images/I/61wuJhpSxgL.jpg",
+    "photo": "https://via.placeholder.com/300x300/1a1a1a/c8ff00?text=Gel-Trabuco%2012",
     "affiliate_links": {
       "amazon": {
         "url": "https://amzn.to/3NhE4Cb",
@@ -483,7 +483,7 @@ var SHOES = [
     "pisada": [],
     "terreno": [],
     "distancia": [],
-    "photo": "https://m.media-amazon.com/images/I/511jmvCr1BL._AC_SY500_.jpg",
+    "photo": "https://via.placeholder.com/300x300/1a1a1a/c8ff00?text=Gel-Pulse%2015%20SE",
     "affiliate_links": {
       "amazon": {
         "url": "https://amzn.to/4rT89qU",
@@ -512,7 +512,7 @@ var SHOES = [
     "pisada": [],
     "terreno": [],
     "distancia": [],
-    "photo": "https://m.media-amazon.com/images/I/617GtsqxJmL._AC_SY625_.jpg",
+    "photo": "https://via.placeholder.com/300x300/1a1a1a/c8ff00?text=Gel-Venture%2010",
     "affiliate_links": {
       "amazon": {
         "url": "https://amzn.to/4rSbMx8",
@@ -541,7 +541,7 @@ var SHOES = [
     "pisada": [],
     "terreno": [],
     "distancia": [],
-    "photo": "https://m.media-amazon.com/images/I/51fjXmKBuTL._AC_SX522_.jpg",
+    "photo": "https://via.placeholder.com/300x300/1a1a1a/c8ff00?text=Gel-Shinobi%202",
     "affiliate_links": {
       "amazon": {
         "url": "https://amzn.to/4da3rAm",
@@ -569,7 +569,7 @@ var SHOES = [
     "pisada": [],
     "terreno": [],
     "distancia": [],
-    "photo": "https://m.media-amazon.com/images/I/61fz1ft0bDL._AC_SY500_.jpg",
+    "photo": "https://via.placeholder.com/300x300/1a1a1a/c8ff00?text=Gel-Kayano%2032",
     "affiliate_links": {
       "amazon": {
         "url": "https://amzn.to/4uizqob",
@@ -598,7 +598,7 @@ var SHOES = [
     "pisada": [],
     "terreno": [],
     "distancia": [],
-    "photo": "https://images-na.ssl-images-amazon.com/images/I/71EJN-HyMWL.jpg",
+    "photo": "https://via.placeholder.com/300x300/1a1a1a/c8ff00?text=Adrenaline%20GTS%2024%20Supportive",
     "affiliate_links": {
       "amazon": {
         "url": "https://amzn.to/4u7e6Sr",
@@ -626,7 +626,7 @@ var SHOES = [
     "pisada": [],
     "terreno": [],
     "distancia": [],
-    "photo": "https://m.media-amazon.com/images/I/71JfCH+M+jL._AC_SY500_.jpg",
+    "photo": "https://m.media-amazon.com/images/G/32/gno/sprites/nav-sprite-global-1x-reorg-privacy._AC_SY500_.jpg",
     "affiliate_links": {
       "amazon": {
         "url": "https://amzn.to/4sgDgwi",
@@ -654,7 +654,7 @@ var SHOES = [
     "pisada": [],
     "terreno": [],
     "distancia": [],
-    "photo": "https://images-na.ssl-images-amazon.com/images/I/81Kt56apbuL.jpg",
+    "photo": "https://via.placeholder.com/300x300/1a1a1a/c8ff00?text=Ghost%2016",
     "affiliate_links": {
       "amazon": {
         "url": "https://amzn.to/4aYytsk",
@@ -682,7 +682,7 @@ var SHOES = [
     "pisada": [],
     "terreno": [],
     "distancia": [],
-    "photo": "https://m.media-amazon.com/images/I/81FrDKqWbIL._AC_SY500_.jpg",
+    "photo": "https://via.placeholder.com/300x300/1a1a1a/c8ff00?text=Ghost%2014%20Neutral",
     "affiliate_links": {
       "amazon": {
         "url": "https://amzn.to/4srKmhs",
@@ -717,7 +717,7 @@ var SHOES = [
       "asfalto"
     ],
     "distancia": [],
-    "photo": "https://static.netshoes.com.br/produtos/tenis-fila-speed-lite-masculino/38/SFK-06IV-038/SFK-06IV-038_detalhe1.jpg?ts=1781150133",
+    "photo": "https://via.placeholder.com/300x300/1a1a1a/c8ff00?text=Fila%20Speed%20Lite%20",
     "affiliate_links": {
       "amazon": {
         "url": "https://amzn.to/4vE6pTK",
@@ -749,7 +749,7 @@ var SHOES = [
     "pisada": [],
     "terreno": [],
     "distancia": [],
-    "photo": "https://m.media-amazon.com/images/I/51DEAqmvGdL._AC_SY625_.jpg",
+    "photo": "https://m.media-amazon.com/images/G/32/gno/sprites/nav-sprite-global-1x-reorg-privacy._AC_SY500_.jpg",
     "affiliate_links": {
       "amazon": {
         "url": "https://amzn.to/4aZSxMh",
@@ -777,7 +777,7 @@ var SHOES = [
     "pisada": [],
     "terreno": [],
     "distancia": [],
-    "photo": "https://m.media-amazon.com/images/I/517Z6pntJHL._AC_SY625_.jpg",
+    "photo": "https://m.media-amazon.com/images/G/32/gno/sprites/nav-sprite-global-1x-reorg-privacy._AC_SY500_.jpg",
     "affiliate_links": {
       "amazon": {
         "url": "https://amzn.to/40WKcTq",
@@ -805,7 +805,7 @@ var SHOES = [
     "pisada": [],
     "terreno": [],
     "distancia": [],
-    "photo": "https://m.media-amazon.com/images/I/61rKjTIK4SL._AC_SY625_.jpg",
+    "photo": "https://m.media-amazon.com/images/G/32/gno/sprites/nav-sprite-global-1x-reorg-privacy._AC_SY500_.jpg",
     "affiliate_links": {
       "amazon": {
         "url": "https://amzn.to/4aXF5sb",
@@ -833,7 +833,7 @@ var SHOES = [
     "pisada": [],
     "terreno": [],
     "distancia": [],
-    "photo": "https://m.media-amazon.com/images/I/51Y79XZ2xcL._AC_SY500_.jpg",
+    "photo": "https://m.media-amazon.com/images/G/32/gno/sprites/nav-sprite-global-1x-reorg-privacy._AC_SY500_.jpg",
     "affiliate_links": {
       "amazon": {
         "url": "https://amzn.to/4s0yCmo",
@@ -861,7 +861,7 @@ var SHOES = [
     "pisada": [],
     "terreno": [],
     "distancia": [],
-    "photo": "https://m.media-amazon.com/images/I/610N9clHcfL._AC_SY695_.jpg",
+    "photo": "https://via.placeholder.com/300x300/1a1a1a/c8ff00?text=Hoka%20Clifton%2010",
     "affiliate_links": {
       "amazon": {
         "url": "https://amzn.to/3Ny1lzU",
@@ -891,7 +891,7 @@ var SHOES = [
     "pisada": [],
     "terreno": [],
     "distancia": [],
-    "photo": "https://m.media-amazon.com/images/I/51bXQrff2ZL._AC_SY500_.jpg",
+    "photo": "https://via.placeholder.com/300x300/1a1a1a/c8ff00?text=Hoka%20Clifton%2010",
     "affiliate_links": {
       "amazon": {
         "url": "https://amzn.to/4sErZWD",
@@ -921,7 +921,7 @@ var SHOES = [
     "pisada": [],
     "terreno": [],
     "distancia": [],
-    "photo": "https://m.media-amazon.com/images/I/61FlAJi0tsL._AC_SY500_.jpg",
+    "photo": "https://via.placeholder.com/300x300/1a1a1a/c8ff00?text=Hoka%20Rocket%20X%203",
     "affiliate_links": {
       "amazon": {
         "url": "https://amzn.to/46WrNd3",
@@ -951,7 +951,7 @@ var SHOES = [
     "pisada": [],
     "terreno": [],
     "distancia": [],
-    "photo": "https://images-na.ssl-images-amazon.com/images/I/61Gkm+6EdqL.jpg",
+    "photo": "https://via.placeholder.com/300x300/1a1a1a/c8ff00?text=Clifton%209",
     "affiliate_links": {
       "amazon": {
         "url": "https://amzn.to/4u9y3YW",
@@ -979,7 +979,7 @@ var SHOES = [
     "pisada": [],
     "terreno": [],
     "distancia": [],
-    "photo": "https://m.media-amazon.com/images/I/61IG0fi5z+L._AC_SY500_.jpg",
+    "photo": "https://via.placeholder.com/300x300/1a1a1a/c8ff00?text=Clifton%209",
     "affiliate_links": {
       "amazon": {
         "url": "https://amzn.to/4ssofHW",
@@ -1007,7 +1007,7 @@ var SHOES = [
     "pisada": [],
     "terreno": [],
     "distancia": [],
-    "photo": "https://images-na.ssl-images-amazon.com/images/I/71pT4bBn39L.jpg",
+    "photo": "https://m.media-amazon.com/images/G/32/gno/sprites/nav-sprite-global-1x-reorg-privacy._AC_SY500_.jpg",
     "affiliate_links": {
       "amazon": {
         "url": "https://amzn.to/3Pe4Age",
@@ -1035,7 +1035,7 @@ var SHOES = [
     "pisada": [],
     "terreno": [],
     "distancia": [],
-    "photo": "https://m.media-amazon.com/images/I/71qHhWE-T7L._AC_SY500_.jpg",
+    "photo": "https://m.media-amazon.com/images/G/32/gno/sprites/nav-sprite-global-1x-reorg-privacy._AC_SY500_.jpg",
     "affiliate_links": {
       "amazon": {
         "url": "https://amzn.to/4b5N32t",
@@ -1067,7 +1067,7 @@ var SHOES = [
     "pisada": [],
     "terreno": [],
     "distancia": [],
-    "photo": "https://m.media-amazon.com/images/I/51qUaqEvrkL._AC_SY500_.jpg",
+    "photo": "https://m.media-amazon.com/images/G/32/gno/sprites/nav-sprite-global-1x-reorg-privacy._AC_SY500_.jpg",
     "affiliate_links": {
       "amazon": {
         "url": "https://amzn.to/4lpGIm5",
@@ -1100,7 +1100,7 @@ var SHOES = [
     "pisada": [],
     "terreno": [],
     "distancia": [],
-    "photo": "https://m.media-amazon.com/images/I/61Opa1W1J8L._AC_SY500_.jpg",
+    "photo": "https://via.placeholder.com/300x300/1a1a1a/c8ff00?text=Wave%20Sky%209",
     "affiliate_links": {
       "amazon": {
         "url": "https://amzn.to/3OW1QEr",
@@ -1132,7 +1132,7 @@ var SHOES = [
     "pisada": [],
     "terreno": [],
     "distancia": [],
-    "photo": "https://static.dafiti.com.br/p/Mizuno-T%C3%AAnis-Mizuno-Victory-Rsp-Feminino-Rosa-3494-64013441-1-zoom.jpg",
+    "photo": "https://via.placeholder.com/300x300/1a1a1a/c8ff00?text=Victory%20RSP",
     "affiliate_links": {
       "amazon": {
         "url": "https://amzn.to/4rhgGT7",
@@ -1165,7 +1165,7 @@ var SHOES = [
     "pisada": [],
     "terreno": [],
     "distancia": [],
-    "photo": "https://m.media-amazon.com/images/I/612YIPVucEL._AC_SY500_.jpg",
+    "photo": "https://via.placeholder.com/300x300/1a1a1a/c8ff00?text=Base%20Ride",
     "affiliate_links": {
       "amazon": {
         "url": "https://amzn.to/4s2XGJx",
@@ -1198,7 +1198,7 @@ var SHOES = [
     "pisada": [],
     "terreno": [],
     "distancia": [],
-    "photo": "https://m.media-amazon.com/images/I/51ifrRin22L._AC_SY500_.jpg",
+    "photo": "https://via.placeholder.com/300x300/1a1a1a/c8ff00?text=Creation%2026",
     "affiliate_links": {
       "amazon": {
         "url": "https://amzn.to/46KPFjN",
@@ -1231,7 +1231,7 @@ var SHOES = [
     "pisada": [],
     "terreno": [],
     "distancia": [],
-    "photo": "https://m.media-amazon.com/images/I/61qwpkLkodL._AC_SY500_.jpg",
+    "photo": "https://via.placeholder.com/300x300/1a1a1a/c8ff00?text=Creation%2026",
     "affiliate_links": {
       "amazon": {
         "url": "https://amzn.to/412oc9N",
@@ -1264,7 +1264,7 @@ var SHOES = [
     "pisada": [],
     "terreno": [],
     "distancia": [],
-    "photo": "https://m.media-amazon.com/images/I/71pGo9F0wnL._AC_SY500_.jpg",
+    "photo": "https://via.placeholder.com/300x300/1a1a1a/c8ff00?text=Neo%20Zen",
     "affiliate_links": {
       "amazon": {
         "url": "https://amzn.to/4saqM9C",
@@ -1293,7 +1293,7 @@ var SHOES = [
     "pisada": [],
     "terreno": [],
     "distancia": [],
-    "photo": "https://m.media-amazon.com/images/I/61MzvFVQufL._AC_SY500_.jpg",
+    "photo": "https://m.media-amazon.com/images/G/32/gno/sprites/nav-sprite-global-1x-reorg-privacy._AC_SY500_.jpg",
     "affiliate_links": {
       "amazon": {
         "url": "https://amzn.to/4105W0O",
@@ -1330,7 +1330,7 @@ var SHOES = [
     "pisada": [],
     "terreno": [],
     "distancia": [],
-    "photo": "https://m.media-amazon.com/images/I/51tKTairIAL._AC_SY500_.jpg",
+    "photo": "https://via.placeholder.com/300x300/1a1a1a/c8ff00?text=Enigma%202",
     "affiliate_links": {
       "amazon": {
         "url": "https://amzn.to/47GParh",
@@ -1363,7 +1363,7 @@ var SHOES = [
     "pisada": [],
     "terreno": [],
     "distancia": [],
-    "photo": "https://m.media-amazon.com/images/I/5178yONIZbL._AC_SY500_.jpg",
+    "photo": "https://via.placeholder.com/300x300/1a1a1a/c8ff00?text=Wave%20Prophecy%20Beta%202",
     "affiliate_links": {
       "amazon": {
         "url": "https://amzn.to/40Z6STb",
@@ -1396,7 +1396,7 @@ var SHOES = [
     "pisada": [],
     "terreno": [],
     "distancia": [],
-    "photo": "https://m.media-amazon.com/images/I/611RirAWR7L._AC_SY500_.jpg",
+    "photo": "https://m.media-amazon.com/images/G/32/gno/sprites/nav-sprite-global-1x-reorg-privacy._AC_SY500_.jpg",
     "affiliate_links": {
       "amazon": {
         "url": "https://amzn.to/4sE1b95",
@@ -1429,7 +1429,7 @@ var SHOES = [
     "pisada": [],
     "terreno": [],
     "distancia": [],
-    "photo": "https://m.media-amazon.com/images/I/61GRqg1hwgL._AC_SY500_.jpg",
+    "photo": "https://m.media-amazon.com/images/G/32/gno/sprites/nav-sprite-global-1x-reorg-privacy._AC_SY500_.jpg",
     "affiliate_links": {
       "amazon": {
         "url": "https://amzn.to/3N4KK6K",
@@ -1462,7 +1462,7 @@ var SHOES = [
     "pisada": [],
     "terreno": [],
     "distancia": [],
-    "photo": "https://m.media-amazon.com/images/I/51dEdz7PxZL._AC_SY500_.jpg",
+    "photo": "https://via.placeholder.com/300x300/1a1a1a/c8ff00?text=Wave%20Daichi%209",
     "affiliate_links": {
       "amazon": {
         "url": "https://amzn.to/4s6fumP",
@@ -1495,7 +1495,7 @@ var SHOES = [
     "pisada": [],
     "terreno": [],
     "distancia": [],
-    "photo": "https://m.media-amazon.com/images/I/51Z+ohQHSIL._AC_SY625_.jpg",
+    "photo": "https://via.placeholder.com/300x300/1a1a1a/c8ff00?text=Fresh%20Foam%20X%201080%20V14",
     "affiliate_links": {
       "amazon": {
         "url": "https://amzn.to/4rknGyU",
@@ -1523,7 +1523,7 @@ var SHOES = [
     "pisada": [],
     "terreno": [],
     "distancia": [],
-    "photo": "https://m.media-amazon.com/images/I/71umOc7Na8L._AC_SY500_.jpg",
+    "photo": "https://via.placeholder.com/300x300/1a1a1a/c8ff00?text=530",
     "affiliate_links": {
       "amazon": {
         "url": "https://amzn.to/479rJa7",
@@ -1552,7 +1552,7 @@ var SHOES = [
     "pisada": [],
     "terreno": [],
     "distancia": [],
-    "photo": "https://m.media-amazon.com/images/I/61FYoxCE8OL._AC_SY500_.jpg",
+    "photo": "https://m.media-amazon.com/images/G/32/gno/sprites/nav-sprite-global-1x-reorg-privacy._AC_SY500_.jpg",
     "affiliate_links": {
       "amazon": {
         "url": "https://amzn.to/4uI7lqG",
@@ -1582,7 +1582,7 @@ var SHOES = [
     "pisada": [],
     "terreno": [],
     "distancia": [],
-    "photo": "https://m.media-amazon.com/images/I/81wTUqT6pWL._AC_SX500_.jpg",
+    "photo": "https://via.placeholder.com/300x300/1a1a1a/c8ff00?text=1080%20v15",
     "affiliate_links": {
       "amazon": {
         "url": "https://amzn.to/4b8JVD5",
@@ -1612,7 +1612,7 @@ var SHOES = [
     "pisada": [],
     "terreno": [],
     "distancia": [],
-    "photo": "https://m.media-amazon.com/images/I/71q16VFjN9L._AC_SX500_.jpg",
+    "photo": "https://m.media-amazon.com/images/G/32/gno/sprites/nav-sprite-global-1x-reorg-privacy._AC_SY500_.jpg",
     "affiliate_links": {
       "amazon": {
         "url": "https://amzn.to/3NnNw78",
@@ -1642,7 +1642,7 @@ var SHOES = [
     "pisada": [],
     "terreno": [],
     "distancia": [],
-    "photo": "https://m.media-amazon.com/images/I/51jw--PJVpL._AC_SY500_.jpg",
+    "photo": "https://via.placeholder.com/300x300/1a1a1a/c8ff00?text=Fresh%20Foam%20X%20Hierro%20v8",
     "affiliate_links": {
       "amazon": {
         "url": "https://amzn.to/4sHcrBo",
@@ -1672,7 +1672,7 @@ var SHOES = [
     "pisada": [],
     "terreno": [],
     "distancia": [],
-    "photo": "https://m.media-amazon.com/images/I/71+9s4rDg-L._AC_SY500_.jpg",
+    "photo": "https://via.placeholder.com/300x300/1a1a1a/c8ff00?text=New%20Balance%20Rebel%20v5",
     "affiliate_links": {
       "amazon": {
         "url": "https://amzn.to/40rgjL1",
@@ -1702,7 +1702,7 @@ var SHOES = [
     "pisada": [],
     "terreno": [],
     "distancia": [],
-    "photo": "https://m.media-amazon.com/images/I/61YvL0uMf7L._AC_SY500_.jpg",
+    "photo": "https://via.placeholder.com/300x300/1a1a1a/c8ff00?text=New%20Balance%20Rebel%20v5",
     "affiliate_links": {
       "amazon": {
         "url": "https://amzn.to/4s96D3T",
@@ -1732,7 +1732,7 @@ var SHOES = [
     "pisada": [],
     "terreno": [],
     "distancia": [],
-    "photo": "https://imgnike-a.akamaihd.net/1920x1920/05924154A2.jpg",
+    "photo": "https://m.media-amazon.com/images/G/32/gno/sprites/nav-sprite-global-1x-reorg-privacy._AC_SY500_.jpg",
     "affiliate_links": {
       "amazon": {
         "url": "https://amzn.to/4dt98th",
@@ -1761,7 +1761,7 @@ var SHOES = [
     "pisada": [],
     "terreno": [],
     "distancia": [],
-    "photo": "https://imgnike-a.akamaihd.net/360x360/059366NEA2.jpg",
+    "photo": "https://m.media-amazon.com/images/G/32/gno/sprites/nav-sprite-global-1x-reorg-privacy._AC_SY500_.jpg",
     "affiliate_links": {
       "amazon": {
         "url": "https://amzn.to/4cXLGEl",
@@ -1790,7 +1790,7 @@ var SHOES = [
     "pisada": [],
     "terreno": [],
     "distancia": [],
-    "photo": "https://images-na.ssl-images-amazon.com/images/I/61jBJ9a4NJL.jpg",
+    "photo": "https://m.media-amazon.com/images/G/32/gno/sprites/nav-sprite-global-1x-reorg-privacy._AC_SY500_.jpg",
     "affiliate_links": {
       "amazon": {
         "url": "https://amzn.to/47nlgrQ",
@@ -1818,7 +1818,7 @@ var SHOES = [
     "pisada": [],
     "terreno": [],
     "distancia": [],
-    "photo": "https://m.media-amazon.com/images/I/71o5tMvjF0L._AC_SY500_.jpg",
+    "photo": "https://m.media-amazon.com/images/G/32/gno/sprites/nav-sprite-global-1x-reorg-privacy._AC_SY500_.jpg",
     "affiliate_links": {
       "amazon": {
         "url": "https://amzn.to/3PGBkzj",
@@ -1849,7 +1849,7 @@ var SHOES = [
     "pisada": [],
     "terreno": [],
     "distancia": [],
-    "photo": "https://m.media-amazon.com/images/I/710jZp-z7sL._AC_SY500_.jpg",
+    "photo": "https://via.placeholder.com/300x300/1a1a1a/c8ff00?text=Downshifter%2013",
     "affiliate_links": {
       "amazon": {
         "url": "https://amzn.to/3PQYhzJ",
@@ -1878,7 +1878,7 @@ var SHOES = [
     "pisada": [],
     "terreno": [],
     "distancia": [],
-    "photo": "https://m.media-amazon.com/images/I/61978oDJ-iL._AC_SY625_.jpg",
+    "photo": "https://m.media-amazon.com/images/G/32/gno/sprites/nav-sprite-global-1x-reorg-privacy._AC_SY500_.jpg",
     "affiliate_links": {
       "amazon": {
         "url": "https://amzn.to/3Q2FZeO",
@@ -1907,7 +1907,7 @@ var SHOES = [
     "pisada": [],
     "terreno": [],
     "distancia": [],
-    "photo": "https://m.media-amazon.com/images/I/61+4HuCd9yL._AC_SY625_.jpg",
+    "photo": "https://m.media-amazon.com/images/G/32/gno/sprites/nav-sprite-global-1x-reorg-privacy._AC_SY500_.jpg",
     "affiliate_links": {
       "amazon": {
         "url": "https://amzn.to/481HjFd",
@@ -1936,7 +1936,7 @@ var SHOES = [
     "pisada": [],
     "terreno": [],
     "distancia": [],
-    "photo": "https://m.media-amazon.com/images/I/61n-683dSvL._AC_SY625_.jpg",
+    "photo": "https://via.placeholder.com/300x300/1a1a1a/c8ff00?text=Winflo%2011",
     "affiliate_links": {
       "amazon": {
         "url": "https://amzn.to/41aiuD9",
@@ -1965,7 +1965,7 @@ var SHOES = [
     "pisada": [],
     "terreno": [],
     "distancia": [],
-    "photo": "https://m.media-amazon.com/images/I/71PZ2x9ndbL._AC_SY625_.jpg",
+    "photo": "https://via.placeholder.com/300x300/1a1a1a/c8ff00?text=Winflo%2011",
     "affiliate_links": {
       "amazon": {
         "url": "https://amzn.to/4bSZuiI",
@@ -1994,7 +1994,7 @@ var SHOES = [
     "pisada": [],
     "terreno": [],
     "distancia": [],
-    "photo": "https://m.media-amazon.com/images/I/71Pb0HGV0BL._AC_SX500_.jpg",
+    "photo": "https://m.media-amazon.com/images/G/32/gno/sprites/nav-sprite-global-1x-reorg-privacy._AC_SY500_.jpg",
     "affiliate_links": {
       "amazon": {
         "url": "https://amzn.to/4du7oQD",
@@ -2023,7 +2023,7 @@ var SHOES = [
     "pisada": [],
     "terreno": [],
     "distancia": [],
-    "photo": "https://m.media-amazon.com/images/I/5159ub-QvHL._AC_SY500_.jpg",
+    "photo": "https://via.placeholder.com/300x300/1a1a1a/c8ff00?text=Quest%205",
     "affiliate_links": {
       "amazon": {
         "url": "https://amzn.to/4c9ugCM",
@@ -2052,7 +2052,7 @@ var SHOES = [
     "pisada": [],
     "terreno": [],
     "distancia": [],
-    "photo": "https://m.media-amazon.com/images/I/71AS9nTHr5L._AC_SY500_.jpg",
+    "photo": "https://m.media-amazon.com/images/G/32/gno/sprites/nav-sprite-global-1x-reorg-privacy._AC_SY500_.jpg",
     "affiliate_links": {
       "amazon": {
         "url": "https://amzn.to/47FMzxW",
@@ -2081,7 +2081,7 @@ var SHOES = [
     "pisada": [],
     "terreno": [],
     "distancia": [],
-    "photo": "https://m.media-amazon.com/images/I/61AS9nTHr5L._AC_SY500_.jpg",
+    "photo": "https://m.media-amazon.com/images/G/32/gno/sprites/nav-sprite-global-1x-reorg-privacy._AC_SY500_.jpg",
     "affiliate_links": {
       "amazon": {
         "url": "https://amzn.to/3PHg9x1",
@@ -2110,7 +2110,7 @@ var SHOES = [
     "pisada": [],
     "terreno": [],
     "distancia": [],
-    "photo": "https://imgnike-a.akamaihd.net/360x360/058279A1A2.jpg",
+    "photo": "https://via.placeholder.com/300x300/1a1a1a/c8ff00?text=Zoom%20Fly%206",
     "affiliate_links": {
       "amazon": {
         "url": "https://amzn.to/4cpqWog",
@@ -2139,7 +2139,7 @@ var SHOES = [
     "pisada": [],
     "terreno": [],
     "distancia": [],
-    "photo": "https://imgnike-a.akamaihd.net/360x360/026862IIA1.jpg",
+    "photo": "https://m.media-amazon.com/images/G/32/gno/sprites/nav-sprite-global-1x-reorg-privacy._AC_SY500_.jpg",
     "affiliate_links": {
       "amazon": {
         "url": "https://amzn.to/4vc5NFv",
@@ -2168,7 +2168,7 @@ var SHOES = [
     "pisada": [],
     "terreno": [],
     "distancia": [],
-    "photo": "https://imgnike-a.akamaihd.net/360x360/025231IMA9.jpg",
+    "photo": "https://m.media-amazon.com/images/G/32/gno/sprites/nav-sprite-global-1x-reorg-privacy._AC_SY500_.jpg",
     "affiliate_links": {
       "amazon": {
         "url": "https://amzn.to/4sjy2j1",
@@ -2197,7 +2197,7 @@ var SHOES = [
     "pisada": [],
     "terreno": [],
     "distancia": [],
-    "photo": "https://m.media-amazon.com/images/I/71rJSyxTadL._AC_SY500_.jpg",
+    "photo": "https://m.media-amazon.com/images/G/32/gno/sprites/nav-sprite-global-1x-reorg-privacy._AC_SY500_.jpg",
     "affiliate_links": {
       "amazon": {
         "url": "https://amzn.to/3QkDVPm",
@@ -2226,7 +2226,7 @@ var SHOES = [
     "pisada": [],
     "terreno": [],
     "distancia": [],
-    "photo": "https://imgnike-a.akamaihd.net/360x360/05640155A2.jpg",
+    "photo": "https://m.media-amazon.com/images/G/32/gno/sprites/nav-sprite-global-1x-reorg-privacy._AC_SY500_.jpg",
     "affiliate_links": {
       "amazon": {
         "url": "https://amzn.to/4maXIN5",
@@ -2255,7 +2255,7 @@ var SHOES = [
     "pisada": [],
     "terreno": [],
     "distancia": [],
-    "photo": "https://imgnike-a.akamaihd.net/360x360/06072556A1.jpg",
+    "photo": "https://via.placeholder.com/300x300/1a1a1a/c8ff00?text=Vomero%2018",
     "affiliate_links": {
       "amazon": {
         "url": "https://amzn.to/419eqD7",
@@ -2284,7 +2284,7 @@ var SHOES = [
     "pisada": [],
     "terreno": [],
     "distancia": [],
-    "photo": "https://imgnike-a.akamaihd.net/360x360/028652A1A7.jpg",
+    "photo": "https://via.placeholder.com/300x300/1a1a1a/c8ff00?text=Pegasus%20Trail%205",
     "affiliate_links": {
       "amazon": {
         "url": "https://amzn.to/419eqD7",
@@ -2313,7 +2313,7 @@ var SHOES = [
     "pisada": [],
     "terreno": [],
     "distancia": [],
-    "photo": "https://imgnike-a.akamaihd.net/360x360/028651NZA2.jpg",
+    "photo": "https://via.placeholder.com/300x300/1a1a1a/c8ff00?text=Pegasus%20Trail%205",
     "affiliate_links": {
       "amazon": {
         "url": "https://amzn.to/3PHhxjd",
@@ -2342,7 +2342,7 @@ var SHOES = [
     "pisada": [],
     "terreno": [],
     "distancia": [],
-    "photo": "https://imgnike-a.akamaihd.net/360x360/02865952A1.jpg",
+    "photo": "https://via.placeholder.com/300x300/1a1a1a/c8ff00?text=Pegasus%2041",
     "affiliate_links": {
       "amazon": {
         "url": "https://amzn.to/4vfm24M",
@@ -2371,7 +2371,7 @@ var SHOES = [
     "pisada": [],
     "terreno": [],
     "distancia": [],
-    "photo": "https://imgnike-a.akamaihd.net/360x360/028661IDA11.jpg",
+    "photo": "https://via.placeholder.com/300x300/1a1a1a/c8ff00?text=Pegasus%2041",
     "affiliate_links": {
       "amazon": {
         "url": "https://amzn.to/4c3gSjs",
@@ -2406,7 +2406,7 @@ var SHOES = [
       "mista"
     ],
     "distancia": [],
-    "photo": "https://www.nike.com.br/tenis-nike-downshifter-13-masculino-027915.html?cor=IM",
+    "photo": "https://m.media-amazon.com/images/G/32/gno/sprites/nav-sprite-global-1x-reorg-privacy._AC_SY500_.jpg",
     "affiliate_links": {
       "amazon": {
         "url": "https://amzn.to/4ooGVXZ",
@@ -2449,7 +2449,7 @@ var SHOES = [
       "asfalto"
     ],
     "distancia": [],
-    "photo": "https://imgnike-a.akamaihd.net/768x768/058868IDA2.jpg",
+    "photo": "https://via.placeholder.com/300x300/1a1a1a/c8ff00?text=Nike%20Revolution%208%20",
     "affiliate_links": {
       "oficial": {
         "url": "https://www.awin1.com/cread.php?awinmid=17652&awinaffid=2800712&platform=dl&ued=https%3A%2F%2Fwww.nike.com.br%2Ftenis-nike-revolution-8-feminino-058868.html%3Fcor%3DID",
@@ -2478,7 +2478,7 @@ var SHOES = [
     "pisada": [],
     "terreno": [],
     "distancia": [],
-    "photo": "https://m.media-amazon.com/images/I/61jqkYeBlqL._AC_SY500_.jpg",
+    "photo": "https://m.media-amazon.com/images/G/32/gno/sprites/nav-sprite-global-1x-reorg-privacy._AC_SY500_.jpg",
     "affiliate_links": {
       "amazon": {
         "url": "https://amzn.to/4rKTg9U",
@@ -2506,7 +2506,7 @@ var SHOES = [
     "pisada": [],
     "terreno": [],
     "distancia": [],
-    "photo": "https://m.media-amazon.com/images/I/51WUvXlRWbL._AC_SX679_.jpg",
+    "photo": "https://via.placeholder.com/300x300/1a1a1a/c8ff00?text=Challenger",
     "affiliate_links": {
       "amazon": {
         "url": "https://amzn.to/4s630fg",
@@ -2534,7 +2534,7 @@ var SHOES = [
     "pisada": [],
     "terreno": [],
     "distancia": [],
-    "photo": "https://m.media-amazon.com/images/I/51bmHlqn4bL._AC_SX679_.jpg",
+    "photo": "https://via.placeholder.com/300x300/1a1a1a/c8ff00?text=Orbita",
     "affiliate_links": {
       "amazon": {
         "url": "https://amzn.to/47k1FZG",
@@ -2562,7 +2562,7 @@ var SHOES = [
     "pisada": [],
     "terreno": [],
     "distancia": [],
-    "photo": "https://m.media-amazon.com/images/I/519-VwNeLGL._AC_SY625_.jpg",
+    "photo": "https://m.media-amazon.com/images/G/32/gno/sprites/nav-sprite-global-1x-reorg-privacy._AC_SY500_.jpg",
     "affiliate_links": {
       "amazon": {
         "url": "https://amzn.to/4sz9HX0",
@@ -2591,7 +2591,7 @@ var SHOES = [
     "pisada": [],
     "terreno": [],
     "distancia": [],
-    "photo": "https://m.media-amazon.com/images/I/519Fz1ewJdL._AC_SX679_.jpg",
+    "photo": "https://via.placeholder.com/300x300/1a1a1a/c8ff00?text=Challenger%205",
     "affiliate_links": {
       "amazon": {
         "url": "https://amzn.to/3NmoBAR",
@@ -2620,7 +2620,7 @@ var SHOES = [
     "pisada": [],
     "terreno": [],
     "distancia": [],
-    "photo": "https://m.media-amazon.com/images/I/51D5Mo21ocL._AC_SY500_.jpg",
+    "photo": "https://via.placeholder.com/300x300/1a1a1a/c8ff00?text=Marte",
     "affiliate_links": {
       "amazon": {
         "url": "https://amzn.to/4lBTTR7",
@@ -2659,7 +2659,7 @@ var SHOES = [
       "mista"
     ],
     "distancia": [],
-    "photo": "https://www.tenisideal.com.br/imgs/43561394_3-012-01.jpg",
+    "photo": "https://via.placeholder.com/300x300/1a1a1a/c8ff00?text=Pride%204",
     "affiliate_links": {
       "amazon": {
         "url": "https://amzn.to/3OVO4Sa",
@@ -2696,7 +2696,7 @@ var SHOES = [
     "pisada": [],
     "terreno": [],
     "distancia": [],
-    "photo": "https://m.media-amazon.com/images/I/61Rx2TlzVUL._AC_SY500_.jpg",
+    "photo": "https://m.media-amazon.com/images/G/32/gno/sprites/nav-sprite-global-1x-reorg-privacy._AC_SY500_.jpg",
     "affiliate_links": {
       "amazon": {
         "url": "https://amzn.to/4un2UBh",
@@ -2725,7 +2725,7 @@ var SHOES = [
     "pisada": [],
     "terreno": [],
     "distancia": [],
-    "photo": "https://m.media-amazon.com/images/I/51Z-DdVYfOL._AC_SY500_.jpg",
+    "photo": "https://via.placeholder.com/300x300/1a1a1a/c8ff00?text=Corre%20Grafeno%203",
     "affiliate_links": {
       "amazon": {
         "url": "https://amzn.to/3NC4q1S",
@@ -2759,7 +2759,7 @@ var SHOES = [
     "pisada": [],
     "terreno": [],
     "distancia": [],
-    "photo": "https://m.media-amazon.com/images/I/51fOqAnmsIL._AC_SX522_.jpg",
+    "photo": "https://m.media-amazon.com/images/G/32/gno/sprites/nav-sprite-global-1x-reorg-privacy._AC_SY500_.jpg",
     "affiliate_links": {
       "amazon": {
         "url": "https://amzn.to/3OZCYM2",
@@ -2793,7 +2793,7 @@ var SHOES = [
     "pisada": [],
     "terreno": [],
     "distancia": [],
-    "photo": "",
+    "photo": "https://via.placeholder.com/300x300/1a1a1a/c8ff00?text=Olympikus%20Corre%20Trilha",
     "affiliate_links": {},
     "tags": [],
     "description": "",
@@ -2813,7 +2813,7 @@ var SHOES = [
     "pisada": [],
     "terreno": [],
     "distancia": [],
-    "photo": "https://images-na.ssl-images-amazon.com/images/I/51gcZC19IXL.jpg",
+    "photo": "https://via.placeholder.com/300x300/1a1a1a/c8ff00?text=Ultra%20Glide%202",
     "affiliate_links": {
       "amazon": {
         "url": "https://amzn.to/3MVPADc",
@@ -2841,7 +2841,7 @@ var SHOES = [
     "pisada": [],
     "terreno": [],
     "distancia": [],
-    "photo": "https://m.media-amazon.com/images/I/61HHqi-wpuL._AC_SY500_.jpg",
+    "photo": "https://m.media-amazon.com/images/G/32/gno/sprites/nav-sprite-global-1x-reorg-privacy._AC_SY500_.jpg",
     "affiliate_links": {
       "amazon": {
         "url": "https://amzn.to/4aZuoUF",
@@ -2870,7 +2870,7 @@ var SHOES = [
     "pisada": [],
     "terreno": [],
     "distancia": [],
-    "photo": "https://m.media-amazon.com/images/I/71NTdjs6iVL._AC_SY500_.jpg",
+    "photo": "https://m.media-amazon.com/images/G/32/gno/sprites/nav-sprite-global-1x-reorg-privacy._AC_SY500_.jpg",
     "affiliate_links": {
       "amazon": {
         "url": "https://amzn.to/4uAu8EP",
@@ -2900,7 +2900,7 @@ var SHOES = [
     "pisada": [],
     "terreno": [],
     "distancia": [],
-    "photo": "https://m.media-amazon.com/images/I/71Kn-Dm570L._AC_SY500_.jpg",
+    "photo": "https://via.placeholder.com/300x300/1a1a1a/c8ff00?text=Saucony%20Endorphin%20Speed%205",
     "affiliate_links": {
       "amazon": {
         "url": "https://amzn.to/40vH9S7",
@@ -2930,7 +2930,7 @@ var SHOES = [
     "pisada": [],
     "terreno": [],
     "distancia": [],
-    "photo": "https://m.media-amazon.com/images/I/81oEoDyhA+L._AC_SY500_.jpg",
+    "photo": "https://m.media-amazon.com/images/G/32/gno/sprites/nav-sprite-global-1x-reorg-privacy._AC_SY500_.jpg",
     "affiliate_links": {
       "amazon": {
         "url": "https://amzn.to/4ltmU1a",
@@ -2960,7 +2960,7 @@ var SHOES = [
     "pisada": [],
     "terreno": [],
     "distancia": [],
-    "photo": "https://m.media-amazon.com/images/I/81e9TDaRR5L._AC_SY500_.jpg",
+    "photo": "https://m.media-amazon.com/images/G/32/gno/sprites/nav-sprite-global-1x-reorg-privacy._AC_SY500_.jpg",
     "affiliate_links": {
       "amazon": {
         "url": "https://amzn.to/4bnOqIy",
@@ -2990,7 +2990,7 @@ var SHOES = [
     "pisada": [],
     "terreno": [],
     "distancia": [],
-    "photo": "https://m.media-amazon.com/images/I/71il-oCGRXL._AC_SY500_.jpg",
+    "photo": "https://via.placeholder.com/300x300/1a1a1a/c8ff00?text=Saucony%20Peregrine%2015",
     "affiliate_links": {
       "amazon": {
         "url": "https://amzn.to/47LagEW",
@@ -3020,7 +3020,7 @@ var SHOES = [
     "pisada": [],
     "terreno": [],
     "distancia": [],
-    "photo": "https://m.media-amazon.com/images/I/710D-lXE4uL._AC_SY500_.jpg",
+    "photo": "https://via.placeholder.com/300x300/1a1a1a/c8ff00?text=Salomon%20Sense%20Ride%205",
     "affiliate_links": {
       "amazon": {
         "url": "https://amzn.to/4b92uXF",
@@ -3050,7 +3050,7 @@ var SHOES = [
     "pisada": [],
     "terreno": [],
     "distancia": [],
-    "photo": "https://m.media-amazon.com/images/I/71gYxjqbteL._AC_SY500_.jpg",
+    "photo": "https://via.placeholder.com/300x300/1a1a1a/c8ff00?text=Arch%20Fit%20Orvan%20Drex",
     "affiliate_links": {
       "amazon": {
         "url": "https://amzn.to/4aY4ult",
@@ -3078,7 +3078,7 @@ var SHOES = [
     "pisada": [],
     "terreno": [],
     "distancia": [],
-    "photo": "https://m.media-amazon.com/images/I/61cNbsYKgPL._AC_SY500_.jpg",
+    "photo": "https://via.placeholder.com/300x300/1a1a1a/c8ff00?text=Charged%20Great",
     "affiliate_links": {
       "amazon": {
         "url": "https://amzn.to/4rYjl5o",
@@ -3107,7 +3107,7 @@ var SHOES = [
     "pisada": [],
     "terreno": [],
     "distancia": [],
-    "photo": "https://m.media-amazon.com/images/I/61FtBlh+DJL._AC_SY625_.jpg",
+    "photo": "https://via.placeholder.com/300x300/1a1a1a/c8ff00?text=Charged%20Hit%20SE",
     "affiliate_links": {
       "amazon": {
         "url": "https://amzn.to/4bd2MeK",
