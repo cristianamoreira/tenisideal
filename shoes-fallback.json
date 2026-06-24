@@ -15,9 +15,25 @@
     "distancia": [],
     "photo": "https://m.media-amazon.com/images/G/32/gno/sprites/nav-sprite-global-1x-reorg-privacy._AC_SY500_.jpg",
     "affiliate_links": {
+      "oficial": {
+        "url": "https://www.adidas.com.br/search?q=Adizero%20Adios%20Pro%204",
+        "price": 1999.99,
+        "store": "ADIDAS"
+      },
       "awin": {
         "url": "https://www.awin1.com/cread.php?awinmid=15503&awinaffid=2800712&clickref=ADIDAS_Adizero_Adios_Pro_4",
-        "price": 1999.99
+        "price": 1999.99,
+        "store": "ADIDAS"
+      },
+      "netshoes": {
+        "url": "https://www.netshoes.com.br/search?q=Adizero%20Adios%20Pro%204&affid=4683922",
+        "price": 0,
+        "store": "Netshoes"
+      },
+      "amazon": {
+        "url": "https://amazon.com.br/s?k=Adizero%20Adios%20Pro%204&tag=tenisideal26-20",
+        "price": 0,
+        "store": "Amazon"
       }
     },
     "tags": [
@@ -45,9 +61,25 @@
     "distancia": [],
     "photo": "https://m.media-amazon.com/images/I/51yLvMtXjYL._AC_SY500_.jpg",
     "affiliate_links": {
+      "oficial": {
+        "url": "https://www.adidas.com.br/search?q=Adizero%20Boston%2013",
+        "price": 1399.99,
+        "store": "ADIDAS"
+      },
       "awin": {
         "url": "https://www.awin1.com/cread.php?awinmid=15503&awinaffid=2800712&clickref=ADIDAS_Adizero_Boston_13",
-        "price": 1399.99
+        "price": 1399.99,
+        "store": "ADIDAS"
+      },
+      "netshoes": {
+        "url": "https://www.netshoes.com.br/search?q=Adizero%20Boston%2013&affid=4683922",
+        "price": 0,
+        "store": "Netshoes"
+      },
+      "amazon": {
+        "url": "https://amazon.com.br/s?k=Adizero%20Boston%2013&tag=tenisideal26-20",
+        "price": 0,
+        "store": "Amazon"
       }
     },
     "tags": [
@@ -75,9 +107,25 @@
     "distancia": [],
     "photo": "https://m.media-amazon.com/images/G/32/gno/sprites/nav-sprite-global-1x-reorg-privacy._AC_SY500_.jpg",
     "affiliate_links": {
+      "oficial": {
+        "url": "https://www.adidas.com.br/search?q=Response%20Runner%202",
+        "price": 399.99,
+        "store": "ADIDAS"
+      },
       "awin": {
         "url": "https://www.awin1.com/cread.php?awinmid=15503&awinaffid=2800712&clickref=ADIDAS_Response_Runner_2",
-        "price": 399.99
+        "price": 399.99,
+        "store": "ADIDAS"
+      },
+      "netshoes": {
+        "url": "https://www.netshoes.com.br/search?q=Response%20Runner%202&affid=4683922",
+        "price": 0,
+        "store": "Netshoes"
+      },
+      "amazon": {
+        "url": "https://amazon.com.br/s?k=Response%20Runner%202&tag=tenisideal26-20",
+        "price": 0,
+        "store": "Amazon"
       }
     },
     "tags": [
@@ -105,9 +153,25 @@
     "distancia": [],
     "photo": "https://m.media-amazon.com/images/I/717vGFF4x5L._AC_SY500_.jpg",
     "affiliate_links": {
+      "oficial": {
+        "url": "https://www.adidas.com.br/search?q=Ultraboost%205",
+        "price": 1099.99,
+        "store": "ADIDAS"
+      },
       "awin": {
         "url": "https://www.awin1.com/cread.php?awinmid=15503&awinaffid=2800712&clickref=ADIDAS_Ultraboost_5",
-        "price": 1099.99
+        "price": 1099.99,
+        "store": "ADIDAS"
+      },
+      "netshoes": {
+        "url": "https://www.netshoes.com.br/search?q=Ultraboost%205&affid=4683922",
+        "price": 0,
+        "store": "Netshoes"
+      },
+      "amazon": {
+        "url": "https://amazon.com.br/s?k=Ultraboost%205&tag=tenisideal26-20",
+        "price": 0,
+        "store": "Amazon"
       }
     },
     "tags": [
@@ -136,9 +200,25 @@
     "distancia": [],
     "photo": "https://m.media-amazon.com/images/I/61Td+7s27nL._AC_SY395_.jpg",
     "affiliate_links": {
+      "oficial": {
+        "url": "https://www.adidas.com.br/search?q=Terrex%20Agravic%20Speed%202",
+        "price": 1199.99,
+        "store": "ADIDAS"
+      },
       "awin": {
         "url": "https://www.awin1.com/cread.php?awinmid=15503&awinaffid=2800712&clickref=ADIDAS_Terrex_Agravic_Speed_2",
-        "price": 1199.99
+        "price": 1199.99,
+        "store": "ADIDAS"
+      },
+      "netshoes": {
+        "url": "https://www.netshoes.com.br/search?q=Terrex%20Agravic%20Speed%202&affid=4683922",
+        "price": 0,
+        "store": "Netshoes"
+      },
+      "amazon": {
+        "url": "https://amazon.com.br/s?k=Terrex%20Agravic%20Speed%202&tag=tenisideal26-20",
+        "price": 0,
+        "store": "Amazon"
       }
     },
     "tags": [],
@@ -163,9 +243,25 @@
     "distancia": [],
     "photo": "https://m.media-amazon.com/images/G/32/gno/sprites/nav-sprite-global-1x-reorg-privacy._AC_SY500_.jpg",
     "affiliate_links": {
+      "oficial": {
+        "url": "https://www.adidas.com.br/search?q=Duramo%20Speed%202",
+        "price": 599.99,
+        "store": "ADIDAS"
+      },
       "awin": {
         "url": "https://www.awin1.com/cread.php?awinmid=15503&awinaffid=2800712&clickref=ADIDAS_Duramo_Speed_2",
-        "price": 599.99
+        "price": 599.99,
+        "store": "ADIDAS"
+      },
+      "netshoes": {
+        "url": "https://www.netshoes.com.br/search?q=Duramo%20Speed%202&affid=4683922",
+        "price": 0,
+        "store": "Netshoes"
+      },
+      "amazon": {
+        "url": "https://amazon.com.br/s?k=Duramo%20Speed%202&tag=tenisideal26-20",
+        "price": 0,
+        "store": "Amazon"
       }
     },
     "tags": [
@@ -194,9 +290,25 @@
     "distancia": [],
     "photo": "https://m.media-amazon.com/images/I/510EloSk7eL._AC_SY395_.jpg",
     "affiliate_links": {
+      "oficial": {
+        "url": "https://www.adidas.com.br/search?q=Ultraboost%2022",
+        "price": 1199.99,
+        "store": "ADIDAS"
+      },
       "awin": {
         "url": "https://www.awin1.com/cread.php?awinmid=15503&awinaffid=2800712&clickref=ADIDAS_Ultraboost_22",
-        "price": 1199.99
+        "price": 1199.99,
+        "store": "ADIDAS"
+      },
+      "netshoes": {
+        "url": "https://www.netshoes.com.br/search?q=Ultraboost%2022&affid=4683922",
+        "price": 0,
+        "store": "Netshoes"
+      },
+      "amazon": {
+        "url": "https://amazon.com.br/s?k=Ultraboost%2022&tag=tenisideal26-20",
+        "price": 0,
+        "store": "Amazon"
       }
     },
     "tags": [
@@ -232,9 +344,25 @@
     "distancia": [],
     "photo": "https://m.media-amazon.com/images/I/61nVPmZFSoL._AC_SY395_.jpg",
     "affiliate_links": {
+      "oficial": {
+        "url": "https://www.asics.com.br/en/search?q=Superblast%202",
+        "price": 1139.9,
+        "store": "ASICS"
+      },
       "awin": {
         "url": "https://www.awin1.com/cread.php?awinmid=15815&awinaffid=2800712&clickref=ASICS_Superblast_2",
-        "price": 1139.9
+        "price": 1139.9,
+        "store": "ASICS"
+      },
+      "netshoes": {
+        "url": "https://www.netshoes.com.br/search?q=Superblast%202&affid=4683922",
+        "price": 0,
+        "store": "Netshoes"
+      },
+      "amazon": {
+        "url": "https://amazon.com.br/s?k=Superblast%202&tag=tenisideal26-20",
+        "price": 0,
+        "store": "Amazon"
       }
     },
     "tags": [
@@ -263,9 +391,25 @@
     "distancia": [],
     "photo": "https://m.media-amazon.com/images/G/32/gno/sprites/nav-sprite-global-1x-reorg-privacy._AC_SY500_.jpg",
     "affiliate_links": {
+      "oficial": {
+        "url": "https://www.asics.com.br/en/search?q=Gel-Cumulus%2026",
+        "price": 719.1,
+        "store": "ASICS"
+      },
       "awin": {
         "url": "https://www.awin1.com/cread.php?awinmid=15815&awinaffid=2800712&clickref=ASICS_Gel-Cumulus_26",
-        "price": 719.1
+        "price": 719.1,
+        "store": "ASICS"
+      },
+      "netshoes": {
+        "url": "https://www.netshoes.com.br/search?q=Gel-Cumulus%2026&affid=4683922",
+        "price": 0,
+        "store": "Netshoes"
+      },
+      "amazon": {
+        "url": "https://amazon.com.br/s?k=Gel-Cumulus%2026&tag=tenisideal26-20",
+        "price": 0,
+        "store": "Amazon"
       }
     },
     "tags": [
@@ -293,9 +437,25 @@
     "distancia": [],
     "photo": "https://m.media-amazon.com/images/I/61lZORb7jLL._AC_SY500_.jpg",
     "affiliate_links": {
+      "oficial": {
+        "url": "https://www.asics.com.br/en/search?q=Gel-Kayano%2031",
+        "price": 1399.99,
+        "store": "ASICS"
+      },
       "awin": {
         "url": "https://www.awin1.com/cread.php?awinmid=15815&awinaffid=2800712&clickref=ASICS_Gel-Kayano_31",
-        "price": 1399.99
+        "price": 1399.99,
+        "store": "ASICS"
+      },
+      "netshoes": {
+        "url": "https://www.netshoes.com.br/search?q=Gel-Kayano%2031&affid=4683922",
+        "price": 0,
+        "store": "Netshoes"
+      },
+      "amazon": {
+        "url": "https://amazon.com.br/s?k=Gel-Kayano%2031&tag=tenisideal26-20",
+        "price": 0,
+        "store": "Amazon"
       }
     },
     "tags": [
@@ -323,9 +483,25 @@
     "distancia": [],
     "photo": "https://m.media-amazon.com/images/I/61bvIldPTjL._AC_SY395_.jpg",
     "affiliate_links": {
+      "oficial": {
+        "url": "https://www.asics.com.br/en/search?q=Gel-Kayano%2031%20Matcha",
+        "price": 1899.99,
+        "store": "ASICS"
+      },
       "awin": {
         "url": "https://www.awin1.com/cread.php?awinmid=15815&awinaffid=2800712&clickref=ASICS_Gel-Kayano_31_Matcha",
-        "price": 1899.99
+        "price": 1899.99,
+        "store": "ASICS"
+      },
+      "netshoes": {
+        "url": "https://www.netshoes.com.br/search?q=Gel-Kayano%2031%20Matcha&affid=4683922",
+        "price": 0,
+        "store": "Netshoes"
+      },
+      "amazon": {
+        "url": "https://amazon.com.br/s?k=Gel-Kayano%2031%20Matcha&tag=tenisideal26-20",
+        "price": 0,
+        "store": "Amazon"
       }
     },
     "tags": [
@@ -353,9 +529,25 @@
     "distancia": [],
     "photo": "https://m.media-amazon.com/images/I/61CpE-kC0YL._AC_SX395_.jpg",
     "affiliate_links": {
+      "oficial": {
+        "url": "https://www.asics.com.br/en/search?q=Gel-Nimbus%2026",
+        "price": 1499.99,
+        "store": "ASICS"
+      },
       "awin": {
         "url": "https://www.awin1.com/cread.php?awinmid=15815&awinaffid=2800712&clickref=ASICS_Gel-Nimbus_26",
-        "price": 1499.99
+        "price": 1499.99,
+        "store": "ASICS"
+      },
+      "netshoes": {
+        "url": "https://www.netshoes.com.br/search?q=Gel-Nimbus%2026&affid=4683922",
+        "price": 0,
+        "store": "Netshoes"
+      },
+      "amazon": {
+        "url": "https://amazon.com.br/s?k=Gel-Nimbus%2026&tag=tenisideal26-20",
+        "price": 0,
+        "store": "Amazon"
       }
     },
     "tags": [
@@ -383,9 +575,25 @@
     "distancia": [],
     "photo": "https://m.media-amazon.com/images/I/61iZ2UJCFbL._AC_SY500_.jpg",
     "affiliate_links": {
+      "oficial": {
+        "url": "https://www.asics.com.br/en/search?q=Gel-Trabuco%2012",
+        "price": 899.99,
+        "store": "ASICS"
+      },
       "awin": {
         "url": "https://www.awin1.com/cread.php?awinmid=15815&awinaffid=2800712&clickref=ASICS_Gel-Trabuco_12",
-        "price": 899.99
+        "price": 899.99,
+        "store": "ASICS"
+      },
+      "netshoes": {
+        "url": "https://www.netshoes.com.br/search?q=Gel-Trabuco%2012&affid=4683922",
+        "price": 0,
+        "store": "Netshoes"
+      },
+      "amazon": {
+        "url": "https://amazon.com.br/s?k=Gel-Trabuco%2012&tag=tenisideal26-20",
+        "price": 0,
+        "store": "Amazon"
       }
     },
     "tags": [
@@ -413,9 +621,25 @@
     "distancia": [],
     "photo": "https://m.media-amazon.com/images/I/511jmvCr1BL._AC_SY500_.jpg",
     "affiliate_links": {
+      "oficial": {
+        "url": "https://www.asics.com.br/en/search?q=Gel-Pulse%2015%20SE",
+        "price": 749.99,
+        "store": "ASICS"
+      },
       "awin": {
         "url": "https://www.awin1.com/cread.php?awinmid=15815&awinaffid=2800712&clickref=ASICS_Gel-Pulse_15_SE",
-        "price": 749.99
+        "price": 749.99,
+        "store": "ASICS"
+      },
+      "netshoes": {
+        "url": "https://www.netshoes.com.br/search?q=Gel-Pulse%2015%20SE&affid=4683922",
+        "price": 0,
+        "store": "Netshoes"
+      },
+      "amazon": {
+        "url": "https://amazon.com.br/s?k=Gel-Pulse%2015%20SE&tag=tenisideal26-20",
+        "price": 0,
+        "store": "Amazon"
       }
     },
     "tags": [
@@ -444,9 +668,25 @@
     "distancia": [],
     "photo": "https://m.media-amazon.com/images/I/617GtsqxJmL._AC_SY395_.jpg",
     "affiliate_links": {
+      "oficial": {
+        "url": "https://www.asics.com.br/en/search?q=Gel-Venture%2010",
+        "price": 599.99,
+        "store": "ASICS"
+      },
       "awin": {
         "url": "https://www.awin1.com/cread.php?awinmid=15815&awinaffid=2800712&clickref=ASICS_Gel-Venture_10",
-        "price": 599.99
+        "price": 599.99,
+        "store": "ASICS"
+      },
+      "netshoes": {
+        "url": "https://www.netshoes.com.br/search?q=Gel-Venture%2010&affid=4683922",
+        "price": 0,
+        "store": "Netshoes"
+      },
+      "amazon": {
+        "url": "https://amazon.com.br/s?k=Gel-Venture%2010&tag=tenisideal26-20",
+        "price": 0,
+        "store": "Amazon"
       }
     },
     "tags": [
@@ -475,9 +715,25 @@
     "distancia": [],
     "photo": "https://m.media-amazon.com/images/I/51PHKLGeJzL._AC_SY500_.jpg",
     "affiliate_links": {
+      "oficial": {
+        "url": "https://www.asics.com.br/en/search?q=Gel-Shinobi%202",
+        "price": 649.99,
+        "store": "ASICS"
+      },
       "awin": {
         "url": "https://www.awin1.com/cread.php?awinmid=15815&awinaffid=2800712&clickref=ASICS_Gel-Shinobi_2",
-        "price": 649.99
+        "price": 649.99,
+        "store": "ASICS"
+      },
+      "netshoes": {
+        "url": "https://www.netshoes.com.br/search?q=Gel-Shinobi%202&affid=4683922",
+        "price": 0,
+        "store": "Netshoes"
+      },
+      "amazon": {
+        "url": "https://amazon.com.br/s?k=Gel-Shinobi%202&tag=tenisideal26-20",
+        "price": 0,
+        "store": "Amazon"
       }
     },
     "tags": [
@@ -505,9 +761,25 @@
     "distancia": [],
     "photo": "https://m.media-amazon.com/images/I/61fz1ft0bDL._AC_SY500_.jpg",
     "affiliate_links": {
+      "oficial": {
+        "url": "https://www.asics.com.br/en/search?q=Gel-Kayano%2032",
+        "price": 1399.99,
+        "store": "ASICS"
+      },
       "awin": {
         "url": "https://www.awin1.com/cread.php?awinmid=15815&awinaffid=2800712&clickref=ASICS_Gel-Kayano_32",
-        "price": 1399.99
+        "price": 1399.99,
+        "store": "ASICS"
+      },
+      "netshoes": {
+        "url": "https://www.netshoes.com.br/search?q=Gel-Kayano%2032&affid=4683922",
+        "price": 0,
+        "store": "Netshoes"
+      },
+      "amazon": {
+        "url": "https://amazon.com.br/s?k=Gel-Kayano%2032&tag=tenisideal26-20",
+        "price": 0,
+        "store": "Amazon"
       }
     },
     "tags": [
@@ -536,9 +808,25 @@
     "distancia": [],
     "photo": "https://m.media-amazon.com/images/I/71Ez-iXGMpL._AC_SY395_.jpg",
     "affiliate_links": {
+      "oficial": {
+        "url": "https://www.brooksrunning.com.br/search?q=Adrenaline%20GTS%2024%20Supportive",
+        "price": 999.99,
+        "store": "BROOKS"
+      },
       "awin": {
         "url": "https://www.awin1.com/cread.php?awinmid=15503&awinaffid=2800712&clickref=BROOKS_Adrenaline_GTS_24_Supportive",
-        "price": 999.99
+        "price": 999.99,
+        "store": "BROOKS"
+      },
+      "netshoes": {
+        "url": "https://www.netshoes.com.br/search?q=Adrenaline%20GTS%2024%20Supportive&affid=4683922",
+        "price": 0,
+        "store": "Netshoes"
+      },
+      "amazon": {
+        "url": "https://amazon.com.br/s?k=Adrenaline%20GTS%2024%20Supportive&tag=tenisideal26-20",
+        "price": 0,
+        "store": "Amazon"
       }
     },
     "tags": [
@@ -566,9 +854,25 @@
     "distancia": [],
     "photo": "https://m.media-amazon.com/images/G/32/gno/sprites/nav-sprite-global-1x-reorg-privacy._AC_SY500_.jpg",
     "affiliate_links": {
+      "oficial": {
+        "url": "https://www.brooksrunning.com.br/search?q=Adrenaline%20GTS%2024%20Weatherized",
+        "price": 1049.99,
+        "store": "BROOKS"
+      },
       "awin": {
         "url": "https://www.awin1.com/cread.php?awinmid=15503&awinaffid=2800712&clickref=BROOKS_Adrenaline_GTS_24_Weatherized",
-        "price": 1049.99
+        "price": 1049.99,
+        "store": "BROOKS"
+      },
+      "netshoes": {
+        "url": "https://www.netshoes.com.br/search?q=Adrenaline%20GTS%2024%20Weatherized&affid=4683922",
+        "price": 0,
+        "store": "Netshoes"
+      },
+      "amazon": {
+        "url": "https://amazon.com.br/s?k=Adrenaline%20GTS%2024%20Weatherized&tag=tenisideal26-20",
+        "price": 0,
+        "store": "Amazon"
       }
     },
     "tags": [
@@ -596,9 +900,25 @@
     "distancia": [],
     "photo": "https://m.media-amazon.com/images/I/81uDzKI2XML._AC_SY500_.jpg",
     "affiliate_links": {
+      "oficial": {
+        "url": "https://www.brooksrunning.com.br/search?q=Ghost%2016",
+        "price": 1099.99,
+        "store": "BROOKS"
+      },
       "awin": {
         "url": "https://www.awin1.com/cread.php?awinmid=15503&awinaffid=2800712&clickref=BROOKS_Ghost_16",
-        "price": 1099.99
+        "price": 1099.99,
+        "store": "BROOKS"
+      },
+      "netshoes": {
+        "url": "https://www.netshoes.com.br/search?q=Ghost%2016&affid=4683922",
+        "price": 0,
+        "store": "Netshoes"
+      },
+      "amazon": {
+        "url": "https://amazon.com.br/s?k=Ghost%2016&tag=tenisideal26-20",
+        "price": 0,
+        "store": "Amazon"
       }
     },
     "tags": [
@@ -626,9 +946,25 @@
     "distancia": [],
     "photo": "https://m.media-amazon.com/images/I/71wVszdDe6L._AC_SY395_.jpg",
     "affiliate_links": {
+      "oficial": {
+        "url": "https://www.brooksrunning.com.br/search?q=Ghost%2014%20Neutral",
+        "price": 999.99,
+        "store": "BROOKS"
+      },
       "awin": {
         "url": "https://www.awin1.com/cread.php?awinmid=15503&awinaffid=2800712&clickref=BROOKS_Ghost_14_Neutral",
-        "price": 999.99
+        "price": 999.99,
+        "store": "BROOKS"
+      },
+      "netshoes": {
+        "url": "https://www.netshoes.com.br/search?q=Ghost%2014%20Neutral&affid=4683922",
+        "price": 0,
+        "store": "Netshoes"
+      },
+      "amazon": {
+        "url": "https://amazon.com.br/s?k=Ghost%2014%20Neutral&tag=tenisideal26-20",
+        "price": 0,
+        "store": "Amazon"
       }
     },
     "tags": [
@@ -663,9 +999,25 @@
     "distancia": [],
     "photo": "https://m.media-amazon.com/images/I/51kdEzeaZ0L._AC_SY500_.jpg",
     "affiliate_links": {
+      "oficial": {
+        "url": "https://www.fila.com.br/search?q=Fila%20Speed%20Lite",
+        "price": 359.9,
+        "store": "FILA"
+      },
       "awin": {
         "url": "https://www.awin1.com/cread.php?awinmid=15503&awinaffid=2800712&clickref=FILA_Fila_Speed_Lite",
-        "price": 359.9
+        "price": 359.9,
+        "store": "FILA"
+      },
+      "netshoes": {
+        "url": "https://www.netshoes.com.br/search?q=Fila%20Speed%20Lite&affid=4683922",
+        "price": 0,
+        "store": "Netshoes"
+      },
+      "amazon": {
+        "url": "https://amazon.com.br/s?k=Fila%20Speed%20Lite&tag=tenisideal26-20",
+        "price": 0,
+        "store": "Amazon"
       }
     },
     "tags": [
@@ -693,9 +1045,25 @@
     "distancia": [],
     "photo": "https://m.media-amazon.com/images/G/32/gno/sprites/nav-sprite-global-1x-reorg-privacy._AC_SY500_.jpg",
     "affiliate_links": {
+      "oficial": {
+        "url": "https://www.fila.com.br/search?q=Float%20Maxxi",
+        "price": 349.99,
+        "store": "FILA"
+      },
       "awin": {
         "url": "https://www.awin1.com/cread.php?awinmid=15503&awinaffid=2800712&clickref=FILA_Float_Maxxi",
-        "price": 349.99
+        "price": 349.99,
+        "store": "FILA"
+      },
+      "netshoes": {
+        "url": "https://www.netshoes.com.br/search?q=Float%20Maxxi&affid=4683922",
+        "price": 0,
+        "store": "Netshoes"
+      },
+      "amazon": {
+        "url": "https://amazon.com.br/s?k=Float%20Maxxi&tag=tenisideal26-20",
+        "price": 0,
+        "store": "Amazon"
       }
     },
     "tags": [
@@ -723,9 +1091,25 @@
     "distancia": [],
     "photo": "https://m.media-amazon.com/images/G/32/gno/sprites/nav-sprite-global-1x-reorg-privacy._AC_SY500_.jpg",
     "affiliate_links": {
+      "oficial": {
+        "url": "https://www.fila.com.br/search?q=Racer%20Fastpace",
+        "price": 299.99,
+        "store": "FILA"
+      },
       "awin": {
         "url": "https://www.awin1.com/cread.php?awinmid=15503&awinaffid=2800712&clickref=FILA_Racer_Fastpace",
-        "price": 299.99
+        "price": 299.99,
+        "store": "FILA"
+      },
+      "netshoes": {
+        "url": "https://www.netshoes.com.br/search?q=Racer%20Fastpace&affid=4683922",
+        "price": 0,
+        "store": "Netshoes"
+      },
+      "amazon": {
+        "url": "https://amazon.com.br/s?k=Racer%20Fastpace&tag=tenisideal26-20",
+        "price": 0,
+        "store": "Amazon"
       }
     },
     "tags": [
@@ -753,9 +1137,25 @@
     "distancia": [],
     "photo": "https://m.media-amazon.com/images/G/32/gno/sprites/nav-sprite-global-1x-reorg-privacy._AC_SY500_.jpg",
     "affiliate_links": {
+      "oficial": {
+        "url": "https://www.fila.com.br/search?q=Racer%20Comet",
+        "price": 289.99,
+        "store": "FILA"
+      },
       "awin": {
         "url": "https://www.awin1.com/cread.php?awinmid=15503&awinaffid=2800712&clickref=FILA_Racer_Comet",
-        "price": 289.99
+        "price": 289.99,
+        "store": "FILA"
+      },
+      "netshoes": {
+        "url": "https://www.netshoes.com.br/search?q=Racer%20Comet&affid=4683922",
+        "price": 0,
+        "store": "Netshoes"
+      },
+      "amazon": {
+        "url": "https://amazon.com.br/s?k=Racer%20Comet&tag=tenisideal26-20",
+        "price": 0,
+        "store": "Amazon"
       }
     },
     "tags": [
@@ -783,9 +1183,25 @@
     "distancia": [],
     "photo": "https://m.media-amazon.com/images/G/32/gno/sprites/nav-sprite-global-1x-reorg-privacy._AC_SY500_.jpg",
     "affiliate_links": {
+      "oficial": {
+        "url": "https://www.fila.com.br/search?q=Recovery",
+        "price": 269.99,
+        "store": "FILA"
+      },
       "awin": {
         "url": "https://www.awin1.com/cread.php?awinmid=15503&awinaffid=2800712&clickref=FILA_Recovery",
-        "price": 269.99
+        "price": 269.99,
+        "store": "FILA"
+      },
+      "netshoes": {
+        "url": "https://www.netshoes.com.br/search?q=Recovery&affid=4683922",
+        "price": 0,
+        "store": "Netshoes"
+      },
+      "amazon": {
+        "url": "https://amazon.com.br/s?k=Recovery&tag=tenisideal26-20",
+        "price": 0,
+        "store": "Amazon"
       }
     },
     "tags": [
@@ -813,9 +1229,25 @@
     "distancia": [],
     "photo": "https://m.media-amazon.com/images/I/610N9clHcfL._AC_SY675_.jpg",
     "affiliate_links": {
+      "oficial": {
+        "url": "https://www.hoka.com/pt_br/search?q=Hoka%20Clifton%2010",
+        "price": 1300.0,
+        "store": "HOKA"
+      },
       "awin": {
         "url": "https://www.awin1.com/cread.php?awinmid=15503&awinaffid=2800712&clickref=HOKA_Hoka_Clifton_10",
-        "price": 1300.0
+        "price": 1300.0,
+        "store": "HOKA"
+      },
+      "netshoes": {
+        "url": "https://www.netshoes.com.br/search?q=Hoka%20Clifton%2010&affid=4683922",
+        "price": 0,
+        "store": "Netshoes"
+      },
+      "amazon": {
+        "url": "https://amazon.com.br/s?k=Hoka%20Clifton%2010&tag=tenisideal26-20",
+        "price": 0,
+        "store": "Amazon"
       }
     },
     "tags": [
@@ -845,9 +1277,25 @@
     "distancia": [],
     "photo": "https://m.media-amazon.com/images/I/61FlAJi0tsL._AC_SY500_.jpg",
     "affiliate_links": {
+      "oficial": {
+        "url": "https://www.hoka.com/pt_br/search?q=Hoka%20Rocket%20X%203",
+        "price": 2400.0,
+        "store": "HOKA"
+      },
       "awin": {
         "url": "https://www.awin1.com/cread.php?awinmid=15503&awinaffid=2800712&clickref=HOKA_Hoka_Rocket_X_3",
-        "price": 2400.0
+        "price": 2400.0,
+        "store": "HOKA"
+      },
+      "netshoes": {
+        "url": "https://www.netshoes.com.br/search?q=Hoka%20Rocket%20X%203&affid=4683922",
+        "price": 0,
+        "store": "Netshoes"
+      },
+      "amazon": {
+        "url": "https://amazon.com.br/s?k=Hoka%20Rocket%20X%203&tag=tenisideal26-20",
+        "price": 0,
+        "store": "Amazon"
       }
     },
     "tags": [
@@ -877,9 +1325,25 @@
     "distancia": [],
     "photo": "https://m.media-amazon.com/images/I/61Gkm+6EdqL._AC_SY500_.jpg",
     "affiliate_links": {
+      "oficial": {
+        "url": "https://www.hoka.com/pt_br/search?q=Clifton%209",
+        "price": 1120.0,
+        "store": "HOKA"
+      },
       "awin": {
         "url": "https://www.awin1.com/cread.php?awinmid=15503&awinaffid=2800712&clickref=HOKA_Clifton_9",
-        "price": 1120.0
+        "price": 1120.0,
+        "store": "HOKA"
+      },
+      "netshoes": {
+        "url": "https://www.netshoes.com.br/search?q=Clifton%209&affid=4683922",
+        "price": 0,
+        "store": "Netshoes"
+      },
+      "amazon": {
+        "url": "https://amazon.com.br/s?k=Clifton%209&tag=tenisideal26-20",
+        "price": 0,
+        "store": "Amazon"
       }
     },
     "tags": [
@@ -907,9 +1371,25 @@
     "distancia": [],
     "photo": "https://m.media-amazon.com/images/G/32/gno/sprites/nav-sprite-global-1x-reorg-privacy._AC_SY500_.jpg",
     "affiliate_links": {
+      "oficial": {
+        "url": "https://www.hoka.com/pt_br/search?q=Speedgoat%206",
+        "price": 1233.0,
+        "store": "HOKA"
+      },
       "awin": {
         "url": "https://www.awin1.com/cread.php?awinmid=15503&awinaffid=2800712&clickref=HOKA_Speedgoat_6",
-        "price": 1233.0
+        "price": 1233.0,
+        "store": "HOKA"
+      },
+      "netshoes": {
+        "url": "https://www.netshoes.com.br/search?q=Speedgoat%206&affid=4683922",
+        "price": 0,
+        "store": "Netshoes"
+      },
+      "amazon": {
+        "url": "https://amazon.com.br/s?k=Speedgoat%206&tag=tenisideal26-20",
+        "price": 0,
+        "store": "Amazon"
       }
     },
     "tags": [
@@ -937,9 +1417,25 @@
     "distancia": [],
     "photo": "https://m.media-amazon.com/images/G/32/gno/sprites/nav-sprite-global-1x-reorg-privacy._AC_SY500_.jpg",
     "affiliate_links": {
+      "oficial": {
+        "url": "https://www.mizunostore.com.br/buscar/Wave%20Inspire%2021",
+        "price": 650.0,
+        "store": "MIZUNO"
+      },
       "awin": {
         "url": "https://www.awin1.com/cread.php?awinmid=15503&awinaffid=2800712&clickref=MIZUNO_Wave_Inspire_21",
-        "price": 650.0
+        "price": 650.0,
+        "store": "MIZUNO"
+      },
+      "netshoes": {
+        "url": "https://www.netshoes.com.br/search?q=Wave%20Inspire%2021&affid=4683922",
+        "price": 0,
+        "store": "Netshoes"
+      },
+      "amazon": {
+        "url": "https://amazon.com.br/s?k=Wave%20Inspire%2021&tag=tenisideal26-20",
+        "price": 0,
+        "store": "Amazon"
       }
     },
     "tags": [
@@ -967,9 +1463,25 @@
     "distancia": [],
     "photo": "https://m.media-amazon.com/images/G/32/gno/sprites/nav-sprite-global-1x-reorg-privacy._AC_SY500_.jpg",
     "affiliate_links": {
+      "oficial": {
+        "url": "https://www.mizunostore.com.br/buscar/Wave%20Rider%2028",
+        "price": 549.99,
+        "store": "MIZUNO"
+      },
       "awin": {
         "url": "https://www.awin1.com/cread.php?awinmid=15503&awinaffid=2800712&clickref=MIZUNO_Wave_Rider_28",
-        "price": 549.99
+        "price": 549.99,
+        "store": "MIZUNO"
+      },
+      "netshoes": {
+        "url": "https://www.netshoes.com.br/search?q=Wave%20Rider%2028&affid=4683922",
+        "price": 0,
+        "store": "Netshoes"
+      },
+      "amazon": {
+        "url": "https://amazon.com.br/s?k=Wave%20Rider%2028&tag=tenisideal26-20",
+        "price": 0,
+        "store": "Amazon"
       }
     },
     "tags": [
@@ -998,9 +1510,25 @@
     "distancia": [],
     "photo": "https://m.media-amazon.com/images/I/61Opa1W1J8L._AC_SY500_.jpg",
     "affiliate_links": {
+      "oficial": {
+        "url": "https://www.mizunostore.com.br/buscar/Wave%20Sky%209",
+        "price": 1199.99,
+        "store": "MIZUNO"
+      },
       "awin": {
         "url": "https://www.awin1.com/cread.php?awinmid=15503&awinaffid=2800712&clickref=MIZUNO_Wave_Sky_9",
-        "price": 1199.99
+        "price": 1199.99,
+        "store": "MIZUNO"
+      },
+      "netshoes": {
+        "url": "https://www.netshoes.com.br/search?q=Wave%20Sky%209&affid=4683922",
+        "price": 0,
+        "store": "Netshoes"
+      },
+      "amazon": {
+        "url": "https://amazon.com.br/s?k=Wave%20Sky%209&tag=tenisideal26-20",
+        "price": 0,
+        "store": "Amazon"
       }
     },
     "tags": [
@@ -1028,9 +1556,25 @@
     "distancia": [],
     "photo": "https://m.media-amazon.com/images/I/61ALp2Roc4L._AC_SY500_.jpg",
     "affiliate_links": {
+      "oficial": {
+        "url": "https://www.mizunostore.com.br/buscar/Victory%20RSP",
+        "price": 407.0,
+        "store": "MIZUNO"
+      },
       "awin": {
         "url": "https://www.awin1.com/cread.php?awinmid=15503&awinaffid=2800712&clickref=MIZUNO_Victory_RSP",
-        "price": 407.0
+        "price": 407.0,
+        "store": "MIZUNO"
+      },
+      "netshoes": {
+        "url": "https://www.netshoes.com.br/search?q=Victory%20RSP&affid=4683922",
+        "price": 0,
+        "store": "Netshoes"
+      },
+      "amazon": {
+        "url": "https://amazon.com.br/s?k=Victory%20RSP&tag=tenisideal26-20",
+        "price": 0,
+        "store": "Amazon"
       }
     },
     "tags": [
@@ -1059,9 +1603,25 @@
     "distancia": [],
     "photo": "https://m.media-amazon.com/images/I/61jdJVu1jmL._AC_SY500_.jpg",
     "affiliate_links": {
+      "oficial": {
+        "url": "https://www.mizunostore.com.br/buscar/Base%20Ride",
+        "price": 449.99,
+        "store": "MIZUNO"
+      },
       "awin": {
         "url": "https://www.awin1.com/cread.php?awinmid=15503&awinaffid=2800712&clickref=MIZUNO_Base_Ride",
-        "price": 449.99
+        "price": 449.99,
+        "store": "MIZUNO"
+      },
+      "netshoes": {
+        "url": "https://www.netshoes.com.br/search?q=Base%20Ride&affid=4683922",
+        "price": 0,
+        "store": "Netshoes"
+      },
+      "amazon": {
+        "url": "https://amazon.com.br/s?k=Base%20Ride&tag=tenisideal26-20",
+        "price": 0,
+        "store": "Amazon"
       }
     },
     "tags": [
@@ -1090,9 +1650,25 @@
     "distancia": [],
     "photo": "https://m.media-amazon.com/images/I/51ifrRin22L._AC_SY500_.jpg",
     "affiliate_links": {
+      "oficial": {
+        "url": "https://www.mizunostore.com.br/buscar/Creation%2026",
+        "price": 679.99,
+        "store": "MIZUNO"
+      },
       "awin": {
         "url": "https://www.awin1.com/cread.php?awinmid=15503&awinaffid=2800712&clickref=MIZUNO_Creation_26",
-        "price": 679.99
+        "price": 679.99,
+        "store": "MIZUNO"
+      },
+      "netshoes": {
+        "url": "https://www.netshoes.com.br/search?q=Creation%2026&affid=4683922",
+        "price": 0,
+        "store": "Netshoes"
+      },
+      "amazon": {
+        "url": "https://amazon.com.br/s?k=Creation%2026&tag=tenisideal26-20",
+        "price": 0,
+        "store": "Amazon"
       }
     },
     "tags": [
@@ -1121,9 +1697,25 @@
     "distancia": [],
     "photo": "https://m.media-amazon.com/images/I/71pGo9F0wnL._AC_SY395_.jpg",
     "affiliate_links": {
+      "oficial": {
+        "url": "https://www.mizunostore.com.br/buscar/Neo%20Zen",
+        "price": 1402.88,
+        "store": "MIZUNO"
+      },
       "awin": {
         "url": "https://www.awin1.com/cread.php?awinmid=15503&awinaffid=2800712&clickref=MIZUNO_Neo_Zen",
-        "price": 1402.88
+        "price": 1402.88,
+        "store": "MIZUNO"
+      },
+      "netshoes": {
+        "url": "https://www.netshoes.com.br/search?q=Neo%20Zen&affid=4683922",
+        "price": 0,
+        "store": "Netshoes"
+      },
+      "amazon": {
+        "url": "https://amazon.com.br/s?k=Neo%20Zen&tag=tenisideal26-20",
+        "price": 0,
+        "store": "Amazon"
       }
     },
     "tags": [
@@ -1152,9 +1744,25 @@
     "distancia": [],
     "photo": "https://m.media-amazon.com/images/G/32/gno/sprites/nav-sprite-global-1x-reorg-privacy._AC_SY500_.jpg",
     "affiliate_links": {
+      "oficial": {
+        "url": "https://www.mizunostore.com.br/buscar/Wave%20Dynasty%207",
+        "price": 279.99,
+        "store": "MIZUNO"
+      },
       "awin": {
         "url": "https://www.awin1.com/cread.php?awinmid=15503&awinaffid=2800712&clickref=MIZUNO_Wave_Dynasty_7",
-        "price": 279.99
+        "price": 279.99,
+        "store": "MIZUNO"
+      },
+      "netshoes": {
+        "url": "https://www.netshoes.com.br/search?q=Wave%20Dynasty%207&affid=4683922",
+        "price": 0,
+        "store": "Netshoes"
+      },
+      "amazon": {
+        "url": "https://amazon.com.br/s?k=Wave%20Dynasty%207&tag=tenisideal26-20",
+        "price": 0,
+        "store": "Amazon"
       }
     },
     "tags": [
@@ -1183,9 +1791,25 @@
     "distancia": [],
     "photo": "https://m.media-amazon.com/images/I/51CCNZOPXlL._AC_SY395_.jpg",
     "affiliate_links": {
+      "oficial": {
+        "url": "https://www.mizunostore.com.br/buscar/Enigma%202",
+        "price": 299.99,
+        "store": "MIZUNO"
+      },
       "awin": {
         "url": "https://www.awin1.com/cread.php?awinmid=15503&awinaffid=2800712&clickref=MIZUNO_Enigma_2",
-        "price": 299.99
+        "price": 299.99,
+        "store": "MIZUNO"
+      },
+      "netshoes": {
+        "url": "https://www.netshoes.com.br/search?q=Enigma%202&affid=4683922",
+        "price": 0,
+        "store": "Netshoes"
+      },
+      "amazon": {
+        "url": "https://amazon.com.br/s?k=Enigma%202&tag=tenisideal26-20",
+        "price": 0,
+        "store": "Amazon"
       }
     },
     "tags": [
@@ -1214,9 +1838,25 @@
     "distancia": [],
     "photo": "https://m.media-amazon.com/images/I/5178yONIZbL._AC_SY500_.jpg",
     "affiliate_links": {
+      "oficial": {
+        "url": "https://www.mizunostore.com.br/buscar/Wave%20Prophecy%20Beta%202",
+        "price": 1299.99,
+        "store": "MIZUNO"
+      },
       "awin": {
         "url": "https://www.awin1.com/cread.php?awinmid=15503&awinaffid=2800712&clickref=MIZUNO_Wave_Prophecy_Beta_2",
-        "price": 1299.99
+        "price": 1299.99,
+        "store": "MIZUNO"
+      },
+      "netshoes": {
+        "url": "https://www.netshoes.com.br/search?q=Wave%20Prophecy%20Beta%202&affid=4683922",
+        "price": 0,
+        "store": "Netshoes"
+      },
+      "amazon": {
+        "url": "https://amazon.com.br/s?k=Wave%20Prophecy%20Beta%202&tag=tenisideal26-20",
+        "price": 0,
+        "store": "Amazon"
       }
     },
     "tags": [
@@ -1245,9 +1885,25 @@
     "distancia": [],
     "photo": "https://m.media-amazon.com/images/G/32/gno/sprites/nav-sprite-global-1x-reorg-privacy._AC_SY500_.jpg",
     "affiliate_links": {
+      "oficial": {
+        "url": "https://www.mizunostore.com.br/buscar/Glow%203",
+        "price": 399.99,
+        "store": "MIZUNO"
+      },
       "awin": {
         "url": "https://www.awin1.com/cread.php?awinmid=15503&awinaffid=2800712&clickref=MIZUNO_Glow_3",
-        "price": 399.99
+        "price": 399.99,
+        "store": "MIZUNO"
+      },
+      "netshoes": {
+        "url": "https://www.netshoes.com.br/search?q=Glow%203&affid=4683922",
+        "price": 0,
+        "store": "Netshoes"
+      },
+      "amazon": {
+        "url": "https://amazon.com.br/s?k=Glow%203&tag=tenisideal26-20",
+        "price": 0,
+        "store": "Amazon"
       }
     },
     "tags": [
@@ -1276,9 +1932,25 @@
     "distancia": [],
     "photo": "https://m.media-amazon.com/images/G/32/gno/sprites/nav-sprite-global-1x-reorg-privacy._AC_SY500_.jpg",
     "affiliate_links": {
+      "oficial": {
+        "url": "https://www.mizunostore.com.br/buscar/Wave%20Daichi%209",
+        "price": 699.99,
+        "store": "MIZUNO"
+      },
       "awin": {
         "url": "https://www.awin1.com/cread.php?awinmid=15503&awinaffid=2800712&clickref=MIZUNO_Wave_Daichi_9",
-        "price": 699.99
+        "price": 699.99,
+        "store": "MIZUNO"
+      },
+      "netshoes": {
+        "url": "https://www.netshoes.com.br/search?q=Wave%20Daichi%209&affid=4683922",
+        "price": 0,
+        "store": "Netshoes"
+      },
+      "amazon": {
+        "url": "https://amazon.com.br/s?k=Wave%20Daichi%209&tag=tenisideal26-20",
+        "price": 0,
+        "store": "Amazon"
       }
     },
     "tags": [
@@ -1307,9 +1979,25 @@
     "distancia": [],
     "photo": "https://m.media-amazon.com/images/I/51Z+ohQHSIL._AC_SY395_.jpg",
     "affiliate_links": {
+      "oficial": {
+        "url": "https://www.newbalance.com.br/search?q=Fresh%20Foam%20X%201080%20V14",
+        "price": 808.11,
+        "store": "NEW BALANCE"
+      },
       "awin": {
         "url": "https://www.awin1.com/cread.php?awinmid=15503&awinaffid=2800712&clickref=NEW BALANCE_Fresh_Foam_X_1080_V14",
-        "price": 808.11
+        "price": 808.11,
+        "store": "NEW BALANCE"
+      },
+      "netshoes": {
+        "url": "https://www.netshoes.com.br/search?q=Fresh%20Foam%20X%201080%20V14&affid=4683922",
+        "price": 0,
+        "store": "Netshoes"
+      },
+      "amazon": {
+        "url": "https://amazon.com.br/s?k=Fresh%20Foam%20X%201080%20V14&tag=tenisideal26-20",
+        "price": 0,
+        "store": "Amazon"
       }
     },
     "tags": [
@@ -1337,9 +2025,25 @@
     "distancia": [],
     "photo": "https://m.media-amazon.com/images/I/61amgun7XML._AC_SY675_.jpg",
     "affiliate_links": {
+      "oficial": {
+        "url": "https://www.newbalance.com.br/search?q=530",
+        "price": 699.9,
+        "store": "NEW BALANCE"
+      },
       "awin": {
         "url": "https://www.awin1.com/cread.php?awinmid=15503&awinaffid=2800712&clickref=NEW BALANCE_530",
-        "price": 699.9
+        "price": 699.9,
+        "store": "NEW BALANCE"
+      },
+      "netshoes": {
+        "url": "https://www.netshoes.com.br/search?q=530&affid=4683922",
+        "price": 0,
+        "store": "Netshoes"
+      },
+      "amazon": {
+        "url": "https://amazon.com.br/s?k=530&tag=tenisideal26-20",
+        "price": 0,
+        "store": "Amazon"
       }
     },
     "tags": [
@@ -1368,9 +2072,25 @@
     "distancia": [],
     "photo": "https://m.media-amazon.com/images/G/32/gno/sprites/nav-sprite-global-1x-reorg-privacy._AC_SY500_.jpg",
     "affiliate_links": {
+      "oficial": {
+        "url": "https://www.newbalance.com.br/search?q=1080%20v15",
+        "price": 1299.0,
+        "store": "NEW BALANCE"
+      },
       "awin": {
         "url": "https://www.awin1.com/cread.php?awinmid=15503&awinaffid=2800712&clickref=NEW BALANCE_1080_v15",
-        "price": 1299.0
+        "price": 1299.0,
+        "store": "NEW BALANCE"
+      },
+      "netshoes": {
+        "url": "https://www.netshoes.com.br/search?q=1080%20v15&affid=4683922",
+        "price": 0,
+        "store": "Netshoes"
+      },
+      "amazon": {
+        "url": "https://amazon.com.br/s?k=1080%20v15&tag=tenisideal26-20",
+        "price": 0,
+        "store": "Amazon"
       }
     },
     "tags": [
@@ -1400,9 +2120,25 @@
     "distancia": [],
     "photo": "https://m.media-amazon.com/images/G/32/gno/sprites/nav-sprite-global-1x-reorg-privacy._AC_SY500_.jpg",
     "affiliate_links": {
+      "oficial": {
+        "url": "https://www.newbalance.com.br/search?q=FuelCell%20SuperComp%20Elite%20v5",
+        "price": 2199.0,
+        "store": "NEW BALANCE"
+      },
       "awin": {
         "url": "https://www.awin1.com/cread.php?awinmid=15503&awinaffid=2800712&clickref=NEW BALANCE_FuelCell_SuperComp_Elite_v5",
-        "price": 2199.0
+        "price": 2199.0,
+        "store": "NEW BALANCE"
+      },
+      "netshoes": {
+        "url": "https://www.netshoes.com.br/search?q=FuelCell%20SuperComp%20Elite%20v5&affid=4683922",
+        "price": 0,
+        "store": "Netshoes"
+      },
+      "amazon": {
+        "url": "https://amazon.com.br/s?k=FuelCell%20SuperComp%20Elite%20v5&tag=tenisideal26-20",
+        "price": 0,
+        "store": "Amazon"
       }
     },
     "tags": [
@@ -1432,9 +2168,25 @@
     "distancia": [],
     "photo": "https://m.media-amazon.com/images/I/51jw--PJVpL._AC_SY500_.jpg",
     "affiliate_links": {
+      "oficial": {
+        "url": "https://www.newbalance.com.br/search?q=Fresh%20Foam%20X%20Hierro%20v8",
+        "price": 1281.86,
+        "store": "NEW BALANCE"
+      },
       "awin": {
         "url": "https://www.awin1.com/cread.php?awinmid=15503&awinaffid=2800712&clickref=NEW BALANCE_Fresh_Foam_X_Hierro_v8",
-        "price": 1281.86
+        "price": 1281.86,
+        "store": "NEW BALANCE"
+      },
+      "netshoes": {
+        "url": "https://www.netshoes.com.br/search?q=Fresh%20Foam%20X%20Hierro%20v8&affid=4683922",
+        "price": 0,
+        "store": "Netshoes"
+      },
+      "amazon": {
+        "url": "https://amazon.com.br/s?k=Fresh%20Foam%20X%20Hierro%20v8&tag=tenisideal26-20",
+        "price": 0,
+        "store": "Amazon"
       }
     },
     "tags": [
@@ -1464,9 +2216,25 @@
     "distancia": [],
     "photo": "https://m.media-amazon.com/images/I/71+9s4rDg-L._AC_SY395_.jpg",
     "affiliate_links": {
+      "oficial": {
+        "url": "https://www.newbalance.com.br/search?q=New%20Balance%20Rebel%20v5",
+        "price": 989.79,
+        "store": "NEW BALANCE"
+      },
       "awin": {
         "url": "https://www.awin1.com/cread.php?awinmid=15503&awinaffid=2800712&clickref=NEW BALANCE_New_Balance_Rebel_v5",
-        "price": 989.79
+        "price": 989.79,
+        "store": "NEW BALANCE"
+      },
+      "netshoes": {
+        "url": "https://www.netshoes.com.br/search?q=New%20Balance%20Rebel%20v5&affid=4683922",
+        "price": 0,
+        "store": "Netshoes"
+      },
+      "amazon": {
+        "url": "https://amazon.com.br/s?k=New%20Balance%20Rebel%20v5&tag=tenisideal26-20",
+        "price": 0,
+        "store": "Amazon"
       }
     },
     "tags": [
@@ -1496,9 +2264,25 @@
     "distancia": [],
     "photo": "https://m.media-amazon.com/images/G/32/gno/sprites/nav-sprite-global-1x-reorg-privacy._AC_SY500_.jpg",
     "affiliate_links": {
+      "oficial": {
+        "url": "https://www.nike.com.br/search?q=Vomero%20Plus",
+        "price": 1234.99,
+        "store": "NIKE"
+      },
       "awin": {
         "url": "https://www.awin1.com/cread.php?awinmid=15576&awinaffid=2800712&clickref=NIKE_Vomero_Plus",
-        "price": 1234.99
+        "price": 1234.99,
+        "store": "NIKE"
+      },
+      "netshoes": {
+        "url": "https://www.netshoes.com.br/search?q=Vomero%20Plus&affid=4683922",
+        "price": 0,
+        "store": "Netshoes"
+      },
+      "amazon": {
+        "url": "https://amazon.com.br/s?k=Vomero%20Plus&tag=tenisideal26-20",
+        "price": 0,
+        "store": "Amazon"
       }
     },
     "tags": [],
@@ -1523,9 +2307,25 @@
     "distancia": [],
     "photo": "https://m.media-amazon.com/images/G/32/gno/sprites/nav-sprite-global-1x-reorg-privacy._AC_SY500_.jpg",
     "affiliate_links": {
+      "oficial": {
+        "url": "https://www.nike.com.br/search?q=ZoomX%20Ultrafly%20Trail",
+        "price": 2171.0,
+        "store": "NIKE"
+      },
       "awin": {
         "url": "https://www.awin1.com/cread.php?awinmid=15576&awinaffid=2800712&clickref=NIKE_ZoomX_Ultrafly_Trail",
-        "price": 2171.0
+        "price": 2171.0,
+        "store": "NIKE"
+      },
+      "netshoes": {
+        "url": "https://www.netshoes.com.br/search?q=ZoomX%20Ultrafly%20Trail&affid=4683922",
+        "price": 0,
+        "store": "Netshoes"
+      },
+      "amazon": {
+        "url": "https://amazon.com.br/s?k=ZoomX%20Ultrafly%20Trail&tag=tenisideal26-20",
+        "price": 0,
+        "store": "Amazon"
       }
     },
     "tags": [
@@ -1553,9 +2353,25 @@
     "distancia": [],
     "photo": "https://m.media-amazon.com/images/G/32/gno/sprites/nav-sprite-global-1x-reorg-privacy._AC_SY500_.jpg",
     "affiliate_links": {
+      "oficial": {
+        "url": "https://www.nike.com.br/search?q=Downshifter%2013",
+        "price": 427.49,
+        "store": "NIKE"
+      },
       "awin": {
         "url": "https://www.awin1.com/cread.php?awinmid=15576&awinaffid=2800712&clickref=NIKE_Downshifter_13",
-        "price": 427.49
+        "price": 427.49,
+        "store": "NIKE"
+      },
+      "netshoes": {
+        "url": "https://www.netshoes.com.br/search?q=Downshifter%2013&affid=4683922",
+        "price": 0,
+        "store": "Netshoes"
+      },
+      "amazon": {
+        "url": "https://amazon.com.br/s?k=Downshifter%2013&tag=tenisideal26-20",
+        "price": 0,
+        "store": "Amazon"
       }
     },
     "tags": [
@@ -1582,9 +2398,25 @@
     "distancia": [],
     "photo": "https://m.media-amazon.com/images/G/32/gno/sprites/nav-sprite-global-1x-reorg-privacy._AC_SY500_.jpg",
     "affiliate_links": {
+      "oficial": {
+        "url": "https://www.nike.com.br/search?q=Revolution%208",
+        "price": 303.99,
+        "store": "NIKE"
+      },
       "awin": {
         "url": "https://www.awin1.com/cread.php?awinmid=15576&awinaffid=2800712&clickref=NIKE_Revolution_8",
-        "price": 303.99
+        "price": 303.99,
+        "store": "NIKE"
+      },
+      "netshoes": {
+        "url": "https://www.netshoes.com.br/search?q=Revolution%208&affid=4683922",
+        "price": 0,
+        "store": "Netshoes"
+      },
+      "amazon": {
+        "url": "https://amazon.com.br/s?k=Revolution%208&tag=tenisideal26-20",
+        "price": 0,
+        "store": "Amazon"
       }
     },
     "tags": [],
@@ -1609,9 +2441,25 @@
     "distancia": [],
     "photo": "https://m.media-amazon.com/images/I/61n-683dSvL._AC_SY500_.jpg",
     "affiliate_links": {
+      "oficial": {
+        "url": "https://www.nike.com.br/search?q=Winflo%2011",
+        "price": 489.99,
+        "store": "NIKE"
+      },
       "awin": {
         "url": "https://www.awin1.com/cread.php?awinmid=15576&awinaffid=2800712&clickref=NIKE_Winflo_11",
-        "price": 489.99
+        "price": 489.99,
+        "store": "NIKE"
+      },
+      "netshoes": {
+        "url": "https://www.netshoes.com.br/search?q=Winflo%2011&affid=4683922",
+        "price": 0,
+        "store": "Netshoes"
+      },
+      "amazon": {
+        "url": "https://amazon.com.br/s?k=Winflo%2011&tag=tenisideal26-20",
+        "price": 0,
+        "store": "Amazon"
       }
     },
     "tags": [],
@@ -1636,9 +2484,25 @@
     "distancia": [],
     "photo": "https://m.media-amazon.com/images/G/32/gno/sprites/nav-sprite-global-1x-reorg-privacy._AC_SY500_.jpg",
     "affiliate_links": {
+      "oficial": {
+        "url": "https://www.nike.com.br/search?q=Quest%205",
+        "price": 474.99,
+        "store": "NIKE"
+      },
       "awin": {
         "url": "https://www.awin1.com/cread.php?awinmid=15576&awinaffid=2800712&clickref=NIKE_Quest_5",
-        "price": 474.99
+        "price": 474.99,
+        "store": "NIKE"
+      },
+      "netshoes": {
+        "url": "https://www.netshoes.com.br/search?q=Quest%205&affid=4683922",
+        "price": 0,
+        "store": "Netshoes"
+      },
+      "amazon": {
+        "url": "https://amazon.com.br/s?k=Quest%205&tag=tenisideal26-20",
+        "price": 0,
+        "store": "Amazon"
       }
     },
     "tags": [],
@@ -1663,9 +2527,25 @@
     "distancia": [],
     "photo": "https://m.media-amazon.com/images/G/32/gno/sprites/nav-sprite-global-1x-reorg-privacy._AC_SY500_.jpg",
     "affiliate_links": {
+      "oficial": {
+        "url": "https://www.nike.com.br/search?q=Air%20Zoom%20Alphafly%203",
+        "price": 1781.24,
+        "store": "NIKE"
+      },
       "awin": {
         "url": "https://www.awin1.com/cread.php?awinmid=15576&awinaffid=2800712&clickref=NIKE_Air_Zoom_Alphafly_3",
-        "price": 1781.24
+        "price": 1781.24,
+        "store": "NIKE"
+      },
+      "netshoes": {
+        "url": "https://www.netshoes.com.br/search?q=Air%20Zoom%20Alphafly%203&affid=4683922",
+        "price": 0,
+        "store": "Netshoes"
+      },
+      "amazon": {
+        "url": "https://amazon.com.br/s?k=Air%20Zoom%20Alphafly%203&tag=tenisideal26-20",
+        "price": 0,
+        "store": "Amazon"
       }
     },
     "tags": [],
@@ -1690,9 +2570,25 @@
     "distancia": [],
     "photo": "https://m.media-amazon.com/images/I/71NZVOiH5SL._AC_SX395_.jpg",
     "affiliate_links": {
+      "oficial": {
+        "url": "https://www.nike.com.br/search?q=Zoom%20Fly%206",
+        "price": 1402.05,
+        "store": "NIKE"
+      },
       "awin": {
         "url": "https://www.awin1.com/cread.php?awinmid=15576&awinaffid=2800712&clickref=NIKE_Zoom_Fly_6",
-        "price": 1402.05
+        "price": 1402.05,
+        "store": "NIKE"
+      },
+      "netshoes": {
+        "url": "https://www.netshoes.com.br/search?q=Zoom%20Fly%206&affid=4683922",
+        "price": 0,
+        "store": "Netshoes"
+      },
+      "amazon": {
+        "url": "https://amazon.com.br/s?k=Zoom%20Fly%206&tag=tenisideal26-20",
+        "price": 0,
+        "store": "Amazon"
       }
     },
     "tags": [],
@@ -1717,9 +2613,25 @@
     "distancia": [],
     "photo": "https://m.media-amazon.com/images/G/32/gno/sprites/nav-sprite-global-1x-reorg-privacy._AC_SY500_.jpg",
     "affiliate_links": {
+      "oficial": {
+        "url": "https://www.nike.com.br/search?q=Structure%2025",
+        "price": 807.49,
+        "store": "NIKE"
+      },
       "awin": {
         "url": "https://www.awin1.com/cread.php?awinmid=15576&awinaffid=2800712&clickref=NIKE_Structure_25",
-        "price": 807.49
+        "price": 807.49,
+        "store": "NIKE"
+      },
+      "netshoes": {
+        "url": "https://www.netshoes.com.br/search?q=Structure%2025&affid=4683922",
+        "price": 0,
+        "store": "Netshoes"
+      },
+      "amazon": {
+        "url": "https://amazon.com.br/s?k=Structure%2025&tag=tenisideal26-20",
+        "price": 0,
+        "store": "Amazon"
       }
     },
     "tags": [],
@@ -1744,9 +2656,25 @@
     "distancia": [],
     "photo": "https://m.media-amazon.com/images/G/32/gno/sprites/nav-sprite-global-1x-reorg-privacy._AC_SY500_.jpg",
     "affiliate_links": {
+      "oficial": {
+        "url": "https://www.nike.com.br/search?q=Invincible%203",
+        "price": 1009.21,
+        "store": "NIKE"
+      },
       "awin": {
         "url": "https://www.awin1.com/cread.php?awinmid=15576&awinaffid=2800712&clickref=NIKE_Invincible_3",
-        "price": 1009.21
+        "price": 1009.21,
+        "store": "NIKE"
+      },
+      "netshoes": {
+        "url": "https://www.netshoes.com.br/search?q=Invincible%203&affid=4683922",
+        "price": 0,
+        "store": "Netshoes"
+      },
+      "amazon": {
+        "url": "https://amazon.com.br/s?k=Invincible%203&tag=tenisideal26-20",
+        "price": 0,
+        "store": "Amazon"
       }
     },
     "tags": [],
@@ -1771,9 +2699,25 @@
     "distancia": [],
     "photo": "https://m.media-amazon.com/images/G/32/gno/sprites/nav-sprite-global-1x-reorg-privacy._AC_SY500_.jpg",
     "affiliate_links": {
+      "oficial": {
+        "url": "https://www.nike.com.br/search?q=Vomero%2018",
+        "price": 949.99,
+        "store": "NIKE"
+      },
       "awin": {
         "url": "https://www.awin1.com/cread.php?awinmid=15576&awinaffid=2800712&clickref=NIKE_Vomero_18",
-        "price": 949.99
+        "price": 949.99,
+        "store": "NIKE"
+      },
+      "netshoes": {
+        "url": "https://www.netshoes.com.br/search?q=Vomero%2018&affid=4683922",
+        "price": 0,
+        "store": "Netshoes"
+      },
+      "amazon": {
+        "url": "https://amazon.com.br/s?k=Vomero%2018&tag=tenisideal26-20",
+        "price": 0,
+        "store": "Amazon"
       }
     },
     "tags": [],
@@ -1798,9 +2742,25 @@
     "distancia": [],
     "photo": "https://m.media-amazon.com/images/I/81c-2ZO2FJL._AC_SY500_.jpg",
     "affiliate_links": {
+      "oficial": {
+        "url": "https://www.nike.com.br/search?q=Pegasus%20Trail%205",
+        "price": 968.99,
+        "store": "NIKE"
+      },
       "awin": {
         "url": "https://www.awin1.com/cread.php?awinmid=15576&awinaffid=2800712&clickref=NIKE_Pegasus_Trail_5",
-        "price": 968.99
+        "price": 968.99,
+        "store": "NIKE"
+      },
+      "netshoes": {
+        "url": "https://www.netshoes.com.br/search?q=Pegasus%20Trail%205&affid=4683922",
+        "price": 0,
+        "store": "Netshoes"
+      },
+      "amazon": {
+        "url": "https://amazon.com.br/s?k=Pegasus%20Trail%205&tag=tenisideal26-20",
+        "price": 0,
+        "store": "Amazon"
       }
     },
     "tags": [],
@@ -1825,9 +2785,25 @@
     "distancia": [],
     "photo": "https://m.media-amazon.com/images/I/61d2rzptOQL._AC_SY500_.jpg",
     "affiliate_links": {
+      "oficial": {
+        "url": "https://www.nike.com.br/search?q=Pegasus%2041",
+        "price": 664.99,
+        "store": "NIKE"
+      },
       "awin": {
         "url": "https://www.awin1.com/cread.php?awinmid=15576&awinaffid=2800712&clickref=NIKE_Pegasus_41",
-        "price": 664.99
+        "price": 664.99,
+        "store": "NIKE"
+      },
+      "netshoes": {
+        "url": "https://www.netshoes.com.br/search?q=Pegasus%2041&affid=4683922",
+        "price": 0,
+        "store": "Netshoes"
+      },
+      "amazon": {
+        "url": "https://amazon.com.br/s?k=Pegasus%2041&tag=tenisideal26-20",
+        "price": 0,
+        "store": "Amazon"
       }
     },
     "tags": [],
@@ -1858,9 +2834,25 @@
     "distancia": [],
     "photo": "https://m.media-amazon.com/images/G/32/gno/sprites/nav-sprite-global-1x-reorg-privacy._AC_SY500_.jpg",
     "affiliate_links": {
+      "oficial": {
+        "url": "https://www.nike.com.br/search?q=Nike%20Downshifter%2013",
+        "price": 347.36,
+        "store": "NIKE"
+      },
       "awin": {
         "url": "https://www.awin1.com/cread.php?awinmid=15576&awinaffid=2800712&clickref=NIKE_Nike_Downshifter_13",
-        "price": 347.36
+        "price": 347.36,
+        "store": "NIKE"
+      },
+      "netshoes": {
+        "url": "https://www.netshoes.com.br/search?q=Nike%20Downshifter%2013&affid=4683922",
+        "price": 0,
+        "store": "Netshoes"
+      },
+      "amazon": {
+        "url": "https://amazon.com.br/s?k=Nike%20Downshifter%2013&tag=tenisideal26-20",
+        "price": 0,
+        "store": "Amazon"
       }
     },
     "tags": [
@@ -1895,9 +2887,25 @@
     "distancia": [],
     "photo": "https://m.media-amazon.com/images/I/71cQLxJhVEL._AC_SY500_.jpg",
     "affiliate_links": {
+      "oficial": {
+        "url": "https://www.nike.com.br/search?q=Nike%20Revolution%208",
+        "price": 50.0,
+        "store": "NIKE"
+      },
       "awin": {
         "url": "https://www.awin1.com/cread.php?awinmid=15576&awinaffid=2800712&clickref=NIKE_Nike_Revolution_8",
-        "price": 50.0
+        "price": 50.0,
+        "store": "NIKE"
+      },
+      "netshoes": {
+        "url": "https://www.netshoes.com.br/search?q=Nike%20Revolution%208&affid=4683922",
+        "price": 0,
+        "store": "Netshoes"
+      },
+      "amazon": {
+        "url": "https://amazon.com.br/s?k=Nike%20Revolution%208&tag=tenisideal26-20",
+        "price": 0,
+        "store": "Amazon"
       }
     },
     "tags": [],
@@ -1922,9 +2930,25 @@
     "distancia": [],
     "photo": "https://m.media-amazon.com/images/G/32/gno/sprites/nav-sprite-global-1x-reorg-privacy._AC_SY500_.jpg",
     "affiliate_links": {
+      "oficial": {
+        "url": "https://www.olympikus.com.br/search?q=Pride",
+        "price": 285.0,
+        "store": "OLYMPIKUS"
+      },
       "awin": {
         "url": "https://www.awin1.com/cread.php?awinmid=15503&awinaffid=2800712&clickref=OLYMPIKUS_Pride",
-        "price": 285.0
+        "price": 285.0,
+        "store": "OLYMPIKUS"
+      },
+      "netshoes": {
+        "url": "https://www.netshoes.com.br/search?q=Pride&affid=4683922",
+        "price": 0,
+        "store": "Netshoes"
+      },
+      "amazon": {
+        "url": "https://amazon.com.br/s?k=Pride&tag=tenisideal26-20",
+        "price": 0,
+        "store": "Amazon"
       }
     },
     "tags": [
@@ -1952,9 +2976,25 @@
     "distancia": [],
     "photo": "https://m.media-amazon.com/images/I/61ejcrS4GvL._AC_SY500_.jpg",
     "affiliate_links": {
+      "oficial": {
+        "url": "https://www.olympikus.com.br/search?q=Challenger",
+        "price": 249.9,
+        "store": "OLYMPIKUS"
+      },
       "awin": {
         "url": "https://www.awin1.com/cread.php?awinmid=15503&awinaffid=2800712&clickref=OLYMPIKUS_Challenger",
-        "price": 249.9
+        "price": 249.9,
+        "store": "OLYMPIKUS"
+      },
+      "netshoes": {
+        "url": "https://www.netshoes.com.br/search?q=Challenger&affid=4683922",
+        "price": 0,
+        "store": "Netshoes"
+      },
+      "amazon": {
+        "url": "https://amazon.com.br/s?k=Challenger&tag=tenisideal26-20",
+        "price": 0,
+        "store": "Amazon"
       }
     },
     "tags": [
@@ -1982,9 +3022,25 @@
     "distancia": [],
     "photo": "https://m.media-amazon.com/images/I/61mldcIzcqL._AC_SY500_.jpg",
     "affiliate_links": {
+      "oficial": {
+        "url": "https://www.olympikus.com.br/search?q=Orbita",
+        "price": 229.9,
+        "store": "OLYMPIKUS"
+      },
       "awin": {
         "url": "https://www.awin1.com/cread.php?awinmid=15503&awinaffid=2800712&clickref=OLYMPIKUS_Orbita",
-        "price": 229.9
+        "price": 229.9,
+        "store": "OLYMPIKUS"
+      },
+      "netshoes": {
+        "url": "https://www.netshoes.com.br/search?q=Orbita&affid=4683922",
+        "price": 0,
+        "store": "Netshoes"
+      },
+      "amazon": {
+        "url": "https://amazon.com.br/s?k=Orbita&tag=tenisideal26-20",
+        "price": 0,
+        "store": "Amazon"
       }
     },
     "tags": [
@@ -2012,9 +3068,25 @@
     "distancia": [],
     "photo": "https://m.media-amazon.com/images/G/32/gno/sprites/nav-sprite-global-1x-reorg-privacy._AC_SY500_.jpg",
     "affiliate_links": {
+      "oficial": {
+        "url": "https://www.olympikus.com.br/search?q=Essential",
+        "price": 249.9,
+        "store": "OLYMPIKUS"
+      },
       "awin": {
         "url": "https://www.awin1.com/cread.php?awinmid=15503&awinaffid=2800712&clickref=OLYMPIKUS_Essential",
-        "price": 249.9
+        "price": 249.9,
+        "store": "OLYMPIKUS"
+      },
+      "netshoes": {
+        "url": "https://www.netshoes.com.br/search?q=Essential&affid=4683922",
+        "price": 0,
+        "store": "Netshoes"
+      },
+      "amazon": {
+        "url": "https://amazon.com.br/s?k=Essential&tag=tenisideal26-20",
+        "price": 0,
+        "store": "Amazon"
       }
     },
     "tags": [
@@ -2043,9 +3115,25 @@
     "distancia": [],
     "photo": "https://m.media-amazon.com/images/I/51iZQ7STo3L._AC_SX385_.jpg",
     "affiliate_links": {
+      "oficial": {
+        "url": "https://www.olympikus.com.br/search?q=Challenger%205",
+        "price": 218.4,
+        "store": "OLYMPIKUS"
+      },
       "awin": {
         "url": "https://www.awin1.com/cread.php?awinmid=15503&awinaffid=2800712&clickref=OLYMPIKUS_Challenger_5",
-        "price": 218.4
+        "price": 218.4,
+        "store": "OLYMPIKUS"
+      },
+      "netshoes": {
+        "url": "https://www.netshoes.com.br/search?q=Challenger%205&affid=4683922",
+        "price": 0,
+        "store": "Netshoes"
+      },
+      "amazon": {
+        "url": "https://amazon.com.br/s?k=Challenger%205&tag=tenisideal26-20",
+        "price": 0,
+        "store": "Amazon"
       }
     },
     "tags": [
@@ -2074,9 +3162,25 @@
     "distancia": [],
     "photo": "https://m.media-amazon.com/images/I/51JJ2uf9wGL._AC_SX385_.jpg",
     "affiliate_links": {
+      "oficial": {
+        "url": "https://www.olympikus.com.br/search?q=Marte",
+        "price": 189.87,
+        "store": "OLYMPIKUS"
+      },
       "awin": {
         "url": "https://www.awin1.com/cread.php?awinmid=15503&awinaffid=2800712&clickref=OLYMPIKUS_Marte",
-        "price": 189.87
+        "price": 189.87,
+        "store": "OLYMPIKUS"
+      },
+      "netshoes": {
+        "url": "https://www.netshoes.com.br/search?q=Marte&affid=4683922",
+        "price": 0,
+        "store": "Netshoes"
+      },
+      "amazon": {
+        "url": "https://amazon.com.br/s?k=Marte&tag=tenisideal26-20",
+        "price": 0,
+        "store": "Amazon"
       }
     },
     "tags": [
@@ -2111,9 +3215,25 @@
     "distancia": [],
     "photo": "https://m.media-amazon.com/images/I/71Io4zJik6L._AC_SY500_.jpg",
     "affiliate_links": {
+      "oficial": {
+        "url": "https://www.olympikus.com.br/search?q=Pride%204",
+        "price": 299.99,
+        "store": "OLYMPIKUS"
+      },
       "awin": {
         "url": "https://www.awin1.com/cread.php?awinmid=15503&awinaffid=2800712&clickref=OLYMPIKUS_Pride_4",
-        "price": 299.99
+        "price": 299.99,
+        "store": "OLYMPIKUS"
+      },
+      "netshoes": {
+        "url": "https://www.netshoes.com.br/search?q=Pride%204&affid=4683922",
+        "price": 0,
+        "store": "Netshoes"
+      },
+      "amazon": {
+        "url": "https://amazon.com.br/s?k=Pride%204&tag=tenisideal26-20",
+        "price": 0,
+        "store": "Amazon"
       }
     },
     "tags": [
@@ -2142,9 +3262,25 @@
     "distancia": [],
     "photo": "https://m.media-amazon.com/images/G/32/gno/sprites/nav-sprite-global-1x-reorg-privacy._AC_SY500_.jpg",
     "affiliate_links": {
+      "oficial": {
+        "url": "https://www.olympikus.com.br/search?q=Rua",
+        "price": 204.9,
+        "store": "OLYMPIKUS"
+      },
       "awin": {
         "url": "https://www.awin1.com/cread.php?awinmid=15503&awinaffid=2800712&clickref=OLYMPIKUS_Rua",
-        "price": 204.9
+        "price": 204.9,
+        "store": "OLYMPIKUS"
+      },
+      "netshoes": {
+        "url": "https://www.netshoes.com.br/search?q=Rua&affid=4683922",
+        "price": 0,
+        "store": "Netshoes"
+      },
+      "amazon": {
+        "url": "https://amazon.com.br/s?k=Rua&tag=tenisideal26-20",
+        "price": 0,
+        "store": "Amazon"
       }
     },
     "tags": [
@@ -2173,9 +3309,25 @@
     "distancia": [],
     "photo": "https://m.media-amazon.com/images/I/51Z-DdVYfOL._AC_SY395_.jpg",
     "affiliate_links": {
+      "oficial": {
+        "url": "https://www.olympikus.com.br/search?q=Corre%20Grafeno%203",
+        "price": 599.99,
+        "store": "OLYMPIKUS"
+      },
       "awin": {
         "url": "https://www.awin1.com/cread.php?awinmid=15503&awinaffid=2800712&clickref=OLYMPIKUS_Corre_Grafeno_3",
-        "price": 599.99
+        "price": 599.99,
+        "store": "OLYMPIKUS"
+      },
+      "netshoes": {
+        "url": "https://www.netshoes.com.br/search?q=Corre%20Grafeno%203&affid=4683922",
+        "price": 0,
+        "store": "Netshoes"
+      },
+      "amazon": {
+        "url": "https://amazon.com.br/s?k=Corre%20Grafeno%203&tag=tenisideal26-20",
+        "price": 0,
+        "store": "Amazon"
       }
     },
     "tags": [
@@ -2205,9 +3357,25 @@
     "distancia": [],
     "photo": "https://m.media-amazon.com/images/G/32/gno/sprites/nav-sprite-global-1x-reorg-privacy._AC_SY500_.jpg",
     "affiliate_links": {
+      "oficial": {
+        "url": "https://www.olympikus.com.br/search?q=Olympikus%20Challenger%205",
+        "price": 209.99,
+        "store": "OLYMPIKUS"
+      },
       "awin": {
         "url": "https://www.awin1.com/cread.php?awinmid=15503&awinaffid=2800712&clickref=OLYMPIKUS_Olympikus_Challenger_5",
-        "price": 209.99
+        "price": 209.99,
+        "store": "OLYMPIKUS"
+      },
+      "netshoes": {
+        "url": "https://www.netshoes.com.br/search?q=Olympikus%20Challenger%205&affid=4683922",
+        "price": 0,
+        "store": "Netshoes"
+      },
+      "amazon": {
+        "url": "https://amazon.com.br/s?k=Olympikus%20Challenger%205&tag=tenisideal26-20",
+        "price": 0,
+        "store": "Amazon"
       }
     },
     "tags": [
@@ -2237,9 +3405,25 @@
     "distancia": [],
     "photo": "https://via.placeholder.com/400x300/1a1a1a/c8ff00?text=Olympikus%20Corre%20Trilha",
     "affiliate_links": {
+      "oficial": {
+        "url": "https://www.olympikus.com.br/search?q=Olympikus%20Corre%20Trilha",
+        "price": 599.99,
+        "store": "OLYMPIKUS"
+      },
       "awin": {
         "url": "https://www.awin1.com/cread.php?awinmid=15503&awinaffid=2800712&clickref=OLYMPIKUS_Olympikus_Corre_Trilha",
-        "price": 599.99
+        "price": 599.99,
+        "store": "OLYMPIKUS"
+      },
+      "netshoes": {
+        "url": "https://www.netshoes.com.br/search?q=Olympikus%20Corre%20Trilha&affid=4683922",
+        "price": 0,
+        "store": "Netshoes"
+      },
+      "amazon": {
+        "url": "https://amazon.com.br/s?k=Olympikus%20Corre%20Trilha&tag=tenisideal26-20",
+        "price": 0,
+        "store": "Amazon"
       }
     },
     "tags": [],
@@ -2264,9 +3448,25 @@
     "distancia": [],
     "photo": "https://m.media-amazon.com/images/I/51gcZC19IXL._AC_SY500_.jpg",
     "affiliate_links": {
+      "oficial": {
+        "url": "https://www.salomon.com/en-BR/search?q=Ultra%20Glide%202",
+        "price": 1043.0,
+        "store": "SALOMON"
+      },
       "awin": {
         "url": "https://www.awin1.com/cread.php?awinmid=15503&awinaffid=2800712&clickref=SALOMON_Ultra_Glide_2",
-        "price": 1043.0
+        "price": 1043.0,
+        "store": "SALOMON"
+      },
+      "netshoes": {
+        "url": "https://www.netshoes.com.br/search?q=Ultra%20Glide%202&affid=4683922",
+        "price": 0,
+        "store": "Netshoes"
+      },
+      "amazon": {
+        "url": "https://amazon.com.br/s?k=Ultra%20Glide%202&tag=tenisideal26-20",
+        "price": 0,
+        "store": "Amazon"
       }
     },
     "tags": [
@@ -2294,9 +3494,25 @@
     "distancia": [],
     "photo": "https://m.media-amazon.com/images/G/32/gno/sprites/nav-sprite-global-1x-reorg-privacy._AC_SY500_.jpg",
     "affiliate_links": {
+      "oficial": {
+        "url": "https://www.saucony.com.br/search?q=Endorphin%20Speed%204",
+        "price": 1481.0,
+        "store": "SAUCONY"
+      },
       "awin": {
         "url": "https://www.awin1.com/cread.php?awinmid=15503&awinaffid=2800712&clickref=SAUCONY_Endorphin_Speed_4",
-        "price": 1481.0
+        "price": 1481.0,
+        "store": "SAUCONY"
+      },
+      "netshoes": {
+        "url": "https://www.netshoes.com.br/search?q=Endorphin%20Speed%204&affid=4683922",
+        "price": 0,
+        "store": "Netshoes"
+      },
+      "amazon": {
+        "url": "https://amazon.com.br/s?k=Endorphin%20Speed%204&tag=tenisideal26-20",
+        "price": 0,
+        "store": "Amazon"
       }
     },
     "tags": [
@@ -2325,9 +3541,25 @@
     "distancia": [],
     "photo": "https://m.media-amazon.com/images/G/32/gno/sprites/nav-sprite-global-1x-reorg-privacy._AC_SY500_.jpg",
     "affiliate_links": {
+      "oficial": {
+        "url": "https://www.saucony.com.br/search?q=Saucony%20Endorphin%20Pro%204",
+        "price": 1524.0,
+        "store": "SAUCONY"
+      },
       "awin": {
         "url": "https://www.awin1.com/cread.php?awinmid=15503&awinaffid=2800712&clickref=SAUCONY_Saucony_Endorphin_Pro_4",
-        "price": 1524.0
+        "price": 1524.0,
+        "store": "SAUCONY"
+      },
+      "netshoes": {
+        "url": "https://www.netshoes.com.br/search?q=Saucony%20Endorphin%20Pro%204&affid=4683922",
+        "price": 0,
+        "store": "Netshoes"
+      },
+      "amazon": {
+        "url": "https://amazon.com.br/s?k=Saucony%20Endorphin%20Pro%204&tag=tenisideal26-20",
+        "price": 0,
+        "store": "Amazon"
       }
     },
     "tags": [
@@ -2357,9 +3589,25 @@
     "distancia": [],
     "photo": "https://m.media-amazon.com/images/I/7147Rk7LN8L._AC_SY500_.jpg",
     "affiliate_links": {
+      "oficial": {
+        "url": "https://www.saucony.com.br/search?q=Saucony%20Endorphin%20Speed%205",
+        "price": 1799.26,
+        "store": "SAUCONY"
+      },
       "awin": {
         "url": "https://www.awin1.com/cread.php?awinmid=15503&awinaffid=2800712&clickref=SAUCONY_Saucony_Endorphin_Speed_5",
-        "price": 1799.26
+        "price": 1799.26,
+        "store": "SAUCONY"
+      },
+      "netshoes": {
+        "url": "https://www.netshoes.com.br/search?q=Saucony%20Endorphin%20Speed%205&affid=4683922",
+        "price": 0,
+        "store": "Netshoes"
+      },
+      "amazon": {
+        "url": "https://amazon.com.br/s?k=Saucony%20Endorphin%20Speed%205&tag=tenisideal26-20",
+        "price": 0,
+        "store": "Amazon"
       }
     },
     "tags": [
@@ -2389,9 +3637,25 @@
     "distancia": [],
     "photo": "https://m.media-amazon.com/images/G/32/gno/sprites/nav-sprite-global-1x-reorg-privacy._AC_SY500_.jpg",
     "affiliate_links": {
+      "oficial": {
+        "url": "https://www.saucony.com.br/search?q=Saucony%20Triumph%2023",
+        "price": 1585.65,
+        "store": "SAUCONY"
+      },
       "awin": {
         "url": "https://www.awin1.com/cread.php?awinmid=15503&awinaffid=2800712&clickref=SAUCONY_Saucony_Triumph_23",
-        "price": 1585.65
+        "price": 1585.65,
+        "store": "SAUCONY"
+      },
+      "netshoes": {
+        "url": "https://www.netshoes.com.br/search?q=Saucony%20Triumph%2023&affid=4683922",
+        "price": 0,
+        "store": "Netshoes"
+      },
+      "amazon": {
+        "url": "https://amazon.com.br/s?k=Saucony%20Triumph%2023&tag=tenisideal26-20",
+        "price": 0,
+        "store": "Amazon"
       }
     },
     "tags": [
@@ -2421,9 +3685,25 @@
     "distancia": [],
     "photo": "https://m.media-amazon.com/images/G/32/gno/sprites/nav-sprite-global-1x-reorg-privacy._AC_SY500_.jpg",
     "affiliate_links": {
+      "oficial": {
+        "url": "https://www.saucony.com.br/search?q=Saucony%20Peregrine%2015",
+        "price": 895.66,
+        "store": "SAUCONY"
+      },
       "awin": {
         "url": "https://www.awin1.com/cread.php?awinmid=15503&awinaffid=2800712&clickref=SAUCONY_Saucony_Peregrine_15",
-        "price": 895.66
+        "price": 895.66,
+        "store": "SAUCONY"
+      },
+      "netshoes": {
+        "url": "https://www.netshoes.com.br/search?q=Saucony%20Peregrine%2015&affid=4683922",
+        "price": 0,
+        "store": "Netshoes"
+      },
+      "amazon": {
+        "url": "https://amazon.com.br/s?k=Saucony%20Peregrine%2015&tag=tenisideal26-20",
+        "price": 0,
+        "store": "Amazon"
       }
     },
     "tags": [
@@ -2453,9 +3733,25 @@
     "distancia": [],
     "photo": "https://m.media-amazon.com/images/I/710D-lXE4uL._AC_SY500_.jpg",
     "affiliate_links": {
+      "oficial": {
+        "url": "https://www.salomon.com/en-BR/search?q=Salomon%20Sense%20Ride%205",
+        "price": 1120.02,
+        "store": "SALOMON"
+      },
       "awin": {
         "url": "https://www.awin1.com/cread.php?awinmid=15503&awinaffid=2800712&clickref=SALOMON_Salomon_Sense_Ride_5",
-        "price": 1120.02
+        "price": 1120.02,
+        "store": "SALOMON"
+      },
+      "netshoes": {
+        "url": "https://www.netshoes.com.br/search?q=Salomon%20Sense%20Ride%205&affid=4683922",
+        "price": 0,
+        "store": "Netshoes"
+      },
+      "amazon": {
+        "url": "https://amazon.com.br/s?k=Salomon%20Sense%20Ride%205&tag=tenisideal26-20",
+        "price": 0,
+        "store": "Amazon"
       }
     },
     "tags": [
@@ -2485,9 +3781,25 @@
     "distancia": [],
     "photo": "https://m.media-amazon.com/images/I/71gYxjqbteL._AC_SY500_.jpg",
     "affiliate_links": {
+      "oficial": {
+        "url": "https://www.skechers.com.br/search?q=Arch%20Fit%20Orvan%20Drex",
+        "price": 399.9,
+        "store": "SKECHERS"
+      },
       "awin": {
         "url": "https://www.awin1.com/cread.php?awinmid=15503&awinaffid=2800712&clickref=SKECHERS_Arch_Fit_Orvan_Drex",
-        "price": 399.9
+        "price": 399.9,
+        "store": "SKECHERS"
+      },
+      "netshoes": {
+        "url": "https://www.netshoes.com.br/search?q=Arch%20Fit%20Orvan%20Drex&affid=4683922",
+        "price": 0,
+        "store": "Netshoes"
+      },
+      "amazon": {
+        "url": "https://amazon.com.br/s?k=Arch%20Fit%20Orvan%20Drex&tag=tenisideal26-20",
+        "price": 0,
+        "store": "Amazon"
       }
     },
     "tags": [
@@ -2515,9 +3827,25 @@
     "distancia": [],
     "photo": "https://m.media-amazon.com/images/I/61cNbsYKgPL._AC_SX385_.jpg",
     "affiliate_links": {
+      "oficial": {
+        "url": "https://www.underarmour.com.br/search?q=Charged%20Great",
+        "price": 269.9,
+        "store": "UNDER ARMOUR"
+      },
       "awin": {
         "url": "https://www.awin1.com/cread.php?awinmid=15503&awinaffid=2800712&clickref=UNDER ARMOUR_Charged_Great",
-        "price": 269.9
+        "price": 269.9,
+        "store": "UNDER ARMOUR"
+      },
+      "netshoes": {
+        "url": "https://www.netshoes.com.br/search?q=Charged%20Great&affid=4683922",
+        "price": 0,
+        "store": "Netshoes"
+      },
+      "amazon": {
+        "url": "https://amazon.com.br/s?k=Charged%20Great&tag=tenisideal26-20",
+        "price": 0,
+        "store": "Amazon"
       }
     },
     "tags": [
@@ -2546,9 +3874,25 @@
     "distancia": [],
     "photo": "https://m.media-amazon.com/images/I/61FtBlh+DJL._AC_SY395_.jpg",
     "affiliate_links": {
+      "oficial": {
+        "url": "https://www.underarmour.com.br/search?q=Charged%20Hit%20SE",
+        "price": 469.9,
+        "store": "UNDER ARMOUR"
+      },
       "awin": {
         "url": "https://www.awin1.com/cread.php?awinmid=15503&awinaffid=2800712&clickref=UNDER ARMOUR_Charged_Hit_SE",
-        "price": 469.9
+        "price": 469.9,
+        "store": "UNDER ARMOUR"
+      },
+      "netshoes": {
+        "url": "https://www.netshoes.com.br/search?q=Charged%20Hit%20SE&affid=4683922",
+        "price": 0,
+        "store": "Netshoes"
+      },
+      "amazon": {
+        "url": "https://amazon.com.br/s?k=Charged%20Hit%20SE&tag=tenisideal26-20",
+        "price": 0,
+        "store": "Amazon"
       }
     },
     "tags": [

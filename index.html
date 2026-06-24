@@ -1661,12 +1661,16 @@
 
     .sname {
       font-family: 'Bebas Neue', sans-serif;
-      font-weight: 400;
-      font-size: 22px;
+      font-weight: 700 !important;
+      font-size: 24px !important;
       line-height: 1.3;
       text-transform: uppercase;
       margin-bottom: 10px;
-      color: #1a1a1a;
+      color: #1a1a1a !important;
+      display: block !important;
+      visibility: visible !important;
+      opacity: 1 !important;
+      min-height: 30px;
     }
 
     .sreason {
@@ -3497,20 +3501,27 @@
           // Fallback: formato antigo affiliate_links
           if (offers.length === 0) {
             var links = sh.affiliate_links || {};
+            var storeNames = {
+              'oficial': sh.brand ? ('Loja ' + sh.brand) : 'Loja Oficial',
+              'awin': sh.brand || 'Loja Oficial',
+              'amazon': 'Amazon',
+              'netshoes': 'Netshoes'
+            };
+
             Object.keys(links).forEach(function (key) {
               var offer = links[key];
               var url = (typeof offer === 'string') ? offer : (offer ? offer.url : null);
               var price = (typeof offer === 'object' && offer && offer.price) ? offer.price : null;
-              var labelMap = { amazon: 'Amazon', oficial: ('Loja ' + (sh.brand || 'Oficial')), netshoes: 'Netshoes', nike: 'Nike' };
+              var store = (typeof offer === 'object' && offer && offer.store) ? offer.store : storeNames[key];
+
               if (url && url !== '-' && url.trim() !== '') {
-                // BUGFIX: Não usa sh.price (Amazon) como fallback para loja oficial se o preço for nulo
-                var finalPrice = cleanPrice(price);
+                var finalPrice = price ? cleanPrice(price) : 0;
                 offers.push({
                   key: key,
-                  label: labelMap[key] || key,
+                  label: store,
                   url: url.trim(),
                   price: finalPrice,
-                  installments: key === 'amazon' ? '6x sem juros' : 'ver condições'
+                  installments: key === 'amazon' ? '6x sem juros' : (key === 'netshoes' ? 'PIX/Boleto' : 'ver condições')
                 });
               }
             });
@@ -3533,8 +3544,8 @@
           if (offers.length > 0) {
             var best = offers[0];
 
-            if (offers.length === 1 && best.key === 'amazon') {
-              // Scenario 1: Only Amazon -> direct orange button
+            if (offers.length === 1) {
+              // Scenario 1: Only one offer
               var bestNumeric = (best.price > 0) ? best.price : (sh.price_numeric || parsePrice(sh.price) || 0);
               var priceVal = bestNumeric > 0 ? formatBRL(bestNumeric) : 'Ver Preço';
               // Adicionar "A partir de" se há variação de tamanho/cor
@@ -3550,7 +3561,7 @@
               }
               btnsHTML += '<div class="sprice" style="margin-top:20px; font-size:24px; font-weight:700;"><span style="font-size:16px;color:var(--gray);">' + pricePrefix + '</span>' + priceVal + variationIcon + '<span style="font-size:14px; color:var(--gray); font-weight:400; margin-left:6px;">' + paymentLabel(best) + '</span></div>';
               btnsHTML += '<div style="color:#ff3b30; font-size:12px; font-weight:700; text-align:center; margin-bottom:12px; display:inline-flex; align-items:center; gap:5px;"><span style="font-size:16px;">⏳</span> Estoque limitado: O preço pode subir</div>';
-              btnsHTML += makeBtnHTML(best.url, 'COMPRAR NA AMAZON', true).replace('class="bbuy"', 'class="bbuy bbuy-amazon"');
+              btnsHTML += makeBtnHTML(best.url, 'COMPRAR NA ' + (best.label || 'LOJA'), true);
             } else {
               // Scenario 2 & 3: Comparador
               var hClass = (best.key === 'amazon') ? ' highlight-amazon' : ' highlight-green';
