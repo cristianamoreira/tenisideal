@@ -3761,81 +3761,12 @@
       if (e.key === 'Escape') closeFaq();
     });
   </script>
-  <!-- 📊 MONITORING DASHBOARD -->
-  <div id="monitoring-widget" style="
-    position: fixed;
-    bottom: 20px;
-    right: 20px;
-    background: rgba(10, 10, 10, 0.95);
-    border: 1px solid #2a2a2a;
-    border-radius: 8px;
-    padding: 16px;
-    max-width: 280px;
-    font-size: 12px;
-    color: #aaa;
-    font-family: 'DM Sans', sans-serif;
-    z-index: 999;
-    display: none;
-  ">
-    <div style="margin-bottom: 12px; border-bottom: 1px solid #2a2a2a; padding-bottom: 12px;">
-      <strong style="color: #c8ff00; display: block; margin-bottom: 4px;">📊 TODAY METRICS</strong>
-    </div>
-    <div style="display: grid; gap: 8px;">
-      <div>
-        <span>Quiz Starts:</span>
-        <strong style="color: #fff; float: right;" id="metric-quiz-starts">0</strong>
-      </div>
-      <div>
-        <span>Clicks:</span>
-        <strong style="color: #fff; float: right;" id="metric-clicks">0</strong>
-      </div>
-      <div>
-        <span>Click Rate:</span>
-        <strong style="color: #fff; float: right;" id="metric-click-rate">0%</strong>
-      </div>
-      <div>
-        <span>Emails Sent:</span>
-        <strong style="color: #c8ff00; float: right;" id="metric-emails">0</strong>
-      </div>
-      <div style="margin-top: 8px; font-size: 11px; color: #666;">
-        Updated: <span id="metric-updated">now</span>
-      </div>
-    </div>
-  </div>
 
-  <script>
-    // Atualizar dashboard de métricas
-    function updateMonitoringDashboard() {
-      const quizStarts = parseInt(localStorage.getItem('quizStartsToday') || '0');
-      const buyClicks = parseInt(localStorage.getItem('buyClicksToday') || '0');
-      const clickRate = quizStarts > 0 ? Math.round((buyClicks / quizStarts) * 100) : 0;
-      const emailsSent = parseInt(localStorage.getItem('emailsSentToday') || '0');
+</body>
 
-      document.getElementById('metric-quiz-starts').textContent = quizStarts;
-      document.getElementById('metric-clicks').textContent = buyClicks;
-      document.getElementById('metric-click-rate').textContent = clickRate + '%';
-      document.getElementById('metric-emails').textContent = emailsSent;
-      document.getElementById('metric-updated').textContent = new Date().toLocaleTimeString('pt-BR');
+</html>
+</body>
 
-      // Mostrar dashboard se houver atividade
-      if (quizStarts > 0) {
-        document.getElementById('monitoring-widget').style.display = 'block';
-      }
-    }
-
-    // Atualizar a cada 10 segundos
-    setInterval(updateMonitoringDashboard, 10000);
-    updateMonitoringDashboard();
-
-    // Rastrear cliques em "Comprar"
-    document.addEventListener('click', (e) => {
-      if (e.target.closest('.bbuy') || e.target.closest('.buy-btn')) {
-        const clicks = parseInt(localStorage.getItem('buyClicksToday') || '0');
-        localStorage.setItem('buyClicksToday', clicks + 1);
-        updateMonitoringDashboard();
-      }
-    });
-  </script>
 
 </body>
 
