@@ -3395,6 +3395,14 @@
         for (var i = 0; i < tops.length; i++) {
           var sh = tops[i].sh;
           var score = tops[i].score;
+
+          // DEBUG
+          if (i === 0) {
+            console.log('🔍 DEBUG - Primeiro produto:', sh);
+            console.log('Affiliate links:', sh.affiliate_links);
+            console.log('Price:', sh.price);
+          }
+
           var card = document.createElement('div');
           card.className = i === 0 ? 'shoe shoe-featured' : 'shoe';
 
@@ -3502,6 +3510,12 @@
             }
             return a.price - b.price;
           });
+
+          // DEBUG
+          if (i === 0) {
+            console.log('📊 DEBUG - Ofertas criadas:', offers);
+            console.log('Número de ofertas:', offers.length);
+          }
 
           if (offers.length > 0) {
             var best = offers[0];
