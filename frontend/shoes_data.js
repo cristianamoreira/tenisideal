@@ -1,4 +1,4 @@
-// Sincronizado de Google Sheets - Dados Completos
+// Sincronizado de Google Sheets - Link Único (Funcional)
 var SHOES = [
   {
     "brand": "ADIDAS",
@@ -33,16 +33,6 @@ var SHOES = [
         "url": "https://www.awin1.com/cread.php?awinmid=15503&awinaffid=2800712&clickref=tenisideal_1",
         "store": "ADIDAS",
         "label": "COMPRAR NA ADIDAS"
-      },
-      "amazon": {
-        "url": "https://www.netshoes.com.br/search?q=Adizero%20Adios%20Pro%204&utm_source=tenisideal&utm_medium=affiliate&utm_campaign=shoes&affid=4683922",
-        "store": "Amazon",
-        "label": "COMPRAR NA AMAZON"
-      },
-      "netshoes": {
-        "url": "https://www.netshoes.com.br/search?q=Adizero%20Adios%20Pro%204&utm_source=tenisideal&utm_medium=affiliate&utm_campaign=shoes&affid=2800712",
-        "store": "Netshoes",
-        "label": "COMPRAR NA NETSHOES"
       }
     },
     "tags": [
@@ -85,16 +75,6 @@ var SHOES = [
         "url": "https://www.awin1.com/cread.php?awinmid=15503&awinaffid=2800712&clickref=tenisideal_2",
         "store": "ADIDAS",
         "label": "COMPRAR NA ADIDAS"
-      },
-      "amazon": {
-        "url": "https://www.netshoes.com.br/search?q=Adizero%20Boston%2013&utm_source=tenisideal&utm_medium=affiliate&utm_campaign=shoes&affid=4683922",
-        "store": "Amazon",
-        "label": "COMPRAR NA AMAZON"
-      },
-      "netshoes": {
-        "url": "https://www.netshoes.com.br/search?q=Adizero%20Boston%2013&utm_source=tenisideal&utm_medium=affiliate&utm_campaign=shoes&affid=2800712",
-        "store": "Netshoes",
-        "label": "COMPRAR NA NETSHOES"
       }
     },
     "tags": [
@@ -137,16 +117,6 @@ var SHOES = [
         "url": "https://www.awin1.com/cread.php?awinmid=15503&awinaffid=2800712&clickref=tenisideal_3",
         "store": "ADIDAS",
         "label": "COMPRAR NA ADIDAS"
-      },
-      "amazon": {
-        "url": "https://www.netshoes.com.br/search?q=Response%20Runner%202&utm_source=tenisideal&utm_medium=affiliate&utm_campaign=shoes&affid=4683922",
-        "store": "Amazon",
-        "label": "COMPRAR NA AMAZON"
-      },
-      "netshoes": {
-        "url": "https://www.netshoes.com.br/search?q=Response%20Runner%202&utm_source=tenisideal&utm_medium=affiliate&utm_campaign=shoes&affid=2800712",
-        "store": "Netshoes",
-        "label": "COMPRAR NA NETSHOES"
       }
     },
     "tags": [
@@ -189,16 +159,6 @@ var SHOES = [
         "url": "https://www.awin1.com/cread.php?awinmid=15503&awinaffid=2800712&clickref=tenisideal_4",
         "store": "ADIDAS",
         "label": "COMPRAR NA ADIDAS"
-      },
-      "amazon": {
-        "url": "https://www.netshoes.com.br/search?q=Ultraboost%205&utm_source=tenisideal&utm_medium=affiliate&utm_campaign=shoes&affid=4683922",
-        "store": "Amazon",
-        "label": "COMPRAR NA AMAZON"
-      },
-      "netshoes": {
-        "url": "https://www.netshoes.com.br/search?q=Ultraboost%205&utm_source=tenisideal&utm_medium=affiliate&utm_campaign=shoes&affid=2800712",
-        "store": "Netshoes",
-        "label": "COMPRAR NA NETSHOES"
       }
     },
     "tags": [
@@ -242,16 +202,6 @@ var SHOES = [
         "url": "https://www.awin1.com/cread.php?awinmid=15503&awinaffid=2800712&clickref=tenisideal_5",
         "store": "ADIDAS",
         "label": "COMPRAR NA ADIDAS"
-      },
-      "amazon": {
-        "url": "https://www.netshoes.com.br/search?q=Terrex%20Agravic%20Speed%202&utm_source=tenisideal&utm_medium=affiliate&utm_campaign=shoes&affid=4683922",
-        "store": "Amazon",
-        "label": "COMPRAR NA AMAZON"
-      },
-      "netshoes": {
-        "url": "https://www.netshoes.com.br/search?q=Terrex%20Agravic%20Speed%202&utm_source=tenisideal&utm_medium=affiliate&utm_campaign=shoes&affid=2800712",
-        "store": "Netshoes",
-        "label": "COMPRAR NA NETSHOES"
       }
     },
     "tags": [],
@@ -291,16 +241,6 @@ var SHOES = [
         "url": "https://www.awin1.com/cread.php?awinmid=15503&awinaffid=2800712&clickref=tenisideal_6",
         "store": "ADIDAS",
         "label": "COMPRAR NA ADIDAS"
-      },
-      "amazon": {
-        "url": "https://www.netshoes.com.br/search?q=Ultraboost%205&utm_source=tenisideal&utm_medium=affiliate&utm_campaign=shoes&affid=4683922",
-        "store": "Amazon",
-        "label": "COMPRAR NA AMAZON"
-      },
-      "netshoes": {
-        "url": "https://www.netshoes.com.br/search?q=Ultraboost%205&utm_source=tenisideal&utm_medium=affiliate&utm_campaign=shoes&affid=2800712",
-        "store": "Netshoes",
-        "label": "COMPRAR NA NETSHOES"
       }
     },
     "tags": [
@@ -344,16 +284,6 @@ var SHOES = [
         "url": "https://www.awin1.com/cread.php?awinmid=15503&awinaffid=2800712&clickref=tenisideal_7",
         "store": "ADIDAS",
         "label": "COMPRAR NA ADIDAS"
-      },
-      "amazon": {
-        "url": "https://www.netshoes.com.br/search?q=Duramo%20Speed%202&utm_source=tenisideal&utm_medium=affiliate&utm_campaign=shoes&affid=4683922",
-        "store": "Amazon",
-        "label": "COMPRAR NA AMAZON"
-      },
-      "netshoes": {
-        "url": "https://www.netshoes.com.br/search?q=Duramo%20Speed%202&utm_source=tenisideal&utm_medium=affiliate&utm_campaign=shoes&affid=2800712",
-        "store": "Netshoes",
-        "label": "COMPRAR NA NETSHOES"
       }
     },
     "tags": [
@@ -397,16 +327,6 @@ var SHOES = [
         "url": "https://www.awin1.com/cread.php?awinmid=15503&awinaffid=2800712&clickref=tenisideal_8",
         "store": "ADIDAS",
         "label": "COMPRAR NA ADIDAS"
-      },
-      "amazon": {
-        "url": "https://www.netshoes.com.br/search?q=Ultraboost%2022&utm_source=tenisideal&utm_medium=affiliate&utm_campaign=shoes&affid=4683922",
-        "store": "Amazon",
-        "label": "COMPRAR NA AMAZON"
-      },
-      "netshoes": {
-        "url": "https://www.netshoes.com.br/search?q=Ultraboost%2022&utm_source=tenisideal&utm_medium=affiliate&utm_campaign=shoes&affid=2800712",
-        "store": "Netshoes",
-        "label": "COMPRAR NA NETSHOES"
       }
     },
     "tags": [
@@ -447,16 +367,6 @@ var SHOES = [
         "url": "https://www.awin1.com/cread.php?awinmid=15815&awinaffid=2800712&clickref=tenisideal_9",
         "store": "ASICS",
         "label": "COMPRAR NA ASICS"
-      },
-      "amazon": {
-        "url": "https://www.netshoes.com.br/search?q=Superblast%202&utm_source=tenisideal&utm_medium=affiliate&utm_campaign=shoes&affid=4683922",
-        "store": "Amazon",
-        "label": "COMPRAR NA AMAZON"
-      },
-      "netshoes": {
-        "url": "https://www.netshoes.com.br/search?q=Superblast%202&utm_source=tenisideal&utm_medium=affiliate&utm_campaign=shoes&affid=2800712",
-        "store": "Netshoes",
-        "label": "COMPRAR NA NETSHOES"
       }
     },
     "tags": [
@@ -501,16 +411,6 @@ var SHOES = [
         "url": "https://www.awin1.com/cread.php?awinmid=15815&awinaffid=2800712&clickref=tenisideal_10",
         "store": "ASICS",
         "label": "COMPRAR NA ASICS"
-      },
-      "amazon": {
-        "url": "https://www.netshoes.com.br/search?q=Gel-Cumulus%2026&utm_source=tenisideal&utm_medium=affiliate&utm_campaign=shoes&affid=4683922",
-        "store": "Amazon",
-        "label": "COMPRAR NA AMAZON"
-      },
-      "netshoes": {
-        "url": "https://www.netshoes.com.br/search?q=Gel-Cumulus%2026&utm_source=tenisideal&utm_medium=affiliate&utm_campaign=shoes&affid=2800712",
-        "store": "Netshoes",
-        "label": "COMPRAR NA NETSHOES"
       }
     },
     "tags": [
@@ -554,16 +454,6 @@ var SHOES = [
         "url": "https://www.awin1.com/cread.php?awinmid=15815&awinaffid=2800712&clickref=tenisideal_11",
         "store": "ASICS",
         "label": "COMPRAR NA ASICS"
-      },
-      "amazon": {
-        "url": "https://www.netshoes.com.br/search?q=Gel-Kayano%2031&utm_source=tenisideal&utm_medium=affiliate&utm_campaign=shoes&affid=4683922",
-        "store": "Amazon",
-        "label": "COMPRAR NA AMAZON"
-      },
-      "netshoes": {
-        "url": "https://www.netshoes.com.br/search?q=Gel-Kayano%2031&utm_source=tenisideal&utm_medium=affiliate&utm_campaign=shoes&affid=2800712",
-        "store": "Netshoes",
-        "label": "COMPRAR NA NETSHOES"
       }
     },
     "tags": [
@@ -607,16 +497,6 @@ var SHOES = [
         "url": "https://www.awin1.com/cread.php?awinmid=15815&awinaffid=2800712&clickref=tenisideal_12",
         "store": "ASICS",
         "label": "COMPRAR NA ASICS"
-      },
-      "amazon": {
-        "url": "https://www.netshoes.com.br/search?q=Gel-Kayano%2031%20Matcha&utm_source=tenisideal&utm_medium=affiliate&utm_campaign=shoes&affid=4683922",
-        "store": "Amazon",
-        "label": "COMPRAR NA AMAZON"
-      },
-      "netshoes": {
-        "url": "https://www.netshoes.com.br/search?q=Gel-Kayano%2031%20Matcha&utm_source=tenisideal&utm_medium=affiliate&utm_campaign=shoes&affid=2800712",
-        "store": "Netshoes",
-        "label": "COMPRAR NA NETSHOES"
       }
     },
     "tags": [
@@ -660,16 +540,6 @@ var SHOES = [
         "url": "https://www.awin1.com/cread.php?awinmid=15815&awinaffid=2800712&clickref=tenisideal_13",
         "store": "ASICS",
         "label": "COMPRAR NA ASICS"
-      },
-      "amazon": {
-        "url": "https://www.netshoes.com.br/search?q=Gel-Nimbus%2026&utm_source=tenisideal&utm_medium=affiliate&utm_campaign=shoes&affid=4683922",
-        "store": "Amazon",
-        "label": "COMPRAR NA AMAZON"
-      },
-      "netshoes": {
-        "url": "https://www.netshoes.com.br/search?q=Gel-Nimbus%2026&utm_source=tenisideal&utm_medium=affiliate&utm_campaign=shoes&affid=2800712",
-        "store": "Netshoes",
-        "label": "COMPRAR NA NETSHOES"
       }
     },
     "tags": [
@@ -713,16 +583,6 @@ var SHOES = [
         "url": "https://www.awin1.com/cread.php?awinmid=15815&awinaffid=2800712&clickref=tenisideal_14",
         "store": "ASICS",
         "label": "COMPRAR NA ASICS"
-      },
-      "amazon": {
-        "url": "https://www.netshoes.com.br/search?q=Gel-Nimbus%2026&utm_source=tenisideal&utm_medium=affiliate&utm_campaign=shoes&affid=4683922",
-        "store": "Amazon",
-        "label": "COMPRAR NA AMAZON"
-      },
-      "netshoes": {
-        "url": "https://www.netshoes.com.br/search?q=Gel-Nimbus%2026&utm_source=tenisideal&utm_medium=affiliate&utm_campaign=shoes&affid=2800712",
-        "store": "Netshoes",
-        "label": "COMPRAR NA NETSHOES"
       }
     },
     "tags": [
@@ -766,16 +626,6 @@ var SHOES = [
         "url": "https://www.awin1.com/cread.php?awinmid=15815&awinaffid=2800712&clickref=tenisideal_15",
         "store": "ASICS",
         "label": "COMPRAR NA ASICS"
-      },
-      "amazon": {
-        "url": "https://www.netshoes.com.br/search?q=Gel-Trabuco%2012&utm_source=tenisideal&utm_medium=affiliate&utm_campaign=shoes&affid=4683922",
-        "store": "Amazon",
-        "label": "COMPRAR NA AMAZON"
-      },
-      "netshoes": {
-        "url": "https://www.netshoes.com.br/search?q=Gel-Trabuco%2012&utm_source=tenisideal&utm_medium=affiliate&utm_campaign=shoes&affid=2800712",
-        "store": "Netshoes",
-        "label": "COMPRAR NA NETSHOES"
       }
     },
     "tags": [
@@ -819,16 +669,6 @@ var SHOES = [
         "url": "https://www.awin1.com/cread.php?awinmid=15815&awinaffid=2800712&clickref=tenisideal_16",
         "store": "ASICS",
         "label": "COMPRAR NA ASICS"
-      },
-      "amazon": {
-        "url": "https://www.netshoes.com.br/search?q=Gel-Pulse%2015%20SE&utm_source=tenisideal&utm_medium=affiliate&utm_campaign=shoes&affid=4683922",
-        "store": "Amazon",
-        "label": "COMPRAR NA AMAZON"
-      },
-      "netshoes": {
-        "url": "https://www.netshoes.com.br/search?q=Gel-Pulse%2015%20SE&utm_source=tenisideal&utm_medium=affiliate&utm_campaign=shoes&affid=2800712",
-        "store": "Netshoes",
-        "label": "COMPRAR NA NETSHOES"
       }
     },
     "tags": [
@@ -873,16 +713,6 @@ var SHOES = [
         "url": "https://www.awin1.com/cread.php?awinmid=15815&awinaffid=2800712&clickref=tenisideal_17",
         "store": "ASICS",
         "label": "COMPRAR NA ASICS"
-      },
-      "amazon": {
-        "url": "https://www.netshoes.com.br/search?q=Gel-Venture%2010&utm_source=tenisideal&utm_medium=affiliate&utm_campaign=shoes&affid=4683922",
-        "store": "Amazon",
-        "label": "COMPRAR NA AMAZON"
-      },
-      "netshoes": {
-        "url": "https://www.netshoes.com.br/search?q=Gel-Venture%2010&utm_source=tenisideal&utm_medium=affiliate&utm_campaign=shoes&affid=2800712",
-        "store": "Netshoes",
-        "label": "COMPRAR NA NETSHOES"
       }
     },
     "tags": [
@@ -927,16 +757,6 @@ var SHOES = [
         "url": "https://www.awin1.com/cread.php?awinmid=15815&awinaffid=2800712&clickref=tenisideal_18",
         "store": "ASICS",
         "label": "COMPRAR NA ASICS"
-      },
-      "amazon": {
-        "url": "https://www.netshoes.com.br/search?q=Gel-Shinobi%202&utm_source=tenisideal&utm_medium=affiliate&utm_campaign=shoes&affid=4683922",
-        "store": "Amazon",
-        "label": "COMPRAR NA AMAZON"
-      },
-      "netshoes": {
-        "url": "https://www.netshoes.com.br/search?q=Gel-Shinobi%202&utm_source=tenisideal&utm_medium=affiliate&utm_campaign=shoes&affid=2800712",
-        "store": "Netshoes",
-        "label": "COMPRAR NA NETSHOES"
       }
     },
     "tags": [
@@ -980,16 +800,6 @@ var SHOES = [
         "url": "https://www.awin1.com/cread.php?awinmid=15815&awinaffid=2800712&clickref=tenisideal_19",
         "store": "ASICS",
         "label": "COMPRAR NA ASICS"
-      },
-      "amazon": {
-        "url": "https://www.netshoes.com.br/search?q=Gel-Kayano%2032&utm_source=tenisideal&utm_medium=affiliate&utm_campaign=shoes&affid=4683922",
-        "store": "Amazon",
-        "label": "COMPRAR NA AMAZON"
-      },
-      "netshoes": {
-        "url": "https://www.netshoes.com.br/search?q=Gel-Kayano%2032&utm_source=tenisideal&utm_medium=affiliate&utm_campaign=shoes&affid=2800712",
-        "store": "Netshoes",
-        "label": "COMPRAR NA NETSHOES"
       }
     },
     "tags": [
@@ -1031,16 +841,6 @@ var SHOES = [
         "url": "https://www.brooks.com.br/search?q=Adrenaline%20GTS%2024%20Supportive",
         "store": "BROOKS",
         "label": "COMPRAR NA BROOKS"
-      },
-      "amazon": {
-        "url": "https://www.netshoes.com.br/search?q=Adrenaline%20GTS%2024%20Supportive&utm_source=tenisideal&utm_medium=affiliate&utm_campaign=shoes&affid=4683922",
-        "store": "Amazon",
-        "label": "COMPRAR NA AMAZON"
-      },
-      "netshoes": {
-        "url": "https://www.netshoes.com.br/search?q=Adrenaline%20GTS%2024%20Supportive&utm_source=tenisideal&utm_medium=affiliate&utm_campaign=shoes&affid=2800712",
-        "store": "Netshoes",
-        "label": "COMPRAR NA NETSHOES"
       }
     },
     "tags": [
@@ -1081,16 +881,6 @@ var SHOES = [
         "url": "https://www.brooks.com.br/search?q=Adrenaline%20GTS%2024%20Weatherized",
         "store": "BROOKS",
         "label": "COMPRAR NA BROOKS"
-      },
-      "amazon": {
-        "url": "https://www.netshoes.com.br/search?q=Adrenaline%20GTS%2024%20Weatherized&utm_source=tenisideal&utm_medium=affiliate&utm_campaign=shoes&affid=4683922",
-        "store": "Amazon",
-        "label": "COMPRAR NA AMAZON"
-      },
-      "netshoes": {
-        "url": "https://www.netshoes.com.br/search?q=Adrenaline%20GTS%2024%20Weatherized&utm_source=tenisideal&utm_medium=affiliate&utm_campaign=shoes&affid=2800712",
-        "store": "Netshoes",
-        "label": "COMPRAR NA NETSHOES"
       }
     },
     "tags": [
@@ -1131,16 +921,6 @@ var SHOES = [
         "url": "https://www.brooks.com.br/search?q=Ghost%2016",
         "store": "BROOKS",
         "label": "COMPRAR NA BROOKS"
-      },
-      "amazon": {
-        "url": "https://www.netshoes.com.br/search?q=Ghost%2016&utm_source=tenisideal&utm_medium=affiliate&utm_campaign=shoes&affid=4683922",
-        "store": "Amazon",
-        "label": "COMPRAR NA AMAZON"
-      },
-      "netshoes": {
-        "url": "https://www.netshoes.com.br/search?q=Ghost%2016&utm_source=tenisideal&utm_medium=affiliate&utm_campaign=shoes&affid=2800712",
-        "store": "Netshoes",
-        "label": "COMPRAR NA NETSHOES"
       }
     },
     "tags": [
@@ -1176,13 +956,7 @@ var SHOES = [
       "longa"
     ],
     "photo": "https://m.media-amazon.com/images/I/81FrDKqWbIL._AC_SY500_.jpg",
-    "affiliate_links": {
-      "amazon": {
-        "url": "https://www.netshoes.com.br/search?q=Ghost%2014%20Neutral&utm_source=tenisideal&utm_medium=affiliate&utm_campaign=shoes&affid=4683922",
-        "store": "Amazon",
-        "label": "COMPRAR NA AMAZON"
-      }
-    },
+    "affiliate_links": {},
     "tags": [
       "Amortecimento",
       "Durabilidade",
@@ -1215,18 +989,7 @@ var SHOES = [
       "longa"
     ],
     "photo": "https://static.netshoes.com.br/produtos/tenis-fila-speed-lite-masculino/38/SFK-06IV-038/SFK-06IV-038_detalhe1.jpg?ts=1781150133",
-    "affiliate_links": {
-      "amazon": {
-        "url": "https://www.netshoes.com.br/search?q=Fila%20Speed%20Lite&utm_source=tenisideal&utm_medium=affiliate&utm_campaign=shoes&affid=4683922",
-        "store": "Amazon",
-        "label": "COMPRAR NA AMAZON"
-      },
-      "netshoes": {
-        "url": "https://click.linksynergy.com/deeplink?id=NyH7xPegftk&mid=43984&murl=https%3A%2F%2Fwww.netshoes.com.br%2Fp%2Ftenis-fila-speed-lite-masculino-SFK-06IV-144",
-        "store": "Netshoes",
-        "label": "COMPRAR NA NETSHOES"
-      }
-    },
+    "affiliate_links": {},
     "tags": [
       "Training",
       "Estabilidade"
@@ -1264,13 +1027,7 @@ var SHOES = [
       "longa"
     ],
     "photo": "https://m.media-amazon.com/images/I/51DEAqmvGdL._AC_SY625_.jpg",
-    "affiliate_links": {
-      "amazon": {
-        "url": "https://www.netshoes.com.br/search?q=Float%20Maxxi&utm_source=tenisideal&utm_medium=affiliate&utm_campaign=shoes&affid=4683922",
-        "store": "Amazon",
-        "label": "COMPRAR NA AMAZON"
-      }
-    },
+    "affiliate_links": {},
     "tags": [
       "Amortecimento",
       "Corrida"
@@ -1308,13 +1065,7 @@ var SHOES = [
       "longa"
     ],
     "photo": "https://m.media-amazon.com/images/I/517Z6pntJHL._AC_SY625_.jpg",
-    "affiliate_links": {
-      "amazon": {
-        "url": "https://www.netshoes.com.br/search?q=Racer%20Fastpace&utm_source=tenisideal&utm_medium=affiliate&utm_campaign=shoes&affid=4683922",
-        "store": "Amazon",
-        "label": "COMPRAR NA AMAZON"
-      }
-    },
+    "affiliate_links": {},
     "tags": [
       "Amortecimento",
       "Durabilidade"
@@ -1352,13 +1103,7 @@ var SHOES = [
       "longa"
     ],
     "photo": "https://m.media-amazon.com/images/I/61rKjTIK4SL._AC_SY625_.jpg",
-    "affiliate_links": {
-      "amazon": {
-        "url": "https://www.netshoes.com.br/search?q=Racer%20Comet&utm_source=tenisideal&utm_medium=affiliate&utm_campaign=shoes&affid=4683922",
-        "store": "Amazon",
-        "label": "COMPRAR NA AMAZON"
-      }
-    },
+    "affiliate_links": {},
     "tags": [
       "Amortecimento",
       "Estabilidade"
@@ -1396,13 +1141,7 @@ var SHOES = [
       "longa"
     ],
     "photo": "https://m.media-amazon.com/images/I/51Y79XZ2xcL._AC_SY500_.jpg",
-    "affiliate_links": {
-      "amazon": {
-        "url": "https://www.netshoes.com.br/search?q=Recovery&utm_source=tenisideal&utm_medium=affiliate&utm_campaign=shoes&affid=4683922",
-        "store": "Amazon",
-        "label": "COMPRAR NA AMAZON"
-      }
-    },
+    "affiliate_links": {},
     "tags": [
       "Amortecimento",
       "Estabilidade"
@@ -1436,13 +1175,7 @@ var SHOES = [
       "longa"
     ],
     "photo": "https://m.media-amazon.com/images/I/610N9clHcfL._AC_SY695_.jpg",
-    "affiliate_links": {
-      "amazon": {
-        "url": "https://www.netshoes.com.br/search?q=Hoka%20Clifton%2010&utm_source=tenisideal&utm_medium=affiliate&utm_campaign=shoes&affid=4683922",
-        "store": "Amazon",
-        "label": "COMPRAR NA AMAZON"
-      }
-    },
+    "affiliate_links": {},
     "tags": [
       "Amortecimento",
       "Treino diário",
@@ -1478,13 +1211,7 @@ var SHOES = [
       "longa"
     ],
     "photo": "https://m.media-amazon.com/images/I/51bXQrff2ZL._AC_SY500_.jpg",
-    "affiliate_links": {
-      "amazon": {
-        "url": "https://www.netshoes.com.br/search?q=Hoka%20Clifton%2010&utm_source=tenisideal&utm_medium=affiliate&utm_campaign=shoes&affid=4683922",
-        "store": "Amazon",
-        "label": "COMPRAR NA AMAZON"
-      }
-    },
+    "affiliate_links": {},
     "tags": [
       "Amortecimento",
       "Treino diário",
@@ -1520,13 +1247,7 @@ var SHOES = [
       "longa"
     ],
     "photo": "https://m.media-amazon.com/images/I/61FlAJi0tsL._AC_SY500_.jpg",
-    "affiliate_links": {
-      "amazon": {
-        "url": "https://www.netshoes.com.br/search?q=Hoka%20Rocket%20X%203&utm_source=tenisideal&utm_medium=affiliate&utm_campaign=shoes&affid=4683922",
-        "store": "Amazon",
-        "label": "COMPRAR NA AMAZON"
-      }
-    },
+    "affiliate_links": {},
     "tags": [
       "Carbono",
       "Maratona",
@@ -1562,13 +1283,7 @@ var SHOES = [
       "longa"
     ],
     "photo": "https://images-na.ssl-images-amazon.com/images/I/61Gkm+6EdqL.jpg",
-    "affiliate_links": {
-      "amazon": {
-        "url": "https://www.netshoes.com.br/search?q=Clifton%209&utm_source=tenisideal&utm_medium=affiliate&utm_campaign=shoes&affid=4683922",
-        "store": "Amazon",
-        "label": "COMPRAR NA AMAZON"
-      }
-    },
+    "affiliate_links": {},
     "tags": [
       "Maxi-Soft",
       "Leve"
@@ -1602,13 +1317,7 @@ var SHOES = [
       "longa"
     ],
     "photo": "https://m.media-amazon.com/images/I/61IG0fi5z+L._AC_SY500_.jpg",
-    "affiliate_links": {
-      "amazon": {
-        "url": "https://www.netshoes.com.br/search?q=Clifton%209&utm_source=tenisideal&utm_medium=affiliate&utm_campaign=shoes&affid=4683922",
-        "store": "Amazon",
-        "label": "COMPRAR NA AMAZON"
-      }
-    },
+    "affiliate_links": {},
     "tags": [
       "Maxi-Soft",
       "Leve"
@@ -1642,13 +1351,7 @@ var SHOES = [
       "longa"
     ],
     "photo": "https://images-na.ssl-images-amazon.com/images/I/71pT4bBn39L.jpg",
-    "affiliate_links": {
-      "amazon": {
-        "url": "https://www.netshoes.com.br/search?q=Speedgoat%206&utm_source=tenisideal&utm_medium=affiliate&utm_campaign=shoes&affid=4683922",
-        "store": "Amazon",
-        "label": "COMPRAR NA AMAZON"
-      }
-    },
+    "affiliate_links": {},
     "tags": [
       "Ultra Trail",
       "Conforto"
@@ -1688,11 +1391,6 @@ var SHOES = [
         "url": "https://tidd.ly/4umRr4C",
         "store": "MIZUNO",
         "label": "COMPRAR NA MIZUNO"
-      },
-      "amazon": {
-        "url": "https://www.netshoes.com.br/search?q=Wave%20Inspire%2021&utm_source=tenisideal&utm_medium=affiliate&utm_campaign=shoes&affid=4683922",
-        "store": "Amazon",
-        "label": "COMPRAR NA AMAZON"
       }
     },
     "tags": [
@@ -1734,11 +1432,6 @@ var SHOES = [
         "url": "https://tidd.ly/40tllXn",
         "store": "MIZUNO",
         "label": "COMPRAR NA MIZUNO"
-      },
-      "amazon": {
-        "url": "https://www.netshoes.com.br/search?q=Wave%20Rider%2028&utm_source=tenisideal&utm_medium=affiliate&utm_campaign=shoes&affid=4683922",
-        "store": "Amazon",
-        "label": "COMPRAR NA AMAZON"
       }
     },
     "tags": [
@@ -1781,11 +1474,6 @@ var SHOES = [
         "url": "https://tidd.ly/4diuTvL",
         "store": "MIZUNO",
         "label": "COMPRAR NA MIZUNO"
-      },
-      "amazon": {
-        "url": "https://www.netshoes.com.br/search?q=Wave%20Sky%209&utm_source=tenisideal&utm_medium=affiliate&utm_campaign=shoes&affid=4683922",
-        "store": "Amazon",
-        "label": "COMPRAR NA AMAZON"
       }
     },
     "tags": [
@@ -1827,11 +1515,6 @@ var SHOES = [
         "url": "https://tidd.ly/4dcnka0",
         "store": "MIZUNO",
         "label": "COMPRAR NA MIZUNO"
-      },
-      "amazon": {
-        "url": "https://www.netshoes.com.br/search?q=Victory%20RSP&utm_source=tenisideal&utm_medium=affiliate&utm_campaign=shoes&affid=4683922",
-        "store": "Amazon",
-        "label": "COMPRAR NA AMAZON"
       }
     },
     "tags": [
@@ -1874,11 +1557,6 @@ var SHOES = [
         "url": "https://tidd.ly/4b93ye7",
         "store": "MIZUNO",
         "label": "COMPRAR NA MIZUNO"
-      },
-      "amazon": {
-        "url": "https://www.netshoes.com.br/search?q=Base%20Ride&utm_source=tenisideal&utm_medium=affiliate&utm_campaign=shoes&affid=4683922",
-        "store": "Amazon",
-        "label": "COMPRAR NA AMAZON"
       }
     },
     "tags": [
@@ -1921,11 +1599,6 @@ var SHOES = [
         "url": "https://tidd.ly/4lyvEmO",
         "store": "MIZUNO",
         "label": "COMPRAR NA MIZUNO"
-      },
-      "amazon": {
-        "url": "https://www.netshoes.com.br/search?q=Creation%2026&utm_source=tenisideal&utm_medium=affiliate&utm_campaign=shoes&affid=4683922",
-        "store": "Amazon",
-        "label": "COMPRAR NA AMAZON"
       }
     },
     "tags": [
@@ -1968,11 +1641,6 @@ var SHOES = [
         "url": "https://tidd.ly/4bIoSY4",
         "store": "MIZUNO",
         "label": "COMPRAR NA MIZUNO"
-      },
-      "amazon": {
-        "url": "https://www.netshoes.com.br/search?q=Creation%2026&utm_source=tenisideal&utm_medium=affiliate&utm_campaign=shoes&affid=4683922",
-        "store": "Amazon",
-        "label": "COMPRAR NA AMAZON"
       }
     },
     "tags": [
@@ -2010,13 +1678,7 @@ var SHOES = [
       "longa"
     ],
     "photo": "https://m.media-amazon.com/images/I/71pGo9F0wnL._AC_SY500_.jpg",
-    "affiliate_links": {
-      "amazon": {
-        "url": "https://www.netshoes.com.br/search?q=Neo%20Zen&utm_source=tenisideal&utm_medium=affiliate&utm_campaign=shoes&affid=4683922",
-        "store": "Amazon",
-        "label": "COMPRAR NA AMAZON"
-      }
-    },
+    "affiliate_links": {},
     "tags": [
       "Amortecimento",
       "Leveza",
@@ -2057,16 +1719,6 @@ var SHOES = [
         "url": "https://www.awin1.com/cread.php?awinmid=51271&awinaffid=2800712&platform=dl&ued=https%3A%2F%2Fwww.mizuno.com.br%2Ftenis-de-corrida-mizuno-wave-dynasty-7-feminino-preto-8585%2Fp",
         "store": "MIZUNO",
         "label": "COMPRAR NA MIZUNO"
-      },
-      "amazon": {
-        "url": "https://www.netshoes.com.br/search?q=Wave%20Dynasty%207&utm_source=tenisideal&utm_medium=affiliate&utm_campaign=shoes&affid=4683922",
-        "store": "Amazon",
-        "label": "COMPRAR NA AMAZON"
-      },
-      "netshoes": {
-        "url": "https://click.linksynergy.com/deeplink?id=NyH7xPegftk&mid=43984&murl=https%3A%2F%2Fwww.netshoes.com.br%2Fp%2Ftenis-mizuno-wave-dynasty-7-masculino-2FV-1322-006",
-        "store": "Netshoes",
-        "label": "COMPRAR NA NETSHOES"
       }
     },
     "tags": [
@@ -2109,11 +1761,6 @@ var SHOES = [
         "url": "https://tidd.ly/4bbBUgI",
         "store": "MIZUNO",
         "label": "COMPRAR NA MIZUNO"
-      },
-      "amazon": {
-        "url": "https://www.netshoes.com.br/search?q=Enigma%202&utm_source=tenisideal&utm_medium=affiliate&utm_campaign=shoes&affid=4683922",
-        "store": "Amazon",
-        "label": "COMPRAR NA AMAZON"
       }
     },
     "tags": [
@@ -2156,11 +1803,6 @@ var SHOES = [
         "url": "https://tidd.ly/3NAinxj",
         "store": "MIZUNO",
         "label": "COMPRAR NA MIZUNO"
-      },
-      "amazon": {
-        "url": "https://www.netshoes.com.br/search?q=Wave%20Prophecy%20Beta%202&utm_source=tenisideal&utm_medium=affiliate&utm_campaign=shoes&affid=4683922",
-        "store": "Amazon",
-        "label": "COMPRAR NA AMAZON"
       }
     },
     "tags": [
@@ -2203,11 +1845,6 @@ var SHOES = [
         "url": "https://tidd.ly/3P0R9QY",
         "store": "MIZUNO",
         "label": "COMPRAR NA MIZUNO"
-      },
-      "amazon": {
-        "url": "https://www.netshoes.com.br/search?q=Glow%203&utm_source=tenisideal&utm_medium=affiliate&utm_campaign=shoes&affid=4683922",
-        "store": "Amazon",
-        "label": "COMPRAR NA AMAZON"
       }
     },
     "tags": [
@@ -2250,11 +1887,6 @@ var SHOES = [
         "url": "https://tidd.ly/4sdgExe",
         "store": "MIZUNO",
         "label": "COMPRAR NA MIZUNO"
-      },
-      "amazon": {
-        "url": "https://www.netshoes.com.br/search?q=Wave%20Daichi%209&utm_source=tenisideal&utm_medium=affiliate&utm_campaign=shoes&affid=4683922",
-        "store": "Amazon",
-        "label": "COMPRAR NA AMAZON"
       }
     },
     "tags": [
@@ -2297,11 +1929,6 @@ var SHOES = [
         "url": "https://tidd.ly/4s4637n",
         "store": "MIZUNO",
         "label": "COMPRAR NA MIZUNO"
-      },
-      "amazon": {
-        "url": "https://www.netshoes.com.br/search?q=Wave%20Daichi%209&utm_source=tenisideal&utm_medium=affiliate&utm_campaign=shoes&affid=4683922",
-        "store": "Amazon",
-        "label": "COMPRAR NA AMAZON"
       }
     },
     "tags": [
@@ -2338,13 +1965,7 @@ var SHOES = [
       "longa"
     ],
     "photo": "https://m.media-amazon.com/images/I/51Z+ohQHSIL._AC_SY625_.jpg",
-    "affiliate_links": {
-      "amazon": {
-        "url": "https://www.netshoes.com.br/search?q=Fresh%20Foam%20X%201080%20V14&utm_source=tenisideal&utm_medium=affiliate&utm_campaign=shoes&affid=4683922",
-        "store": "Amazon",
-        "label": "COMPRAR NA AMAZON"
-      }
-    },
+    "affiliate_links": {},
     "tags": [
       "Amortecimento",
       "Conforto"
@@ -2378,13 +1999,7 @@ var SHOES = [
       "longa"
     ],
     "photo": "https://m.media-amazon.com/images/I/71umOc7Na8L._AC_SY500_.jpg",
-    "affiliate_links": {
-      "amazon": {
-        "url": "https://www.netshoes.com.br/search?q=530&utm_source=tenisideal&utm_medium=affiliate&utm_campaign=shoes&affid=4683922",
-        "store": "Amazon",
-        "label": "COMPRAR NA AMAZON"
-      }
-    },
+    "affiliate_links": {},
     "tags": [
       "Amortecimento",
       "Estilo",
@@ -2419,13 +2034,7 @@ var SHOES = [
       "longa"
     ],
     "photo": "https://m.media-amazon.com/images/I/61FYoxCE8OL._AC_SY500_.jpg",
-    "affiliate_links": {
-      "amazon": {
-        "url": "https://www.netshoes.com.br/search?q=1080%20v15&utm_source=tenisideal&utm_medium=affiliate&utm_campaign=shoes&affid=4683922",
-        "store": "Amazon",
-        "label": "COMPRAR NA AMAZON"
-      }
-    },
+    "affiliate_links": {},
     "tags": [
       "Amortecimento",
       "Treino diário",
@@ -2461,13 +2070,7 @@ var SHOES = [
       "longa"
     ],
     "photo": "https://m.media-amazon.com/images/I/81wTUqT6pWL._AC_SX500_.jpg",
-    "affiliate_links": {
-      "amazon": {
-        "url": "https://www.netshoes.com.br/search?q=1080%20v15&utm_source=tenisideal&utm_medium=affiliate&utm_campaign=shoes&affid=4683922",
-        "store": "Amazon",
-        "label": "COMPRAR NA AMAZON"
-      }
-    },
+    "affiliate_links": {},
     "tags": [
       "Amortecimento",
       "Treino diário",
@@ -2503,13 +2106,7 @@ var SHOES = [
       "longa"
     ],
     "photo": "https://m.media-amazon.com/images/I/71q16VFjN9L._AC_SX500_.jpg",
-    "affiliate_links": {
-      "amazon": {
-        "url": "https://www.netshoes.com.br/search?q=FuelCell%20SuperComp%20Elite%20v5&utm_source=tenisideal&utm_medium=affiliate&utm_campaign=shoes&affid=4683922",
-        "store": "Amazon",
-        "label": "COMPRAR NA AMAZON"
-      }
-    },
+    "affiliate_links": {},
     "tags": [
       "Carbono",
       "Maratona",
@@ -2545,13 +2142,7 @@ var SHOES = [
       "longa"
     ],
     "photo": "https://m.media-amazon.com/images/I/51jw--PJVpL._AC_SY500_.jpg",
-    "affiliate_links": {
-      "amazon": {
-        "url": "https://www.netshoes.com.br/search?q=Fresh%20Foam%20X%20Hierro%20v8&utm_source=tenisideal&utm_medium=affiliate&utm_campaign=shoes&affid=4683922",
-        "store": "Amazon",
-        "label": "COMPRAR NA AMAZON"
-      }
-    },
+    "affiliate_links": {},
     "tags": [
       "Trilha",
       "Amortecimento",
@@ -2587,13 +2178,7 @@ var SHOES = [
       "longa"
     ],
     "photo": "https://m.media-amazon.com/images/I/71+9s4rDg-L._AC_SY500_.jpg",
-    "affiliate_links": {
-      "amazon": {
-        "url": "https://www.netshoes.com.br/search?q=New%20Balance%20Rebel%20v5&utm_source=tenisideal&utm_medium=affiliate&utm_campaign=shoes&affid=4683922",
-        "store": "Amazon",
-        "label": "COMPRAR NA AMAZON"
-      }
-    },
+    "affiliate_links": {},
     "tags": [
       "Leveza",
       "Rápido",
@@ -2629,13 +2214,7 @@ var SHOES = [
       "longa"
     ],
     "photo": "https://m.media-amazon.com/images/I/61YvL0uMf7L._AC_SY500_.jpg",
-    "affiliate_links": {
-      "amazon": {
-        "url": "https://www.netshoes.com.br/search?q=New%20Balance%20Rebel%20v5&utm_source=tenisideal&utm_medium=affiliate&utm_campaign=shoes&affid=4683922",
-        "store": "Amazon",
-        "label": "COMPRAR NA AMAZON"
-      }
-    },
+    "affiliate_links": {},
     "tags": [
       "Leveza",
       "Rápido",
@@ -2680,11 +2259,6 @@ var SHOES = [
         "url": "https://tidd.ly/3PaPl86",
         "store": "NIKE",
         "label": "COMPRAR NA NIKE"
-      },
-      "amazon": {
-        "url": "https://www.netshoes.com.br/search?q=Vomero%20Plus&utm_source=tenisideal&utm_medium=affiliate&utm_campaign=shoes&affid=4683922",
-        "store": "Amazon",
-        "label": "COMPRAR NA AMAZON"
       }
     },
     "tags": [],
@@ -2726,11 +2300,6 @@ var SHOES = [
         "url": "https://tidd.ly/4lAM120",
         "store": "NIKE",
         "label": "COMPRAR NA NIKE"
-      },
-      "amazon": {
-        "url": "https://www.netshoes.com.br/search?q=Vomero%20Plus&utm_source=tenisideal&utm_medium=affiliate&utm_campaign=shoes&affid=4683922",
-        "store": "Amazon",
-        "label": "COMPRAR NA AMAZON"
       }
     },
     "tags": [],
@@ -2767,13 +2336,7 @@ var SHOES = [
       "longa"
     ],
     "photo": "https://images-na.ssl-images-amazon.com/images/I/61jBJ9a4NJL.jpg",
-    "affiliate_links": {
-      "amazon": {
-        "url": "https://www.netshoes.com.br/search?q=ZoomX%20Ultrafly%20Trail&utm_source=tenisideal&utm_medium=affiliate&utm_campaign=shoes&affid=4683922",
-        "store": "Amazon",
-        "label": "COMPRAR NA AMAZON"
-      }
-    },
+    "affiliate_links": {},
     "tags": [
       "Trail",
       "Carbono"
@@ -2816,11 +2379,6 @@ var SHOES = [
         "url": "https://tidd.ly/4vag1pL",
         "store": "NIKE",
         "label": "COMPRAR NA NIKE"
-      },
-      "amazon": {
-        "url": "https://www.netshoes.com.br/search?q=Downshifter%2013&utm_source=tenisideal&utm_medium=affiliate&utm_campaign=shoes&affid=4683922",
-        "store": "Amazon",
-        "label": "COMPRAR NA AMAZON"
       }
     },
     "tags": [
@@ -2864,11 +2422,6 @@ var SHOES = [
         "url": "https://tidd.ly/4sUwTj1",
         "store": "NIKE",
         "label": "COMPRAR NA NIKE"
-      },
-      "amazon": {
-        "url": "https://www.netshoes.com.br/search?q=Downshifter%2013&utm_source=tenisideal&utm_medium=affiliate&utm_campaign=shoes&affid=4683922",
-        "store": "Amazon",
-        "label": "COMPRAR NA AMAZON"
       }
     },
     "tags": [],
@@ -2910,11 +2463,6 @@ var SHOES = [
         "url": "https://tidd.ly/4sUwTj1",
         "store": "NIKE",
         "label": "COMPRAR NA NIKE"
-      },
-      "amazon": {
-        "url": "https://www.netshoes.com.br/search?q=Revolution%208&utm_source=tenisideal&utm_medium=affiliate&utm_campaign=shoes&affid=4683922",
-        "store": "Amazon",
-        "label": "COMPRAR NA AMAZON"
       }
     },
     "tags": [],
@@ -2956,11 +2504,6 @@ var SHOES = [
         "url": "https://tidd.ly/4tw1HXi",
         "store": "NIKE",
         "label": "COMPRAR NA NIKE"
-      },
-      "amazon": {
-        "url": "https://www.netshoes.com.br/search?q=Revolution%208&utm_source=tenisideal&utm_medium=affiliate&utm_campaign=shoes&affid=4683922",
-        "store": "Amazon",
-        "label": "COMPRAR NA AMAZON"
       }
     },
     "tags": [],
@@ -3002,11 +2545,6 @@ var SHOES = [
         "url": "https://tidd.ly/48c9bpY",
         "store": "NIKE",
         "label": "COMPRAR NA NIKE"
-      },
-      "amazon": {
-        "url": "https://www.netshoes.com.br/search?q=Winflo%2011&utm_source=tenisideal&utm_medium=affiliate&utm_campaign=shoes&affid=4683922",
-        "store": "Amazon",
-        "label": "COMPRAR NA AMAZON"
       }
     },
     "tags": [],
@@ -3048,11 +2586,6 @@ var SHOES = [
         "url": "https://tidd.ly/4dnmibo",
         "store": "NIKE",
         "label": "COMPRAR NA NIKE"
-      },
-      "amazon": {
-        "url": "https://www.netshoes.com.br/search?q=Winflo%2011&utm_source=tenisideal&utm_medium=affiliate&utm_campaign=shoes&affid=4683922",
-        "store": "Amazon",
-        "label": "COMPRAR NA AMAZON"
       }
     },
     "tags": [],
@@ -3094,11 +2627,6 @@ var SHOES = [
         "url": "https://tidd.ly/4dnmibo",
         "store": "NIKE",
         "label": "COMPRAR NA NIKE"
-      },
-      "amazon": {
-        "url": "https://www.netshoes.com.br/search?q=Quest%205&utm_source=tenisideal&utm_medium=affiliate&utm_campaign=shoes&affid=4683922",
-        "store": "Amazon",
-        "label": "COMPRAR NA AMAZON"
       }
     },
     "tags": [],
@@ -3140,11 +2668,6 @@ var SHOES = [
         "url": "https://tidd.ly/41MDsrO",
         "store": "NIKE",
         "label": "COMPRAR NA NIKE"
-      },
-      "amazon": {
-        "url": "https://www.netshoes.com.br/search?q=Quest%205&utm_source=tenisideal&utm_medium=affiliate&utm_campaign=shoes&affid=4683922",
-        "store": "Amazon",
-        "label": "COMPRAR NA AMAZON"
       }
     },
     "tags": [],
@@ -3186,11 +2709,6 @@ var SHOES = [
         "url": "https://tidd.ly/4ctXAnN",
         "store": "NIKE",
         "label": "COMPRAR NA NIKE"
-      },
-      "amazon": {
-        "url": "https://www.netshoes.com.br/search?q=Air%20Zoom%20Alphafly%203&utm_source=tenisideal&utm_medium=affiliate&utm_campaign=shoes&affid=4683922",
-        "store": "Amazon",
-        "label": "COMPRAR NA AMAZON"
       }
     },
     "tags": [],
@@ -3232,11 +2750,6 @@ var SHOES = [
         "url": "https://tidd.ly/4bQ2XOS",
         "store": "NIKE",
         "label": "COMPRAR NA NIKE"
-      },
-      "amazon": {
-        "url": "https://www.netshoes.com.br/search?q=Air%20Zoom%20Alphafly%203&utm_source=tenisideal&utm_medium=affiliate&utm_campaign=shoes&affid=4683922",
-        "store": "Amazon",
-        "label": "COMPRAR NA AMAZON"
       }
     },
     "tags": [],
@@ -3278,11 +2791,6 @@ var SHOES = [
         "url": "https://tidd.ly/4bQ2XOS",
         "store": "NIKE",
         "label": "COMPRAR NA NIKE"
-      },
-      "amazon": {
-        "url": "https://www.netshoes.com.br/search?q=Zoom%20Fly%206&utm_source=tenisideal&utm_medium=affiliate&utm_campaign=shoes&affid=4683922",
-        "store": "Amazon",
-        "label": "COMPRAR NA AMAZON"
       }
     },
     "tags": [],
@@ -3324,11 +2832,6 @@ var SHOES = [
         "url": "https://tidd.ly/3PR0H1h",
         "store": "NIKE",
         "label": "COMPRAR NA NIKE"
-      },
-      "amazon": {
-        "url": "https://www.netshoes.com.br/search?q=Structure%2025&utm_source=tenisideal&utm_medium=affiliate&utm_campaign=shoes&affid=4683922",
-        "store": "Amazon",
-        "label": "COMPRAR NA AMAZON"
       }
     },
     "tags": [],
@@ -3370,11 +2873,6 @@ var SHOES = [
         "url": "https://tidd.ly/3PR0H1h",
         "store": "NIKE",
         "label": "COMPRAR NA NIKE"
-      },
-      "amazon": {
-        "url": "https://www.netshoes.com.br/search?q=Invincible%203&utm_source=tenisideal&utm_medium=affiliate&utm_campaign=shoes&affid=4683922",
-        "store": "Amazon",
-        "label": "COMPRAR NA AMAZON"
       }
     },
     "tags": [],
@@ -3416,11 +2914,6 @@ var SHOES = [
         "url": "https://tidd.ly/4txL7WZ",
         "store": "NIKE",
         "label": "COMPRAR NA NIKE"
-      },
-      "amazon": {
-        "url": "https://www.netshoes.com.br/search?q=Invincible%203&utm_source=tenisideal&utm_medium=affiliate&utm_campaign=shoes&affid=4683922",
-        "store": "Amazon",
-        "label": "COMPRAR NA AMAZON"
       }
     },
     "tags": [],
@@ -3462,11 +2955,6 @@ var SHOES = [
         "url": "https://tidd.ly/3NYKhn2",
         "store": "NIKE",
         "label": "COMPRAR NA NIKE"
-      },
-      "amazon": {
-        "url": "https://www.netshoes.com.br/search?q=Vomero%2018&utm_source=tenisideal&utm_medium=affiliate&utm_campaign=shoes&affid=4683922",
-        "store": "Amazon",
-        "label": "COMPRAR NA AMAZON"
       }
     },
     "tags": [],
@@ -3508,11 +2996,6 @@ var SHOES = [
         "url": "https://tidd.ly/3NYKhn2",
         "store": "NIKE",
         "label": "COMPRAR NA NIKE"
-      },
-      "amazon": {
-        "url": "https://www.netshoes.com.br/search?q=Vomero%2018&utm_source=tenisideal&utm_medium=affiliate&utm_campaign=shoes&affid=4683922",
-        "store": "Amazon",
-        "label": "COMPRAR NA AMAZON"
       }
     },
     "tags": [],
@@ -3554,11 +3037,6 @@ var SHOES = [
         "url": "https://tidd.ly/3NYKhn2",
         "store": "NIKE",
         "label": "COMPRAR NA NIKE"
-      },
-      "amazon": {
-        "url": "https://www.netshoes.com.br/search?q=Pegasus%20Trail%205&utm_source=tenisideal&utm_medium=affiliate&utm_campaign=shoes&affid=4683922",
-        "store": "Amazon",
-        "label": "COMPRAR NA AMAZON"
       }
     },
     "tags": [],
@@ -3600,11 +3078,6 @@ var SHOES = [
         "url": "https://tidd.ly/3NICxFF",
         "store": "NIKE",
         "label": "COMPRAR NA NIKE"
-      },
-      "amazon": {
-        "url": "https://www.netshoes.com.br/search?q=Pegasus%20Trail%205&utm_source=tenisideal&utm_medium=affiliate&utm_campaign=shoes&affid=4683922",
-        "store": "Amazon",
-        "label": "COMPRAR NA AMAZON"
       }
     },
     "tags": [],
@@ -3646,11 +3119,6 @@ var SHOES = [
         "url": "https://tidd.ly/4vfNHTe",
         "store": "NIKE",
         "label": "COMPRAR NA NIKE"
-      },
-      "amazon": {
-        "url": "https://www.netshoes.com.br/search?q=Pegasus%2041&utm_source=tenisideal&utm_medium=affiliate&utm_campaign=shoes&affid=4683922",
-        "store": "Amazon",
-        "label": "COMPRAR NA AMAZON"
       }
     },
     "tags": [],
@@ -3692,11 +3160,6 @@ var SHOES = [
         "url": "https://tidd.ly/4c7v8YD",
         "store": "NIKE",
         "label": "COMPRAR NA NIKE"
-      },
-      "amazon": {
-        "url": "https://www.netshoes.com.br/search?q=Pegasus%2041&utm_source=tenisideal&utm_medium=affiliate&utm_campaign=shoes&affid=4683922",
-        "store": "Amazon",
-        "label": "COMPRAR NA AMAZON"
       }
     },
     "tags": [],
@@ -3732,16 +3195,6 @@ var SHOES = [
         "url": "https://www.awin1.com/cread.php?awinmid=17652&awinaffid=2800712&platform=dl&ued=https%3A%2F%2Fwww.nike.com.br%2Ftenis-nike-downshifter-13-masculino-027915.html%3Fcor%3DIM",
         "store": "NIKE",
         "label": "COMPRAR NA NIKE"
-      },
-      "amazon": {
-        "url": "https://www.netshoes.com.br/search?q=Nike%20Downshifter%2013&utm_source=tenisideal&utm_medium=affiliate&utm_campaign=shoes&affid=4683922",
-        "store": "Amazon",
-        "label": "COMPRAR NA AMAZON"
-      },
-      "netshoes": {
-        "url": "https://click.linksynergy.com/deeplink?id=NyH7xPegftk&mid=43984&murl=https%3A%2F%2Fwww.netshoes.com.br%2Fp%2Ftenis-nike-downshifter-13-masculino-JD8-6466-026",
-        "store": "Netshoes",
-        "label": "COMPRAR NA NETSHOES"
       }
     },
     "tags": [
@@ -3781,16 +3234,6 @@ var SHOES = [
         "url": "https://www.awin1.com/cread.php?awinmid=17652&awinaffid=2800712&platform=dl&ued=https%3A%2F%2Fwww.nike.com.br%2Ftenis-nike-revolution-8-feminino-058868.html%3Fcor%3DID",
         "store": "NIKE",
         "label": "COMPRAR NA NIKE"
-      },
-      "amazon": {
-        "url": "https://www.netshoes.com.br/search?q=Nike%20Revolution%208&utm_source=tenisideal&utm_medium=affiliate&utm_campaign=shoes&affid=4683922",
-        "store": "Amazon",
-        "label": "COMPRAR NA AMAZON"
-      },
-      "netshoes": {
-        "url": "https://click.linksynergy.com/deeplink?id=NyH7xPegftk&mid=43984&murl=https%3A%2F%2Fwww.netshoes.com.br%2Fp%2Ftenis-nike-revolution-8-feminino-preto%2Bbranco-SGL-0026-026",
-        "store": "Netshoes",
-        "label": "COMPRAR NA NETSHOES"
       }
     },
     "tags": [],
@@ -3827,13 +3270,7 @@ var SHOES = [
       "longa"
     ],
     "photo": "https://m.media-amazon.com/images/I/61jqkYeBlqL._AC_SY500_.jpg",
-    "affiliate_links": {
-      "amazon": {
-        "url": "https://www.netshoes.com.br/search?q=Pride&utm_source=tenisideal&utm_medium=affiliate&utm_campaign=shoes&affid=4683922",
-        "store": "Amazon",
-        "label": "COMPRAR NA AMAZON"
-      }
-    },
+    "affiliate_links": {},
     "tags": [
       "Nacional",
       "Acessível"
@@ -3871,13 +3308,7 @@ var SHOES = [
       "longa"
     ],
     "photo": "https://m.media-amazon.com/images/I/51WUvXlRWbL._AC_SX679_.jpg",
-    "affiliate_links": {
-      "amazon": {
-        "url": "https://www.netshoes.com.br/search?q=Challenger&utm_source=tenisideal&utm_medium=affiliate&utm_campaign=shoes&affid=4683922",
-        "store": "Amazon",
-        "label": "COMPRAR NA AMAZON"
-      }
-    },
+    "affiliate_links": {},
     "tags": [
       "Amortecimento",
       "Custo-benefício"
@@ -3915,13 +3346,7 @@ var SHOES = [
       "longa"
     ],
     "photo": "https://m.media-amazon.com/images/I/51bmHlqn4bL._AC_SX679_.jpg",
-    "affiliate_links": {
-      "amazon": {
-        "url": "https://www.netshoes.com.br/search?q=Orbita&utm_source=tenisideal&utm_medium=affiliate&utm_campaign=shoes&affid=4683922",
-        "store": "Amazon",
-        "label": "COMPRAR NA AMAZON"
-      }
-    },
+    "affiliate_links": {},
     "tags": [
       "Leveza",
       "Versatilidade"
@@ -3959,13 +3384,7 @@ var SHOES = [
       "longa"
     ],
     "photo": "https://m.media-amazon.com/images/I/519-VwNeLGL._AC_SY625_.jpg",
-    "affiliate_links": {
-      "amazon": {
-        "url": "https://www.netshoes.com.br/search?q=Essential&utm_source=tenisideal&utm_medium=affiliate&utm_campaign=shoes&affid=4683922",
-        "store": "Amazon",
-        "label": "COMPRAR NA AMAZON"
-      }
-    },
+    "affiliate_links": {},
     "tags": [
       "Amortecimento",
       "Leveza",
@@ -4004,13 +3423,7 @@ var SHOES = [
       "longa"
     ],
     "photo": "https://m.media-amazon.com/images/I/519Fz1ewJdL._AC_SX679_.jpg",
-    "affiliate_links": {
-      "amazon": {
-        "url": "https://www.netshoes.com.br/search?q=Challenger%205&utm_source=tenisideal&utm_medium=affiliate&utm_campaign=shoes&affid=4683922",
-        "store": "Amazon",
-        "label": "COMPRAR NA AMAZON"
-      }
-    },
+    "affiliate_links": {},
     "tags": [
       "Amortecimento",
       "Custo-benefício",
@@ -4054,11 +3467,6 @@ var SHOES = [
         "url": "https://tidd.ly/4bmcWtJ",
         "store": "OLYMPIKUS",
         "label": "COMPRAR NA OLYMPIKUS"
-      },
-      "amazon": {
-        "url": "https://www.netshoes.com.br/search?q=Marte&utm_source=tenisideal&utm_medium=affiliate&utm_campaign=shoes&affid=4683922",
-        "store": "Amazon",
-        "label": "COMPRAR NA AMAZON"
       }
     },
     "tags": [
@@ -4098,16 +3506,6 @@ var SHOES = [
         "url": "https://tidd.ly/4bwL2LU",
         "store": "OLYMPIKUS",
         "label": "COMPRAR NA OLYMPIKUS"
-      },
-      "amazon": {
-        "url": "https://www.netshoes.com.br/search?q=Pride%204&utm_source=tenisideal&utm_medium=affiliate&utm_campaign=shoes&affid=4683922",
-        "store": "Amazon",
-        "label": "COMPRAR NA AMAZON"
-      },
-      "netshoes": {
-        "url": "https://click.linksynergy.com/deeplink?id=NyH7xPegftk&mid=43984&murl=https%3A%2F%2Fwww.netshoes.com.br%2Fp%2Ftenis-olympikus-pride-4-branco%2Bmarinho-SE7-0056-080",
-        "store": "Netshoes",
-        "label": "COMPRAR NA NETSHOES"
       }
     },
     "tags": [
@@ -4148,13 +3546,7 @@ var SHOES = [
       "longa"
     ],
     "photo": "https://m.media-amazon.com/images/I/61Rx2TlzVUL._AC_SY500_.jpg",
-    "affiliate_links": {
-      "amazon": {
-        "url": "https://www.netshoes.com.br/search?q=Rua&utm_source=tenisideal&utm_medium=affiliate&utm_campaign=shoes&affid=4683922",
-        "store": "Amazon",
-        "label": "COMPRAR NA AMAZON"
-      }
-    },
+    "affiliate_links": {},
     "tags": [
       "Leve",
       "Conforto",
@@ -4198,11 +3590,6 @@ var SHOES = [
         "url": "https://tidd.ly/3PBl3LF",
         "store": "OLYMPIKUS",
         "label": "COMPRAR NA OLYMPIKUS"
-      },
-      "amazon": {
-        "url": "https://www.netshoes.com.br/search?q=Corre%20Grafeno%203&utm_source=tenisideal&utm_medium=affiliate&utm_campaign=shoes&affid=4683922",
-        "store": "Amazon",
-        "label": "COMPRAR NA AMAZON"
       }
     },
     "tags": [
@@ -4249,11 +3636,6 @@ var SHOES = [
         "url": "https://tidd.ly/4utSjEM",
         "store": "OLYMPIKUS",
         "label": "COMPRAR NA OLYMPIKUS"
-      },
-      "amazon": {
-        "url": "https://www.netshoes.com.br/search?q=Olympikus%20Challenger%205&utm_source=tenisideal&utm_medium=affiliate&utm_campaign=shoes&affid=4683922",
-        "store": "Amazon",
-        "label": "COMPRAR NA AMAZON"
       }
     },
     "tags": [
@@ -4295,13 +3677,7 @@ var SHOES = [
       "longa"
     ],
     "photo": "",
-    "affiliate_links": {
-      "amazon": {
-        "url": "https://www.netshoes.com.br/search?q=Olympikus%20Corre%20Trilha&utm_source=tenisideal&utm_medium=affiliate&utm_campaign=shoes&affid=4683922",
-        "store": "Amazon",
-        "label": "COMPRAR NA AMAZON"
-      }
-    },
+    "affiliate_links": {},
     "tags": [],
     "description": "https://amazon.com.br/s?k=Olympikus%20Corre%20Trilha&tag=tenisideal26-20",
     "reason": "https://amazon.com.br/s?k=Olympikus%20Corre%20Trilha&tag=tenisideal26-20"
@@ -4336,13 +3712,7 @@ var SHOES = [
       "longa"
     ],
     "photo": "https://images-na.ssl-images-amazon.com/images/I/51gcZC19IXL.jpg",
-    "affiliate_links": {
-      "amazon": {
-        "url": "https://www.netshoes.com.br/search?q=Ultra%20Glide%202&utm_source=tenisideal&utm_medium=affiliate&utm_campaign=shoes&affid=4683922",
-        "store": "Amazon",
-        "label": "COMPRAR NA AMAZON"
-      }
-    },
+    "affiliate_links": {},
     "tags": [
       "Trail",
       "Conforto"
@@ -4376,13 +3746,7 @@ var SHOES = [
       "longa"
     ],
     "photo": "https://m.media-amazon.com/images/I/61HHqi-wpuL._AC_SY500_.jpg",
-    "affiliate_links": {
-      "amazon": {
-        "url": "https://www.netshoes.com.br/search?q=Endorphin%20Speed%204&utm_source=tenisideal&utm_medium=affiliate&utm_campaign=shoes&affid=4683922",
-        "store": "Amazon",
-        "label": "COMPRAR NA AMAZON"
-      }
-    },
+    "affiliate_links": {},
     "tags": [
       "Carbono",
       "Velocidade"
@@ -4417,13 +3781,7 @@ var SHOES = [
       "longa"
     ],
     "photo": "https://m.media-amazon.com/images/I/71NTdjs6iVL._AC_SY500_.jpg",
-    "affiliate_links": {
-      "amazon": {
-        "url": "https://www.netshoes.com.br/search?q=Saucony%20Endorphin%20Pro%204&utm_source=tenisideal&utm_medium=affiliate&utm_campaign=shoes&affid=4683922",
-        "store": "Amazon",
-        "label": "COMPRAR NA AMAZON"
-      }
-    },
+    "affiliate_links": {},
     "tags": [
       "Carbono",
       "Maratona",
@@ -4459,13 +3817,7 @@ var SHOES = [
       "longa"
     ],
     "photo": "https://m.media-amazon.com/images/I/71Kn-Dm570L._AC_SY500_.jpg",
-    "affiliate_links": {
-      "amazon": {
-        "url": "https://www.netshoes.com.br/search?q=Saucony%20Endorphin%20Speed%205&utm_source=tenisideal&utm_medium=affiliate&utm_campaign=shoes&affid=4683922",
-        "store": "Amazon",
-        "label": "COMPRAR NA AMAZON"
-      }
-    },
+    "affiliate_links": {},
     "tags": [
       "Nylon plate",
       "Treino rápido",
@@ -4501,13 +3853,7 @@ var SHOES = [
       "longa"
     ],
     "photo": "https://m.media-amazon.com/images/I/81oEoDyhA+L._AC_SY500_.jpg",
-    "affiliate_links": {
-      "amazon": {
-        "url": "https://www.netshoes.com.br/search?q=Saucony%20Triumph%2023&utm_source=tenisideal&utm_medium=affiliate&utm_campaign=shoes&affid=4683922",
-        "store": "Amazon",
-        "label": "COMPRAR NA AMAZON"
-      }
-    },
+    "affiliate_links": {},
     "tags": [
       "Amortecimento",
       "Treino longo",
@@ -4543,13 +3889,7 @@ var SHOES = [
       "longa"
     ],
     "photo": "https://m.media-amazon.com/images/I/81e9TDaRR5L._AC_SY500_.jpg",
-    "affiliate_links": {
-      "amazon": {
-        "url": "https://www.netshoes.com.br/search?q=Saucony%20Peregrine%2015&utm_source=tenisideal&utm_medium=affiliate&utm_campaign=shoes&affid=4683922",
-        "store": "Amazon",
-        "label": "COMPRAR NA AMAZON"
-      }
-    },
+    "affiliate_links": {},
     "tags": [
       "Trail",
       "Versátil",
@@ -4585,13 +3925,7 @@ var SHOES = [
       "longa"
     ],
     "photo": "https://m.media-amazon.com/images/I/71il-oCGRXL._AC_SY500_.jpg",
-    "affiliate_links": {
-      "amazon": {
-        "url": "https://www.netshoes.com.br/search?q=Saucony%20Peregrine%2015&utm_source=tenisideal&utm_medium=affiliate&utm_campaign=shoes&affid=4683922",
-        "store": "Amazon",
-        "label": "COMPRAR NA AMAZON"
-      }
-    },
+    "affiliate_links": {},
     "tags": [
       "Trail",
       "Versátil",
@@ -4631,13 +3965,7 @@ var SHOES = [
       "longa"
     ],
     "photo": "https://m.media-amazon.com/images/I/710D-lXE4uL._AC_SY500_.jpg",
-    "affiliate_links": {
-      "amazon": {
-        "url": "https://www.netshoes.com.br/search?q=Salomon%20Sense%20Ride%205&utm_source=tenisideal&utm_medium=affiliate&utm_campaign=shoes&affid=4683922",
-        "store": "Amazon",
-        "label": "COMPRAR NA AMAZON"
-      }
-    },
+    "affiliate_links": {},
     "tags": [
       "Trail",
       "Versátil",
@@ -4677,13 +4005,7 @@ var SHOES = [
       "longa"
     ],
     "photo": "https://m.media-amazon.com/images/I/71gYxjqbteL._AC_SY500_.jpg",
-    "affiliate_links": {
-      "amazon": {
-        "url": "https://www.netshoes.com.br/search?q=Arch%20Fit%20Orvan%20Drex&utm_source=tenisideal&utm_medium=affiliate&utm_campaign=shoes&affid=4683922",
-        "store": "Amazon",
-        "label": "COMPRAR NA AMAZON"
-      }
-    },
+    "affiliate_links": {},
     "tags": [
       "Conforto",
       "Amortecimento"
@@ -4721,13 +4043,7 @@ var SHOES = [
       "longa"
     ],
     "photo": "https://m.media-amazon.com/images/I/61cNbsYKgPL._AC_SY500_.jpg",
-    "affiliate_links": {
-      "amazon": {
-        "url": "https://www.netshoes.com.br/search?q=Charged%20Great&utm_source=tenisideal&utm_medium=affiliate&utm_campaign=shoes&affid=4683922",
-        "store": "Amazon",
-        "label": "COMPRAR NA AMAZON"
-      }
-    },
+    "affiliate_links": {},
     "tags": [
       "Amortecimento",
       "Leveza",
@@ -4766,13 +4082,7 @@ var SHOES = [
       "longa"
     ],
     "photo": "https://m.media-amazon.com/images/I/61FtBlh+DJL._AC_SY625_.jpg",
-    "affiliate_links": {
-      "amazon": {
-        "url": "https://www.netshoes.com.br/search?q=Charged%20Hit%20SE&utm_source=tenisideal&utm_medium=affiliate&utm_campaign=shoes&affid=4683922",
-        "store": "Amazon",
-        "label": "COMPRAR NA AMAZON"
-      }
-    },
+    "affiliate_links": {},
     "tags": [
       "Amortecimento",
       "Durabilidade"
