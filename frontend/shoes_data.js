@@ -17,7 +17,7 @@ var SHOES = [
     "photo": "https://m.media-amazon.com/images/G/32/gno/sprites/nav-sprite-global-1x-reorg-privacy._AC_SY500_.jpg",
     "affiliate_links": {
       "amazon": {
-        "url": "https://www.netshoes.com.br/search?q=Adizero%20Adios%20Pro%204&utm_source=tenisideal&utm_medium=affiliate&utm_campaign=shoes&affid=4683922",
+        "url": "https://amazon.com.br/s?k=ADIDAS%20Adizero%20Adios%20Pro%204&tag=tenisideal26-20",
         "price": 0
       },
       "oficial": {
@@ -55,7 +55,7 @@ var SHOES = [
     "photo": "https://m.media-amazon.com/images/I/51yLvMtXjYL._AC_SY500_.jpg",
     "affiliate_links": {
       "amazon": {
-        "url": "https://www.netshoes.com.br/search?q=Adizero%20Boston%2013&utm_source=tenisideal&utm_medium=affiliate&utm_campaign=shoes&affid=4683922",
+        "url": "https://amazon.com.br/s?k=ADIDAS%20Adizero%20Boston%2013&tag=tenisideal26-20",
         "price": 0
       },
       "oficial": {
@@ -93,7 +93,7 @@ var SHOES = [
     "photo": "https://m.media-amazon.com/images/G/32/gno/sprites/nav-sprite-global-1x-reorg-privacy._AC_SY500_.jpg",
     "affiliate_links": {
       "amazon": {
-        "url": "https://www.netshoes.com.br/search?q=Response%20Runner%202&utm_source=tenisideal&utm_medium=affiliate&utm_campaign=shoes&affid=4683922",
+        "url": "https://amazon.com.br/s?k=ADIDAS%20Response%20Runner%202&tag=tenisideal26-20",
         "price": 0
       },
       "oficial": {
@@ -131,7 +131,7 @@ var SHOES = [
     "photo": "https://m.media-amazon.com/images/I/717vGFF4x5L._AC_SY500_.jpg",
     "affiliate_links": {
       "amazon": {
-        "url": "https://www.netshoes.com.br/search?q=Ultraboost%205&utm_source=tenisideal&utm_medium=affiliate&utm_campaign=shoes&affid=4683922",
+        "url": "https://amazon.com.br/s?k=ADIDAS%20Ultraboost%205&tag=tenisideal26-20",
         "price": 0
       },
       "oficial": {
@@ -170,7 +170,7 @@ var SHOES = [
     "photo": "https://m.media-amazon.com/images/I/61Td+7s27nL._AC_SY395_.jpg",
     "affiliate_links": {
       "amazon": {
-        "url": "https://www.netshoes.com.br/search?q=Terrex%20Agravic%20Speed%202&utm_source=tenisideal&utm_medium=affiliate&utm_campaign=shoes&affid=4683922",
+        "url": "https://amazon.com.br/s?k=ADIDAS%20Terrex%20Agravic%20Speed%202&tag=tenisideal26-20",
         "price": 0
       },
       "oficial": {
@@ -205,7 +205,7 @@ var SHOES = [
     "photo": "https://m.media-amazon.com/images/G/32/gno/sprites/nav-sprite-global-1x-reorg-privacy._AC_SY500_.jpg",
     "affiliate_links": {
       "amazon": {
-        "url": "https://www.netshoes.com.br/search?q=Duramo%20Speed%202&utm_source=tenisideal&utm_medium=affiliate&utm_campaign=shoes&affid=4683922",
+        "url": "https://amazon.com.br/s?k=ADIDAS%20Duramo%20Speed%202&tag=tenisideal26-20",
         "price": 0
       },
       "oficial": {
@@ -244,7 +244,7 @@ var SHOES = [
     "photo": "https://m.media-amazon.com/images/I/510EloSk7eL._AC_SY395_.jpg",
     "affiliate_links": {
       "amazon": {
-        "url": "https://www.netshoes.com.br/search?q=Ultraboost%2022&utm_source=tenisideal&utm_medium=affiliate&utm_campaign=shoes&affid=4683922",
+        "url": "https://amazon.com.br/s?k=ADIDAS%20Ultraboost%2022&tag=tenisideal26-20",
         "price": 0
       },
       "oficial": {
@@ -290,7 +290,7 @@ var SHOES = [
     "photo": "https://m.media-amazon.com/images/I/61nVPmZFSoL._AC_SY395_.jpg",
     "affiliate_links": {
       "amazon": {
-        "url": "https://www.netshoes.com.br/search?q=Superblast%202&utm_source=tenisideal&utm_medium=affiliate&utm_campaign=shoes&affid=4683922",
+        "url": "https://amazon.com.br/s?k=ASICS%20Superblast%202&tag=tenisideal26-20",
         "price": 0
       },
       "netshoes": {
@@ -329,7 +329,7 @@ var SHOES = [
     "photo": "https://m.media-amazon.com/images/G/32/gno/sprites/nav-sprite-global-1x-reorg-privacy._AC_SY500_.jpg",
     "affiliate_links": {
       "amazon": {
-        "url": "https://www.netshoes.com.br/search?q=Gel-Cumulus%2026&utm_source=tenisideal&utm_medium=affiliate&utm_campaign=shoes&affid=4683922",
+        "url": "https://amazon.com.br/s?k=ASICS%20Gel-Cumulus%2026&tag=tenisideal26-20",
         "price": 0
       },
       "netshoes": {
@@ -367,7 +367,7 @@ var SHOES = [
     "photo": "https://m.media-amazon.com/images/I/61lZORb7jLL._AC_SY500_.jpg",
     "affiliate_links": {
       "amazon": {
-        "url": "https://www.netshoes.com.br/search?q=Gel-Kayano%2031&utm_source=tenisideal&utm_medium=affiliate&utm_campaign=shoes&affid=4683922",
+        "url": "https://amazon.com.br/s?k=ASICS%20Gel-Kayano%2031&tag=tenisideal26-20",
         "price": 0
       },
       "oficial": {
@@ -405,7 +405,7 @@ var SHOES = [
     "photo": "https://m.media-amazon.com/images/I/61bvIldPTjL._AC_SY395_.jpg",
     "affiliate_links": {
       "amazon": {
-        "url": "https://www.netshoes.com.br/search?q=Gel-Kayano%2031%20Matcha&utm_source=tenisideal&utm_medium=affiliate&utm_campaign=shoes&affid=4683922",
+        "url": "https://amazon.com.br/s?k=ASICS%20Gel-Kayano%2031%20Matcha&tag=tenisideal26-20",
         "price": 0
       },
       "oficial": {
@@ -443,7 +443,7 @@ var SHOES = [
     "photo": "https://m.media-amazon.com/images/I/61CpE-kC0YL._AC_SX395_.jpg",
     "affiliate_links": {
       "amazon": {
-        "url": "https://www.netshoes.com.br/search?q=Gel-Nimbus%2026&utm_source=tenisideal&utm_medium=affiliate&utm_campaign=shoes&affid=4683922",
+        "url": "https://amazon.com.br/s?k=ASICS%20Gel-Nimbus%2026&tag=tenisideal26-20",
         "price": 0
       },
       "oficial": {
@@ -481,7 +481,7 @@ var SHOES = [
     "photo": "https://m.media-amazon.com/images/I/61iZ2UJCFbL._AC_SY500_.jpg",
     "affiliate_links": {
       "amazon": {
-        "url": "https://www.netshoes.com.br/search?q=Gel-Trabuco%2012&utm_source=tenisideal&utm_medium=affiliate&utm_campaign=shoes&affid=4683922",
+        "url": "https://amazon.com.br/s?k=ASICS%20Gel-Trabuco%2012&tag=tenisideal26-20",
         "price": 0
       },
       "oficial": {
@@ -519,7 +519,7 @@ var SHOES = [
     "photo": "https://m.media-amazon.com/images/I/511jmvCr1BL._AC_SY500_.jpg",
     "affiliate_links": {
       "amazon": {
-        "url": "https://www.netshoes.com.br/search?q=Gel-Pulse%2015%20SE&utm_source=tenisideal&utm_medium=affiliate&utm_campaign=shoes&affid=4683922",
+        "url": "https://amazon.com.br/s?k=ASICS%20Gel-Pulse%2015%20SE&tag=tenisideal26-20",
         "price": 0
       },
       "oficial": {
@@ -558,7 +558,7 @@ var SHOES = [
     "photo": "https://m.media-amazon.com/images/I/617GtsqxJmL._AC_SY395_.jpg",
     "affiliate_links": {
       "amazon": {
-        "url": "https://www.netshoes.com.br/search?q=Gel-Venture%2010&utm_source=tenisideal&utm_medium=affiliate&utm_campaign=shoes&affid=4683922",
+        "url": "https://amazon.com.br/s?k=ASICS%20Gel-Venture%2010&tag=tenisideal26-20",
         "price": 0
       },
       "oficial": {
@@ -597,7 +597,7 @@ var SHOES = [
     "photo": "https://m.media-amazon.com/images/I/51PHKLGeJzL._AC_SY500_.jpg",
     "affiliate_links": {
       "amazon": {
-        "url": "https://www.netshoes.com.br/search?q=Gel-Shinobi%202&utm_source=tenisideal&utm_medium=affiliate&utm_campaign=shoes&affid=4683922",
+        "url": "https://amazon.com.br/s?k=ASICS%20Gel-Shinobi%202&tag=tenisideal26-20",
         "price": 0
       },
       "oficial": {
@@ -635,7 +635,7 @@ var SHOES = [
     "photo": "https://m.media-amazon.com/images/I/61fz1ft0bDL._AC_SY500_.jpg",
     "affiliate_links": {
       "amazon": {
-        "url": "https://www.netshoes.com.br/search?q=Gel-Kayano%2032&utm_source=tenisideal&utm_medium=affiliate&utm_campaign=shoes&affid=4683922",
+        "url": "https://amazon.com.br/s?k=ASICS%20Gel-Kayano%2032&tag=tenisideal26-20",
         "price": 0
       },
       "oficial": {
@@ -674,7 +674,7 @@ var SHOES = [
     "photo": "https://m.media-amazon.com/images/I/71Ez-iXGMpL._AC_SY395_.jpg",
     "affiliate_links": {
       "amazon": {
-        "url": "https://www.netshoes.com.br/search?q=Adrenaline%20GTS%2024%20Supportive&utm_source=tenisideal&utm_medium=affiliate&utm_campaign=shoes&affid=4683922",
+        "url": "https://amazon.com.br/s?k=BROOKS%20Adrenaline%20GTS%2024%20Supportive&tag=tenisideal26-20",
         "price": 0
       },
       "oficial": {
@@ -712,7 +712,7 @@ var SHOES = [
     "photo": "https://m.media-amazon.com/images/G/32/gno/sprites/nav-sprite-global-1x-reorg-privacy._AC_SY500_.jpg",
     "affiliate_links": {
       "amazon": {
-        "url": "https://www.netshoes.com.br/search?q=Adrenaline%20GTS%2024%20Weatherized&utm_source=tenisideal&utm_medium=affiliate&utm_campaign=shoes&affid=4683922",
+        "url": "https://amazon.com.br/s?k=BROOKS%20Adrenaline%20GTS%2024%20Weatherized&tag=tenisideal26-20",
         "price": 0
       },
       "oficial": {
@@ -750,7 +750,7 @@ var SHOES = [
     "photo": "https://m.media-amazon.com/images/I/81uDzKI2XML._AC_SY500_.jpg",
     "affiliate_links": {
       "amazon": {
-        "url": "https://www.netshoes.com.br/search?q=Ghost%2016&utm_source=tenisideal&utm_medium=affiliate&utm_campaign=shoes&affid=4683922",
+        "url": "https://amazon.com.br/s?k=BROOKS%20Ghost%2016&tag=tenisideal26-20",
         "price": 0
       },
       "oficial": {
@@ -788,7 +788,7 @@ var SHOES = [
     "photo": "https://m.media-amazon.com/images/I/71wVszdDe6L._AC_SY395_.jpg",
     "affiliate_links": {
       "amazon": {
-        "url": "https://www.netshoes.com.br/search?q=Ghost%2014%20Neutral&utm_source=tenisideal&utm_medium=affiliate&utm_campaign=shoes&affid=4683922",
+        "url": "https://amazon.com.br/s?k=BROOKS%20Ghost%2014%20Neutral&tag=tenisideal26-20",
         "price": 0
       }
     },
@@ -825,7 +825,7 @@ var SHOES = [
     "photo": "https://m.media-amazon.com/images/I/51kdEzeaZ0L._AC_SY500_.jpg",
     "affiliate_links": {
       "amazon": {
-        "url": "https://amzn.to/4vE6pTK",
+        "url": "https://amazon.com.br/s?k=FILA%20Fila%20Speed%20Lite&tag=tenisideal26-20",
         "price": 0
       },
       "netshoes": {
@@ -859,7 +859,7 @@ var SHOES = [
     "photo": "https://m.media-amazon.com/images/G/32/gno/sprites/nav-sprite-global-1x-reorg-privacy._AC_SY500_.jpg",
     "affiliate_links": {
       "amazon": {
-        "url": "https://www.netshoes.com.br/search?q=Float%20Maxxi&utm_source=tenisideal&utm_medium=affiliate&utm_campaign=shoes&affid=4683922",
+        "url": "https://amazon.com.br/s?k=FILA%20Float%20Maxxi&tag=tenisideal26-20",
         "price": 0
       }
     },
@@ -889,7 +889,7 @@ var SHOES = [
     "photo": "https://m.media-amazon.com/images/G/32/gno/sprites/nav-sprite-global-1x-reorg-privacy._AC_SY500_.jpg",
     "affiliate_links": {
       "amazon": {
-        "url": "https://www.netshoes.com.br/search?q=Racer%20Fastpace&utm_source=tenisideal&utm_medium=affiliate&utm_campaign=shoes&affid=4683922",
+        "url": "https://amazon.com.br/s?k=FILA%20Racer%20Fastpace&tag=tenisideal26-20",
         "price": 0
       }
     },
@@ -919,7 +919,7 @@ var SHOES = [
     "photo": "https://m.media-amazon.com/images/G/32/gno/sprites/nav-sprite-global-1x-reorg-privacy._AC_SY500_.jpg",
     "affiliate_links": {
       "amazon": {
-        "url": "https://www.netshoes.com.br/search?q=Racer%20Comet&utm_source=tenisideal&utm_medium=affiliate&utm_campaign=shoes&affid=4683922",
+        "url": "https://amazon.com.br/s?k=FILA%20Racer%20Comet&tag=tenisideal26-20",
         "price": 0
       }
     },
@@ -949,7 +949,7 @@ var SHOES = [
     "photo": "https://m.media-amazon.com/images/G/32/gno/sprites/nav-sprite-global-1x-reorg-privacy._AC_SY500_.jpg",
     "affiliate_links": {
       "amazon": {
-        "url": "https://www.netshoes.com.br/search?q=Recovery&utm_source=tenisideal&utm_medium=affiliate&utm_campaign=shoes&affid=4683922",
+        "url": "https://amazon.com.br/s?k=FILA%20Recovery&tag=tenisideal26-20",
         "price": 0
       }
     },
@@ -979,8 +979,8 @@ var SHOES = [
     "photo": "https://m.media-amazon.com/images/I/610N9clHcfL._AC_SY675_.jpg",
     "affiliate_links": {
       "amazon": {
-        "url": "https://amzn.to/3Ny1lzU",
-        "price": 1300.0
+        "url": "https://amazon.com.br/s?k=HOKA%20Hoka%20Clifton%2010&tag=tenisideal26-20",
+        "price": 0
       }
     },
     "tags": [
@@ -1011,8 +1011,8 @@ var SHOES = [
     "photo": "https://m.media-amazon.com/images/I/61FlAJi0tsL._AC_SY500_.jpg",
     "affiliate_links": {
       "amazon": {
-        "url": "https://amzn.to/46WrNd3",
-        "price": 2400.0
+        "url": "https://amazon.com.br/s?k=HOKA%20Hoka%20Rocket%20X%203&tag=tenisideal26-20",
+        "price": 0
       }
     },
     "tags": [
@@ -1043,7 +1043,7 @@ var SHOES = [
     "photo": "https://m.media-amazon.com/images/I/61Gkm+6EdqL._AC_SY500_.jpg",
     "affiliate_links": {
       "amazon": {
-        "url": "https://www.netshoes.com.br/search?q=Clifton%209&utm_source=tenisideal&utm_medium=affiliate&utm_campaign=shoes&affid=4683922",
+        "url": "https://amazon.com.br/s?k=HOKA%20Clifton%209&tag=tenisideal26-20",
         "price": 0
       }
     },
@@ -1073,7 +1073,7 @@ var SHOES = [
     "photo": "https://m.media-amazon.com/images/G/32/gno/sprites/nav-sprite-global-1x-reorg-privacy._AC_SY500_.jpg",
     "affiliate_links": {
       "amazon": {
-        "url": "https://www.netshoes.com.br/search?q=Speedgoat%206&utm_source=tenisideal&utm_medium=affiliate&utm_campaign=shoes&affid=4683922",
+        "url": "https://amazon.com.br/s?k=HOKA%20Speedgoat%206&tag=tenisideal26-20",
         "price": 0
       }
     },
@@ -1103,7 +1103,7 @@ var SHOES = [
     "photo": "https://m.media-amazon.com/images/G/32/gno/sprites/nav-sprite-global-1x-reorg-privacy._AC_SY500_.jpg",
     "affiliate_links": {
       "amazon": {
-        "url": "https://www.netshoes.com.br/search?q=Wave%20Inspire%2021&utm_source=tenisideal&utm_medium=affiliate&utm_campaign=shoes&affid=4683922",
+        "url": "https://amazon.com.br/s?k=MIZUNO%20Wave%20Inspire%2021&tag=tenisideal26-20",
         "price": 0
       },
       "oficial": {
@@ -1137,7 +1137,7 @@ var SHOES = [
     "photo": "https://m.media-amazon.com/images/G/32/gno/sprites/nav-sprite-global-1x-reorg-privacy._AC_SY500_.jpg",
     "affiliate_links": {
       "amazon": {
-        "url": "https://www.netshoes.com.br/search?q=Wave%20Rider%2028&utm_source=tenisideal&utm_medium=affiliate&utm_campaign=shoes&affid=4683922",
+        "url": "https://amazon.com.br/s?k=MIZUNO%20Wave%20Rider%2028&tag=tenisideal26-20",
         "price": 0
       },
       "oficial": {
@@ -1172,7 +1172,7 @@ var SHOES = [
     "photo": "https://m.media-amazon.com/images/I/61Opa1W1J8L._AC_SY500_.jpg",
     "affiliate_links": {
       "amazon": {
-        "url": "https://www.netshoes.com.br/search?q=Wave%20Sky%209&utm_source=tenisideal&utm_medium=affiliate&utm_campaign=shoes&affid=4683922",
+        "url": "https://amazon.com.br/s?k=MIZUNO%20Wave%20Sky%209&tag=tenisideal26-20",
         "price": 0
       },
       "oficial": {
@@ -1206,7 +1206,7 @@ var SHOES = [
     "photo": "https://m.media-amazon.com/images/I/61ALp2Roc4L._AC_SY500_.jpg",
     "affiliate_links": {
       "amazon": {
-        "url": "https://www.netshoes.com.br/search?q=Victory%20RSP&utm_source=tenisideal&utm_medium=affiliate&utm_campaign=shoes&affid=4683922",
+        "url": "https://amazon.com.br/s?k=MIZUNO%20Victory%20RSP&tag=tenisideal26-20",
         "price": 0
       },
       "oficial": {
@@ -1241,7 +1241,7 @@ var SHOES = [
     "photo": "https://m.media-amazon.com/images/I/61jdJVu1jmL._AC_SY500_.jpg",
     "affiliate_links": {
       "amazon": {
-        "url": "https://www.netshoes.com.br/search?q=Base%20Ride&utm_source=tenisideal&utm_medium=affiliate&utm_campaign=shoes&affid=4683922",
+        "url": "https://amazon.com.br/s?k=MIZUNO%20Base%20Ride&tag=tenisideal26-20",
         "price": 0
       },
       "oficial": {
@@ -1276,7 +1276,7 @@ var SHOES = [
     "photo": "https://m.media-amazon.com/images/I/51ifrRin22L._AC_SY500_.jpg",
     "affiliate_links": {
       "amazon": {
-        "url": "https://www.netshoes.com.br/search?q=Creation%2026&utm_source=tenisideal&utm_medium=affiliate&utm_campaign=shoes&affid=4683922",
+        "url": "https://amazon.com.br/s?k=MIZUNO%20Creation%2026&tag=tenisideal26-20",
         "price": 0
       },
       "oficial": {
@@ -1311,7 +1311,7 @@ var SHOES = [
     "photo": "https://m.media-amazon.com/images/I/71pGo9F0wnL._AC_SY395_.jpg",
     "affiliate_links": {
       "amazon": {
-        "url": "https://www.netshoes.com.br/search?q=Neo%20Zen&utm_source=tenisideal&utm_medium=affiliate&utm_campaign=shoes&affid=4683922",
+        "url": "https://amazon.com.br/s?k=MIZUNO%20Neo%20Zen&tag=tenisideal26-20",
         "price": 0
       }
     },
@@ -1342,7 +1342,7 @@ var SHOES = [
     "photo": "https://m.media-amazon.com/images/G/32/gno/sprites/nav-sprite-global-1x-reorg-privacy._AC_SY500_.jpg",
     "affiliate_links": {
       "amazon": {
-        "url": "https://www.netshoes.com.br/search?q=Wave%20Dynasty%207&utm_source=tenisideal&utm_medium=affiliate&utm_campaign=shoes&affid=4683922",
+        "url": "https://amazon.com.br/s?k=MIZUNO%20Wave%20Dynasty%207&tag=tenisideal26-20",
         "price": 0
       },
       "oficial": {
@@ -1381,7 +1381,7 @@ var SHOES = [
     "photo": "https://m.media-amazon.com/images/I/51CCNZOPXlL._AC_SY395_.jpg",
     "affiliate_links": {
       "amazon": {
-        "url": "https://www.netshoes.com.br/search?q=Enigma%202&utm_source=tenisideal&utm_medium=affiliate&utm_campaign=shoes&affid=4683922",
+        "url": "https://amazon.com.br/s?k=MIZUNO%20Enigma%202&tag=tenisideal26-20",
         "price": 0
       },
       "oficial": {
@@ -1416,7 +1416,7 @@ var SHOES = [
     "photo": "https://m.media-amazon.com/images/I/5178yONIZbL._AC_SY500_.jpg",
     "affiliate_links": {
       "amazon": {
-        "url": "https://www.netshoes.com.br/search?q=Wave%20Prophecy%20Beta%202&utm_source=tenisideal&utm_medium=affiliate&utm_campaign=shoes&affid=4683922",
+        "url": "https://amazon.com.br/s?k=MIZUNO%20Wave%20Prophecy%20Beta%202&tag=tenisideal26-20",
         "price": 0
       },
       "oficial": {
@@ -1451,7 +1451,7 @@ var SHOES = [
     "photo": "https://m.media-amazon.com/images/G/32/gno/sprites/nav-sprite-global-1x-reorg-privacy._AC_SY500_.jpg",
     "affiliate_links": {
       "amazon": {
-        "url": "https://www.netshoes.com.br/search?q=Glow%203&utm_source=tenisideal&utm_medium=affiliate&utm_campaign=shoes&affid=4683922",
+        "url": "https://amazon.com.br/s?k=MIZUNO%20Glow%203&tag=tenisideal26-20",
         "price": 0
       },
       "oficial": {
@@ -1486,7 +1486,7 @@ var SHOES = [
     "photo": "https://m.media-amazon.com/images/G/32/gno/sprites/nav-sprite-global-1x-reorg-privacy._AC_SY500_.jpg",
     "affiliate_links": {
       "amazon": {
-        "url": "https://www.netshoes.com.br/search?q=Wave%20Daichi%209&utm_source=tenisideal&utm_medium=affiliate&utm_campaign=shoes&affid=4683922",
+        "url": "https://amazon.com.br/s?k=MIZUNO%20Wave%20Daichi%209&tag=tenisideal26-20",
         "price": 0
       },
       "oficial": {
@@ -1521,7 +1521,7 @@ var SHOES = [
     "photo": "https://m.media-amazon.com/images/I/51Z+ohQHSIL._AC_SY395_.jpg",
     "affiliate_links": {
       "amazon": {
-        "url": "https://www.netshoes.com.br/search?q=Fresh%20Foam%20X%201080%20V14&utm_source=tenisideal&utm_medium=affiliate&utm_campaign=shoes&affid=4683922",
+        "url": "https://amazon.com.br/s?k=NEW%20BALANCE%20Fresh%20Foam%20X%201080%20V14&tag=tenisideal26-20",
         "price": 0
       }
     },
@@ -1551,7 +1551,7 @@ var SHOES = [
     "photo": "https://m.media-amazon.com/images/I/61amgun7XML._AC_SY675_.jpg",
     "affiliate_links": {
       "amazon": {
-        "url": "https://www.netshoes.com.br/search?q=530&utm_source=tenisideal&utm_medium=affiliate&utm_campaign=shoes&affid=4683922",
+        "url": "https://amazon.com.br/s?k=NEW%20BALANCE%20530&tag=tenisideal26-20",
         "price": 0
       }
     },
@@ -1582,8 +1582,8 @@ var SHOES = [
     "photo": "https://m.media-amazon.com/images/G/32/gno/sprites/nav-sprite-global-1x-reorg-privacy._AC_SY500_.jpg",
     "affiliate_links": {
       "amazon": {
-        "url": "https://amzn.to/4uI7lqG",
-        "price": 1299.0
+        "url": "https://amazon.com.br/s?k=NEW%20BALANCE%201080%20v15&tag=tenisideal26-20",
+        "price": 0
       }
     },
     "tags": [
@@ -1614,8 +1614,8 @@ var SHOES = [
     "photo": "https://m.media-amazon.com/images/G/32/gno/sprites/nav-sprite-global-1x-reorg-privacy._AC_SY500_.jpg",
     "affiliate_links": {
       "amazon": {
-        "url": "https://amzn.to/3NnNw78",
-        "price": 2199.0
+        "url": "https://amazon.com.br/s?k=NEW%20BALANCE%20FuelCell%20SuperComp%20Elite%20v5&tag=tenisideal26-20",
+        "price": 0
       }
     },
     "tags": [
@@ -1646,8 +1646,8 @@ var SHOES = [
     "photo": "https://m.media-amazon.com/images/I/51jw--PJVpL._AC_SY500_.jpg",
     "affiliate_links": {
       "amazon": {
-        "url": "https://amzn.to/4sHcrBo",
-        "price": 1281.86
+        "url": "https://amazon.com.br/s?k=NEW%20BALANCE%20Fresh%20Foam%20X%20Hierro%20v8&tag=tenisideal26-20",
+        "price": 0
       }
     },
     "tags": [
@@ -1678,8 +1678,8 @@ var SHOES = [
     "photo": "https://m.media-amazon.com/images/I/71+9s4rDg-L._AC_SY395_.jpg",
     "affiliate_links": {
       "amazon": {
-        "url": "https://amzn.to/40rgjL1",
-        "price": 989.79
+        "url": "https://amazon.com.br/s?k=NEW%20BALANCE%20New%20Balance%20Rebel%20v5&tag=tenisideal26-20",
+        "price": 0
       }
     },
     "tags": [
@@ -1710,7 +1710,7 @@ var SHOES = [
     "photo": "https://m.media-amazon.com/images/G/32/gno/sprites/nav-sprite-global-1x-reorg-privacy._AC_SY500_.jpg",
     "affiliate_links": {
       "amazon": {
-        "url": "https://www.netshoes.com.br/search?q=Vomero%20Plus&utm_source=tenisideal&utm_medium=affiliate&utm_campaign=shoes&affid=4683922",
+        "url": "https://amazon.com.br/s?k=NIKE%20Vomero%20Plus&tag=tenisideal26-20",
         "price": 0
       },
       "oficial": {
@@ -1741,7 +1741,7 @@ var SHOES = [
     "photo": "https://m.media-amazon.com/images/G/32/gno/sprites/nav-sprite-global-1x-reorg-privacy._AC_SY500_.jpg",
     "affiliate_links": {
       "amazon": {
-        "url": "https://www.netshoes.com.br/search?q=ZoomX%20Ultrafly%20Trail&utm_source=tenisideal&utm_medium=affiliate&utm_campaign=shoes&affid=4683922",
+        "url": "https://amazon.com.br/s?k=NIKE%20ZoomX%20Ultrafly%20Trail&tag=tenisideal26-20",
         "price": 0
       },
       "oficial": {
@@ -1775,7 +1775,7 @@ var SHOES = [
     "photo": "https://m.media-amazon.com/images/G/32/gno/sprites/nav-sprite-global-1x-reorg-privacy._AC_SY500_.jpg",
     "affiliate_links": {
       "amazon": {
-        "url": "https://www.netshoes.com.br/search?q=Downshifter%2013&utm_source=tenisideal&utm_medium=affiliate&utm_campaign=shoes&affid=4683922",
+        "url": "https://amazon.com.br/s?k=NIKE%20Downshifter%2013&tag=tenisideal26-20",
         "price": 0
       },
       "oficial": {
@@ -1808,7 +1808,7 @@ var SHOES = [
     "photo": "https://m.media-amazon.com/images/G/32/gno/sprites/nav-sprite-global-1x-reorg-privacy._AC_SY500_.jpg",
     "affiliate_links": {
       "amazon": {
-        "url": "https://www.netshoes.com.br/search?q=Revolution%208&utm_source=tenisideal&utm_medium=affiliate&utm_campaign=shoes&affid=4683922",
+        "url": "https://amazon.com.br/s?k=NIKE%20Revolution%208&tag=tenisideal26-20",
         "price": 0
       },
       "oficial": {
@@ -1839,7 +1839,7 @@ var SHOES = [
     "photo": "https://m.media-amazon.com/images/I/61n-683dSvL._AC_SY500_.jpg",
     "affiliate_links": {
       "amazon": {
-        "url": "https://www.netshoes.com.br/search?q=Winflo%2011&utm_source=tenisideal&utm_medium=affiliate&utm_campaign=shoes&affid=4683922",
+        "url": "https://amazon.com.br/s?k=NIKE%20Winflo%2011&tag=tenisideal26-20",
         "price": 0
       },
       "oficial": {
@@ -1870,7 +1870,7 @@ var SHOES = [
     "photo": "https://m.media-amazon.com/images/G/32/gno/sprites/nav-sprite-global-1x-reorg-privacy._AC_SY500_.jpg",
     "affiliate_links": {
       "amazon": {
-        "url": "https://www.netshoes.com.br/search?q=Quest%205&utm_source=tenisideal&utm_medium=affiliate&utm_campaign=shoes&affid=4683922",
+        "url": "https://amazon.com.br/s?k=NIKE%20Quest%205&tag=tenisideal26-20",
         "price": 0
       },
       "oficial": {
@@ -1901,7 +1901,7 @@ var SHOES = [
     "photo": "https://m.media-amazon.com/images/G/32/gno/sprites/nav-sprite-global-1x-reorg-privacy._AC_SY500_.jpg",
     "affiliate_links": {
       "amazon": {
-        "url": "https://www.netshoes.com.br/search?q=Air%20Zoom%20Alphafly%203&utm_source=tenisideal&utm_medium=affiliate&utm_campaign=shoes&affid=4683922",
+        "url": "https://amazon.com.br/s?k=NIKE%20Air%20Zoom%20Alphafly%203&tag=tenisideal26-20",
         "price": 0
       },
       "oficial": {
@@ -1932,7 +1932,7 @@ var SHOES = [
     "photo": "https://m.media-amazon.com/images/I/71NZVOiH5SL._AC_SX395_.jpg",
     "affiliate_links": {
       "amazon": {
-        "url": "https://www.netshoes.com.br/search?q=Zoom%20Fly%206&utm_source=tenisideal&utm_medium=affiliate&utm_campaign=shoes&affid=4683922",
+        "url": "https://amazon.com.br/s?k=NIKE%20Zoom%20Fly%206&tag=tenisideal26-20",
         "price": 0
       },
       "oficial": {
@@ -1963,7 +1963,7 @@ var SHOES = [
     "photo": "https://m.media-amazon.com/images/G/32/gno/sprites/nav-sprite-global-1x-reorg-privacy._AC_SY500_.jpg",
     "affiliate_links": {
       "amazon": {
-        "url": "https://www.netshoes.com.br/search?q=Structure%2025&utm_source=tenisideal&utm_medium=affiliate&utm_campaign=shoes&affid=4683922",
+        "url": "https://amazon.com.br/s?k=NIKE%20Structure%2025&tag=tenisideal26-20",
         "price": 0
       },
       "oficial": {
@@ -1994,7 +1994,7 @@ var SHOES = [
     "photo": "https://m.media-amazon.com/images/G/32/gno/sprites/nav-sprite-global-1x-reorg-privacy._AC_SY500_.jpg",
     "affiliate_links": {
       "amazon": {
-        "url": "https://www.netshoes.com.br/search?q=Invincible%203&utm_source=tenisideal&utm_medium=affiliate&utm_campaign=shoes&affid=4683922",
+        "url": "https://amazon.com.br/s?k=NIKE%20Invincible%203&tag=tenisideal26-20",
         "price": 0
       },
       "oficial": {
@@ -2025,7 +2025,7 @@ var SHOES = [
     "photo": "https://m.media-amazon.com/images/G/32/gno/sprites/nav-sprite-global-1x-reorg-privacy._AC_SY500_.jpg",
     "affiliate_links": {
       "amazon": {
-        "url": "https://www.netshoes.com.br/search?q=Vomero%2018&utm_source=tenisideal&utm_medium=affiliate&utm_campaign=shoes&affid=4683922",
+        "url": "https://amazon.com.br/s?k=NIKE%20Vomero%2018&tag=tenisideal26-20",
         "price": 0
       },
       "oficial": {
@@ -2056,7 +2056,7 @@ var SHOES = [
     "photo": "https://m.media-amazon.com/images/I/81c-2ZO2FJL._AC_SY500_.jpg",
     "affiliate_links": {
       "amazon": {
-        "url": "https://www.netshoes.com.br/search?q=Pegasus%20Trail%205&utm_source=tenisideal&utm_medium=affiliate&utm_campaign=shoes&affid=4683922",
+        "url": "https://amazon.com.br/s?k=NIKE%20Pegasus%20Trail%205&tag=tenisideal26-20",
         "price": 0
       },
       "oficial": {
@@ -2087,7 +2087,7 @@ var SHOES = [
     "photo": "https://m.media-amazon.com/images/I/61d2rzptOQL._AC_SY500_.jpg",
     "affiliate_links": {
       "amazon": {
-        "url": "https://www.netshoes.com.br/search?q=Pegasus%2041&utm_source=tenisideal&utm_medium=affiliate&utm_campaign=shoes&affid=4683922",
+        "url": "https://amazon.com.br/s?k=NIKE%20Pegasus%2041&tag=tenisideal26-20",
         "price": 0
       },
       "oficial": {
@@ -2124,8 +2124,8 @@ var SHOES = [
     "photo": "https://m.media-amazon.com/images/G/32/gno/sprites/nav-sprite-global-1x-reorg-privacy._AC_SY500_.jpg",
     "affiliate_links": {
       "amazon": {
-        "url": "https://amzn.to/4ooGVXZ",
-        "price": 786.17
+        "url": "https://amazon.com.br/s?k=NIKE%20Nike%20Downshifter%2013&tag=tenisideal26-20",
+        "price": 0
       },
       "oficial": {
         "url": "https://www.awin1.com/cread.php?awinmid=17652&awinaffid=4683922&platform=dl&ued=https%3A%2F%2Fwww.nike.com.br%2Ftenis-nike-downshifter-13-masculino-027915.html%3Fcor%3DIM",
@@ -2175,6 +2175,10 @@ var SHOES = [
       "netshoes": {
         "url": "https://click.linksynergy.com/deeplink?id=NyH7xPegftk&mid=43984&murl=https%3A%2F%2Fwww.netshoes.com.br%2Fp%2Ftenis-nike-revolution-8-feminino-preto%2Bbranco-SGL-0026-026",
         "price": 50.0
+      },
+      "amazon": {
+        "url": "https://amazon.com.br/s?k=NIKE%20Nike%20Revolution%208&tag=tenisideal26-20",
+        "price": 0
       }
     },
     "tags": [],
@@ -2200,7 +2204,7 @@ var SHOES = [
     "photo": "https://m.media-amazon.com/images/G/32/gno/sprites/nav-sprite-global-1x-reorg-privacy._AC_SY500_.jpg",
     "affiliate_links": {
       "amazon": {
-        "url": "https://www.netshoes.com.br/search?q=Pride&utm_source=tenisideal&utm_medium=affiliate&utm_campaign=shoes&affid=4683922",
+        "url": "https://amazon.com.br/s?k=OLYMPIKUS%20Pride&tag=tenisideal26-20",
         "price": 0
       }
     },
@@ -2230,7 +2234,7 @@ var SHOES = [
     "photo": "https://m.media-amazon.com/images/I/61ejcrS4GvL._AC_SY500_.jpg",
     "affiliate_links": {
       "amazon": {
-        "url": "https://www.netshoes.com.br/search?q=Challenger&utm_source=tenisideal&utm_medium=affiliate&utm_campaign=shoes&affid=4683922",
+        "url": "https://amazon.com.br/s?k=OLYMPIKUS%20Challenger&tag=tenisideal26-20",
         "price": 0
       }
     },
@@ -2260,7 +2264,7 @@ var SHOES = [
     "photo": "https://m.media-amazon.com/images/I/61mldcIzcqL._AC_SY500_.jpg",
     "affiliate_links": {
       "amazon": {
-        "url": "https://www.netshoes.com.br/search?q=Orbita&utm_source=tenisideal&utm_medium=affiliate&utm_campaign=shoes&affid=4683922",
+        "url": "https://amazon.com.br/s?k=OLYMPIKUS%20Orbita&tag=tenisideal26-20",
         "price": 0
       }
     },
@@ -2290,7 +2294,7 @@ var SHOES = [
     "photo": "https://m.media-amazon.com/images/G/32/gno/sprites/nav-sprite-global-1x-reorg-privacy._AC_SY500_.jpg",
     "affiliate_links": {
       "amazon": {
-        "url": "https://www.netshoes.com.br/search?q=Essential&utm_source=tenisideal&utm_medium=affiliate&utm_campaign=shoes&affid=4683922",
+        "url": "https://amazon.com.br/s?k=OLYMPIKUS%20Essential&tag=tenisideal26-20",
         "price": 0
       }
     },
@@ -2321,7 +2325,7 @@ var SHOES = [
     "photo": "https://m.media-amazon.com/images/I/51iZQ7STo3L._AC_SX385_.jpg",
     "affiliate_links": {
       "amazon": {
-        "url": "https://www.netshoes.com.br/search?q=Challenger%205&utm_source=tenisideal&utm_medium=affiliate&utm_campaign=shoes&affid=4683922",
+        "url": "https://amazon.com.br/s?k=OLYMPIKUS%20Challenger%205&tag=tenisideal26-20",
         "price": 0
       }
     },
@@ -2352,7 +2356,7 @@ var SHOES = [
     "photo": "https://m.media-amazon.com/images/I/51JJ2uf9wGL._AC_SX385_.jpg",
     "affiliate_links": {
       "amazon": {
-        "url": "https://www.netshoes.com.br/search?q=Marte&utm_source=tenisideal&utm_medium=affiliate&utm_campaign=shoes&affid=4683922",
+        "url": "https://amazon.com.br/s?k=OLYMPIKUS%20Marte&tag=tenisideal26-20",
         "price": 0
       },
       "oficial": {
@@ -2393,7 +2397,7 @@ var SHOES = [
     "photo": "https://m.media-amazon.com/images/I/71Io4zJik6L._AC_SY500_.jpg",
     "affiliate_links": {
       "amazon": {
-        "url": "https://www.netshoes.com.br/search?q=Pride%204&utm_source=tenisideal&utm_medium=affiliate&utm_campaign=shoes&affid=4683922",
+        "url": "https://amazon.com.br/s?k=OLYMPIKUS%20Pride%204&tag=tenisideal26-20",
         "price": 0
       },
       "oficial": {
@@ -2432,7 +2436,7 @@ var SHOES = [
     "photo": "https://m.media-amazon.com/images/G/32/gno/sprites/nav-sprite-global-1x-reorg-privacy._AC_SY500_.jpg",
     "affiliate_links": {
       "amazon": {
-        "url": "https://www.netshoes.com.br/search?q=Rua&utm_source=tenisideal&utm_medium=affiliate&utm_campaign=shoes&affid=4683922",
+        "url": "https://amazon.com.br/s?k=OLYMPIKUS%20Rua&tag=tenisideal26-20",
         "price": 0
       }
     },
@@ -2463,8 +2467,8 @@ var SHOES = [
     "photo": "https://m.media-amazon.com/images/I/51Z-DdVYfOL._AC_SY395_.jpg",
     "affiliate_links": {
       "amazon": {
-        "url": "https://amzn.to/3NC4q1S",
-        "price": 600.0
+        "url": "https://amazon.com.br/s?k=OLYMPIKUS%20Corre%20Grafeno%203&tag=tenisideal26-20",
+        "price": 0
       },
       "oficial": {
         "url": "https://tidd.ly/3PBl3LF",
@@ -2499,8 +2503,8 @@ var SHOES = [
     "photo": "https://m.media-amazon.com/images/G/32/gno/sprites/nav-sprite-global-1x-reorg-privacy._AC_SY500_.jpg",
     "affiliate_links": {
       "amazon": {
-        "url": "https://amzn.to/3OZCYM2",
-        "price": 209.99
+        "url": "https://amazon.com.br/s?k=OLYMPIKUS%20Olympikus%20Challenger%205&tag=tenisideal26-20",
+        "price": 0
       },
       "oficial": {
         "url": "https://tidd.ly/4utSjEM",
@@ -2534,7 +2538,10 @@ var SHOES = [
     "distancia": [],
     "photo": "https://via.placeholder.com/400x300/1a1a1a/c8ff00?text=Olympikus%20Corre%20Trilha",
     "affiliate_links": {
-      "amazon": 599.99
+      "amazon": {
+        "url": "https://amazon.com.br/s?k=OLYMPIKUS%20Olympikus%20Corre%20Trilha&tag=tenisideal26-20",
+        "price": 0
+      }
     },
     "tags": [],
     "description": "",
@@ -2559,7 +2566,7 @@ var SHOES = [
     "photo": "https://m.media-amazon.com/images/I/51gcZC19IXL._AC_SY500_.jpg",
     "affiliate_links": {
       "amazon": {
-        "url": "https://www.netshoes.com.br/search?q=Ultra%20Glide%202&utm_source=tenisideal&utm_medium=affiliate&utm_campaign=shoes&affid=4683922",
+        "url": "https://amazon.com.br/s?k=SALOMON%20Ultra%20Glide%202&tag=tenisideal26-20",
         "price": 0
       }
     },
@@ -2589,7 +2596,7 @@ var SHOES = [
     "photo": "https://m.media-amazon.com/images/G/32/gno/sprites/nav-sprite-global-1x-reorg-privacy._AC_SY500_.jpg",
     "affiliate_links": {
       "amazon": {
-        "url": "https://www.netshoes.com.br/search?q=Endorphin%20Speed%204&utm_source=tenisideal&utm_medium=affiliate&utm_campaign=shoes&affid=4683922",
+        "url": "https://amazon.com.br/s?k=SAUCONY%20Endorphin%20Speed%204&tag=tenisideal26-20",
         "price": 0
       }
     },
@@ -2620,8 +2627,8 @@ var SHOES = [
     "photo": "https://m.media-amazon.com/images/G/32/gno/sprites/nav-sprite-global-1x-reorg-privacy._AC_SY500_.jpg",
     "affiliate_links": {
       "amazon": {
-        "url": "https://amzn.to/4uAu8EP",
-        "price": 1524.0
+        "url": "https://amazon.com.br/s?k=SAUCONY%20Saucony%20Endorphin%20Pro%204&tag=tenisideal26-20",
+        "price": 0
       }
     },
     "tags": [
@@ -2652,8 +2659,8 @@ var SHOES = [
     "photo": "https://m.media-amazon.com/images/I/7147Rk7LN8L._AC_SY500_.jpg",
     "affiliate_links": {
       "amazon": {
-        "url": "https://amzn.to/40vH9S7",
-        "price": 1799.26
+        "url": "https://amazon.com.br/s?k=SAUCONY%20Saucony%20Endorphin%20Speed%205&tag=tenisideal26-20",
+        "price": 0
       }
     },
     "tags": [
@@ -2684,8 +2691,8 @@ var SHOES = [
     "photo": "https://m.media-amazon.com/images/G/32/gno/sprites/nav-sprite-global-1x-reorg-privacy._AC_SY500_.jpg",
     "affiliate_links": {
       "amazon": {
-        "url": "https://amzn.to/4ltmU1a",
-        "price": 1585.65
+        "url": "https://amazon.com.br/s?k=SAUCONY%20Saucony%20Triumph%2023&tag=tenisideal26-20",
+        "price": 0
       }
     },
     "tags": [
@@ -2716,8 +2723,8 @@ var SHOES = [
     "photo": "https://m.media-amazon.com/images/G/32/gno/sprites/nav-sprite-global-1x-reorg-privacy._AC_SY500_.jpg",
     "affiliate_links": {
       "amazon": {
-        "url": "https://amzn.to/4bnOqIy",
-        "price": 895.66
+        "url": "https://amazon.com.br/s?k=SAUCONY%20Saucony%20Peregrine%2015&tag=tenisideal26-20",
+        "price": 0
       }
     },
     "tags": [
@@ -2748,8 +2755,8 @@ var SHOES = [
     "photo": "https://m.media-amazon.com/images/I/710D-lXE4uL._AC_SY500_.jpg",
     "affiliate_links": {
       "amazon": {
-        "url": "https://amzn.to/4b92uXF",
-        "price": 1120.02
+        "url": "https://amazon.com.br/s?k=SALOMON%20Salomon%20Sense%20Ride%205&tag=tenisideal26-20",
+        "price": 0
       }
     },
     "tags": [
@@ -2780,8 +2787,8 @@ var SHOES = [
     "photo": "https://m.media-amazon.com/images/I/71gYxjqbteL._AC_SY500_.jpg",
     "affiliate_links": {
       "amazon": {
-        "url": "https://amzn.to/4aY4ult",
-        "price": 399.9
+        "url": "https://amazon.com.br/s?k=SKECHERS%20Arch%20Fit%20Orvan%20Drex&tag=tenisideal26-20",
+        "price": 0
       }
     },
     "tags": [
@@ -2810,8 +2817,8 @@ var SHOES = [
     "photo": "https://m.media-amazon.com/images/I/61cNbsYKgPL._AC_SX385_.jpg",
     "affiliate_links": {
       "amazon": {
-        "url": "https://amzn.to/4rYjl5o",
-        "price": 269.9
+        "url": "https://amazon.com.br/s?k=UNDER%20ARMOUR%20Charged%20Great&tag=tenisideal26-20",
+        "price": 0
       }
     },
     "tags": [
@@ -2841,8 +2848,8 @@ var SHOES = [
     "photo": "https://m.media-amazon.com/images/I/61FtBlh+DJL._AC_SY395_.jpg",
     "affiliate_links": {
       "amazon": {
-        "url": "https://amzn.to/4bd2MeK",
-        "price": 469.9
+        "url": "https://amazon.com.br/s?k=UNDER%20ARMOUR%20Charged%20Hit%20SE&tag=tenisideal26-20",
+        "price": 0
       }
     },
     "tags": [
