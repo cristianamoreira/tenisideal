@@ -1,0 +1,33 @@
+brand,model,category,price_range,link_oficial,link_amazon,link_netshoes
+Nike,Revolution 8,Running,R$ 300-400,https://www.nike.com.br/search?q=Revolution%208,https://www.amazon.com.br/s?k=Nike%20Revolution%208,https://www.netshoes.com.br/search?q=Nike%20Revolution%208
+Nike,Downshifter 13,Running,R$ 350-450,https://www.nike.com.br/search?q=Downshifter%2013,https://www.amazon.com.br/s?k=Nike%20Downshifter%2013,https://www.netshoes.com.br/search?q=Nike%20Downshifter%2013
+Nike,Winflo 11,Running,R$ 450-550,https://www.nike.com.br/search?q=Winflo%2011,https://www.amazon.com.br/s?k=Nike%20Winflo%2011,https://www.netshoes.com.br/search?q=Nike%20Winflo%2011
+Nike,Quest 5,Running,R$ 400-500,https://www.nike.com.br/search?q=Quest%205,https://www.amazon.com.br/s?k=Nike%20Quest%205,https://www.netshoes.com.br/search?q=Nike%20Quest%205
+Nike,Pegasus 41,Running,R$ 600-700,https://www.nike.com.br/search?q=Pegasus%2041,https://www.amazon.com.br/s?k=Nike%20Pegasus%2041,https://www.netshoes.com.br/search?q=Nike%20Pegasus%2041
+Nike,Vomero 18,Running,R$ 900-1000,https://www.nike.com.br/search?q=Vomero%2018,https://www.amazon.com.br/s?k=Nike%20Vomero%2018,https://www.netshoes.com.br/search?q=Nike%20Vomero%2018
+Nike,Invincible 3,Running,R$ 900-1000,https://www.nike.com.br/search?q=Invincible%203,https://www.amazon.com.br/s?k=Nike%20Invincible%203,https://www.netshoes.com.br/search?q=Nike%20Invincible%203
+Nike,Zoom Fly 6,Racing,R$ 1300-1500,https://www.nike.com.br/search?q=Zoom%20Fly%206,https://www.amazon.com.br/s?k=Nike%20Zoom%20Fly%206,https://www.netshoes.com.br/search?q=Nike%20Zoom%20Fly%206
+ASICS,Gel-Cumulus 26,Running,R$ 700-800,https://www.asics.com.br/search?q=Gel-Cumulus%2026,https://www.amazon.com.br/s?k=ASICS%20Gel-Cumulus%2026,https://www.netshoes.com.br/search?q=ASICS%20Gel-Cumulus%2026
+ASICS,Gel-Kayano 31,Running,R$ 1200-1400,https://www.asics.com.br/search?q=Gel-Kayano%2031,https://www.amazon.com.br/s?k=ASICS%20Gel-Kayano%2031,https://www.netshoes.com.br/search?q=ASICS%20Gel-Kayano%2031
+ASICS,Gel-Nimbus 26,Running,R$ 1400-1600,https://www.asics.com.br/search?q=Gel-Nimbus%2026,https://www.amazon.com.br/s?k=ASICS%20Gel-Nimbus%2026,https://www.netshoes.com.br/search?q=ASICS%20Gel-Nimbus%2026
+ASICS,Gel-Pulse 15,Running,R$ 700-800,https://www.asics.com.br/search?q=Gel-Pulse%2015,https://www.amazon.com.br/s?k=ASICS%20Gel-Pulse%2015,https://www.netshoes.com.br/search?q=ASICS%20Gel-Pulse%2015
+ASICS,Gel-Trabuco 12,Trail,R$ 800-900,https://www.asics.com.br/search?q=Gel-Trabuco%2012,https://www.amazon.com.br/s?k=ASICS%20Gel-Trabuco%2012,https://www.netshoes.com.br/search?q=ASICS%20Gel-Trabuco%2012
+ASICS,Gel-Venture 10,Trail,R$ 500-600,https://www.asics.com.br/search?q=Gel-Venture%2010,https://www.amazon.com.br/s?k=ASICS%20Gel-Venture%2010,https://www.netshoes.com.br/search?q=ASICS%20Gel-Venture%2010
+ASICS,Superblast 2,Running,R$ 1000-1200,https://www.asics.com.br/search?q=Superblast%202,https://www.amazon.com.br/s?k=ASICS%20Superblast%202,https://www.netshoes.com.br/search?q=ASICS%20Superblast%202
+ASICS,Gel-Kayano 32,Running,R$ 1300-1500,https://www.asics.com.br/search?q=Gel-Kayano%2032,https://www.amazon.com.br/s?k=ASICS%20Gel-Kayano%2032,https://www.netshoes.com.br/search?q=ASICS%20Gel-Kayano%2032
+ADIDAS,Response Runner 2,Running,R$ 350-450,https://www.adidas.com.br/search?q=Response%20Runner%202,https://www.amazon.com.br/s?k=Adidas%20Response%20Runner%202,https://www.netshoes.com.br/search?q=Adidas%20Response%20Runner%202
+ADIDAS,Adizero Boston 13,Racing,R$ 1300-1500,https://www.adidas.com.br/search?q=Adizero%20Boston%2013,https://www.amazon.com.br/s?k=Adidas%20Adizero%20Boston%2013,https://www.netshoes.com.br/search?q=Adidas%20Adizero%20Boston%2013
+ADIDAS,Adizero Adios Pro 4,Racing,R$ 1800-2000,https://www.adidas.com.br/search?q=Adizero%20Adios%20Pro%204,https://www.amazon.com.br/s?k=Adidas%20Adizero%20Adios%20Pro%204,https://www.netshoes.com.br/search?q=Adidas%20Adizero%20Adios%20Pro%204
+ADIDAS,Ultraboost 5,Running,R$ 1000-1200,https://www.adidas.com.br/search?q=Ultraboost%205,https://www.amazon.com.br/s?k=Adidas%20Ultraboost%205,https://www.netshoes.com.br/search?q=Adidas%20Ultraboost%205
+ADIDAS,Duramo Speed 2,Running,R$ 500-600,https://www.adidas.com.br/search?q=Duramo%20Speed%202,https://www.amazon.com.br/s?k=Adidas%20Duramo%20Speed%202,https://www.netshoes.com.br/search?q=Adidas%20Duramo%20Speed%202
+ADIDAS,Ultraboost 22,Running,R$ 1100-1300,https://www.adidas.com.br/search?q=Ultraboost%2022,https://www.amazon.com.br/s?k=Adidas%20Ultraboost%2022,https://www.netshoes.com.br/search?q=Adidas%20Ultraboost%2022
+ADIDAS,Terrex Agravic Speed 2,Trail,R$ 1100-1300,https://www.adidas.com.br/search?q=Terrex%20Agravic%20Speed%202,https://www.amazon.com.br/s?k=Adidas%20Terrex%20Agravic%20Speed%202,https://www.netshoes.com.br/search?q=Adidas%20Terrex%20Agravic%20Speed%202
+ADIDAS,Adizero RS15,Racing,R$ 1600-1800,https://www.adidas.com.br/search?q=Adizero%20RS15,https://www.amazon.com.br/s?k=Adidas%20Adizero%20RS15,https://www.netshoes.com.br/search?q=Adidas%20Adizero%20RS15
+OLYMPIKUS,Corre 3,Running,R$ 500-600,https://www.olympikus.com.br/search?q=Corre%203,https://www.amazon.com.br/s?k=Olympikus%20Corre%203,https://www.netshoes.com.br/search?q=Olympikus%20Corre%203
+OLYMPIKUS,Corre Trilha,Trail,R$ 500-600,https://www.olympikus.com.br/search?q=Corre%20Trilha,https://www.amazon.com.br/s?k=Olympikus%20Corre%20Trilha,https://www.netshoes.com.br/search?q=Olympikus%20Corre%20Trilha
+OLYMPIKUS,Challenger 5,Running,R$ 200-300,https://www.olympikus.com.br/search?q=Challenger%205,https://www.amazon.com.br/s?k=Olympikus%20Challenger%205,https://www.netshoes.com.br/search?q=Olympikus%20Challenger%205
+OLYMPIKUS,Pride 4,Running,R$ 250-350,https://www.olympikus.com.br/search?q=Pride%204,https://www.amazon.com.br/s?k=Olympikus%20Pride%204,https://www.netshoes.com.br/search?q=Olympikus%20Pride%204
+OLYMPIKUS,Orbita,Running,R$ 200-300,https://www.olympikus.com.br/search?q=Orbita,https://www.amazon.com.br/s?k=Olympikus%20Orbita,https://www.netshoes.com.br/search?q=Olympikus%20Orbita
+OLYMPIKUS,Essence,Running,R$ 200-300,https://www.olympikus.com.br/search?q=Essence,https://www.amazon.com.br/s?k=Olympikus%20Essence,https://www.netshoes.com.br/search?q=Olympikus%20Essence
+OLYMPIKUS,Rua,Running,R$ 200-250,https://www.olympikus.com.br/search?q=Rua,https://www.amazon.com.br/s?k=Olympikus%20Rua,https://www.netshoes.com.br/search?q=Olympikus%20Rua
+OLYMPIKUS,Marte,Running,R$ 150-250,https://www.olympikus.com.br/search?q=Marte,https://www.amazon.com.br/s?k=Olympikus%20Marte,https://www.netshoes.com.br/search?q=Olympikus%20Marte

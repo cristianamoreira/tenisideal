@@ -1,3 +1,4 @@
+// Sincronizado de Google Sheets
 var SHOES = [
   {
     "brand": "ADIDAS",
@@ -2794,7 +2795,7 @@ var SHOES = [
     "distancia": [],
     "photo": "https://via.placeholder.com/400x300/1a1a1a/c8ff00?text=Olympikus%20Corre%20Trilha",
     "affiliate_links": {
-      "amazon": ""
+      "amazon": 599.99
     },
     "tags": [],
     "description": "",

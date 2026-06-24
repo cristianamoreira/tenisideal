@@ -1,0 +1,290 @@
+[
+  {
+    "brand": "Nike",
+    "model": "Revolution 8",
+    "category": "Running",
+    "price_range": "R$ 300-400",
+    "link_oficial": "https://www.nike.com.br/search?q=Revolution%208",
+    "link_amazon": "https://www.amazon.com.br/s?k=Nike%20Revolution%208",
+    "link_netshoes": "https://www.netshoes.com.br/search?q=Nike%20Revolution%208"
+  },
+  {
+    "brand": "Nike",
+    "model": "Downshifter 13",
+    "category": "Running",
+    "price_range": "R$ 350-450",
+    "link_oficial": "https://www.nike.com.br/search?q=Downshifter%2013",
+    "link_amazon": "https://www.amazon.com.br/s?k=Nike%20Downshifter%2013",
+    "link_netshoes": "https://www.netshoes.com.br/search?q=Nike%20Downshifter%2013"
+  },
+  {
+    "brand": "Nike",
+    "model": "Winflo 11",
+    "category": "Running",
+    "price_range": "R$ 450-550",
+    "link_oficial": "https://www.nike.com.br/search?q=Winflo%2011",
+    "link_amazon": "https://www.amazon.com.br/s?k=Nike%20Winflo%2011",
+    "link_netshoes": "https://www.netshoes.com.br/search?q=Nike%20Winflo%2011"
+  },
+  {
+    "brand": "Nike",
+    "model": "Quest 5",
+    "category": "Running",
+    "price_range": "R$ 400-500",
+    "link_oficial": "https://www.nike.com.br/search?q=Quest%205",
+    "link_amazon": "https://www.amazon.com.br/s?k=Nike%20Quest%205",
+    "link_netshoes": "https://www.netshoes.com.br/search?q=Nike%20Quest%205"
+  },
+  {
+    "brand": "Nike",
+    "model": "Pegasus 41",
+    "category": "Running",
+    "price_range": "R$ 600-700",
+    "link_oficial": "https://www.nike.com.br/search?q=Pegasus%2041",
+    "link_amazon": "https://www.amazon.com.br/s?k=Nike%20Pegasus%2041",
+    "link_netshoes": "https://www.netshoes.com.br/search?q=Nike%20Pegasus%2041"
+  },
+  {
+    "brand": "Nike",
+    "model": "Vomero 18",
+    "category": "Running",
+    "price_range": "R$ 900-1000",
+    "link_oficial": "https://www.nike.com.br/search?q=Vomero%2018",
+    "link_amazon": "https://www.amazon.com.br/s?k=Nike%20Vomero%2018",
+    "link_netshoes": "https://www.netshoes.com.br/search?q=Nike%20Vomero%2018"
+  },
+  {
+    "brand": "Nike",
+    "model": "Invincible 3",
+    "category": "Running",
+    "price_range": "R$ 900-1000",
+    "link_oficial": "https://www.nike.com.br/search?q=Invincible%203",
+    "link_amazon": "https://www.amazon.com.br/s?k=Nike%20Invincible%203",
+    "link_netshoes": "https://www.netshoes.com.br/search?q=Nike%20Invincible%203"
+  },
+  {
+    "brand": "Nike",
+    "model": "Zoom Fly 6",
+    "category": "Racing",
+    "price_range": "R$ 1300-1500",
+    "link_oficial": "https://www.nike.com.br/search?q=Zoom%20Fly%206",
+    "link_amazon": "https://www.amazon.com.br/s?k=Nike%20Zoom%20Fly%206",
+    "link_netshoes": "https://www.netshoes.com.br/search?q=Nike%20Zoom%20Fly%206"
+  },
+  {
+    "brand": "ASICS",
+    "model": "Gel-Cumulus 26",
+    "category": "Running",
+    "price_range": "R$ 700-800",
+    "link_oficial": "https://www.asics.com.br/search?q=Gel-Cumulus%2026",
+    "link_amazon": "https://www.amazon.com.br/s?k=ASICS%20Gel-Cumulus%2026",
+    "link_netshoes": "https://www.netshoes.com.br/search?q=ASICS%20Gel-Cumulus%2026"
+  },
+  {
+    "brand": "ASICS",
+    "model": "Gel-Kayano 31",
+    "category": "Running",
+    "price_range": "R$ 1200-1400",
+    "link_oficial": "https://www.asics.com.br/search?q=Gel-Kayano%2031",
+    "link_amazon": "https://www.amazon.com.br/s?k=ASICS%20Gel-Kayano%2031",
+    "link_netshoes": "https://www.netshoes.com.br/search?q=ASICS%20Gel-Kayano%2031"
+  },
+  {
+    "brand": "ASICS",
+    "model": "Gel-Nimbus 26",
+    "category": "Running",
+    "price_range": "R$ 1400-1600",
+    "link_oficial": "https://www.asics.com.br/search?q=Gel-Nimbus%2026",
+    "link_amazon": "https://www.amazon.com.br/s?k=ASICS%20Gel-Nimbus%2026",
+    "link_netshoes": "https://www.netshoes.com.br/search?q=ASICS%20Gel-Nimbus%2026"
+  },
+  {
+    "brand": "ASICS",
+    "model": "Gel-Pulse 15",
+    "category": "Running",
+    "price_range": "R$ 700-800",
+    "link_oficial": "https://www.asics.com.br/search?q=Gel-Pulse%2015",
+    "link_amazon": "https://www.amazon.com.br/s?k=ASICS%20Gel-Pulse%2015",
+    "link_netshoes": "https://www.netshoes.com.br/search?q=ASICS%20Gel-Pulse%2015"
+  },
+  {
+    "brand": "ASICS",
+    "model": "Gel-Trabuco 12",
+    "category": "Trail",
+    "price_range": "R$ 800-900",
+    "link_oficial": "https://www.asics.com.br/search?q=Gel-Trabuco%2012",
+    "link_amazon": "https://www.amazon.com.br/s?k=ASICS%20Gel-Trabuco%2012",
+    "link_netshoes": "https://www.netshoes.com.br/search?q=ASICS%20Gel-Trabuco%2012"
+  },
+  {
+    "brand": "ASICS",
+    "model": "Gel-Venture 10",
+    "category": "Trail",
+    "price_range": "R$ 500-600",
+    "link_oficial": "https://www.asics.com.br/search?q=Gel-Venture%2010",
+    "link_amazon": "https://www.amazon.com.br/s?k=ASICS%20Gel-Venture%2010",
+    "link_netshoes": "https://www.netshoes.com.br/search?q=ASICS%20Gel-Venture%2010"
+  },
+  {
+    "brand": "ASICS",
+    "model": "Superblast 2",
+    "category": "Running",
+    "price_range": "R$ 1000-1200",
+    "link_oficial": "https://www.asics.com.br/search?q=Superblast%202",
+    "link_amazon": "https://www.amazon.com.br/s?k=ASICS%20Superblast%202",
+    "link_netshoes": "https://www.netshoes.com.br/search?q=ASICS%20Superblast%202"
+  },
+  {
+    "brand": "ASICS",
+    "model": "Gel-Kayano 32",
+    "category": "Running",
+    "price_range": "R$ 1300-1500",
+    "link_oficial": "https://www.asics.com.br/search?q=Gel-Kayano%2032",
+    "link_amazon": "https://www.amazon.com.br/s?k=ASICS%20Gel-Kayano%2032",
+    "link_netshoes": "https://www.netshoes.com.br/search?q=ASICS%20Gel-Kayano%2032"
+  },
+  {
+    "brand": "ADIDAS",
+    "model": "Response Runner 2",
+    "category": "Running",
+    "price_range": "R$ 350-450",
+    "link_oficial": "https://www.adidas.com.br/search?q=Response%20Runner%202",
+    "link_amazon": "https://www.amazon.com.br/s?k=Adidas%20Response%20Runner%202",
+    "link_netshoes": "https://www.netshoes.com.br/search?q=Adidas%20Response%20Runner%202"
+  },
+  {
+    "brand": "ADIDAS",
+    "model": "Adizero Boston 13",
+    "category": "Racing",
+    "price_range": "R$ 1300-1500",
+    "link_oficial": "https://www.adidas.com.br/search?q=Adizero%20Boston%2013",
+    "link_amazon": "https://www.amazon.com.br/s?k=Adidas%20Adizero%20Boston%2013",
+    "link_netshoes": "https://www.netshoes.com.br/search?q=Adidas%20Adizero%20Boston%2013"
+  },
+  {
+    "brand": "ADIDAS",
+    "model": "Adizero Adios Pro 4",
+    "category": "Racing",
+    "price_range": "R$ 1800-2000",
+    "link_oficial": "https://www.adidas.com.br/search?q=Adizero%20Adios%20Pro%204",
+    "link_amazon": "https://www.amazon.com.br/s?k=Adidas%20Adizero%20Adios%20Pro%204",
+    "link_netshoes": "https://www.netshoes.com.br/search?q=Adidas%20Adizero%20Adios%20Pro%204"
+  },
+  {
+    "brand": "ADIDAS",
+    "model": "Ultraboost 5",
+    "category": "Running",
+    "price_range": "R$ 1000-1200",
+    "link_oficial": "https://www.adidas.com.br/search?q=Ultraboost%205",
+    "link_amazon": "https://www.amazon.com.br/s?k=Adidas%20Ultraboost%205",
+    "link_netshoes": "https://www.netshoes.com.br/search?q=Adidas%20Ultraboost%205"
+  },
+  {
+    "brand": "ADIDAS",
+    "model": "Duramo Speed 2",
+    "category": "Running",
+    "price_range": "R$ 500-600",
+    "link_oficial": "https://www.adidas.com.br/search?q=Duramo%20Speed%202",
+    "link_amazon": "https://www.amazon.com.br/s?k=Adidas%20Duramo%20Speed%202",
+    "link_netshoes": "https://www.netshoes.com.br/search?q=Adidas%20Duramo%20Speed%202"
+  },
+  {
+    "brand": "ADIDAS",
+    "model": "Ultraboost 22",
+    "category": "Running",
+    "price_range": "R$ 1100-1300",
+    "link_oficial": "https://www.adidas.com.br/search?q=Ultraboost%2022",
+    "link_amazon": "https://www.amazon.com.br/s?k=Adidas%20Ultraboost%2022",
+    "link_netshoes": "https://www.netshoes.com.br/search?q=Adidas%20Ultraboost%2022"
+  },
+  {
+    "brand": "ADIDAS",
+    "model": "Terrex Agravic Speed 2",
+    "category": "Trail",
+    "price_range": "R$ 1100-1300",
+    "link_oficial": "https://www.adidas.com.br/search?q=Terrex%20Agravic%20Speed%202",
+    "link_amazon": "https://www.amazon.com.br/s?k=Adidas%20Terrex%20Agravic%20Speed%202",
+    "link_netshoes": "https://www.netshoes.com.br/search?q=Adidas%20Terrex%20Agravic%20Speed%202"
+  },
+  {
+    "brand": "ADIDAS",
+    "model": "Adizero RS15",
+    "category": "Racing",
+    "price_range": "R$ 1600-1800",
+    "link_oficial": "https://www.adidas.com.br/search?q=Adizero%20RS15",
+    "link_amazon": "https://www.amazon.com.br/s?k=Adidas%20Adizero%20RS15",
+    "link_netshoes": "https://www.netshoes.com.br/search?q=Adidas%20Adizero%20RS15"
+  },
+  {
+    "brand": "OLYMPIKUS",
+    "model": "Corre 3",
+    "category": "Running",
+    "price_range": "R$ 500-600",
+    "link_oficial": "https://www.olympikus.com.br/search?q=Corre%203",
+    "link_amazon": "https://www.amazon.com.br/s?k=Olympikus%20Corre%203",
+    "link_netshoes": "https://www.netshoes.com.br/search?q=Olympikus%20Corre%203"
+  },
+  {
+    "brand": "OLYMPIKUS",
+    "model": "Corre Trilha",
+    "category": "Trail",
+    "price_range": "R$ 500-600",
+    "link_oficial": "https://www.olympikus.com.br/search?q=Corre%20Trilha",
+    "link_amazon": "https://www.amazon.com.br/s?k=Olympikus%20Corre%20Trilha",
+    "link_netshoes": "https://www.netshoes.com.br/search?q=Olympikus%20Corre%20Trilha"
+  },
+  {
+    "brand": "OLYMPIKUS",
+    "model": "Challenger 5",
+    "category": "Running",
+    "price_range": "R$ 200-300",
+    "link_oficial": "https://www.olympikus.com.br/search?q=Challenger%205",
+    "link_amazon": "https://www.amazon.com.br/s?k=Olympikus%20Challenger%205",
+    "link_netshoes": "https://www.netshoes.com.br/search?q=Olympikus%20Challenger%205"
+  },
+  {
+    "brand": "OLYMPIKUS",
+    "model": "Pride 4",
+    "category": "Running",
+    "price_range": "R$ 250-350",
+    "link_oficial": "https://www.olympikus.com.br/search?q=Pride%204",
+    "link_amazon": "https://www.amazon.com.br/s?k=Olympikus%20Pride%204",
+    "link_netshoes": "https://www.netshoes.com.br/search?q=Olympikus%20Pride%204"
+  },
+  {
+    "brand": "OLYMPIKUS",
+    "model": "Orbita",
+    "category": "Running",
+    "price_range": "R$ 200-300",
+    "link_oficial": "https://www.olympikus.com.br/search?q=Orbita",
+    "link_amazon": "https://www.amazon.com.br/s?k=Olympikus%20Orbita",
+    "link_netshoes": "https://www.netshoes.com.br/search?q=Olympikus%20Orbita"
+  },
+  {
+    "brand": "OLYMPIKUS",
+    "model": "Essence",
+    "category": "Running",
+    "price_range": "R$ 200-300",
+    "link_oficial": "https://www.olympikus.com.br/search?q=Essence",
+    "link_amazon": "https://www.amazon.com.br/s?k=Olympikus%20Essence",
+    "link_netshoes": "https://www.netshoes.com.br/search?q=Olympikus%20Essence"
+  },
+  {
+    "brand": "OLYMPIKUS",
+    "model": "Rua",
+    "category": "Running",
+    "price_range": "R$ 200-250",
+    "link_oficial": "https://www.olympikus.com.br/search?q=Rua",
+    "link_amazon": "https://www.amazon.com.br/s?k=Olympikus%20Rua",
+    "link_netshoes": "https://www.netshoes.com.br/search?q=Olympikus%20Rua"
+  },
+  {
+    "brand": "OLYMPIKUS",
+    "model": "Marte",
+    "category": "Running",
+    "price_range": "R$ 150-250",
+    "link_oficial": "https://www.olympikus.com.br/search?q=Marte",
+    "link_amazon": "https://www.amazon.com.br/s?k=Olympikus%20Marte",
+    "link_netshoes": "https://www.netshoes.com.br/search?q=Olympikus%20Marte"
+  }
+]
