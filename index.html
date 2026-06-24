@@ -1468,6 +1468,18 @@
       width: 100%;
     }
 
+    .shoe.shoe-featured .simg img:not([src]),
+    .shoe.shoe-featured .simg img[src=""] {
+      display: none;
+    }
+
+    .shoe.shoe-featured .simg::before {
+      content: "👟";
+      font-size: 80px;
+      color: #c8ff00;
+      opacity: 0.5;
+    }
+
     .shoe.shoe-featured .sbody {
       flex: 1;
       padding: 32px 40px;
