@@ -1,0 +1,22 @@
+{
+  "amazon": {
+    "tag": "tenisideal26-20",
+    "note": "Amazon Associates ativo"
+  },
+  "netshoes": {
+    "affiliate_id": "2800712",
+    "utm_source": "tenisideal",
+    "note": "Netshoes afiliado ativo"
+  },
+  "awin": {
+    "publisher_id": "2800712",
+    "click_ref": "TenisIdeal",
+    "merchants": {
+      "nike": 15576,
+      "asics": 15815,
+      "adidas": 15503,
+      "olympikus": 0
+    },
+    "note": "Awin publisher ativo"
+  }
+}
