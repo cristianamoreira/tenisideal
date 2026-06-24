@@ -33,7 +33,9 @@
       "Maratona"
     ],
     "description": "5 hastes de fibra de carbono EnergyRods 2.0. O favorito dos campeões de maratona no mundo inteiro.",
-    "reason": "5 hastes de fibra de carbono EnergyRods 2.0. O favorito dos campeões de maratona no mundo inteiro."
+    "reason": "5 hastes de fibra de carbono EnergyRods 2.0. O favorito dos campeões de maratona no mundo inteiro.",
+    "price_minimo": 1999.99,
+    "tem_variacao_tamanho_cor": true
   },
   {
     "brand": "ADIDAS",
@@ -69,7 +71,9 @@
       "Velocidade"
     ],
     "description": "A porta de entrada para os tênis de velocidade. Lightstrike Pro sem placa de carbono, mas com toda a rapidez.",
-    "reason": "A porta de entrada para os tênis de velocidade. Lightstrike Pro sem placa de carbono, mas com toda a rapidez."
+    "reason": "A porta de entrada para os tênis de velocidade. Lightstrike Pro sem placa de carbono, mas com toda a rapidez.",
+    "price_minimo": 1399.99,
+    "tem_variacao_tamanho_cor": true
   },
   {
     "brand": "ADIDAS",
@@ -105,7 +109,9 @@
       "Estável"
     ],
     "description": "Estrutura firme e estável para iniciantes. Entrega tração e durabilidade para treinos diários sem gastar muito.",
-    "reason": "Estrutura firme e estável para iniciantes. Entrega tração e durabilidade para treinos diários sem gastar muito."
+    "reason": "Estrutura firme e estável para iniciantes. Entrega tração e durabilidade para treinos diários sem gastar muito.",
+    "price_minimo": 399.99,
+    "tem_variacao_tamanho_cor": true
   },
   {
     "brand": "ADIDAS",
@@ -142,7 +148,9 @@
       "Premium"
     ],
     "description": "Tecnologia Boost devolve energia a cada passada. Queridinho para longas distâncias com conforto máximo.",
-    "reason": "Tecnologia Boost devolve energia a cada passada. Queridinho para longas distâncias com conforto máximo."
+    "reason": "Tecnologia Boost devolve energia a cada passada. Queridinho para longas distâncias com conforto máximo.",
+    "price_minimo": 1099.99,
+    "tem_variacao_tamanho_cor": true
   },
   {
     "brand": "ADIDAS",
@@ -175,7 +183,9 @@
     },
     "tags": [],
     "description": "Solado Traxion agressivo para trilha. Amortecimento React para longas distâncias fora do asfalto.",
-    "reason": "Solado Traxion agressivo para trilha. Amortecimento React para longas distâncias fora do asfalto."
+    "reason": "Solado Traxion agressivo para trilha. Amortecimento React para longas distâncias fora do asfalto.",
+    "price_minimo": 1199.99,
+    "tem_variacao_tamanho_cor": true
   },
   {
     "brand": "ADIDAS",
@@ -212,7 +222,9 @@
       "Premium"
     ],
     "description": "Lightboost 2.0 mais leve e responsivo. Primeknit ajusta como uma meia. Excelente para treinos longos com retorno máximo de energia.",
-    "reason": "Lightboost 2.0 mais leve e responsivo. Primeknit ajusta como uma meia. Excelente para treinos longos com retorno máximo de energia."
+    "reason": "Lightboost 2.0 mais leve e responsivo. Primeknit ajusta como uma meia. Excelente para treinos longos com retorno máximo de energia.",
+    "price_minimo": 1099.99,
+    "tem_variacao_tamanho_cor": true
   },
   {
     "brand": "ADIDAS",
@@ -249,7 +261,9 @@
       "Treino Diário"
     ],
     "description": "Lightstrike responsivo com solado TPU durável. Leve e rápido para treinos diários até 10km. Excelente custo-benefício para quem quer performance sem gastar muito.",
-    "reason": "Lightstrike responsivo com solado TPU durável. Leve e rápido para treinos diários até 10km. Excelente custo-benefício para quem quer performance sem gastar muito."
+    "reason": "Lightstrike responsivo com solado TPU durável. Leve e rápido para treinos diários até 10km. Excelente custo-benefício para quem quer performance sem gastar muito.",
+    "price_minimo": 599.99,
+    "tem_variacao_tamanho_cor": true
   },
   {
     "brand": "ADIDAS",
@@ -286,7 +300,9 @@
       "Retorno de energia"
     ],
     "description": "Entressola Boost com retorno de energia excepcional, cabedal tipo meia e solado Continental para máximo amortecimento e tração",
-    "reason": "Entressola Boost com retorno de energia excepcional, cabedal tipo meia e solado Continental para máximo amortecimento e tração"
+    "reason": "Entressola Boost com retorno de energia excepcional, cabedal tipo meia e solado Continental para máximo amortecimento e tração",
+    "price_minimo": 1199.99,
+    "tem_variacao_tamanho_cor": true
   },
   {
     "brand": "ASICS",
@@ -330,7 +346,9 @@
       "Responsividade"
     ],
     "description": "Entressola FF BLAST+ Eco para amortecimento máximo com leveza extrema. Ideal para treinos longos e corredores que buscam alto desempenho sem sacrificar o conforto",
-    "reason": "Entressola FF BLAST+ Eco para amortecimento máximo com leveza extrema. Ideal para treinos longos e corredores que buscam alto desempenho sem sacrificar o conforto"
+    "reason": "Entressola FF BLAST+ Eco para amortecimento máximo com leveza extrema. Ideal para treinos longos e corredores que buscam alto desempenho sem sacrificar o conforto",
+    "price_minimo": 1139.9,
+    "tem_variacao_tamanho_cor": true
   },
   {
     "brand": "ASICS",
@@ -366,7 +384,9 @@
       "Treino Diário"
     ],
     "description": "Gel duplo + FlyteFoam para treinos diários confortáveis. Irmão mais acessível do Nimbus.",
-    "reason": "Gel duplo + FlyteFoam para treinos diários confortáveis. Irmão mais acessível do Nimbus."
+    "reason": "Gel duplo + FlyteFoam para treinos diários confortáveis. Irmão mais acessível do Nimbus.",
+    "price_minimo": 719.1,
+    "tem_variacao_tamanho_cor": true
   },
   {
     "brand": "ASICS",
@@ -402,7 +422,9 @@
       "Pronação"
     ],
     "description": "Desenvolvido para pronadores. Suporte medial avançado + Gel duplo: estabilidade sem abrir mão do conforto.",
-    "reason": "Desenvolvido para pronadores. Suporte medial avançado + Gel duplo: estabilidade sem abrir mão do conforto."
+    "reason": "Desenvolvido para pronadores. Suporte medial avançado + Gel duplo: estabilidade sem abrir mão do conforto.",
+    "price_minimo": 1399.99,
+    "tem_variacao_tamanho_cor": true
   },
   {
     "brand": "ASICS",
@@ -438,7 +460,9 @@
       "Pronação"
     ],
     "description": "O melhor tênis de controle de pronação. Suporte medial + Gel duplo para estabilidade máxima.",
-    "reason": "O melhor tênis de controle de pronação. Suporte medial + Gel duplo para estabilidade máxima."
+    "reason": "O melhor tênis de controle de pronação. Suporte medial + Gel duplo para estabilidade máxima.",
+    "price_minimo": 1899.99,
+    "tem_variacao_tamanho_cor": true
   },
   {
     "brand": "ASICS",
@@ -474,7 +498,9 @@
       "Neutro"
     ],
     "description": "Amortecimento FlyteFoam excepcional. Ideal para iniciantes que precisam de proteção extra nas articulações.",
-    "reason": "Amortecimento FlyteFoam excepcional. Ideal para iniciantes que precisam de proteção extra nas articulações."
+    "reason": "Amortecimento FlyteFoam excepcional. Ideal para iniciantes que precisam de proteção extra nas articulações.",
+    "price_minimo": 1499.99,
+    "tem_variacao_tamanho_cor": true
   },
   {
     "brand": "ASICS",
@@ -510,7 +536,9 @@
       "Neutro"
     ],
     "description": "Amortecimento FlyteFoam excepcional para longas distâncias. Proteção articular superior para corredoras.",
-    "reason": "Amortecimento FlyteFoam excepcional para longas distâncias. Proteção articular superior para corredoras."
+    "reason": "Amortecimento FlyteFoam excepcional para longas distâncias. Proteção articular superior para corredoras.",
+    "price_minimo": 1499.99,
+    "tem_variacao_tamanho_cor": true
   },
   {
     "brand": "ASICS",
@@ -546,7 +574,9 @@
       "Híbrido"
     ],
     "description": "Proteção no bico e solado com travas. Funciona bem em trilhas leves e estradas mistas.",
-    "reason": "Proteção no bico e solado com travas. Funciona bem em trilhas leves e estradas mistas."
+    "reason": "Proteção no bico e solado com travas. Funciona bem em trilhas leves e estradas mistas.",
+    "price_minimo": 899.99,
+    "tem_variacao_tamanho_cor": true
   },
   {
     "brand": "ASICS",
@@ -583,7 +613,9 @@
       "Diário"
     ],
     "description": "GEL no calcanhar + FlyteFoam leve. Ótimo custo-benefício para o dia a dia. Cabedal respirável e durável para treinos regulares.",
-    "reason": "GEL no calcanhar + FlyteFoam leve. Ótimo custo-benefício para o dia a dia. Cabedal respirável e durável para treinos regulares."
+    "reason": "GEL no calcanhar + FlyteFoam leve. Ótimo custo-benefício para o dia a dia. Cabedal respirável e durável para treinos regulares.",
+    "price_minimo": 749.99,
+    "tem_variacao_tamanho_cor": true
   },
   {
     "brand": "ASICS",
@@ -620,7 +652,9 @@
       "Durabilidade"
     ],
     "description": "Tecnologia GEL ASICS com excelente amortecimento e tração para trilha e asfalto",
-    "reason": "Tecnologia GEL ASICS com excelente amortecimento e tração para trilha e asfalto"
+    "reason": "Tecnologia GEL ASICS com excelente amortecimento e tração para trilha e asfalto",
+    "price_minimo": 599.99,
+    "tem_variacao_tamanho_cor": true
   },
   {
     "brand": "ASICS",
@@ -656,7 +690,9 @@
       "Durabilidade"
     ],
     "description": "Tecnologia GEL na entressola EVA para absorção de impacto, cabedal mesh respirável e solado emborrachado resistente",
-    "reason": "Tecnologia GEL na entressola EVA para absorção de impacto, cabedal mesh respirável e solado emborrachado resistente"
+    "reason": "Tecnologia GEL na entressola EVA para absorção de impacto, cabedal mesh respirável e solado emborrachado resistente",
+    "price_minimo": 649.99,
+    "tem_variacao_tamanho_cor": true
   },
   {
     "brand": "ASICS",
@@ -693,7 +729,9 @@
       "Longa distância"
     ],
     "description": "4D Guidance System com espuma FF BLAST PLUS para estabilidade máxima, ideal para longas distâncias e corredoras com pisada pronada",
-    "reason": "4D Guidance System com espuma FF BLAST PLUS para estabilidade máxima, ideal para longas distâncias e corredoras com pisada pronada"
+    "reason": "4D Guidance System com espuma FF BLAST PLUS para estabilidade máxima, ideal para longas distâncias e corredoras com pisada pronada",
+    "price_minimo": 1399.99,
+    "tem_variacao_tamanho_cor": true
   },
   {
     "brand": "BROOKS",
@@ -729,7 +767,9 @@
       "Suporte"
     ],
     "description": "GuideRails exclusivo suporta o excesso de movimento sem travar a pisada natural. Indicado por fisios.",
-    "reason": "GuideRails exclusivo suporta o excesso de movimento sem travar a pisada natural. Indicado por fisios."
+    "reason": "GuideRails exclusivo suporta o excesso de movimento sem travar a pisada natural. Indicado por fisios.",
+    "price_minimo": 999.99,
+    "tem_variacao_tamanho_cor": true
   },
   {
     "brand": "BROOKS",
@@ -765,7 +805,9 @@
       "Suporte"
     ],
     "description": "O tênis de controle mais recomendado por fisioterapeutas. GuideRails adapta ao movimento único de cada corredora.",
-    "reason": "O tênis de controle mais recomendado por fisioterapeutas. GuideRails adapta ao movimento único de cada corredora."
+    "reason": "O tênis de controle mais recomendado por fisioterapeutas. GuideRails adapta ao movimento único de cada corredora.",
+    "price_minimo": 1049.99,
+    "tem_variacao_tamanho_cor": true
   },
   {
     "brand": "BROOKS",
@@ -801,7 +843,9 @@
       "Diário"
     ],
     "description": "DNA Loft v3 oferece maciez consistente do início ao fim do treino. Ótimo tênis de treino diário.",
-    "reason": "DNA Loft v3 oferece maciez consistente do início ao fim do treino. Ótimo tênis de treino diário."
+    "reason": "DNA Loft v3 oferece maciez consistente do início ao fim do treino. Ótimo tênis de treino diário.",
+    "price_minimo": 1099.99,
+    "tem_variacao_tamanho_cor": true
   },
   {
     "brand": "BROOKS",
@@ -830,7 +874,9 @@
       "Trilha"
     ],
     "description": "Amortecimento DNA LOFT com solado de garras para trilha leve, combina o conforto de um tênis de rua com tração fora do asfalto",
-    "reason": "Amortecimento DNA LOFT com solado de garras para trilha leve, combina o conforto de um tênis de rua com tração fora do asfalto"
+    "reason": "Amortecimento DNA LOFT com solado de garras para trilha leve, combina o conforto de um tênis de rua com tração fora do asfalto",
+    "price_minimo": 999.99,
+    "tem_variacao_tamanho_cor": true
   },
   {
     "brand": "FILA",
@@ -868,7 +914,9 @@
       "Estabilidade"
     ],
     "description": "Ideal para corredores iniciantes e praticantes de caminhada que procuram um tênis leve, confortável e com excelente custo-benefício para treinos diários em asfalto ou esteira.",
-    "reason": "Ideal para corredores iniciantes e praticantes de caminhada que procuram um tênis leve, confortável e com excelente custo-benefício para treinos diários em asfalto ou esteira."
+    "reason": "Ideal para corredores iniciantes e praticantes de caminhada que procuram um tênis leve, confortável e com excelente custo-benefício para treinos diários em asfalto ou esteira.",
+    "price_minimo": 359.9,
+    "tem_variacao_tamanho_cor": true
   },
   {
     "brand": "FILA",
@@ -896,7 +944,9 @@
       "Corrida"
     ],
     "description": "Alto amortecimento FLOAT com ótimo custo-benefício para corridas em asfalto",
-    "reason": "Alto amortecimento FLOAT com ótimo custo-benefício para corridas em asfalto"
+    "reason": "Alto amortecimento FLOAT com ótimo custo-benefício para corridas em asfalto",
+    "price_minimo": 349.99,
+    "tem_variacao_tamanho_cor": true
   },
   {
     "brand": "FILA",
@@ -924,7 +974,9 @@
       "Durabilidade"
     ],
     "description": "amortecimento|durabilidade|custo",
-    "reason": "amortecimento|durabilidade|custo"
+    "reason": "amortecimento|durabilidade|custo",
+    "price_minimo": 299.99,
+    "tem_variacao_tamanho_cor": true
   },
   {
     "brand": "FILA",
@@ -952,7 +1004,9 @@
       "Estabilidade"
     ],
     "description": "Solado maximalista com entressola EVA e ponteiras TPU para amortecimento e estabilidade em corridas de até 10km",
-    "reason": "Solado maximalista com entressola EVA e ponteiras TPU para amortecimento e estabilidade em corridas de até 10km"
+    "reason": "Solado maximalista com entressola EVA e ponteiras TPU para amortecimento e estabilidade em corridas de até 10km",
+    "price_minimo": 289.99,
+    "tem_variacao_tamanho_cor": true
   },
   {
     "brand": "FILA",
@@ -980,7 +1034,9 @@
       "Estabilidade"
     ],
     "description": "Solado Energized Rubber da linha Float transforma impacto em propulsão, com cabedal mesh e contraforte estruturado para estabilidade",
-    "reason": "Solado Energized Rubber da linha Float transforma impacto em propulsão, com cabedal mesh e contraforte estruturado para estabilidade"
+    "reason": "Solado Energized Rubber da linha Float transforma impacto em propulsão, com cabedal mesh e contraforte estruturado para estabilidade",
+    "price_minimo": 269.99,
+    "tem_variacao_tamanho_cor": true
   },
   {
     "brand": "HOKA",
@@ -1010,7 +1066,9 @@
       "Iniciante"
     ],
     "description": "Um dos tênis mais confortáveis do mercado. Stack maximalist e drop de 8mm para proteção máxima em treinos diários. Ideal para iniciantes e longas distâncias.",
-    "reason": "Um dos tênis mais confortáveis do mercado. Stack maximalist e drop de 8mm para proteção máxima em treinos diários. Ideal para iniciantes e longas distâncias."
+    "reason": "Um dos tênis mais confortáveis do mercado. Stack maximalist e drop de 8mm para proteção máxima em treinos diários. Ideal para iniciantes e longas distâncias.",
+    "price_minimo": 1300.0,
+    "tem_variacao_tamanho_cor": true
   },
   {
     "brand": "HOKA",
@@ -1040,7 +1098,9 @@
       "Iniciante"
     ],
     "description": "Um dos tênis mais confortáveis do mercado. Stack maximalist e drop de 8mm para proteção máxima em treinos diários. Ideal para iniciantes e longas distâncias.",
-    "reason": "Um dos tênis mais confortáveis do mercado. Stack maximalist e drop de 8mm para proteção máxima em treinos diários. Ideal para iniciantes e longas distâncias."
+    "reason": "Um dos tênis mais confortáveis do mercado. Stack maximalist e drop de 8mm para proteção máxima em treinos diários. Ideal para iniciantes e longas distâncias.",
+    "price_minimo": 1299.99,
+    "tem_variacao_tamanho_cor": true
   },
   {
     "brand": "HOKA",
@@ -1070,7 +1130,9 @@
       "Race day"
     ],
     "description": "Super shoe da Hoka com placa de carbono para maratona. Amortecimento maximalista com propulsão de elite para dia de prova.",
-    "reason": "Super shoe da Hoka com placa de carbono para maratona. Amortecimento maximalista com propulsão de elite para dia de prova."
+    "reason": "Super shoe da Hoka com placa de carbono para maratona. Amortecimento maximalista com propulsão de elite para dia de prova.",
+    "price_minimo": 2400.0,
+    "tem_variacao_tamanho_cor": true
   },
   {
     "brand": "HOKA",
@@ -1098,7 +1160,9 @@
       "Leve"
     ],
     "description": "Amortecimento máximo com peso surpreendentemente baixo. Ótimo para treinos longos e recuperação.",
-    "reason": "Amortecimento máximo com peso surpreendentemente baixo. Ótimo para treinos longos e recuperação."
+    "reason": "Amortecimento máximo com peso surpreendentemente baixo. Ótimo para treinos longos e recuperação.",
+    "price_minimo": 1120.0,
+    "tem_variacao_tamanho_cor": true
   },
   {
     "brand": "HOKA",
@@ -1126,7 +1190,9 @@
       "Leve"
     ],
     "description": "Amortecimento máximo com leveza surpreendente. Ótimo para treinos longos e recuperação ativa.",
-    "reason": "Amortecimento máximo com leveza surpreendente. Ótimo para treinos longos e recuperação ativa."
+    "reason": "Amortecimento máximo com leveza surpreendente. Ótimo para treinos longos e recuperação ativa.",
+    "price_minimo": 1299.0,
+    "tem_variacao_tamanho_cor": true
   },
   {
     "brand": "HOKA",
@@ -1154,7 +1220,9 @@
       "Conforto"
     ],
     "description": "Favorito dos ultramaratonistas: amortecimento generoso com grip confiável nas piores condições.",
-    "reason": "Favorito dos ultramaratonistas: amortecimento generoso com grip confiável nas piores condições."
+    "reason": "Favorito dos ultramaratonistas: amortecimento generoso com grip confiável nas piores condições.",
+    "price_minimo": 1233.0,
+    "tem_variacao_tamanho_cor": true
   },
   {
     "brand": "MIZUNO",
@@ -1186,7 +1254,9 @@
       "Pronação"
     ],
     "description": "Suporte Wave duplo para pronadores. Mais macio que o Wave Creation, ideal para treinos longos.",
-    "reason": "Suporte Wave duplo para pronadores. Mais macio que o Wave Creation, ideal para treinos longos."
+    "reason": "Suporte Wave duplo para pronadores. Mais macio que o Wave Creation, ideal para treinos longos.",
+    "price_minimo": 650.0,
+    "tem_variacao_tamanho_cor": true
   },
   {
     "brand": "MIZUNO",
@@ -1219,7 +1289,9 @@
       "Durável"
     ],
     "description": "Placa Wave entrega estabilidade e suavidade juntas. Excelente custo-benefício e muito durável.",
-    "reason": "Placa Wave entrega estabilidade e suavidade juntas. Excelente custo-benefício e muito durável."
+    "reason": "Placa Wave entrega estabilidade e suavidade juntas. Excelente custo-benefício e muito durável.",
+    "price_minimo": 549.99,
+    "tem_variacao_tamanho_cor": true
   },
   {
     "brand": "MIZUNO",
@@ -1251,7 +1323,9 @@
       "Premium"
     ],
     "description": "O tênis de maior amortecimento da Mizuno. Wave Sky + Enerzy Foam para longas distâncias em total conforto.",
-    "reason": "O tênis de maior amortecimento da Mizuno. Wave Sky + Enerzy Foam para longas distâncias em total conforto."
+    "reason": "O tênis de maior amortecimento da Mizuno. Wave Sky + Enerzy Foam para longas distâncias em total conforto.",
+    "price_minimo": 1199.99,
+    "tem_variacao_tamanho_cor": true
   },
   {
     "brand": "MIZUNO",
@@ -1284,7 +1358,9 @@
       "Versátil"
     ],
     "description": "Response Foam gera mais retorno de energia e leveza. Cabedal Jacquard respirável e solado X10 durável. Ótima entrada na corrida com tecnologia Mizuno.",
-    "reason": "Response Foam gera mais retorno de energia e leveza. Cabedal Jacquard respirável e solado X10 durável. Ótima entrada na corrida com tecnologia Mizuno."
+    "reason": "Response Foam gera mais retorno de energia e leveza. Cabedal Jacquard respirável e solado X10 durável. Ótima entrada na corrida com tecnologia Mizuno.",
+    "price_minimo": 407.0,
+    "tem_variacao_tamanho_cor": true
   },
   {
     "brand": "MIZUNO",
@@ -1317,7 +1393,9 @@
       "Conforto"
     ],
     "description": "Clássico retrô com entressola ENCAP para amortecimento duradouro. Cabedal em couro sintético e mesh para conforto e estilo versátil no dia a dia",
-    "reason": "Clássico retrô com entressola ENCAP para amortecimento duradouro. Cabedal em couro sintético e mesh para conforto e estilo versátil no dia a dia"
+    "reason": "Clássico retrô com entressola ENCAP para amortecimento duradouro. Cabedal em couro sintético e mesh para conforto e estilo versátil no dia a dia",
+    "price_minimo": 449.99,
+    "tem_variacao_tamanho_cor": true
   },
   {
     "brand": "MIZUNO",
@@ -1350,7 +1428,9 @@
       "Conforto"
     ],
     "description": "Tecnologia Wave para absorção de impacto e estabilidade. Espuma AP+ na entressola para conforto duradouro em treinos longos e uso diário",
-    "reason": "Tecnologia Wave para absorção de impacto e estabilidade. Espuma AP+ na entressola para conforto duradouro em treinos longos e uso diário"
+    "reason": "Tecnologia Wave para absorção de impacto e estabilidade. Espuma AP+ na entressola para conforto duradouro em treinos longos e uso diário",
+    "price_minimo": 679.99,
+    "tem_variacao_tamanho_cor": true
   },
   {
     "brand": "MIZUNO",
@@ -1383,7 +1463,9 @@
       "Conforto"
     ],
     "description": "Tecnologia Wave para absorção de impacto e estabilidade. Espuma AP+ na entressola para conforto duradouro em treinos longos e uso diário",
-    "reason": "Tecnologia Wave para absorção de impacto e estabilidade. Espuma AP+ na entressola para conforto duradouro em treinos longos e uso diário"
+    "reason": "Tecnologia Wave para absorção de impacto e estabilidade. Espuma AP+ na entressola para conforto duradouro em treinos longos e uso diário",
+    "price_minimo": 679.99,
+    "tem_variacao_tamanho_cor": true
   },
   {
     "brand": "MIZUNO",
@@ -1412,7 +1494,9 @@
       "Maciez"
     ],
     "description": "Entressola macia e responsiva para uma pisada suave e confortável. Design minimalista com excelente absorção de impacto para treinos do dia a dia",
-    "reason": "Entressola macia e responsiva para uma pisada suave e confortável. Design minimalista com excelente absorção de impacto para treinos do dia a dia"
+    "reason": "Entressola macia e responsiva para uma pisada suave e confortável. Design minimalista com excelente absorção de impacto para treinos do dia a dia",
+    "price_minimo": 1402.88,
+    "tem_variacao_tamanho_cor": true
   },
   {
     "brand": "MIZUNO",
@@ -1449,7 +1533,9 @@
       "Versátil"
     ],
     "description": "Tecnologia Mizuno Wave para estabilidade e amortecimento, cabedal mesh respirável e solado X10 de alta durabilidade",
-    "reason": "Tecnologia Mizuno Wave para estabilidade e amortecimento, cabedal mesh respirável e solado X10 de alta durabilidade"
+    "reason": "Tecnologia Mizuno Wave para estabilidade e amortecimento, cabedal mesh respirável e solado X10 de alta durabilidade",
+    "price_minimo": 279.99,
+    "tem_variacao_tamanho_cor": true
   },
   {
     "brand": "MIZUNO",
@@ -1482,7 +1568,9 @@
       "Treino diário"
     ],
     "description": "SoftierFoam na entressola para maciez superior, cabedal respirável e solado de borracha resistente. Ideal para treinos leves e caminhada",
-    "reason": "SoftierFoam na entressola para maciez superior, cabedal respirável e solado de borracha resistente. Ideal para treinos leves e caminhada"
+    "reason": "SoftierFoam na entressola para maciez superior, cabedal respirável e solado de borracha resistente. Ideal para treinos leves e caminhada",
+    "price_minimo": 299.99,
+    "tem_variacao_tamanho_cor": true
   },
   {
     "brand": "MIZUNO",
@@ -1515,7 +1603,9 @@
       "Amortecimento Wave"
     ],
     "description": "Placa Wave em TPU com entressola U4icX para passada macia e responsiva. Solado X10 em borracha e carbono de alta durabilidade. O tênis premium da Mizuno.",
-    "reason": "Placa Wave em TPU com entressola U4icX para passada macia e responsiva. Solado X10 em borracha e carbono de alta durabilidade. O tênis premium da Mizuno."
+    "reason": "Placa Wave em TPU com entressola U4icX para passada macia e responsiva. Solado X10 em borracha e carbono de alta durabilidade. O tênis premium da Mizuno.",
+    "price_minimo": 1299.99,
+    "tem_variacao_tamanho_cor": true
   },
   {
     "brand": "MIZUNO",
@@ -1548,7 +1638,9 @@
       "Treino diário"
     ],
     "description": "Desenvolvido para mulheres, com SoftierFoam para maciez e cabedal em tecido Unit ultra-respirável. Leve, estiloso e versátil do treino ao dia a dia.",
-    "reason": "Desenvolvido para mulheres, com SoftierFoam para maciez e cabedal em tecido Unit ultra-respirável. Leve, estiloso e versátil do treino ao dia a dia."
+    "reason": "Desenvolvido para mulheres, com SoftierFoam para maciez e cabedal em tecido Unit ultra-respirável. Leve, estiloso e versátil do treino ao dia a dia.",
+    "price_minimo": 399.99,
+    "tem_variacao_tamanho_cor": true
   },
   {
     "brand": "MIZUNO",
@@ -1581,7 +1673,9 @@
       "Impermeável"
     ],
     "description": "Solado Vibram Megagrip com excelente aderência em qualquer terreno, entressola Enerzy para retorno de energia e placa protetora anti-rochas. O tênis de trilha mais completo da Mizuno.",
-    "reason": "Solado Vibram Megagrip com excelente aderência em qualquer terreno, entressola Enerzy para retorno de energia e placa protetora anti-rochas. O tênis de trilha mais completo da Mizuno."
+    "reason": "Solado Vibram Megagrip com excelente aderência em qualquer terreno, entressola Enerzy para retorno de energia e placa protetora anti-rochas. O tênis de trilha mais completo da Mizuno.",
+    "price_minimo": 699.99,
+    "tem_variacao_tamanho_cor": true
   },
   {
     "brand": "MIZUNO",
@@ -1614,7 +1708,9 @@
       "Performance"
     ],
     "description": "Versão feminina do melhor tênis de trilha Mizuno. Solado Vibram Megagrip, Enerzy na entressola e proteção anti-rochas para conquistar qualquer terreno com confiança.",
-    "reason": "Versão feminina do melhor tênis de trilha Mizuno. Solado Vibram Megagrip, Enerzy na entressola e proteção anti-rochas para conquistar qualquer terreno com confiança."
+    "reason": "Versão feminina do melhor tênis de trilha Mizuno. Solado Vibram Megagrip, Enerzy na entressola e proteção anti-rochas para conquistar qualquer terreno com confiança.",
+    "price_minimo": 699.99,
+    "tem_variacao_tamanho_cor": true
   },
   {
     "brand": "NEW BALANCE",
@@ -1642,7 +1738,9 @@
       "Conforto"
     ],
     "description": "Tecnologia Fresh Foam com amortecimento macio e leveza para treinos diários e longas distâncias",
-    "reason": "Tecnologia Fresh Foam com amortecimento macio e leveza para treinos diários e longas distâncias"
+    "reason": "Tecnologia Fresh Foam com amortecimento macio e leveza para treinos diários e longas distâncias",
+    "price_minimo": 808.11,
+    "tem_variacao_tamanho_cor": true
   },
   {
     "brand": "NEW BALANCE",
@@ -1671,7 +1769,9 @@
       "Conforto"
     ],
     "description": "Clássico retrô com entressola ENCAP para amortecimento duradouro. Cabedal em couro sintético e mesh para conforto e estilo versátil no dia a dia",
-    "reason": "Clássico retrô com entressola ENCAP para amortecimento duradouro. Cabedal em couro sintético e mesh para conforto e estilo versátil no dia a dia"
+    "reason": "Clássico retrô com entressola ENCAP para amortecimento duradouro. Cabedal em couro sintético e mesh para conforto e estilo versátil no dia a dia",
+    "price_minimo": 699.9,
+    "tem_variacao_tamanho_cor": true
   },
   {
     "brand": "NEW BALANCE",
@@ -1701,7 +1801,9 @@
       "Infinion foam"
     ],
     "description": "Treino diário premium com a nova espuma Infinion — mais leve e responsiva que a Fresh Foam. Ideal para treinos longos e recuperação.",
-    "reason": "Treino diário premium com a nova espuma Infinion — mais leve e responsiva que a Fresh Foam. Ideal para treinos longos e recuperação."
+    "reason": "Treino diário premium com a nova espuma Infinion — mais leve e responsiva que a Fresh Foam. Ideal para treinos longos e recuperação.",
+    "price_minimo": 1299.0,
+    "tem_variacao_tamanho_cor": true
   },
   {
     "brand": "NEW BALANCE",
@@ -1731,7 +1833,9 @@
       "Infinion foam"
     ],
     "description": "Treino diário premium com a nova espuma Infinion — mais leve e responsiva que a Fresh Foam. Ideal para treinos longos e recuperação.",
-    "reason": "Treino diário premium com a nova espuma Infinion — mais leve e responsiva que a Fresh Foam. Ideal para treinos longos e recuperação."
+    "reason": "Treino diário premium com a nova espuma Infinion — mais leve e responsiva que a Fresh Foam. Ideal para treinos longos e recuperação.",
+    "price_minimo": 1300.0,
+    "tem_variacao_tamanho_cor": true
   },
   {
     "brand": "NEW BALANCE",
@@ -1761,7 +1865,9 @@
       "FuelCell"
     ],
     "description": "Super shoe com placa de carbono para maratona e provas longas. Alternativa forte ao Vaporfly para corredores de alto rendimento.",
-    "reason": "Super shoe com placa de carbono para maratona e provas longas. Alternativa forte ao Vaporfly para corredores de alto rendimento."
+    "reason": "Super shoe com placa de carbono para maratona e provas longas. Alternativa forte ao Vaporfly para corredores de alto rendimento.",
+    "price_minimo": 2199.0,
+    "tem_variacao_tamanho_cor": true
   },
   {
     "brand": "NEW BALANCE",
@@ -1791,7 +1897,9 @@
       "Trail"
     ],
     "description": "Trail confortável para terrenos técnicos com amortecimento Fresh Foam X. Ótima tração em trilhas e terra.",
-    "reason": "Trail confortável para terrenos técnicos com amortecimento Fresh Foam X. Ótima tração em trilhas e terra."
+    "reason": "Trail confortável para terrenos técnicos com amortecimento Fresh Foam X. Ótima tração em trilhas e terra.",
+    "price_minimo": 1281.86,
+    "tem_variacao_tamanho_cor": true
   },
   {
     "brand": "NEW BALANCE",
@@ -1821,7 +1929,9 @@
       "Treino"
     ],
     "description": "Tênis leve com placa de nylon para treinos rápidos e provas curtas. Responsivo e versátil para quem busca velocidade no dia a dia.",
-    "reason": "Tênis leve com placa de nylon para treinos rápidos e provas curtas. Responsivo e versátil para quem busca velocidade no dia a dia."
+    "reason": "Tênis leve com placa de nylon para treinos rápidos e provas curtas. Responsivo e versátil para quem busca velocidade no dia a dia.",
+    "price_minimo": 989.79,
+    "tem_variacao_tamanho_cor": true
   },
   {
     "brand": "NEW BALANCE",
@@ -1851,7 +1961,9 @@
       "Treino"
     ],
     "description": "Tênis leve com placa de nylon para treinos rápidos e provas curtas. Responsivo e versátil para quem busca velocidade no dia a dia.",
-    "reason": "Tênis leve com placa de nylon para treinos rápidos e provas curtas. Responsivo e versátil para quem busca velocidade no dia a dia."
+    "reason": "Tênis leve com placa de nylon para treinos rápidos e provas curtas. Responsivo e versátil para quem busca velocidade no dia a dia.",
+    "price_minimo": 1099.87,
+    "tem_variacao_tamanho_cor": true
   },
   {
     "brand": "NIKE",
@@ -1880,7 +1992,9 @@
     },
     "tags": [],
     "description": "Máximo amortecimento Nike com espuma ZoomX. Para corredores que buscam leveza e proteção nas longas.",
-    "reason": "Máximo amortecimento Nike com espuma ZoomX. Para corredores que buscam leveza e proteção nas longas."
+    "reason": "Máximo amortecimento Nike com espuma ZoomX. Para corredores que buscam leveza e proteção nas longas.",
+    "price_minimo": 1234.99,
+    "tem_variacao_tamanho_cor": true
   },
   {
     "brand": "NIKE",
@@ -1909,7 +2023,9 @@
     },
     "tags": [],
     "description": "Máximo amortecimento Nike com espuma ZoomX. Para corredores que buscam leveza e proteção nas longas.",
-    "reason": "Máximo amortecimento Nike com espuma ZoomX. Para corredores que buscam leveza e proteção nas longas."
+    "reason": "Máximo amortecimento Nike com espuma ZoomX. Para corredores que buscam leveza e proteção nas longas.",
+    "price_minimo": 1234.99,
+    "tem_variacao_tamanho_cor": true
   },
   {
     "brand": "NIKE",
@@ -1941,7 +2057,9 @@
       "Carbono"
     ],
     "description": "Primeiro carbon plate trail da Nike. ZoomX + placa de carbono para voar nas trilhas mais exigentes.",
-    "reason": "Primeiro carbon plate trail da Nike. ZoomX + placa de carbono para voar nas trilhas mais exigentes."
+    "reason": "Primeiro carbon plate trail da Nike. ZoomX + placa de carbono para voar nas trilhas mais exigentes.",
+    "price_minimo": 2171.0,
+    "tem_variacao_tamanho_cor": true
   },
   {
     "brand": "NIKE",
@@ -1972,7 +2090,9 @@
       "Melhor Nike barato"
     ],
     "description": "Tênis acessível e versátil da Nike. Ótimo para iniciantes que querem um calçado confiável para o dia a dia.",
-    "reason": "Tênis acessível e versátil da Nike. Ótimo para iniciantes que querem um calçado confiável para o dia a dia."
+    "reason": "Tênis acessível e versátil da Nike. Ótimo para iniciantes que querem um calçado confiável para o dia a dia.",
+    "price_minimo": 427.49,
+    "tem_variacao_tamanho_cor": true
   },
   {
     "brand": "NIKE",
@@ -2001,7 +2121,9 @@
     },
     "tags": [],
     "description": "Tênis acessível e versátil da Nike. Ótimo para iniciantes que querem um calçado confiável para o dia a dia.",
-    "reason": "Tênis acessível e versátil da Nike. Ótimo para iniciantes que querem um calçado confiável para o dia a dia."
+    "reason": "Tênis acessível e versátil da Nike. Ótimo para iniciantes que querem um calçado confiável para o dia a dia.",
+    "price_minimo": 360.99,
+    "tem_variacao_tamanho_cor": true
   },
   {
     "brand": "NIKE",
@@ -2030,7 +2152,9 @@
     },
     "tags": [],
     "description": "Entrada ideal no universo Nike. Leve, respirável e com bom amortecimento para treinos regulares.",
-    "reason": "Entrada ideal no universo Nike. Leve, respirável e com bom amortecimento para treinos regulares."
+    "reason": "Entrada ideal no universo Nike. Leve, respirável e com bom amortecimento para treinos regulares.",
+    "price_minimo": 303.99,
+    "tem_variacao_tamanho_cor": true
   },
   {
     "brand": "NIKE",
@@ -2059,7 +2183,9 @@
     },
     "tags": [],
     "description": "Entrada ideal no universo Nike. Leve, respirável e com bom amortecimento para treinos regulares.",
-    "reason": "Entrada ideal no universo Nike. Leve, respirável e com bom amortecimento para treinos regulares."
+    "reason": "Entrada ideal no universo Nike. Leve, respirável e com bom amortecimento para treinos regulares.",
+    "price_minimo": 303.99,
+    "tem_variacao_tamanho_cor": true
   },
   {
     "brand": "NIKE",
@@ -2088,7 +2214,9 @@
     },
     "tags": [],
     "description": "Amortecimento React responsivo para treinos diários. Leve e estável com excelente retorno de energia.",
-    "reason": "Amortecimento React responsivo para treinos diários. Leve e estável com excelente retorno de energia."
+    "reason": "Amortecimento React responsivo para treinos diários. Leve e estável com excelente retorno de energia.",
+    "price_minimo": 489.99,
+    "tem_variacao_tamanho_cor": true
   },
   {
     "brand": "NIKE",
@@ -2117,7 +2245,9 @@
     },
     "tags": [],
     "description": "Amortecimento React responsivo para treinos diários. Leve e estável com excelente retorno de energia.",
-    "reason": "Amortecimento React responsivo para treinos diários. Leve e estável com excelente retorno de energia."
+    "reason": "Amortecimento React responsivo para treinos diários. Leve e estável com excelente retorno de energia.",
+    "price_minimo": 399.99,
+    "tem_variacao_tamanho_cor": true
   },
   {
     "brand": "NIKE",
@@ -2146,7 +2276,9 @@
     },
     "tags": [],
     "description": "Custo-benefício sólido da Nike. Entressola firme e solado durável para treinos frequentes.",
-    "reason": "Custo-benefício sólido da Nike. Entressola firme e solado durável para treinos frequentes."
+    "reason": "Custo-benefício sólido da Nike. Entressola firme e solado durável para treinos frequentes.",
+    "price_minimo": 474.99,
+    "tem_variacao_tamanho_cor": true
   },
   {
     "brand": "NIKE",
@@ -2175,7 +2307,9 @@
     },
     "tags": [],
     "description": "Custo-benefício sólido da Nike. Entressola firme e solado durável para treinos frequentes.",
-    "reason": "Custo-benefício sólido da Nike. Entressola firme e solado durável para treinos frequentes."
+    "reason": "Custo-benefício sólido da Nike. Entressola firme e solado durável para treinos frequentes.",
+    "price_minimo": 531.99,
+    "tem_variacao_tamanho_cor": true
   },
   {
     "brand": "NIKE",
@@ -2204,7 +2338,9 @@
     },
     "tags": [],
     "description": "Placa de carbono + ZoomX. O tênis de corrida mais rápido para maratonistas que buscam bater recordes.",
-    "reason": "Placa de carbono + ZoomX. O tênis de corrida mais rápido para maratonistas que buscam bater recordes."
+    "reason": "Placa de carbono + ZoomX. O tênis de corrida mais rápido para maratonistas que buscam bater recordes.",
+    "price_minimo": 1781.24,
+    "tem_variacao_tamanho_cor": true
   },
   {
     "brand": "NIKE",
@@ -2233,7 +2369,9 @@
     },
     "tags": [],
     "description": "Placa de carbono + ZoomX. O tênis de corrida mais rápido para maratonistas que buscam bater recordes.",
-    "reason": "Placa de carbono + ZoomX. O tênis de corrida mais rápido para maratonistas que buscam bater recordes."
+    "reason": "Placa de carbono + ZoomX. O tênis de corrida mais rápido para maratonistas que buscam bater recordes.",
+    "price_minimo": 2064.16,
+    "tem_variacao_tamanho_cor": true
   },
   {
     "brand": "NIKE",
@@ -2262,7 +2400,9 @@
     },
     "tags": [],
     "description": "Placa de carbono leve para treinos de velocidade e provas. Espuma React X com excelente retorno de energia.",
-    "reason": "Placa de carbono leve para treinos de velocidade e provas. Espuma React X com excelente retorno de energia."
+    "reason": "Placa de carbono leve para treinos de velocidade e provas. Espuma React X com excelente retorno de energia.",
+    "price_minimo": 1402.05,
+    "tem_variacao_tamanho_cor": true
   },
   {
     "brand": "NIKE",
@@ -2291,7 +2431,9 @@
     },
     "tags": [],
     "description": "Tênis de estabilidade Nike com suporte medial para pronação. Durável e confortável para treinos diários.",
-    "reason": "Tênis de estabilidade Nike com suporte medial para pronação. Durável e confortável para treinos diários."
+    "reason": "Tênis de estabilidade Nike com suporte medial para pronação. Durável e confortável para treinos diários.",
+    "price_minimo": 807.49,
+    "tem_variacao_tamanho_cor": true
   },
   {
     "brand": "NIKE",
@@ -2320,7 +2462,9 @@
     },
     "tags": [],
     "description": "Máximo amortecimento ZoomX para recuperação ativa. Passada ultra macia para treinos de volume alto.",
-    "reason": "Máximo amortecimento ZoomX para recuperação ativa. Passada ultra macia para treinos de volume alto."
+    "reason": "Máximo amortecimento ZoomX para recuperação ativa. Passada ultra macia para treinos de volume alto.",
+    "price_minimo": 1009.21,
+    "tem_variacao_tamanho_cor": true
   },
   {
     "brand": "NIKE",
@@ -2349,7 +2493,9 @@
     },
     "tags": [],
     "description": "Máximo amortecimento ZoomX para recuperação ativa. Passada ultra macia para treinos de volume alto.",
-    "reason": "Máximo amortecimento ZoomX para recuperação ativa. Passada ultra macia para treinos de volume alto."
+    "reason": "Máximo amortecimento ZoomX para recuperação ativa. Passada ultra macia para treinos de volume alto.",
+    "price_minimo": 934.35,
+    "tem_variacao_tamanho_cor": true
   },
   {
     "brand": "NIKE",
@@ -2378,7 +2524,9 @@
     },
     "tags": [],
     "description": "Amortecimento premium ZoomX com fit personalizado. Para quem quer conforto máximo sem abrir mão da leveza.",
-    "reason": "Amortecimento premium ZoomX com fit personalizado. Para quem quer conforto máximo sem abrir mão da leveza."
+    "reason": "Amortecimento premium ZoomX com fit personalizado. Para quem quer conforto máximo sem abrir mão da leveza.",
+    "price_minimo": 949.99,
+    "tem_variacao_tamanho_cor": true
   },
   {
     "brand": "NIKE",
@@ -2407,7 +2555,9 @@
     },
     "tags": [],
     "description": "Amortecimento premium ZoomX com fit personalizado. Para quem quer conforto máximo sem abrir mão da leveza.",
-    "reason": "Amortecimento premium ZoomX com fit personalizado. Para quem quer conforto máximo sem abrir mão da leveza."
+    "reason": "Amortecimento premium ZoomX com fit personalizado. Para quem quer conforto máximo sem abrir mão da leveza.",
+    "price_minimo": 949.99,
+    "tem_variacao_tamanho_cor": true
   },
   {
     "brand": "NIKE",
@@ -2436,7 +2586,9 @@
     },
     "tags": [],
     "description": "Grip Traxion para trilhas com amortecimento React X. Para quem quer performance fora do asfalto.",
-    "reason": "Grip Traxion para trilhas com amortecimento React X. Para quem quer performance fora do asfalto."
+    "reason": "Grip Traxion para trilhas com amortecimento React X. Para quem quer performance fora do asfalto.",
+    "price_minimo": 968.99,
+    "tem_variacao_tamanho_cor": true
   },
   {
     "brand": "NIKE",
@@ -2465,7 +2617,9 @@
     },
     "tags": [],
     "description": "Grip Traxion para trilhas com amortecimento React X. Para quem quer performance fora do asfalto.",
-    "reason": "Grip Traxion para trilhas com amortecimento React X. Para quem quer performance fora do asfalto."
+    "reason": "Grip Traxion para trilhas com amortecimento React X. Para quem quer performance fora do asfalto.",
+    "price_minimo": 1139.99,
+    "tem_variacao_tamanho_cor": true
   },
   {
     "brand": "NIKE",
@@ -2494,7 +2648,9 @@
     },
     "tags": [],
     "description": "O clássico mais versátil da Nike. React X responsivo para qualquer distância e ritmo.",
-    "reason": "O clássico mais versátil da Nike. React X responsivo para qualquer distância e ritmo."
+    "reason": "O clássico mais versátil da Nike. React X responsivo para qualquer distância e ritmo.",
+    "price_minimo": 664.99,
+    "tem_variacao_tamanho_cor": true
   },
   {
     "brand": "NIKE",
@@ -2523,7 +2679,9 @@
     },
     "tags": [],
     "description": "O clássico mais versátil da Nike. React X responsivo para qualquer distância e ritmo.",
-    "reason": "O clássico mais versátil da Nike. React X responsivo para qualquer distância e ritmo."
+    "reason": "O clássico mais versátil da Nike. React X responsivo para qualquer distância e ritmo.",
+    "price_minimo": 759.99,
+    "tem_variacao_tamanho_cor": true
   },
   {
     "brand": "NIKE",
@@ -2566,7 +2724,9 @@
       "confortável"
     ],
     "description": "Ideal para iniciantes que buscam conforto e versatilidade para treinos diários.",
-    "reason": "Ideal para iniciantes que buscam conforto e versatilidade para treinos diários."
+    "reason": "Ideal para iniciantes que buscam conforto e versatilidade para treinos diários.",
+    "price_minimo": 347.36,
+    "tem_variacao_tamanho_cor": true
   },
   {
     "brand": "NIKE",
@@ -2601,7 +2761,9 @@
     },
     "tags": [],
     "description": "",
-    "reason": ""
+    "reason": "",
+    "price_minimo": 50.0,
+    "tem_variacao_tamanho_cor": true
   },
   {
     "brand": "OLYMPIKUS",
@@ -2629,7 +2791,9 @@
       "Acessível"
     ],
     "description": "Melhor custo-benefício nacional para iniciantes. Tênis nacional leve e confortável para iniciantes. Ótimo custo-benefício para treinos diários.",
-    "reason": "Melhor custo-benefício nacional para iniciantes. Tênis nacional leve e confortável para iniciantes. Ótimo custo-benefício para treinos diários."
+    "reason": "Melhor custo-benefício nacional para iniciantes. Tênis nacional leve e confortável para iniciantes. Ótimo custo-benefício para treinos diários.",
+    "price_minimo": 285.0,
+    "tem_variacao_tamanho_cor": true
   },
   {
     "brand": "OLYMPIKUS",
@@ -2657,7 +2821,9 @@
       "Custo-benefício"
     ],
     "description": "Ótimo custo-benefício nacional com amortecimento EVA e sola antiderrapante Gripper",
-    "reason": "Ótimo custo-benefício nacional com amortecimento EVA e sola antiderrapante Gripper"
+    "reason": "Ótimo custo-benefício nacional com amortecimento EVA e sola antiderrapante Gripper",
+    "price_minimo": 249.9,
+    "tem_variacao_tamanho_cor": true
   },
   {
     "brand": "OLYMPIKUS",
@@ -2685,7 +2851,9 @@
       "Versatilidade"
     ],
     "description": "Leve e versátil com tecnologia Evasense para treinos diários com excelente custo-benefício",
-    "reason": "Leve e versátil com tecnologia Evasense para treinos diários com excelente custo-benefício"
+    "reason": "Leve e versátil com tecnologia Evasense para treinos diários com excelente custo-benefício",
+    "price_minimo": 229.9,
+    "tem_variacao_tamanho_cor": true
   },
   {
     "brand": "OLYMPIKUS",
@@ -2714,7 +2882,9 @@
       "Custo-benefício"
     ],
     "description": "Tecnologia Evasense e Hypersox com leveza, amortecimento e ótimo custo-benefício para treinos diários",
-    "reason": "Tecnologia Evasense e Hypersox com leveza, amortecimento e ótimo custo-benefício para treinos diários"
+    "reason": "Tecnologia Evasense e Hypersox com leveza, amortecimento e ótimo custo-benefício para treinos diários",
+    "price_minimo": 249.9,
+    "tem_variacao_tamanho_cor": true
   },
   {
     "brand": "OLYMPIKUS",
@@ -2743,7 +2913,9 @@
       "Leveza"
     ],
     "description": "Tecnologia Eleva+ com cabedal Hypersox tipo meia e solado Gripper antiderrapante, ótimo custo-benefício para iniciantes",
-    "reason": "Tecnologia Eleva+ com cabedal Hypersox tipo meia e solado Gripper antiderrapante, ótimo custo-benefício para iniciantes"
+    "reason": "Tecnologia Eleva+ com cabedal Hypersox tipo meia e solado Gripper antiderrapante, ótimo custo-benefício para iniciantes",
+    "price_minimo": 218.4,
+    "tem_variacao_tamanho_cor": true
   },
   {
     "brand": "OLYMPIKUS",
@@ -2776,7 +2948,9 @@
       "Custo-benefício"
     ],
     "description": "Tecnologia EVAsense para máxima maciez e leveza no dia a dia. Cabedal respirável e solado de borracha para boa tração no asfalto e esteira",
-    "reason": "Tecnologia EVAsense para máxima maciez e leveza no dia a dia. Cabedal respirável e solado de borracha para boa tração no asfalto e esteira"
+    "reason": "Tecnologia EVAsense para máxima maciez e leveza no dia a dia. Cabedal respirável e solado de borracha para boa tração no asfalto e esteira",
+    "price_minimo": 189.87,
+    "tem_variacao_tamanho_cor": true
   },
   {
     "brand": "OLYMPIKUS",
@@ -2819,7 +2993,9 @@
       "leve"
     ],
     "description": "Tecnologia Eleva Pro 2.0 na entressola para amortecimento responsivo e durabilidade. Solado Gripper antiderrapante e cabedal respirável para treinos regulares",
-    "reason": "Tecnologia Eleva Pro 2.0 na entressola para amortecimento responsivo e durabilidade. Solado Gripper antiderrapante e cabedal respirável para treinos regulares"
+    "reason": "Tecnologia Eleva Pro 2.0 na entressola para amortecimento responsivo e durabilidade. Solado Gripper antiderrapante e cabedal respirável para treinos regulares",
+    "price_minimo": 299.99,
+    "tem_variacao_tamanho_cor": true
   },
   {
     "brand": "OLYMPIKUS",
@@ -2848,7 +3024,9 @@
       "Corrida de rua"
     ],
     "description": "Tênis brasileiro leve com tecnologia Hypersox e amortecimento suave, ideal para treinos de rua e esteira",
-    "reason": "Tênis brasileiro leve com tecnologia Hypersox e amortecimento suave, ideal para treinos de rua e esteira"
+    "reason": "Tênis brasileiro leve com tecnologia Hypersox e amortecimento suave, ideal para treinos de rua e esteira",
+    "price_minimo": 204.9,
+    "tem_variacao_tamanho_cor": true
   },
   {
     "brand": "OLYMPIKUS",
@@ -2882,7 +3060,9 @@
       "Road"
     ],
     "description": "Versão tecnológica do Corre com placa de grafeno para mais propulsão. A evolução nacional para quem quer performance sem pagar preço de importado.",
-    "reason": "Versão tecnológica do Corre com placa de grafeno para mais propulsão. A evolução nacional para quem quer performance sem pagar preço de importado."
+    "reason": "Versão tecnológica do Corre com placa de grafeno para mais propulsão. A evolução nacional para quem quer performance sem pagar preço de importado.",
+    "price_minimo": 599.99,
+    "tem_variacao_tamanho_cor": true
   },
   {
     "brand": "OLYMPIKUS",
@@ -2916,7 +3096,9 @@
       "Iniciante"
     ],
     "description": "A entrada mais acessível para quem quer começar a correr. Funcional e confortável para treinos curtos e caminhadas no asfalto.",
-    "reason": "A entrada mais acessível para quem quer começar a correr. Funcional e confortável para treinos curtos e caminhadas no asfalto."
+    "reason": "A entrada mais acessível para quem quer começar a correr. Funcional e confortável para treinos curtos e caminhadas no asfalto.",
+    "price_minimo": 209.99,
+    "tem_variacao_tamanho_cor": true
   },
   {
     "brand": "OLYMPIKUS",
@@ -2938,7 +3120,9 @@
     },
     "tags": [],
     "description": "",
-    "reason": ""
+    "reason": "",
+    "price_minimo": 599.99,
+    "tem_variacao_tamanho_cor": true
   },
   {
     "brand": "SALOMON",
@@ -2966,7 +3150,9 @@
       "Conforto"
     ],
     "description": "Amortecimento generoso para trilhas longas. Combina o conforto de estrada com grip de trail.",
-    "reason": "Amortecimento generoso para trilhas longas. Combina o conforto de estrada com grip de trail."
+    "reason": "Amortecimento generoso para trilhas longas. Combina o conforto de estrada com grip de trail.",
+    "price_minimo": 1043.0,
+    "tem_variacao_tamanho_cor": true
   },
   {
     "brand": "SAUCONY",
@@ -2994,7 +3180,9 @@
       "Velocidade"
     ],
     "description": "Carbon plate + PWRRUN HG. O tênis de competição da Saucony para bater recordes pessoais.",
-    "reason": "Carbon plate + PWRRUN HG. O tênis de competição da Saucony para bater recordes pessoais."
+    "reason": "Carbon plate + PWRRUN HG. O tênis de competição da Saucony para bater recordes pessoais.",
+    "price_minimo": 1481.0,
+    "tem_variacao_tamanho_cor": true
   },
   {
     "brand": "SAUCONY",
@@ -3025,7 +3213,9 @@
       "PWRRUN PB"
     ],
     "description": "Um dos melhores tênis de maratona em custo-benefício. Placa de carbono com espuma PWRRUN PB para corredores que querem velocidade.",
-    "reason": "Um dos melhores tênis de maratona em custo-benefício. Placa de carbono com espuma PWRRUN PB para corredores que querem velocidade."
+    "reason": "Um dos melhores tênis de maratona em custo-benefício. Placa de carbono com espuma PWRRUN PB para corredores que querem velocidade.",
+    "price_minimo": 1524.0,
+    "tem_variacao_tamanho_cor": true
   },
   {
     "brand": "SAUCONY",
@@ -3055,7 +3245,9 @@
       "PWRRUN PB"
     ],
     "description": "Treino rápido com placa de nylon e espuma PWRRUN PB. Versátil para treinos longos e provas — o companheiro de treino do Endorphin Pro.",
-    "reason": "Treino rápido com placa de nylon e espuma PWRRUN PB. Versátil para treinos longos e provas — o companheiro de treino do Endorphin Pro."
+    "reason": "Treino rápido com placa de nylon e espuma PWRRUN PB. Versátil para treinos longos e provas — o companheiro de treino do Endorphin Pro.",
+    "price_minimo": 1799.26,
+    "tem_variacao_tamanho_cor": true
   },
   {
     "brand": "SAUCONY",
@@ -3085,7 +3277,9 @@
       "PWRRUN PB"
     ],
     "description": "Treino longo premium com espuma PWRRUN PB reformulada — mais leve e responsiva. Ideal para quem acumula quilometragem com conforto.",
-    "reason": "Treino longo premium com espuma PWRRUN PB reformulada — mais leve e responsiva. Ideal para quem acumula quilometragem com conforto."
+    "reason": "Treino longo premium com espuma PWRRUN PB reformulada — mais leve e responsiva. Ideal para quem acumula quilometragem com conforto.",
+    "price_minimo": 1585.65,
+    "tem_variacao_tamanho_cor": true
   },
   {
     "brand": "SAUCONY",
@@ -3115,7 +3309,9 @@
       "Intermediário"
     ],
     "description": "Um dos melhores tênis de trilha para todos os níveis. Tração confiável em terra e pedras com boa proteção de amortecimento.",
-    "reason": "Um dos melhores tênis de trilha para todos os níveis. Tração confiável em terra e pedras com boa proteção de amortecimento."
+    "reason": "Um dos melhores tênis de trilha para todos os níveis. Tração confiável em terra e pedras com boa proteção de amortecimento.",
+    "price_minimo": 895.66,
+    "tem_variacao_tamanho_cor": true
   },
   {
     "brand": "SAUCONY",
@@ -3145,7 +3341,9 @@
       "Intermediário"
     ],
     "description": "Um dos melhores tênis de trilha para todos os níveis. Tração confiável em terra e pedras com boa proteção de amortecimento.",
-    "reason": "Um dos melhores tênis de trilha para todos os níveis. Tração confiável em terra e pedras com boa proteção de amortecimento."
+    "reason": "Um dos melhores tênis de trilha para todos os níveis. Tração confiável em terra e pedras com boa proteção de amortecimento.",
+    "price_minimo": 919.78,
+    "tem_variacao_tamanho_cor": true
   },
   {
     "brand": "SALOMON",
@@ -3175,7 +3373,9 @@
       "Conforto"
     ],
     "description": "Trail versátil para quem corre em terrenos mistos. Menos agressivo que o Speedcross — ideal para trilhas suaves e corrida mista road-to-trail.",
-    "reason": "Trail versátil para quem corre em terrenos mistos. Menos agressivo que o Speedcross — ideal para trilhas suaves e corrida mista road-to-trail."
+    "reason": "Trail versátil para quem corre em terrenos mistos. Menos agressivo que o Speedcross — ideal para trilhas suaves e corrida mista road-to-trail.",
+    "price_minimo": 1120.02,
+    "tem_variacao_tamanho_cor": true
   },
   {
     "brand": "SKECHERS",
@@ -3203,7 +3403,9 @@
       "Amortecimento"
     ],
     "description": "Palmilha Arch Fit com suporte de arco certificado por podólogos para máximo conforto no dia a dia",
-    "reason": "Palmilha Arch Fit com suporte de arco certificado por podólogos para máximo conforto no dia a dia"
+    "reason": "Palmilha Arch Fit com suporte de arco certificado por podólogos para máximo conforto no dia a dia",
+    "price_minimo": 399.9,
+    "tem_variacao_tamanho_cor": true
   },
   {
     "brand": "UNDER ARMOUR",
@@ -3232,7 +3434,9 @@
       "Responsividade"
     ],
     "description": "Tecnologia Charged no solado para amortecimento responsivo e retorno de energia. Cabedal em mesh respirável para conforto em treinos diários",
-    "reason": "Tecnologia Charged no solado para amortecimento responsivo e retorno de energia. Cabedal em mesh respirável para conforto em treinos diários"
+    "reason": "Tecnologia Charged no solado para amortecimento responsivo e retorno de energia. Cabedal em mesh respirável para conforto em treinos diários",
+    "price_minimo": 269.9,
+    "tem_variacao_tamanho_cor": true
   },
   {
     "brand": "UNDER ARMOUR",
@@ -3260,6 +3464,8 @@
       "Durabilidade"
     ],
     "description": "Tecnologia Charged Cushioning com amortecimento responsivo e borracha de alta abrasão para treinos diários",
-    "reason": "Tecnologia Charged Cushioning com amortecimento responsivo e borracha de alta abrasão para treinos diários"
+    "reason": "Tecnologia Charged Cushioning com amortecimento responsivo e borracha de alta abrasão para treinos diários",
+    "price_minimo": 469.9,
+    "tem_variacao_tamanho_cor": true
   }
 ]

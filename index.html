@@ -3502,6 +3502,9 @@
               // Scenario 1: Only Amazon -> direct orange button
               var bestNumeric = (best.price > 0) ? best.price : (sh.price_numeric || parsePrice(sh.price) || 0);
               var priceVal = bestNumeric > 0 ? formatBRL(bestNumeric) : 'Ver Preço';
+              // Adicionar "A partir de" se há variação de tamanho/cor
+              var pricePrefix = (sh.tem_variacao_tamanho_cor) ? 'A partir de ' : '';
+              var variationIcon = (sh.tem_variacao_tamanho_cor) ? ' <span title="Preço varia conforme tamanho e cor" style="font-size:14px;margin-left:4px;">🔄</span>' : '';
               function paymentLabel(offer) {
                 if (!offer) return '';
                 if (offer.installments) return offer.installments;
@@ -3510,7 +3513,7 @@
                 if (offer.key === 'netshoes') return 'no PIX/Boleto';
                 return '';
               }
-              btnsHTML += '<div class="sprice" style="margin-top:20px; font-size:24px; font-weight:700;">' + priceVal + '<span style="font-size:14px; color:var(--gray); font-weight:400; margin-left:6px;">' + paymentLabel(best) + '</span></div>';
+              btnsHTML += '<div class="sprice" style="margin-top:20px; font-size:24px; font-weight:700;"><span style="font-size:16px;color:var(--gray);">' + pricePrefix + '</span>' + priceVal + variationIcon + '<span style="font-size:14px; color:var(--gray); font-weight:400; margin-left:6px;">' + paymentLabel(best) + '</span></div>';
               btnsHTML += '<div style="color:#ff3b30; font-size:12px; font-weight:700; text-align:center; margin-bottom:12px; display:inline-flex; align-items:center; gap:5px;"><span style="font-size:16px;">⏳</span> Estoque limitado: O preço pode subir</div>';
               btnsHTML += makeBtnHTML(best.url, 'COMPRAR NA AMAZON', true).replace('class="bbuy"', 'class="bbuy bbuy-amazon"');
             } else {
@@ -3547,6 +3550,9 @@
 
               var bestNumeric = (best.price > 0) ? best.price : (best.label === 'Amazon' ? (sh.price_numeric || parsePrice(sh.price) || 0) : 0);
               var priceVal = bestNumeric > 0 ? formatBRL(bestNumeric) : 'Ver Preço';
+              // Adicionar "A partir de" se há variação de tamanho/cor
+              var pricePrefix2 = (sh.tem_variacao_tamanho_cor) ? 'A partir de ' : '';
+              var variationIcon2 = (sh.tem_variacao_tamanho_cor) ? ' <span title="Preço varia conforme tamanho e cor" style="font-size:14px;margin-left:4px;">🔄</span>' : '';
               function paymentLabel(offer) {
                 if (!offer) return '';
                 if (offer.installments) return offer.installments;
@@ -3555,7 +3561,7 @@
                 if (offer.key === 'netshoes') return 'no PIX/Boleto';
                 return '';
               }
-              btnsHTML += '<div class="best-price-value">' + priceVal + '<span>' + paymentLabel(best) + '</span></div>';
+              btnsHTML += '<div class="best-price-value"><span style="color:var(--gray);">' + pricePrefix2 + '</span>' + priceVal + variationIcon2 + '<span>' + paymentLabel(best) + '</span></div>';
               var labelBest = 'COMPRAR NA ' + (best.label || best.store).toUpperCase();
 
               btnsHTML += '<div style="color:#ff3b30; font-size:12px; font-weight:700; text-align:center; margin-bottom:12px; margin-top:8px; display:inline-flex; align-items:center; gap:5px;"><span style="font-size:16px;">⏳</span> Estoque limitado: O preço pode subir</div>';
@@ -3580,7 +3586,11 @@
           } else {
             // Caso extremo: Sem nenhum link, mostra pelo menos o preço se existir
             var finalPrice = sh.price ? formatBRL(cleanPrice(sh.price)) : '';
-            if (finalPrice) btnsHTML += '<div class="sprice" style="margin-top:20px; font-size:24px; opacity:0.9;">' + finalPrice + '</div>';
+            if (finalPrice) {
+              var pricePrefix3 = (sh.tem_variacao_tamanho_cor) ? 'A partir de ' : '';
+              var variationIcon3 = (sh.tem_variacao_tamanho_cor) ? ' 🔄' : '';
+              btnsHTML += '<div class="sprice" style="margin-top:20px; font-size:24px; opacity:0.9;"><span style="font-size:16px;color:var(--gray);">' + pricePrefix3 + '</span>' + finalPrice + variationIcon3 + '</div>';
+            }
           }
 
           var description = (sh.description || sh.reason || '');
