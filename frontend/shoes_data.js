@@ -29,7 +29,7 @@ var SHOES = [
     ],
     "photo": "https://m.media-amazon.com/images/I/612KZekuqML._AC_SY500_.jpg",
     "affiliate_links": {
-      "loja_oficial": {
+      "oficial": {
         "url": "https://www.awin1.com/cread.php?awinmid=15503&awinaffid=2800712&clickref=tenisideal_1",
         "store": "ADIDAS",
         "label": "COMPRAR NA ADIDAS"
@@ -71,7 +71,7 @@ var SHOES = [
     ],
     "photo": "https://m.media-amazon.com/images/I/51yLvMtXjYL._AC_SY500_.jpg",
     "affiliate_links": {
-      "loja_oficial": {
+      "oficial": {
         "url": "https://www.awin1.com/cread.php?awinmid=15503&awinaffid=2800712&clickref=tenisideal_2",
         "store": "ADIDAS",
         "label": "COMPRAR NA ADIDAS"
@@ -113,7 +113,7 @@ var SHOES = [
     ],
     "photo": "https://m.media-amazon.com/images/I/51yBZPU0PtL._AC_SY500_.jpg",
     "affiliate_links": {
-      "loja_oficial": {
+      "oficial": {
         "url": "https://www.awin1.com/cread.php?awinmid=15503&awinaffid=2800712&clickref=tenisideal_3",
         "store": "ADIDAS",
         "label": "COMPRAR NA ADIDAS"
@@ -155,7 +155,7 @@ var SHOES = [
     ],
     "photo": "https://m.media-amazon.com/images/I/412-RoXwVDL._AC_SY675_.jpg",
     "affiliate_links": {
-      "loja_oficial": {
+      "oficial": {
         "url": "https://www.awin1.com/cread.php?awinmid=15503&awinaffid=2800712&clickref=tenisideal_4",
         "store": "ADIDAS",
         "label": "COMPRAR NA ADIDAS"
@@ -198,7 +198,7 @@ var SHOES = [
     ],
     "photo": "https://m.media-amazon.com/images/I/61wvkUfpJxL._AC_SY500_.jpg",
     "affiliate_links": {
-      "loja_oficial": {
+      "oficial": {
         "url": "https://www.awin1.com/cread.php?awinmid=15503&awinaffid=2800712&clickref=tenisideal_5",
         "store": "ADIDAS",
         "label": "COMPRAR NA ADIDAS"
@@ -237,7 +237,7 @@ var SHOES = [
     ],
     "photo": "https://m.media-amazon.com/images/I/416hAw4kf6L._AC_SY500_.jpg",
     "affiliate_links": {
-      "loja_oficial": {
+      "oficial": {
         "url": "https://www.awin1.com/cread.php?awinmid=15503&awinaffid=2800712&clickref=tenisideal_6",
         "store": "ADIDAS",
         "label": "COMPRAR NA ADIDAS"
@@ -280,7 +280,7 @@ var SHOES = [
     ],
     "photo": "https://m.media-amazon.com/images/I/61ewML3UceL._AC_SY675_.jpg",
     "affiliate_links": {
-      "loja_oficial": {
+      "oficial": {
         "url": "https://www.awin1.com/cread.php?awinmid=15503&awinaffid=2800712&clickref=tenisideal_7",
         "store": "ADIDAS",
         "label": "COMPRAR NA ADIDAS"
@@ -323,7 +323,7 @@ var SHOES = [
     ],
     "photo": "https://m.media-amazon.com/images/I/510EloSk7eL._AC_SY625_.jpg",
     "affiliate_links": {
-      "loja_oficial": {
+      "oficial": {
         "url": "https://www.awin1.com/cread.php?awinmid=15503&awinaffid=2800712&clickref=tenisideal_8",
         "store": "ADIDAS",
         "label": "COMPRAR NA ADIDAS"
@@ -363,7 +363,7 @@ var SHOES = [
     ],
     "photo": "https://m.media-amazon.com/images/I/61nVPmZFSoL._AC_SY500_.jpg",
     "affiliate_links": {
-      "loja_oficial": {
+      "oficial": {
         "url": "https://www.awin1.com/cread.php?awinmid=15815&awinaffid=2800712&clickref=tenisideal_9",
         "store": "ASICS",
         "label": "COMPRAR NA ASICS"
@@ -407,7 +407,7 @@ var SHOES = [
     ],
     "photo": "https://images-na.ssl-images-amazon.com/images/I/71Y43mJ5zeL.jpg",
     "affiliate_links": {
-      "loja_oficial": {
+      "oficial": {
         "url": "https://www.awin1.com/cread.php?awinmid=15815&awinaffid=2800712&clickref=tenisideal_10",
         "store": "ASICS",
         "label": "COMPRAR NA ASICS"
@@ -450,7 +450,7 @@ var SHOES = [
     ],
     "photo": "https://images-na.ssl-images-amazon.com/images/I/61lZORb7jLL.jpg",
     "affiliate_links": {
-      "loja_oficial": {
+      "oficial": {
         "url": "https://www.awin1.com/cread.php?awinmid=15815&awinaffid=2800712&clickref=tenisideal_11",
         "store": "ASICS",
         "label": "COMPRAR NA ASICS"
@@ -493,7 +493,7 @@ var SHOES = [
     ],
     "photo": "https://m.media-amazon.com/images/I/61BJEFWbbnL._AC_SY500_.jpg",
     "affiliate_links": {
-      "loja_oficial": {
+      "oficial": {
         "url": "https://www.awin1.com/cread.php?awinmid=15815&awinaffid=2800712&clickref=tenisideal_12",
         "store": "ASICS",
         "label": "COMPRAR NA ASICS"
@@ -536,7 +536,7 @@ var SHOES = [
     ],
     "photo": "https://images-na.ssl-images-amazon.com/images/I/61EYOnNOMbL.jpg",
     "affiliate_links": {
-      "loja_oficial": {
+      "oficial": {
         "url": "https://www.awin1.com/cread.php?awinmid=15815&awinaffid=2800712&clickref=tenisideal_13",
         "store": "ASICS",
         "label": "COMPRAR NA ASICS"
@@ -579,7 +579,7 @@ var SHOES = [
     ],
     "photo": "https://m.media-amazon.com/images/I/61aPga42FKL._AC_SY500_.jpg",
     "affiliate_links": {
-      "loja_oficial": {
+      "oficial": {
         "url": "https://www.awin1.com/cread.php?awinmid=15815&awinaffid=2800712&clickref=tenisideal_14",
         "store": "ASICS",
         "label": "COMPRAR NA ASICS"
@@ -622,7 +622,7 @@ var SHOES = [
     ],
     "photo": "https://images-na.ssl-images-amazon.com/images/I/61wuJhpSxgL.jpg",
     "affiliate_links": {
-      "loja_oficial": {
+      "oficial": {
         "url": "https://www.awin1.com/cread.php?awinmid=15815&awinaffid=2800712&clickref=tenisideal_15",
         "store": "ASICS",
         "label": "COMPRAR NA ASICS"
@@ -665,7 +665,7 @@ var SHOES = [
     ],
     "photo": "https://m.media-amazon.com/images/I/511jmvCr1BL._AC_SY500_.jpg",
     "affiliate_links": {
-      "loja_oficial": {
+      "oficial": {
         "url": "https://www.awin1.com/cread.php?awinmid=15815&awinaffid=2800712&clickref=tenisideal_16",
         "store": "ASICS",
         "label": "COMPRAR NA ASICS"
@@ -709,7 +709,7 @@ var SHOES = [
     ],
     "photo": "https://m.media-amazon.com/images/I/617GtsqxJmL._AC_SY625_.jpg",
     "affiliate_links": {
-      "loja_oficial": {
+      "oficial": {
         "url": "https://www.awin1.com/cread.php?awinmid=15815&awinaffid=2800712&clickref=tenisideal_17",
         "store": "ASICS",
         "label": "COMPRAR NA ASICS"
@@ -753,7 +753,7 @@ var SHOES = [
     ],
     "photo": "https://m.media-amazon.com/images/I/51fjXmKBuTL._AC_SX522_.jpg",
     "affiliate_links": {
-      "loja_oficial": {
+      "oficial": {
         "url": "https://www.awin1.com/cread.php?awinmid=15815&awinaffid=2800712&clickref=tenisideal_18",
         "store": "ASICS",
         "label": "COMPRAR NA ASICS"
@@ -796,7 +796,7 @@ var SHOES = [
     ],
     "photo": "https://m.media-amazon.com/images/I/61fz1ft0bDL._AC_SY500_.jpg",
     "affiliate_links": {
-      "loja_oficial": {
+      "oficial": {
         "url": "https://www.awin1.com/cread.php?awinmid=15815&awinaffid=2800712&clickref=tenisideal_19",
         "store": "ASICS",
         "label": "COMPRAR NA ASICS"
@@ -837,7 +837,7 @@ var SHOES = [
     ],
     "photo": "https://images-na.ssl-images-amazon.com/images/I/71EJN-HyMWL.jpg",
     "affiliate_links": {
-      "loja_oficial": {
+      "oficial": {
         "url": "https://www.brooks.com.br/search?q=Adrenaline%20GTS%2024%20Supportive",
         "store": "BROOKS",
         "label": "COMPRAR NA BROOKS"
@@ -877,7 +877,7 @@ var SHOES = [
     ],
     "photo": "https://m.media-amazon.com/images/I/71JfCH+M+jL._AC_SY500_.jpg",
     "affiliate_links": {
-      "loja_oficial": {
+      "oficial": {
         "url": "https://www.brooks.com.br/search?q=Adrenaline%20GTS%2024%20Weatherized",
         "store": "BROOKS",
         "label": "COMPRAR NA BROOKS"
@@ -917,7 +917,7 @@ var SHOES = [
     ],
     "photo": "https://images-na.ssl-images-amazon.com/images/I/81Kt56apbuL.jpg",
     "affiliate_links": {
-      "loja_oficial": {
+      "oficial": {
         "url": "https://www.brooks.com.br/search?q=Ghost%2016",
         "store": "BROOKS",
         "label": "COMPRAR NA BROOKS"
@@ -1387,7 +1387,7 @@ var SHOES = [
     ],
     "photo": "https://m.media-amazon.com/images/I/71qHhWE-T7L._AC_SY500_.jpg",
     "affiliate_links": {
-      "loja_oficial": {
+      "oficial": {
         "url": "https://tidd.ly/4umRr4C",
         "store": "MIZUNO",
         "label": "COMPRAR NA MIZUNO"
@@ -1428,7 +1428,7 @@ var SHOES = [
     ],
     "photo": "https://m.media-amazon.com/images/I/51qUaqEvrkL._AC_SY500_.jpg",
     "affiliate_links": {
-      "loja_oficial": {
+      "oficial": {
         "url": "https://tidd.ly/40tllXn",
         "store": "MIZUNO",
         "label": "COMPRAR NA MIZUNO"
@@ -1470,7 +1470,7 @@ var SHOES = [
     ],
     "photo": "https://m.media-amazon.com/images/I/61Opa1W1J8L._AC_SY500_.jpg",
     "affiliate_links": {
-      "loja_oficial": {
+      "oficial": {
         "url": "https://tidd.ly/4diuTvL",
         "store": "MIZUNO",
         "label": "COMPRAR NA MIZUNO"
@@ -1511,7 +1511,7 @@ var SHOES = [
     ],
     "photo": "https://static.dafiti.com.br/p/Mizuno-T%C3%AAnis-Mizuno-Victory-Rsp-Feminino-Rosa-3494-64013441-1-zoom.jpg",
     "affiliate_links": {
-      "loja_oficial": {
+      "oficial": {
         "url": "https://tidd.ly/4dcnka0",
         "store": "MIZUNO",
         "label": "COMPRAR NA MIZUNO"
@@ -1553,7 +1553,7 @@ var SHOES = [
     ],
     "photo": "https://m.media-amazon.com/images/I/612YIPVucEL._AC_SY500_.jpg",
     "affiliate_links": {
-      "loja_oficial": {
+      "oficial": {
         "url": "https://tidd.ly/4b93ye7",
         "store": "MIZUNO",
         "label": "COMPRAR NA MIZUNO"
@@ -1595,7 +1595,7 @@ var SHOES = [
     ],
     "photo": "https://m.media-amazon.com/images/I/51ifrRin22L._AC_SY500_.jpg",
     "affiliate_links": {
-      "loja_oficial": {
+      "oficial": {
         "url": "https://tidd.ly/4lyvEmO",
         "store": "MIZUNO",
         "label": "COMPRAR NA MIZUNO"
@@ -1637,7 +1637,7 @@ var SHOES = [
     ],
     "photo": "https://m.media-amazon.com/images/I/61qwpkLkodL._AC_SY500_.jpg",
     "affiliate_links": {
-      "loja_oficial": {
+      "oficial": {
         "url": "https://tidd.ly/4bIoSY4",
         "store": "MIZUNO",
         "label": "COMPRAR NA MIZUNO"
@@ -1715,7 +1715,7 @@ var SHOES = [
     ],
     "photo": "https://m.media-amazon.com/images/I/61MzvFVQufL._AC_SY500_.jpg",
     "affiliate_links": {
-      "loja_oficial": {
+      "oficial": {
         "url": "https://www.awin1.com/cread.php?awinmid=51271&awinaffid=2800712&platform=dl&ued=https%3A%2F%2Fwww.mizuno.com.br%2Ftenis-de-corrida-mizuno-wave-dynasty-7-feminino-preto-8585%2Fp",
         "store": "MIZUNO",
         "label": "COMPRAR NA MIZUNO"
@@ -1757,7 +1757,7 @@ var SHOES = [
     ],
     "photo": "https://m.media-amazon.com/images/I/51tKTairIAL._AC_SY500_.jpg",
     "affiliate_links": {
-      "loja_oficial": {
+      "oficial": {
         "url": "https://tidd.ly/4bbBUgI",
         "store": "MIZUNO",
         "label": "COMPRAR NA MIZUNO"
@@ -1799,7 +1799,7 @@ var SHOES = [
     ],
     "photo": "https://m.media-amazon.com/images/I/5178yONIZbL._AC_SY500_.jpg",
     "affiliate_links": {
-      "loja_oficial": {
+      "oficial": {
         "url": "https://tidd.ly/3NAinxj",
         "store": "MIZUNO",
         "label": "COMPRAR NA MIZUNO"
@@ -1841,7 +1841,7 @@ var SHOES = [
     ],
     "photo": "https://m.media-amazon.com/images/I/611RirAWR7L._AC_SY500_.jpg",
     "affiliate_links": {
-      "loja_oficial": {
+      "oficial": {
         "url": "https://tidd.ly/3P0R9QY",
         "store": "MIZUNO",
         "label": "COMPRAR NA MIZUNO"
@@ -1883,7 +1883,7 @@ var SHOES = [
     ],
     "photo": "https://m.media-amazon.com/images/I/61GRqg1hwgL._AC_SY500_.jpg",
     "affiliate_links": {
-      "loja_oficial": {
+      "oficial": {
         "url": "https://tidd.ly/4sdgExe",
         "store": "MIZUNO",
         "label": "COMPRAR NA MIZUNO"
@@ -1925,7 +1925,7 @@ var SHOES = [
     ],
     "photo": "https://m.media-amazon.com/images/I/51dEdz7PxZL._AC_SY500_.jpg",
     "affiliate_links": {
-      "loja_oficial": {
+      "oficial": {
         "url": "https://tidd.ly/4s4637n",
         "store": "MIZUNO",
         "label": "COMPRAR NA MIZUNO"
@@ -2255,7 +2255,7 @@ var SHOES = [
     ],
     "photo": "https://imgnike-a.akamaihd.net/1920x1920/05924154A2.jpg",
     "affiliate_links": {
-      "loja_oficial": {
+      "oficial": {
         "url": "https://tidd.ly/3PaPl86",
         "store": "NIKE",
         "label": "COMPRAR NA NIKE"
@@ -2296,7 +2296,7 @@ var SHOES = [
     ],
     "photo": "https://imgnike-a.akamaihd.net/360x360/059366NEA2.jpg",
     "affiliate_links": {
-      "loja_oficial": {
+      "oficial": {
         "url": "https://tidd.ly/4lAM120",
         "store": "NIKE",
         "label": "COMPRAR NA NIKE"
@@ -2375,7 +2375,7 @@ var SHOES = [
     ],
     "photo": "https://m.media-amazon.com/images/I/71o5tMvjF0L._AC_SY500_.jpg",
     "affiliate_links": {
-      "loja_oficial": {
+      "oficial": {
         "url": "https://tidd.ly/4vag1pL",
         "store": "NIKE",
         "label": "COMPRAR NA NIKE"
@@ -2418,7 +2418,7 @@ var SHOES = [
     ],
     "photo": "https://m.media-amazon.com/images/I/710jZp-z7sL._AC_SY500_.jpg",
     "affiliate_links": {
-      "loja_oficial": {
+      "oficial": {
         "url": "https://tidd.ly/4sUwTj1",
         "store": "NIKE",
         "label": "COMPRAR NA NIKE"
@@ -2459,7 +2459,7 @@ var SHOES = [
     ],
     "photo": "https://m.media-amazon.com/images/I/61978oDJ-iL._AC_SY625_.jpg",
     "affiliate_links": {
-      "loja_oficial": {
+      "oficial": {
         "url": "https://tidd.ly/4sUwTj1",
         "store": "NIKE",
         "label": "COMPRAR NA NIKE"
@@ -2500,7 +2500,7 @@ var SHOES = [
     ],
     "photo": "https://m.media-amazon.com/images/I/61+4HuCd9yL._AC_SY625_.jpg",
     "affiliate_links": {
-      "loja_oficial": {
+      "oficial": {
         "url": "https://tidd.ly/4tw1HXi",
         "store": "NIKE",
         "label": "COMPRAR NA NIKE"
@@ -2541,7 +2541,7 @@ var SHOES = [
     ],
     "photo": "https://m.media-amazon.com/images/I/61n-683dSvL._AC_SY625_.jpg",
     "affiliate_links": {
-      "loja_oficial": {
+      "oficial": {
         "url": "https://tidd.ly/48c9bpY",
         "store": "NIKE",
         "label": "COMPRAR NA NIKE"
@@ -2582,7 +2582,7 @@ var SHOES = [
     ],
     "photo": "https://m.media-amazon.com/images/I/71PZ2x9ndbL._AC_SY625_.jpg",
     "affiliate_links": {
-      "loja_oficial": {
+      "oficial": {
         "url": "https://tidd.ly/4dnmibo",
         "store": "NIKE",
         "label": "COMPRAR NA NIKE"
@@ -2623,7 +2623,7 @@ var SHOES = [
     ],
     "photo": "https://m.media-amazon.com/images/I/71Pb0HGV0BL._AC_SX500_.jpg",
     "affiliate_links": {
-      "loja_oficial": {
+      "oficial": {
         "url": "https://tidd.ly/4dnmibo",
         "store": "NIKE",
         "label": "COMPRAR NA NIKE"
@@ -2664,7 +2664,7 @@ var SHOES = [
     ],
     "photo": "https://m.media-amazon.com/images/I/5159ub-QvHL._AC_SY500_.jpg",
     "affiliate_links": {
-      "loja_oficial": {
+      "oficial": {
         "url": "https://tidd.ly/41MDsrO",
         "store": "NIKE",
         "label": "COMPRAR NA NIKE"
@@ -2705,7 +2705,7 @@ var SHOES = [
     ],
     "photo": "https://m.media-amazon.com/images/I/71AS9nTHr5L._AC_SY500_.jpg",
     "affiliate_links": {
-      "loja_oficial": {
+      "oficial": {
         "url": "https://tidd.ly/4ctXAnN",
         "store": "NIKE",
         "label": "COMPRAR NA NIKE"
@@ -2746,7 +2746,7 @@ var SHOES = [
     ],
     "photo": "https://m.media-amazon.com/images/I/61AS9nTHr5L._AC_SY500_.jpg",
     "affiliate_links": {
-      "loja_oficial": {
+      "oficial": {
         "url": "https://tidd.ly/4bQ2XOS",
         "store": "NIKE",
         "label": "COMPRAR NA NIKE"
@@ -2787,7 +2787,7 @@ var SHOES = [
     ],
     "photo": "https://imgnike-a.akamaihd.net/360x360/058279A1A2.jpg",
     "affiliate_links": {
-      "loja_oficial": {
+      "oficial": {
         "url": "https://tidd.ly/4bQ2XOS",
         "store": "NIKE",
         "label": "COMPRAR NA NIKE"
@@ -2828,7 +2828,7 @@ var SHOES = [
     ],
     "photo": "https://imgnike-a.akamaihd.net/360x360/026862IIA1.jpg",
     "affiliate_links": {
-      "loja_oficial": {
+      "oficial": {
         "url": "https://tidd.ly/3PR0H1h",
         "store": "NIKE",
         "label": "COMPRAR NA NIKE"
@@ -2869,7 +2869,7 @@ var SHOES = [
     ],
     "photo": "https://imgnike-a.akamaihd.net/360x360/025231IMA9.jpg",
     "affiliate_links": {
-      "loja_oficial": {
+      "oficial": {
         "url": "https://tidd.ly/3PR0H1h",
         "store": "NIKE",
         "label": "COMPRAR NA NIKE"
@@ -2910,7 +2910,7 @@ var SHOES = [
     ],
     "photo": "https://m.media-amazon.com/images/I/71rJSyxTadL._AC_SY500_.jpg",
     "affiliate_links": {
-      "loja_oficial": {
+      "oficial": {
         "url": "https://tidd.ly/4txL7WZ",
         "store": "NIKE",
         "label": "COMPRAR NA NIKE"
@@ -2951,7 +2951,7 @@ var SHOES = [
     ],
     "photo": "https://imgnike-a.akamaihd.net/360x360/05640155A2.jpg",
     "affiliate_links": {
-      "loja_oficial": {
+      "oficial": {
         "url": "https://tidd.ly/3NYKhn2",
         "store": "NIKE",
         "label": "COMPRAR NA NIKE"
@@ -2992,7 +2992,7 @@ var SHOES = [
     ],
     "photo": "https://imgnike-a.akamaihd.net/360x360/06072556A1.jpg",
     "affiliate_links": {
-      "loja_oficial": {
+      "oficial": {
         "url": "https://tidd.ly/3NYKhn2",
         "store": "NIKE",
         "label": "COMPRAR NA NIKE"
@@ -3033,7 +3033,7 @@ var SHOES = [
     ],
     "photo": "https://imgnike-a.akamaihd.net/360x360/028652A1A7.jpg",
     "affiliate_links": {
-      "loja_oficial": {
+      "oficial": {
         "url": "https://tidd.ly/3NYKhn2",
         "store": "NIKE",
         "label": "COMPRAR NA NIKE"
@@ -3074,7 +3074,7 @@ var SHOES = [
     ],
     "photo": "https://imgnike-a.akamaihd.net/360x360/028651NZA2.jpg",
     "affiliate_links": {
-      "loja_oficial": {
+      "oficial": {
         "url": "https://tidd.ly/3NICxFF",
         "store": "NIKE",
         "label": "COMPRAR NA NIKE"
@@ -3115,7 +3115,7 @@ var SHOES = [
     ],
     "photo": "https://imgnike-a.akamaihd.net/360x360/02865952A1.jpg",
     "affiliate_links": {
-      "loja_oficial": {
+      "oficial": {
         "url": "https://tidd.ly/4vfNHTe",
         "store": "NIKE",
         "label": "COMPRAR NA NIKE"
@@ -3156,7 +3156,7 @@ var SHOES = [
     ],
     "photo": "https://imgnike-a.akamaihd.net/360x360/028661IDA11.jpg",
     "affiliate_links": {
-      "loja_oficial": {
+      "oficial": {
         "url": "https://tidd.ly/4c7v8YD",
         "store": "NIKE",
         "label": "COMPRAR NA NIKE"
@@ -3191,7 +3191,7 @@ var SHOES = [
     ],
     "photo": "https://www.nike.com.br/tenis-nike-downshifter-13-masculino-027915.html?cor=IM",
     "affiliate_links": {
-      "loja_oficial": {
+      "oficial": {
         "url": "https://www.awin1.com/cread.php?awinmid=17652&awinaffid=2800712&platform=dl&ued=https%3A%2F%2Fwww.nike.com.br%2Ftenis-nike-downshifter-13-masculino-027915.html%3Fcor%3DIM",
         "store": "NIKE",
         "label": "COMPRAR NA NIKE"
@@ -3230,7 +3230,7 @@ var SHOES = [
     ],
     "photo": "https://imgnike-a.akamaihd.net/768x768/058868IDA2.jpg",
     "affiliate_links": {
-      "loja_oficial": {
+      "oficial": {
         "url": "https://www.awin1.com/cread.php?awinmid=17652&awinaffid=2800712&platform=dl&ued=https%3A%2F%2Fwww.nike.com.br%2Ftenis-nike-revolution-8-feminino-058868.html%3Fcor%3DID",
         "store": "NIKE",
         "label": "COMPRAR NA NIKE"
@@ -3463,7 +3463,7 @@ var SHOES = [
     ],
     "photo": "https://m.media-amazon.com/images/I/51D5Mo21ocL._AC_SY500_.jpg",
     "affiliate_links": {
-      "loja_oficial": {
+      "oficial": {
         "url": "https://tidd.ly/4bmcWtJ",
         "store": "OLYMPIKUS",
         "label": "COMPRAR NA OLYMPIKUS"
@@ -3502,7 +3502,7 @@ var SHOES = [
     ],
     "photo": "https://www.tenisideal.com.br/imgs/43561394_3-012-01.jpg",
     "affiliate_links": {
-      "loja_oficial": {
+      "oficial": {
         "url": "https://tidd.ly/4bwL2LU",
         "store": "OLYMPIKUS",
         "label": "COMPRAR NA OLYMPIKUS"
@@ -3586,7 +3586,7 @@ var SHOES = [
     ],
     "photo": "https://m.media-amazon.com/images/I/51Z-DdVYfOL._AC_SY500_.jpg",
     "affiliate_links": {
-      "loja_oficial": {
+      "oficial": {
         "url": "https://tidd.ly/3PBl3LF",
         "store": "OLYMPIKUS",
         "label": "COMPRAR NA OLYMPIKUS"
@@ -3632,7 +3632,7 @@ var SHOES = [
     ],
     "photo": "https://m.media-amazon.com/images/I/51fOqAnmsIL._AC_SX522_.jpg",
     "affiliate_links": {
-      "loja_oficial": {
+      "oficial": {
         "url": "https://tidd.ly/4utSjEM",
         "store": "OLYMPIKUS",
         "label": "COMPRAR NA OLYMPIKUS"
