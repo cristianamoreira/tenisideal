@@ -43,6 +43,10 @@ jobs:
         run: |
           python scraper_automatico.py
 
+      - name: 💰 Sincronizar preços do Google Sheets
+        run: |
+          python sincronizar_precos.py
+
       - name: 📧 Notificar sucesso
         if: success()
         run: echo "✅ Preços atualizados com sucesso!"
