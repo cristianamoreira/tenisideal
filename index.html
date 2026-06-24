@@ -1617,14 +1617,21 @@
       font-family: 'Bebas Neue', sans-serif;
       font-weight: 700 !important;
       font-size: 24px !important;
-      line-height: 1.3;
-      text-transform: uppercase;
-      margin-bottom: 10px;
+      line-height: 1.3 !important;
+      text-transform: uppercase !important;
+      margin-bottom: 10px !important;
+      margin-top: 0 !important;
       color: #1a1a1a !important;
       display: block !important;
       visibility: visible !important;
       opacity: 1 !important;
-      min-height: 30px;
+      min-height: 30px !important;
+      overflow: visible !important;
+      width: 100% !important;
+      max-width: 100% !important;
+      text-overflow: clip !important;
+      white-space: normal !important;
+      word-wrap: break-word !important;
     }
 
     .sreason {
@@ -3602,7 +3609,7 @@
             topBadge +
             popularBadge +
             '<div class="sbrand" style="display: block; visibility: visible;">' + (sh.brand || '') + '</div>' +
-            '<div class="sname" style="display: block; visibility: visible; color: #1a1a1a; font-size: 22px; font-weight: bold; margin-bottom: 10px;">' + (sh.name || '') + '</div>' +
+            '<div class="sname" style="display: block !important; visibility: visible !important; color: #1a1a1a !important; font-size: 22px !important; font-weight: bold !important; margin-bottom: 10px !important; min-height: 50px !important; line-height: 1.2 !important;">' + (sh.name || '') + '</div>' +
             compatibilityHTML +
             '<p class="sreason" style="display: block; visibility: visible;">' + description + '</p>' +
             '<div class="stags">' + th + '</div>' +
