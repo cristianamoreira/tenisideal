@@ -337,8 +337,8 @@ var SHOES = [
       "masculino"
     ],
     "budget": "",
-    "price": 0,
-    "price_formatted": "R$ 0,00",
+    "price": 1399.99,
+    "price_formatted": "R$ 1.399,99",
     "levels": [],
     "pisada": [],
     "terreno": [],
@@ -347,7 +347,7 @@ var SHOES = [
     "affiliate_links": {
       "amazon": {
         "url": "https://amzn.to/4b8n1uk",
-        "price": 0
+        "price": 1399.99
       }
     },
     "tags": [
@@ -365,8 +365,8 @@ var SHOES = [
       "masculino"
     ],
     "budget": "",
-    "price": 0,
-    "price_formatted": "R$ 0,00",
+    "price": 1899.99,
+    "price_formatted": "R$ 1.899,99",
     "levels": [],
     "pisada": [],
     "terreno": [],
@@ -375,7 +375,7 @@ var SHOES = [
     "affiliate_links": {
       "amazon": {
         "url": "https://amzn.to/3OFw26D",
-        "price": 0
+        "price": 1899.99
       }
     },
     "tags": [
@@ -393,8 +393,8 @@ var SHOES = [
       "masculino"
     ],
     "budget": "",
-    "price": 0,
-    "price_formatted": "R$ 0,00",
+    "price": 1499.99,
+    "price_formatted": "R$ 1.499,99",
     "levels": [],
     "pisada": [],
     "terreno": [],
@@ -403,7 +403,7 @@ var SHOES = [
     "affiliate_links": {
       "amazon": {
         "url": "https://amzn.to/3OP4Dzd",
-        "price": 0
+        "price": 1499.99
       }
     },
     "tags": [
@@ -421,8 +421,8 @@ var SHOES = [
       "feminino"
     ],
     "budget": "",
-    "price": 0,
-    "price_formatted": "R$ 0,00",
+    "price": 1499.99,
+    "price_formatted": "R$ 1.499,99",
     "levels": [],
     "pisada": [],
     "terreno": [],
@@ -431,7 +431,7 @@ var SHOES = [
     "affiliate_links": {
       "amazon": {
         "url": "https://amzn.to/4ugSqmP",
-        "price": 0
+        "price": 1499.99
       }
     },
     "tags": [
@@ -449,8 +449,8 @@ var SHOES = [
       "masculino"
     ],
     "budget": "",
-    "price": 0,
-    "price_formatted": "R$ 0,00",
+    "price": 899.99,
+    "price_formatted": "R$ 899,99",
     "levels": [],
     "pisada": [],
     "terreno": [],
@@ -459,7 +459,7 @@ var SHOES = [
     "affiliate_links": {
       "amazon": {
         "url": "https://amzn.to/3NhE4Cb",
-        "price": 0
+        "price": 899.99
       }
     },
     "tags": [
@@ -477,8 +477,8 @@ var SHOES = [
       "masculino"
     ],
     "budget": "",
-    "price": 0,
-    "price_formatted": "R$ 0,00",
+    "price": 749.99,
+    "price_formatted": "R$ 749,99",
     "levels": [],
     "pisada": [],
     "terreno": [],
@@ -487,7 +487,7 @@ var SHOES = [
     "affiliate_links": {
       "amazon": {
         "url": "https://amzn.to/4rT89qU",
-        "price": 0
+        "price": 749.99
       }
     },
     "tags": [
@@ -506,8 +506,8 @@ var SHOES = [
       "feminino"
     ],
     "budget": "",
-    "price": 0,
-    "price_formatted": "R$ 0,00",
+    "price": 599.99,
+    "price_formatted": "R$ 599,99",
     "levels": [],
     "pisada": [],
     "terreno": [],
@@ -516,7 +516,7 @@ var SHOES = [
     "affiliate_links": {
       "amazon": {
         "url": "https://amzn.to/4rSbMx8",
-        "price": 0
+        "price": 599.99
       }
     },
     "tags": [
@@ -535,8 +535,8 @@ var SHOES = [
       "feminino"
     ],
     "budget": "",
-    "price": 0,
-    "price_formatted": "R$ 0,00",
+    "price": 649.99,
+    "price_formatted": "R$ 649,99",
     "levels": [],
     "pisada": [],
     "terreno": [],
@@ -545,7 +545,7 @@ var SHOES = [
     "affiliate_links": {
       "amazon": {
         "url": "https://amzn.to/4da3rAm",
-        "price": 0
+        "price": 649.99
       }
     },
     "tags": [
@@ -563,8 +563,8 @@ var SHOES = [
       "feminino"
     ],
     "budget": "",
-    "price": 0,
-    "price_formatted": "R$ 0,00",
+    "price": 1399.99,
+    "price_formatted": "R$ 1.399,99",
     "levels": [],
     "pisada": [],
     "terreno": [],
@@ -573,7 +573,7 @@ var SHOES = [
     "affiliate_links": {
       "amazon": {
         "url": "https://amzn.to/4uizqob",
-        "price": 0
+        "price": 1399.99
       }
     },
     "tags": [
@@ -592,8 +592,8 @@ var SHOES = [
       "masculino"
     ],
     "budget": "",
-    "price": 0,
-    "price_formatted": "R$ 0,00",
+    "price": 999.99,
+    "price_formatted": "R$ 999,99",
     "levels": [],
     "pisada": [],
     "terreno": [],
@@ -602,7 +602,7 @@ var SHOES = [
     "affiliate_links": {
       "amazon": {
         "url": "https://amzn.to/4u7e6Sr",
-        "price": 0
+        "price": 999.99
       }
     },
     "tags": [
@@ -620,8 +620,8 @@ var SHOES = [
       "masculino"
     ],
     "budget": "",
-    "price": 0,
-    "price_formatted": "R$ 0,00",
+    "price": 1049.99,
+    "price_formatted": "R$ 1.049,99",
     "levels": [],
     "pisada": [],
     "terreno": [],
@@ -630,7 +630,7 @@ var SHOES = [
     "affiliate_links": {
       "amazon": {
         "url": "https://amzn.to/4sgDgwi",
-        "price": 0
+        "price": 1049.99
       }
     },
     "tags": [
@@ -648,8 +648,8 @@ var SHOES = [
       "masculino"
     ],
     "budget": "",
-    "price": 0,
-    "price_formatted": "R$ 0,00",
+    "price": 1099.99,
+    "price_formatted": "R$ 1.099,99",
     "levels": [],
     "pisada": [],
     "terreno": [],
@@ -658,7 +658,7 @@ var SHOES = [
     "affiliate_links": {
       "amazon": {
         "url": "https://amzn.to/4aYytsk",
-        "price": 0
+        "price": 1099.99
       }
     },
     "tags": [
@@ -676,8 +676,8 @@ var SHOES = [
       "feminino"
     ],
     "budget": "",
-    "price": 0,
-    "price_formatted": "R$ 0,00",
+    "price": 999.99,
+    "price_formatted": "R$ 999,99",
     "levels": [],
     "pisada": [],
     "terreno": [],
@@ -686,7 +686,7 @@ var SHOES = [
     "affiliate_links": {
       "amazon": {
         "url": "https://amzn.to/4srKmhs",
-        "price": 0
+        "price": 999.99
       }
     },
     "tags": [
@@ -743,8 +743,8 @@ var SHOES = [
       "feminino"
     ],
     "budget": "",
-    "price": 0,
-    "price_formatted": "R$ 0,00",
+    "price": 349.99,
+    "price_formatted": "R$ 349,99",
     "levels": [],
     "pisada": [],
     "terreno": [],
@@ -753,7 +753,7 @@ var SHOES = [
     "affiliate_links": {
       "amazon": {
         "url": "https://amzn.to/4aZSxMh",
-        "price": 0
+        "price": 349.99
       }
     },
     "tags": [
@@ -771,8 +771,8 @@ var SHOES = [
       "masculino"
     ],
     "budget": "",
-    "price": 0,
-    "price_formatted": "R$ 0,00",
+    "price": 299.99,
+    "price_formatted": "R$ 299,99",
     "levels": [],
     "pisada": [],
     "terreno": [],
@@ -781,7 +781,7 @@ var SHOES = [
     "affiliate_links": {
       "amazon": {
         "url": "https://amzn.to/40WKcTq",
-        "price": 0
+        "price": 299.99
       }
     },
     "tags": [
@@ -799,8 +799,8 @@ var SHOES = [
       "feminino"
     ],
     "budget": "",
-    "price": 0,
-    "price_formatted": "R$ 0,00",
+    "price": 289.99,
+    "price_formatted": "R$ 289,99",
     "levels": [],
     "pisada": [],
     "terreno": [],
@@ -809,7 +809,7 @@ var SHOES = [
     "affiliate_links": {
       "amazon": {
         "url": "https://amzn.to/4aXF5sb",
-        "price": 0
+        "price": 289.99
       }
     },
     "tags": [
@@ -827,8 +827,8 @@ var SHOES = [
       "feminino"
     ],
     "budget": "",
-    "price": 0,
-    "price_formatted": "R$ 0,00",
+    "price": 269.99,
+    "price_formatted": "R$ 269,99",
     "levels": [],
     "pisada": [],
     "terreno": [],
@@ -837,7 +837,7 @@ var SHOES = [
     "affiliate_links": {
       "amazon": {
         "url": "https://amzn.to/4s0yCmo",
-        "price": 0
+        "price": 269.99
       }
     },
     "tags": [
@@ -2787,14 +2787,16 @@ var SHOES = [
       "unissex"
     ],
     "budget": "",
-    "price": 0,
-    "price_formatted": "R$ 0,00",
+    "price": 599.99,
+    "price_formatted": "R$ 599,99",
     "levels": [],
     "pisada": [],
     "terreno": [],
     "distancia": [],
     "photo": "https://via.placeholder.com/300x300/1a1a1a/c8ff00?text=Olympikus%20Corre%20Trilha",
-    "affiliate_links": {},
+    "affiliate_links": {
+      "amazon": 599.99
+    },
     "tags": [],
     "description": "",
     "reason": ""
