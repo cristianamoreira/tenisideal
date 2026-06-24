@@ -1598,7 +1598,7 @@
       text-transform: uppercase !important;
       margin-bottom: 10px !important;
       margin-top: 0 !important;
-      color: #1a1a1a !important;
+      color: #ffffff !important;
       display: block !important;
       visibility: visible !important;
       opacity: 1 !important;
@@ -3326,13 +3326,6 @@
         if (typeof ttq !== 'undefined') ttq.track('CompleteRegistration', { content_name: 'quiz_completed' });
         var tops = getTop3();
 
-        // DEBUG
-        console.log('🎯 DEBUG - Tops encontrados:', tops);
-        console.log('SHOES carregado?', typeof SHOES !== 'undefined' ? SHOES.length + ' produtos' : 'NÃO CARREGADO');
-        if (tops && tops.length > 0) {
-          console.log('Primeiro top - affiliate_links:', tops[0].sh.affiliate_links);
-        }
-
         // Guarda o tênis #1 para usar no submitEmail
         window._topTenis = (tops && tops.length > 0) ? tops[0].sh : null;
 
@@ -3429,13 +3422,6 @@
         for (var i = 0; i < tops.length; i++) {
           var sh = tops[i].sh;
           var score = tops[i].score;
-
-          // DEBUG
-          if (i === 0) {
-            console.log('🔍 DEBUG - Primeiro produto:', sh);
-            console.log('Affiliate links:', sh.affiliate_links);
-            console.log('Price:', sh.price);
-          }
 
           var card = document.createElement('div');
           card.className = i === 0 ? 'shoe shoe-featured' : 'shoe';
@@ -3545,12 +3531,6 @@
             return a.price - b.price;
           });
 
-          // DEBUG
-          if (i === 0) {
-            console.log('📊 DEBUG - Ofertas criadas:', offers);
-            console.log('Número de ofertas:', offers.length);
-          }
-
           if (offers.length > 0) {
             var best = offers[0];
 
@@ -3652,22 +3632,13 @@
           var description = (sh.description || sh.reason || '');
           description = description.replace(/https?:\/\/[^\s]+/g, '').trim();
 
-          // DEBUG
-          if (i === 0) {
-            console.log('🔍 DEBUG - Renderizando card:', {
-              brand: sh.brand,
-              name: sh.name,
-              fullname: (sh.brand || '') + ' ' + (sh.name || '')
-            });
-          }
-
           card.innerHTML =
             '<div class="simg"><img src="' + ((sh.images && sh.images.length > 0) ? sh.images[0] : (sh.img || 'imgs/placeholder.jpg')) + '" alt="' + sh.name + '" loading="lazy" onerror="this.src=\'imgs/placeholder.jpg\'"></div>' +
             '<div class="sbody" style="background: var(--card);">' +
             topBadge +
             popularBadge +
             '<div class="sbrand" style="display: block; visibility: visible;">' + (sh.brand || '') + '</div>' +
-            '<div class="sname" style="display: block !important; visibility: visible !important; color: #1a1a1a !important; font-size: 22px !important; font-weight: bold !important; margin-bottom: 10px !important; min-height: 50px !important; line-height: 1.2 !important;">' + (sh.brand || '') + ' ' + (sh.name || '') + '</div>' +
+            '<div class="sname" style="display: block !important; visibility: visible !important; color: #ffffff !important; font-size: 22px !important; font-weight: bold !important; margin-bottom: 10px !important; min-height: 50px !important; line-height: 1.2 !important;">' + (sh.brand || '') + ' ' + (sh.name || '') + '</div>' +
             compatibilityHTML +
             '<p class="sreason" style="display: block; visibility: visible;">' + description + '</p>' +
             '<div class="stags">' + th + '</div>' +
