@@ -73,48 +73,25 @@
 
   <!-- Os dados dos tênis agora são carregados via API dinamicamente -->
   <script>
-    window.SHOES = [];
-    window.shoesLoaded = false;
-    window.shoesLoadError = false;
-
-    async function loadShoes() {
-      try {
-        console.log("Iniciando carregamento dos tênis da API...");
-        const response = await fetch('/.netlify/functions/products');
-        if (!response.ok) throw new Error("Erro na resposta da API");
-        const data = await response.json();
-        if (Array.isArray(data) && data.length > 0) {
+    // SHOES é carregado via <script src="frontend/shoes_data.js"> no head
+    // Se não estiver definido, carregar do fallback
+    if (typeof SHOES === 'undefined' || !Array.isArray(SHOES)) {
+      console.warn("SHOES não definido, carregando fallback...");
+      fetch('./shoes-fallback.json')
+        .then(r => r.json())
+        .then(data => {
           window.SHOES = data;
-          // Para compatibilidade com referências locais ao array global SHOES
-          if (typeof SHOES !== 'undefined') {
-            SHOES = data;
-          }
-          window.shoesLoaded = true;
-          console.log("Tênis carregados com sucesso da API:", window.SHOES.length);
-          return;
-        }
-        throw new Error("Dados da API vazios ou inválidos");
-      } catch (e) {
-        console.warn("Falha ao carregar da API, tentando fallback local:", e);
-        try {
-          const fallbackResponse = await fetch('./shoes-fallback.json');
-          if (!fallbackResponse.ok) throw new Error("Erro ao carregar fallback local");
-          const fallbackData = await fallbackResponse.json();
-          window.SHOES = fallbackData;
-          if (typeof SHOES !== 'undefined') {
-            SHOES = fallbackData;
-          }
-          window.shoesLoaded = true;
-          console.log("Tênis carregados com sucesso do fallback:", window.SHOES.length);
-        } catch (err) {
-          console.error("Falha crítica ao carregar tênis:", err);
-          window.shoesLoadError = true;
-        }
-      }
+          console.log("Fallback carregado:", SHOES.length);
+        })
+        .catch(e => console.error("Erro ao carregar fallback:", e));
+    } else {
+      console.log("✅ SHOES já carregado:", SHOES.length);
     }
 
+    window.shoesLoaded = true;
+    window.shoesLoadError = false;
+
     document.addEventListener("DOMContentLoaded", () => {
-      loadShoes();
       initSocialProof();
       initMetricsTracking();
     });
