@@ -2969,12 +2969,29 @@
         return pa - pb;
       });
 
-      // Filtrar duplicatas (mesmo product_id ou mesmo brand+name) e retornar 3 produtos únicos
+      // Filtrar duplicatas E garantir uma de cada marca quando possível
       var seen = {};
+      var seenBrands = {};
       var result = [];
+
+      // Primeiro passar: Pegar uma de cada marca
       for (var i = 0; i < sc.length && result.length < 3; i++) {
         var sh = sc[i].sh;
         var key = (sh.brand || '') + '|' + (sh.name || '');
+        var brand = sh.brand || '';
+
+        if (!seen[key] && !seenBrands[brand]) {
+          seen[key] = true;
+          seenBrands[brand] = true;
+          result.push({ sh: sh, score: sc[i].s });
+        }
+      }
+
+      // Segundo passar: Se não conseguiu 3, preencher com qualquer outro
+      for (var i = 0; i < sc.length && result.length < 3; i++) {
+        var sh = sc[i].sh;
+        var key = (sh.brand || '') + '|' + (sh.name || '');
+
         if (!seen[key]) {
           seen[key] = true;
           result.push({ sh: sh, score: sc[i].s });

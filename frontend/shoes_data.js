@@ -1,4 +1,4 @@
-// Sincronizado de Google Sheets - Campos Completos
+// Sincronizado de Google Sheets - Cobertura Completa de Terreno
 var SHOES = [
   {
     "brand": "ADIDAS",
@@ -20,7 +20,8 @@ var SHOES = [
     "terreno": [
       "asfalto",
       "pista",
-      "mista"
+      "mista",
+      "esteira"
     ],
     "distancia": [
       "curta",
@@ -67,7 +68,8 @@ var SHOES = [
     "terreno": [
       "asfalto",
       "pista",
-      "mista"
+      "mista",
+      "esteira"
     ],
     "distancia": [
       "curta",
@@ -114,7 +116,8 @@ var SHOES = [
     "terreno": [
       "asfalto",
       "pista",
-      "mista"
+      "mista",
+      "esteira"
     ],
     "distancia": [
       "curta",
@@ -161,7 +164,8 @@ var SHOES = [
     "terreno": [
       "asfalto",
       "pista",
-      "mista"
+      "mista",
+      "esteira"
     ],
     "distancia": [
       "curta",
@@ -209,7 +213,8 @@ var SHOES = [
     "terreno": [
       "asfalto",
       "pista",
-      "mista"
+      "mista",
+      "esteira"
     ],
     "distancia": [
       "curta",
@@ -253,7 +258,8 @@ var SHOES = [
     "terreno": [
       "asfalto",
       "pista",
-      "mista"
+      "mista",
+      "esteira"
     ],
     "distancia": [
       "curta",
@@ -301,7 +307,8 @@ var SHOES = [
     "terreno": [
       "asfalto",
       "pista",
-      "mista"
+      "mista",
+      "esteira"
     ],
     "distancia": [
       "curta",
@@ -349,7 +356,8 @@ var SHOES = [
     "terreno": [
       "asfalto",
       "pista",
-      "mista"
+      "mista",
+      "esteira"
     ],
     "distancia": [
       "curta",
@@ -394,7 +402,8 @@ var SHOES = [
       "neutra"
     ],
     "terreno": [
-      "asfalto"
+      "asfalto",
+      "esteira"
     ],
     "distancia": [
       "curta",
@@ -443,7 +452,8 @@ var SHOES = [
     "terreno": [
       "asfalto",
       "trilha",
-      "mista"
+      "mista",
+      "esteira"
     ],
     "distancia": [
       "curta",
@@ -491,7 +501,8 @@ var SHOES = [
     "terreno": [
       "asfalto",
       "trilha",
-      "mista"
+      "mista",
+      "esteira"
     ],
     "distancia": [
       "curta",
@@ -534,7 +545,8 @@ var SHOES = [
     "terreno": [
       "asfalto",
       "trilha",
-      "mista"
+      "mista",
+      "esteira"
     ],
     "distancia": [
       "curta",
@@ -577,7 +589,8 @@ var SHOES = [
     "terreno": [
       "asfalto",
       "trilha",
-      "mista"
+      "mista",
+      "esteira"
     ],
     "distancia": [
       "curta",
@@ -620,7 +633,8 @@ var SHOES = [
     "terreno": [
       "asfalto",
       "trilha",
-      "mista"
+      "mista",
+      "esteira"
     ],
     "distancia": [
       "curta",
@@ -663,7 +677,8 @@ var SHOES = [
     "terreno": [
       "asfalto",
       "trilha",
-      "mista"
+      "mista",
+      "esteira"
     ],
     "distancia": [
       "curta",
@@ -706,7 +721,8 @@ var SHOES = [
     "terreno": [
       "asfalto",
       "trilha",
-      "mista"
+      "mista",
+      "esteira"
     ],
     "distancia": [
       "curta",
@@ -750,7 +766,8 @@ var SHOES = [
     "terreno": [
       "asfalto",
       "trilha",
-      "mista"
+      "mista",
+      "esteira"
     ],
     "distancia": [
       "curta",
@@ -794,7 +811,8 @@ var SHOES = [
     "terreno": [
       "asfalto",
       "trilha",
-      "mista"
+      "mista",
+      "esteira"
     ],
     "distancia": [
       "curta",
@@ -837,7 +855,8 @@ var SHOES = [
     "terreno": [
       "asfalto",
       "trilha",
-      "mista"
+      "mista",
+      "esteira"
     ],
     "distancia": [
       "curta",
@@ -878,7 +897,8 @@ var SHOES = [
     ],
     "terreno": [
       "asfalto",
-      "pista"
+      "pista",
+      "esteira"
     ],
     "distancia": [
       "curta",
@@ -918,7 +938,8 @@ var SHOES = [
     ],
     "terreno": [
       "asfalto",
-      "pista"
+      "pista",
+      "esteira"
     ],
     "distancia": [
       "curta",
@@ -958,7 +979,8 @@ var SHOES = [
     ],
     "terreno": [
       "asfalto",
-      "pista"
+      "pista",
+      "esteira"
     ],
     "distancia": [
       "curta",
@@ -998,7 +1020,8 @@ var SHOES = [
     ],
     "terreno": [
       "asfalto",
-      "pista"
+      "pista",
+      "esteira"
     ],
     "distancia": [
       "curta",
@@ -1037,7 +1060,8 @@ var SHOES = [
       "neutra"
     ],
     "terreno": [
-      "asfalto"
+      "asfalto",
+      "esteira"
     ],
     "distancia": [
       "curta",
@@ -1242,7 +1266,8 @@ var SHOES = [
     ],
     "terreno": [
       "asfalto",
-      "trilha"
+      "trilha",
+      "esteira"
     ],
     "distancia": [
       "curta",
@@ -1284,7 +1309,8 @@ var SHOES = [
     ],
     "terreno": [
       "asfalto",
-      "trilha"
+      "trilha",
+      "esteira"
     ],
     "distancia": [
       "curta",
@@ -1326,7 +1352,8 @@ var SHOES = [
     ],
     "terreno": [
       "asfalto",
-      "trilha"
+      "trilha",
+      "esteira"
     ],
     "distancia": [
       "curta",
@@ -1368,7 +1395,8 @@ var SHOES = [
     ],
     "terreno": [
       "asfalto",
-      "trilha"
+      "trilha",
+      "esteira"
     ],
     "distancia": [
       "curta",
@@ -1408,7 +1436,8 @@ var SHOES = [
     ],
     "terreno": [
       "asfalto",
-      "trilha"
+      "trilha",
+      "esteira"
     ],
     "distancia": [
       "curta",
@@ -1448,7 +1477,8 @@ var SHOES = [
     ],
     "terreno": [
       "asfalto",
-      "trilha"
+      "trilha",
+      "esteira"
     ],
     "distancia": [
       "curta",
@@ -1490,7 +1520,8 @@ var SHOES = [
     "terreno": [
       "asfalto",
       "trilha",
-      "mista"
+      "mista",
+      "esteira"
     ],
     "distancia": [
       "curta",
@@ -1537,7 +1568,8 @@ var SHOES = [
     "terreno": [
       "asfalto",
       "trilha",
-      "mista"
+      "mista",
+      "esteira"
     ],
     "distancia": [
       "curta",
@@ -1585,7 +1617,8 @@ var SHOES = [
     "terreno": [
       "asfalto",
       "trilha",
-      "mista"
+      "mista",
+      "esteira"
     ],
     "distancia": [
       "curta",
@@ -1632,7 +1665,8 @@ var SHOES = [
     "terreno": [
       "asfalto",
       "trilha",
-      "mista"
+      "mista",
+      "esteira"
     ],
     "distancia": [
       "curta",
@@ -1680,7 +1714,8 @@ var SHOES = [
     "terreno": [
       "asfalto",
       "trilha",
-      "mista"
+      "mista",
+      "esteira"
     ],
     "distancia": [
       "curta",
@@ -1728,7 +1763,8 @@ var SHOES = [
     "terreno": [
       "asfalto",
       "trilha",
-      "mista"
+      "mista",
+      "esteira"
     ],
     "distancia": [
       "curta",
@@ -1776,7 +1812,8 @@ var SHOES = [
     "terreno": [
       "asfalto",
       "trilha",
-      "mista"
+      "mista",
+      "esteira"
     ],
     "distancia": [
       "curta",
@@ -1824,7 +1861,8 @@ var SHOES = [
     "terreno": [
       "asfalto",
       "trilha",
-      "mista"
+      "mista",
+      "esteira"
     ],
     "distancia": [
       "curta",
@@ -1867,7 +1905,8 @@ var SHOES = [
     "terreno": [
       "asfalto",
       "trilha",
-      "mista"
+      "mista",
+      "esteira"
     ],
     "distancia": [
       "curta",
@@ -1920,7 +1959,8 @@ var SHOES = [
     "terreno": [
       "asfalto",
       "trilha",
-      "mista"
+      "mista",
+      "esteira"
     ],
     "distancia": [
       "curta",
@@ -1968,7 +2008,8 @@ var SHOES = [
     "terreno": [
       "asfalto",
       "trilha",
-      "mista"
+      "mista",
+      "esteira"
     ],
     "distancia": [
       "curta",
@@ -2016,7 +2057,8 @@ var SHOES = [
     "terreno": [
       "asfalto",
       "trilha",
-      "mista"
+      "mista",
+      "esteira"
     ],
     "distancia": [
       "curta",
@@ -2064,7 +2106,8 @@ var SHOES = [
     "terreno": [
       "asfalto",
       "trilha",
-      "mista"
+      "mista",
+      "esteira"
     ],
     "distancia": [
       "curta",
@@ -2112,7 +2155,8 @@ var SHOES = [
     "terreno": [
       "asfalto",
       "trilha",
-      "mista"
+      "mista",
+      "esteira"
     ],
     "distancia": [
       "curta",
@@ -2511,7 +2555,8 @@ var SHOES = [
     "terreno": [
       "asfalto",
       "pista",
-      "mista"
+      "mista",
+      "esteira"
     ],
     "distancia": [
       "curta",
@@ -2557,7 +2602,8 @@ var SHOES = [
     "terreno": [
       "asfalto",
       "pista",
-      "mista"
+      "mista",
+      "esteira"
     ],
     "distancia": [
       "curta",
@@ -2603,7 +2649,8 @@ var SHOES = [
     "terreno": [
       "asfalto",
       "pista",
-      "mista"
+      "mista",
+      "esteira"
     ],
     "distancia": [
       "curta",
@@ -2647,7 +2694,8 @@ var SHOES = [
     "terreno": [
       "asfalto",
       "pista",
-      "mista"
+      "mista",
+      "esteira"
     ],
     "distancia": [
       "curta",
@@ -2695,7 +2743,8 @@ var SHOES = [
     "terreno": [
       "asfalto",
       "pista",
-      "mista"
+      "mista",
+      "esteira"
     ],
     "distancia": [
       "curta",
@@ -2741,7 +2790,8 @@ var SHOES = [
     "terreno": [
       "asfalto",
       "pista",
-      "mista"
+      "mista",
+      "esteira"
     ],
     "distancia": [
       "curta",
@@ -2787,7 +2837,8 @@ var SHOES = [
     "terreno": [
       "asfalto",
       "pista",
-      "mista"
+      "mista",
+      "esteira"
     ],
     "distancia": [
       "curta",
@@ -2833,7 +2884,8 @@ var SHOES = [
     "terreno": [
       "asfalto",
       "pista",
-      "mista"
+      "mista",
+      "esteira"
     ],
     "distancia": [
       "curta",
@@ -2879,7 +2931,8 @@ var SHOES = [
     "terreno": [
       "asfalto",
       "pista",
-      "mista"
+      "mista",
+      "esteira"
     ],
     "distancia": [
       "curta",
@@ -2925,7 +2978,8 @@ var SHOES = [
     "terreno": [
       "asfalto",
       "pista",
-      "mista"
+      "mista",
+      "esteira"
     ],
     "distancia": [
       "curta",
@@ -2971,7 +3025,8 @@ var SHOES = [
     "terreno": [
       "asfalto",
       "pista",
-      "mista"
+      "mista",
+      "esteira"
     ],
     "distancia": [
       "curta",
@@ -3017,7 +3072,8 @@ var SHOES = [
     "terreno": [
       "asfalto",
       "pista",
-      "mista"
+      "mista",
+      "esteira"
     ],
     "distancia": [
       "curta",
@@ -3063,7 +3119,8 @@ var SHOES = [
     "terreno": [
       "asfalto",
       "pista",
-      "mista"
+      "mista",
+      "esteira"
     ],
     "distancia": [
       "curta",
@@ -3109,7 +3166,8 @@ var SHOES = [
     "terreno": [
       "asfalto",
       "pista",
-      "mista"
+      "mista",
+      "esteira"
     ],
     "distancia": [
       "curta",
@@ -3155,7 +3213,8 @@ var SHOES = [
     "terreno": [
       "asfalto",
       "pista",
-      "mista"
+      "mista",
+      "esteira"
     ],
     "distancia": [
       "curta",
@@ -3201,7 +3260,8 @@ var SHOES = [
     "terreno": [
       "asfalto",
       "pista",
-      "mista"
+      "mista",
+      "esteira"
     ],
     "distancia": [
       "curta",
@@ -3247,7 +3307,8 @@ var SHOES = [
     "terreno": [
       "asfalto",
       "pista",
-      "mista"
+      "mista",
+      "esteira"
     ],
     "distancia": [
       "curta",
@@ -3293,7 +3354,8 @@ var SHOES = [
     "terreno": [
       "asfalto",
       "pista",
-      "mista"
+      "mista",
+      "esteira"
     ],
     "distancia": [
       "curta",
@@ -3339,7 +3401,8 @@ var SHOES = [
     "terreno": [
       "asfalto",
       "pista",
-      "mista"
+      "mista",
+      "esteira"
     ],
     "distancia": [
       "curta",
@@ -3385,7 +3448,8 @@ var SHOES = [
     "terreno": [
       "asfalto",
       "pista",
-      "mista"
+      "mista",
+      "esteira"
     ],
     "distancia": [
       "curta",
@@ -3431,7 +3495,8 @@ var SHOES = [
     "terreno": [
       "asfalto",
       "pista",
-      "mista"
+      "mista",
+      "esteira"
     ],
     "distancia": [
       "curta",
@@ -3477,7 +3542,8 @@ var SHOES = [
     "terreno": [
       "asfalto",
       "pista",
-      "mista"
+      "mista",
+      "esteira"
     ],
     "distancia": [
       "curta",
@@ -3523,7 +3589,8 @@ var SHOES = [
     "terreno": [
       "asfalto",
       "pista",
-      "mista"
+      "mista",
+      "esteira"
     ],
     "distancia": [
       "curta",
@@ -3563,7 +3630,8 @@ var SHOES = [
       "neutra"
     ],
     "terreno": [
-      "mista"
+      "mista",
+      "esteira"
     ],
     "distancia": [
       "curta",
@@ -3612,7 +3680,8 @@ var SHOES = [
       "neutra"
     ],
     "terreno": [
-      "asfalto"
+      "asfalto",
+      "esteira"
     ],
     "distancia": [
       "curta",
@@ -3900,7 +3969,8 @@ var SHOES = [
       "neutra"
     ],
     "terreno": [
-      "mista"
+      "mista",
+      "esteira"
     ],
     "distancia": [
       "curta",
@@ -4117,7 +4187,8 @@ var SHOES = [
     ],
     "terreno": [
       "trilha",
-      "mista"
+      "mista",
+      "esteira"
     ],
     "distancia": [
       "curta",
@@ -4157,7 +4228,8 @@ var SHOES = [
       "pronada"
     ],
     "terreno": [
-      "asfalto"
+      "asfalto",
+      "esteira"
     ],
     "distancia": [
       "curta",
@@ -4198,7 +4270,8 @@ var SHOES = [
       "pronada"
     ],
     "terreno": [
-      "asfalto"
+      "asfalto",
+      "esteira"
     ],
     "distancia": [
       "curta",
@@ -4240,7 +4313,8 @@ var SHOES = [
       "pronada"
     ],
     "terreno": [
-      "asfalto"
+      "asfalto",
+      "esteira"
     ],
     "distancia": [
       "curta",
@@ -4282,7 +4356,8 @@ var SHOES = [
       "pronada"
     ],
     "terreno": [
-      "asfalto"
+      "asfalto",
+      "esteira"
     ],
     "distancia": [
       "curta",
@@ -4324,7 +4399,8 @@ var SHOES = [
       "pronada"
     ],
     "terreno": [
-      "asfalto"
+      "asfalto",
+      "esteira"
     ],
     "distancia": [
       "curta",
@@ -4366,7 +4442,8 @@ var SHOES = [
       "pronada"
     ],
     "terreno": [
-      "asfalto"
+      "asfalto",
+      "esteira"
     ],
     "distancia": [
       "curta",
@@ -4408,7 +4485,8 @@ var SHOES = [
     ],
     "terreno": [
       "trilha",
-      "mista"
+      "mista",
+      "esteira"
     ],
     "distancia": [
       "curta",
@@ -4490,7 +4568,8 @@ var SHOES = [
     ],
     "terreno": [
       "asfalto",
-      "pista"
+      "pista",
+      "esteira"
     ],
     "distancia": [
       "curta",
@@ -4531,7 +4610,8 @@ var SHOES = [
     ],
     "terreno": [
       "asfalto",
-      "pista"
+      "pista",
+      "esteira"
     ],
     "distancia": [
       "curta",

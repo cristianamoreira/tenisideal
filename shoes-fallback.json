@@ -19,7 +19,8 @@
     "terreno": [
       "asfalto",
       "pista",
-      "mista"
+      "mista",
+      "esteira"
     ],
     "distancia": [
       "curta",
@@ -66,7 +67,8 @@
     "terreno": [
       "asfalto",
       "pista",
-      "mista"
+      "mista",
+      "esteira"
     ],
     "distancia": [
       "curta",
@@ -113,7 +115,8 @@
     "terreno": [
       "asfalto",
       "pista",
-      "mista"
+      "mista",
+      "esteira"
     ],
     "distancia": [
       "curta",
@@ -160,7 +163,8 @@
     "terreno": [
       "asfalto",
       "pista",
-      "mista"
+      "mista",
+      "esteira"
     ],
     "distancia": [
       "curta",
@@ -208,7 +212,8 @@
     "terreno": [
       "asfalto",
       "pista",
-      "mista"
+      "mista",
+      "esteira"
     ],
     "distancia": [
       "curta",
@@ -252,7 +257,8 @@
     "terreno": [
       "asfalto",
       "pista",
-      "mista"
+      "mista",
+      "esteira"
     ],
     "distancia": [
       "curta",
@@ -300,7 +306,8 @@
     "terreno": [
       "asfalto",
       "pista",
-      "mista"
+      "mista",
+      "esteira"
     ],
     "distancia": [
       "curta",
@@ -348,7 +355,8 @@
     "terreno": [
       "asfalto",
       "pista",
-      "mista"
+      "mista",
+      "esteira"
     ],
     "distancia": [
       "curta",
@@ -393,7 +401,8 @@
       "neutra"
     ],
     "terreno": [
-      "asfalto"
+      "asfalto",
+      "esteira"
     ],
     "distancia": [
       "curta",
@@ -442,7 +451,8 @@
     "terreno": [
       "asfalto",
       "trilha",
-      "mista"
+      "mista",
+      "esteira"
     ],
     "distancia": [
       "curta",
@@ -490,7 +500,8 @@
     "terreno": [
       "asfalto",
       "trilha",
-      "mista"
+      "mista",
+      "esteira"
     ],
     "distancia": [
       "curta",
@@ -533,7 +544,8 @@
     "terreno": [
       "asfalto",
       "trilha",
-      "mista"
+      "mista",
+      "esteira"
     ],
     "distancia": [
       "curta",
@@ -576,7 +588,8 @@
     "terreno": [
       "asfalto",
       "trilha",
-      "mista"
+      "mista",
+      "esteira"
     ],
     "distancia": [
       "curta",
@@ -619,7 +632,8 @@
     "terreno": [
       "asfalto",
       "trilha",
-      "mista"
+      "mista",
+      "esteira"
     ],
     "distancia": [
       "curta",
@@ -662,7 +676,8 @@
     "terreno": [
       "asfalto",
       "trilha",
-      "mista"
+      "mista",
+      "esteira"
     ],
     "distancia": [
       "curta",
@@ -705,7 +720,8 @@
     "terreno": [
       "asfalto",
       "trilha",
-      "mista"
+      "mista",
+      "esteira"
     ],
     "distancia": [
       "curta",
@@ -749,7 +765,8 @@
     "terreno": [
       "asfalto",
       "trilha",
-      "mista"
+      "mista",
+      "esteira"
     ],
     "distancia": [
       "curta",
@@ -793,7 +810,8 @@
     "terreno": [
       "asfalto",
       "trilha",
-      "mista"
+      "mista",
+      "esteira"
     ],
     "distancia": [
       "curta",
@@ -836,7 +854,8 @@
     "terreno": [
       "asfalto",
       "trilha",
-      "mista"
+      "mista",
+      "esteira"
     ],
     "distancia": [
       "curta",
@@ -877,7 +896,8 @@
     ],
     "terreno": [
       "asfalto",
-      "pista"
+      "pista",
+      "esteira"
     ],
     "distancia": [
       "curta",
@@ -917,7 +937,8 @@
     ],
     "terreno": [
       "asfalto",
-      "pista"
+      "pista",
+      "esteira"
     ],
     "distancia": [
       "curta",
@@ -957,7 +978,8 @@
     ],
     "terreno": [
       "asfalto",
-      "pista"
+      "pista",
+      "esteira"
     ],
     "distancia": [
       "curta",
@@ -997,7 +1019,8 @@
     ],
     "terreno": [
       "asfalto",
-      "pista"
+      "pista",
+      "esteira"
     ],
     "distancia": [
       "curta",
@@ -1036,7 +1059,8 @@
       "neutra"
     ],
     "terreno": [
-      "asfalto"
+      "asfalto",
+      "esteira"
     ],
     "distancia": [
       "curta",
@@ -1241,7 +1265,8 @@
     ],
     "terreno": [
       "asfalto",
-      "trilha"
+      "trilha",
+      "esteira"
     ],
     "distancia": [
       "curta",
@@ -1283,7 +1308,8 @@
     ],
     "terreno": [
       "asfalto",
-      "trilha"
+      "trilha",
+      "esteira"
     ],
     "distancia": [
       "curta",
@@ -1325,7 +1351,8 @@
     ],
     "terreno": [
       "asfalto",
-      "trilha"
+      "trilha",
+      "esteira"
     ],
     "distancia": [
       "curta",
@@ -1367,7 +1394,8 @@
     ],
     "terreno": [
       "asfalto",
-      "trilha"
+      "trilha",
+      "esteira"
     ],
     "distancia": [
       "curta",
@@ -1407,7 +1435,8 @@
     ],
     "terreno": [
       "asfalto",
-      "trilha"
+      "trilha",
+      "esteira"
     ],
     "distancia": [
       "curta",
@@ -1447,7 +1476,8 @@
     ],
     "terreno": [
       "asfalto",
-      "trilha"
+      "trilha",
+      "esteira"
     ],
     "distancia": [
       "curta",
@@ -1489,7 +1519,8 @@
     "terreno": [
       "asfalto",
       "trilha",
-      "mista"
+      "mista",
+      "esteira"
     ],
     "distancia": [
       "curta",
@@ -1536,7 +1567,8 @@
     "terreno": [
       "asfalto",
       "trilha",
-      "mista"
+      "mista",
+      "esteira"
     ],
     "distancia": [
       "curta",
@@ -1584,7 +1616,8 @@
     "terreno": [
       "asfalto",
       "trilha",
-      "mista"
+      "mista",
+      "esteira"
     ],
     "distancia": [
       "curta",
@@ -1631,7 +1664,8 @@
     "terreno": [
       "asfalto",
       "trilha",
-      "mista"
+      "mista",
+      "esteira"
     ],
     "distancia": [
       "curta",
@@ -1679,7 +1713,8 @@
     "terreno": [
       "asfalto",
       "trilha",
-      "mista"
+      "mista",
+      "esteira"
     ],
     "distancia": [
       "curta",
@@ -1727,7 +1762,8 @@
     "terreno": [
       "asfalto",
       "trilha",
-      "mista"
+      "mista",
+      "esteira"
     ],
     "distancia": [
       "curta",
@@ -1775,7 +1811,8 @@
     "terreno": [
       "asfalto",
       "trilha",
-      "mista"
+      "mista",
+      "esteira"
     ],
     "distancia": [
       "curta",
@@ -1823,7 +1860,8 @@
     "terreno": [
       "asfalto",
       "trilha",
-      "mista"
+      "mista",
+      "esteira"
     ],
     "distancia": [
       "curta",
@@ -1866,7 +1904,8 @@
     "terreno": [
       "asfalto",
       "trilha",
-      "mista"
+      "mista",
+      "esteira"
     ],
     "distancia": [
       "curta",
@@ -1919,7 +1958,8 @@
     "terreno": [
       "asfalto",
       "trilha",
-      "mista"
+      "mista",
+      "esteira"
     ],
     "distancia": [
       "curta",
@@ -1967,7 +2007,8 @@
     "terreno": [
       "asfalto",
       "trilha",
-      "mista"
+      "mista",
+      "esteira"
     ],
     "distancia": [
       "curta",
@@ -2015,7 +2056,8 @@
     "terreno": [
       "asfalto",
       "trilha",
-      "mista"
+      "mista",
+      "esteira"
     ],
     "distancia": [
       "curta",
@@ -2063,7 +2105,8 @@
     "terreno": [
       "asfalto",
       "trilha",
-      "mista"
+      "mista",
+      "esteira"
     ],
     "distancia": [
       "curta",
@@ -2111,7 +2154,8 @@
     "terreno": [
       "asfalto",
       "trilha",
-      "mista"
+      "mista",
+      "esteira"
     ],
     "distancia": [
       "curta",
@@ -2510,7 +2554,8 @@
     "terreno": [
       "asfalto",
       "pista",
-      "mista"
+      "mista",
+      "esteira"
     ],
     "distancia": [
       "curta",
@@ -2556,7 +2601,8 @@
     "terreno": [
       "asfalto",
       "pista",
-      "mista"
+      "mista",
+      "esteira"
     ],
     "distancia": [
       "curta",
@@ -2602,7 +2648,8 @@
     "terreno": [
       "asfalto",
       "pista",
-      "mista"
+      "mista",
+      "esteira"
     ],
     "distancia": [
       "curta",
@@ -2646,7 +2693,8 @@
     "terreno": [
       "asfalto",
       "pista",
-      "mista"
+      "mista",
+      "esteira"
     ],
     "distancia": [
       "curta",
@@ -2694,7 +2742,8 @@
     "terreno": [
       "asfalto",
       "pista",
-      "mista"
+      "mista",
+      "esteira"
     ],
     "distancia": [
       "curta",
@@ -2740,7 +2789,8 @@
     "terreno": [
       "asfalto",
       "pista",
-      "mista"
+      "mista",
+      "esteira"
     ],
     "distancia": [
       "curta",
@@ -2786,7 +2836,8 @@
     "terreno": [
       "asfalto",
       "pista",
-      "mista"
+      "mista",
+      "esteira"
     ],
     "distancia": [
       "curta",
@@ -2832,7 +2883,8 @@
     "terreno": [
       "asfalto",
       "pista",
-      "mista"
+      "mista",
+      "esteira"
     ],
     "distancia": [
       "curta",
@@ -2878,7 +2930,8 @@
     "terreno": [
       "asfalto",
       "pista",
-      "mista"
+      "mista",
+      "esteira"
     ],
     "distancia": [
       "curta",
@@ -2924,7 +2977,8 @@
     "terreno": [
       "asfalto",
       "pista",
-      "mista"
+      "mista",
+      "esteira"
     ],
     "distancia": [
       "curta",
@@ -2970,7 +3024,8 @@
     "terreno": [
       "asfalto",
       "pista",
-      "mista"
+      "mista",
+      "esteira"
     ],
     "distancia": [
       "curta",
@@ -3016,7 +3071,8 @@
     "terreno": [
       "asfalto",
       "pista",
-      "mista"
+      "mista",
+      "esteira"
     ],
     "distancia": [
       "curta",
@@ -3062,7 +3118,8 @@
     "terreno": [
       "asfalto",
       "pista",
-      "mista"
+      "mista",
+      "esteira"
     ],
     "distancia": [
       "curta",
@@ -3108,7 +3165,8 @@
     "terreno": [
       "asfalto",
       "pista",
-      "mista"
+      "mista",
+      "esteira"
     ],
     "distancia": [
       "curta",
@@ -3154,7 +3212,8 @@
     "terreno": [
       "asfalto",
       "pista",
-      "mista"
+      "mista",
+      "esteira"
     ],
     "distancia": [
       "curta",
@@ -3200,7 +3259,8 @@
     "terreno": [
       "asfalto",
       "pista",
-      "mista"
+      "mista",
+      "esteira"
     ],
     "distancia": [
       "curta",
@@ -3246,7 +3306,8 @@
     "terreno": [
       "asfalto",
       "pista",
-      "mista"
+      "mista",
+      "esteira"
     ],
     "distancia": [
       "curta",
@@ -3292,7 +3353,8 @@
     "terreno": [
       "asfalto",
       "pista",
-      "mista"
+      "mista",
+      "esteira"
     ],
     "distancia": [
       "curta",
@@ -3338,7 +3400,8 @@
     "terreno": [
       "asfalto",
       "pista",
-      "mista"
+      "mista",
+      "esteira"
     ],
     "distancia": [
       "curta",
@@ -3384,7 +3447,8 @@
     "terreno": [
       "asfalto",
       "pista",
-      "mista"
+      "mista",
+      "esteira"
     ],
     "distancia": [
       "curta",
@@ -3430,7 +3494,8 @@
     "terreno": [
       "asfalto",
       "pista",
-      "mista"
+      "mista",
+      "esteira"
     ],
     "distancia": [
       "curta",
@@ -3476,7 +3541,8 @@
     "terreno": [
       "asfalto",
       "pista",
-      "mista"
+      "mista",
+      "esteira"
     ],
     "distancia": [
       "curta",
@@ -3522,7 +3588,8 @@
     "terreno": [
       "asfalto",
       "pista",
-      "mista"
+      "mista",
+      "esteira"
     ],
     "distancia": [
       "curta",
@@ -3562,7 +3629,8 @@
       "neutra"
     ],
     "terreno": [
-      "mista"
+      "mista",
+      "esteira"
     ],
     "distancia": [
       "curta",
@@ -3611,7 +3679,8 @@
       "neutra"
     ],
     "terreno": [
-      "asfalto"
+      "asfalto",
+      "esteira"
     ],
     "distancia": [
       "curta",
@@ -3899,7 +3968,8 @@
       "neutra"
     ],
     "terreno": [
-      "mista"
+      "mista",
+      "esteira"
     ],
     "distancia": [
       "curta",
@@ -4116,7 +4186,8 @@
     ],
     "terreno": [
       "trilha",
-      "mista"
+      "mista",
+      "esteira"
     ],
     "distancia": [
       "curta",
@@ -4156,7 +4227,8 @@
       "pronada"
     ],
     "terreno": [
-      "asfalto"
+      "asfalto",
+      "esteira"
     ],
     "distancia": [
       "curta",
@@ -4197,7 +4269,8 @@
       "pronada"
     ],
     "terreno": [
-      "asfalto"
+      "asfalto",
+      "esteira"
     ],
     "distancia": [
       "curta",
@@ -4239,7 +4312,8 @@
       "pronada"
     ],
     "terreno": [
-      "asfalto"
+      "asfalto",
+      "esteira"
     ],
     "distancia": [
       "curta",
@@ -4281,7 +4355,8 @@
       "pronada"
     ],
     "terreno": [
-      "asfalto"
+      "asfalto",
+      "esteira"
     ],
     "distancia": [
       "curta",
@@ -4323,7 +4398,8 @@
       "pronada"
     ],
     "terreno": [
-      "asfalto"
+      "asfalto",
+      "esteira"
     ],
     "distancia": [
       "curta",
@@ -4365,7 +4441,8 @@
       "pronada"
     ],
     "terreno": [
-      "asfalto"
+      "asfalto",
+      "esteira"
     ],
     "distancia": [
       "curta",
@@ -4407,7 +4484,8 @@
     ],
     "terreno": [
       "trilha",
-      "mista"
+      "mista",
+      "esteira"
     ],
     "distancia": [
       "curta",
@@ -4489,7 +4567,8 @@
     ],
     "terreno": [
       "asfalto",
-      "pista"
+      "pista",
+      "esteira"
     ],
     "distancia": [
       "curta",
@@ -4530,7 +4609,8 @@
     ],
     "terreno": [
       "asfalto",
-      "pista"
+      "pista",
+      "esteira"
     ],
     "distancia": [
       "curta",
