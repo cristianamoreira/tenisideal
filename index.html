@@ -3299,6 +3299,14 @@
         if (typeof gtag !== 'undefined') gtag('event', 'quiz_completed');
         if (typeof ttq !== 'undefined') ttq.track('CompleteRegistration', { content_name: 'quiz_completed' });
         var tops = getTop3();
+
+        // DEBUG
+        console.log('🎯 DEBUG - Tops encontrados:', tops);
+        console.log('SHOES carregado?', typeof SHOES !== 'undefined' ? SHOES.length + ' produtos' : 'NÃO CARREGADO');
+        if (tops && tops.length > 0) {
+          console.log('Primeiro top - affiliate_links:', tops[0].sh.affiliate_links);
+        }
+
         // Guarda o tênis #1 para usar no submitEmail
         window._topTenis = (tops && tops.length > 0) ? tops[0].sh : null;
 
