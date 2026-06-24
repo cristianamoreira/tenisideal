@@ -956,7 +956,13 @@ var SHOES = [
       "longa"
     ],
     "photo": "https://m.media-amazon.com/images/I/81FrDKqWbIL._AC_SY500_.jpg",
-    "affiliate_links": {},
+    "affiliate_links": {
+      "oficial": {
+        "url": "https://www.awin1.com/cread.php?awinmid=15503&awinaffid=2800712&clickref=tenisideal_22&p=[[Ghost 14 Neutral]]",
+        "store": "BROOKS",
+        "label": "COMPRAR NA BROOKS"
+      }
+    },
     "tags": [
       "Amortecimento",
       "Durabilidade",
@@ -989,7 +995,13 @@ var SHOES = [
       "longa"
     ],
     "photo": "https://static.netshoes.com.br/produtos/tenis-fila-speed-lite-masculino/38/SFK-06IV-038/SFK-06IV-038_detalhe1.jpg?ts=1781150133",
-    "affiliate_links": {},
+    "affiliate_links": {
+      "oficial": {
+        "url": "https://www.awin1.com/cread.php?awinmid=15503&awinaffid=2800712&clickref=tenisideal_23&p=[[Fila Speed Lite ]]",
+        "store": "FILA",
+        "label": "COMPRAR NA FILA"
+      }
+    },
     "tags": [
       "Training",
       "Estabilidade"
@@ -1027,7 +1039,13 @@ var SHOES = [
       "longa"
     ],
     "photo": "https://m.media-amazon.com/images/I/51DEAqmvGdL._AC_SY625_.jpg",
-    "affiliate_links": {},
+    "affiliate_links": {
+      "oficial": {
+        "url": "https://www.awin1.com/cread.php?awinmid=15503&awinaffid=2800712&clickref=tenisideal_24&p=[[Float Maxxi]]",
+        "store": "FILA",
+        "label": "COMPRAR NA FILA"
+      }
+    },
     "tags": [
       "Amortecimento",
       "Corrida"
@@ -1065,7 +1083,13 @@ var SHOES = [
       "longa"
     ],
     "photo": "https://m.media-amazon.com/images/I/517Z6pntJHL._AC_SY625_.jpg",
-    "affiliate_links": {},
+    "affiliate_links": {
+      "oficial": {
+        "url": "https://www.awin1.com/cread.php?awinmid=15503&awinaffid=2800712&clickref=tenisideal_25&p=[[Racer Fastpace]]",
+        "store": "FILA",
+        "label": "COMPRAR NA FILA"
+      }
+    },
     "tags": [
       "Amortecimento",
       "Durabilidade"
@@ -1103,7 +1127,13 @@ var SHOES = [
       "longa"
     ],
     "photo": "https://m.media-amazon.com/images/I/61rKjTIK4SL._AC_SY625_.jpg",
-    "affiliate_links": {},
+    "affiliate_links": {
+      "oficial": {
+        "url": "https://www.awin1.com/cread.php?awinmid=15503&awinaffid=2800712&clickref=tenisideal_26&p=[[Racer Comet]]",
+        "store": "FILA",
+        "label": "COMPRAR NA FILA"
+      }
+    },
     "tags": [
       "Amortecimento",
       "Estabilidade"
@@ -1141,7 +1171,13 @@ var SHOES = [
       "longa"
     ],
     "photo": "https://m.media-amazon.com/images/I/51Y79XZ2xcL._AC_SY500_.jpg",
-    "affiliate_links": {},
+    "affiliate_links": {
+      "oficial": {
+        "url": "https://www.awin1.com/cread.php?awinmid=15503&awinaffid=2800712&clickref=tenisideal_27&p=[[Recovery]]",
+        "store": "FILA",
+        "label": "COMPRAR NA FILA"
+      }
+    },
     "tags": [
       "Amortecimento",
       "Estabilidade"
@@ -1175,7 +1211,13 @@ var SHOES = [
       "longa"
     ],
     "photo": "https://m.media-amazon.com/images/I/610N9clHcfL._AC_SY695_.jpg",
-    "affiliate_links": {},
+    "affiliate_links": {
+      "oficial": {
+        "url": "https://www.awin1.com/cread.php?awinmid=15503&awinaffid=2800712&clickref=tenisideal_28&p=[[Hoka Clifton 10]]",
+        "store": "HOKA",
+        "label": "COMPRAR NA HOKA"
+      }
+    },
     "tags": [
       "Amortecimento",
       "Treino diário",
@@ -1211,7 +1253,13 @@ var SHOES = [
       "longa"
     ],
     "photo": "https://m.media-amazon.com/images/I/51bXQrff2ZL._AC_SY500_.jpg",
-    "affiliate_links": {},
+    "affiliate_links": {
+      "oficial": {
+        "url": "https://www.awin1.com/cread.php?awinmid=15503&awinaffid=2800712&clickref=tenisideal_29&p=[[Hoka Clifton 10]]",
+        "store": "HOKA",
+        "label": "COMPRAR NA HOKA"
+      }
+    },
     "tags": [
       "Amortecimento",
       "Treino diário",
@@ -1247,7 +1295,13 @@ var SHOES = [
       "longa"
     ],
     "photo": "https://m.media-amazon.com/images/I/61FlAJi0tsL._AC_SY500_.jpg",
-    "affiliate_links": {},
+    "affiliate_links": {
+      "oficial": {
+        "url": "https://www.awin1.com/cread.php?awinmid=15503&awinaffid=2800712&clickref=tenisideal_30&p=[[Hoka Rocket X 3]]",
+        "store": "HOKA",
+        "label": "COMPRAR NA HOKA"
+      }
+    },
     "tags": [
       "Carbono",
       "Maratona",
@@ -1283,7 +1337,13 @@ var SHOES = [
       "longa"
     ],
     "photo": "https://images-na.ssl-images-amazon.com/images/I/61Gkm+6EdqL.jpg",
-    "affiliate_links": {},
+    "affiliate_links": {
+      "oficial": {
+        "url": "https://www.awin1.com/cread.php?awinmid=15503&awinaffid=2800712&clickref=tenisideal_31&p=[[Clifton 9]]",
+        "store": "HOKA",
+        "label": "COMPRAR NA HOKA"
+      }
+    },
     "tags": [
       "Maxi-Soft",
       "Leve"
@@ -1317,7 +1377,13 @@ var SHOES = [
       "longa"
     ],
     "photo": "https://m.media-amazon.com/images/I/61IG0fi5z+L._AC_SY500_.jpg",
-    "affiliate_links": {},
+    "affiliate_links": {
+      "oficial": {
+        "url": "https://www.awin1.com/cread.php?awinmid=15503&awinaffid=2800712&clickref=tenisideal_32&p=[[Clifton 9]]",
+        "store": "HOKA",
+        "label": "COMPRAR NA HOKA"
+      }
+    },
     "tags": [
       "Maxi-Soft",
       "Leve"
@@ -1351,7 +1417,13 @@ var SHOES = [
       "longa"
     ],
     "photo": "https://images-na.ssl-images-amazon.com/images/I/71pT4bBn39L.jpg",
-    "affiliate_links": {},
+    "affiliate_links": {
+      "oficial": {
+        "url": "https://www.awin1.com/cread.php?awinmid=15503&awinaffid=2800712&clickref=tenisideal_33&p=[[Speedgoat 6]]",
+        "store": "HOKA",
+        "label": "COMPRAR NA HOKA"
+      }
+    },
     "tags": [
       "Ultra Trail",
       "Conforto"
@@ -1678,7 +1750,13 @@ var SHOES = [
       "longa"
     ],
     "photo": "https://m.media-amazon.com/images/I/71pGo9F0wnL._AC_SY500_.jpg",
-    "affiliate_links": {},
+    "affiliate_links": {
+      "oficial": {
+        "url": "https://www.awin1.com/cread.php?awinmid=15503&awinaffid=2800712&clickref=tenisideal_41&p=[[Neo Zen]]",
+        "store": "MIZUNO",
+        "label": "COMPRAR NA MIZUNO"
+      }
+    },
     "tags": [
       "Amortecimento",
       "Leveza",
@@ -1965,7 +2043,13 @@ var SHOES = [
       "longa"
     ],
     "photo": "https://m.media-amazon.com/images/I/51Z+ohQHSIL._AC_SY625_.jpg",
-    "affiliate_links": {},
+    "affiliate_links": {
+      "oficial": {
+        "url": "https://www.awin1.com/cread.php?awinmid=15503&awinaffid=2800712&clickref=tenisideal_48&p=[[Fresh Foam X 1080 V14]]",
+        "store": "NEW BALANCE",
+        "label": "COMPRAR NA NEW BALANCE"
+      }
+    },
     "tags": [
       "Amortecimento",
       "Conforto"
@@ -1999,7 +2083,13 @@ var SHOES = [
       "longa"
     ],
     "photo": "https://m.media-amazon.com/images/I/71umOc7Na8L._AC_SY500_.jpg",
-    "affiliate_links": {},
+    "affiliate_links": {
+      "oficial": {
+        "url": "https://www.awin1.com/cread.php?awinmid=15503&awinaffid=2800712&clickref=tenisideal_49&p=[[530]]",
+        "store": "NEW BALANCE",
+        "label": "COMPRAR NA NEW BALANCE"
+      }
+    },
     "tags": [
       "Amortecimento",
       "Estilo",
@@ -2034,7 +2124,13 @@ var SHOES = [
       "longa"
     ],
     "photo": "https://m.media-amazon.com/images/I/61FYoxCE8OL._AC_SY500_.jpg",
-    "affiliate_links": {},
+    "affiliate_links": {
+      "oficial": {
+        "url": "https://www.awin1.com/cread.php?awinmid=15503&awinaffid=2800712&clickref=tenisideal_50&p=[[1080 v15]]",
+        "store": "NEW BALANCE",
+        "label": "COMPRAR NA NEW BALANCE"
+      }
+    },
     "tags": [
       "Amortecimento",
       "Treino diário",
@@ -2070,7 +2166,13 @@ var SHOES = [
       "longa"
     ],
     "photo": "https://m.media-amazon.com/images/I/81wTUqT6pWL._AC_SX500_.jpg",
-    "affiliate_links": {},
+    "affiliate_links": {
+      "oficial": {
+        "url": "https://www.awin1.com/cread.php?awinmid=15503&awinaffid=2800712&clickref=tenisideal_51&p=[[1080 v15]]",
+        "store": "NEW BALANCE",
+        "label": "COMPRAR NA NEW BALANCE"
+      }
+    },
     "tags": [
       "Amortecimento",
       "Treino diário",
@@ -2106,7 +2208,13 @@ var SHOES = [
       "longa"
     ],
     "photo": "https://m.media-amazon.com/images/I/71q16VFjN9L._AC_SX500_.jpg",
-    "affiliate_links": {},
+    "affiliate_links": {
+      "oficial": {
+        "url": "https://www.awin1.com/cread.php?awinmid=15503&awinaffid=2800712&clickref=tenisideal_52&p=[[FuelCell SuperComp Elite v5]]",
+        "store": "NEW BALANCE",
+        "label": "COMPRAR NA NEW BALANCE"
+      }
+    },
     "tags": [
       "Carbono",
       "Maratona",
@@ -2142,7 +2250,13 @@ var SHOES = [
       "longa"
     ],
     "photo": "https://m.media-amazon.com/images/I/51jw--PJVpL._AC_SY500_.jpg",
-    "affiliate_links": {},
+    "affiliate_links": {
+      "oficial": {
+        "url": "https://www.awin1.com/cread.php?awinmid=15503&awinaffid=2800712&clickref=tenisideal_53&p=[[Fresh Foam X Hierro v8]]",
+        "store": "NEW BALANCE",
+        "label": "COMPRAR NA NEW BALANCE"
+      }
+    },
     "tags": [
       "Trilha",
       "Amortecimento",
@@ -2178,7 +2292,13 @@ var SHOES = [
       "longa"
     ],
     "photo": "https://m.media-amazon.com/images/I/71+9s4rDg-L._AC_SY500_.jpg",
-    "affiliate_links": {},
+    "affiliate_links": {
+      "oficial": {
+        "url": "https://www.awin1.com/cread.php?awinmid=15503&awinaffid=2800712&clickref=tenisideal_54&p=[[New Balance Rebel v5]]",
+        "store": "NEW BALANCE",
+        "label": "COMPRAR NA NEW BALANCE"
+      }
+    },
     "tags": [
       "Leveza",
       "Rápido",
@@ -2214,7 +2334,13 @@ var SHOES = [
       "longa"
     ],
     "photo": "https://m.media-amazon.com/images/I/61YvL0uMf7L._AC_SY500_.jpg",
-    "affiliate_links": {},
+    "affiliate_links": {
+      "oficial": {
+        "url": "https://www.awin1.com/cread.php?awinmid=15503&awinaffid=2800712&clickref=tenisideal_55&p=[[New Balance Rebel v5]]",
+        "store": "NEW BALANCE",
+        "label": "COMPRAR NA NEW BALANCE"
+      }
+    },
     "tags": [
       "Leveza",
       "Rápido",
@@ -2336,7 +2462,13 @@ var SHOES = [
       "longa"
     ],
     "photo": "https://images-na.ssl-images-amazon.com/images/I/61jBJ9a4NJL.jpg",
-    "affiliate_links": {},
+    "affiliate_links": {
+      "oficial": {
+        "url": "https://www.awin1.com/cread.php?awinmid=15576&awinaffid=2800712&clickref=tenisideal_58&p=[[ZoomX Ultrafly Trail]]",
+        "store": "NIKE",
+        "label": "COMPRAR NA NIKE"
+      }
+    },
     "tags": [
       "Trail",
       "Carbono"
@@ -3270,7 +3402,13 @@ var SHOES = [
       "longa"
     ],
     "photo": "https://m.media-amazon.com/images/I/61jqkYeBlqL._AC_SY500_.jpg",
-    "affiliate_links": {},
+    "affiliate_links": {
+      "oficial": {
+        "url": "https://www.awin1.com/cread.php?awinmid=15503&awinaffid=2800712&clickref=tenisideal_81&p=[[Pride]]",
+        "store": "OLYMPIKUS",
+        "label": "COMPRAR NA OLYMPIKUS"
+      }
+    },
     "tags": [
       "Nacional",
       "Acessível"
@@ -3308,7 +3446,13 @@ var SHOES = [
       "longa"
     ],
     "photo": "https://m.media-amazon.com/images/I/51WUvXlRWbL._AC_SX679_.jpg",
-    "affiliate_links": {},
+    "affiliate_links": {
+      "oficial": {
+        "url": "https://www.awin1.com/cread.php?awinmid=15503&awinaffid=2800712&clickref=tenisideal_82&p=[[Challenger]]",
+        "store": "OLYMPIKUS",
+        "label": "COMPRAR NA OLYMPIKUS"
+      }
+    },
     "tags": [
       "Amortecimento",
       "Custo-benefício"
@@ -3346,7 +3490,13 @@ var SHOES = [
       "longa"
     ],
     "photo": "https://m.media-amazon.com/images/I/51bmHlqn4bL._AC_SX679_.jpg",
-    "affiliate_links": {},
+    "affiliate_links": {
+      "oficial": {
+        "url": "https://www.awin1.com/cread.php?awinmid=15503&awinaffid=2800712&clickref=tenisideal_83&p=[[Orbita]]",
+        "store": "OLYMPIKUS",
+        "label": "COMPRAR NA OLYMPIKUS"
+      }
+    },
     "tags": [
       "Leveza",
       "Versatilidade"
@@ -3384,7 +3534,13 @@ var SHOES = [
       "longa"
     ],
     "photo": "https://m.media-amazon.com/images/I/519-VwNeLGL._AC_SY625_.jpg",
-    "affiliate_links": {},
+    "affiliate_links": {
+      "oficial": {
+        "url": "https://www.awin1.com/cread.php?awinmid=15503&awinaffid=2800712&clickref=tenisideal_84&p=[[Essential]]",
+        "store": "OLYMPIKUS",
+        "label": "COMPRAR NA OLYMPIKUS"
+      }
+    },
     "tags": [
       "Amortecimento",
       "Leveza",
@@ -3423,7 +3579,13 @@ var SHOES = [
       "longa"
     ],
     "photo": "https://m.media-amazon.com/images/I/519Fz1ewJdL._AC_SX679_.jpg",
-    "affiliate_links": {},
+    "affiliate_links": {
+      "oficial": {
+        "url": "https://www.awin1.com/cread.php?awinmid=15503&awinaffid=2800712&clickref=tenisideal_85&p=[[Challenger 5]]",
+        "store": "OLYMPIKUS",
+        "label": "COMPRAR NA OLYMPIKUS"
+      }
+    },
     "tags": [
       "Amortecimento",
       "Custo-benefício",
@@ -3546,7 +3708,13 @@ var SHOES = [
       "longa"
     ],
     "photo": "https://m.media-amazon.com/images/I/61Rx2TlzVUL._AC_SY500_.jpg",
-    "affiliate_links": {},
+    "affiliate_links": {
+      "oficial": {
+        "url": "https://www.awin1.com/cread.php?awinmid=15503&awinaffid=2800712&clickref=tenisideal_88&p=[[Rua]]",
+        "store": "OLYMPIKUS",
+        "label": "COMPRAR NA OLYMPIKUS"
+      }
+    },
     "tags": [
       "Leve",
       "Conforto",
@@ -3677,7 +3845,13 @@ var SHOES = [
       "longa"
     ],
     "photo": "",
-    "affiliate_links": {},
+    "affiliate_links": {
+      "oficial": {
+        "url": "https://www.awin1.com/cread.php?awinmid=15503&awinaffid=2800712&clickref=tenisideal_91&p=[[Olympikus Corre Trilha]]",
+        "store": "OLYMPIKUS",
+        "label": "COMPRAR NA OLYMPIKUS"
+      }
+    },
     "tags": [],
     "description": "https://amazon.com.br/s?k=Olympikus%20Corre%20Trilha&tag=tenisideal26-20",
     "reason": "https://amazon.com.br/s?k=Olympikus%20Corre%20Trilha&tag=tenisideal26-20"
@@ -3712,7 +3886,13 @@ var SHOES = [
       "longa"
     ],
     "photo": "https://images-na.ssl-images-amazon.com/images/I/51gcZC19IXL.jpg",
-    "affiliate_links": {},
+    "affiliate_links": {
+      "oficial": {
+        "url": "https://www.awin1.com/cread.php?awinmid=15503&awinaffid=2800712&clickref=tenisideal_92&p=[[Ultra Glide 2]]",
+        "store": "SALOMON",
+        "label": "COMPRAR NA SALOMON"
+      }
+    },
     "tags": [
       "Trail",
       "Conforto"
@@ -3746,7 +3926,13 @@ var SHOES = [
       "longa"
     ],
     "photo": "https://m.media-amazon.com/images/I/61HHqi-wpuL._AC_SY500_.jpg",
-    "affiliate_links": {},
+    "affiliate_links": {
+      "oficial": {
+        "url": "https://www.awin1.com/cread.php?awinmid=15503&awinaffid=2800712&clickref=tenisideal_93&p=[[Endorphin Speed 4]]",
+        "store": "SAUCONY",
+        "label": "COMPRAR NA SAUCONY"
+      }
+    },
     "tags": [
       "Carbono",
       "Velocidade"
@@ -3781,7 +3967,13 @@ var SHOES = [
       "longa"
     ],
     "photo": "https://m.media-amazon.com/images/I/71NTdjs6iVL._AC_SY500_.jpg",
-    "affiliate_links": {},
+    "affiliate_links": {
+      "oficial": {
+        "url": "https://www.awin1.com/cread.php?awinmid=15503&awinaffid=2800712&clickref=tenisideal_94&p=[[Saucony Endorphin Pro 4]]",
+        "store": "SAUCONY",
+        "label": "COMPRAR NA SAUCONY"
+      }
+    },
     "tags": [
       "Carbono",
       "Maratona",
@@ -3817,7 +4009,13 @@ var SHOES = [
       "longa"
     ],
     "photo": "https://m.media-amazon.com/images/I/71Kn-Dm570L._AC_SY500_.jpg",
-    "affiliate_links": {},
+    "affiliate_links": {
+      "oficial": {
+        "url": "https://www.awin1.com/cread.php?awinmid=15503&awinaffid=2800712&clickref=tenisideal_95&p=[[Saucony Endorphin Speed 5]]",
+        "store": "SAUCONY",
+        "label": "COMPRAR NA SAUCONY"
+      }
+    },
     "tags": [
       "Nylon plate",
       "Treino rápido",
@@ -3853,7 +4051,13 @@ var SHOES = [
       "longa"
     ],
     "photo": "https://m.media-amazon.com/images/I/81oEoDyhA+L._AC_SY500_.jpg",
-    "affiliate_links": {},
+    "affiliate_links": {
+      "oficial": {
+        "url": "https://www.awin1.com/cread.php?awinmid=15503&awinaffid=2800712&clickref=tenisideal_96&p=[[Saucony Triumph 23]]",
+        "store": "SAUCONY",
+        "label": "COMPRAR NA SAUCONY"
+      }
+    },
     "tags": [
       "Amortecimento",
       "Treino longo",
@@ -3889,7 +4093,13 @@ var SHOES = [
       "longa"
     ],
     "photo": "https://m.media-amazon.com/images/I/81e9TDaRR5L._AC_SY500_.jpg",
-    "affiliate_links": {},
+    "affiliate_links": {
+      "oficial": {
+        "url": "https://www.awin1.com/cread.php?awinmid=15503&awinaffid=2800712&clickref=tenisideal_97&p=[[Saucony Peregrine 15]]",
+        "store": "SAUCONY",
+        "label": "COMPRAR NA SAUCONY"
+      }
+    },
     "tags": [
       "Trail",
       "Versátil",
@@ -3925,7 +4135,13 @@ var SHOES = [
       "longa"
     ],
     "photo": "https://m.media-amazon.com/images/I/71il-oCGRXL._AC_SY500_.jpg",
-    "affiliate_links": {},
+    "affiliate_links": {
+      "oficial": {
+        "url": "https://www.awin1.com/cread.php?awinmid=15503&awinaffid=2800712&clickref=tenisideal_98&p=[[Saucony Peregrine 15]]",
+        "store": "SAUCONY",
+        "label": "COMPRAR NA SAUCONY"
+      }
+    },
     "tags": [
       "Trail",
       "Versátil",
@@ -3965,7 +4181,13 @@ var SHOES = [
       "longa"
     ],
     "photo": "https://m.media-amazon.com/images/I/710D-lXE4uL._AC_SY500_.jpg",
-    "affiliate_links": {},
+    "affiliate_links": {
+      "oficial": {
+        "url": "https://www.awin1.com/cread.php?awinmid=15503&awinaffid=2800712&clickref=tenisideal_99&p=[[Salomon Sense Ride 5]]",
+        "store": "SALOMON",
+        "label": "COMPRAR NA SALOMON"
+      }
+    },
     "tags": [
       "Trail",
       "Versátil",
@@ -4005,7 +4227,13 @@ var SHOES = [
       "longa"
     ],
     "photo": "https://m.media-amazon.com/images/I/71gYxjqbteL._AC_SY500_.jpg",
-    "affiliate_links": {},
+    "affiliate_links": {
+      "oficial": {
+        "url": "https://www.awin1.com/cread.php?awinmid=15503&awinaffid=2800712&clickref=tenisideal_100&p=[[Arch Fit Orvan Drex]]",
+        "store": "SKECHERS",
+        "label": "COMPRAR NA SKECHERS"
+      }
+    },
     "tags": [
       "Conforto",
       "Amortecimento"
@@ -4043,7 +4271,13 @@ var SHOES = [
       "longa"
     ],
     "photo": "https://m.media-amazon.com/images/I/61cNbsYKgPL._AC_SY500_.jpg",
-    "affiliate_links": {},
+    "affiliate_links": {
+      "oficial": {
+        "url": "https://www.awin1.com/cread.php?awinmid=15503&awinaffid=2800712&clickref=tenisideal_101&p=[[Charged Great]]",
+        "store": "UNDER ARMOUR",
+        "label": "COMPRAR NA UNDER ARMOUR"
+      }
+    },
     "tags": [
       "Amortecimento",
       "Leveza",
@@ -4082,7 +4316,13 @@ var SHOES = [
       "longa"
     ],
     "photo": "https://m.media-amazon.com/images/I/61FtBlh+DJL._AC_SY625_.jpg",
-    "affiliate_links": {},
+    "affiliate_links": {
+      "oficial": {
+        "url": "https://www.awin1.com/cread.php?awinmid=15503&awinaffid=2800712&clickref=tenisideal_102&p=[[Charged Hit SE]]",
+        "store": "UNDER ARMOUR",
+        "label": "COMPRAR NA UNDER ARMOUR"
+      }
+    },
     "tags": [
       "Amortecimento",
       "Durabilidade"
