@@ -1,0 +1,16 @@
+﻿Problema,Marca,Modelo,product_id (na planilha),Coluna a corrigir,Link atual (errado),Observacao
+PRODUTO ERRADO,NIKE,Vomero Plus,nike-vomero-plus-38b7,link_loja_oficial,https://tidd.ly/3PaPl86,cai em: Nike Pegasus 41 feminino
+PRODUTO ERRADO,NIKE,Revolution 8,nike-revolution-8-3567,link_loja_oficial,https://tidd.ly/4sUwTj1,cai em: Nike Downshifter 13 feminino
+PRODUTO ERRADO,NIKE,Quest 5,nike-quest-5-3868,link_loja_oficial,https://tidd.ly/4dnmibo,cai em: Nike Winflo 11 feminino
+PRODUTO ERRADO,NIKE,Invincible 3,nike-invincible-3-1773,link_loja_oficial,https://tidd.ly/3PR0H1h,cai em: Nike Structure 25 masculino
+PRODUTO ERRADO,NIKE,Pegasus Trail 5,nike-pegasus-trail-5-9a0b,link_loja_oficial,https://tidd.ly/3NYKhn2,cai em: Nike Vomero 18 feminino
+PRODUTO ERRADO,NIKE,Vomero 18,nike-vomero-18-f1ae,link_amazon,https://amzn.to/4maXIN5,cai em: Nike Pegasus (Amazon)
+PRODUTO ERRADO,MIZUNO,Neo Zen,mizuno-neo-zen-20fd,link_amazon,https://amzn.to/4saqM9C,cai em: Mizuno de BEISEBOL (Amazon)
+QUEBRADO (404),MIZUNO,Victory RSP,mizuno-victory-rsp-af8f,link_loja_oficial,https://tidd.ly/4dcnka0,pagina removida da loja Mizuno
+QUEBRADO (404),MIZUNO,Creation 26,mizuno-creation-26-1939,link_loja_oficial,https://tidd.ly/4lyvEmO,pagina removida (versao feminina 059)
+QUEBRADO (404),MIZUNO,Creation 26,mizuno-creation-26-1939,link_loja_oficial,https://tidd.ly/4lyvEmO,pagina removida (versao 030)
+QUEBRADO (404),MIZUNO,Enigma 2,mizuno-enigma-2-0a75,link_loja_oficial,https://tidd.ly/4bbBUgI,pagina removida da loja Mizuno
+QUEBRADO (404),MIZUNO,Wave Prophecy Beta 2,mizuno-wave-prophecy-beta-2-161a,link_loja_oficial,https://tidd.ly/3NAinxj,pagina removida da loja Mizuno
+QUEBRADO (404),MIZUNO,Glow 3,mizuno-glow-3-839b,link_loja_oficial,https://tidd.ly/3P0R9QY,pagina removida da loja Mizuno
+VERIFICAR,NEW BALANCE,1080 v15,new-balance-1080-v15-581a,link_amazon,https://amzn.to/4uI7lqG,"slug por cor, sem numero do modelo no link"
+VERIFICAR,NEW BALANCE,530,new-balance-530-adb9,link_amazon,https://amzn.to/479rJa7,"slug por cor, sem numero do modelo no link"
