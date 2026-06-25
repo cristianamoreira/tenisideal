@@ -2469,6 +2469,116 @@
     }
 
     /* ────────────────────────────────────────────────────────── */
+
+    /* NOVO: Lista de preços por loja, cada um com botão de comprar */
+    .offers-list {
+      display: flex;
+      flex-direction: column;
+      gap: 10px;
+      margin-top: 18px;
+    }
+
+    .offer-row {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 12px;
+      background: #232323;
+      border: 1px solid #333;
+      border-radius: 10px;
+      padding: 12px 14px;
+    }
+
+    .offer-row-best {
+      border-color: var(--yellow);
+      background: rgba(200, 255, 0, 0.07);
+    }
+
+    .offer-info {
+      display: flex;
+      flex-direction: column;
+      gap: 3px;
+      min-width: 0;
+    }
+
+    .offer-store {
+      font-size: 12px;
+      font-weight: 700;
+      color: #9a9a9a;
+      text-transform: uppercase;
+      letter-spacing: .5px;
+      display: flex;
+      align-items: center;
+      gap: 6px;
+      flex-wrap: wrap;
+    }
+
+    .offer-best-tag {
+      font-size: 10px;
+      color: var(--black);
+      background: var(--yellow);
+      padding: 2px 7px;
+      border-radius: 10px;
+      font-weight: 800;
+      letter-spacing: .3px;
+    }
+
+    .offer-price {
+      font-size: 22px;
+      font-weight: 800;
+      color: #ffffff;
+      line-height: 1.1;
+    }
+
+    .offer-pay {
+      font-size: 12px;
+      font-weight: 400;
+      color: #888;
+    }
+
+    .offer-buy-btn {
+      flex-shrink: 0;
+      background: #3a3a3a;
+      color: #ffffff;
+      text-decoration: none;
+      font-weight: 700;
+      font-size: 14px;
+      padding: 12px 20px;
+      border-radius: 8px;
+      white-space: nowrap;
+      transition: all .2s;
+      text-transform: uppercase;
+      letter-spacing: .5px;
+    }
+
+    .offer-buy-btn:hover {
+      background: #4a4a4a;
+    }
+
+    .offer-buy-best {
+      background: var(--yellow);
+      color: var(--black);
+    }
+
+    .offer-buy-best:hover {
+      background: var(--yd);
+    }
+
+    @media (max-width: 480px) {
+      .offer-row {
+        padding: 10px 12px;
+        gap: 8px;
+      }
+
+      .offer-price {
+        font-size: 19px;
+      }
+
+      .offer-buy-btn {
+        padding: 10px 14px;
+        font-size: 13px;
+      }
+    }
   </style>
   <script src="frontend/shoes_data.js"></script>
 </head>
@@ -3534,7 +3644,39 @@
           if (offers.length > 0) {
             var best = offers[0];
 
-            if (offers.length === 1) {
+            // NOVO LAYOUT: mostra TODAS as lojas com preço + botão de comprar ao lado
+            (function () {
+              function payLbl(offer) {
+                if (!offer) return '';
+                if (offer.installments) return offer.installments;
+                if (offer.key === 'amazon') return '6x sem juros';
+                if (offer.key === 'oficial') return 'em até 8x';
+                if (offer.key === 'netshoes') return 'no PIX/Boleto';
+                return '';
+              }
+              btnsHTML += '<div class="offers-list">';
+              for (var oi = 0; oi < offers.length; oi++) {
+                var off = offers[oi];
+                var isBestOffer = (oi === 0);
+                var offNum = (off.price > 0) ? off.price : (sh.price_numeric || parsePrice(sh.price) || 0);
+                var offPrice = offNum > 0 ? formatBRL(offNum) : 'Ver preço';
+                var storeNm = (off.label || off.store || 'Loja');
+                var pay = payLbl(off);
+                var sUrl = (off.url || '').replace(/'/g, "\\'");
+                var sNm = (sh.name || '').replace(/'/g, "\\'");
+                btnsHTML += '<div class="offer-row' + (isBestOffer ? ' offer-row-best' : '') + '">' +
+                  '<div class="offer-info">' +
+                    '<div class="offer-store">' + storeNm + (isBestOffer ? ' <span class="offer-best-tag">🏆 Melhor preço</span>' : '') + '</div>' +
+                    '<div class="offer-price">' + offPrice + (pay ? '<span class="offer-pay"> ' + pay + '</span>' : '') + '</div>' +
+                  '</div>' +
+                  '<a href="' + off.url + '" target="_blank" rel="noopener" class="offer-buy-btn' + (isBestOffer ? ' offer-buy-best' : '') + '" onclick="return trackClick(\'' + sUrl + '\', \'' + sNm + '\')">Comprar →</a>' +
+                '</div>';
+              }
+              btnsHTML += '</div>';
+              btnsHTML += '<div class="trust-footer" style="margin-top:12px; opacity:0.6; text-align:center;"><span>✓</span> Frete grátis via parceiros · <span>✓</span> Compra Segura</div>';
+            })();
+
+            if (true) { /* novo layout já renderizado acima */ } else if (offers.length === 1) {
               // Scenario 1: Only one offer
               var bestNumeric = (best.price > 0) ? best.price : (sh.price_numeric || parsePrice(sh.price) || 0);
               var priceVal = bestNumeric > 0 ? formatBRL(bestNumeric) : 'Ver Preço';
