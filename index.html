@@ -3776,7 +3776,7 @@
           description = description.replace(/https?:\/\/[^\s]+/g, '').trim();
 
           card.innerHTML =
-            '<div class="simg"><img src="' + ((sh.images && sh.images.length > 0) ? sh.images[0] : (sh.img || 'imgs/placeholder.jpg')) + '" alt="' + sh.name + '" loading="lazy" onerror="this.src=\'imgs/placeholder.jpg\'"></div>' +
+            '<div class="simg"><img src="' + ((sh.images && sh.images.length > 0) ? sh.images[0] : (sh.img || sh.photo || 'imgs/placeholder.jpg')) + '" alt="' + sh.name + '" loading="lazy" onerror="this.src=\'imgs/placeholder.jpg\'"></div>' +
             '<div class="sbody" style="background: var(--card);">' +
             topBadge +
             popularBadge +
