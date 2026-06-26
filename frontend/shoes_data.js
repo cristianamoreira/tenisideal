@@ -166,9 +166,9 @@ var SHOES = [
     "sexo": [
       "masculino"
     ],
-    "budget": "acima1000",
-    "price": 1099.99,
-    "price_formatted": "R$ 1099,99",
+    "budget": "600a1000",
+    "price": 764.91,
+    "price_formatted": "R$ 764,91",
     "levels": [
       "intermediario",
       "avancado"
@@ -203,6 +203,13 @@ var SHOES = [
         "store": "Amazon",
         "label": "Amazon",
         "installments": "6x sem juros"
+      },
+      "netshoes": {
+        "url": "https://click.linksynergy.com/deeplink?id=NyH7xPegftk&mid=43984&murl=https%3A%2F%2Fwww.netshoes.com.br%2Fp%2Ftenis-adidas-ultraboost-5-masculino-marinho%2Bbranco-FB9-8787-036",
+        "price": 764.91,
+        "store": "Netshoes",
+        "label": "Netshoes",
+        "installments": "10X sem juros"
       }
     },
     "tags": [
@@ -575,11 +582,11 @@ var SHOES = [
     "name": "Gel-Nimbus 26",
     "slug": "asics-gel-nimbus-26-2ecb",
     "sexo": [
-      "masculino"
+      "feminino"
     ],
-    "budget": "",
-    "price": 0,
-    "price_formatted": "R$ 0,00",
+    "budget": "600a1000",
+    "price": 839.9,
+    "price_formatted": "R$ 839,90",
     "levels": [
       "intermediario",
       "avancado"
@@ -600,22 +607,29 @@ var SHOES = [
       "media",
       "longa"
     ],
-    "photo": "https://images-na.ssl-images-amazon.com/images/I/61EYOnNOMbL.jpg",
+    "photo": "https://m.media-amazon.com/images/I/61aPga42FKL._AC_SY500_.jpg",
     "affiliate_links": {
       "amazon": {
-        "url": "https://amzn.to/3OP4Dzd",
+        "url": "https://amzn.to/4ugSqmP",
         "price": 0,
         "store": "Amazon",
         "label": "Amazon",
         "installments": "6x sem juros"
+      },
+      "netshoes": {
+        "url": "https://click.linksynergy.com/deeplink?id=NyH7xPegftk&mid=43984&murl=https%3A%2F%2Fwww.netshoes.com.br%2Fp%2Ftenis-asics-gelnimbus-26-feminino-2FW-2536-018",
+        "price": 839.9,
+        "store": "Netshoes",
+        "label": "Netshoes",
+        "installments": "10x "
       }
     },
     "tags": [
       "Amortecimento",
       "Neutro"
     ],
-    "description": "Amortecimento FlyteFoam excepcional. Ideal para iniciantes que precisam de proteção extra nas articulações.",
-    "reason": "Amortecimento FlyteFoam excepcional. Ideal para iniciantes que precisam de proteção extra nas articulações."
+    "description": "Amortecimento FlyteFoam excepcional para longas distâncias. Proteção articular superior para corredoras.",
+    "reason": "Amortecimento FlyteFoam excepcional para longas distâncias. Proteção articular superior para corredoras."
   },
   {
     "brand": "ASICS",
