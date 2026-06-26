@@ -675,6 +675,10 @@
       text-transform: uppercase;
       display: flex;
       justify-content: space-between;
+      align-items: baseline;
+      gap: 12px;
+      width: 100%;
+      white-space: nowrap;
     }
 
     .pw-label .pw-pct {
@@ -1519,16 +1523,15 @@
     }
 
     .simg img {
-      width: 80%;
-      height: 80%;
+      width: 70%;
+      height: auto;
+      max-height: 88%;
       object-fit: contain;
       object-position: center;
-      padding: 12px;
+      margin: 0 auto;
+      display: block;
       box-sizing: border-box;
       transition: transform .3s ease;
-      display: block;
-      max-width: 180px;
-      max-height: 160px;
     }
 
     .shoe:hover .simg img {
@@ -2349,7 +2352,8 @@
       }
 
       .pw {
-        margin-left: 20px
+        margin-left: 0;
+        width: 100%
       }
 
       #sLanding,
