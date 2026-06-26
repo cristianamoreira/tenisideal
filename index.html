@@ -1412,10 +1412,7 @@
     }
 
     .shoe.shoe-featured .simg::before {
-      content: "👟";
-      font-size: 80px;
-      color: #c8ff00;
-      opacity: 0.5;
+      content: none;
     }
 
     .shoe.shoe-featured .sbody {
@@ -3546,8 +3543,9 @@
 
           var MAX_SCORE = 21;
           var rawPct = Math.round((score / MAX_SCORE) * 100);
-          // Limitar entre 60% e 99% para não mostrar valores muito baixos ou 100%
-          var matchPct = Math.min(99, Math.max(60, rawPct));
+          // 1º lugar mais forte; 2º e 3º decrescem para não ficarem todos iguais
+          var base = Math.min(98, Math.max(82, rawPct));
+          var matchPct = Math.max(70, base - (i * 6));
           var compatibilityHTML = '<div class="match-text"><span>COMPATIBILIDADE</span><span>' + matchPct + '%</span></div>' +
             '<div class="match-box"><div class="match-fill" style="width:' + matchPct + '%"></div></div>';
 
@@ -3575,7 +3573,7 @@
 
           function makeBtnHTML(url, label, isBest) {
             var extraClass = isBest ? '' : ' bbuy-secondary';
-            var trustFooter = isBest ? '<div class="trust-footer" style="margin-top:12px; opacity:0.6;"><span>✓</span> Frete grátis via parceiros · <span>✓</span> Compra Segura</div>' : '';
+            var trustFooter = isBest ? '<div class="trust-footer" style="margin-top:12px; opacity:0.6;">🔒 Você finaliza a compra no site da loja oficial</div>' : '';
             var safeUrl = url.replace(/'/g, "\\'");
             var safeName = sh.name.replace(/'/g, "\\'");
 
@@ -3674,7 +3672,7 @@
                 '</div>';
               }
               btnsHTML += '</div>';
-              btnsHTML += '<div class="trust-footer" style="margin-top:12px; opacity:0.6; text-align:center;"><span>✓</span> Frete grátis via parceiros · <span>✓</span> Compra Segura</div>';
+              btnsHTML += '<div class="trust-footer" style="margin-top:12px; opacity:0.6; text-align:center;">🔒 Você finaliza a compra no site da loja oficial</div>';
             })();
 
             if (true) { /* novo layout já renderizado acima */ } else if (offers.length === 1) {
@@ -3784,7 +3782,6 @@
             '<div class="sname" style="display: block !important; visibility: visible !important; color: #ffffff !important; font-size: 30px !important; font-weight: bold !important; margin-bottom: 10px !important; min-height: 40px !important; line-height: 1.15 !important;">' + (sh.brand || '') + ' ' + (sh.name || '') + '</div>' +
             compatibilityHTML +
             '<p class="sreason" style="display: block; visibility: visible;">' + description + '</p>' +
-            '<div class="stags">' + th + '</div>' +
             btnsHTML +
             '</div>';
           grid.appendChild(card);
