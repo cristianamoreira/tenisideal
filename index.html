@@ -2911,7 +2911,8 @@
           { v: 'ate300', icon: '💵', label: 'Até R$ 300', desc: 'Opções acessíveis e funcionais' },
           { v: '300a600', icon: '💴', label: 'R$ 300 – R$ 600', desc: 'Custo-benefício excelente' },
           { v: '600a1000', icon: '💶', label: 'R$ 600 – R$ 1.000', desc: 'Performance e tecnologia' },
-          { v: 'acima1000', icon: '💳', label: 'Acima de R$ 1.000', desc: 'Melhor do mercado, sem limites' }
+          { v: 'acima1000', icon: '💳', label: 'Acima de R$ 1.000', desc: 'Melhor do mercado, sem limites' },
+          { v: 'qualquer', icon: '🎯', label: 'Não importa o preço', desc: 'Quero meu tênis ideal, seja qual for o valor' }
         ]
       }
     ];
@@ -3062,7 +3063,8 @@
         pool = SHOES;
       }
 
-      var poolOrc = pool.filter(function (sh) {
+      // "qualquer" = não filtra por preço; ranqueia por compatibilidade pura
+      var poolOrc = (ans.orcamento === 'qualquer') ? pool.slice() : pool.filter(function (sh) {
         return sh.budget === bo[bi];
       });
 
