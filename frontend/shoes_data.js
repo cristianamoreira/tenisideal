@@ -8,8 +8,8 @@ var SHOES = [
       "masculino"
     ],
     "budget": "acima1000",
-    "price": 1999.99,
-    "price_formatted": "R$ 1999,99",
+    "price": 1999.9,
+    "price_formatted": "R$ 1999,90",
     "levels": [
       "intermediario",
       "avancado"
@@ -29,7 +29,7 @@ var SHOES = [
       "media",
       "longa"
     ],
-    "photo": "https://m.media-amazon.com/images/I/612KZekuqML._AC_SY500_.jpg",
+    "photo": "https://m.media-amazon.com/images/I/51EeABsmrvL._AC_SY695_.jpg",
     "affiliate_links": {
       "oficial": {
         "url": "https://tidd.ly/3P8j6q3",
@@ -39,11 +39,18 @@ var SHOES = [
         "installments": "10 x R$200,00 sem juros"
       },
       "amazon": {
-        "url": "https://amzn.to/4l8FKKD",
-        "price": 0,
+        "url": "https://link.amazon/B02u0eOhc",
+        "price": 1999.9,
         "store": "Amazon",
         "label": "Amazon",
-        "installments": "12x R$ 130,27 sem juros"
+        "installments": "12x de R$ 166,75 sem juros"
+      },
+      "netshoes": {
+        "url": "https://click.linksynergy.com/deeplink?id=NyH7xPegftk&mid=43984&murl=https%3A%2F%2Fwww.netshoes.com.br%2Fp%2Ftenis-adidas-adizero-adios-pro-4-masculino-FBA-84WV-086",
+        "price": 1999.99,
+        "store": "Netshoes",
+        "label": "Netshoes",
+        "installments": "10x sem juros"
       }
     },
     "tags": [
@@ -61,8 +68,8 @@ var SHOES = [
       "masculino"
     ],
     "budget": "acima1000",
-    "price": 1399.99,
-    "price_formatted": "R$ 1399,99",
+    "price": 1199.9,
+    "price_formatted": "R$ 1199,90",
     "levels": [
       "intermediario",
       "avancado"
@@ -93,10 +100,17 @@ var SHOES = [
       },
       "amazon": {
         "url": "https://amzn.to/3NEjLPv",
-        "price": 0,
+        "price": 1472.15,
         "store": "Amazon",
         "label": "Amazon",
-        "installments": "6x sem juros"
+        "installments": "12x de R$ 122,78 sem juros"
+      },
+      "netshoes": {
+        "url": "https://click.linksynergy.com/deeplink?id=NyH7xPegftk&mid=43984&murl=https%3A%2F%2Fwww.netshoes.com.br%2Fp%2Ftenis-adidas-adizero-boston-13-masculino-FBA-7037-006",
+        "price": 1199.9,
+        "store": "Netshoes",
+        "label": "Netshoes",
+        "installments": "10x sem juros"
       }
     },
     "tags": [
@@ -111,11 +125,11 @@ var SHOES = [
     "name": "Response Runner 2",
     "slug": "adidas-response-runner-2-7641",
     "sexo": [
-      "unissex"
+      "masculino"
     ],
     "budget": "300a600",
-    "price": 399.99,
-    "price_formatted": "R$ 399,99",
+    "price": 279.99,
+    "price_formatted": "R$ 279,99",
     "levels": [
       "intermediario",
       "avancado"
@@ -146,10 +160,17 @@ var SHOES = [
       },
       "amazon": {
         "url": "https://amzn.to/4b7FF5t",
-        "price": 0,
+        "price": 399.9,
         "store": "Amazon",
         "label": "Amazon",
-        "installments": "6x sem juros"
+        "installments": "7x de R$ 57,18 sem juros"
+      },
+      "netshoes": {
+        "url": "https://click.linksynergy.com/deeplink?id=NyH7xPegftk&mid=43984&murl=https%3A%2F%2Fwww.netshoes.com.br%2Fp%2Ftenis-adidas-response-runner-2-preto%2Bbranco-FBA-83CI-026",
+        "price": 279.99,
+        "store": "Netshoes",
+        "label": "Netshoes",
+        "installments": "4x sem juros"
       }
     },
     "tags": [
@@ -167,8 +188,8 @@ var SHOES = [
       "masculino"
     ],
     "budget": "600a1000",
-    "price": 764.91,
-    "price_formatted": "R$ 764,91",
+    "price": 799.0,
+    "price_formatted": "R$ 799,00",
     "levels": [
       "intermediario",
       "avancado"
@@ -198,15 +219,15 @@ var SHOES = [
         "installments": "10 x R$ 110,00 sem juros"
       },
       "amazon": {
-        "url": "https://amzn.to/4cKN7pN",
-        "price": 0,
+        "url": "https://link.amazon/B04X6EoeX",
+        "price": 799.0,
         "store": "Amazon",
         "label": "Amazon",
-        "installments": "6x sem juros"
+        "installments": "12x de R$ 66,62 sem juros"
       },
       "netshoes": {
         "url": "https://click.linksynergy.com/deeplink?id=NyH7xPegftk&mid=43984&murl=https%3A%2F%2Fwww.netshoes.com.br%2Fp%2Ftenis-adidas-ultraboost-5-masculino-marinho%2Bbranco-FB9-8787-036",
-        "price": 764.91,
+        "price": 839.88,
         "store": "Netshoes",
         "label": "Netshoes",
         "installments": "10X sem juros"
@@ -223,13 +244,13 @@ var SHOES = [
   {
     "brand": "ADIDAS",
     "name": "Terrex Agravic Speed 2",
-    "slug": "adidas-terrex-agravic-speed-2-eb26",
+    "slug": "adidas-terrex-agravic-speed-2-eb26-mas",
     "sexo": [
       "masculino"
     ],
-    "budget": "acima1000",
-    "price": 1199.99,
-    "price_formatted": "R$ 1199,99",
+    "budget": "600a1000",
+    "price": 699.99,
+    "price_formatted": "R$ 699,99",
     "levels": [
       "intermediario",
       "avancado"
@@ -252,18 +273,25 @@ var SHOES = [
     "photo": "https://m.media-amazon.com/images/I/61wvkUfpJxL._AC_SY500_.jpg",
     "affiliate_links": {
       "oficial": {
-        "url": "https://tidd.ly/4sa8qG5",
-        "price": 1199.99,
+        "url": "https://tidd.ly/4vARnP9",
+        "price": 699.99,
         "store": "ADIDAS",
         "label": "ADIDAS",
-        "installments": "10 x R$ 120,00 sem juros"
+        "installments": "7 x R$100,00 sem juros"
       },
       "amazon": {
         "url": "https://amzn.to/4bthoHb",
-        "price": 0,
+        "price": 2011.53,
         "store": "Amazon",
         "label": "Amazon",
-        "installments": "6x sem juros"
+        "installments": "12x de R$ 167,71 sem juros"
+      },
+      "netshoes": {
+        "url": "https://click.linksynergy.com/deeplink?id=NyH7xPegftk&mid=43984&murl=https%3A%2F%2Fwww.netshoes.com.br%2Fp%2Ftenis-adidas-terrex-agravic-speed-2-masculino-FBA-83DI-028",
+        "price": 1199.99,
+        "store": "Netshoes",
+        "label": "Netshoes",
+        "installments": "10x sem juros"
       }
     },
     "tags": [],
@@ -278,8 +306,8 @@ var SHOES = [
       "feminino"
     ],
     "budget": "300a600",
-    "price": 599.99,
-    "price_formatted": "R$ 599,99",
+    "price": 399.99,
+    "price_formatted": "R$ 399,99",
     "levels": [
       "intermediario",
       "avancado"
@@ -299,21 +327,28 @@ var SHOES = [
       "media",
       "longa"
     ],
-    "photo": "https://m.media-amazon.com/images/I/61ewML3UceL._AC_SY675_.jpg",
+    "photo": "https://m.media-amazon.com/images/I/61ewML3UceL._AC_SY695_.jpg",
     "affiliate_links": {
       "oficial": {
-        "url": "https://tidd.ly/4dkCMkk",
-        "price": 599.99,
+        "url": "https://tidd.ly/4vrxPMW",
+        "price": 429.99,
         "store": "ADIDAS",
         "label": "ADIDAS",
-        "installments": "6 x R$ 100,00 sem juros"
+        "installments": "4 x R$107,50 sem juros"
       },
       "amazon": {
-        "url": "https://amzn.to/4b7TOAW",
-        "price": 0,
+        "url": "https://link.amazon/B06eWUK0v",
+        "price": 516.85,
         "store": "Amazon",
         "label": "Amazon",
-        "installments": "6x sem juros"
+        "installments": "10x de R$ 51,73 sem juros"
+      },
+      "netshoes": {
+        "url": "https://click.linksynergy.com/deeplink?id=NyH7xPegftk&mid=43984&murl=https%3A%2F%2Fwww.netshoes.com.br%2Fp%2Ftenis-adidas-duramo-speed-2-feminino-FBA-3192-026",
+        "price": 399.99,
+        "store": "Netshoes",
+        "label": "Netshoes",
+        "installments": "5x sem juros"
       }
     },
     "tags": [
@@ -326,14 +361,14 @@ var SHOES = [
   },
   {
     "brand": "ADIDAS",
-    "name": "Ultraboost 22",
-    "slug": "adidas-ultraboost-22-01e9",
+    "name": "Supernova Rise 3",
+    "slug": "adidas-supernovarise-3-01e9",
     "sexo": [
       "feminino"
     ],
     "budget": "acima1000",
-    "price": 1199.99,
-    "price_formatted": "R$ 1199,99",
+    "price": 1099.99,
+    "price_formatted": "R$ 1099,99",
     "levels": [
       "intermediario",
       "avancado"
@@ -353,30 +388,26 @@ var SHOES = [
       "media",
       "longa"
     ],
-    "photo": "https://m.media-amazon.com/images/I/510EloSk7eL._AC_SY625_.jpg",
+    "photo": "https://m.media-amazon.com/images/I/71cbCGwvvJL._AC_SX695_.jpg",
     "affiliate_links": {
       "oficial": {
-        "url": "https://tidd.ly/3PBf5KM",
-        "price": 1199.99,
+        "url": "https://tidd.ly/4eJqGk5",
+        "price": 1099.99,
         "store": "ADIDAS",
         "label": "ADIDAS",
-        "installments": "R$ 599,99 para membros"
+        "installments": "10 x R$110,00 sem juros"
       },
       "amazon": {
-        "url": "https://amzn.to/4un9Bn2",
-        "price": 0,
+        "url": "https://link.amazon/B01mdNZEv",
+        "price": 1103.73,
         "store": "Amazon",
         "label": "Amazon",
-        "installments": "6x sem juros"
+        "installments": "12x de R$ 92,06 sem juros"
       }
     },
-    "tags": [
-      "Amortecimento",
-      "Leveza",
-      "Retorno de energia"
-    ],
-    "description": "Entressola Boost com retorno de energia excepcional, cabedal tipo meia e solado Continental para máximo amortecimento e tração",
-    "reason": "Entressola Boost com retorno de energia excepcional, cabedal tipo meia e solado Continental para máximo amortecimento e tração"
+    "tags": [],
+    "description": "",
+    "reason": ""
   },
   {
     "brand": "ASICS",
@@ -407,11 +438,11 @@ var SHOES = [
     "photo": "https://m.media-amazon.com/images/I/61nVPmZFSoL._AC_SY500_.jpg",
     "affiliate_links": {
       "amazon": {
-        "url": "https://amzn.to/4d7EIN1",
-        "price": 0,
+        "url": "https://link.amazon/B03uJ9yhA",
+        "price": 1457.55,
         "store": "Amazon",
         "label": "Amazon",
-        "installments": "10x sem juros"
+        "installments": "10x de R$ 145,80 sem juros"
       },
       "netshoes": {
         "url": "https://click.linksynergy.com/deeplink?id=NyH7xPegftk&mid=43984&murl=https%3A%2F%2Fwww.netshoes.com.br%2Fp%2Ftenis-asics-superblast-2-unissex-SG4-01A9-008",
@@ -459,14 +490,14 @@ var SHOES = [
       "media",
       "longa"
     ],
-    "photo": "https://images-na.ssl-images-amazon.com/images/I/71Y43mJ5zeL.jpg",
+    "photo": "https://m.media-amazon.com/images/I/61bA3q+AjnL._AC_SY695_.jpg",
     "affiliate_links": {
       "amazon": {
-        "url": "https://amzn.to/477x4ys",
-        "price": 0,
+        "url": "https://link.amazon/B00dNlfYL",
+        "price": 1427.12,
         "store": "Amazon",
         "label": "Amazon",
-        "installments": "12x sem juros"
+        "installments": "12x de R$ 119,00 sem juros"
       },
       "netshoes": {
         "url": "https://click.linksynergy.com/deeplink?id=NyH7xPegftk&mid=43984&murl=https%3A%2F%2Fwww.netshoes.com.br%2Fp%2Ftenis-asics-gelcumulus-26-masculino-2FW-1688-132",
@@ -485,14 +516,14 @@ var SHOES = [
   },
   {
     "brand": "ASICS",
-    "name": "Gel-Kayano 31",
-    "slug": "asics-gel-kayano-31-8bbd",
+    "name": "Gel-Kayano 32",
+    "slug": "asics-gel-kayano-32-8bbd",
     "sexo": [
       "masculino"
     ],
-    "budget": "",
-    "price": 0,
-    "price_formatted": "R$ 0,00",
+    "budget": "600a1000",
+    "price": 999.9,
+    "price_formatted": "R$ 999,90",
     "levels": [
       "intermediario",
       "avancado"
@@ -513,14 +544,21 @@ var SHOES = [
       "media",
       "longa"
     ],
-    "photo": "https://images-na.ssl-images-amazon.com/images/I/61lZORb7jLL.jpg",
+    "photo": "https://m.media-amazon.com/images/I/61H5EG8KjuL._AC_SY695_.jpg",
     "affiliate_links": {
       "amazon": {
-        "url": "https://amzn.to/4b8n1uk",
-        "price": 0,
+        "url": "https://link.amazon/B05qFTEvh",
+        "price": 1149.99,
         "store": "Amazon",
         "label": "Amazon",
-        "installments": "6x sem juros"
+        "installments": "12x de R$ 95,86 sem juros"
+      },
+      "netshoes": {
+        "url": "https://click.linksynergy.com/deeplink?id=NyH7xPegftk&mid=43984&murl=https%3A%2F%2Fwww.netshoes.com.br%2Fp%2Ftenis-asics-gel-kayano-32-masculino-preto%2Bverde-SG4-013P-244",
+        "price": 999.9,
+        "store": "Netshoes",
+        "label": "Netshoes",
+        "installments": "10x de R$ 99,99 sem juros"
       }
     },
     "tags": [
@@ -532,14 +570,14 @@ var SHOES = [
   },
   {
     "brand": "ASICS",
-    "name": "Gel-Kayano 31 Matcha",
-    "slug": "asics-gel-kayano-31-matcha-a148",
+    "name": "Gel-Nimbus 28",
+    "slug": "asics-gel-nimbus-28-2ecb",
     "sexo": [
       "masculino"
     ],
-    "budget": "",
-    "price": 0,
-    "price_formatted": "R$ 0,00",
+    "budget": "acima1000",
+    "price": 1299.9,
+    "price_formatted": "R$ 1299,90",
     "levels": [
       "intermediario",
       "avancado"
@@ -560,33 +598,40 @@ var SHOES = [
       "media",
       "longa"
     ],
-    "photo": "https://m.media-amazon.com/images/I/61BJEFWbbnL._AC_SY500_.jpg",
+    "photo": "https://m.media-amazon.com/images/I/618Fa5n1UdL._AC_SX695_.jpg",
     "affiliate_links": {
       "amazon": {
-        "url": "https://amzn.to/3OFw26D",
-        "price": 0,
+        "url": "https://link.amazon/B04wJ16iF",
+        "price": 1299.9,
         "store": "Amazon",
         "label": "Amazon",
-        "installments": "6x sem juros"
+        "installments": "12x de R$ 108,38 sem juros"
+      },
+      "netshoes": {
+        "url": "https://click.linksynergy.com/deeplink?id=NyH7xPegftk&mid=43984&murl=https%3A%2F%2Fwww.netshoes.com.br%2Fp%2Ftenis-asics-gelnimbus-28-masculino-SG4-01UE-076",
+        "price": 1299.99,
+        "store": "Netshoes",
+        "label": "Netshoes",
+        "installments": "10x sem juros"
       }
     },
     "tags": [
-      "Controle",
-      "Pronação"
+      "Amortecimento",
+      "Neutro"
     ],
-    "description": "O melhor tênis de controle de pronação. Suporte medial + Gel duplo para estabilidade máxima.",
-    "reason": "O melhor tênis de controle de pronação. Suporte medial + Gel duplo para estabilidade máxima."
+    "description": "Amortecimento FlyteFoam excepcional. Ideal para iniciantes que precisam de proteção extra nas articulações.",
+    "reason": "Amortecimento FlyteFoam excepcional. Ideal para iniciantes que precisam de proteção extra nas articulações."
   },
   {
     "brand": "ASICS",
-    "name": "Gel-Nimbus 26",
-    "slug": "asics-gel-nimbus-26-2ecb",
+    "name": "Gel-Nimbus 27",
+    "slug": "asics-gel-nimbus-27-2ecb",
     "sexo": [
       "feminino"
     ],
     "budget": "600a1000",
-    "price": 839.9,
-    "price_formatted": "R$ 839,90",
+    "price": 607.99,
+    "price_formatted": "R$ 607,99",
     "levels": [
       "intermediario",
       "avancado"
@@ -607,21 +652,21 @@ var SHOES = [
       "media",
       "longa"
     ],
-    "photo": "https://m.media-amazon.com/images/I/61aPga42FKL._AC_SY500_.jpg",
+    "photo": "https://m.media-amazon.com/images/I/51eScM2IL2L._AC_SY695_.jpg",
     "affiliate_links": {
       "amazon": {
-        "url": "https://amzn.to/4ugSqmP",
-        "price": 0,
+        "url": "https://link.amazon/B09YJrSCK",
+        "price": 799.9,
         "store": "Amazon",
         "label": "Amazon",
-        "installments": "6x sem juros"
+        "installments": "12x de R$ 66,75 sem juros"
       },
       "netshoes": {
-        "url": "https://click.linksynergy.com/deeplink?id=NyH7xPegftk&mid=43984&murl=https%3A%2F%2Fwww.netshoes.com.br%2Fp%2Ftenis-asics-gelnimbus-26-feminino-2FW-2536-018",
-        "price": 839.9,
+        "url": "https://click.linksynergy.com/deeplink?id=NyH7xPegftk&mid=43984&murl=https%3A%2F%2Fwww.netshoes.com.br%2Fp%2Ftenis-asics-gelnimbus-27-feminino-rosa%2Blaranja-2FW-3003-930-34",
+        "price": 607.99,
         "store": "Netshoes",
         "label": "Netshoes",
-        "installments": "10x "
+        "installments": "8x de R$ 76,00 sem juros"
       }
     },
     "tags": [
@@ -634,13 +679,13 @@ var SHOES = [
   {
     "brand": "ASICS",
     "name": "Gel-Trabuco 12",
-    "slug": "asics-gel-trabuco-12-223f",
+    "slug": "asics-gel-trabuco-13-223f",
     "sexo": [
-      "masculino"
+      "feminino"
     ],
-    "budget": "",
-    "price": 0,
-    "price_formatted": "R$ 0,00",
+    "budget": "600a1000",
+    "price": 999.99,
+    "price_formatted": "R$ 999,99",
     "levels": [
       "intermediario",
       "avancado"
@@ -664,11 +709,18 @@ var SHOES = [
     "photo": "https://images-na.ssl-images-amazon.com/images/I/61wuJhpSxgL.jpg",
     "affiliate_links": {
       "amazon": {
-        "url": "https://amzn.to/3NhE4Cb",
-        "price": 0,
+        "url": "https://link.amazon/B0gP0JDdq",
+        "price": 1022.38,
         "store": "Amazon",
         "label": "Amazon",
-        "installments": "6x sem juros"
+        "installments": "12x de R$ 85,29 sem juros"
+      },
+      "netshoes": {
+        "url": "https://click.linksynergy.com/deeplink?id=NyH7xPegftk&mid=43984&murl=https%3A%2F%2Fwww.netshoes.com.br%2Fp%2Ftenis-asics-geltrabuco-13-feminino-roxo%2Bazul-2FW-2959-943",
+        "price": 999.99,
+        "store": "Netshoes",
+        "label": "Netshoes",
+        "installments": "10x sem juros"
       }
     },
     "tags": [
@@ -680,14 +732,14 @@ var SHOES = [
   },
   {
     "brand": "ASICS",
-    "name": "Gel-Pulse 15 SE",
-    "slug": "asics-gel-pulse-15-se-96b3",
+    "name": "Trabuco Terra 3",
+    "slug": "asics-gel-trabucoterra-3-223f",
     "sexo": [
       "masculino"
     ],
-    "budget": "",
-    "price": 0,
-    "price_formatted": "R$ 0,00",
+    "budget": "300a600",
+    "price": 599.99,
+    "price_formatted": "R$ 599,99",
     "levels": [
       "intermediario",
       "avancado"
@@ -708,13 +760,67 @@ var SHOES = [
       "media",
       "longa"
     ],
-    "photo": "https://m.media-amazon.com/images/I/511jmvCr1BL._AC_SY500_.jpg",
+    "photo": "https://m.media-amazon.com/images/I/51yIt1TIpZL._AC_SY695_.jpg",
+    "affiliate_links": {
+      "netshoes": {
+        "url": "https://click.linksynergy.com/deeplink?id=NyH7xPegftk&mid=43984&murl=https%3A%2F%2Fwww.netshoes.com.br%2Fp%2Ftenis-asics-trabuco-terra-3-masculino-SG4-014D-128",
+        "price": 599.99,
+        "store": "Netshoes",
+        "label": "Netshoes",
+        "installments": "8x sem juros"
+      }
+    },
+    "tags": [
+      "Trilha",
+      "Híbrido"
+    ],
+    "description": "",
+    "reason": ""
+  },
+  {
+    "brand": "ASICS",
+    "name": "Gel-Pulse 16 SE",
+    "slug": "asics-gel-pulse-16-se-96b3",
+    "sexo": [
+      "masculino"
+    ],
+    "budget": "300a600",
+    "price": 497.88,
+    "price_formatted": "R$ 497,88",
+    "levels": [
+      "intermediario",
+      "avancado"
+    ],
+    "pisada": [
+      "neutra",
+      "pronada",
+      "supinada"
+    ],
+    "terreno": [
+      "asfalto",
+      "trilha",
+      "mista",
+      "esteira"
+    ],
+    "distancia": [
+      "curta",
+      "media",
+      "longa"
+    ],
+    "photo": "https://m.media-amazon.com/images/I/51lafc6pMcL._AC_SY695_.jpg",
     "affiliate_links": {
       "amazon": {
-        "url": "https://amzn.to/4rT89qU",
-        "price": 0,
+        "url": "https://link.amazon/B06edfZJE",
+        "price": 497.88,
         "store": "Amazon",
         "label": "Amazon",
+        "installments": "12x de R$ 46,46 com juros"
+      },
+      "netshoes": {
+        "url": "https://click.linksynergy.com/deeplink?id=NyH7xPegftk&mid=43984&murl=https%3A%2F%2Fwww.netshoes.com.br%2Fp%2Ftenis-asics-gelpulse-16-se-masculino-preto%2Blaranja-2FW-2948-050",
+        "price": 0,
+        "store": "Netshoes",
+        "label": "Netshoes",
         "installments": "6x sem juros"
       }
     },
@@ -728,14 +834,14 @@ var SHOES = [
   },
   {
     "brand": "ASICS",
-    "name": "Gel-Venture 10",
-    "slug": "asics-gel-venture-10-8f16",
+    "name": "Gel-Venture 11",
+    "slug": "asics-gel-venture-11-trail-8f16",
     "sexo": [
       "feminino"
     ],
-    "budget": "",
-    "price": 0,
-    "price_formatted": "R$ 0,00",
+    "budget": "ate300",
+    "price": 249.99,
+    "price_formatted": "R$ 249,99",
     "levels": [
       "intermediario",
       "avancado"
@@ -756,14 +862,21 @@ var SHOES = [
       "media",
       "longa"
     ],
-    "photo": "https://m.media-amazon.com/images/I/617GtsqxJmL._AC_SY625_.jpg",
+    "photo": "https://m.media-amazon.com/images/I/711vZgnInKL._AC_SX695_.jpg",
     "affiliate_links": {
       "amazon": {
-        "url": "https://amzn.to/4rSbMx8",
-        "price": 0,
+        "url": "https://link.amazon/B0h9IuOD5",
+        "price": 489.9,
         "store": "Amazon",
         "label": "Amazon",
-        "installments": "6x sem juros"
+        "installments": "9x de R$ 54,46 sem juros"
+      },
+      "netshoes": {
+        "url": "https://click.linksynergy.com/deeplink?id=NyH7xPegftk&mid=43984&murl=https%3A%2F%2Fwww.netshoes.com.br%2Fp%2Ftenis-asics-gelventure-11-feminino-bege%2Brosa-SG4-01QZ-230-34",
+        "price": 249.99,
+        "store": "Netshoes",
+        "label": "Netshoes",
+        "installments": "3x sem juros"
       }
     },
     "tags": [
@@ -781,9 +894,9 @@ var SHOES = [
     "sexo": [
       "feminino"
     ],
-    "budget": "",
-    "price": 0,
-    "price_formatted": "R$ 0,00",
+    "budget": "ate300",
+    "price": 287.99,
+    "price_formatted": "R$ 287,99",
     "levels": [
       "intermediario",
       "avancado"
@@ -804,14 +917,21 @@ var SHOES = [
       "media",
       "longa"
     ],
-    "photo": "https://m.media-amazon.com/images/I/51fjXmKBuTL._AC_SX522_.jpg",
+    "photo": "https://m.media-amazon.com/images/I/51fjXmKBuTL._AC_SX679_.jpg",
     "affiliate_links": {
       "amazon": {
-        "url": "https://amzn.to/4da3rAm",
-        "price": 0,
+        "url": "https://link.amazon/B0hWX7E3m",
+        "price": 299.99,
         "store": "Amazon",
         "label": "Amazon",
-        "installments": "6x sem juros"
+        "installments": "6x de R$ 50,04 sem juros"
+      },
+      "netshoes": {
+        "url": "https://click.linksynergy.com/deeplink?id=NyH7xPegftk&mid=43984&murl=https%3A%2F%2Fwww.netshoes.com.br%2Fp%2Ftenis-asics-gelshinobi-2-feminino-2FW-2904-120",
+        "price": 287.99,
+        "store": "Netshoes",
+        "label": "Netshoes",
+        "installments": "4x sem juros"
       }
     },
     "tags": [
@@ -822,63 +942,15 @@ var SHOES = [
     "reason": "Tecnologia GEL na entressola EVA para absorção de impacto, cabedal mesh respirável e solado emborrachado resistente"
   },
   {
-    "brand": "ASICS",
-    "name": "Gel-Kayano 32",
-    "slug": "asics-gel-kayano-32-ef03",
-    "sexo": [
-      "feminino"
-    ],
-    "budget": "",
-    "price": 0,
-    "price_formatted": "R$ 0,00",
-    "levels": [
-      "intermediario",
-      "avancado"
-    ],
-    "pisada": [
-      "neutra",
-      "pronada",
-      "supinada"
-    ],
-    "terreno": [
-      "asfalto",
-      "trilha",
-      "mista",
-      "esteira"
-    ],
-    "distancia": [
-      "curta",
-      "media",
-      "longa"
-    ],
-    "photo": "https://m.media-amazon.com/images/I/61fz1ft0bDL._AC_SY500_.jpg",
-    "affiliate_links": {
-      "amazon": {
-        "url": "https://amzn.to/4uizqob",
-        "price": 0,
-        "store": "Amazon",
-        "label": "Amazon",
-        "installments": "6x sem juros"
-      }
-    },
-    "tags": [
-      "Amortecimento",
-      "Estabilidade",
-      "Longa distância"
-    ],
-    "description": "4D Guidance System com espuma FF BLAST PLUS para estabilidade máxima, ideal para longas distâncias e corredoras com pisada pronada",
-    "reason": "4D Guidance System com espuma FF BLAST PLUS para estabilidade máxima, ideal para longas distâncias e corredoras com pisada pronada"
-  },
-  {
     "brand": "BROOKS",
-    "name": "Adrenaline GTS 24 Supportive",
-    "slug": "brooks-adrenaline-gts-24-supportive-664b",
+    "name": "Hyperion 3",
+    "slug": "brooks-hyperion-3-664b",
     "sexo": [
       "masculino"
     ],
-    "budget": "",
-    "price": 0,
-    "price_formatted": "R$ 0,00",
+    "budget": "600a1000",
+    "price": 849.9,
+    "price_formatted": "R$ 849,90",
     "levels": [
       "intermediario",
       "avancado"
@@ -896,14 +968,21 @@ var SHOES = [
       "media",
       "longa"
     ],
-    "photo": "https://images-na.ssl-images-amazon.com/images/I/71EJN-HyMWL.jpg",
+    "photo": "https://m.media-amazon.com/images/I/81ZEoYqdBXL._AC_SY695_.jpg",
     "affiliate_links": {
       "amazon": {
-        "url": "https://amzn.to/4u7e6Sr",
-        "price": 0,
+        "url": "https://link.amazon/B045wDPxw",
+        "price": 1022.11,
         "store": "Amazon",
         "label": "Amazon",
-        "installments": "6x sem juros"
+        "installments": "12x de R$ 85,24 sem juros"
+      },
+      "netshoes": {
+        "url": "https://click.linksynergy.com/deeplink?id=NyH7xPegftk&mid=43984&murl=https%3A%2F%2Fwww.netshoes.com.br%2Fp%2Ftenis-brooks-hyperion-3-masculino-azul%2Bclaro%2Bpreto-129-00EG-934-90",
+        "price": 849.9,
+        "store": "Netshoes",
+        "label": "Netshoes",
+        "installments": "10x sem juros"
       }
     },
     "tags": [
@@ -915,14 +994,14 @@ var SHOES = [
   },
   {
     "brand": "BROOKS",
-    "name": "Adrenaline GTS 24 Weatherized",
-    "slug": "brooks-adrenaline-gts-24-weatherized-ec51",
+    "name": "Adrenaline GTS 24 ",
+    "slug": "brooks-adrenaline-gts-24-ec51",
     "sexo": [
-      "masculino"
+      "feminino"
     ],
-    "budget": "",
-    "price": 0,
-    "price_formatted": "R$ 0,00",
+    "budget": "600a1000",
+    "price": 799.9,
+    "price_formatted": "R$ 799,90",
     "levels": [
       "intermediario",
       "avancado"
@@ -940,14 +1019,14 @@ var SHOES = [
       "media",
       "longa"
     ],
-    "photo": "https://m.media-amazon.com/images/I/71JfCH+M+jL._AC_SY500_.jpg",
+    "photo": "https://static.netshoes.com.br/produtos/tenis-brooks-adrenaline-gts-24-feminino/81/129-00FK-881/129-00FK-881_zoom1.jpg?ts=1782389326&ims=1088x",
     "affiliate_links": {
-      "amazon": {
-        "url": "https://amzn.to/4sgDgwi",
-        "price": 0,
-        "store": "Amazon",
-        "label": "Amazon",
-        "installments": "6x sem juros"
+      "netshoes": {
+        "url": "https://click.linksynergy.com/deeplink?id=NyH7xPegftk&mid=43984&murl=https%3A%2F%2Fwww.netshoes.com.br%2Fp%2Ftenis-brooks-adrenaline-gts-24-feminino-cinza%2Bazul%2Bclaro-129-00FK-881",
+        "price": 799.9,
+        "store": "Netshoes",
+        "label": "Netshoes",
+        "installments": "10x sem juros"
       }
     },
     "tags": [
@@ -959,14 +1038,14 @@ var SHOES = [
   },
   {
     "brand": "BROOKS",
-    "name": "Ghost 16",
-    "slug": "brooks-ghost-16-74b4",
+    "name": "Launch 11",
+    "slug": "brooks-launch-11-74b4-m",
     "sexo": [
       "masculino"
     ],
-    "budget": "",
-    "price": 0,
-    "price_formatted": "R$ 0,00",
+    "budget": "300a600",
+    "price": 599.9,
+    "price_formatted": "R$ 599,90",
     "levels": [
       "intermediario",
       "avancado"
@@ -984,14 +1063,21 @@ var SHOES = [
       "media",
       "longa"
     ],
-    "photo": "https://images-na.ssl-images-amazon.com/images/I/81Kt56apbuL.jpg",
+    "photo": "https://m.media-amazon.com/images/I/71XE1MA8+CL._AC_SY695_.jpg",
     "affiliate_links": {
       "amazon": {
-        "url": "https://amzn.to/4aYytsk",
-        "price": 0,
+        "url": "https://link.amazon/B0e9WBKjW",
+        "price": 785.7,
         "store": "Amazon",
         "label": "Amazon",
-        "installments": "6x sem juros"
+        "installments": "12x de R$ 65,53 sem juros"
+      },
+      "netshoes": {
+        "url": "https://click.linksynergy.com/deeplink?id=NyH7xPegftk&mid=43984&murl=https%3A%2F%2Fwww.netshoes.com.br%2Fp%2Ftenis-brooks-launch-11-masculino-preto%2Bbranco-129-00D1-026",
+        "price": 599.9,
+        "store": "Netshoes",
+        "label": "Netshoes",
+        "installments": "8x sem juros"
       }
     },
     "tags": [
@@ -1008,9 +1094,9 @@ var SHOES = [
     "sexo": [
       "feminino"
     ],
-    "budget": "",
-    "price": 0,
-    "price_formatted": "R$ 0,00",
+    "budget": "acima1000",
+    "price": 1202.15,
+    "price_formatted": "R$ 1202,15",
     "levels": [
       "intermediario",
       "avancado"
@@ -1028,14 +1114,14 @@ var SHOES = [
       "media",
       "longa"
     ],
-    "photo": "https://m.media-amazon.com/images/I/81FrDKqWbIL._AC_SY500_.jpg",
+    "photo": "https://m.media-amazon.com/images/I/71wVszdDe6L._AC_SY695_.jpg",
     "affiliate_links": {
       "amazon": {
-        "url": "https://amzn.to/4srKmhs",
-        "price": 0,
+        "url": "https://link.amazon/B08cAKc8Y",
+        "price": 1202.15,
         "store": "Amazon",
         "label": "Amazon",
-        "installments": "6x sem juros"
+        "installments": "12x de R$ 100,28 sem juros"
       }
     },
     "tags": [
@@ -1713,11 +1799,11 @@ var SHOES = [
     "name": "Wave Creation 26",
     "slug": "mizuno-creation-26-1939",
     "sexo": [
-      "unissex"
+      "feminino"
     ],
     "budget": "600a1000",
-    "price": 629.9,
-    "price_formatted": "R$ 629,90",
+    "price": 699.99,
+    "price_formatted": "R$ 699,99",
     "levels": [
       "intermediario",
       "avancado"
@@ -1737,21 +1823,28 @@ var SHOES = [
       "media",
       "longa"
     ],
-    "photo": "https://m.media-amazon.com/images/I/51ifrRin22L._AC_SY500_.jpg",
+    "photo": "https://m.media-amazon.com/images/I/51Ay+4AtrHL._AC_SY695_.jpg",
     "affiliate_links": {
       "oficial": {
-        "url": "https://tidd.ly/4eI4FC3",
+        "url": "https://tidd.ly/3SuGrnC",
         "price": 699.99,
         "store": "MIZUNO",
         "label": "MIZUNO",
         "installments": "10 X R$ 69,99 sem juros"
       },
       "amazon": {
-        "url": "https://link.amazon/B0cRIECJY",
-        "price": 629.9,
+        "url": "https://link.amazon/B0iUN5tvY",
+        "price": 719.99,
         "store": "Amazon",
         "label": "Amazon",
-        "installments": "12x"
+        "installments": "12x de R$ 60,10 sem juros"
+      },
+      "netshoes": {
+        "url": "https://click.linksynergy.com/deeplink?id=NyH7xPegftk&mid=43984&murl=https%3A%2F%2Fwww.netshoes.com.br%2Fp%2Ftenis-mizuno-wave-creation-26-2FV-1318-068",
+        "price": 719.99,
+        "store": "Netshoes",
+        "label": "Netshoes",
+        "installments": "10x de R$ 72,00 sem juros"
       }
     },
     "tags": [
@@ -2101,8 +2194,8 @@ var SHOES = [
       "feminino"
     ],
     "budget": "600a1000",
-    "price": 808.11,
-    "price_formatted": "R$ 808,11",
+    "price": 779.88,
+    "price_formatted": "R$ 779,88",
     "levels": [
       "iniciante",
       "intermediario",
@@ -2124,11 +2217,18 @@ var SHOES = [
     "photo": "https://m.media-amazon.com/images/I/51Z+ohQHSIL._AC_SY625_.jpg",
     "affiliate_links": {
       "amazon": {
-        "url": "https://amzn.to/4rknGyU",
-        "price": 808.11,
+        "url": "https://link.amazon/B02SxAsyF",
+        "price": 853.39,
         "store": "Amazon",
         "label": "Amazon",
-        "installments": "6x sem juros"
+        "installments": "10x de R$ 85,42 sem juros"
+      },
+      "netshoes": {
+        "url": "https://www.netshoes.com.br/p/tenis-new-balance-fresh-foam-x-1080-v14-feminino-39V-24BP-198",
+        "price": 779.88,
+        "store": "Netshoes",
+        "label": "Netshoes",
+        "installments": "10x de R$ 77,99 sem juros"
       }
     },
     "tags": [
@@ -2996,6 +3096,58 @@ var SHOES = [
   },
   {
     "brand": "NIKE",
+    "name": "Juniper 3 Trail",
+    "slug": "nike-juniper3-trail--9a0b",
+    "sexo": [
+      "masculino"
+    ],
+    "budget": "600a1000",
+    "price": 617.76,
+    "price_formatted": "R$ 617,76",
+    "levels": [
+      "iniciante",
+      "intermediario",
+      "avancado"
+    ],
+    "pisada": [
+      "neutra",
+      "pronada",
+      "supinada"
+    ],
+    "terreno": [
+      "asfalto",
+      "pista",
+      "mista",
+      "esteira"
+    ],
+    "distancia": [
+      "curta",
+      "media",
+      "longa"
+    ],
+    "photo": "https://m.media-amazon.com/images/I/713oGloA66L._AC_SY695_.jpg",
+    "affiliate_links": {
+      "oficial": {
+        "url": "https://tidd.ly/3QobpNx",
+        "price": 617.76,
+        "store": "NIKE",
+        "label": "NIKE",
+        "installments": "6x de R$ 102,86 sem juros"
+      },
+      "amazon": {
+        "url": "https://link.amazon/B0iPEpCsm",
+        "price": 676.75,
+        "store": "Amazon",
+        "label": "Amazon",
+        "installments": "12x de R$ 56,46 sem juros"
+      }
+    },
+    "tags": [],
+    "description": "Grip Traxion para trilhas com amortecimento React X. Para quem quer performance fora do asfalto.",
+    "reason": "Grip Traxion para trilhas com amortecimento React X. Para quem quer performance fora do asfalto."
+  },
+  {
+    "brand": "NIKE",
     "name": "Pegasus 41",
     "slug": "nike-pegasus-41-f156",
     "sexo": [
@@ -3325,13 +3477,13 @@ var SHOES = [
   {
     "brand": "OLYMPIKUS",
     "name": "Challenger 5",
-    "slug": "olympikus-challenger-5-bdb6",
+    "slug": "olympikus-olympikus-challenger-5-ba6c",
     "sexo": [
-      "unissex"
+      "masculino"
     ],
     "budget": "ate300",
-    "price": 218.4,
-    "price_formatted": "R$ 218,40",
+    "price": 209.99,
+    "price_formatted": "R$ 209,99",
     "levels": [
       "iniciante",
       "intermediario"
@@ -3348,23 +3500,31 @@ var SHOES = [
       "media",
       "longa"
     ],
-    "photo": "https://m.media-amazon.com/images/I/519Fz1ewJdL._AC_SX679_.jpg",
+    "photo": "https://m.media-amazon.com/images/I/51fOqAnmsIL._AC_SX522_.jpg",
     "affiliate_links": {
+      "oficial": {
+        "url": "https://tidd.ly/4utSjEM",
+        "price": 249.99,
+        "store": "OLYMPIKUS",
+        "label": "OLYMPIKUS",
+        "installments": "7x de R$ 35,71 sem juros"
+      },
       "amazon": {
-        "url": "https://amzn.to/3NmoBAR",
-        "price": 218.4,
+        "url": "https://amzn.to/3OZCYM2",
+        "price": 209.99,
         "store": "Amazon",
         "label": "Amazon",
         "installments": "6x sem juros"
       }
     },
     "tags": [
-      "Amortecimento",
-      "Custo-benefício",
-      "Leveza"
+      "Entrada",
+      "Acessível",
+      "Nacional",
+      "Iniciante"
     ],
-    "description": "Tecnologia Eleva+ com cabedal Hypersox tipo meia e solado Gripper antiderrapante, ótimo custo-benefício para iniciantes",
-    "reason": "Tecnologia Eleva+ com cabedal Hypersox tipo meia e solado Gripper antiderrapante, ótimo custo-benefício para iniciantes"
+    "description": "A entrada mais acessível para quem quer começar a correr. Funcional e confortável para treinos curtos e caminhadas no asfalto.",
+    "reason": "A entrada mais acessível para quem quer começar a correr. Funcional e confortável para treinos curtos e caminhadas no asfalto."
   },
   {
     "brand": "OLYMPIKUS",
@@ -3572,14 +3732,14 @@ var SHOES = [
   },
   {
     "brand": "OLYMPIKUS",
-    "name": "Olympikus Challenger 5",
-    "slug": "olympikus-olympikus-challenger-5-ba6c",
+    "name": "Corre Trilha 3",
+    "slug": "olympikus-corre-trilha",
     "sexo": [
       "masculino"
     ],
-    "budget": "ate300",
-    "price": 209.99,
-    "price_formatted": "R$ 209,99",
+    "budget": "300a600",
+    "price": 599.9,
+    "price_formatted": "R$ 599,90",
     "levels": [
       "iniciante",
       "intermediario"
@@ -3596,60 +3756,30 @@ var SHOES = [
       "media",
       "longa"
     ],
-    "photo": "https://m.media-amazon.com/images/I/51fOqAnmsIL._AC_SX522_.jpg",
+    "photo": "https://m.media-amazon.com/images/I/61tS2urPAWL._AC_SY695_.jpg",
     "affiliate_links": {
       "oficial": {
-        "url": "https://tidd.ly/4utSjEM",
-        "price": 249.99,
+        "url": "https://tidd.ly/4ey85IL",
+        "price": 599.99,
         "store": "OLYMPIKUS",
         "label": "OLYMPIKUS",
-        "installments": "7x de R$ 35,71 sem juros"
+        "installments": "10x de R$ 59,99"
       },
       "amazon": {
-        "url": "https://amzn.to/3OZCYM2",
-        "price": 209.99,
+        "url": "https://link.amazon/B0fzkEK34",
+        "price": 599.9,
         "store": "Amazon",
         "label": "Amazon",
-        "installments": "6x sem juros"
+        "installments": "11x de R$ 54,60 sem juros"
+      },
+      "netshoes": {
+        "url": "https://click.linksynergy.com/deeplink?id=NyH7xPegftk&mid=43984&murl=https%3A%2F%2Fwww.netshoes.com.br%2Fp%2Ftenis-olympikus-corre-trilha-3-SE7-0805-244",
+        "price": 599.99,
+        "store": "Netshoes",
+        "label": "Netshoes",
+        "installments": "8x de R$ 75,00 sem juros"
       }
     },
-    "tags": [
-      "Entrada",
-      "Acessível",
-      "Nacional",
-      "Iniciante"
-    ],
-    "description": "A entrada mais acessível para quem quer começar a correr. Funcional e confortável para treinos curtos e caminhadas no asfalto.",
-    "reason": "A entrada mais acessível para quem quer começar a correr. Funcional e confortável para treinos curtos e caminhadas no asfalto."
-  },
-  {
-    "brand": "OLYMPIKUS",
-    "name": "Olympikus Corre Trilha",
-    "slug": "olympikus-corre-trilha",
-    "sexo": [
-      "unissex"
-    ],
-    "budget": "",
-    "price": 0,
-    "price_formatted": "R$ 0,00",
-    "levels": [
-      "iniciante",
-      "intermediario"
-    ],
-    "pisada": [
-      "neutra"
-    ],
-    "terreno": [
-      "asfalto",
-      "esteira"
-    ],
-    "distancia": [
-      "curta",
-      "media",
-      "longa"
-    ],
-    "photo": "",
-    "affiliate_links": {},
     "tags": [],
     "description": "",
     "reason": ""
