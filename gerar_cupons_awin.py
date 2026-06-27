@@ -49,8 +49,8 @@ def buscar_promocoes():
     # Matriz: caminho (singular/plural) × autenticação (raw / Bearer / query param)
     combos = []
     for path in (f"/publisher/{pid}/promotions/", f"/publishers/{pid}/promotions/"):
+        combos.append((base + path, {"Authorization": f"Bearer {TOKEN}"}))           # ✅ combinação que funciona
         combos.append((base + path, {"Authorization": TOKEN}))                       # token cru no header
-        combos.append((base + path, {"Authorization": f"Bearer {TOKEN}"}))           # com Bearer
         combos.append((base + path + f"?accessToken={TOKEN}", {}))                   # token na URL
 
     erros = []
@@ -98,11 +98,28 @@ def formatar(promocoes):
         if not (titulo or codigo):
             continue
 
+        # título limpo: normaliza espaços e corta em palavra inteira
+        t = " ".join(titulo.split())
+        if len(t) > 80:
+            t = t[:80].rsplit(" ", 1)[0] + "…"
+
+        # validade do cupom (se a API informar)
+        fim = campo(p, "endDate", "datetimeEnd", "validTo")
+        validade = ""
+        if fim:
+            try:
+                d = datetime.datetime.fromisoformat(str(fim).replace("Z", "+00:00"))
+                validade = d.strftime("%d/%m")
+            except Exception:
+                validade = ""
+
         bloco = f"👟 *{loja}*"
-        if titulo:
-            bloco += f"\n{titulo[:90]}"
+        if t:
+            bloco += f"\n{t}"
         if codigo:
             bloco += f"\n🎟️ Cupom: *{codigo}*"
+        if validade:
+            bloco += f"\n🗓️ Válido até {validade}"
         if link:
             bloco += f"\n👉 {link}"
         linhas.append(bloco)
