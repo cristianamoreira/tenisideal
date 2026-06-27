@@ -13,7 +13,9 @@ import urllib.request
 import urllib.error
 
 API_KEY = os.environ.get("BREVO_API_KEY", "")
-EMAIL = os.environ.get("EMAIL_CUPONS", "")
+EMAIL = os.environ.get("EMAIL_CUPONS", "")                       # destinatário (você recebe aqui)
+# remetente: precisa ser do seu domínio autenticado no Brevo (senão o Gmail bloqueia)
+REMETENTE = os.environ.get("EMAIL_REMETENTE", "") or "cupons@tenisideal.com.br"
 
 
 def main():
@@ -44,7 +46,7 @@ def main():
     )
 
     body = {
-        "sender": {"email": EMAIL, "name": "Cupons Tênis Ideal"},
+        "sender": {"email": REMETENTE, "name": "Cupons Tênis Ideal"},
         "to": [{"email": EMAIL}],
         "subject": f"🔥 Cupons do dia {hoje} — cole no WhatsApp",
         "htmlContent": html,

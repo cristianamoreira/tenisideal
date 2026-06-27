@@ -27,6 +27,7 @@ jobs:
         env:
           BREVO_API_KEY: ${{ secrets.BREVO_API_KEY }}
           EMAIL_CUPONS: ${{ secrets.EMAIL_CUPONS }}
+          EMAIL_REMETENTE: ${{ secrets.EMAIL_REMETENTE }}
         run: python3 enviar_cupons_email.py
 
       - name: Disponibilizar a mensagem para download (backup)
