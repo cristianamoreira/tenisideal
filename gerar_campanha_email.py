@@ -19,7 +19,7 @@ import urllib.error
 
 BREVO_API_KEY = os.environ.get("BREVO_API_KEY", "")
 LIST_ID = int(os.environ.get("BREVO_LIST_ID", "3"))
-SENDER_EMAIL = os.environ.get("EMAIL_REMETENTE", "cupons@tenisideal.com.br")
+SENDER_EMAIL = os.environ.get("EMAIL_REMETENTE") or "cupons@tenisideal.com.br"
 SITE = "https://tenisideal.com.br"
 
 YELLOW = "#c8ff00"
