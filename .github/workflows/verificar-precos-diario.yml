@@ -1,0 +1,21 @@
+name: Conferir preços (planilha x lojas)
+
+on:
+  schedule:
+    - cron: '0 16 * * *'   # 16:00 UTC = 13:00 BRT
+  workflow_dispatch:
+
+jobs:
+  conferir:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - name: Conferir preços e avisar por e-mail
+        env:
+          BREVO_API_KEY: ${{ secrets.BREVO_API_KEY }}
+          EMAIL_CUPONS: ${{ secrets.EMAIL_CUPONS }}
+          EMAIL_REMETENTE: ${{ secrets.EMAIL_REMETENTE }}
+        run: python3 verificar_precos.py
