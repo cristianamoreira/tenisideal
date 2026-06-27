@@ -8,8 +8,8 @@ var SHOES = [
       "masculino"
     ],
     "budget": "acima1000",
-    "price": 1999.9,
-    "price_formatted": "R$ 1999,90",
+    "price": 1999.99,
+    "price_formatted": "R$ 1999,99",
     "levels": [
       "intermediario",
       "avancado"
@@ -40,7 +40,7 @@ var SHOES = [
       },
       "amazon": {
         "url": "https://link.amazon/B02u0eOhc",
-        "price": 1999.9,
+        "price": 0,
         "store": "Amazon",
         "label": "Amazon",
         "installments": "12x de R$ 166,75 sem juros"
@@ -100,7 +100,7 @@ var SHOES = [
       },
       "amazon": {
         "url": "https://amzn.to/3NEjLPv",
-        "price": 1472.15,
+        "price": 0,
         "store": "Amazon",
         "label": "Amazon",
         "installments": "12x de R$ 122,78 sem juros"
@@ -160,7 +160,7 @@ var SHOES = [
       },
       "amazon": {
         "url": "https://amzn.to/4b7FF5t",
-        "price": 399.9,
+        "price": 0,
         "store": "Amazon",
         "label": "Amazon",
         "installments": "7x de R$ 57,18 sem juros"
@@ -188,8 +188,8 @@ var SHOES = [
       "masculino"
     ],
     "budget": "600a1000",
-    "price": 799.0,
-    "price_formatted": "R$ 799,00",
+    "price": 839.88,
+    "price_formatted": "R$ 839,88",
     "levels": [
       "intermediario",
       "avancado"
@@ -220,7 +220,7 @@ var SHOES = [
       },
       "amazon": {
         "url": "https://link.amazon/B04X6EoeX",
-        "price": 799.0,
+        "price": 0,
         "store": "Amazon",
         "label": "Amazon",
         "installments": "12x de R$ 66,62 sem juros"
@@ -281,7 +281,7 @@ var SHOES = [
       },
       "amazon": {
         "url": "https://amzn.to/4bthoHb",
-        "price": 2011.53,
+        "price": 0,
         "store": "Amazon",
         "label": "Amazon",
         "installments": "12x de R$ 167,71 sem juros"
@@ -338,7 +338,7 @@ var SHOES = [
       },
       "amazon": {
         "url": "https://link.amazon/B06eWUK0v",
-        "price": 516.85,
+        "price": 0,
         "store": "Amazon",
         "label": "Amazon",
         "installments": "10x de R$ 51,73 sem juros"
@@ -399,7 +399,7 @@ var SHOES = [
       },
       "amazon": {
         "url": "https://link.amazon/B01mdNZEv",
-        "price": 1103.73,
+        "price": 0,
         "store": "Amazon",
         "label": "Amazon",
         "installments": "12x de R$ 92,06 sem juros"
@@ -439,7 +439,7 @@ var SHOES = [
     "affiliate_links": {
       "amazon": {
         "url": "https://link.amazon/B03uJ9yhA",
-        "price": 1457.55,
+        "price": 0,
         "store": "Amazon",
         "label": "Amazon",
         "installments": "10x de R$ 145,80 sem juros"
@@ -494,7 +494,7 @@ var SHOES = [
     "affiliate_links": {
       "amazon": {
         "url": "https://link.amazon/B00dNlfYL",
-        "price": 1427.12,
+        "price": 0,
         "store": "Amazon",
         "label": "Amazon",
         "installments": "12x de R$ 119,00 sem juros"
@@ -548,7 +548,7 @@ var SHOES = [
     "affiliate_links": {
       "amazon": {
         "url": "https://link.amazon/B05qFTEvh",
-        "price": 1149.99,
+        "price": 0,
         "store": "Amazon",
         "label": "Amazon",
         "installments": "12x de R$ 95,86 sem juros"
@@ -576,8 +576,8 @@ var SHOES = [
       "masculino"
     ],
     "budget": "acima1000",
-    "price": 1299.9,
-    "price_formatted": "R$ 1299,90",
+    "price": 1299.99,
+    "price_formatted": "R$ 1299,99",
     "levels": [
       "intermediario",
       "avancado"
@@ -602,7 +602,7 @@ var SHOES = [
     "affiliate_links": {
       "amazon": {
         "url": "https://link.amazon/B04wJ16iF",
-        "price": 1299.9,
+        "price": 0,
         "store": "Amazon",
         "label": "Amazon",
         "installments": "12x de R$ 108,38 sem juros"
@@ -656,7 +656,7 @@ var SHOES = [
     "affiliate_links": {
       "amazon": {
         "url": "https://link.amazon/B09YJrSCK",
-        "price": 799.9,
+        "price": 0,
         "store": "Amazon",
         "label": "Amazon",
         "installments": "12x de R$ 66,75 sem juros"
@@ -710,7 +710,7 @@ var SHOES = [
     "affiliate_links": {
       "amazon": {
         "url": "https://link.amazon/B0gP0JDdq",
-        "price": 1022.38,
+        "price": 0,
         "store": "Amazon",
         "label": "Amazon",
         "installments": "12x de R$ 85,29 sem juros"
@@ -784,9 +784,9 @@ var SHOES = [
     "sexo": [
       "masculino"
     ],
-    "budget": "300a600",
-    "price": 497.88,
-    "price_formatted": "R$ 497,88",
+    "budget": "",
+    "price": 0,
+    "price_formatted": "R$ 0,00",
     "levels": [
       "intermediario",
       "avancado"
@@ -811,7 +811,7 @@ var SHOES = [
     "affiliate_links": {
       "amazon": {
         "url": "https://link.amazon/B06edfZJE",
-        "price": 497.88,
+        "price": 0,
         "store": "Amazon",
         "label": "Amazon",
         "installments": "12x de R$ 46,46 com juros"
@@ -866,7 +866,7 @@ var SHOES = [
     "affiliate_links": {
       "amazon": {
         "url": "https://link.amazon/B0h9IuOD5",
-        "price": 489.9,
+        "price": 0,
         "store": "Amazon",
         "label": "Amazon",
         "installments": "9x de R$ 54,46 sem juros"
@@ -921,7 +921,7 @@ var SHOES = [
     "affiliate_links": {
       "amazon": {
         "url": "https://link.amazon/B0hWX7E3m",
-        "price": 299.99,
+        "price": 0,
         "store": "Amazon",
         "label": "Amazon",
         "installments": "6x de R$ 50,04 sem juros"
@@ -1067,7 +1067,7 @@ var SHOES = [
     "affiliate_links": {
       "amazon": {
         "url": "https://link.amazon/B0e9WBKjW",
-        "price": 785.7,
+        "price": 0,
         "store": "Amazon",
         "label": "Amazon",
         "installments": "12x de R$ 65,53 sem juros"
@@ -1094,9 +1094,9 @@ var SHOES = [
     "sexo": [
       "feminino"
     ],
-    "budget": "acima1000",
-    "price": 1202.15,
-    "price_formatted": "R$ 1202,15",
+    "budget": "",
+    "price": 0,
+    "price_formatted": "R$ 0,00",
     "levels": [
       "intermediario",
       "avancado"
@@ -1118,7 +1118,7 @@ var SHOES = [
     "affiliate_links": {
       "amazon": {
         "url": "https://link.amazon/B08cAKc8Y",
-        "price": 1202.15,
+        "price": 0,
         "store": "Amazon",
         "label": "Amazon",
         "installments": "12x de R$ 100,28 sem juros"
@@ -1161,7 +1161,7 @@ var SHOES = [
     "affiliate_links": {
       "amazon": {
         "url": "https://link.amazon/B0j66J2aY",
-        "price": 209.9,
+        "price": 0,
         "store": "Amazon",
         "label": "Amazon",
         "installments": "6x de R$ 35,00 sem juros"
@@ -1188,9 +1188,9 @@ var SHOES = [
     "sexo": [
       "feminino"
     ],
-    "budget": "300a600",
-    "price": 549.9,
-    "price_formatted": "R$ 549,90",
+    "budget": "600a1000",
+    "price": 769.8,
+    "price_formatted": "R$ 769,80",
     "levels": [
       "iniciante",
       "intermediario"
@@ -1211,7 +1211,7 @@ var SHOES = [
     "affiliate_links": {
       "amazon": {
         "url": "https://link.amazon/B0cRBTEXp",
-        "price": 549.9,
+        "price": 0,
         "store": "Amazon",
         "label": "Amazon",
         "installments": "10x de R$ 54,99 sem juros"
@@ -4117,14 +4117,14 @@ var SHOES = [
   },
   {
     "brand": "SKECHERS",
-    "name": "Arch Fit Orvan Drex",
-    "slug": "skechers-arch-fit-orvan-drex-3c37",
+    "name": "Go Run Consistent 2",
+    "slug": "skechers-go-run-consistent-2-3c37",
     "sexo": [
       "masculino"
     ],
     "budget": "300a600",
-    "price": 399.9,
-    "price_formatted": "R$ 399,90",
+    "price": 329.9,
+    "price_formatted": "R$ 329,90",
     "levels": [
       "iniciante",
       "intermediario"
@@ -4141,14 +4141,21 @@ var SHOES = [
       "media",
       "longa"
     ],
-    "photo": "https://m.media-amazon.com/images/I/71gYxjqbteL._AC_SY500_.jpg",
+    "photo": "https://m.media-amazon.com/images/I/81ThGJ6P8NL._AC_SX695_.jpg",
     "affiliate_links": {
       "amazon": {
-        "url": "https://amzn.to/4aY4ult",
-        "price": 399.9,
+        "url": "https://link.amazon/B0e7rzHiF",
+        "price": 329.9,
         "store": "Amazon",
         "label": "Amazon",
-        "installments": "6x sem juros"
+        "installments": "6x de R$ 55,00 sem juros"
+      },
+      "netshoes": {
+        "url": "https://click.linksynergy.com/deeplink?id=NyH7xPegftk&mid=43984&murl=https%3A%2F%2Fwww.netshoes.com.br%2Fp%2Ftenis-skechers-go-run-consistent-2-masculino-preto%2Bbranco-EUZ-9408-026",
+        "price": 399.99,
+        "store": "Netshoes",
+        "label": "Netshoes",
+        "installments": "5x sem juros"
       }
     },
     "tags": [
@@ -4160,14 +4167,14 @@ var SHOES = [
   },
   {
     "brand": "UNDER ARMOUR",
-    "name": "Charged Great",
-    "slug": "under-armour-charged-great-8fbd",
+    "name": "Charged Skyline 4",
+    "slug": "under-armour-charged-skyline-4-8fbd-f",
     "sexo": [
       "feminino"
     ],
-    "budget": "ate300",
-    "price": 269.9,
-    "price_formatted": "R$ 269,90",
+    "budget": "300a600",
+    "price": 309.99,
+    "price_formatted": "R$ 309,99",
     "levels": [
       "intermediario",
       "avancado"
@@ -4185,14 +4192,21 @@ var SHOES = [
       "media",
       "longa"
     ],
-    "photo": "https://m.media-amazon.com/images/I/61cNbsYKgPL._AC_SY500_.jpg",
+    "photo": "https://m.media-amazon.com/images/I/71D6Uc7OZ7L._AC_SX679_.jpg",
     "affiliate_links": {
       "amazon": {
-        "url": "https://amzn.to/4rYjl5o",
-        "price": 269.9,
+        "url": "https://link.amazon/B09al0nJ5",
+        "price": 309.99,
         "store": "Amazon",
         "label": "Amazon",
-        "installments": "6x sem juros"
+        "installments": "6x de R$ 51,69 sem juros"
+      },
+      "netshoes": {
+        "url": "https://click.linksynergy.com/deeplink?id=NyH7xPegftk&mid=43984&murl=https%3A%2F%2Fwww.netshoes.com.br%2Fp%2Ftenis-de-corrida-under-armour-charged-skyline-4-feminino-R5M-29UG-018",
+        "price": 309.99,
+        "store": "Netshoes",
+        "label": "Netshoes",
+        "installments": "4x sem juros"
       }
     },
     "tags": [
@@ -4202,49 +4216,5 @@ var SHOES = [
     ],
     "description": "Tecnologia Charged no solado para amortecimento responsivo e retorno de energia. Cabedal em mesh respirável para conforto em treinos diários",
     "reason": "Tecnologia Charged no solado para amortecimento responsivo e retorno de energia. Cabedal em mesh respirável para conforto em treinos diários"
-  },
-  {
-    "brand": "UNDER ARMOUR",
-    "name": "Charged Hit SE",
-    "slug": "under-armour-charged-hit-se-104d",
-    "sexo": [
-      "masculino"
-    ],
-    "budget": "300a600",
-    "price": 469.9,
-    "price_formatted": "R$ 469,90",
-    "levels": [
-      "intermediario",
-      "avancado"
-    ],
-    "pisada": [
-      "neutra"
-    ],
-    "terreno": [
-      "asfalto",
-      "pista",
-      "esteira"
-    ],
-    "distancia": [
-      "curta",
-      "media",
-      "longa"
-    ],
-    "photo": "https://m.media-amazon.com/images/I/61FtBlh+DJL._AC_SY625_.jpg",
-    "affiliate_links": {
-      "amazon": {
-        "url": "https://amzn.to/4bd2MeK",
-        "price": 469.9,
-        "store": "Amazon",
-        "label": "Amazon",
-        "installments": "6x sem juros"
-      }
-    },
-    "tags": [
-      "Amortecimento",
-      "Durabilidade"
-    ],
-    "description": "Tecnologia Charged Cushioning com amortecimento responsivo e borracha de alta abrasão para treinos diários",
-    "reason": "Tecnologia Charged Cushioning com amortecimento responsivo e borracha de alta abrasão para treinos diários"
   }
 ];
