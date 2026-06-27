@@ -65,6 +65,19 @@ def gerar_imagem(loja, codigo, titulo, idx):
     # borda amarela fina
     d.rectangle([18, 18, W - 18, H - 18], outline=AMARELO, width=4)
 
+    # selo de desconto (canto superior direito) se o título tiver %
+    mdesc = re.search(r"(\d{1,2})\s*%", titulo or "")
+    if mdesc:
+        cx, cy, r0 = W - 165, 165, 100
+        d.ellipse([cx - r0, cy - r0, cx + r0, cy + r0], fill=AMARELO)
+        ftxt = fonte(58)
+        t_pct = mdesc.group(1) + "%"
+        wt = d.textlength(t_pct, font=ftxt)
+        d.text((cx - wt / 2, cy - 50), t_pct, font=ftxt, fill=PRETO)
+        foff = fonte(30)
+        wo = d.textlength("OFF", font=foff)
+        d.text((cx - wo / 2, cy + 14), "OFF", font=foff, fill=PRETO)
+
     # logo
     f_logo = fonte(58)
     txt1, txt2 = "TÊNIS", "IDEAL"
