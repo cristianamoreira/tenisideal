@@ -22,17 +22,8 @@ TOKEN = os.environ.get("AWIN_API_TOKEN", "")
 MAX_CUPONS = int(os.environ.get("MAX_CUPONS", "8"))
 
 
-def buscar_promocoes():
+def _post(body):
     url = f"https://api.awin.com/publishers/{PUBLISHER_ID}/promotions/"
-    body = {
-        "filters": {
-            "membership": "joined",     # só lojas em que você é parceira
-            "type": "voucher",          # só cupons (não banners)
-            "status": "active",         # só ativos
-            "regionCodes": ["BR"],
-        },
-        "pagination": {"page": 1, "pageSize": 100},
-    }
     req = urllib.request.Request(
         url,
         data=json.dumps(body).encode("utf-8"),
@@ -44,6 +35,33 @@ def buscar_promocoes():
     )
     with urllib.request.urlopen(req, timeout=30) as resp:
         return json.loads(resp.read().decode("utf-8"))
+
+
+def buscar_promocoes():
+    # Tentativa 1: filtro completo (lojas que você é parceira, cupons, Brasil)
+    tentativas = [
+        {"filters": {"membership": "joined", "type": "voucher", "regionCodes": ["BR"]},
+         "pagination": {"page": 1, "pageSize": 100}},
+        # Tentativa 2: mais simples (sem type), caso a API reclame
+        {"filters": {"membership": "joined", "regionCodes": ["BR"]},
+         "pagination": {"page": 1, "pageSize": 100}},
+        # Tentativa 3: mínimo possível
+        {"pagination": {"page": 1, "pageSize": 100}},
+    ]
+    ultimo_erro = None
+    for i, body in enumerate(tentativas, 1):
+        try:
+            print(f"[tentativa {i}] body={json.dumps(body)}", file=sys.stderr)
+            return _post(body)
+        except urllib.error.HTTPError as e:
+            corpo = e.read().decode("utf-8", "ignore")[:400]
+            ultimo_erro = f"HTTP {e.code}: {corpo}"
+            print(f"[tentativa {i} falhou] {ultimo_erro}", file=sys.stderr)
+            if e.code == 401:
+                # token inválido — não adianta tentar de novo
+                raise RuntimeError("Token da Awin inválido ou expirado (HTTP 401). "
+                                   "Gere um novo token e atualize o secret AWIN_API_TOKEN.")
+    raise RuntimeError(f"Todas as tentativas falharam. Último erro: {ultimo_erro}")
 
 
 def campo(promo, *nomes, default=""):
