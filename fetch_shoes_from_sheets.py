@@ -187,7 +187,8 @@ def fetch_shoes():
         terreno = split_pipe(d.get('terreno')) or list(defaults['terreno'])
         if 'esteira' not in [t.lower() for t in terreno]:
             terreno.append('esteira')   # esteira serve para qualquer tênis
-        budget = d.get('budget', '').strip() or budget_by_price(price)
+        # sempre recalcula pelo preço atual (não desatualiza se o preço mudar)
+        budget = budget_by_price(price) or d.get('budget', '').strip()
 
         shoes.append({
             "brand": brand,
