@@ -122,10 +122,62 @@ def secao_cupons(cupons):
     <tr><td><table width="100%" cellpadding="0" cellspacing="0">{linhas}</table></td></tr>"""
 
 
+# Conteúdo editorial (dicas/reviews) — gira a cada semana, pra não ser só cupom
+CONTEUDO = [
+    {"titulo": "Você sabe qual é a sua pisada? 👣",
+     "texto": "Pisada neutra, pronada ou supinada muda totalmente o tênis ideal pra você — "
+              "e correr com o errado aumenta o risco de lesão. Na dúvida, o teste do nosso site "
+              "identifica em segundos."},
+    {"titulo": "Quando trocar seu tênis de corrida? ⏱️",
+     "texto": "A regra geral é a cada <b>600 a 800 km</b>. Depois disso, o amortecimento perde a "
+              "eficiência mesmo que o tênis pareça novo por fora. Anote a quilometragem do seu par!"},
+    {"titulo": "Placa de carbono vale a pena? 🏅",
+     "texto": "Tênis com placa de carbono (como Adizero Adios Pro e Vaporfly) devolvem energia e "
+              "aceleram seu ritmo — mas são feitos pra prova, com durabilidade menor. Pra treino "
+              "diário, um daily trainer rende muito mais."},
+    {"titulo": "Daily trainer x tênis de prova 🥇",
+     "texto": "O daily trainer (Pegasus, Ghost, Gel-Cumulus) aguenta o dia a dia com conforto e "
+              "durabilidade. O de prova é leve e rápido, pra momentos especiais. O ideal é ter um "
+              "de cada pra cada propósito."},
+    {"titulo": "O que é o 'drop' do tênis? 📐",
+     "texto": "Drop é a diferença de altura entre o calcanhar e a ponta. Drop alto (10–12mm) "
+              "favorece quem pisa de calcanhar; drop baixo (0–6mm) puxa a passada pro meio do pé. "
+              "Não existe certo ou errado — existe o que combina com você."},
+    {"titulo": "Amortecimento máximo x responsivo 🛋️",
+     "texto": "Max cushion (Hoka Bondi, Gel-Nimbus) é macio e protege nas longas distâncias. "
+              "Responsivo (Boston, Endorphin Speed) devolve energia pra ritmos rápidos. Depende do "
+              "seu treino e do seu corpo."},
+    {"titulo": "Duelo: Nike Pegasus x Brooks Ghost 🥊",
+     "texto": "Os dois são os daily trainers mais vendidos do mundo. O <b>Pegasus</b> é um pouco "
+              "mais firme e versátil; o <b>Ghost</b> é mais macio na passada. Ambos acertam pra quem "
+              "quer um par confiável pro dia a dia."},
+    {"titulo": "Asfalto, esteira ou trilha? 🏞️",
+     "texto": "Tênis de rua não foi feito pra trilha (e vice-versa). Pra trilha, procure solado com "
+              "cravos (Speedgoat, Terrex). Pra asfalto e esteira, foque em amortecimento e leveza. "
+              "Usar o certo previne escorregões e lesões."},
+]
+
+
+def secao_conteudo():
+    bloco = CONTEUDO[datetime.date.today().isocalendar()[1] % len(CONTEUDO)]
+    return f"""
+    <tr><td style="padding:18px 28px 4px;">
+      <table width="100%" cellpadding="0" cellspacing="0" style="background:#fafafa;border:1px solid #eee;border-radius:10px;">
+        <tr><td style="padding:18px 20px;">
+          <div style="display:inline-block;background:{YELLOW};color:#1a1a1a;font-size:11px;font-weight:800;
+               text-transform:uppercase;letter-spacing:.5px;padding:3px 10px;border-radius:12px;">Dica da semana</div>
+          <div style="font-size:18px;font-weight:800;color:#1a1a1a;margin:10px 0 6px;">{bloco['titulo']}</div>
+          <div style="font-size:14px;color:#555;line-height:1.6;">{bloco['texto']}</div>
+        </td></tr>
+      </table>
+    </td></tr>"""
+
+
 def montar_html(shoes_sel, cupons):
     hoje = datetime.date.today().strftime("%d/%m")
     cards = "".join(card_produto(s) for s in shoes_sel)
     cupons_html = secao_cupons(cupons)
+    conteudo_html = secao_conteudo()
     return f"""<!DOCTYPE html>
 <html><body style="margin:0;padding:0;background:#f3f3f3;font-family:Arial,Helvetica,sans-serif;">
 <table width="100%" cellpadding="0" cellspacing="0" style="background:#f3f3f3;padding:24px 0;">
@@ -139,7 +191,7 @@ def montar_html(shoes_sel, cupons):
     <tr><td style="padding:28px 28px 8px;">
       <div style="font-size:22px;font-weight:800;color:#1a1a1a;">👟 Novidades da semana — {hoje}</div>
       <div style="font-size:15px;color:#555;line-height:1.6;margin-top:8px;">
-        Separamos alguns destaques pra você e as melhores ofertas do momento. Bora correr? 🏃
+        Uma dica rápida, os destaques da semana e as melhores ofertas do momento. Bora correr? 🏃
       </div>
     </td></tr>
     <!-- produtos -->
@@ -147,6 +199,8 @@ def montar_html(shoes_sel, cupons):
       <div style="font-size:18px;font-weight:800;color:#1a1a1a;margin-bottom:4px;">⭐ Destaques</div>
       <table width="100%" cellpadding="0" cellspacing="0">{cards}</table>
     </td></tr>
+    <!-- conteúdo / review da semana -->
+    {conteudo_html}
     <!-- cupons -->
     <tr><td style="padding:0 28px;"><table width="100%" cellpadding="0" cellspacing="0">{cupons_html}</table></td></tr>
     <!-- CTA quiz -->
@@ -170,7 +224,7 @@ def criar_rascunho_brevo(html):
     hoje = datetime.date.today().strftime("%d/%m/%Y")
     body = {
         "name": f"Novidades Tênis Ideal — {hoje}",
-        "subject": "👟 Novidades e ofertas da semana — Tênis Ideal",
+        "subject": "👟 Dica da semana + ofertas — Tênis Ideal",
         "sender": {"name": "Tênis Ideal", "email": SENDER_EMAIL},
         "type": "classic",
         "htmlContent": html,
