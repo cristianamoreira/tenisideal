@@ -421,8 +421,8 @@
       "Amortecimento",
       "Conforto"
     ],
-    "description": "",
-    "reason": ""
+    "description": "Tênis de corrida versátil com bom amortecimento para treinos diários.",
+    "reason": "Tênis de corrida versátil com bom amortecimento para treinos diários."
   },
   {
     "brand": "ASICS",
@@ -435,8 +435,8 @@
     "price": 1139.9,
     "price_formatted": "R$ 1139,90",
     "levels": [
-      "intermediário",
-      "avançado"
+      "intermediario",
+      "avancado"
     ],
     "pisada": [
       "neutra"
@@ -790,8 +790,8 @@
       "Trilha",
       "Híbrido"
     ],
-    "description": "",
-    "reason": ""
+    "description": "Tênis de trilha com tração e proteção para terrenos irregulares.",
+    "reason": "Tênis de trilha com tração e proteção para terrenos irregulares."
   },
   {
     "brand": "ASICS",
@@ -1008,8 +1008,8 @@
       "Versátil",
       "Conforto"
     ],
-    "description": "",
-    "reason": ""
+    "description": "Tênis de corrida versátil com bom amortecimento para treinos diários.",
+    "reason": "Tênis de corrida versátil com bom amortecimento para treinos diários."
   },
   {
     "brand": "BROOKS",
@@ -1066,7 +1066,7 @@
   },
   {
     "brand": "BROOKS",
-    "name": "Adrenaline GTS 24 ",
+    "name": "Adrenaline GTS 24",
     "slug": "brooks-adrenaline-gts-24-ec51",
     "sexo": [
       "feminino"
@@ -1268,7 +1268,7 @@
   },
   {
     "brand": "FILA",
-    "name": "Speed Lite ",
+    "name": "Speed Lite",
     "slug": "fila-tenis-fila-speed-lite-masculino-328b",
     "sexo": [
       "masculino"
@@ -1682,8 +1682,8 @@
       "Amortecimento",
       "Conforto"
     ],
-    "description": "",
-    "reason": ""
+    "description": "Tênis com amortecimento máximo para conforto em longas distâncias.",
+    "reason": "Tênis com amortecimento máximo para conforto em longas distâncias."
   },
   {
     "brand": "HOKA",
@@ -1820,8 +1820,8 @@
       "Versátil",
       "Conforto"
     ],
-    "description": "",
-    "reason": ""
+    "description": "Tênis de corrida versátil com bom amortecimento para treinos diários.",
+    "reason": "Tênis de corrida versátil com bom amortecimento para treinos diários."
   },
   {
     "brand": "MIZUNO",
@@ -2894,7 +2894,7 @@
   },
   {
     "brand": "NIKE",
-    "name": "Downshifter 13 ",
+    "name": "Downshifter 13",
     "slug": "nike-tenis-nike-downshifter-13-masculino-f130",
     "sexo": [
       "masculino"
@@ -2922,7 +2922,7 @@
       "oficial": {
         "url": "https://www.awin1.com/cread.php?awinmid=17652&awinaffid=2800712&platform=dl&ued=https%3A%2F%2Fwww.nike.com.br%2Ftenis-nike-downshifter-13-masculino-027915.html%3Fcor%3DIM",
         "price": 347.37,
-        "preco_pix": 329.99,
+        "preco_pix": 0,
         "store": "NIKE",
         "label": "NIKE",
         "installments": "3x de R$ 115,79 sem juros"
@@ -3382,8 +3382,8 @@
       "Velocidade",
       "Leveza"
     ],
-    "description": "",
-    "reason": ""
+    "description": "Tênis de prova com placa de carbono para máxima velocidade.",
+    "reason": "Tênis de prova com placa de carbono para máxima velocidade."
   },
   {
     "brand": "NIKE",
@@ -3392,9 +3392,9 @@
     "sexo": [
       "masculino"
     ],
-    "budget": "600a1000",
-    "price": 949.99,
-    "price_formatted": "R$ 949,99",
+    "budget": "acima1000",
+    "price": 1000.0,
+    "price_formatted": "R$ 1000,00",
     "levels": [
       "iniciante",
       "intermediario",
@@ -3418,11 +3418,11 @@
     "affiliate_links": {
       "oficial": {
         "url": "https://tidd.ly/3NYKhn2",
-        "price": 949.99,
+        "price": 1000.0,
         "preco_pix": 0,
         "store": "NIKE",
         "label": "NIKE",
-        "installments": ""
+        "installments": "10x de R$ 100,00 sem juros"
       },
       "amazon": {
         "url": "https://amzn.to/4maXIN5",
@@ -3447,8 +3447,8 @@
       "feminino"
     ],
     "budget": "acima1000",
-    "price": 1025.99,
-    "price_formatted": "R$ 1025,99",
+    "price": 1146.51,
+    "price_formatted": "R$ 1146,51",
     "levels": [
       "iniciante",
       "intermediario",
@@ -3470,14 +3470,6 @@
     ],
     "photo": "https://imgnike-a.akamaihd.net/360x360/028652A1A7.jpg",
     "affiliate_links": {
-      "oficial": {
-        "url": "https://tidd.ly/4b3MxkX",
-        "price": 1025.99,
-        "preco_pix": 1025.99,
-        "store": "NIKE",
-        "label": "NIKE",
-        "installments": "10x de R$ 108,00 sem juros"
-      },
       "amazon": {
         "url": "https://amzn.to/419eqD7",
         "price": 1146.51,
@@ -3528,7 +3520,7 @@
       "oficial": {
         "url": "https://tidd.ly/3QobpNx",
         "price": 617.76,
-        "preco_pix": 586.27,
+        "preco_pix": 0,
         "store": "NIKE",
         "label": "NIKE",
         "installments": "6x de R$ 102,86 sem juros"
@@ -3891,11 +3883,11 @@
     "name": "Rua",
     "slug": "olympikus-rua-33dd",
     "sexo": [
-      "unissex"
+      "masculino"
     ],
     "budget": "ate300",
-    "price": 204.9,
-    "price_formatted": "R$ 204,90",
+    "price": 229.9,
+    "price_formatted": "R$ 229,90",
     "levels": [
       "iniciante",
       "intermediario"
@@ -3914,14 +3906,30 @@
       "media",
       "longa"
     ],
-    "photo": "https://m.media-amazon.com/images/I/61Rx2TlzVUL._AC_SY500_.jpg",
+    "photo": "https://m.media-amazon.com/images/I/51CxX0z4ZYL._AC_SY695_.jpg",
     "affiliate_links": {
+      "oficial": {
+        "url": "https://tidd.ly/4eORkbg",
+        "price": 259.99,
+        "preco_pix": 0,
+        "store": "OLYMPIKUS",
+        "label": "OLYMPIKUS",
+        "installments": "7x de R$ 37,14"
+      },
       "amazon": {
-        "url": "https://amzn.to/4un2UBh",
-        "price": 204.9,
+        "url": "https://link.amazon/B0hGZA4jc",
+        "price": 229.9,
         "store": "Amazon",
         "label": "Amazon",
-        "installments": ""
+        "installments": "6x de R$ 38,35 sem juros"
+      },
+      "netshoes": {
+        "url": "https://click.linksynergy.com/deeplink?id=NyH7xPegftk&mid=43984&murl=https%3A%2F%2Fwww.netshoes.com.br%2Fp%2Ftenis-olympikus-rua-masculino-2I2-7320-192",
+        "price": 234.9,
+        "preco_pix": 199.66,
+        "store": "Netshoes",
+        "label": "Netshoes",
+        "installments": "3x sem juros"
       }
     },
     "tags": [
@@ -4047,19 +4055,19 @@
       "Versátil",
       "Conforto"
     ],
-    "description": "",
-    "reason": ""
+    "description": "Tênis de corrida versátil com bom amortecimento para treinos diários.",
+    "reason": "Tênis de corrida versátil com bom amortecimento para treinos diários."
   },
   {
     "brand": "SALOMON",
-    "name": "Ultra Glide 2",
-    "slug": "salomon-ultra-glide-2-4aa5",
+    "name": "Aero Blaze 3",
+    "slug": "salomon-aero-blaze-3-4aa5",
     "sexo": [
       "masculino"
     ],
-    "budget": "acima1000",
-    "price": 1028.59,
-    "price_formatted": "R$ 1028,59",
+    "budget": "300a600",
+    "price": 529.99,
+    "price_formatted": "R$ 529,99",
     "levels": [
       "iniciante",
       "intermediario",
@@ -4079,14 +4087,22 @@
       "media",
       "longa"
     ],
-    "photo": "https://images-na.ssl-images-amazon.com/images/I/51gcZC19IXL.jpg",
+    "photo": "https://m.media-amazon.com/images/I/510pIR4noWL._AC_SY695_.jpg",
     "affiliate_links": {
       "amazon": {
-        "url": "https://amzn.to/3MVPADc",
-        "price": 1028.59,
+        "url": "https://link.amazon/B04Y0vgUV",
+        "price": 989.99,
         "store": "Amazon",
         "label": "Amazon",
-        "installments": ""
+        "installments": "12x de R$ 82,60 sem juros"
+      },
+      "netshoes": {
+        "url": "https://click.linksynergy.com/deeplink?id=NyH7xPegftk&mid=43984&murl=https%3A%2F%2Fwww.netshoes.com.br%2Fp%2Ftenis-salomon-aero-blaze-3-masculino-D43-349H-240",
+        "price": 529.99,
+        "preco_pix": 503.49,
+        "store": "Netshoes",
+        "label": "Netshoes",
+        "installments": "7x sem juros"
       }
     },
     "tags": [
@@ -4142,8 +4158,8 @@
       "feminino"
     ],
     "budget": "acima1000",
-    "price": 2267.46,
-    "price_formatted": "R$ 2267,46",
+    "price": 1382.27,
+    "price_formatted": "R$ 1382,27",
     "levels": [
       "intermediario",
       "avancado"
@@ -4162,14 +4178,14 @@
       "media",
       "longa"
     ],
-    "photo": "https://m.media-amazon.com/images/I/71NTdjs6iVL._AC_SY500_.jpg",
+    "photo": "https://m.media-amazon.com/images/I/71jVJLx9O-L._AC_SY695_.jpg",
     "affiliate_links": {
       "amazon": {
-        "url": "https://amzn.to/4uAu8EP",
-        "price": 2267.46,
+        "url": "https://link.amazon/B09yYuloh",
+        "price": 1382.27,
         "store": "Amazon",
         "label": "Amazon",
-        "installments": ""
+        "installments": "12x de R$ 115,29 sem juros"
       }
     },
     "tags": [
