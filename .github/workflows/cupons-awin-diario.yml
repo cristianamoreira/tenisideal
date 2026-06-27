@@ -1,0 +1,31 @@
+name: Cupons Awin diários
+
+on:
+  schedule:
+    - cron: '0 11 * * *'   # 11:00 UTC = 08:00 BRT (todo dia de manhã)
+  workflow_dispatch:        # botão para rodar manualmente (teste)
+
+jobs:
+  gerar-cupons:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Baixar o código
+        uses: actions/checkout@v4
+
+      - name: Configurar Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Gerar a mensagem de cupons
+        env:
+          AWIN_API_TOKEN: ${{ secrets.AWIN_API_TOKEN }}
+          AWIN_PUBLISHER_ID: '2800712'
+        run: python3 gerar_cupons_awin.py
+
+      - name: Disponibilizar a mensagem para download
+        uses: actions/upload-artifact@v4
+        with:
+          name: cupons-do-dia
+          path: cupons_hoje.txt
+          retention-days: 7
