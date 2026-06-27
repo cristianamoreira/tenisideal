@@ -1,0 +1,31 @@
+name: Newsletter (rascunho no Brevo)
+
+on:
+  schedule:
+    - cron: '0 12 * * 1'   # segunda-feira, 09:00 BRT
+  workflow_dispatch:        # botão para gerar na hora
+
+jobs:
+  gerar-newsletter:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Gerar e-mail e criar rascunho no Brevo
+        env:
+          BREVO_API_KEY: ${{ secrets.BREVO_API_KEY }}
+          BREVO_LIST_ID: '3'
+          EMAIL_REMETENTE: ${{ secrets.EMAIL_REMETENTE }}
+          AWIN_API_TOKEN: ${{ secrets.AWIN_API_TOKEN }}
+          AWIN_PUBLISHER_ID: '2800712'
+        run: python3 gerar_campanha_email.py
+
+      - name: Guardar o HTML gerado (backup)
+        uses: actions/upload-artifact@v4
+        with:
+          name: email-novidades
+          path: email_campanha.html
+          retention-days: 14
