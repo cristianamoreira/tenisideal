@@ -155,6 +155,30 @@ CONTEUDO = [
      "texto": "Tênis de rua não foi feito pra trilha (e vice-versa). Pra trilha, procure solado com "
               "cravos (Speedgoat, Terrex). Pra asfalto e esteira, foque em amortecimento e leveza. "
               "Usar o certo previne escorregões e lesões."},
+    {"titulo": "Review: Pegasus 42 x Gel-Cumulus 🆚",
+     "texto": "Dois daily trainers neutros e versáteis. O <b>Pegasus 42</b> é mais firme e ágil; o "
+              "<b>Gel-Cumulus</b> é mais macio e protetor. Pra ritmos variados, Pegasus. Pra conforto "
+              "no volume, Cumulus."},
+    {"titulo": "Review: Kayano x Adrenaline (estabilidade) 🦶",
+     "texto": "Os reis da <b>pisada pronada</b>. O <b>Gel-Kayano</b> entrega estabilidade premium e "
+              "amortecimento alto; o <b>Brooks Adrenaline GTS</b> tem suporte 'GuideRails' mais "
+              "discreto e passada suave. Os dois seguram a pisada sem parecer 'duro'."},
+    {"titulo": "Review: Clifton x 1080 (almofada macia) ☁️",
+     "texto": "Pra quem ama maciez no dia a dia: o <b>Hoka Clifton</b> é leve e fofo; o <b>New Balance "
+              "Fresh Foam 1080</b> é mais encorpado e premium. Clifton pra leveza, 1080 pra conforto "
+              "de luxo nas longas."},
+    {"titulo": "Super sapatilhas: Vaporfly x Alphafly x Adios Pro 🚀",
+     "texto": "As armas de prova com placa de carbono. <b>Vaporfly</b>: leve e ágil pra 5k–21k. "
+              "<b>Alphafly</b>: máximo retorno pra maratona. <b>Adizero Adios Pro</b>: equilíbrio "
+              "entre os dois. Todas pra ritmo forte — não pro treino diário."},
+    {"titulo": "Começando a correr? Por aqui 🌱",
+     "texto": "Pra iniciante, fuja das sapatilhas de prova. Procure um <b>daily trainer</b> com bom "
+              "amortecimento e estabilidade (Pegasus, Ghost, Olympikus Corre). Conforto e durabilidade "
+              "importam mais que leveza no começo."},
+    {"titulo": "Nacional vale a pena? Olympikus x Mizuno 🇧🇷",
+     "texto": "Pra custo-benefício, sim! O <b>Olympikus</b> evoluiu muito (tecnologia EVAsense, leve e "
+              "macio) e custa bem menos. A <b>Mizuno</b> entrega a clássica tecnologia Wave com mais "
+              "durabilidade. Ambas ótimas pra quem não quer gastar muito."},
 ]
 
 
