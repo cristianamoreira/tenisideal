@@ -8,8 +8,8 @@ var SHOES = [
       "masculino"
     ],
     "budget": "acima1000",
-    "price": 1999.99,
-    "price_formatted": "R$ 1999,99",
+    "price": 1999.9,
+    "price_formatted": "R$ 1999,90",
     "levels": [
       "intermediario",
       "avancado"
@@ -40,7 +40,7 @@ var SHOES = [
       },
       "amazon": {
         "url": "https://link.amazon/B02u0eOhc",
-        "price": 0,
+        "price": 1999.9,
         "store": "Amazon",
         "label": "Amazon",
         "installments": "12x de R$ 166,75 sem juros"
@@ -100,7 +100,7 @@ var SHOES = [
       },
       "amazon": {
         "url": "https://amzn.to/3NEjLPv",
-        "price": 0,
+        "price": 1472.15,
         "store": "Amazon",
         "label": "Amazon",
         "installments": "12x de R$ 122,78 sem juros"
@@ -127,7 +127,7 @@ var SHOES = [
     "sexo": [
       "masculino"
     ],
-    "budget": "300a600",
+    "budget": "ate300",
     "price": 279.99,
     "price_formatted": "R$ 279,99",
     "levels": [
@@ -160,7 +160,7 @@ var SHOES = [
       },
       "amazon": {
         "url": "https://amzn.to/4b7FF5t",
-        "price": 0,
+        "price": 399.9,
         "store": "Amazon",
         "label": "Amazon",
         "installments": "7x de R$ 57,18 sem juros"
@@ -188,8 +188,8 @@ var SHOES = [
       "masculino"
     ],
     "budget": "600a1000",
-    "price": 839.88,
-    "price_formatted": "R$ 839,88",
+    "price": 799.0,
+    "price_formatted": "R$ 799,00",
     "levels": [
       "intermediario",
       "avancado"
@@ -220,7 +220,7 @@ var SHOES = [
       },
       "amazon": {
         "url": "https://link.amazon/B04X6EoeX",
-        "price": 0,
+        "price": 799.0,
         "store": "Amazon",
         "label": "Amazon",
         "installments": "12x de R$ 66,62 sem juros"
@@ -281,7 +281,7 @@ var SHOES = [
       },
       "amazon": {
         "url": "https://amzn.to/4bthoHb",
-        "price": 0,
+        "price": 2011.53,
         "store": "Amazon",
         "label": "Amazon",
         "installments": "12x de R$ 167,71 sem juros"
@@ -338,7 +338,7 @@ var SHOES = [
       },
       "amazon": {
         "url": "https://link.amazon/B06eWUK0v",
-        "price": 0,
+        "price": 536.78,
         "store": "Amazon",
         "label": "Amazon",
         "installments": "10x de R$ 51,73 sem juros"
@@ -399,7 +399,7 @@ var SHOES = [
       },
       "amazon": {
         "url": "https://link.amazon/B01mdNZEv",
-        "price": 0,
+        "price": 1103.73,
         "store": "Amazon",
         "label": "Amazon",
         "installments": "12x de R$ 92,06 sem juros"
@@ -439,7 +439,7 @@ var SHOES = [
     "affiliate_links": {
       "amazon": {
         "url": "https://link.amazon/B03uJ9yhA",
-        "price": 0,
+        "price": 1457.55,
         "store": "Amazon",
         "label": "Amazon",
         "installments": "10x de R$ 145,80 sem juros"
@@ -494,7 +494,7 @@ var SHOES = [
     "affiliate_links": {
       "amazon": {
         "url": "https://link.amazon/B00dNlfYL",
-        "price": 0,
+        "price": 1427.12,
         "store": "Amazon",
         "label": "Amazon",
         "installments": "12x de R$ 119,00 sem juros"
@@ -548,7 +548,7 @@ var SHOES = [
     "affiliate_links": {
       "amazon": {
         "url": "https://link.amazon/B05qFTEvh",
-        "price": 0,
+        "price": 1149.99,
         "store": "Amazon",
         "label": "Amazon",
         "installments": "12x de R$ 95,86 sem juros"
@@ -576,8 +576,8 @@ var SHOES = [
       "masculino"
     ],
     "budget": "acima1000",
-    "price": 1299.99,
-    "price_formatted": "R$ 1299,99",
+    "price": 1299.9,
+    "price_formatted": "R$ 1299,90",
     "levels": [
       "intermediario",
       "avancado"
@@ -602,7 +602,7 @@ var SHOES = [
     "affiliate_links": {
       "amazon": {
         "url": "https://link.amazon/B04wJ16iF",
-        "price": 0,
+        "price": 1299.9,
         "store": "Amazon",
         "label": "Amazon",
         "installments": "12x de R$ 108,38 sem juros"
@@ -656,7 +656,7 @@ var SHOES = [
     "affiliate_links": {
       "amazon": {
         "url": "https://link.amazon/B09YJrSCK",
-        "price": 0,
+        "price": 799.9,
         "store": "Amazon",
         "label": "Amazon",
         "installments": "12x de R$ 66,75 sem juros"
@@ -710,7 +710,7 @@ var SHOES = [
     "affiliate_links": {
       "amazon": {
         "url": "https://link.amazon/B0gP0JDdq",
-        "price": 0,
+        "price": 1022.38,
         "store": "Amazon",
         "label": "Amazon",
         "installments": "12x de R$ 85,29 sem juros"
@@ -784,9 +784,9 @@ var SHOES = [
     "sexo": [
       "masculino"
     ],
-    "budget": "",
-    "price": 0,
-    "price_formatted": "R$ 0,00",
+    "budget": "300a600",
+    "price": 497.88,
+    "price_formatted": "R$ 497,88",
     "levels": [
       "intermediario",
       "avancado"
@@ -811,7 +811,7 @@ var SHOES = [
     "affiliate_links": {
       "amazon": {
         "url": "https://link.amazon/B06edfZJE",
-        "price": 0,
+        "price": 497.88,
         "store": "Amazon",
         "label": "Amazon",
         "installments": "12x de R$ 46,46 com juros"
@@ -866,7 +866,7 @@ var SHOES = [
     "affiliate_links": {
       "amazon": {
         "url": "https://link.amazon/B0h9IuOD5",
-        "price": 0,
+        "price": 489.9,
         "store": "Amazon",
         "label": "Amazon",
         "installments": "9x de R$ 54,46 sem juros"
@@ -921,7 +921,7 @@ var SHOES = [
     "affiliate_links": {
       "amazon": {
         "url": "https://link.amazon/B0hWX7E3m",
-        "price": 0,
+        "price": 299.99,
         "store": "Amazon",
         "label": "Amazon",
         "installments": "6x de R$ 50,04 sem juros"
@@ -940,6 +940,57 @@ var SHOES = [
     ],
     "description": "Tecnologia GEL na entressola EVA para absorção de impacto, cabedal mesh respirável e solado emborrachado resistente",
     "reason": "Tecnologia GEL na entressola EVA para absorção de impacto, cabedal mesh respirável e solado emborrachado resistente"
+  },
+  {
+    "brand": "ASICS",
+    "name": "Novablast 5",
+    "slug": "asics-novablast-5-f",
+    "sexo": [
+      "feminino"
+    ],
+    "budget": "600a1000",
+    "price": 749.9,
+    "price_formatted": "R$ 749,90",
+    "levels": [
+      "intermediario",
+      "avancado"
+    ],
+    "pisada": [
+      "neutra",
+      "pronada",
+      "supinada"
+    ],
+    "terreno": [
+      "asfalto",
+      "trilha",
+      "mista",
+      "esteira"
+    ],
+    "distancia": [
+      "curta",
+      "media",
+      "longa"
+    ],
+    "photo": "https://m.media-amazon.com/images/I/71BNkHEq2sL._AC_SY695_.jpg",
+    "affiliate_links": {
+      "amazon": {
+        "url": "https://link.amazon/B08zsYRkq",
+        "price": 799.99,
+        "store": "Amazon",
+        "label": "Amazon",
+        "installments": "12x de R$ 66,73 sem juros"
+      },
+      "netshoes": {
+        "url": "https://click.linksynergy.com/deeplink?id=NyH7xPegftk&mid=43984&murl=https%3A%2F%2Fwww.netshoes.com.br%2Fp%2Ftenis-asics-novablast-5-feminino-roxo-SG4-01TV-198",
+        "price": 749.9,
+        "store": "Netshoes",
+        "label": "Netshoes",
+        "installments": "10x de R$ 74,99 sem juros"
+      }
+    },
+    "tags": [],
+    "description": "",
+    "reason": ""
   },
   {
     "brand": "BROOKS",
@@ -1067,7 +1118,7 @@ var SHOES = [
     "affiliate_links": {
       "amazon": {
         "url": "https://link.amazon/B0e9WBKjW",
-        "price": 0,
+        "price": 841.73,
         "store": "Amazon",
         "label": "Amazon",
         "installments": "12x de R$ 65,53 sem juros"
@@ -1089,14 +1140,65 @@ var SHOES = [
   },
   {
     "brand": "BROOKS",
+    "name": "Glycerin 22",
+    "slug": "brooks-glycerin-22.m",
+    "sexo": [
+      "masculino"
+    ],
+    "budget": "600a1000",
+    "price": 973.71,
+    "price_formatted": "R$ 973,71",
+    "levels": [
+      "intermediario",
+      "avancado"
+    ],
+    "pisada": [
+      "neutra"
+    ],
+    "terreno": [
+      "asfalto",
+      "pista",
+      "esteira"
+    ],
+    "distancia": [
+      "curta",
+      "media",
+      "longa"
+    ],
+    "photo": "https://m.media-amazon.com/images/I/712YxOgf7ML._AC_SY695_.jpg",
+    "affiliate_links": {
+      "amazon": {
+        "url": "https://link.amazon/B073Borxn",
+        "price": 973.71,
+        "store": "Amazon",
+        "label": "Amazon",
+        "installments": "12x de R$ 81,17 sem juros"
+      },
+      "netshoes": {
+        "url": "https://click.linksynergy.com/deeplink?id=NyH7xPegftk&mid=43984&murl=https%3A%2F%2Fwww.netshoes.com.br%2Fp%2Ftenis-brooks-glycerin-22-masculino-preto%2Bbranco-129-00DM-026-41",
+        "price": 1399.99,
+        "store": "Netshoes",
+        "label": "Netshoes",
+        "installments": "10x sem juros"
+      }
+    },
+    "tags": [
+      "Neutro",
+      "Diário"
+    ],
+    "description": "DNA Loft v3 oferece maciez consistente do início ao fim do treino. Ótimo tênis de treino diário.",
+    "reason": "DNA Loft v3 oferece maciez consistente do início ao fim do treino. Ótimo tênis de treino diário."
+  },
+  {
+    "brand": "BROOKS",
     "name": "Ghost 14 Neutral",
     "slug": "brooks-ghost-14-neutral-b5f9",
     "sexo": [
       "feminino"
     ],
-    "budget": "",
-    "price": 0,
-    "price_formatted": "R$ 0,00",
+    "budget": "acima1000",
+    "price": 1185.82,
+    "price_formatted": "R$ 1185,82",
     "levels": [
       "intermediario",
       "avancado"
@@ -1118,7 +1220,7 @@ var SHOES = [
     "affiliate_links": {
       "amazon": {
         "url": "https://link.amazon/B08cAKc8Y",
-        "price": 0,
+        "price": 1185.82,
         "store": "Amazon",
         "label": "Amazon",
         "installments": "12x de R$ 100,28 sem juros"
@@ -1134,12 +1236,12 @@ var SHOES = [
   },
   {
     "brand": "FILA",
-    "name": "Fila Speed Lite ",
+    "name": "Speed Lite ",
     "slug": "fila-tenis-fila-speed-lite-masculino-328b",
     "sexo": [
       "masculino"
     ],
-    "budget": "300a600",
+    "budget": "ate300",
     "price": 199.99,
     "price_formatted": "R$ 199,99",
     "levels": [
@@ -1161,7 +1263,7 @@ var SHOES = [
     "affiliate_links": {
       "amazon": {
         "url": "https://link.amazon/B0j66J2aY",
-        "price": 0,
+        "price": 209.9,
         "store": "Amazon",
         "label": "Amazon",
         "installments": "6x de R$ 35,00 sem juros"
@@ -1188,9 +1290,9 @@ var SHOES = [
     "sexo": [
       "feminino"
     ],
-    "budget": "600a1000",
-    "price": 769.8,
-    "price_formatted": "R$ 769,80",
+    "budget": "300a600",
+    "price": 549.9,
+    "price_formatted": "R$ 549,90",
     "levels": [
       "iniciante",
       "intermediario"
@@ -1211,7 +1313,7 @@ var SHOES = [
     "affiliate_links": {
       "amazon": {
         "url": "https://link.amazon/B0cRBTEXp",
-        "price": 0,
+        "price": 549.9,
         "store": "Amazon",
         "label": "Amazon",
         "installments": "10x de R$ 54,99 sem juros"
@@ -1383,14 +1485,14 @@ var SHOES = [
   },
   {
     "brand": "HOKA",
-    "name": "Hoka Clifton 10",
+    "name": "Clifton 10",
     "slug": "hoka-hoka-clifton-10-63b0",
     "sexo": [
       "masculino"
     ],
     "budget": "acima1000",
-    "price": 1199.9,
-    "price_formatted": "R$ 1199,90",
+    "price": 1099.99,
+    "price_formatted": "R$ 1099,99",
     "levels": [
       "intermediario",
       "avancado"
@@ -1415,7 +1517,14 @@ var SHOES = [
         "price": 1199.9,
         "store": "Amazon",
         "label": "Amazon",
-        "installments": "6x sem juros"
+        "installments": "12x de R$ 111,99 com juros"
+      },
+      "netshoes": {
+        "url": "https://click.linksynergy.com/deeplink?id=NyH7xPegftk&mid=43984&murl=https%3A%2F%2Fwww.netshoes.com.br%2Fp%2Ftenis-hoka-clifton-10-masculino-cinza-AXF-06BJ-010",
+        "price": 1099.99,
+        "store": "Netshoes",
+        "label": "Netshoes",
+        "installments": "10x sem juros"
       }
     },
     "tags": [
@@ -1429,7 +1538,7 @@ var SHOES = [
   },
   {
     "brand": "HOKA",
-    "name": "Hoka Rocket X 3",
+    "name": "Rocket X 3",
     "slug": "hoka-hoka-rocket-x-3-8a26",
     "sexo": [
       "unissex"
@@ -1472,6 +1581,54 @@ var SHOES = [
     ],
     "description": "Super shoe da Hoka com placa de carbono para maratona. Amortecimento maximalista com propulsão de elite para dia de prova.",
     "reason": "Super shoe da Hoka com placa de carbono para maratona. Amortecimento maximalista com propulsão de elite para dia de prova."
+  },
+  {
+    "brand": "HOKA",
+    "name": "Bondi 9",
+    "slug": "hoka-bondi-9-f",
+    "sexo": [
+      "feminino"
+    ],
+    "budget": "acima1000",
+    "price": 1299.99,
+    "price_formatted": "R$ 1299,99",
+    "levels": [
+      "intermediario",
+      "avancado"
+    ],
+    "pisada": [
+      "neutra"
+    ],
+    "terreno": [
+      "asfalto",
+      "trilha",
+      "esteira"
+    ],
+    "distancia": [
+      "curta",
+      "media",
+      "longa"
+    ],
+    "photo": "https://m.media-amazon.com/images/I/61gi8wHzXmL._AC_SY695_.jpg",
+    "affiliate_links": {
+      "amazon": {
+        "url": "https://link.amazon/B0gBZBP2F",
+        "price": 1831.28,
+        "store": "Amazon",
+        "label": "Amazon",
+        "installments": "10x de R$ 183,20 sem juros"
+      },
+      "netshoes": {
+        "url": "https://click.linksynergy.com/deeplink?id=NyH7xPegftk&mid=43984&murl=https%3A%2F%2Fwww.netshoes.com.br%2Fp%2Ftenis-hoka-bondi-9-feminino-azul%2Bbranco-AXF-06BF-058",
+        "price": 1299.99,
+        "store": "Netshoes",
+        "label": "Netshoes",
+        "installments": "10x de R$ 130,00 sem juros"
+      }
+    },
+    "tags": [],
+    "description": "",
+    "reason": ""
   },
   {
     "brand": "HOKA",
@@ -1552,6 +1709,54 @@ var SHOES = [
     ],
     "description": "Favorito dos ultramaratonistas: amortecimento generoso com grip confiável nas piores condições.",
     "reason": "Favorito dos ultramaratonistas: amortecimento generoso com grip confiável nas piores condições."
+  },
+  {
+    "brand": "HOKA",
+    "name": "Mach 7",
+    "slug": "hoka-mach-7-f",
+    "sexo": [
+      "feminino"
+    ],
+    "budget": "600a1000",
+    "price": 999.99,
+    "price_formatted": "R$ 999,99",
+    "levels": [
+      "intermediario",
+      "avancado"
+    ],
+    "pisada": [
+      "neutra"
+    ],
+    "terreno": [
+      "asfalto",
+      "trilha",
+      "esteira"
+    ],
+    "distancia": [
+      "curta",
+      "media",
+      "longa"
+    ],
+    "photo": "https://m.media-amazon.com/images/I/51OctHEvxzL._AC_SY695_.jpg",
+    "affiliate_links": {
+      "amazon": {
+        "url": "https://link.amazon/B07mT4eBD",
+        "price": 1199.99,
+        "store": "Amazon",
+        "label": "Amazon",
+        "installments": "12x de R$ 100,10 sem juros"
+      },
+      "netshoes": {
+        "url": "https://click.linksynergy.com/deeplink?id=NyH7xPegftk&mid=43984&murl=https%3A%2F%2Fwww.netshoes.com.br%2Fp%2Ftenis-hoka-mach-7-feminino-AXF-06CW-014",
+        "price": 999.99,
+        "store": "Netshoes",
+        "label": "Netshoes",
+        "installments": "10x sem juros"
+      }
+    },
+    "tags": [],
+    "description": "",
+    "reason": ""
   },
   {
     "brand": "MIZUNO",
@@ -1918,7 +2123,7 @@ var SHOES = [
         "price": 999.9,
         "store": "Amazon",
         "label": "Amazon",
-        "installments": "12x"
+        "installments": "12x sem juros"
       }
     },
     "tags": [
@@ -2033,7 +2238,7 @@ var SHOES = [
         "price": 374.9,
         "store": "Amazon",
         "label": "Amazon",
-        "installments": "7x "
+        "installments": "7x de R$ 53,60 sem juros"
       }
     },
     "tags": [
@@ -2087,7 +2292,7 @@ var SHOES = [
         "price": 1299.99,
         "store": "Amazon",
         "label": "Amazon",
-        "installments": "12x"
+        "installments": "12x de R$ 108,36 sem juros"
       }
     },
     "tags": [
@@ -2106,8 +2311,8 @@ var SHOES = [
       "feminino"
     ],
     "budget": "300a600",
-    "price": 309.99,
-    "price_formatted": "R$ 309,99",
+    "price": 329.98,
+    "price_formatted": "R$ 329,98",
     "levels": [
       "intermediario",
       "avancado"
@@ -2137,11 +2342,11 @@ var SHOES = [
         "installments": "7 x R$ 57,14 sem juros"
       },
       "amazon": {
-        "url": "https://amzn.to/4sE1b95",
-        "price": 309.99,
+        "url": "https://link.amazon/B05Zgf35I",
+        "price": 329.98,
         "store": "Amazon",
         "label": "Amazon",
-        "installments": "6x"
+        "installments": "12x de R$ 30,79 com juros"
       }
     },
     "tags": [
@@ -2159,9 +2364,9 @@ var SHOES = [
     "sexo": [
       "masculino"
     ],
-    "budget": "600a1000",
-    "price": 699.99,
-    "price_formatted": "R$ 699,99",
+    "budget": "300a600",
+    "price": 599.99,
+    "price_formatted": "R$ 599,99",
     "levels": [
       "intermediario",
       "avancado"
@@ -2195,7 +2400,14 @@ var SHOES = [
         "price": 699.99,
         "store": "Amazon",
         "label": "Amazon",
-        "installments": "6x sem juros"
+        "installments": "12x de R$ 56,73 sem juros"
+      },
+      "netshoes": {
+        "url": "https://click.linksynergy.com/deeplink?id=NyH7xPegftk&mid=43984&murl=https%3A%2F%2Fwww.netshoes.com.br%2Fp%2Ftenis-mizuno-wave-daichi-9-masculino-2FV-1334-342",
+        "price": 599.99,
+        "store": "Netshoes",
+        "label": "Netshoes",
+        "installments": "8x sem juros"
       }
     },
     "tags": [
@@ -2447,7 +2659,7 @@ var SHOES = [
   },
   {
     "brand": "NEW BALANCE",
-    "name": "New Balance Rebel v5",
+    "name": "Rebel v5",
     "slug": "new-balance-new-balance-rebel-v5-d65f",
     "sexo": [
       "feminino"
@@ -2500,8 +2712,8 @@ var SHOES = [
       "masculino"
     ],
     "budget": "acima1000",
-    "price": 1234.99,
-    "price_formatted": "R$ 1234,99",
+    "price": 1300.0,
+    "price_formatted": "R$ 1300,00",
     "levels": [
       "iniciante",
       "intermediario",
@@ -2523,21 +2735,21 @@ var SHOES = [
       "media",
       "longa"
     ],
-    "photo": "https://imgnike-a.akamaihd.net/1920x1920/05924154A2.jpg",
+    "photo": "https://m.media-amazon.com/images/I/71hP5eZVCWL._AC_SY695_.jpg",
     "affiliate_links": {
       "oficial": {
-        "url": "https://tidd.ly/4wdnEvr",
-        "price": 1234.99,
+        "url": "https://tidd.ly/4v4DfN0",
+        "price": 1300.0,
         "store": "NIKE",
         "label": "NIKE",
         "installments": "10x de R$ 130,00 sem juros"
       },
       "amazon": {
-        "url": "https://link.amazon/B09JIWZnk",
-        "price": 1606.7,
+        "url": "https://link.amazon/B05sBAtMZ",
+        "price": 1759.0,
         "store": "Amazon",
         "label": "Amazon",
-        "installments": "6x"
+        "installments": "12x de R$ 146,62 sem juros"
       }
     },
     "tags": [],
@@ -2551,9 +2763,9 @@ var SHOES = [
     "sexo": [
       "masculino"
     ],
-    "budget": "ate300",
-    "price": 2.171,
-    "price_formatted": "R$ 2,17",
+    "budget": "acima1000",
+    "price": 1382.27,
+    "price_formatted": "R$ 1382,27",
     "levels": [
       "iniciante",
       "intermediario",
@@ -2575,14 +2787,14 @@ var SHOES = [
       "media",
       "longa"
     ],
-    "photo": "https://images-na.ssl-images-amazon.com/images/I/61jBJ9a4NJL.jpg",
+    "photo": "https://m.media-amazon.com/images/I/518m4IPHjXL._AC_SY695_.jpg",
     "affiliate_links": {
       "amazon": {
-        "url": "https://amzn.to/47nlgrQ",
-        "price": 2.171,
+        "url": "https://link.amazon/B05bqnAfh",
+        "price": 1382.27,
         "store": "Amazon",
         "label": "Amazon",
-        "installments": "6x sem juros"
+        "installments": "12x de R$ 115,29 sem juros"
       }
     },
     "tags": [
@@ -2594,27 +2806,21 @@ var SHOES = [
   },
   {
     "brand": "NIKE",
-    "name": "Downshifter 13",
-    "slug": "nike-downshifter-13-9f96",
+    "name": "Downshifter 13 ",
+    "slug": "nike-tenis-nike-downshifter-13-masculino-f130",
     "sexo": [
       "masculino"
     ],
     "budget": "300a600",
-    "price": 427.49,
-    "price_formatted": "R$ 427,49",
+    "price": 347.36,
+    "price_formatted": "R$ 347,36",
     "levels": [
-      "iniciante",
-      "intermediario",
-      "avancado"
+      "iniciante"
     ],
     "pisada": [
-      "neutra",
-      "pronada",
-      "supinada"
+      "neutra"
     ],
     "terreno": [
-      "asfalto",
-      "pista",
       "mista",
       "esteira"
     ],
@@ -2623,39 +2829,48 @@ var SHOES = [
       "media",
       "longa"
     ],
-    "photo": "https://m.media-amazon.com/images/I/71o5tMvjF0L._AC_SY500_.jpg",
+    "photo": "https://www.nike.com.br/tenis-nike-downshifter-13-masculino-027915.html?cor=IM",
     "affiliate_links": {
       "oficial": {
-        "url": "https://tidd.ly/4vag1pL",
-        "price": 427.49,
+        "url": "https://www.awin1.com/cread.php?awinmid=17652&awinaffid=2800712&platform=dl&ued=https%3A%2F%2Fwww.nike.com.br%2Ftenis-nike-downshifter-13-masculino-027915.html%3Fcor%3DIM",
+        "price": 347.37,
         "store": "NIKE",
         "label": "NIKE",
-        "installments": "4x de R$ 112,50 sem juros"
+        "installments": "3x de R$ 115,79 sem juros"
       },
       "amazon": {
-        "url": "https://amzn.to/3PGBkzj",
-        "price": 449.99,
+        "url": "https://amzn.to/4ooGVXZ",
+        "price": 786.17,
         "store": "Amazon",
         "label": "Amazon",
-        "installments": " 8x R$ 56,31 sem juros"
+        "installments": "12x sem juros"
+      },
+      "netshoes": {
+        "url": "https://click.linksynergy.com/deeplink?id=NyH7xPegftk&mid=43984&murl=https%3A%2F%2Fwww.netshoes.com.br%2Fp%2Ftenis-nike-downshifter-13-masculino-JD8-6466-026",
+        "price": 347.36,
+        "store": "Netshoes",
+        "label": "Netshoes",
+        "installments": "4x sem juros"
       }
     },
     "tags": [
-      "Melhor Nike barato"
+      "Corrida",
+      "respirável",
+      "confortável"
     ],
-    "description": "Tênis acessível e versátil da Nike. Ótimo para iniciantes que querem um calçado confiável para o dia a dia.",
-    "reason": "Tênis acessível e versátil da Nike. Ótimo para iniciantes que querem um calçado confiável para o dia a dia."
+    "description": "Ideal para iniciantes que buscam conforto e versatilidade para treinos diários.",
+    "reason": "Ideal para iniciantes que buscam conforto e versatilidade para treinos diários."
   },
   {
     "brand": "NIKE",
     "name": "Revolution 8",
-    "slug": "nike-revolution-8-3567",
+    "slug": "nike-revolution-8-3567-f",
     "sexo": [
-      "Feminino"
+      "feminino"
     ],
     "budget": "300a600",
-    "price": 303.99,
-    "price_formatted": "R$ 303,99",
+    "price": 315.77,
+    "price_formatted": "R$ 315,77",
     "levels": [
       "iniciante",
       "intermediario",
@@ -2680,18 +2895,25 @@ var SHOES = [
     "photo": "https://m.media-amazon.com/images/I/61978oDJ-iL._AC_SY625_.jpg",
     "affiliate_links": {
       "oficial": {
-        "url": "https://tidd.ly/4vOi6YJ",
-        "price": 303.99,
+        "url": "https://tidd.ly/4eeumtM",
+        "price": 315.78,
         "store": "NIKE",
         "label": "NIKE",
-        "installments": "3x de R$ 106,66 sem juros"
+        "installments": "3x de R$ 105,26 sem juros"
       },
       "amazon": {
-        "url": "https://amzn.to/3Q2FZeO",
-        "price": 398.9,
+        "url": "https://link.amazon/B02M2AMPt",
+        "price": 359.9,
         "store": "Amazon",
         "label": "Amazon",
-        "installments": "6x sem juros"
+        "installments": "7x de R$ 51,44 sem juros"
+      },
+      "netshoes": {
+        "url": "https://click.linksynergy.com/deeplink?id=NyH7xPegftk&mid=43984&murl=https%3A%2F%2Fwww.netshoes.com.br%2Fp%2Ftenis-nike-revolution-8-feminino-SGL-0026-026",
+        "price": 315.77,
+        "store": "Netshoes",
+        "label": "Netshoes",
+        "installments": "4x sem juros"
       }
     },
     "tags": [],
@@ -3012,6 +3234,58 @@ var SHOES = [
   },
   {
     "brand": "NIKE",
+    "name": "Vaporfly 3",
+    "slug": "nike-vaporfly-3-m",
+    "sexo": [
+      "masculino"
+    ],
+    "budget": "600a1000",
+    "price": 842.08,
+    "price_formatted": "R$ 842,08",
+    "levels": [
+      "iniciante",
+      "intermediario",
+      "avancado"
+    ],
+    "pisada": [
+      "neutra",
+      "pronada",
+      "supinada"
+    ],
+    "terreno": [
+      "asfalto",
+      "pista",
+      "mista",
+      "esteira"
+    ],
+    "distancia": [
+      "curta",
+      "media",
+      "longa"
+    ],
+    "photo": "https://m.media-amazon.com/images/I/717zUgF0S1L._AC_SY695_.jpg",
+    "affiliate_links": {
+      "oficial": {
+        "url": "https://tidd.ly/440rbBf",
+        "price": 842.08,
+        "store": "NIKE",
+        "label": "NIKE",
+        "installments": "8x de R$ 105,26 sem juros"
+      },
+      "amazon": {
+        "url": "https://link.amazon/B02CtNIsD",
+        "price": 1471.79,
+        "store": "Amazon",
+        "label": "Amazon",
+        "installments": "12x de R$ 122,75 sem juros"
+      }
+    },
+    "tags": [],
+    "description": "",
+    "reason": ""
+  },
+  {
+    "brand": "NIKE",
     "name": "Vomero 18",
     "slug": "nike-vomero-18-f1ae",
     "sexo": [
@@ -3048,7 +3322,7 @@ var SHOES = [
         "price": 949.99,
         "store": "NIKE",
         "label": "NIKE",
-        "installments": "10x de R$ 100,00 sem juros"
+        "installments": "em até 8x"
       },
       "amazon": {
         "url": "https://amzn.to/4maXIN5",
@@ -3168,14 +3442,14 @@ var SHOES = [
   },
   {
     "brand": "NIKE",
-    "name": "Pegasus 41",
-    "slug": "nike-pegasus-41-f156",
+    "name": "Pegasus 42",
+    "slug": "nike-pegasus-42-f156-m",
     "sexo": [
       "masculino"
     ],
-    "budget": "600a1000",
-    "price": 664.99,
-    "price_formatted": "R$ 664,99",
+    "budget": "acima1000",
+    "price": 1000.0,
+    "price_formatted": "R$ 1000,00",
     "levels": [
       "iniciante",
       "intermediario",
@@ -3197,21 +3471,21 @@ var SHOES = [
       "media",
       "longa"
     ],
-    "photo": "https://imgnike-a.akamaihd.net/360x360/02865952A1.jpg",
+    "photo": "https://m.media-amazon.com/images/I/71BrfD-zDtL._AC_SY695_.jpg",
     "affiliate_links": {
       "oficial": {
-        "url": "https://tidd.ly/4vfNHTe",
-        "price": 664.99,
+        "url": "https://tidd.ly/4vJFer5",
+        "price": 1000.0,
         "store": "NIKE",
         "label": "NIKE",
-        "installments": "7x de R$ 100,00 sem juros"
+        "installments": "10x de R$ 100,00 sem juros"
       },
       "amazon": {
-        "url": "https://amzn.to/4vfm24M",
-        "price": 1095.11,
+        "url": "https://link.amazon/B07OB6Y2k",
+        "price": 1562.12,
         "store": "Amazon",
         "label": "Amazon",
-        "installments": "12x"
+        "installments": "12x de R$ 130,25 sem juros"
       }
     },
     "tags": [],
@@ -3219,118 +3493,15 @@ var SHOES = [
     "reason": "O clássico mais versátil da Nike. React X responsivo para qualquer distância e ritmo."
   },
   {
-    "brand": "NIKE",
-    "name": "Nike Downshifter 13 ",
-    "slug": "nike-tenis-nike-downshifter-13-masculino-f130",
-    "sexo": [
-      "masculino"
-    ],
-    "budget": "300a600",
-    "price": 347.36,
-    "price_formatted": "R$ 347,36",
-    "levels": [
-      "iniciante"
-    ],
-    "pisada": [
-      "neutra"
-    ],
-    "terreno": [
-      "mista",
-      "esteira"
-    ],
-    "distancia": [
-      "curta",
-      "media",
-      "longa"
-    ],
-    "photo": "https://www.nike.com.br/tenis-nike-downshifter-13-masculino-027915.html?cor=IM",
-    "affiliate_links": {
-      "oficial": {
-        "url": "https://www.awin1.com/cread.php?awinmid=17652&awinaffid=2800712&platform=dl&ued=https%3A%2F%2Fwww.nike.com.br%2Ftenis-nike-downshifter-13-masculino-027915.html%3Fcor%3DIM",
-        "price": 347.37,
-        "store": "NIKE",
-        "label": "NIKE",
-        "installments": "3x de R$ 115,79 sem juros"
-      },
-      "amazon": {
-        "url": "https://amzn.to/4ooGVXZ",
-        "price": 786.17,
-        "store": "Amazon",
-        "label": "Amazon",
-        "installments": "12x sem juros"
-      },
-      "netshoes": {
-        "url": "https://click.linksynergy.com/deeplink?id=NyH7xPegftk&mid=43984&murl=https%3A%2F%2Fwww.netshoes.com.br%2Fp%2Ftenis-nike-downshifter-13-masculino-JD8-6466-026",
-        "price": 347.36,
-        "store": "Netshoes",
-        "label": "Netshoes",
-        "installments": "4x sem juros"
-      }
-    },
-    "tags": [
-      "Corrida",
-      "respirável",
-      "confortável"
-    ],
-    "description": "Ideal para iniciantes que buscam conforto e versatilidade para treinos diários.",
-    "reason": "Ideal para iniciantes que buscam conforto e versatilidade para treinos diários."
-  },
-  {
-    "brand": "NIKE",
-    "name": "Nike Revolution 8 ",
-    "slug": "nike-tenis-nike-revolution-8-feminino-2d7d",
+    "brand": "OLYMPIKUS",
+    "name": "Pride 4",
+    "slug": "olympikus-pride-4-eaf7",
     "sexo": [
       "feminino"
     ],
     "budget": "ate300",
-    "price": 50.0,
-    "price_formatted": "R$ 50,00",
-    "levels": [
-      "iniciante"
-    ],
-    "pisada": [
-      "neutra"
-    ],
-    "terreno": [
-      "asfalto",
-      "esteira"
-    ],
-    "distancia": [
-      "curta",
-      "media",
-      "longa"
-    ],
-    "photo": "https://imgnike-a.akamaihd.net/768x768/058868IDA2.jpg",
-    "affiliate_links": {
-      "oficial": {
-        "url": "https://www.awin1.com/cread.php?awinmid=17652&awinaffid=2800712&platform=dl&ued=https%3A%2F%2Fwww.nike.com.br%2Ftenis-nike-revolution-8-feminino-058868.html%3Fcor%3DID",
-        "price": 0,
-        "store": "NIKE",
-        "label": "NIKE",
-        "installments": "3x de R$ 105,26 sem juros"
-      },
-      "netshoes": {
-        "url": "https://click.linksynergy.com/deeplink?id=NyH7xPegftk&mid=43984&murl=https%3A%2F%2Fwww.netshoes.com.br%2Fp%2Ftenis-nike-revolution-8-feminino-preto%2Bbranco-SGL-0026-026",
-        "price": 50.0,
-        "store": "Netshoes",
-        "label": "Netshoes",
-        "installments": "4x sem juros"
-      }
-    },
-    "tags": [],
-    "description": "",
-    "reason": ""
-  },
-  {
-    "brand": "OLYMPIKUS",
-    "name": "Pride",
-    "slug": "olympikus-pride-eaf7",
-    "sexo": [
-      "feminino"
-    ],
-    "budget": "300a600",
-    "price": 354.9,
-    "price_formatted": "R$ 354,90",
+    "price": 299.99,
+    "price_formatted": "R$ 299,99",
     "levels": [
       "iniciante",
       "intermediario"
@@ -3347,14 +3518,28 @@ var SHOES = [
       "media",
       "longa"
     ],
-    "photo": "https://m.media-amazon.com/images/I/61jqkYeBlqL._AC_SY500_.jpg",
+    "photo": "https://m.media-amazon.com/images/I/61jqkYeBlqL._AC_SX679_.jpg",
     "affiliate_links": {
+      "oficial": {
+        "url": "https://tidd.ly/44vWe8b",
+        "price": 299.99,
+        "store": "OLYMPIKUS",
+        "label": "OLYMPIKUS",
+        "installments": "8x de R$ 37,49"
+      },
       "amazon": {
-        "url": "https://amzn.to/4rKTg9U",
+        "url": "https://link.amazon/B0eFKNzIw",
         "price": 354.9,
         "store": "Amazon",
         "label": "Amazon",
-        "installments": "6x sem juros"
+        "installments": "7x de R$ 50,70 sem juros"
+      },
+      "netshoes": {
+        "url": "https://click.linksynergy.com/deeplink?id=NyH7xPegftk&mid=43984&murl=https%3A%2F%2Fwww.netshoes.com.br%2Fp%2Ftenis-olympikus-pride-4-feminino-SE7-0055-D34",
+        "price": 332.91,
+        "store": "Netshoes",
+        "label": "Netshoes",
+        "installments": "4x sem juros"
       }
     },
     "tags": [
@@ -3599,63 +3784,6 @@ var SHOES = [
   },
   {
     "brand": "OLYMPIKUS",
-    "name": "Pride 4",
-    "slug": "olympikus-pride-4-69e3",
-    "sexo": [
-      "unissex"
-    ],
-    "budget": "ate300",
-    "price": 299.99,
-    "price_formatted": "R$ 299,99",
-    "levels": [
-      "Iniciante"
-    ],
-    "pisada": [
-      "neutra"
-    ],
-    "terreno": [
-      "mista",
-      "esteira"
-    ],
-    "distancia": [
-      "curta",
-      "media",
-      "longa"
-    ],
-    "photo": "https://www.tenisideal.com.br/imgs/43561394_3-012-01.jpg",
-    "affiliate_links": {
-      "oficial": {
-        "url": "https://tidd.ly/4bwL2LU",
-        "price": 299.99,
-        "store": "OLYMPIKUS",
-        "label": "OLYMPIKUS",
-        "installments": "6x R$ 56,65 sem juros"
-      },
-      "amazon": {
-        "url": "https://amzn.to/3OVO4Sa",
-        "price": 334.2,
-        "store": "Amazon",
-        "label": "Amazon",
-        "installments": "6x sem juros"
-      },
-      "netshoes": {
-        "url": "https://click.linksynergy.com/deeplink?id=NyH7xPegftk&mid=43984&murl=https%3A%2F%2Fwww.netshoes.com.br%2Fp%2Ftenis-olympikus-pride-4-branco%2Bmarinho-SE7-0056-080",
-        "price": 359.9,
-        "store": "Netshoes",
-        "label": "Netshoes",
-        "installments": "5x sem juros"
-      }
-    },
-    "tags": [
-      "Corrida de rua",
-      "estabilidade",
-      "leve"
-    ],
-    "description": "Tecnologia Eleva Pro 2.0 na entressola para amortecimento responsivo e durabilidade. Solado Gripper antiderrapante e cabedal respirável para treinos regulares",
-    "reason": "Tecnologia Eleva Pro 2.0 na entressola para amortecimento responsivo e durabilidade. Solado Gripper antiderrapante e cabedal respirável para treinos regulares"
-  },
-  {
-    "brand": "OLYMPIKUS",
     "name": "Rua",
     "slug": "olympikus-rua-33dd",
     "sexo": [
@@ -3856,8 +3984,8 @@ var SHOES = [
       "masculino"
     ],
     "budget": "acima1000",
-    "price": 1481.0,
-    "price_formatted": "R$ 1481,00",
+    "price": 0,
+    "price_formatted": "R$ 0,00",
     "levels": [
       "intermediario",
       "avancado"
@@ -3886,7 +4014,7 @@ var SHOES = [
   },
   {
     "brand": "SAUCONY",
-    "name": "Saucony Endorphin Pro 4",
+    "name": "Endorphin Pro 4",
     "slug": "saucony-saucony-endorphin-pro-4-2c50",
     "sexo": [
       "masculino",
@@ -3933,7 +4061,7 @@ var SHOES = [
   },
   {
     "brand": "SAUCONY",
-    "name": "Saucony Endorphin Speed 5",
+    "name": "Endorphin Speed 5",
     "slug": "saucony-saucony-endorphin-speed-5-9a1f",
     "sexo": [
       "masculino"
@@ -3979,7 +4107,7 @@ var SHOES = [
   },
   {
     "brand": "SAUCONY",
-    "name": "Saucony Triumph 23",
+    "name": "Triumph 23",
     "slug": "saucony-saucony-triumph-23-582c",
     "sexo": [
       "masculino"
@@ -4025,7 +4153,7 @@ var SHOES = [
   },
   {
     "brand": "SAUCONY",
-    "name": "Saucony Peregrine 15",
+    "name": "Peregrine 15",
     "slug": "saucony-saucony-peregrine-15-7f81",
     "sexo": [
       "masculino"
@@ -4070,8 +4198,54 @@ var SHOES = [
     "reason": "Um dos melhores tênis de trilha para todos os níveis. Tração confiável em terra e pedras com boa proteção de amortecimento."
   },
   {
+    "brand": "SAUCONY",
+    "name": "Ride 17",
+    "slug": "saucony-ride",
+    "sexo": [
+      "feminino"
+    ],
+    "budget": "600a1000",
+    "price": 654.99,
+    "price_formatted": "R$ 654,99",
+    "levels": [
+      "intermediario",
+      "avancado"
+    ],
+    "pisada": [
+      "neutra",
+      "pronada"
+    ],
+    "terreno": [
+      "asfalto",
+      "esteira"
+    ],
+    "distancia": [
+      "curta",
+      "media",
+      "longa"
+    ],
+    "photo": "https://static.netshoes.com.br/produtos/tenis-saucony-ride-17-feminino/26/311-3862-026/311-3862-026_zoom1.jpg?ts=1781033459&ims=1088x",
+    "affiliate_links": {
+      "netshoes": {
+        "url": "https://click.linksynergy.com/deeplink?id=NyH7xPegftk&mid=43984&murl=https%3A%2F%2Fwww.netshoes.com.br%2Fp%2Ftenis-saucony-ride-17-feminino-311-3862-026",
+        "price": 654.99,
+        "store": "Netshoes",
+        "label": "Netshoes",
+        "installments": "9x sem juros"
+      }
+    },
+    "tags": [
+      "Trail",
+      "Versátil",
+      "Tração",
+      "Intermediário"
+    ],
+    "description": "Um dos melhores tênis de trilha para todos os níveis. Tração confiável em terra e pedras com boa proteção de amortecimento.",
+    "reason": "Um dos melhores tênis de trilha para todos os níveis. Tração confiável em terra e pedras com boa proteção de amortecimento."
+  },
+  {
     "brand": "SALOMON",
-    "name": "Salomon Sense Ride 5",
+    "name": "Ride 5",
     "slug": "salomon-salomon-sense-ride-5-67f3",
     "sexo": [
       "feminino"
