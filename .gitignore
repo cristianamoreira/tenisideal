@@ -7,3 +7,4 @@ abrir_scraper.command
 # Arquivos gerados pelas automações
 email_campanha.html
 cupons_hoje.txt
+arte_cupom_*.png
