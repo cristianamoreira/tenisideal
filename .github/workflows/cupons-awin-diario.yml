@@ -23,7 +23,13 @@ jobs:
           AWIN_PUBLISHER_ID: '2800712'
         run: python3 gerar_cupons_awin.py
 
-      - name: Disponibilizar a mensagem para download
+      - name: Enviar a mensagem por e-mail (Brevo)
+        env:
+          BREVO_API_KEY: ${{ secrets.BREVO_API_KEY }}
+          EMAIL_CUPONS: ${{ secrets.EMAIL_CUPONS }}
+        run: python3 enviar_cupons_email.py
+
+      - name: Disponibilizar a mensagem para download (backup)
         uses: actions/upload-artifact@v4
         with:
           name: cupons-do-dia
