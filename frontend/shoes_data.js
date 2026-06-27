@@ -16,13 +16,12 @@ var SHOES = [
     ],
     "pisada": [
       "neutra",
-      "pronada"
+      "supinada"
     ],
     "terreno": [
       "asfalto",
-      "pista",
-      "mista",
-      "esteira"
+      "esteira",
+      "mista"
     ],
     "distancia": [
       "curta",
@@ -78,13 +77,12 @@ var SHOES = [
     ],
     "pisada": [
       "neutra",
-      "pronada"
+      "supinada"
     ],
     "terreno": [
       "asfalto",
-      "pista",
-      "mista",
-      "esteira"
+      "esteira",
+      "mista"
     ],
     "distancia": [
       "curta",
@@ -135,18 +133,17 @@ var SHOES = [
     "price": 279.99,
     "price_formatted": "R$ 279,99",
     "levels": [
-      "intermediario",
-      "avancado"
+      "iniciante",
+      "intermediario"
     ],
     "pisada": [
       "neutra",
-      "pronada"
+      "supinada"
     ],
     "terreno": [
       "asfalto",
-      "pista",
-      "mista",
-      "esteira"
+      "esteira",
+      "mista"
     ],
     "distancia": [
       "curta",
@@ -197,18 +194,18 @@ var SHOES = [
     "price": 799.0,
     "price_formatted": "R$ 799,00",
     "levels": [
+      "iniciante",
       "intermediario",
       "avancado"
     ],
     "pisada": [
       "neutra",
-      "pronada"
+      "supinada"
     ],
     "terreno": [
       "asfalto",
-      "pista",
-      "mista",
-      "esteira"
+      "esteira",
+      "mista"
     ],
     "distancia": [
       "curta",
@@ -260,16 +257,16 @@ var SHOES = [
     "price": 699.99,
     "price_formatted": "R$ 699,99",
     "levels": [
+      "iniciante",
       "intermediario",
       "avancado"
     ],
     "pisada": [
       "neutra",
-      "pronada"
+      "supinada"
     ],
     "terreno": [
-      "asfalto",
-      "pista",
+      "trilha",
       "mista",
       "esteira"
     ],
@@ -304,7 +301,11 @@ var SHOES = [
         "installments": "10x sem juros"
       }
     },
-    "tags": [],
+    "tags": [
+      "Trilha",
+      "Versátil",
+      "Conforto"
+    ],
     "description": "Solado Traxion agressivo para trilha. Amortecimento React para longas distâncias fora do asfalto.",
     "reason": "Solado Traxion agressivo para trilha. Amortecimento React para longas distâncias fora do asfalto."
   },
@@ -324,13 +325,12 @@ var SHOES = [
     ],
     "pisada": [
       "neutra",
-      "pronada"
+      "supinada"
     ],
     "terreno": [
       "asfalto",
-      "pista",
-      "mista",
-      "esteira"
+      "esteira",
+      "mista"
     ],
     "distancia": [
       "curta",
@@ -382,18 +382,18 @@ var SHOES = [
     "price": 1099.99,
     "price_formatted": "R$ 1099,99",
     "levels": [
+      "iniciante",
       "intermediario",
       "avancado"
     ],
     "pisada": [
       "neutra",
-      "pronada"
+      "supinada"
     ],
     "terreno": [
       "asfalto",
-      "pista",
-      "mista",
-      "esteira"
+      "esteira",
+      "mista"
     ],
     "distancia": [
       "curta",
@@ -418,7 +418,10 @@ var SHOES = [
         "installments": "12x de R$ 92,06 sem juros"
       }
     },
-    "tags": [],
+    "tags": [
+      "Amortecimento",
+      "Conforto"
+    ],
     "description": "",
     "reason": ""
   },
@@ -485,19 +488,18 @@ var SHOES = [
     "price": 719.1,
     "price_formatted": "R$ 719,10",
     "levels": [
+      "iniciante",
       "intermediario",
       "avancado"
     ],
     "pisada": [
       "neutra",
-      "pronada",
       "supinada"
     ],
     "terreno": [
       "asfalto",
-      "trilha",
-      "mista",
-      "esteira"
+      "esteira",
+      "mista"
     ],
     "distancia": [
       "curta",
@@ -540,19 +542,18 @@ var SHOES = [
     "price": 999.9,
     "price_formatted": "R$ 999,90",
     "levels": [
+      "iniciante",
       "intermediario",
       "avancado"
     ],
     "pisada": [
       "neutra",
-      "pronada",
-      "supinada"
+      "pronada"
     ],
     "terreno": [
       "asfalto",
-      "trilha",
-      "mista",
-      "esteira"
+      "esteira",
+      "mista"
     ],
     "distancia": [
       "curta",
@@ -595,19 +596,18 @@ var SHOES = [
     "price": 1299.9,
     "price_formatted": "R$ 1299,90",
     "levels": [
+      "iniciante",
       "intermediario",
       "avancado"
     ],
     "pisada": [
       "neutra",
-      "pronada",
       "supinada"
     ],
     "terreno": [
       "asfalto",
-      "trilha",
-      "mista",
-      "esteira"
+      "esteira",
+      "mista"
     ],
     "distancia": [
       "curta",
@@ -650,19 +650,18 @@ var SHOES = [
     "price": 607.99,
     "price_formatted": "R$ 607,99",
     "levels": [
+      "iniciante",
       "intermediario",
       "avancado"
     ],
     "pisada": [
       "neutra",
-      "pronada",
       "supinada"
     ],
     "terreno": [
       "asfalto",
-      "trilha",
-      "mista",
-      "esteira"
+      "esteira",
+      "mista"
     ],
     "distancia": [
       "curta",
@@ -705,16 +704,15 @@ var SHOES = [
     "price": 999.99,
     "price_formatted": "R$ 999,99",
     "levels": [
+      "iniciante",
       "intermediario",
       "avancado"
     ],
     "pisada": [
       "neutra",
-      "pronada",
       "supinada"
     ],
     "terreno": [
-      "asfalto",
       "trilha",
       "mista",
       "esteira"
@@ -760,16 +758,15 @@ var SHOES = [
     "price": 599.99,
     "price_formatted": "R$ 599,99",
     "levels": [
+      "iniciante",
       "intermediario",
       "avancado"
     ],
     "pisada": [
       "neutra",
-      "pronada",
       "supinada"
     ],
     "terreno": [
-      "asfalto",
       "trilha",
       "mista",
       "esteira"
@@ -808,19 +805,18 @@ var SHOES = [
     "price": 497.88,
     "price_formatted": "R$ 497,88",
     "levels": [
+      "iniciante",
       "intermediario",
       "avancado"
     ],
     "pisada": [
       "neutra",
-      "pronada",
       "supinada"
     ],
     "terreno": [
       "asfalto",
-      "trilha",
-      "mista",
-      "esteira"
+      "esteira",
+      "mista"
     ],
     "distancia": [
       "curta",
@@ -864,16 +860,15 @@ var SHOES = [
     "price": 249.99,
     "price_formatted": "R$ 249,99",
     "levels": [
+      "iniciante",
       "intermediario",
       "avancado"
     ],
     "pisada": [
       "neutra",
-      "pronada",
       "supinada"
     ],
     "terreno": [
-      "asfalto",
       "trilha",
       "mista",
       "esteira"
@@ -920,16 +915,15 @@ var SHOES = [
     "price": 287.99,
     "price_formatted": "R$ 287,99",
     "levels": [
+      "iniciante",
       "intermediario",
       "avancado"
     ],
     "pisada": [
       "neutra",
-      "pronada",
       "supinada"
     ],
     "terreno": [
-      "asfalto",
       "trilha",
       "mista",
       "esteira"
@@ -975,19 +969,18 @@ var SHOES = [
     "price": 749.9,
     "price_formatted": "R$ 749,90",
     "levels": [
+      "iniciante",
       "intermediario",
       "avancado"
     ],
     "pisada": [
       "neutra",
-      "pronada",
       "supinada"
     ],
     "terreno": [
       "asfalto",
-      "trilha",
-      "mista",
-      "esteira"
+      "esteira",
+      "mista"
     ],
     "distancia": [
       "curta",
@@ -1012,7 +1005,10 @@ var SHOES = [
         "installments": "10x de R$ 74,99 sem juros"
       }
     },
-    "tags": [],
+    "tags": [
+      "Versátil",
+      "Conforto"
+    ],
     "description": "",
     "reason": ""
   },
@@ -1031,12 +1027,13 @@ var SHOES = [
       "avancado"
     ],
     "pisada": [
-      "neutra"
+      "neutra",
+      "supinada"
     ],
     "terreno": [
       "asfalto",
-      "pista",
-      "esteira"
+      "esteira",
+      "mista"
     ],
     "distancia": [
       "curta",
@@ -1079,16 +1076,18 @@ var SHOES = [
     "price": 799.9,
     "price_formatted": "R$ 799,90",
     "levels": [
+      "iniciante",
       "intermediario",
       "avancado"
     ],
     "pisada": [
-      "neutra"
+      "neutra",
+      "pronada"
     ],
     "terreno": [
       "asfalto",
-      "pista",
-      "esteira"
+      "esteira",
+      "mista"
     ],
     "distancia": [
       "curta",
@@ -1124,16 +1123,18 @@ var SHOES = [
     "price": 599.9,
     "price_formatted": "R$ 599,90",
     "levels": [
+      "iniciante",
       "intermediario",
       "avancado"
     ],
     "pisada": [
-      "neutra"
+      "neutra",
+      "supinada"
     ],
     "terreno": [
       "asfalto",
-      "pista",
-      "esteira"
+      "esteira",
+      "mista"
     ],
     "distancia": [
       "curta",
@@ -1176,16 +1177,18 @@ var SHOES = [
     "price": 973.71,
     "price_formatted": "R$ 973,71",
     "levels": [
+      "iniciante",
       "intermediario",
       "avancado"
     ],
     "pisada": [
-      "neutra"
+      "neutra",
+      "supinada"
     ],
     "terreno": [
       "asfalto",
-      "pista",
-      "esteira"
+      "esteira",
+      "mista"
     ],
     "distancia": [
       "curta",
@@ -1228,16 +1231,18 @@ var SHOES = [
     "price": 1185.82,
     "price_formatted": "R$ 1185,82",
     "levels": [
+      "iniciante",
       "intermediario",
       "avancado"
     ],
     "pisada": [
-      "neutra"
+      "neutra",
+      "supinada"
     ],
     "terreno": [
       "asfalto",
-      "pista",
-      "esteira"
+      "esteira",
+      "mista"
     ],
     "distancia": [
       "curta",
@@ -1327,11 +1332,13 @@ var SHOES = [
       "intermediario"
     ],
     "pisada": [
-      "neutra"
+      "neutra",
+      "supinada"
     ],
     "terreno": [
       "asfalto",
-      "esteira"
+      "esteira",
+      "mista"
     ],
     "distancia": [
       "curta",
@@ -1378,11 +1385,13 @@ var SHOES = [
       "intermediario"
     ],
     "pisada": [
-      "neutra"
+      "neutra",
+      "supinada"
     ],
     "terreno": [
       "asfalto",
-      "esteira"
+      "esteira",
+      "mista"
     ],
     "distancia": [
       "curta",
@@ -1425,15 +1434,17 @@ var SHOES = [
     "price": 429.99,
     "price_formatted": "R$ 429,99",
     "levels": [
-      "iniciante",
-      "intermediario"
+      "intermediario",
+      "avancado"
     ],
     "pisada": [
-      "neutra"
+      "neutra",
+      "supinada"
     ],
     "terreno": [
       "asfalto",
-      "esteira"
+      "esteira",
+      "mista"
     ],
     "distancia": [
       "curta",
@@ -1480,11 +1491,13 @@ var SHOES = [
       "intermediario"
     ],
     "pisada": [
-      "neutra"
+      "neutra",
+      "supinada"
     ],
     "terreno": [
       "asfalto",
-      "esteira"
+      "esteira",
+      "mista"
     ],
     "distancia": [
       "curta",
@@ -1527,16 +1540,18 @@ var SHOES = [
     "price": 1099.99,
     "price_formatted": "R$ 1099,99",
     "levels": [
+      "iniciante",
       "intermediario",
       "avancado"
     ],
     "pisada": [
-      "neutra"
+      "neutra",
+      "supinada"
     ],
     "terreno": [
       "asfalto",
-      "trilha",
-      "esteira"
+      "esteira",
+      "mista"
     ],
     "distancia": [
       "curta",
@@ -1585,12 +1600,13 @@ var SHOES = [
       "avancado"
     ],
     "pisada": [
-      "neutra"
+      "neutra",
+      "supinada"
     ],
     "terreno": [
       "asfalto",
-      "trilha",
-      "esteira"
+      "esteira",
+      "mista"
     ],
     "distancia": [
       "curta",
@@ -1627,16 +1643,18 @@ var SHOES = [
     "price": 1299.99,
     "price_formatted": "R$ 1299,99",
     "levels": [
+      "iniciante",
       "intermediario",
       "avancado"
     ],
     "pisada": [
-      "neutra"
+      "neutra",
+      "supinada"
     ],
     "terreno": [
       "asfalto",
-      "trilha",
-      "esteira"
+      "esteira",
+      "mista"
     ],
     "distancia": [
       "curta",
@@ -1661,7 +1679,10 @@ var SHOES = [
         "installments": "10x de R$ 130,00 sem juros"
       }
     },
-    "tags": [],
+    "tags": [
+      "Amortecimento",
+      "Conforto"
+    ],
     "description": "",
     "reason": ""
   },
@@ -1676,16 +1697,18 @@ var SHOES = [
     "price": 1120.35,
     "price_formatted": "R$ 1120,35",
     "levels": [
+      "iniciante",
       "intermediario",
       "avancado"
     ],
     "pisada": [
-      "neutra"
+      "neutra",
+      "supinada"
     ],
     "terreno": [
       "asfalto",
-      "trilha",
-      "esteira"
+      "esteira",
+      "mista"
     ],
     "distancia": [
       "curta",
@@ -1720,15 +1743,17 @@ var SHOES = [
     "price": 0,
     "price_formatted": "R$ 0,00",
     "levels": [
+      "iniciante",
       "intermediario",
       "avancado"
     ],
     "pisada": [
-      "neutra"
+      "neutra",
+      "supinada"
     ],
     "terreno": [
-      "asfalto",
       "trilha",
+      "mista",
       "esteira"
     ],
     "distancia": [
@@ -1756,16 +1781,18 @@ var SHOES = [
     "price": 999.99,
     "price_formatted": "R$ 999,99",
     "levels": [
+      "iniciante",
       "intermediario",
       "avancado"
     ],
     "pisada": [
-      "neutra"
+      "neutra",
+      "supinada"
     ],
     "terreno": [
       "asfalto",
-      "trilha",
-      "esteira"
+      "esteira",
+      "mista"
     ],
     "distancia": [
       "curta",
@@ -1790,7 +1817,10 @@ var SHOES = [
         "installments": "10x sem juros"
       }
     },
-    "tags": [],
+    "tags": [
+      "Versátil",
+      "Conforto"
+    ],
     "description": "",
     "reason": ""
   },
@@ -1805,6 +1835,7 @@ var SHOES = [
     "price": 649.99,
     "price_formatted": "R$ 649,99",
     "levels": [
+      "iniciante",
       "intermediario",
       "avancado"
     ],
@@ -1814,16 +1845,15 @@ var SHOES = [
     ],
     "terreno": [
       "asfalto",
-      "trilha",
-      "mista",
-      "esteira"
+      "esteira",
+      "mista"
     ],
     "distancia": [
       "curta",
       "media",
       "longa"
     ],
-    "photo": "https://m.media-amazon.com/images/I/71qHhWE-T7L._AC_SY500_.jpg",
+    "photo": "https://m.media-amazon.com/images/I/71VByfz6e1L._AC_SY695_.jpg",
     "affiliate_links": {
       "oficial": {
         "url": "https://tidd.ly/4umRr4C",
@@ -1834,11 +1864,19 @@ var SHOES = [
         "installments": "10 x R$64,99 sem juros"
       },
       "amazon": {
-        "url": "https://amzn.to/4b5N32t",
-        "price": 649.99,
+        "url": "https://link.amazon/B01GZPEM4",
+        "price": 1022.83,
         "store": "Amazon",
         "label": "Amazon",
-        "installments": ""
+        "installments": "12x de R$ 85,30 sem juros"
+      },
+      "netshoes": {
+        "url": "https://click.linksynergy.com/deeplink?id=NyH7xPegftk&mid=43984&murl=https%3A%2F%2Fwww.netshoes.com.br%2Fp%2Ftenis-mizuno-wave-inspire-21-masculino-2FV-1336-128",
+        "price": 649.99,
+        "preco_pix": 0,
+        "store": "Netshoes",
+        "label": "Netshoes",
+        "installments": "9x de R$ 72,22 sem juros"
       }
     },
     "tags": [
@@ -1859,18 +1897,18 @@ var SHOES = [
     "price": 549.99,
     "price_formatted": "R$ 549,99",
     "levels": [
+      "iniciante",
       "intermediario",
       "avancado"
     ],
     "pisada": [
       "neutra",
-      "pronada"
+      "supinada"
     ],
     "terreno": [
       "asfalto",
-      "trilha",
-      "mista",
-      "esteira"
+      "esteira",
+      "mista"
     ],
     "distancia": [
       "curta",
@@ -1914,18 +1952,18 @@ var SHOES = [
     "price": 1199.99,
     "price_formatted": "R$ 1199,99",
     "levels": [
+      "iniciante",
       "intermediario",
       "avancado"
     ],
     "pisada": [
       "neutra",
-      "pronada"
+      "supinada"
     ],
     "terreno": [
       "asfalto",
-      "trilha",
-      "mista",
-      "esteira"
+      "esteira",
+      "mista"
     ],
     "distancia": [
       "curta",
@@ -1973,13 +2011,12 @@ var SHOES = [
     ],
     "pisada": [
       "neutra",
-      "pronada"
+      "supinada"
     ],
     "terreno": [
       "asfalto",
-      "trilha",
-      "mista",
-      "esteira"
+      "esteira",
+      "mista"
     ],
     "distancia": [
       "curta",
@@ -2015,18 +2052,17 @@ var SHOES = [
     "price": 449.99,
     "price_formatted": "R$ 449,99",
     "levels": [
-      "intermediario",
-      "avancado"
+      "iniciante",
+      "intermediario"
     ],
     "pisada": [
       "neutra",
-      "pronada"
+      "supinada"
     ],
     "terreno": [
       "asfalto",
-      "trilha",
-      "mista",
-      "esteira"
+      "esteira",
+      "mista"
     ],
     "distancia": [
       "curta",
@@ -2070,18 +2106,18 @@ var SHOES = [
     "price": 699.99,
     "price_formatted": "R$ 699,99",
     "levels": [
+      "iniciante",
       "intermediario",
       "avancado"
     ],
     "pisada": [
       "neutra",
-      "pronada"
+      "supinada"
     ],
     "terreno": [
       "asfalto",
-      "trilha",
-      "mista",
-      "esteira"
+      "esteira",
+      "mista"
     ],
     "distancia": [
       "curta",
@@ -2133,18 +2169,17 @@ var SHOES = [
     "price": 999.9,
     "price_formatted": "R$ 999,90",
     "levels": [
-      "intermediario",
-      "avancado"
+      "iniciante",
+      "intermediario"
     ],
     "pisada": [
       "neutra",
-      "pronada"
+      "supinada"
     ],
     "terreno": [
       "asfalto",
-      "trilha",
-      "mista",
-      "esteira"
+      "esteira",
+      "mista"
     ],
     "distancia": [
       "curta",
@@ -2188,18 +2223,18 @@ var SHOES = [
     "price": 279.99,
     "price_formatted": "R$ 279,99",
     "levels": [
+      "iniciante",
       "intermediario",
       "avancado"
     ],
     "pisada": [
       "neutra",
-      "pronada"
+      "supinada"
     ],
     "terreno": [
       "asfalto",
-      "trilha",
-      "mista",
-      "esteira"
+      "esteira",
+      "mista"
     ],
     "distancia": [
       "curta",
@@ -2251,18 +2286,18 @@ var SHOES = [
     "price": 299.99,
     "price_formatted": "R$ 299,99",
     "levels": [
+      "iniciante",
       "intermediario",
       "avancado"
     ],
     "pisada": [
       "neutra",
-      "pronada"
+      "supinada"
     ],
     "terreno": [
       "asfalto",
-      "trilha",
-      "mista",
-      "esteira"
+      "esteira",
+      "mista"
     ],
     "distancia": [
       "curta",
@@ -2306,18 +2341,18 @@ var SHOES = [
     "price": 1299.99,
     "price_formatted": "R$ 1299,99",
     "levels": [
+      "iniciante",
       "intermediario",
       "avancado"
     ],
     "pisada": [
       "neutra",
-      "pronada"
+      "supinada"
     ],
     "terreno": [
       "asfalto",
-      "trilha",
-      "mista",
-      "esteira"
+      "esteira",
+      "mista"
     ],
     "distancia": [
       "curta",
@@ -2361,18 +2396,17 @@ var SHOES = [
     "price": 329.98,
     "price_formatted": "R$ 329,98",
     "levels": [
-      "intermediario",
-      "avancado"
+      "iniciante",
+      "intermediario"
     ],
     "pisada": [
       "neutra",
-      "pronada"
+      "supinada"
     ],
     "terreno": [
       "asfalto",
-      "trilha",
-      "mista",
-      "esteira"
+      "esteira",
+      "mista"
     ],
     "distancia": [
       "curta",
@@ -2416,15 +2450,15 @@ var SHOES = [
     "price": 599.99,
     "price_formatted": "R$ 599,99",
     "levels": [
+      "iniciante",
       "intermediario",
       "avancado"
     ],
     "pisada": [
       "neutra",
-      "pronada"
+      "supinada"
     ],
     "terreno": [
-      "asfalto",
       "trilha",
       "mista",
       "esteira"
@@ -2484,12 +2518,13 @@ var SHOES = [
       "avancado"
     ],
     "pisada": [
-      "neutra"
+      "neutra",
+      "supinada"
     ],
     "terreno": [
       "asfalto",
-      "mista",
-      "esteira"
+      "esteira",
+      "mista"
     ],
     "distancia": [
       "curta",
@@ -2537,12 +2572,13 @@ var SHOES = [
       "avancado"
     ],
     "pisada": [
-      "neutra"
+      "neutra",
+      "supinada"
     ],
     "terreno": [
       "asfalto",
-      "mista",
-      "esteira"
+      "esteira",
+      "mista"
     ],
     "distancia": [
       "curta",
@@ -2583,12 +2619,13 @@ var SHOES = [
       "avancado"
     ],
     "pisada": [
-      "neutra"
+      "neutra",
+      "supinada"
     ],
     "terreno": [
       "asfalto",
-      "mista",
-      "esteira"
+      "esteira",
+      "mista"
     ],
     "distancia": [
       "curta",
@@ -2625,17 +2662,17 @@ var SHOES = [
     "price": 1749.9,
     "price_formatted": "R$ 1749,90",
     "levels": [
-      "iniciante",
       "intermediario",
       "avancado"
     ],
     "pisada": [
-      "neutra"
+      "neutra",
+      "supinada"
     ],
     "terreno": [
       "asfalto",
-      "mista",
-      "esteira"
+      "esteira",
+      "mista"
     ],
     "distancia": [
       "curta",
@@ -2677,10 +2714,11 @@ var SHOES = [
       "avancado"
     ],
     "pisada": [
-      "neutra"
+      "neutra",
+      "supinada"
     ],
     "terreno": [
-      "asfalto",
+      "trilha",
       "mista",
       "esteira"
     ],
@@ -2719,17 +2757,17 @@ var SHOES = [
     "price": 989.79,
     "price_formatted": "R$ 989,79",
     "levels": [
-      "iniciante",
       "intermediario",
       "avancado"
     ],
     "pisada": [
-      "neutra"
+      "neutra",
+      "supinada"
     ],
     "terreno": [
       "asfalto",
-      "mista",
-      "esteira"
+      "esteira",
+      "mista"
     ],
     "distancia": [
       "curta",
@@ -2772,14 +2810,12 @@ var SHOES = [
     ],
     "pisada": [
       "neutra",
-      "pronada",
       "supinada"
     ],
     "terreno": [
       "asfalto",
-      "pista",
-      "mista",
-      "esteira"
+      "esteira",
+      "mista"
     ],
     "distancia": [
       "curta",
@@ -2804,7 +2840,10 @@ var SHOES = [
         "installments": "12x de R$ 146,62 sem juros"
       }
     },
-    "tags": [],
+    "tags": [
+      "Amortecimento",
+      "Conforto"
+    ],
     "description": "Máximo amortecimento Nike com espuma ZoomX. Para corredores que buscam leveza e proteção nas longas.",
     "reason": "Máximo amortecimento Nike com espuma ZoomX. Para corredores que buscam leveza e proteção nas longas."
   },
@@ -2825,14 +2864,12 @@ var SHOES = [
     ],
     "pisada": [
       "neutra",
-      "pronada",
       "supinada"
     ],
     "terreno": [
       "asfalto",
-      "pista",
-      "mista",
-      "esteira"
+      "esteira",
+      "mista"
     ],
     "distancia": [
       "curta",
@@ -2927,19 +2964,16 @@ var SHOES = [
     "price_formatted": "R$ 315,77",
     "levels": [
       "iniciante",
-      "intermediario",
-      "avancado"
+      "intermediario"
     ],
     "pisada": [
       "neutra",
-      "pronada",
       "supinada"
     ],
     "terreno": [
       "asfalto",
-      "pista",
-      "mista",
-      "esteira"
+      "esteira",
+      "mista"
     ],
     "distancia": [
       "curta",
@@ -2972,7 +3006,10 @@ var SHOES = [
         "installments": "4x sem juros"
       }
     },
-    "tags": [],
+    "tags": [
+      "Custo-benefício",
+      "Entrada"
+    ],
     "description": "Entrada ideal no universo Nike. Leve, respirável e com bom amortecimento para treinos regulares.",
     "reason": "Entrada ideal no universo Nike. Leve, respirável e com bom amortecimento para treinos regulares."
   },
@@ -2988,19 +3025,16 @@ var SHOES = [
     "price_formatted": "R$ 489,99",
     "levels": [
       "iniciante",
-      "intermediario",
-      "avancado"
+      "intermediario"
     ],
     "pisada": [
       "neutra",
-      "pronada",
       "supinada"
     ],
     "terreno": [
       "asfalto",
-      "pista",
-      "mista",
-      "esteira"
+      "esteira",
+      "mista"
     ],
     "distancia": [
       "curta",
@@ -3025,7 +3059,10 @@ var SHOES = [
         "installments": ""
       }
     },
-    "tags": [],
+    "tags": [
+      "Custo-benefício",
+      "Entrada"
+    ],
     "description": "Amortecimento React responsivo para treinos diários. Leve e estável com excelente retorno de energia.",
     "reason": "Amortecimento React responsivo para treinos diários. Leve e estável com excelente retorno de energia."
   },
@@ -3041,19 +3078,16 @@ var SHOES = [
     "price_formatted": "R$ 474,99",
     "levels": [
       "iniciante",
-      "intermediario",
-      "avancado"
+      "intermediario"
     ],
     "pisada": [
       "neutra",
-      "pronada",
       "supinada"
     ],
     "terreno": [
       "asfalto",
-      "pista",
-      "mista",
-      "esteira"
+      "esteira",
+      "mista"
     ],
     "distancia": [
       "curta",
@@ -3078,7 +3112,10 @@ var SHOES = [
         "installments": ""
       }
     },
-    "tags": [],
+    "tags": [
+      "Custo-benefício",
+      "Entrada"
+    ],
     "description": "Custo-benefício sólido da Nike. Entressola firme e solado durável para treinos frequentes.",
     "reason": "Custo-benefício sólido da Nike. Entressola firme e solado durável para treinos frequentes."
   },
@@ -3093,20 +3130,17 @@ var SHOES = [
     "price": 1781.24,
     "price_formatted": "R$ 1781,24",
     "levels": [
-      "iniciante",
       "intermediario",
       "avancado"
     ],
     "pisada": [
       "neutra",
-      "pronada",
       "supinada"
     ],
     "terreno": [
       "asfalto",
-      "pista",
-      "mista",
-      "esteira"
+      "esteira",
+      "mista"
     ],
     "distancia": [
       "curta",
@@ -3131,7 +3165,10 @@ var SHOES = [
         "installments": ""
       }
     },
-    "tags": [],
+    "tags": [
+      "Velocidade",
+      "Leveza"
+    ],
     "description": "Placa de carbono + ZoomX. O tênis de corrida mais rápido para maratonistas que buscam bater recordes.",
     "reason": "Placa de carbono + ZoomX. O tênis de corrida mais rápido para maratonistas que buscam bater recordes."
   },
@@ -3146,20 +3183,17 @@ var SHOES = [
     "price": 1402.05,
     "price_formatted": "R$ 1402,05",
     "levels": [
-      "iniciante",
       "intermediario",
       "avancado"
     ],
     "pisada": [
       "neutra",
-      "pronada",
       "supinada"
     ],
     "terreno": [
       "asfalto",
-      "pista",
-      "mista",
-      "esteira"
+      "esteira",
+      "mista"
     ],
     "distancia": [
       "curta",
@@ -3184,7 +3218,10 @@ var SHOES = [
         "installments": ""
       }
     },
-    "tags": [],
+    "tags": [
+      "Velocidade",
+      "Leveza"
+    ],
     "description": "Placa de carbono leve para treinos de velocidade e provas. Espuma React X com excelente retorno de energia.",
     "reason": "Placa de carbono leve para treinos de velocidade e provas. Espuma React X com excelente retorno de energia."
   },
@@ -3205,14 +3242,12 @@ var SHOES = [
     ],
     "pisada": [
       "neutra",
-      "pronada",
-      "supinada"
+      "pronada"
     ],
     "terreno": [
       "asfalto",
-      "pista",
-      "mista",
-      "esteira"
+      "esteira",
+      "mista"
     ],
     "distancia": [
       "curta",
@@ -3237,7 +3272,10 @@ var SHOES = [
         "installments": "10x"
       }
     },
-    "tags": [],
+    "tags": [
+      "Estável",
+      "Suporte"
+    ],
     "description": "Tênis de estabilidade Nike com suporte medial para pronação. Durável e confortável para treinos diários.",
     "reason": "Tênis de estabilidade Nike com suporte medial para pronação. Durável e confortável para treinos diários."
   },
@@ -3258,14 +3296,12 @@ var SHOES = [
     ],
     "pisada": [
       "neutra",
-      "pronada",
       "supinada"
     ],
     "terreno": [
       "asfalto",
-      "pista",
-      "mista",
-      "esteira"
+      "esteira",
+      "mista"
     ],
     "distancia": [
       "curta",
@@ -3290,7 +3326,10 @@ var SHOES = [
         "installments": "12x"
       }
     },
-    "tags": [],
+    "tags": [
+      "Amortecimento",
+      "Conforto"
+    ],
     "description": "Máximo amortecimento ZoomX para recuperação ativa. Passada ultra macia para treinos de volume alto.",
     "reason": "Máximo amortecimento ZoomX para recuperação ativa. Passada ultra macia para treinos de volume alto."
   },
@@ -3305,20 +3344,17 @@ var SHOES = [
     "price": 842.08,
     "price_formatted": "R$ 842,08",
     "levels": [
-      "iniciante",
       "intermediario",
       "avancado"
     ],
     "pisada": [
       "neutra",
-      "pronada",
       "supinada"
     ],
     "terreno": [
       "asfalto",
-      "pista",
-      "mista",
-      "esteira"
+      "esteira",
+      "mista"
     ],
     "distancia": [
       "curta",
@@ -3343,7 +3379,10 @@ var SHOES = [
         "installments": "12x de R$ 122,75 sem juros"
       }
     },
-    "tags": [],
+    "tags": [
+      "Velocidade",
+      "Leveza"
+    ],
     "description": "",
     "reason": ""
   },
@@ -3364,14 +3403,12 @@ var SHOES = [
     ],
     "pisada": [
       "neutra",
-      "pronada",
       "supinada"
     ],
     "terreno": [
       "asfalto",
-      "pista",
-      "mista",
-      "esteira"
+      "esteira",
+      "mista"
     ],
     "distancia": [
       "curta",
@@ -3390,13 +3427,16 @@ var SHOES = [
       },
       "amazon": {
         "url": "https://amzn.to/4maXIN5",
-        "price": 2029.68,
+        "price": 1717.62,
         "store": "Amazon",
         "label": "Amazon",
-        "installments": "12x"
+        "installments": "12x de R$ 143,19 sem juros"
       }
     },
-    "tags": [],
+    "tags": [
+      "Amortecimento",
+      "Conforto"
+    ],
     "description": "Amortecimento premium ZoomX com fit personalizado. Para quem quer conforto máximo sem abrir mão da leveza.",
     "reason": "Amortecimento premium ZoomX com fit personalizado. Para quem quer conforto máximo sem abrir mão da leveza."
   },
@@ -3417,12 +3457,10 @@ var SHOES = [
     ],
     "pisada": [
       "neutra",
-      "pronada",
       "supinada"
     ],
     "terreno": [
-      "asfalto",
-      "pista",
+      "trilha",
       "mista",
       "esteira"
     ],
@@ -3446,10 +3484,14 @@ var SHOES = [
         "price": 1146.51,
         "store": "Amazon",
         "label": "Amazon",
-        "installments": "12x"
+        "installments": "12x de R$ 95,57 sem juros"
       }
     },
-    "tags": [],
+    "tags": [
+      "Trilha",
+      "Versátil",
+      "Conforto"
+    ],
     "description": "Grip Traxion para trilhas com amortecimento React X. Para quem quer performance fora do asfalto.",
     "reason": "Grip Traxion para trilhas com amortecimento React X. Para quem quer performance fora do asfalto."
   },
@@ -3470,12 +3512,10 @@ var SHOES = [
     ],
     "pisada": [
       "neutra",
-      "pronada",
       "supinada"
     ],
     "terreno": [
-      "asfalto",
-      "pista",
+      "trilha",
       "mista",
       "esteira"
     ],
@@ -3502,7 +3542,11 @@ var SHOES = [
         "installments": "12x de R$ 56,46 sem juros"
       }
     },
-    "tags": [],
+    "tags": [
+      "Trilha",
+      "Versátil",
+      "Conforto"
+    ],
     "description": "Grip Traxion para trilhas com amortecimento React X. Para quem quer performance fora do asfalto.",
     "reason": "Grip Traxion para trilhas com amortecimento React X. Para quem quer performance fora do asfalto."
   },
@@ -3523,14 +3567,12 @@ var SHOES = [
     ],
     "pisada": [
       "neutra",
-      "pronada",
       "supinada"
     ],
     "terreno": [
       "asfalto",
-      "pista",
-      "mista",
-      "esteira"
+      "esteira",
+      "mista"
     ],
     "distancia": [
       "curta",
@@ -3555,7 +3597,10 @@ var SHOES = [
         "installments": "12x de R$ 130,25 sem juros"
       }
     },
-    "tags": [],
+    "tags": [
+      "Versátil",
+      "Conforto"
+    ],
     "description": "O clássico mais versátil da Nike. React X responsivo para qualquer distância e ritmo.",
     "reason": "O clássico mais versátil da Nike. React X responsivo para qualquer distância e ritmo."
   },
@@ -3574,11 +3619,13 @@ var SHOES = [
       "intermediario"
     ],
     "pisada": [
-      "neutra"
+      "neutra",
+      "supinada"
     ],
     "terreno": [
       "asfalto",
-      "esteira"
+      "esteira",
+      "mista"
     ],
     "distancia": [
       "curta",
@@ -3620,38 +3667,56 @@ var SHOES = [
   },
   {
     "brand": "OLYMPIKUS",
-    "name": "Challenger",
-    "slug": "olympikus-challenger-3413",
+    "name": "Challenger 5",
+    "slug": "olympikus-challenger-5-3413",
     "sexo": [
       "masculino"
     ],
     "budget": "ate300",
-    "price": 249.9,
-    "price_formatted": "R$ 249,90",
+    "price": 249.99,
+    "price_formatted": "R$ 249,99",
     "levels": [
       "iniciante",
       "intermediario"
     ],
     "pisada": [
-      "neutra"
+      "neutra",
+      "supinada"
     ],
     "terreno": [
       "asfalto",
-      "esteira"
+      "esteira",
+      "mista"
     ],
     "distancia": [
       "curta",
       "media",
       "longa"
     ],
-    "photo": "https://m.media-amazon.com/images/I/51WUvXlRWbL._AC_SX679_.jpg",
+    "photo": "https://m.media-amazon.com/images/I/51iZQ7STo3L._AC_SX679_.jpg",
     "affiliate_links": {
+      "oficial": {
+        "url": "https://tidd.ly/3T5F1Qp",
+        "price": 249.99,
+        "preco_pix": 0,
+        "store": "OLYMPIKUS",
+        "label": "OLYMPIKUS",
+        "installments": "7x de R$ 35,71"
+      },
       "amazon": {
-        "url": "https://amzn.to/4s630fg",
-        "price": 249.9,
+        "url": "https://link.amazon/B0h1Hq7uc",
+        "price": 299.99,
         "store": "Amazon",
         "label": "Amazon",
-        "installments": ""
+        "installments": "6x de R$ 50,04 sem juros"
+      },
+      "netshoes": {
+        "url": "https://click.linksynergy.com/deeplink?id=NyH7xPegftk&mid=43984&murl=https%3A%2F%2Fwww.netshoes.com.br%2Fp%2Ftenis-olympikus-challenger-5-masculino-branco%2Bvermelho-2I2-9103-024",
+        "price": 274.9,
+        "preco_pix": 233.66,
+        "store": "Netshoes",
+        "label": "Netshoes",
+        "installments": "3x sem juros"
       }
     },
     "tags": [
@@ -3669,18 +3734,20 @@ var SHOES = [
       "masculino"
     ],
     "budget": "ate300",
-    "price": 229.9,
-    "price_formatted": "R$ 229,90",
+    "price": 149.99,
+    "price_formatted": "R$ 149,99",
     "levels": [
       "iniciante",
       "intermediario"
     ],
     "pisada": [
-      "neutra"
+      "neutra",
+      "supinada"
     ],
     "terreno": [
       "asfalto",
-      "esteira"
+      "esteira",
+      "mista"
     ],
     "distancia": [
       "curta",
@@ -3689,12 +3756,28 @@ var SHOES = [
     ],
     "photo": "https://m.media-amazon.com/images/I/51bmHlqn4bL._AC_SX679_.jpg",
     "affiliate_links": {
+      "oficial": {
+        "url": "https://tidd.ly/4eODXI6",
+        "price": 149.99,
+        "preco_pix": 0,
+        "store": "OLYMPIKUS",
+        "label": "OLYMPIKUS",
+        "installments": "4x de R$ 37,49"
+      },
       "amazon": {
         "url": "https://amzn.to/47k1FZG",
-        "price": 229.9,
+        "price": 189.99,
         "store": "Amazon",
         "label": "Amazon",
-        "installments": ""
+        "installments": "6x de R$ 31,69 sem juros"
+      },
+      "netshoes": {
+        "url": "https://click.linksynergy.com/deeplink?id=NyH7xPegftk&mid=43984&murl=https%3A%2F%2Fwww.netshoes.com.br%2Fp%2Ftenis-olympikus-orbita-masculino-preto-2I3-0670-006",
+        "price": 149.99,
+        "preco_pix": 0,
+        "store": "Netshoes",
+        "label": "Netshoes",
+        "installments": "2x de R$ 75,00 sem juros"
       }
     },
     "tags": [
@@ -3719,11 +3802,13 @@ var SHOES = [
       "intermediario"
     ],
     "pisada": [
-      "neutra"
+      "neutra",
+      "supinada"
     ],
     "terreno": [
       "asfalto",
-      "esteira"
+      "esteira",
+      "mista"
     ],
     "distancia": [
       "curta",
@@ -3750,59 +3835,6 @@ var SHOES = [
   },
   {
     "brand": "OLYMPIKUS",
-    "name": "Challenger 5",
-    "slug": "olympikus-olympikus-challenger-5-ba6c",
-    "sexo": [
-      "masculino"
-    ],
-    "budget": "ate300",
-    "price": 209.99,
-    "price_formatted": "R$ 209,99",
-    "levels": [
-      "iniciante",
-      "intermediario"
-    ],
-    "pisada": [
-      "neutra"
-    ],
-    "terreno": [
-      "asfalto",
-      "esteira"
-    ],
-    "distancia": [
-      "curta",
-      "media",
-      "longa"
-    ],
-    "photo": "https://m.media-amazon.com/images/I/51fOqAnmsIL._AC_SX522_.jpg",
-    "affiliate_links": {
-      "oficial": {
-        "url": "https://tidd.ly/4utSjEM",
-        "price": 249.99,
-        "preco_pix": 0,
-        "store": "OLYMPIKUS",
-        "label": "OLYMPIKUS",
-        "installments": "7x de R$ 35,71 sem juros"
-      },
-      "amazon": {
-        "url": "https://amzn.to/3OZCYM2",
-        "price": 209.99,
-        "store": "Amazon",
-        "label": "Amazon",
-        "installments": ""
-      }
-    },
-    "tags": [
-      "Entrada",
-      "Acessível",
-      "Nacional",
-      "Iniciante"
-    ],
-    "description": "A entrada mais acessível para quem quer começar a correr. Funcional e confortável para treinos curtos e caminhadas no asfalto.",
-    "reason": "A entrada mais acessível para quem quer começar a correr. Funcional e confortável para treinos curtos e caminhadas no asfalto."
-  },
-  {
-    "brand": "OLYMPIKUS",
     "name": "Marte",
     "slug": "olympikus-marte-4909",
     "sexo": [
@@ -3816,11 +3848,13 @@ var SHOES = [
       "intermediario"
     ],
     "pisada": [
-      "neutra"
+      "neutra",
+      "supinada"
     ],
     "terreno": [
       "asfalto",
-      "esteira"
+      "esteira",
+      "mista"
     ],
     "distancia": [
       "curta",
@@ -3868,11 +3902,13 @@ var SHOES = [
       "intermediario"
     ],
     "pisada": [
-      "neutra"
+      "neutra",
+      "supinada"
     ],
     "terreno": [
       "asfalto",
-      "esteira"
+      "esteira",
+      "mista"
     ],
     "distancia": [
       "curta",
@@ -3912,11 +3948,13 @@ var SHOES = [
       "intermediario"
     ],
     "pisada": [
-      "neutra"
+      "neutra",
+      "supinada"
     ],
     "terreno": [
       "asfalto",
-      "esteira"
+      "esteira",
+      "mista"
     ],
     "distancia": [
       "curta",
@@ -3962,13 +4000,16 @@ var SHOES = [
     "price_formatted": "R$ 599,90",
     "levels": [
       "iniciante",
-      "intermediario"
+      "intermediario",
+      "avancado"
     ],
     "pisada": [
-      "neutra"
+      "neutra",
+      "supinada"
     ],
     "terreno": [
-      "asfalto",
+      "trilha",
+      "mista",
       "esteira"
     ],
     "distancia": [
@@ -4002,7 +4043,11 @@ var SHOES = [
         "installments": "8x de R$ 75,00 sem juros"
       }
     },
-    "tags": [],
+    "tags": [
+      "Trilha",
+      "Versátil",
+      "Conforto"
+    ],
     "description": "",
     "reason": ""
   },
@@ -4017,11 +4062,13 @@ var SHOES = [
     "price": 1028.59,
     "price_formatted": "R$ 1028,59",
     "levels": [
+      "iniciante",
       "intermediario",
       "avancado"
     ],
     "pisada": [
-      "neutra"
+      "neutra",
+      "supinada"
     ],
     "terreno": [
       "trilha",
@@ -4066,11 +4113,12 @@ var SHOES = [
     ],
     "pisada": [
       "neutra",
-      "pronada"
+      "supinada"
     ],
     "terreno": [
       "asfalto",
-      "esteira"
+      "esteira",
+      "mista"
     ],
     "distancia": [
       "curta",
@@ -4103,11 +4151,12 @@ var SHOES = [
     ],
     "pisada": [
       "neutra",
-      "pronada"
+      "supinada"
     ],
     "terreno": [
       "asfalto",
-      "esteira"
+      "esteira",
+      "mista"
     ],
     "distancia": [
       "curta",
@@ -4149,11 +4198,12 @@ var SHOES = [
     ],
     "pisada": [
       "neutra",
-      "pronada"
+      "supinada"
     ],
     "terreno": [
       "asfalto",
-      "esteira"
+      "esteira",
+      "mista"
     ],
     "distancia": [
       "curta",
@@ -4190,16 +4240,18 @@ var SHOES = [
     "price": 1247.09,
     "price_formatted": "R$ 1247,09",
     "levels": [
+      "iniciante",
       "intermediario",
       "avancado"
     ],
     "pisada": [
       "neutra",
-      "pronada"
+      "supinada"
     ],
     "terreno": [
       "asfalto",
-      "esteira"
+      "esteira",
+      "mista"
     ],
     "distancia": [
       "curta",
@@ -4236,15 +4288,17 @@ var SHOES = [
     "price": 974.09,
     "price_formatted": "R$ 974,09",
     "levels": [
+      "iniciante",
       "intermediario",
       "avancado"
     ],
     "pisada": [
       "neutra",
-      "pronada"
+      "supinada"
     ],
     "terreno": [
-      "asfalto",
+      "trilha",
+      "mista",
       "esteira"
     ],
     "distancia": [
@@ -4282,16 +4336,18 @@ var SHOES = [
     "price": 654.99,
     "price_formatted": "R$ 654,99",
     "levels": [
+      "iniciante",
       "intermediario",
       "avancado"
     ],
     "pisada": [
       "neutra",
-      "pronada"
+      "supinada"
     ],
     "terreno": [
       "asfalto",
-      "esteira"
+      "esteira",
+      "mista"
     ],
     "distancia": [
       "curta",
@@ -4329,16 +4385,18 @@ var SHOES = [
     "price": 1120.02,
     "price_formatted": "R$ 1120,02",
     "levels": [
+      "iniciante",
       "intermediario",
       "avancado"
     ],
     "pisada": [
-      "neutra"
+      "neutra",
+      "supinada"
     ],
     "terreno": [
-      "trilha",
-      "mista",
-      "esteira"
+      "asfalto",
+      "esteira",
+      "mista"
     ],
     "distancia": [
       "curta",
@@ -4376,14 +4434,17 @@ var SHOES = [
     "price_formatted": "R$ 329,90",
     "levels": [
       "iniciante",
-      "intermediario"
+      "intermediario",
+      "avancado"
     ],
     "pisada": [
-      "neutra"
+      "neutra",
+      "supinada"
     ],
     "terreno": [
       "asfalto",
-      "esteira"
+      "esteira",
+      "mista"
     ],
     "distancia": [
       "curta",
@@ -4426,16 +4487,17 @@ var SHOES = [
     "price": 309.99,
     "price_formatted": "R$ 309,99",
     "levels": [
-      "intermediario",
-      "avancado"
+      "iniciante",
+      "intermediario"
     ],
     "pisada": [
-      "neutra"
+      "neutra",
+      "supinada"
     ],
     "terreno": [
       "asfalto",
-      "pista",
-      "esteira"
+      "esteira",
+      "mista"
     ],
     "distancia": [
       "curta",
