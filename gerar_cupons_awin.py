@@ -22,15 +22,21 @@ TOKEN = os.environ.get("AWIN_API_TOKEN", "")
 MAX_CUPONS = int(os.environ.get("MAX_CUPONS", "8"))
 
 
-def _post(body):
-    url = f"https://api.awin.com/publishers/{PUBLISHER_ID}/promotions/"
+def _post(url, headers):
+    body = {
+        "filters": {
+            "membership": "joined",     # lojas em que você é parceira
+            "regionCodes": ["BR"],
+            "status": "active",
+            "type": "voucher",
+            "exclusiveOnly": False,
+        },
+        "pagination": {"page": 1, "pageSize": 100},
+    }
     req = urllib.request.Request(
         url,
         data=json.dumps(body).encode("utf-8"),
-        headers={
-            "Content-Type": "application/json",
-            "Authorization": f"Bearer {TOKEN}",
-        },
+        headers={"Content-Type": "application/json", **headers},
         method="POST",
     )
     with urllib.request.urlopen(req, timeout=30) as resp:
@@ -38,30 +44,31 @@ def _post(body):
 
 
 def buscar_promocoes():
-    # Tentativa 1: filtro completo (lojas que você é parceira, cupons, Brasil)
-    tentativas = [
-        {"filters": {"membership": "joined", "type": "voucher", "regionCodes": ["BR"]},
-         "pagination": {"page": 1, "pageSize": 100}},
-        # Tentativa 2: mais simples (sem type), caso a API reclame
-        {"filters": {"membership": "joined", "regionCodes": ["BR"]},
-         "pagination": {"page": 1, "pageSize": 100}},
-        # Tentativa 3: mínimo possível
-        {"pagination": {"page": 1, "pageSize": 100}},
-    ]
-    ultimo_erro = None
-    for i, body in enumerate(tentativas, 1):
+    pid = PUBLISHER_ID
+    base = "https://api.awin.com"
+    # Matriz: caminho (singular/plural) × autenticação (raw / Bearer / query param)
+    combos = []
+    for path in (f"/publisher/{pid}/promotions/", f"/publishers/{pid}/promotions/"):
+        combos.append((base + path, {"Authorization": TOKEN}))                       # token cru no header
+        combos.append((base + path, {"Authorization": f"Bearer {TOKEN}"}))           # com Bearer
+        combos.append((base + path + f"?accessToken={TOKEN}", {}))                   # token na URL
+
+    erros = []
+    for i, (url, headers) in enumerate(combos, 1):
+        url_log = url.replace(TOKEN, "***") if TOKEN else url
         try:
-            print(f"[tentativa {i}] body={json.dumps(body)}", file=sys.stderr)
-            return _post(body)
+            print(f"[tentativa {i}] {url_log} | auth={'header' if headers else 'query'}", file=sys.stderr)
+            dados = _post(url, headers)
+            print(f"[✅ funcionou na tentativa {i}] {url_log}", file=sys.stderr)
+            return dados
         except urllib.error.HTTPError as e:
-            corpo = e.read().decode("utf-8", "ignore")[:400]
-            ultimo_erro = f"HTTP {e.code}: {corpo}"
-            print(f"[tentativa {i} falhou] {ultimo_erro}", file=sys.stderr)
-            if e.code == 401:
-                # token inválido — não adianta tentar de novo
-                raise RuntimeError("Token da Awin inválido ou expirado (HTTP 401). "
-                                   "Gere um novo token e atualize o secret AWIN_API_TOKEN.")
-    raise RuntimeError(f"Todas as tentativas falharam. Último erro: {ultimo_erro}")
+            corpo = e.read().decode("utf-8", "ignore")[:200]
+            erros.append(f"t{i}: HTTP {e.code} {corpo}")
+            print(f"[tentativa {i} falhou] HTTP {e.code}: {corpo}", file=sys.stderr)
+        except Exception as e:
+            erros.append(f"t{i}: {type(e).__name__}")
+            print(f"[tentativa {i} erro] {type(e).__name__}: {e}", file=sys.stderr)
+    raise RuntimeError("Nenhuma combinação funcionou. Erros: " + " | ".join(erros))
 
 
 def campo(promo, *nomes, default=""):
@@ -126,7 +133,11 @@ def main():
         print(f"ERRO: {e}", file=sys.stderr)
         sys.exit(1)
 
-    promocoes = dados.get("data") or dados.get("promotions") or []
+    if isinstance(dados, list):
+        promocoes = dados
+    else:
+        promocoes = (dados.get("data") or dados.get("promotions")
+                     or dados.get("offers") or [])
     mensagem, qtd = formatar(promocoes)
 
     # Salva em arquivo e imprime
