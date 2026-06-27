@@ -2538,6 +2538,13 @@
       color: #888;
     }
 
+    .offer-pix {
+      font-size: 13px;
+      font-weight: 700;
+      color: #00c46a;
+      margin-top: 2px;
+    }
+
     .offer-buy-btn {
       flex-shrink: 0;
       background: #3a3a3a;
@@ -3616,12 +3623,15 @@
 
               if (url && url !== '-' && url.trim() !== '') {
                 var finalPrice = price ? cleanPrice(price) : 0;
+                var pixPrice = (typeof offer === 'object' && offer && offer.preco_pix) ? cleanPrice(offer.preco_pix) : 0;
+                var parcelasTxt = (typeof offer === 'object' && offer && offer.installments) ? String(offer.installments).trim() : '';
                 offers.push({
                   key: key,
                   label: store,
                   url: url.trim(),
                   price: finalPrice,
-                  installments: key === 'amazon' ? '6x sem juros' : (key === 'netshoes' ? 'PIX/Boleto' : 'ver condições')
+                  preco_pix: pixPrice,
+                  installments: parcelasTxt
                 });
               }
             });
@@ -3647,12 +3657,8 @@
             // NOVO LAYOUT: mostra TODAS as lojas com preço + botão de comprar ao lado
             (function () {
               function payLbl(offer) {
-                if (!offer) return '';
-                if (offer.installments) return offer.installments;
-                if (offer.key === 'amazon') return '6x sem juros';
-                if (offer.key === 'oficial') return 'em até 8x';
-                if (offer.key === 'netshoes') return 'no PIX/Boleto';
-                return '';
+                // só usa a parcela REAL da planilha (sem chutar PIX/parcelas)
+                return (offer && offer.installments) ? offer.installments : '';
               }
               btnsHTML += '<div class="offers-list">';
               for (var oi = 0; oi < offers.length; oi++) {
@@ -3662,12 +3668,17 @@
                 var offPrice = offNum > 0 ? formatBRL(offNum) : 'Ver preço';
                 var storeNm = (off.label || off.store || 'Loja');
                 var pay = payLbl(off);
+                // linha do PIX (só se a planilha tiver preço PIX menor que o normal)
+                var pixHTML = '';
+                if (off.preco_pix && off.preco_pix > 0 && off.preco_pix < offNum) {
+                  pixHTML = '<div class="offer-pix">ou ' + formatBRL(off.preco_pix) + ' no PIX</div>';
+                }
                 var sUrl = (off.url || '').replace(/'/g, "\\'");
                 var sNm = (sh.name || '').replace(/'/g, "\\'");
                 btnsHTML += '<div class="offer-row' + (isBestOffer ? ' offer-row-best' : '') + '">' +
                   '<div class="offer-info">' +
                     '<div class="offer-store">' + storeNm + (isBestOffer ? ' <span class="offer-best-tag">🏆 Melhor preço</span>' : '') + '</div>' +
-                    '<div class="offer-price">' + offPrice + (pay ? '<span class="offer-pay"> ' + pay + '</span>' : '') + '</div>' +
+                    '<div class="offer-price">' + offPrice + (pay ? '<span class="offer-pay"> ' + pay + '</span>' : '') + '</div>' + pixHTML +
                   '</div>' +
                   '<a href="' + off.url + '" target="_blank" rel="noopener" class="offer-buy-btn' + (isBestOffer ? ' offer-buy-best' : '') + '" onclick="return trackClick(\'' + sUrl + '\', \'' + sNm + '\')">Comprar →</a>' +
                 '</div>';

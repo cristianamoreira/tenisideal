@@ -34,6 +34,7 @@ var SHOES = [
       "oficial": {
         "url": "https://tidd.ly/3P8j6q3",
         "price": 1999.99,
+        "preco_pix": 0,
         "store": "ADIDAS",
         "label": "ADIDAS",
         "installments": "10 x R$200,00 sem juros"
@@ -48,6 +49,7 @@ var SHOES = [
       "netshoes": {
         "url": "https://click.linksynergy.com/deeplink?id=NyH7xPegftk&mid=43984&murl=https%3A%2F%2Fwww.netshoes.com.br%2Fp%2Ftenis-adidas-adizero-adios-pro-4-masculino-FBA-84WV-086",
         "price": 1999.99,
+        "preco_pix": 1899.99,
         "store": "Netshoes",
         "label": "Netshoes",
         "installments": "10x sem juros"
@@ -94,6 +96,7 @@ var SHOES = [
       "oficial": {
         "url": "https://tidd.ly/4sdrK5h",
         "price": 1399.99,
+        "preco_pix": 0,
         "store": "ADIDAS",
         "label": "ADIDAS",
         "installments": "10 x R$ 140,00 sem juros"
@@ -108,6 +111,7 @@ var SHOES = [
       "netshoes": {
         "url": "https://click.linksynergy.com/deeplink?id=NyH7xPegftk&mid=43984&murl=https%3A%2F%2Fwww.netshoes.com.br%2Fp%2Ftenis-adidas-adizero-boston-13-masculino-FBA-7037-006",
         "price": 1199.9,
+        "preco_pix": 1139.9,
         "store": "Netshoes",
         "label": "Netshoes",
         "installments": "10x sem juros"
@@ -154,6 +158,7 @@ var SHOES = [
       "oficial": {
         "url": "https://tidd.ly/4bwPHNU",
         "price": 399.99,
+        "preco_pix": 0,
         "store": "ADIDAS",
         "label": "ADIDAS",
         "installments": "4 x R$ 100,00 sem juros"
@@ -168,6 +173,7 @@ var SHOES = [
       "netshoes": {
         "url": "https://click.linksynergy.com/deeplink?id=NyH7xPegftk&mid=43984&murl=https%3A%2F%2Fwww.netshoes.com.br%2Fp%2Ftenis-adidas-response-runner-2-preto%2Bbranco-FBA-83CI-026",
         "price": 279.99,
+        "preco_pix": 265.99,
         "store": "Netshoes",
         "label": "Netshoes",
         "installments": "4x sem juros"
@@ -214,6 +220,7 @@ var SHOES = [
       "oficial": {
         "url": "https://tidd.ly/4uycDoE",
         "price": 1099.99,
+        "preco_pix": 0,
         "store": "ADIDAS",
         "label": "ADIDAS",
         "installments": "10 x R$ 110,00 sem juros"
@@ -228,6 +235,7 @@ var SHOES = [
       "netshoes": {
         "url": "https://click.linksynergy.com/deeplink?id=NyH7xPegftk&mid=43984&murl=https%3A%2F%2Fwww.netshoes.com.br%2Fp%2Ftenis-adidas-ultraboost-5-masculino-marinho%2Bbranco-FB9-8787-036",
         "price": 839.88,
+        "preco_pix": 0,
         "store": "Netshoes",
         "label": "Netshoes",
         "installments": "10X sem juros"
@@ -275,6 +283,7 @@ var SHOES = [
       "oficial": {
         "url": "https://tidd.ly/4vARnP9",
         "price": 699.99,
+        "preco_pix": 0,
         "store": "ADIDAS",
         "label": "ADIDAS",
         "installments": "7 x R$100,00 sem juros"
@@ -289,6 +298,7 @@ var SHOES = [
       "netshoes": {
         "url": "https://click.linksynergy.com/deeplink?id=NyH7xPegftk&mid=43984&murl=https%3A%2F%2Fwww.netshoes.com.br%2Fp%2Ftenis-adidas-terrex-agravic-speed-2-masculino-FBA-83DI-028",
         "price": 1199.99,
+        "preco_pix": 1139.99,
         "store": "Netshoes",
         "label": "Netshoes",
         "installments": "10x sem juros"
@@ -332,6 +342,7 @@ var SHOES = [
       "oficial": {
         "url": "https://tidd.ly/4vrxPMW",
         "price": 429.99,
+        "preco_pix": 0,
         "store": "ADIDAS",
         "label": "ADIDAS",
         "installments": "4 x R$107,50 sem juros"
@@ -346,6 +357,7 @@ var SHOES = [
       "netshoes": {
         "url": "https://click.linksynergy.com/deeplink?id=NyH7xPegftk&mid=43984&murl=https%3A%2F%2Fwww.netshoes.com.br%2Fp%2Ftenis-adidas-duramo-speed-2-feminino-FBA-3192-026",
         "price": 399.99,
+        "preco_pix": 379.99,
         "store": "Netshoes",
         "label": "Netshoes",
         "installments": "5x sem juros"
@@ -393,6 +405,7 @@ var SHOES = [
       "oficial": {
         "url": "https://tidd.ly/4eJqGk5",
         "price": 1099.99,
+        "preco_pix": 0,
         "store": "ADIDAS",
         "label": "ADIDAS",
         "installments": "10 x R$110,00 sem juros"
@@ -447,6 +460,7 @@ var SHOES = [
       "netshoes": {
         "url": "https://click.linksynergy.com/deeplink?id=NyH7xPegftk&mid=43984&murl=https%3A%2F%2Fwww.netshoes.com.br%2Fp%2Ftenis-asics-superblast-2-unissex-SG4-01A9-008",
         "price": 1139.9,
+        "preco_pix": 0,
         "store": "Netshoes",
         "label": "Netshoes",
         "installments": "10x sem juros"
@@ -502,6 +516,7 @@ var SHOES = [
       "netshoes": {
         "url": "https://click.linksynergy.com/deeplink?id=NyH7xPegftk&mid=43984&murl=https%3A%2F%2Fwww.netshoes.com.br%2Fp%2Ftenis-asics-gelcumulus-26-masculino-2FW-1688-132",
         "price": 719.1,
+        "preco_pix": 683.14,
         "store": "Netshoes",
         "label": "Netshoes",
         "installments": "10x sem juros"
@@ -556,6 +571,7 @@ var SHOES = [
       "netshoes": {
         "url": "https://click.linksynergy.com/deeplink?id=NyH7xPegftk&mid=43984&murl=https%3A%2F%2Fwww.netshoes.com.br%2Fp%2Ftenis-asics-gel-kayano-32-masculino-preto%2Bverde-SG4-013P-244",
         "price": 999.9,
+        "preco_pix": 0,
         "store": "Netshoes",
         "label": "Netshoes",
         "installments": "10x de R$ 99,99 sem juros"
@@ -610,6 +626,7 @@ var SHOES = [
       "netshoes": {
         "url": "https://click.linksynergy.com/deeplink?id=NyH7xPegftk&mid=43984&murl=https%3A%2F%2Fwww.netshoes.com.br%2Fp%2Ftenis-asics-gelnimbus-28-masculino-SG4-01UE-076",
         "price": 1299.99,
+        "preco_pix": 1169.99,
         "store": "Netshoes",
         "label": "Netshoes",
         "installments": "10x sem juros"
@@ -664,6 +681,7 @@ var SHOES = [
       "netshoes": {
         "url": "https://click.linksynergy.com/deeplink?id=NyH7xPegftk&mid=43984&murl=https%3A%2F%2Fwww.netshoes.com.br%2Fp%2Ftenis-asics-gelnimbus-27-feminino-rosa%2Blaranja-2FW-3003-930-34",
         "price": 607.99,
+        "preco_pix": 0,
         "store": "Netshoes",
         "label": "Netshoes",
         "installments": "8x de R$ 76,00 sem juros"
@@ -718,6 +736,7 @@ var SHOES = [
       "netshoes": {
         "url": "https://click.linksynergy.com/deeplink?id=NyH7xPegftk&mid=43984&murl=https%3A%2F%2Fwww.netshoes.com.br%2Fp%2Ftenis-asics-geltrabuco-13-feminino-roxo%2Bazul-2FW-2959-943",
         "price": 999.99,
+        "preco_pix": 949.99,
         "store": "Netshoes",
         "label": "Netshoes",
         "installments": "10x sem juros"
@@ -765,6 +784,7 @@ var SHOES = [
       "netshoes": {
         "url": "https://click.linksynergy.com/deeplink?id=NyH7xPegftk&mid=43984&murl=https%3A%2F%2Fwww.netshoes.com.br%2Fp%2Ftenis-asics-trabuco-terra-3-masculino-SG4-014D-128",
         "price": 599.99,
+        "preco_pix": 569.99,
         "store": "Netshoes",
         "label": "Netshoes",
         "installments": "8x sem juros"
@@ -819,6 +839,7 @@ var SHOES = [
       "netshoes": {
         "url": "https://click.linksynergy.com/deeplink?id=NyH7xPegftk&mid=43984&murl=https%3A%2F%2Fwww.netshoes.com.br%2Fp%2Ftenis-asics-gelpulse-16-se-masculino-preto%2Blaranja-2FW-2948-050",
         "price": 0,
+        "preco_pix": 382.41,
         "store": "Netshoes",
         "label": "Netshoes",
         "installments": "6x sem juros"
@@ -874,6 +895,7 @@ var SHOES = [
       "netshoes": {
         "url": "https://click.linksynergy.com/deeplink?id=NyH7xPegftk&mid=43984&murl=https%3A%2F%2Fwww.netshoes.com.br%2Fp%2Ftenis-asics-gelventure-11-feminino-bege%2Brosa-SG4-01QZ-230-34",
         "price": 249.99,
+        "preco_pix": 237.49,
         "store": "Netshoes",
         "label": "Netshoes",
         "installments": "3x sem juros"
@@ -929,6 +951,7 @@ var SHOES = [
       "netshoes": {
         "url": "https://click.linksynergy.com/deeplink?id=NyH7xPegftk&mid=43984&murl=https%3A%2F%2Fwww.netshoes.com.br%2Fp%2Ftenis-asics-gelshinobi-2-feminino-2FW-2904-120",
         "price": 287.99,
+        "preco_pix": 273.59,
         "store": "Netshoes",
         "label": "Netshoes",
         "installments": "4x sem juros"
@@ -983,6 +1006,7 @@ var SHOES = [
       "netshoes": {
         "url": "https://click.linksynergy.com/deeplink?id=NyH7xPegftk&mid=43984&murl=https%3A%2F%2Fwww.netshoes.com.br%2Fp%2Ftenis-asics-novablast-5-feminino-roxo-SG4-01TV-198",
         "price": 749.9,
+        "preco_pix": 0,
         "store": "Netshoes",
         "label": "Netshoes",
         "installments": "10x de R$ 74,99 sem juros"
@@ -1031,6 +1055,7 @@ var SHOES = [
       "netshoes": {
         "url": "https://click.linksynergy.com/deeplink?id=NyH7xPegftk&mid=43984&murl=https%3A%2F%2Fwww.netshoes.com.br%2Fp%2Ftenis-brooks-hyperion-3-masculino-azul%2Bclaro%2Bpreto-129-00EG-934-90",
         "price": 849.9,
+        "preco_pix": 807.4,
         "store": "Netshoes",
         "label": "Netshoes",
         "installments": "10x sem juros"
@@ -1075,6 +1100,7 @@ var SHOES = [
       "netshoes": {
         "url": "https://click.linksynergy.com/deeplink?id=NyH7xPegftk&mid=43984&murl=https%3A%2F%2Fwww.netshoes.com.br%2Fp%2Ftenis-brooks-adrenaline-gts-24-feminino-cinza%2Bazul%2Bclaro-129-00FK-881",
         "price": 799.9,
+        "preco_pix": 759.9,
         "store": "Netshoes",
         "label": "Netshoes",
         "installments": "10x sem juros"
@@ -1126,6 +1152,7 @@ var SHOES = [
       "netshoes": {
         "url": "https://click.linksynergy.com/deeplink?id=NyH7xPegftk&mid=43984&murl=https%3A%2F%2Fwww.netshoes.com.br%2Fp%2Ftenis-brooks-launch-11-masculino-preto%2Bbranco-129-00D1-026",
         "price": 599.9,
+        "preco_pix": 569.9,
         "store": "Netshoes",
         "label": "Netshoes",
         "installments": "8x sem juros"
@@ -1177,6 +1204,7 @@ var SHOES = [
       "netshoes": {
         "url": "https://click.linksynergy.com/deeplink?id=NyH7xPegftk&mid=43984&murl=https%3A%2F%2Fwww.netshoes.com.br%2Fp%2Ftenis-brooks-glycerin-22-masculino-preto%2Bbranco-129-00DM-026-41",
         "price": 1399.99,
+        "preco_pix": 1329.99,
         "store": "Netshoes",
         "label": "Netshoes",
         "installments": "10x sem juros"
@@ -1271,6 +1299,7 @@ var SHOES = [
       "netshoes": {
         "url": "https://click.linksynergy.com/deeplink?id=NyH7xPegftk&mid=43984&murl=https%3A%2F%2Fwww.netshoes.com.br%2Fp%2Ftenis-fila-speed-lite-masculino-SFK-06IV-156",
         "price": 199.99,
+        "preco_pix": 0,
         "store": "Netshoes",
         "label": "Netshoes",
         "installments": "2x de R$ 100,00 sem juros"
@@ -1321,6 +1350,7 @@ var SHOES = [
       "netshoes": {
         "url": "https://click.linksynergy.com/deeplink?id=NyH7xPegftk&mid=43984&murl=https%3A%2F%2Fwww.netshoes.com.br%2Fp%2Ftenis-fila-float-maxxi-2-pro-feminino-verde%2Bcinza-I6E-6324-430",
         "price": 769.8,
+        "preco_pix": 0,
         "store": "Netshoes",
         "label": "Netshoes",
         "installments": "10x de R$ 76,98 sem juros"
@@ -1371,6 +1401,7 @@ var SHOES = [
       "netshoes": {
         "url": "https://click.linksynergy.com/deeplink?id=NyH7xPegftk&mid=43984&murl=https%3A%2F%2Fwww.netshoes.com.br%2Fp%2Ftenis-fila-racer-fastpace-masculino-verde%2Blimao%2Bazul-SFK-0129-643",
         "price": 339.9,
+        "preco_pix": 288.91,
         "store": "Netshoes",
         "label": "Netshoes",
         "installments": "4x sem juros"
@@ -1421,6 +1452,7 @@ var SHOES = [
       "netshoes": {
         "url": "https://click.linksynergy.com/deeplink?id=NyH7xPegftk&mid=43984&murl=https%3A%2F%2Fwww.netshoes.com.br%2Fp%2Ftenis-fila-racer-speedzone-feminino-preto%2Bcinza-I6E-8020-172",
         "price": 429.99,
+        "preco_pix": 0,
         "store": "Netshoes",
         "label": "Netshoes",
         "installments": "6x de R$ 71,67 sem juros"
@@ -1471,6 +1503,7 @@ var SHOES = [
       "netshoes": {
         "url": "https://click.linksynergy.com/deeplink?id=NyH7xPegftk&mid=43984&murl=https%3A%2F%2Fwww.netshoes.com.br%2Fp%2Ftenis-fila-recovery-feminino-preto%2Bfosco-D29-6958-120-35",
         "price": 209.99,
+        "preco_pix": 0,
         "store": "Netshoes",
         "label": "Netshoes",
         "installments": "3x de R$ 70,00 sem juros"
@@ -1522,6 +1555,7 @@ var SHOES = [
       "netshoes": {
         "url": "https://click.linksynergy.com/deeplink?id=NyH7xPegftk&mid=43984&murl=https%3A%2F%2Fwww.netshoes.com.br%2Fp%2Ftenis-hoka-clifton-10-masculino-cinza-AXF-06BJ-010",
         "price": 1099.99,
+        "preco_pix": 1044.99,
         "store": "Netshoes",
         "label": "Netshoes",
         "installments": "10x sem juros"
@@ -1570,7 +1604,7 @@ var SHOES = [
         "price": 2210.99,
         "store": "Amazon",
         "label": "Amazon",
-        "installments": "6x sem juros"
+        "installments": ""
       }
     },
     "tags": [
@@ -1621,6 +1655,7 @@ var SHOES = [
       "netshoes": {
         "url": "https://click.linksynergy.com/deeplink?id=NyH7xPegftk&mid=43984&murl=https%3A%2F%2Fwww.netshoes.com.br%2Fp%2Ftenis-hoka-bondi-9-feminino-azul%2Bbranco-AXF-06BF-058",
         "price": 1299.99,
+        "preco_pix": 0,
         "store": "Netshoes",
         "label": "Netshoes",
         "installments": "10x de R$ 130,00 sem juros"
@@ -1664,7 +1699,7 @@ var SHOES = [
         "price": 1120.35,
         "store": "Amazon",
         "label": "Amazon",
-        "installments": "6x sem juros"
+        "installments": ""
       }
     },
     "tags": [
@@ -1749,6 +1784,7 @@ var SHOES = [
       "netshoes": {
         "url": "https://click.linksynergy.com/deeplink?id=NyH7xPegftk&mid=43984&murl=https%3A%2F%2Fwww.netshoes.com.br%2Fp%2Ftenis-hoka-mach-7-feminino-AXF-06CW-014",
         "price": 999.99,
+        "preco_pix": 949.99,
         "store": "Netshoes",
         "label": "Netshoes",
         "installments": "10x sem juros"
@@ -1792,6 +1828,7 @@ var SHOES = [
       "oficial": {
         "url": "https://tidd.ly/4umRr4C",
         "price": 649.99,
+        "preco_pix": 0,
         "store": "MIZUNO",
         "label": "MIZUNO",
         "installments": "10 x R$64,99 sem juros"
@@ -1801,7 +1838,7 @@ var SHOES = [
         "price": 649.99,
         "store": "Amazon",
         "label": "Amazon",
-        "installments": "6x sem juros"
+        "installments": ""
       }
     },
     "tags": [
@@ -1845,6 +1882,7 @@ var SHOES = [
       "oficial": {
         "url": "https://tidd.ly/4gH4Wrp",
         "price": 549.99,
+        "preco_pix": 0,
         "store": "MIZUNO",
         "label": "MIZUNO",
         "installments": "10 x R$54,99 sem juros"
@@ -1899,6 +1937,7 @@ var SHOES = [
       "oficial": {
         "url": "https://tidd.ly/4diuTvL",
         "price": 0,
+        "preco_pix": 0,
         "store": "MIZUNO",
         "label": "MIZUNO",
         "installments": "10 x 199,99 sem juros"
@@ -1908,7 +1947,7 @@ var SHOES = [
         "price": 1199.99,
         "store": "Amazon",
         "label": "Amazon",
-        "installments": "6x sem juros"
+        "installments": ""
       }
     },
     "tags": [
@@ -1999,6 +2038,7 @@ var SHOES = [
       "oficial": {
         "url": "https://tidd.ly/4b93ye7",
         "price": 449.99,
+        "preco_pix": 0,
         "store": "MIZUNO",
         "label": "MIZUNO",
         "installments": "8 X R$ 56,24 sem juros"
@@ -2008,7 +2048,7 @@ var SHOES = [
         "price": 649.9,
         "store": "Amazon",
         "label": "Amazon",
-        "installments": "6x sem juros"
+        "installments": ""
       }
     },
     "tags": [
@@ -2053,6 +2093,7 @@ var SHOES = [
       "oficial": {
         "url": "https://tidd.ly/3SuGrnC",
         "price": 699.99,
+        "preco_pix": 0,
         "store": "MIZUNO",
         "label": "MIZUNO",
         "installments": "10 X R$ 69,99 sem juros"
@@ -2067,6 +2108,7 @@ var SHOES = [
       "netshoes": {
         "url": "https://click.linksynergy.com/deeplink?id=NyH7xPegftk&mid=43984&murl=https%3A%2F%2Fwww.netshoes.com.br%2Fp%2Ftenis-mizuno-wave-creation-26-2FV-1318-068",
         "price": 719.99,
+        "preco_pix": 0,
         "store": "Netshoes",
         "label": "Netshoes",
         "installments": "10x de R$ 72,00 sem juros"
@@ -2114,6 +2156,7 @@ var SHOES = [
       "oficial": {
         "url": "https://tidd.ly/4xPFSoe",
         "price": 999.99,
+        "preco_pix": 0,
         "store": "MIZUNO",
         "label": "MIZUNO",
         "installments": "10x 99,99 sem juros"
@@ -2168,6 +2211,7 @@ var SHOES = [
       "oficial": {
         "url": "https://www.awin1.com/cread.php?awinmid=51271&awinaffid=2800712&platform=dl&ued=https%3A%2F%2Fwww.mizuno.com.br%2Ftenis-de-corrida-mizuno-wave-dynasty-7-feminino-preto-8585%2Fp",
         "price": 379.99,
+        "preco_pix": 0,
         "store": "MIZUNO",
         "label": "MIZUNO",
         "installments": "7 x R$ 54,28 sem juros"
@@ -2182,6 +2226,7 @@ var SHOES = [
       "netshoes": {
         "url": "https://click.linksynergy.com/deeplink?id=NyH7xPegftk&mid=43984&murl=https%3A%2F%2Fwww.netshoes.com.br%2Fp%2Ftenis-mizuno-wave-dynasty-7-masculino-2FV-1322-006",
         "price": 279.99,
+        "preco_pix": 265.99,
         "store": "Netshoes",
         "label": "Netshoes",
         "installments": "4x sem juros"
@@ -2229,6 +2274,7 @@ var SHOES = [
       "oficial": {
         "url": "https://tidd.ly/44xcbek",
         "price": 299.99,
+        "preco_pix": 0,
         "store": "MIZUNO",
         "label": "MIZUNO",
         "installments": "5 x R$ 59,99sem juros"
@@ -2283,6 +2329,7 @@ var SHOES = [
       "oficial": {
         "url": "https://tidd.ly/4oZUqOf",
         "price": 1299.99,
+        "preco_pix": 0,
         "store": "MIZUNO",
         "label": "MIZUNO",
         "installments": "10 x R$ 129,99 sem juros"
@@ -2337,6 +2384,7 @@ var SHOES = [
       "oficial": {
         "url": "https://tidd.ly/4aPWjqU",
         "price": 399.99,
+        "preco_pix": 0,
         "store": "MIZUNO",
         "label": "MIZUNO",
         "installments": "7 x R$ 57,14 sem juros"
@@ -2391,6 +2439,7 @@ var SHOES = [
       "oficial": {
         "url": "https://tidd.ly/4sdgExe",
         "price": 699.99,
+        "preco_pix": 0,
         "store": "MIZUNO",
         "label": "MIZUNO",
         "installments": "10 x R$ 69,99 sem juros"
@@ -2405,6 +2454,7 @@ var SHOES = [
       "netshoes": {
         "url": "https://click.linksynergy.com/deeplink?id=NyH7xPegftk&mid=43984&murl=https%3A%2F%2Fwww.netshoes.com.br%2Fp%2Ftenis-mizuno-wave-daichi-9-masculino-2FV-1334-342",
         "price": 599.99,
+        "preco_pix": 569.99,
         "store": "Netshoes",
         "label": "Netshoes",
         "installments": "8x sem juros"
@@ -2458,6 +2508,7 @@ var SHOES = [
       "netshoes": {
         "url": "https://www.netshoes.com.br/p/tenis-new-balance-fresh-foam-x-1080-v14-feminino-39V-24BP-198",
         "price": 779.88,
+        "preco_pix": 0,
         "store": "Netshoes",
         "label": "Netshoes",
         "installments": "10x de R$ 77,99 sem juros"
@@ -2551,7 +2602,7 @@ var SHOES = [
         "price": 1199.99,
         "store": "Amazon",
         "label": "Amazon",
-        "installments": "6x sem juros"
+        "installments": ""
       }
     },
     "tags": [
@@ -2598,7 +2649,7 @@ var SHOES = [
         "price": 1749.9,
         "store": "Amazon",
         "label": "Amazon",
-        "installments": "6x sem juros"
+        "installments": ""
       }
     },
     "tags": [
@@ -2645,7 +2696,7 @@ var SHOES = [
         "price": 1281.86,
         "store": "Amazon",
         "label": "Amazon",
-        "installments": "6x sem juros"
+        "installments": ""
       }
     },
     "tags": [
@@ -2692,7 +2743,7 @@ var SHOES = [
         "price": 989.79,
         "store": "Amazon",
         "label": "Amazon",
-        "installments": "6x sem juros"
+        "installments": ""
       }
     },
     "tags": [
@@ -2740,6 +2791,7 @@ var SHOES = [
       "oficial": {
         "url": "https://tidd.ly/4v4DfN0",
         "price": 1300.0,
+        "preco_pix": 0,
         "store": "NIKE",
         "label": "NIKE",
         "installments": "10x de R$ 130,00 sem juros"
@@ -2834,6 +2886,7 @@ var SHOES = [
       "oficial": {
         "url": "https://www.awin1.com/cread.php?awinmid=17652&awinaffid=2800712&platform=dl&ued=https%3A%2F%2Fwww.nike.com.br%2Ftenis-nike-downshifter-13-masculino-027915.html%3Fcor%3DIM",
         "price": 347.37,
+        "preco_pix": 329.99,
         "store": "NIKE",
         "label": "NIKE",
         "installments": "3x de R$ 115,79 sem juros"
@@ -2848,6 +2901,7 @@ var SHOES = [
       "netshoes": {
         "url": "https://click.linksynergy.com/deeplink?id=NyH7xPegftk&mid=43984&murl=https%3A%2F%2Fwww.netshoes.com.br%2Fp%2Ftenis-nike-downshifter-13-masculino-JD8-6466-026",
         "price": 347.36,
+        "preco_pix": 329.99,
         "store": "Netshoes",
         "label": "Netshoes",
         "installments": "4x sem juros"
@@ -2897,6 +2951,7 @@ var SHOES = [
       "oficial": {
         "url": "https://tidd.ly/4eeumtM",
         "price": 315.78,
+        "preco_pix": 0,
         "store": "NIKE",
         "label": "NIKE",
         "installments": "3x de R$ 105,26 sem juros"
@@ -2911,6 +2966,7 @@ var SHOES = [
       "netshoes": {
         "url": "https://click.linksynergy.com/deeplink?id=NyH7xPegftk&mid=43984&murl=https%3A%2F%2Fwww.netshoes.com.br%2Fp%2Ftenis-nike-revolution-8-feminino-SGL-0026-026",
         "price": 315.77,
+        "preco_pix": 0,
         "store": "Netshoes",
         "label": "Netshoes",
         "installments": "4x sem juros"
@@ -2956,6 +3012,7 @@ var SHOES = [
       "oficial": {
         "url": "https://tidd.ly/48c9bpY",
         "price": 489.99,
+        "preco_pix": 0,
         "store": "NIKE",
         "label": "NIKE",
         "installments": "5x de R$ 103,16 sem juros"
@@ -2965,7 +3022,7 @@ var SHOES = [
         "price": 766.84,
         "store": "Amazon",
         "label": "Amazon",
-        "installments": "6x sem juros"
+        "installments": ""
       }
     },
     "tags": [],
@@ -3008,6 +3065,7 @@ var SHOES = [
       "oficial": {
         "url": "https://tidd.ly/4xPlnIw",
         "price": 474.99,
+        "preco_pix": 0,
         "store": "NIKE",
         "label": "NIKE",
         "installments": "5x de R$ 100,00 sem juros"
@@ -3017,7 +3075,7 @@ var SHOES = [
         "price": 595.67,
         "store": "Amazon",
         "label": "Amazon",
-        "installments": "6x sem juros"
+        "installments": ""
       }
     },
     "tags": [],
@@ -3060,6 +3118,7 @@ var SHOES = [
       "oficial": {
         "url": "https://tidd.ly/4ctXAnN",
         "price": 1781.24,
+        "preco_pix": 0,
         "store": "NIKE",
         "label": "NIKE",
         "installments": "10x de R$ 187,50 sem juros"
@@ -3069,7 +3128,7 @@ var SHOES = [
         "price": 2593.3,
         "store": "Amazon",
         "label": "Amazon",
-        "installments": "6x sem juros"
+        "installments": ""
       }
     },
     "tags": [],
@@ -3112,6 +3171,7 @@ var SHOES = [
       "oficial": {
         "url": "https://tidd.ly/4bQ2XOS",
         "price": 1424.99,
+        "preco_pix": 0,
         "store": "NIKE",
         "label": "NIKE",
         "installments": "10x de R$ 150,00 sem juros"
@@ -3121,7 +3181,7 @@ var SHOES = [
         "price": 1402.05,
         "store": "Amazon",
         "label": "Amazon",
-        "installments": "6x sem juros"
+        "installments": ""
       }
     },
     "tags": [],
@@ -3164,6 +3224,7 @@ var SHOES = [
       "oficial": {
         "url": "https://tidd.ly/3PR0H1h",
         "price": 807.49,
+        "preco_pix": 0,
         "store": "NIKE",
         "label": "NIKE",
         "installments": "8x de R$ 106,25 sem juros"
@@ -3216,6 +3277,7 @@ var SHOES = [
       "oficial": {
         "url": "https://tidd.ly/4xQ25mh",
         "price": 1283.44,
+        "preco_pix": 0,
         "store": "NIKE",
         "label": "NIKE",
         "installments": "10x de R$ 150,00 sem juros"
@@ -3268,6 +3330,7 @@ var SHOES = [
       "oficial": {
         "url": "https://tidd.ly/440rbBf",
         "price": 842.08,
+        "preco_pix": 0,
         "store": "NIKE",
         "label": "NIKE",
         "installments": "8x de R$ 105,26 sem juros"
@@ -3320,9 +3383,10 @@ var SHOES = [
       "oficial": {
         "url": "https://tidd.ly/3NYKhn2",
         "price": 949.99,
+        "preco_pix": 0,
         "store": "NIKE",
         "label": "NIKE",
-        "installments": "em até 8x"
+        "installments": ""
       },
       "amazon": {
         "url": "https://amzn.to/4maXIN5",
@@ -3372,6 +3436,7 @@ var SHOES = [
       "oficial": {
         "url": "https://tidd.ly/4b3MxkX",
         "price": 1025.99,
+        "preco_pix": 1025.99,
         "store": "NIKE",
         "label": "NIKE",
         "installments": "10x de R$ 108,00 sem juros"
@@ -3424,6 +3489,7 @@ var SHOES = [
       "oficial": {
         "url": "https://tidd.ly/3QobpNx",
         "price": 617.76,
+        "preco_pix": 586.27,
         "store": "NIKE",
         "label": "NIKE",
         "installments": "6x de R$ 102,86 sem juros"
@@ -3476,6 +3542,7 @@ var SHOES = [
       "oficial": {
         "url": "https://tidd.ly/4vJFer5",
         "price": 1000.0,
+        "preco_pix": 0,
         "store": "NIKE",
         "label": "NIKE",
         "installments": "10x de R$ 100,00 sem juros"
@@ -3523,6 +3590,7 @@ var SHOES = [
       "oficial": {
         "url": "https://tidd.ly/44vWe8b",
         "price": 299.99,
+        "preco_pix": 0,
         "store": "OLYMPIKUS",
         "label": "OLYMPIKUS",
         "installments": "8x de R$ 37,49"
@@ -3537,6 +3605,7 @@ var SHOES = [
       "netshoes": {
         "url": "https://click.linksynergy.com/deeplink?id=NyH7xPegftk&mid=43984&murl=https%3A%2F%2Fwww.netshoes.com.br%2Fp%2Ftenis-olympikus-pride-4-feminino-SE7-0055-D34",
         "price": 332.91,
+        "preco_pix": 299.62,
         "store": "Netshoes",
         "label": "Netshoes",
         "installments": "4x sem juros"
@@ -3582,7 +3651,7 @@ var SHOES = [
         "price": 249.9,
         "store": "Amazon",
         "label": "Amazon",
-        "installments": "6x sem juros"
+        "installments": ""
       }
     },
     "tags": [
@@ -3625,7 +3694,7 @@ var SHOES = [
         "price": 229.9,
         "store": "Amazon",
         "label": "Amazon",
-        "installments": "6x sem juros"
+        "installments": ""
       }
     },
     "tags": [
@@ -3668,7 +3737,7 @@ var SHOES = [
         "price": 249.9,
         "store": "Amazon",
         "label": "Amazon",
-        "installments": "6x sem juros"
+        "installments": ""
       }
     },
     "tags": [
@@ -3710,6 +3779,7 @@ var SHOES = [
       "oficial": {
         "url": "https://tidd.ly/4utSjEM",
         "price": 249.99,
+        "preco_pix": 0,
         "store": "OLYMPIKUS",
         "label": "OLYMPIKUS",
         "installments": "7x de R$ 35,71 sem juros"
@@ -3719,7 +3789,7 @@ var SHOES = [
         "price": 209.99,
         "store": "Amazon",
         "label": "Amazon",
-        "installments": "6x sem juros"
+        "installments": ""
       }
     },
     "tags": [
@@ -3762,6 +3832,7 @@ var SHOES = [
       "oficial": {
         "url": "https://tidd.ly/4bmcWtJ",
         "price": 199.99,
+        "preco_pix": 0,
         "store": "OLYMPIKUS",
         "label": "OLYMPIKUS",
         "installments": "5x de R$ 39,99 sem juros"
@@ -3771,7 +3842,7 @@ var SHOES = [
         "price": 189.87,
         "store": "Amazon",
         "label": "Amazon",
-        "installments": "6x sem juros"
+        "installments": ""
       }
     },
     "tags": [
@@ -3815,7 +3886,7 @@ var SHOES = [
         "price": 204.9,
         "store": "Amazon",
         "label": "Amazon",
-        "installments": "6x sem juros"
+        "installments": ""
       }
     },
     "tags": [
@@ -3857,6 +3928,7 @@ var SHOES = [
       "oficial": {
         "url": "https://tidd.ly/3PBl3LF",
         "price": 599.99,
+        "preco_pix": 0,
         "store": "OLYMPIKUS",
         "label": "OLYMPIKUS",
         "installments": "10 x R$ 59,99 sem juros"
@@ -3866,7 +3938,7 @@ var SHOES = [
         "price": 599.99,
         "store": "Amazon",
         "label": "Amazon",
-        "installments": "6x sem juros"
+        "installments": ""
       }
     },
     "tags": [
@@ -3909,6 +3981,7 @@ var SHOES = [
       "oficial": {
         "url": "https://tidd.ly/4ey85IL",
         "price": 599.99,
+        "preco_pix": 0,
         "store": "OLYMPIKUS",
         "label": "OLYMPIKUS",
         "installments": "10x de R$ 59,99"
@@ -3923,6 +3996,7 @@ var SHOES = [
       "netshoes": {
         "url": "https://click.linksynergy.com/deeplink?id=NyH7xPegftk&mid=43984&murl=https%3A%2F%2Fwww.netshoes.com.br%2Fp%2Ftenis-olympikus-corre-trilha-3-SE7-0805-244",
         "price": 599.99,
+        "preco_pix": 0,
         "store": "Netshoes",
         "label": "Netshoes",
         "installments": "8x de R$ 75,00 sem juros"
@@ -3966,7 +4040,7 @@ var SHOES = [
         "price": 1028.59,
         "store": "Amazon",
         "label": "Amazon",
-        "installments": "6x sem juros"
+        "installments": ""
       }
     },
     "tags": [
@@ -4047,7 +4121,7 @@ var SHOES = [
         "price": 2267.46,
         "store": "Amazon",
         "label": "Amazon",
-        "installments": "6x sem juros"
+        "installments": ""
       }
     },
     "tags": [
@@ -4093,7 +4167,7 @@ var SHOES = [
         "price": 1544.52,
         "store": "Amazon",
         "label": "Amazon",
-        "installments": "6x sem juros"
+        "installments": ""
       }
     },
     "tags": [
@@ -4139,7 +4213,7 @@ var SHOES = [
         "price": 1247.09,
         "store": "Amazon",
         "label": "Amazon",
-        "installments": "6x sem juros"
+        "installments": ""
       }
     },
     "tags": [
@@ -4185,7 +4259,7 @@ var SHOES = [
         "price": 974.09,
         "store": "Amazon",
         "label": "Amazon",
-        "installments": "6x sem juros"
+        "installments": ""
       }
     },
     "tags": [
@@ -4229,6 +4303,7 @@ var SHOES = [
       "netshoes": {
         "url": "https://click.linksynergy.com/deeplink?id=NyH7xPegftk&mid=43984&murl=https%3A%2F%2Fwww.netshoes.com.br%2Fp%2Ftenis-saucony-ride-17-feminino-311-3862-026",
         "price": 654.99,
+        "preco_pix": 589.49,
         "store": "Netshoes",
         "label": "Netshoes",
         "installments": "9x sem juros"
@@ -4277,7 +4352,7 @@ var SHOES = [
         "price": 1120.02,
         "store": "Amazon",
         "label": "Amazon",
-        "installments": "6x sem juros"
+        "installments": ""
       }
     },
     "tags": [
@@ -4327,6 +4402,7 @@ var SHOES = [
       "netshoes": {
         "url": "https://click.linksynergy.com/deeplink?id=NyH7xPegftk&mid=43984&murl=https%3A%2F%2Fwww.netshoes.com.br%2Fp%2Ftenis-skechers-go-run-consistent-2-masculino-preto%2Bbranco-EUZ-9408-026",
         "price": 399.99,
+        "preco_pix": 379.99,
         "store": "Netshoes",
         "label": "Netshoes",
         "installments": "5x sem juros"
@@ -4378,6 +4454,7 @@ var SHOES = [
       "netshoes": {
         "url": "https://click.linksynergy.com/deeplink?id=NyH7xPegftk&mid=43984&murl=https%3A%2F%2Fwww.netshoes.com.br%2Fp%2Ftenis-de-corrida-under-armour-charged-skyline-4-feminino-R5M-29UG-018",
         "price": 309.99,
+        "preco_pix": 294.49,
         "store": "Netshoes",
         "label": "Netshoes",
         "installments": "4x sem juros"

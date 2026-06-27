@@ -157,28 +157,30 @@ def fetch_shoes():
         brand = d.get('marca', '').upper()
         name = d.get('nome', '')
 
-        # Preço de cada loja
+        # Preço de cada loja (normal) e PIX
         p_of = parse_price(d.get('preco_loja_oficial'))
         p_am = parse_price(d.get('preco_amazon'))
         p_ns = parse_price(d.get('preco_netshoes'))
+        p_pix_of = parse_price(d.get('preco_pix_oficial'))
+        p_pix_ns = parse_price(d.get('preco_pix_netshoes'))
         # Preço principal = menor preço disponível
         precos = [p for p in (p_of, p_am, p_ns) if p > 0]
         price = min(precos) if precos else 0
 
-        # Links de afiliado (exatos da planilha) com preço por loja
+        # Links de afiliado (exatos da planilha) com preço, PIX e parcelas reais
         links = {}
         if d.get('link_loja_oficial') and d['link_loja_oficial'].strip() not in ('', '-'):
             links['oficial'] = {'url': d['link_loja_oficial'].strip(), 'price': p_of,
-                                'store': brand, 'label': brand,
-                                'installments': (d.get('parcelas_loja_oficial') or 'em até 8x')}
+                                'preco_pix': p_pix_of, 'store': brand, 'label': brand,
+                                'installments': (d.get('parcelas_loja_oficial') or '').strip()}
         if d.get('link_amazon') and d['link_amazon'].strip() not in ('', '-'):
             links['amazon'] = {'url': d['link_amazon'].strip(), 'price': p_am,
                                'store': 'Amazon', 'label': 'Amazon',
-                               'installments': (d.get('parcelas_amazon') or '6x sem juros')}
+                               'installments': (d.get('parcelas_amazon') or '').strip()}
         if d.get('link_netshoes') and d['link_netshoes'].strip() not in ('', '-'):
             links['netshoes'] = {'url': d['link_netshoes'].strip(), 'price': p_ns,
-                                 'store': 'Netshoes', 'label': 'Netshoes',
-                                 'installments': (d.get('parcelas_netshoes') or 'no PIX/Boleto')}
+                                 'preco_pix': p_pix_ns, 'store': 'Netshoes', 'label': 'Netshoes',
+                                 'installments': (d.get('parcelas_netshoes') or '').strip()}
 
         # Campos do quiz (preenche se a planilha estiver vazia)
         defaults = BRAND_DEFAULTS.get(brand, BRAND_DEFAULTS['NIKE'])
