@@ -3345,9 +3345,7 @@
       cur = 0; ans = {}; showScreen('sLanding');
     });
 
-    // ─── BREVO INTEGRATION ───────────────────────────────────────────
-    var BREVO_API_KEY = ''; // REMOVED DUE TO SECRETS
-
+    // ─── BREVO INTEGRATION (via função segura no Vercel) ──────────────
     function mapearLink(tenis) {
       var t = (tenis || '').toLowerCase();
       if (t.indexOf('mizuno') > -1) return 'https://www.tenisideal.com.br/mizuno-wave-prophecy-preco';
@@ -3357,23 +3355,12 @@
     }
 
     function enviarParaBrevo(email, tenis, link) {
-      return fetch('https://api.brevo.com/v3/contacts', {
+      // Chama a função segura do Vercel, que adiciona o contato no Brevo
+      return fetch('/api/subscribe', {
         method: 'POST',
-        headers: {
-          'Content-Type': 'application/json',
-          'api-key': BREVO_API_KEY
-        },
-        body: JSON.stringify({
-          email: email,
-          listIds: [3],
-          updateEnabled: true,
-          attributes: {
-            ORIGEM: 'Quiz Tenisideal',
-            TENIS_RECOMENDADO: tenis,
-            LINK_TENIS: link
-          }
-        })
-      }).catch(function (e) { console.warn('Brevo error:', e); });
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({ email: email, tenis: tenis, link: link })
+      }).catch(function (e) { console.warn('Subscribe error:', e); });
     }
 
     function submitEmail() {

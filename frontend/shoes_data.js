@@ -1140,8 +1140,8 @@ var SHOES = [
       "masculino"
     ],
     "budget": "300a600",
-    "price": 359.9,
-    "price_formatted": "R$ 359,90",
+    "price": 199.99,
+    "price_formatted": "R$ 199,99",
     "levels": [
       "iniciante"
     ],
@@ -1157,21 +1157,21 @@ var SHOES = [
       "media",
       "longa"
     ],
-    "photo": "https://static.netshoes.com.br/produtos/tenis-fila-speed-lite-masculino/38/SFK-06IV-038/SFK-06IV-038_detalhe1.jpg?ts=1781150133",
+    "photo": "https://m.media-amazon.com/images/I/619QgZXGrjL._AC_SX679_.jpg",
     "affiliate_links": {
       "amazon": {
-        "url": "https://amzn.to/4vE6pTK",
-        "price": 0,
+        "url": "https://link.amazon/B0j66J2aY",
+        "price": 209.9,
         "store": "Amazon",
         "label": "Amazon",
-        "installments": "6x sem juros"
+        "installments": "6x de R$ 35,00 sem juros"
       },
       "netshoes": {
-        "url": "https://click.linksynergy.com/deeplink?id=NyH7xPegftk&mid=43984&murl=https%3A%2F%2Fwww.netshoes.com.br%2Fp%2Ftenis-fila-speed-lite-masculino-SFK-06IV-144",
-        "price": 359.9,
+        "url": "https://click.linksynergy.com/deeplink?id=NyH7xPegftk&mid=43984&murl=https%3A%2F%2Fwww.netshoes.com.br%2Fp%2Ftenis-fila-speed-lite-masculino-SFK-06IV-156",
+        "price": 199.99,
         "store": "Netshoes",
         "label": "Netshoes",
-        "installments": "5x sem juros"
+        "installments": "2x de R$ 100,00 sem juros"
       }
     },
     "tags": [
@@ -1183,14 +1183,14 @@ var SHOES = [
   },
   {
     "brand": "FILA",
-    "name": "Float Maxxi",
-    "slug": "fila-float-maxxi-0a96",
+    "name": "Float Maxxi 2",
+    "slug": "fila-float-maxxi-2-0a96",
     "sexo": [
       "feminino"
     ],
-    "budget": "",
-    "price": 0,
-    "price_formatted": "R$ 0,00",
+    "budget": "300a600",
+    "price": 549.9,
+    "price_formatted": "R$ 549,90",
     "levels": [
       "iniciante",
       "intermediario"
@@ -1210,11 +1210,18 @@ var SHOES = [
     "photo": "https://m.media-amazon.com/images/I/51DEAqmvGdL._AC_SY625_.jpg",
     "affiliate_links": {
       "amazon": {
-        "url": "https://amzn.to/4aZSxMh",
-        "price": 0,
+        "url": "https://link.amazon/B0cRBTEXp",
+        "price": 549.9,
         "store": "Amazon",
         "label": "Amazon",
-        "installments": "6x sem juros"
+        "installments": "10x de R$ 54,99 sem juros"
+      },
+      "netshoes": {
+        "url": "https://click.linksynergy.com/deeplink?id=NyH7xPegftk&mid=43984&murl=https%3A%2F%2Fwww.netshoes.com.br%2Fp%2Ftenis-fila-float-maxxi-2-pro-feminino-verde%2Bcinza-I6E-6324-430",
+        "price": 769.8,
+        "store": "Netshoes",
+        "label": "Netshoes",
+        "installments": "10x de R$ 76,98 sem juros"
       }
     },
     "tags": [
@@ -1231,9 +1238,9 @@ var SHOES = [
     "sexo": [
       "masculino"
     ],
-    "budget": "",
-    "price": 0,
-    "price_formatted": "R$ 0,00",
+    "budget": "300a600",
+    "price": 319.9,
+    "price_formatted": "R$ 319,90",
     "levels": [
       "iniciante",
       "intermediario"
@@ -1253,11 +1260,18 @@ var SHOES = [
     "photo": "https://m.media-amazon.com/images/I/517Z6pntJHL._AC_SY625_.jpg",
     "affiliate_links": {
       "amazon": {
-        "url": "https://amzn.to/40WKcTq",
-        "price": 0,
+        "url": "https://link.amazon/B0hELEqwH",
+        "price": 319.9,
         "store": "Amazon",
         "label": "Amazon",
-        "installments": "6x sem juros"
+        "installments": "6x de R$ 53,35 sem juros"
+      },
+      "netshoes": {
+        "url": "https://click.linksynergy.com/deeplink?id=NyH7xPegftk&mid=43984&murl=https%3A%2F%2Fwww.netshoes.com.br%2Fp%2Ftenis-fila-racer-fastpace-masculino-verde%2Blimao%2Bazul-SFK-0129-643",
+        "price": 339.9,
+        "store": "Netshoes",
+        "label": "Netshoes",
+        "installments": "4x sem juros"
       }
     },
     "tags": [
@@ -1269,14 +1283,14 @@ var SHOES = [
   },
   {
     "brand": "FILA",
-    "name": "Racer Comet",
-    "slug": "fila-racer-comet-5c6c",
+    "name": "Racer Speedzone",
+    "slug": "fila-racer-speedzone-5c6c",
     "sexo": [
       "feminino"
     ],
-    "budget": "",
-    "price": 0,
-    "price_formatted": "R$ 0,00",
+    "budget": "300a600",
+    "price": 429.99,
+    "price_formatted": "R$ 429,99",
     "levels": [
       "iniciante",
       "intermediario"
@@ -1293,14 +1307,21 @@ var SHOES = [
       "media",
       "longa"
     ],
-    "photo": "https://m.media-amazon.com/images/I/61rKjTIK4SL._AC_SY625_.jpg",
+    "photo": "https://m.media-amazon.com/images/I/515tt4RwFlL._AC_SX679_.jpg",
     "affiliate_links": {
       "amazon": {
-        "url": "https://amzn.to/4aXF5sb",
-        "price": 0,
+        "url": "https://link.amazon/B0aRzrp9r",
+        "price": 439.9,
         "store": "Amazon",
         "label": "Amazon",
-        "installments": "6x sem juros"
+        "installments": "8x de R$ 55,04 sem juros"
+      },
+      "netshoes": {
+        "url": "https://click.linksynergy.com/deeplink?id=NyH7xPegftk&mid=43984&murl=https%3A%2F%2Fwww.netshoes.com.br%2Fp%2Ftenis-fila-racer-speedzone-feminino-preto%2Bcinza-I6E-8020-172",
+        "price": 429.99,
+        "store": "Netshoes",
+        "label": "Netshoes",
+        "installments": "6x de R$ 71,67 sem juros"
       }
     },
     "tags": [
@@ -1317,9 +1338,9 @@ var SHOES = [
     "sexo": [
       "feminino"
     ],
-    "budget": "",
-    "price": 0,
-    "price_formatted": "R$ 0,00",
+    "budget": "ate300",
+    "price": 209.99,
+    "price_formatted": "R$ 209,99",
     "levels": [
       "iniciante",
       "intermediario"
@@ -1336,14 +1357,21 @@ var SHOES = [
       "media",
       "longa"
     ],
-    "photo": "https://m.media-amazon.com/images/I/51Y79XZ2xcL._AC_SY500_.jpg",
+    "photo": "https://m.media-amazon.com/images/I/51dLlf5-VUL._AC_SY695_.jpg",
     "affiliate_links": {
       "amazon": {
-        "url": "https://amzn.to/4s0yCmo",
-        "price": 0,
+        "url": "https://link.amazon/B05GQVNvZ",
+        "price": 289.9,
         "store": "Amazon",
         "label": "Amazon",
-        "installments": "6x sem juros"
+        "installments": "6x de R$ 48,35 sem juros"
+      },
+      "netshoes": {
+        "url": "https://click.linksynergy.com/deeplink?id=NyH7xPegftk&mid=43984&murl=https%3A%2F%2Fwww.netshoes.com.br%2Fp%2Ftenis-fila-recovery-feminino-preto%2Bfosco-D29-6958-120-35",
+        "price": 209.99,
+        "store": "Netshoes",
+        "label": "Netshoes",
+        "installments": "3x de R$ 70,00 sem juros"
       }
     },
     "tags": [
@@ -1360,9 +1388,9 @@ var SHOES = [
     "sexo": [
       "masculino"
     ],
-    "budget": "ate300",
-    "price": 1.3,
-    "price_formatted": "R$ 1,30",
+    "budget": "acima1000",
+    "price": 1199.9,
+    "price_formatted": "R$ 1199,90",
     "levels": [
       "intermediario",
       "avancado"
@@ -1384,7 +1412,7 @@ var SHOES = [
     "affiliate_links": {
       "amazon": {
         "url": "https://amzn.to/3Ny1lzU",
-        "price": 1.3,
+        "price": 1199.9,
         "store": "Amazon",
         "label": "Amazon",
         "installments": "6x sem juros"
@@ -1406,9 +1434,9 @@ var SHOES = [
     "sexo": [
       "unissex"
     ],
-    "budget": "ate300",
-    "price": 2.4,
-    "price_formatted": "R$ 2,40",
+    "budget": "acima1000",
+    "price": 2210.99,
+    "price_formatted": "R$ 2210,99",
     "levels": [
       "intermediario",
       "avancado"
@@ -1430,7 +1458,7 @@ var SHOES = [
     "affiliate_links": {
       "amazon": {
         "url": "https://amzn.to/46WrNd3",
-        "price": 2.4,
+        "price": 2210.99,
         "store": "Amazon",
         "label": "Amazon",
         "installments": "6x sem juros"
@@ -1452,9 +1480,9 @@ var SHOES = [
     "sexo": [
       "masculino"
     ],
-    "budget": "ate300",
-    "price": 1.12,
-    "price_formatted": "R$ 1,12",
+    "budget": "acima1000",
+    "price": 1120.35,
+    "price_formatted": "R$ 1120,35",
     "levels": [
       "intermediario",
       "avancado"
@@ -1476,7 +1504,7 @@ var SHOES = [
     "affiliate_links": {
       "amazon": {
         "url": "https://amzn.to/4u9y3YW",
-        "price": 1.12,
+        "price": 1120.35,
         "store": "Amazon",
         "label": "Amazon",
         "installments": "6x sem juros"
@@ -1496,9 +1524,9 @@ var SHOES = [
     "sexo": [
       "masculino"
     ],
-    "budget": "ate300",
-    "price": 1.233,
-    "price_formatted": "R$ 1,23",
+    "budget": "",
+    "price": 0,
+    "price_formatted": "R$ 0,00",
     "levels": [
       "intermediario",
       "avancado"
@@ -1517,15 +1545,7 @@ var SHOES = [
       "longa"
     ],
     "photo": "https://images-na.ssl-images-amazon.com/images/I/71pT4bBn39L.jpg",
-    "affiliate_links": {
-      "amazon": {
-        "url": "https://amzn.to/3Pe4Age",
-        "price": 1.233,
-        "store": "Amazon",
-        "label": "Amazon",
-        "installments": "6x sem juros"
-      }
-    },
+    "affiliate_links": {},
     "tags": [
       "Ultra Trail",
       "Conforto"
@@ -1541,8 +1561,8 @@ var SHOES = [
       "masculino"
     ],
     "budget": "600a1000",
-    "price": 650.0,
-    "price_formatted": "R$ 650,00",
+    "price": 649.99,
+    "price_formatted": "R$ 649,99",
     "levels": [
       "intermediario",
       "avancado"
@@ -1566,14 +1586,14 @@ var SHOES = [
     "affiliate_links": {
       "oficial": {
         "url": "https://tidd.ly/4umRr4C",
-        "price": 0,
+        "price": 649.99,
         "store": "MIZUNO",
         "label": "MIZUNO",
         "installments": "10 x R$64,99 sem juros"
       },
       "amazon": {
         "url": "https://amzn.to/4b5N32t",
-        "price": 650.0,
+        "price": 649.99,
         "store": "Amazon",
         "label": "Amazon",
         "installments": "6x sem juros"
@@ -2291,9 +2311,9 @@ var SHOES = [
     "sexo": [
       "masculino"
     ],
-    "budget": "ate300",
-    "price": 1.299,
-    "price_formatted": "R$ 1,30",
+    "budget": "acima1000",
+    "price": 1199.99,
+    "price_formatted": "R$ 1199,99",
     "levels": [
       "iniciante",
       "intermediario",
@@ -2316,7 +2336,7 @@ var SHOES = [
     "affiliate_links": {
       "amazon": {
         "url": "https://amzn.to/4uI7lqG",
-        "price": 1.299,
+        "price": 1199.99,
         "store": "Amazon",
         "label": "Amazon",
         "installments": "6x sem juros"
@@ -2338,9 +2358,9 @@ var SHOES = [
     "sexo": [
       "feminino"
     ],
-    "budget": "ate300",
-    "price": 2.199,
-    "price_formatted": "R$ 2,20",
+    "budget": "acima1000",
+    "price": 1749.9,
+    "price_formatted": "R$ 1749,90",
     "levels": [
       "iniciante",
       "intermediario",
@@ -2363,7 +2383,7 @@ var SHOES = [
     "affiliate_links": {
       "amazon": {
         "url": "https://amzn.to/3NnNw78",
-        "price": 2.199,
+        "price": 1749.9,
         "store": "Amazon",
         "label": "Amazon",
         "installments": "6x sem juros"
@@ -3308,9 +3328,9 @@ var SHOES = [
     "sexo": [
       "feminino"
     ],
-    "budget": "ate300",
-    "price": 285.0,
-    "price_formatted": "R$ 285,00",
+    "budget": "300a600",
+    "price": 354.9,
+    "price_formatted": "R$ 354,90",
     "levels": [
       "iniciante",
       "intermediario"
@@ -3331,7 +3351,7 @@ var SHOES = [
     "affiliate_links": {
       "amazon": {
         "url": "https://amzn.to/4rKTg9U",
-        "price": 285.0,
+        "price": 354.9,
         "store": "Amazon",
         "label": "Amazon",
         "installments": "6x sem juros"
@@ -3715,7 +3735,7 @@ var SHOES = [
       },
       "amazon": {
         "url": "https://amzn.to/3NC4q1S",
-        "price": 600.0,
+        "price": 599.99,
         "store": "Amazon",
         "label": "Amazon",
         "installments": "6x sem juros"
@@ -3791,9 +3811,9 @@ var SHOES = [
     "sexo": [
       "masculino"
     ],
-    "budget": "ate300",
-    "price": 1.043,
-    "price_formatted": "R$ 1,04",
+    "budget": "acima1000",
+    "price": 1028.59,
+    "price_formatted": "R$ 1028,59",
     "levels": [
       "intermediario",
       "avancado"
@@ -3815,7 +3835,7 @@ var SHOES = [
     "affiliate_links": {
       "amazon": {
         "url": "https://amzn.to/3MVPADc",
-        "price": 1.043,
+        "price": 1028.59,
         "store": "Amazon",
         "label": "Amazon",
         "installments": "6x sem juros"
@@ -3835,9 +3855,9 @@ var SHOES = [
     "sexo": [
       "masculino"
     ],
-    "budget": "ate300",
-    "price": 1.481,
-    "price_formatted": "R$ 1,48",
+    "budget": "acima1000",
+    "price": 1481.0,
+    "price_formatted": "R$ 1481,00",
     "levels": [
       "intermediario",
       "avancado"
@@ -3856,15 +3876,7 @@ var SHOES = [
       "longa"
     ],
     "photo": "https://m.media-amazon.com/images/I/61HHqi-wpuL._AC_SY500_.jpg",
-    "affiliate_links": {
-      "amazon": {
-        "url": "https://amzn.to/4aZuoUF",
-        "price": 1.481,
-        "store": "Amazon",
-        "label": "Amazon",
-        "installments": "6x sem juros"
-      }
-    },
+    "affiliate_links": {},
     "tags": [
       "Carbono",
       "Velocidade"
@@ -3880,9 +3892,9 @@ var SHOES = [
       "masculino",
       "feminino"
     ],
-    "budget": "ate300",
-    "price": 1.524,
-    "price_formatted": "R$ 1,52",
+    "budget": "acima1000",
+    "price": 2267.46,
+    "price_formatted": "R$ 2267,46",
     "levels": [
       "intermediario",
       "avancado"
@@ -3904,7 +3916,7 @@ var SHOES = [
     "affiliate_links": {
       "amazon": {
         "url": "https://amzn.to/4uAu8EP",
-        "price": 1.524,
+        "price": 2267.46,
         "store": "Amazon",
         "label": "Amazon",
         "installments": "6x sem juros"
@@ -3927,8 +3939,8 @@ var SHOES = [
       "masculino"
     ],
     "budget": "acima1000",
-    "price": 1799.26,
-    "price_formatted": "R$ 1799,26",
+    "price": 1544.52,
+    "price_formatted": "R$ 1544,52",
     "levels": [
       "intermediario",
       "avancado"
@@ -3950,7 +3962,7 @@ var SHOES = [
     "affiliate_links": {
       "amazon": {
         "url": "https://amzn.to/40vH9S7",
-        "price": 1799.26,
+        "price": 1544.52,
         "store": "Amazon",
         "label": "Amazon",
         "installments": "6x sem juros"
@@ -3973,8 +3985,8 @@ var SHOES = [
       "masculino"
     ],
     "budget": "acima1000",
-    "price": 1585.65,
-    "price_formatted": "R$ 1585,65",
+    "price": 1247.09,
+    "price_formatted": "R$ 1247,09",
     "levels": [
       "intermediario",
       "avancado"
@@ -3996,7 +4008,7 @@ var SHOES = [
     "affiliate_links": {
       "amazon": {
         "url": "https://amzn.to/4ltmU1a",
-        "price": 1585.65,
+        "price": 1247.09,
         "store": "Amazon",
         "label": "Amazon",
         "installments": "6x sem juros"
@@ -4019,8 +4031,8 @@ var SHOES = [
       "masculino"
     ],
     "budget": "600a1000",
-    "price": 895.66,
-    "price_formatted": "R$ 895,66",
+    "price": 974.09,
+    "price_formatted": "R$ 974,09",
     "levels": [
       "intermediario",
       "avancado"
@@ -4042,7 +4054,7 @@ var SHOES = [
     "affiliate_links": {
       "amazon": {
         "url": "https://amzn.to/4bnOqIy",
-        "price": 895.66,
+        "price": 974.09,
         "store": "Amazon",
         "label": "Amazon",
         "installments": "6x sem juros"
