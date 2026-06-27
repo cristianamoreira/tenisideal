@@ -10,6 +10,7 @@ Variáveis de ambiente (secrets):
 """
 import os
 import sys
+import re
 import json
 import base64
 import datetime
@@ -126,7 +127,23 @@ def buscar_cupons():
         return []
 
 
-def enviar_email(imagens):
+def gerar_legenda(loja, codigo, titulo):
+    m = re.search(r"(\d{1,2})\s*%", titulo or "")
+    desconto = f"{m.group(1)}% OFF" if m else "Oferta especial"
+    tag_loja = re.sub(r"[^a-z0-9]", "", loja.lower())
+    return (
+        f"🔥 {desconto.upper()} NA {loja.upper()}! 👟\n\n"
+        f"{(titulo or '').strip()}\n\n"
+        f"🎟️ Use o cupom: {codigo.upper()}\n"
+        f"🛒 Compre pelo link na bio 👉 tenisideal.com.br\n\n"
+        f"Corre que é por tempo limitado! 🏃💨\n\n"
+        f"📲 Siga @tenisideal_br pra não perder nenhum cupom!\n\n"
+        f"#tenisdecorrida #corrida #running #corredores #vidadecorredor "
+        f"#cupom #desconto #ofertas #{tag_loja} #tenisideal"
+    )
+
+
+def enviar_email(items):
     key = os.environ.get("BREVO_API_KEY", "")
     email = os.environ.get("EMAIL_CUPONS", "")
     remet = os.environ.get("EMAIL_REMETENTE") or "cupons@tenisideal.com.br"
@@ -134,17 +151,27 @@ def enviar_email(imagens):
         print("Sem BREVO_API_KEY/EMAIL_CUPONS — pulando envio.", file=sys.stderr)
         return
     anexos = []
-    for nome in imagens:
-        with open(nome, "rb") as f:
-            anexos.append({"content": base64.b64encode(f.read()).decode(), "name": nome})
+    blocos = ""
+    for it in items:
+        with open(it["nome"], "rb") as f:
+            anexos.append({"content": base64.b64encode(f.read()).decode(), "name": it["nome"]})
+        legenda = gerar_legenda(it["loja"], it["codigo"], it["titulo"])
+        leg_html = legenda.replace("&", "&amp;").replace("<", "&lt;").replace(">", "&gt;")
+        blocos += (
+            f"<p style='font-family:sans-serif;margin:20px 0 6px;'><b>📎 {it['nome']}</b> "
+            f"({it['loja']}) — legenda pronta, é só copiar:</p>"
+            f"<pre style='font-family:sans-serif;white-space:pre-wrap;background:#f5f5f5;"
+            f"border:1px solid #ddd;border-radius:8px;padding:14px;font-size:14px;'>{leg_html}</pre>"
+        )
     hoje = datetime.date.today().strftime("%d/%m")
+    html = ("<p style='font-family:sans-serif'>Bom dia! 👋 Aqui está a arte de hoje pro Instagram. "
+            "<b>Baixe a imagem em anexo</b>, copie a legenda abaixo e poste no "
+            "<b>@tenisideal_br</b> (feed ou stories).</p>" + blocos)
     body = {
         "sender": {"email": remet, "name": "Arte Instagram - Tênis Ideal"},
         "to": [{"email": email}],
-        "subject": f"📸 Arte do dia {hoje} pro Instagram ({len(imagens)})",
-        "htmlContent": "<p style='font-family:sans-serif'>Bom dia! 👋 Aqui está a arte de hoje "
-                       "pros cupons. É só <b>baixar a imagem em anexo</b> e postar no "
-                       "<b>@tenisideal_br</b> (feed ou stories).</p>",
+        "subject": f"📸 Arte do dia {hoje} pro Instagram ({len(items)})",
+        "htmlContent": html,
         "attachment": anexos,
     }
     req = urllib.request.Request(
@@ -159,7 +186,7 @@ def enviar_email(imagens):
 
 def main():
     cupons = buscar_cupons()
-    imagens = []
+    items = []
     for i, p in enumerate(cupons[:6], 1):
         loja = (p.get("advertiser") or {}).get("name") or p.get("advertiserName") or "Tênis Ideal"
         loja = loja.replace(" BR", "").replace(" Brasil", "").strip()
@@ -167,14 +194,15 @@ def main():
         titulo = (p.get("title") or p.get("description") or "").strip()
         if not codigo:
             continue
-        imagens.append(gerar_imagem(loja, codigo, titulo, i))
+        nome = gerar_imagem(loja, codigo, titulo, i)
+        items.append({"nome": nome, "loja": loja, "codigo": codigo, "titulo": titulo})
 
-    if not imagens:
+    if not items:
         print("Nenhum cupom com código hoje — nada a gerar.", file=sys.stderr)
         return
 
-    print(f"🎨 {len(imagens)} arte(s) gerada(s).")
-    enviar_email(imagens)
+    print(f"🎨 {len(items)} arte(s) gerada(s).")
+    enviar_email(items)
 
 
 if __name__ == "__main__":
