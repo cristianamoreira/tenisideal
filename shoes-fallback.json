@@ -234,7 +234,7 @@
         "preco_pix": 0,
         "store": "Netshoes",
         "label": "Netshoes",
-        "installments": "10X sem juros"
+        "installments": "10x de R$ 83,99 sem juros"
       }
     },
     "tags": [
@@ -2249,6 +2249,14 @@
         "store": "Amazon",
         "label": "Amazon",
         "installments": "12x sem juros"
+      },
+      "netshoes": {
+        "url": "https://click.linksynergy.com/deeplink?id=NyH7xPegftk&mid=43984&murl=https%3A%2F%2Fwww.netshoes.com.br%2Fp%2Ftenis-mizuno-neo-zen-2-SIC-00HL-026",
+        "price": 999.99,
+        "preco_pix": 0,
+        "store": "Netshoes",
+        "label": "Netshoes",
+        "installments": "10x de R$ 100,00 sem juros"
       }
     },
     "tags": [
@@ -2267,8 +2275,8 @@
       "unissex"
     ],
     "budget": "ate300",
-    "price": 279.99,
-    "price_formatted": "R$ 279,99",
+    "price": 259.99,
+    "price_formatted": "R$ 259,99",
     "levels": [
       "iniciante",
       "intermediario",
@@ -2300,18 +2308,18 @@
       },
       "amazon": {
         "url": "https://amzn.to/4105W0O",
-        "price": 519.9,
+        "price": 489.99,
         "store": "Amazon",
         "label": "Amazon",
-        "installments": "10x sem juros"
+        "installments": "9x de R$ 54,47 sem juros"
       },
       "netshoes": {
         "url": "https://click.linksynergy.com/deeplink?id=NyH7xPegftk&mid=43984&murl=https%3A%2F%2Fwww.netshoes.com.br%2Fp%2Ftenis-mizuno-wave-dynasty-7-masculino-2FV-1322-006",
-        "price": 279.99,
-        "preco_pix": 265.99,
+        "price": 259.99,
+        "preco_pix": 0,
         "store": "Netshoes",
         "label": "Netshoes",
-        "installments": "4x sem juros"
+        "installments": "3x sem juros"
       }
     },
     "tags": [
@@ -2557,8 +2565,8 @@
       "feminino"
     ],
     "budget": "600a1000",
-    "price": 779.88,
-    "price_formatted": "R$ 779,88",
+    "price": 899.99,
+    "price_formatted": "R$ 899,99",
     "levels": [
       "iniciante",
       "intermediario",
@@ -2578,22 +2586,22 @@
       "media",
       "longa"
     ],
-    "photo": "https://m.media-amazon.com/images/I/51Z+ohQHSIL._AC_SY625_.jpg",
+    "photo": "https://m.media-amazon.com/images/I/51Z+ohQHSIL._AC_SY695_.jpg",
     "affiliate_links": {
       "amazon": {
-        "url": "https://link.amazon/B02SxAsyF",
-        "price": 853.39,
+        "url": "https://link.amazon/B08GkI1nq",
+        "price": 899.99,
         "store": "Amazon",
         "label": "Amazon",
-        "installments": "10x de R$ 85,42 sem juros"
+        "installments": "12x de R$ 75,10 sem juros"
       },
       "netshoes": {
-        "url": "https://www.netshoes.com.br/p/tenis-new-balance-fresh-foam-x-1080-v14-feminino-39V-24BP-198",
-        "price": 779.88,
+        "url": "https://click.linksynergy.com/deeplink?id=NyH7xPegftk&mid=43984&murl=https%3A%2F%2Fwww.netshoes.com.br%2Fp%2Ftenis-new-balance-fresh-foam-x-1080-v14-feminino-preto%2Bbege-39V-0508-298",
+        "price": 989.79,
         "preco_pix": 0,
         "store": "Netshoes",
         "label": "Netshoes",
-        "installments": "10x de R$ 77,99 sem juros"
+        "installments": "10x sem juros"
       }
     },
     "tags": [
@@ -2943,61 +2951,63 @@
   {
     "brand": "NIKE",
     "name": "Downshifter 13",
-    "slug": "nike-tenis-nike-downshifter-13-masculino-f130",
+    "slug": "nike-downshifter-13-9f96-f",
     "sexo": [
-      "masculino"
+      "feminino"
     ],
     "budget": "300a600",
     "price": 347.36,
     "price_formatted": "R$ 347,36",
     "levels": [
-      "iniciante"
+      "iniciante",
+      "intermediario"
     ],
     "pisada": [
-      "neutra"
+      "neutra",
+      "supinada"
     ],
     "terreno": [
-      "mista",
-      "esteira"
+      "asfalto",
+      "esteira",
+      "mista"
     ],
     "distancia": [
       "curta",
       "media",
       "longa"
     ],
-    "photo": "https://www.nike.com.br/tenis-nike-downshifter-13-masculino-027915.html?cor=IM",
+    "photo": "https://m.media-amazon.com/images/I/61nGUhRlAEL._AC_SY695_.jpg",
     "affiliate_links": {
       "oficial": {
-        "url": "https://www.awin1.com/cread.php?awinmid=17652&awinaffid=2800712&platform=dl&ued=https%3A%2F%2Fwww.nike.com.br%2Ftenis-nike-downshifter-13-masculino-027915.html%3Fcor%3DIM",
-        "price": 347.37,
+        "url": "https://tidd.ly/444jIRJ",
+        "price": 390.0,
         "preco_pix": 0,
         "store": "NIKE",
         "label": "NIKE",
-        "installments": "3x de R$ 115,79 sem juros"
+        "installments": "3x de R$ 130,00 sem juros"
       },
       "amazon": {
-        "url": "https://amzn.to/4ooGVXZ",
-        "price": 786.17,
+        "url": "https://link.amazon/B06Et5zRh",
+        "price": 739.17,
         "store": "Amazon",
         "label": "Amazon",
-        "installments": "12x sem juros"
+        "installments": "12x de R$ 61,68 sem juros"
       },
       "netshoes": {
-        "url": "https://click.linksynergy.com/deeplink?id=NyH7xPegftk&mid=43984&murl=https%3A%2F%2Fwww.netshoes.com.br%2Fp%2Ftenis-nike-downshifter-13-masculino-JD8-6466-026",
+        "url": "https://click.linksynergy.com/deeplink?id=NyH7xPegftk&mid=43984&murl=https%3A%2F%2Fwww.netshoes.com.br%2Fp%2Ftenis-nike-downshifter-13-feminino-JD8-6467-318",
         "price": 347.36,
-        "preco_pix": 329.99,
+        "preco_pix": 0,
         "store": "Netshoes",
         "label": "Netshoes",
         "installments": "4x sem juros"
       }
     },
     "tags": [
-      "Corrida",
-      "respirável",
-      "confortável"
+      "Custo-benefício",
+      "Entrada"
     ],
-    "description": "Ideal para iniciantes que buscam conforto e versatilidade para treinos diários.",
-    "reason": "Ideal para iniciantes que buscam conforto e versatilidade para treinos diários."
+    "description": "Tênis acessível e versátil da Nike. Ótimo para iniciantes que querem um calçado confiável para o dia a dia.",
+    "reason": "Tênis acessível e versátil da Nike. Ótimo para iniciantes que querem um calçado confiável para o dia a dia."
   },
   {
     "brand": "NIKE",
