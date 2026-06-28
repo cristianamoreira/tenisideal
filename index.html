@@ -3163,34 +3163,38 @@
         }
       }
 
-      // FALLBACK: Se não conseguiu 3 produtos, buscar mais amplo (sem filtro de nível)
+      // FALLBACK: Se não conseguiu 3 produtos, buscar mais amplo.
+      // Vai alargando o pool em camadas até garantir 3 sugestões:
+      //   1) sexo + faixa de preço  →  2) sexo (qualquer faixa)  →  3) catálogo inteiro
+      // Importante: só restringe à faixa se ela tiver 3+ modelos; caso contrário
+      // uma faixa com 1-2 itens travaria o resultado em menos de 3 (bug do unissex/faixa).
       if (result.length < 3) {
-        pool = SHOES.filter(function (sh) {
+        var poolSexoFb = SHOES.filter(function (sh) {
           var raw = Array.isArray(sh.sexo) ? sh.sexo : [sh.sexo || ''];
           var vals = raw.map(function (v) { return (v || '').toLowerCase().replace(/\r/g, '').trim(); });
           return vals.indexOf(sexo) > -1 || vals.indexOf('unissex') > -1;
         });
+        var poolOrc2 = poolSexoFb.filter(function (sh) { return sh.budget === bo[bi]; });
 
-        var poolOrc2 = pool.filter(function (sh) {
-          return sh.budget === bo[bi];
-        });
-
-        if (poolOrc2.length > 0) pool = poolOrc2;
-
-        var sc2 = pool.map(function (sh) { return { sh: sh, s: Math.random() }; });
-        sc2.sort(function (a, b) {
-          var pa = calcShoePrice(a.sh) || Infinity;
-          var pb = calcShoePrice(b.sh) || Infinity;
-          return pa - pb;
-        });
-
-        var seen2 = {};
-        for (var i = 0; i < sc2.length && result.length < 3; i++) {
-          var sh = sc2[i].sh;
-          var key = (sh.brand || '') + '|' + (sh.name || '');
-          if (!seen2[key]) {
-            seen2[key] = true;
-            result.push({ sh: sh, score: Math.random() });
+        var camadas = [
+          poolOrc2.length >= 3 ? poolOrc2 : poolSexoFb,  // sexo+faixa (se densa) ou sexo
+          poolSexoFb,                                     // sexo, qualquer faixa
+          SHOES                                           // catálogo inteiro (rede de segurança)
+        ];
+        for (var c = 0; c < camadas.length && result.length < 3; c++) {
+          var sc2 = camadas[c].map(function (sh) { return { sh: sh, s: 0 }; });
+          sc2.sort(function (a, b) {
+            var pa = calcShoePrice(a.sh) || Infinity;
+            var pb = calcShoePrice(b.sh) || Infinity;
+            return pa - pb;
+          });
+          for (var i = 0; i < sc2.length && result.length < 3; i++) {
+            var sh = sc2[i].sh;
+            var key = (sh.brand || '') + '|' + (sh.name || '');
+            if (!seen[key]) {
+              seen[key] = true;
+              result.push({ sh: sh, score: 0 });
+            }
           }
         }
       }
