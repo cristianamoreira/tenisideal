@@ -8,3 +8,4 @@ abrir_scraper.command
 email_campanha.html
 cupons_hoje.txt
 arte_*.png
+__pycache__/
