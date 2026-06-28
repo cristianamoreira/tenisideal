@@ -4,6 +4,11 @@ on:
   schedule:
     - cron: '30 11 * * *'   # todo dia 08:30 BRT
   workflow_dispatch:
+    inputs:
+      formato:
+        description: 'Formato p/ testar (vazio = o do dia): destaque, comparativo, sonhos, cupom'
+        required: false
+        default: ''
 
 jobs:
   arte:
@@ -27,7 +32,10 @@ jobs:
           BREVO_API_KEY: ${{ secrets.BREVO_API_KEY }}
           EMAIL_CUPONS: ${{ secrets.EMAIL_CUPONS }}
           EMAIL_REMETENTE: ${{ secrets.EMAIL_REMETENTE }}
+          AWIN_API_TOKEN: ${{ secrets.AWIN_API_TOKEN }}
+          AWIN_PUBLISHER_ID: '2800712'
           CHROME_PATH: ${{ steps.chrome.outputs.chrome-path }}
+          FORMATO_ARTE: ${{ github.event.inputs.formato }}
         run: python3 gerar_arte_instagram.py
 
       - name: Guardar as artes (backup p/ download)
