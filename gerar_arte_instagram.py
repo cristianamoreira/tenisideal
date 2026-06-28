@@ -67,7 +67,7 @@ html,body{width:1080px;height:1080px;}
 <div class="subtitle">@@SUB@@</div><div class="bar"></div></div>
 <div class="price"><div class="lbl">A PARTIR DE</div><div class="val">@@PRICE@@</div></div>
 <div class="shoe-glow"></div><img class="shoe" src="shoe.png">
-<div class="footer"><div class="cta">COMPRE PELO LINK NA BIO</div>
+<div class="footer"><div class="cta">FAÇA O QUIZ • LINK NA BIO</div>
 <div class="handle">@TENISIDEAL<i>_BR</i></div><div class="site">tenisideal.com.br</div></div>
 </div></body></html>"""
 
@@ -201,8 +201,8 @@ def gerar_legenda(s):
         f"🔥 {brand.upper()} {name.upper()} 👟\n\n"
         f"{reason}\n\n"
         f"{linha_preco}\n"
-        f"🛒 Compre pelo link na bio 👉 tenisideal.com.br\n\n"
-        f"📲 Siga @tenisideal_br e descubra o tênis ideal pro seu perfil no nosso quiz!\n\n"
+        f"🔎 Faça nosso quiz e descubra o tênis ideal pro seu perfil — link na bio 👉 tenisideal.com.br\n\n"
+        f"📲 Siga @tenisideal_br pra mais dicas de corrida!\n\n"
         f"#tenisdecorrida #corrida #running #corredores #vidadecorredor "
         f"#{tag} #tenisideal #tenis #corridaderua"
     )
