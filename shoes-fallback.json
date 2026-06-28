@@ -372,6 +372,65 @@
   },
   {
     "brand": "ADIDAS",
+    "name": "Terrex Anylander Hiking",
+    "slug": "adidas-terrex-anylander-hiking",
+    "sexo": [
+      "feminino"
+    ],
+    "budget": "300a600",
+    "price": 449.99,
+    "price_formatted": "R$ 449,99",
+    "levels": [
+      "intermediario",
+      "avancado"
+    ],
+    "pisada": [
+      "neutra",
+      "pronada"
+    ],
+    "terreno": [
+      "asfalto",
+      "pista",
+      "mista",
+      "esteira"
+    ],
+    "distancia": [
+      "curta",
+      "media",
+      "longa"
+    ],
+    "photo": "https://m.media-amazon.com/images/I/61qM8x-wtBL._AC_SY695_.jpg",
+    "affiliate_links": {
+      "oficial": {
+        "url": "https://tidd.ly/4vAGUD5",
+        "price": 449.99,
+        "preco_pix": 0,
+        "store": "ADIDAS",
+        "label": "ADIDAS",
+        "installments": "4 x R$112,50 sem juros"
+      },
+      "amazon": {
+        "url": "https://link.amazon/B0fuXHN5m",
+        "price": 720.37,
+        "store": "Amazon",
+        "label": "Amazon",
+        "installments": "12x de R$ 60,04 sem juros"
+      },
+      "netshoes": {
+        "url": "https://click.linksynergy.com/deeplink?id=NyH7xPegftk&mid=43984&murl=https%3A%2F%2Fwww.netshoes.com.br%2Fp%2Ftenis-adidas-terrex-anylander-feminino-aventura-trail-FBA-85MJ-010",
+        "price": 469.9,
+        "preco_pix": 0,
+        "store": "Netshoes",
+        "label": "Netshoes",
+        "installments": "6x sem juros"
+      }
+    },
+    "tags": [],
+    "description": "",
+    "reason": ""
+  },
+  {
+    "brand": "ADIDAS",
     "name": "Supernova Rise 3",
     "slug": "adidas-supernovarise-3-01e9",
     "sexo": [
@@ -1529,6 +1588,54 @@
     "reason": "Solado Energized Rubber da linha Float transforma impacto em propulsão, com cabedal mesh e contraforte estruturado para estabilidade"
   },
   {
+    "brand": "FILA",
+    "name": "Racer Skytrail ",
+    "slug": "fila-racer-skytrail ",
+    "sexo": [
+      "feminino"
+    ],
+    "budget": "600a1000",
+    "price": 619.9,
+    "price_formatted": "R$ 619,90",
+    "levels": [
+      "iniciante",
+      "intermediario"
+    ],
+    "pisada": [
+      "neutra"
+    ],
+    "terreno": [
+      "asfalto",
+      "esteira"
+    ],
+    "distancia": [
+      "curta",
+      "media",
+      "longa"
+    ],
+    "photo": "https://fila.vteximg.com.br/arquivos/ids/947491-1600-1600/F02R00159_6767.jpg?v=638821382529830000",
+    "affiliate_links": {
+      "amazon": {
+        "url": "https://link.amazon/B03AqQah8",
+        "price": 619.9,
+        "store": "Amazon",
+        "label": "Amazon",
+        "installments": "12x de R$ 51,75 sem juros"
+      },
+      "netshoes": {
+        "url": "https://click.linksynergy.com/deeplink?id=NyH7xPegftk&mid=43984&murl=https%3A%2F%2Fwww.netshoes.com.br%2Fp%2Ftenis-fila-racer-skytrail-feminino-I6E-8018-629",
+        "price": 619.9,
+        "preco_pix": 0,
+        "store": "Netshoes",
+        "label": "Netshoes",
+        "installments": "8x sem juros"
+      }
+    },
+    "tags": [],
+    "description": "",
+    "reason": ""
+  },
+  {
     "brand": "HOKA",
     "name": "Clifton 10",
     "slug": "hoka-hoka-clifton-10-63b0",
@@ -2558,6 +2665,65 @@
     "reason": "Solado Vibram Megagrip com excelente aderência em qualquer terreno, entressola Enerzy para retorno de energia e placa protetora anti-rochas. O tênis de trilha mais completo da Mizuno."
   },
   {
+    "brand": "MIZUNO",
+    "name": "Wave Ibuki 4",
+    "slug": "mizuno-wave-ibuki-4",
+    "sexo": [
+      "feminino"
+    ],
+    "budget": "300a600",
+    "price": 499.99,
+    "price_formatted": "R$ 499,99",
+    "levels": [
+      "intermediario",
+      "avancado"
+    ],
+    "pisada": [
+      "neutra",
+      "pronada"
+    ],
+    "terreno": [
+      "asfalto",
+      "trilha",
+      "mista",
+      "esteira"
+    ],
+    "distancia": [
+      "curta",
+      "media",
+      "longa"
+    ],
+    "photo": "https://m.media-amazon.com/images/I/511jRMzIvZL._AC_SY695_.jpg",
+    "affiliate_links": {
+      "oficial": {
+        "url": "https://tidd.ly/4bgzrRw",
+        "price": 499.99,
+        "preco_pix": 0,
+        "store": "MIZUNO",
+        "label": "MIZUNO",
+        "installments": "9 X R$55,55 sem juros"
+      },
+      "amazon": {
+        "url": "https://link.amazon/B08dzLAPi",
+        "price": 559.99,
+        "store": "Amazon",
+        "label": "Amazon",
+        "installments": "11x de R$ 50,99 sem juros"
+      },
+      "netshoes": {
+        "url": "https://click.linksynergy.com/deeplink?id=NyH7xPegftk&mid=43984&murl=https%3A%2F%2Fwww.netshoes.com.br%2Fp%2Ftenis-de-trilha-feminino-mizuno-wave-ibuki-4-2FU-8061-008",
+        "price": 649.9,
+        "preco_pix": 0,
+        "store": "Netshoes",
+        "label": "Netshoes",
+        "installments": "9x de R$ 72,21 sem juros"
+      }
+    },
+    "tags": [],
+    "description": "",
+    "reason": ""
+  },
+  {
     "brand": "NEW BALANCE",
     "name": "Fresh Foam X 1080 V14",
     "slug": "new-balance-fresh-foam-x-1080-v14-5491",
@@ -2951,9 +3117,9 @@
   {
     "brand": "NIKE",
     "name": "Downshifter 13",
-    "slug": "nike-downshifter-13-9f96-f",
+    "slug": "nike-downshifter-13-9f96-m",
     "sexo": [
-      "feminino"
+      "masculino"
     ],
     "budget": "300a600",
     "price": 347.36,
@@ -2976,25 +3142,25 @@
       "media",
       "longa"
     ],
-    "photo": "https://m.media-amazon.com/images/I/61nGUhRlAEL._AC_SY695_.jpg",
+    "photo": "https://m.media-amazon.com/images/I/71o5tMvjF0L._AC_SY500_.jpg",
     "affiliate_links": {
       "oficial": {
-        "url": "https://tidd.ly/444jIRJ",
-        "price": 390.0,
+        "url": "https://tidd.ly/4vag1pL",
+        "price": 427.49,
         "preco_pix": 0,
         "store": "NIKE",
         "label": "NIKE",
-        "installments": "3x de R$ 130,00 sem juros"
+        "installments": "4x de R$ 112,50 sem juros"
       },
       "amazon": {
-        "url": "https://link.amazon/B06Et5zRh",
-        "price": 739.17,
+        "url": "https://amzn.to/3PGBkzj",
+        "price": 449.99,
         "store": "Amazon",
         "label": "Amazon",
-        "installments": "12x de R$ 61,68 sem juros"
+        "installments": "8x R$ 56,31 sem juros"
       },
       "netshoes": {
-        "url": "https://click.linksynergy.com/deeplink?id=NyH7xPegftk&mid=43984&murl=https%3A%2F%2Fwww.netshoes.com.br%2Fp%2Ftenis-nike-downshifter-13-feminino-JD8-6467-318",
+        "url": "https://click.linksynergy.com/deeplink?id=NyH7xPegftk&mid=43984&murl=https%3A%2F%2Fwww.netshoes.com.br%2Fp%2Ftenis-nike-downshifter-13-masculino-JD8-6466-026",
         "price": 347.36,
         "preco_pix": 0,
         "store": "Netshoes",
@@ -3003,8 +3169,7 @@
       }
     },
     "tags": [
-      "Custo-benefício",
-      "Entrada"
+      "Melhor Nike barato"
     ],
     "description": "Tênis acessível e versátil da Nike. Ótimo para iniciantes que querem um calçado confiável para o dia a dia.",
     "reason": "Tênis acessível e versátil da Nike. Ótimo para iniciantes que querem um calçado confiável para o dia a dia."
@@ -3072,14 +3237,14 @@
   },
   {
     "brand": "NIKE",
-    "name": "Winflo 11",
-    "slug": "nike-winflo-11-faf1",
+    "name": "Winflo 12",
+    "slug": "nike-winflo-12-faf1",
     "sexo": [
       "masculino"
     ],
-    "budget": "300a600",
-    "price": 489.99,
-    "price_formatted": "R$ 489,99",
+    "budget": "600a1000",
+    "price": 699.99,
+    "price_formatted": "R$ 699,99",
     "levels": [
       "iniciante",
       "intermediario"
@@ -3098,19 +3263,80 @@
       "media",
       "longa"
     ],
-    "photo": "https://m.media-amazon.com/images/I/61n-683dSvL._AC_SY625_.jpg",
+    "photo": "https://m.media-amazon.com/images/I/61IUcdkHFDL._AC_SY695_.jpg",
     "affiliate_links": {
       "oficial": {
-        "url": "https://tidd.ly/48c9bpY",
-        "price": 489.99,
+        "url": "https://tidd.ly/4g5JiwV",
+        "price": 700.0,
         "preco_pix": 0,
         "store": "NIKE",
         "label": "NIKE",
-        "installments": "5x de R$ 103,16 sem juros"
+        "installments": "7x de R$ 100,00 sem juros"
       },
       "amazon": {
-        "url": "https://amzn.to/41aiuD9",
-        "price": 766.84,
+        "url": "https://link.amazon/B007E7QRD",
+        "price": 1022.83,
+        "store": "Amazon",
+        "label": "Amazon",
+        "installments": "12x de R$ 85,30 sem juros"
+      },
+      "netshoes": {
+        "url": "https://click.linksynergy.com/deeplink?id=NyH7xPegftk&mid=43984&murl=https%3A%2F%2Fwww.netshoes.com.br%2Fp%2Ftenis-nike-winflo-12-masculino-SGL-056O-026",
+        "price": 699.99,
+        "preco_pix": 0,
+        "store": "Netshoes",
+        "label": "Netshoes",
+        "installments": "10x sem juros"
+      }
+    },
+    "tags": [
+      "Custo-benefício",
+      "Entrada"
+    ],
+    "description": "Amortecimento React responsivo para treinos diários. Leve e estável com excelente retorno de energia.",
+    "reason": "Amortecimento React responsivo para treinos diários. Leve e estável com excelente retorno de energia."
+  },
+  {
+    "brand": "NIKE",
+    "name": "Winflo 11",
+    "slug": "nike-winflo-11-faf1",
+    "sexo": [
+      "feminino"
+    ],
+    "budget": "300a600",
+    "price": 399.99,
+    "price_formatted": "R$ 399,99",
+    "levels": [
+      "iniciante",
+      "intermediario"
+    ],
+    "pisada": [
+      "neutra",
+      "supinada"
+    ],
+    "terreno": [
+      "asfalto",
+      "esteira",
+      "mista"
+    ],
+    "distancia": [
+      "curta",
+      "media",
+      "longa"
+    ],
+    "photo": "https://m.media-amazon.com/images/I/71PZ2x9ndbL._AC_SY625_.jpg",
+    "affiliate_links": {
+      "oficial": {
+        "url": "https://tidd.ly/4dnmibo",
+        "price": 399.99,
+        "preco_pix": 0,
+        "store": "NIKE",
+        "label": "NIKE",
+        "installments": "4x de R$ 105,26 sem juros"
+      },
+      "amazon": {
+        "url": "https://amzn.to/4bSZuiI",
+        "price": 756.98,
         "store": "Amazon",
         "label": "Amazon",
         "installments": ""
@@ -4126,6 +4352,54 @@
     "reason": "Tênis de corrida versátil com bom amortecimento para treinos diários."
   },
   {
+    "brand": "OLYMPIKUS",
+    "name": "Neblina",
+    "slug": "olympikus-neblina",
+    "sexo": [
+      "masculino"
+    ],
+    "budget": "ate300",
+    "price": 239.99,
+    "price_formatted": "R$ 239,99",
+    "levels": [
+      "iniciante",
+      "intermediario"
+    ],
+    "pisada": [
+      "neutra"
+    ],
+    "terreno": [
+      "asfalto",
+      "esteira"
+    ],
+    "distancia": [
+      "curta",
+      "media",
+      "longa"
+    ],
+    "photo": "https://m.media-amazon.com/images/I/51fxh2hI0fL._AC_SY695_.jpg",
+    "affiliate_links": {
+      "oficial": {
+        "url": "https://tidd.ly/3QsmzRr",
+        "price": 259.99,
+        "preco_pix": 0,
+        "store": "OLYMPIKUS",
+        "label": "OLYMPIKUS",
+        "installments": "7x de R$ 37,14"
+      },
+      "amazon": {
+        "url": "https://link.amazon/B0dvEVFCv",
+        "price": 239.99,
+        "store": "Amazon",
+        "label": "Amazon",
+        "installments": "6x de R$ 40,04 sem juros"
+      }
+    },
+    "tags": [],
+    "description": "",
+    "reason": ""
+  },
+  {
     "brand": "SALOMON",
     "name": "Aero Blaze 3",
     "slug": "salomon-aero-blaze-3-4aa5",
@@ -4181,40 +4455,44 @@
   },
   {
     "brand": "SAUCONY",
-    "name": "Endorphin Speed 4",
-    "slug": "saucony-endorphin-speed-4-6e6b",
+    "name": "Guide 19",
+    "slug": "saucony-guide-19",
     "sexo": [
       "masculino"
     ],
     "budget": "acima1000",
-    "price": 0,
-    "price_formatted": "R$ 0,00",
+    "price": 1346.95,
+    "price_formatted": "R$ 1346,95",
     "levels": [
       "intermediario",
       "avancado"
     ],
     "pisada": [
       "neutra",
-      "supinada"
+      "pronada"
     ],
     "terreno": [
       "asfalto",
-      "esteira",
-      "mista"
+      "esteira"
     ],
     "distancia": [
       "curta",
       "media",
       "longa"
     ],
-    "photo": "https://m.media-amazon.com/images/I/61HHqi-wpuL._AC_SY500_.jpg",
-    "affiliate_links": {},
-    "tags": [
-      "Carbono",
-      "Velocidade"
-    ],
-    "description": "Carbon plate + PWRRUN HG. O tênis de competição da Saucony para bater recordes pessoais.",
-    "reason": "Carbon plate + PWRRUN HG. O tênis de competição da Saucony para bater recordes pessoais."
+    "photo": "https://m.media-amazon.com/images/I/71jjSN3CBRL._AC_SX695_.jpg",
+    "affiliate_links": {
+      "amazon": {
+        "url": "https://link.amazon/B06vhjsyP",
+        "price": 1346.95,
+        "store": "Amazon",
+        "label": "Amazon",
+        "installments": "10x de R$ 134,74 sem juros"
+      }
+    },
+    "tags": [],
+    "description": "",
+    "reason": ""
   },
   {
     "brand": "SAUCONY",
