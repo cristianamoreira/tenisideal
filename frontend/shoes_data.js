@@ -1734,14 +1734,14 @@ var SHOES = [
   },
   {
     "brand": "HOKA",
-    "name": "Speedgoat 6",
-    "slug": "hoka-speedgoat-6-d710",
+    "name": "Rincon 4",
+    "slug": "hoka-rincon-4-d710",
     "sexo": [
       "masculino"
     ],
-    "budget": "",
-    "price": 0,
-    "price_formatted": "R$ 0,00",
+    "budget": "600a1000",
+    "price": 899.9,
+    "price_formatted": "R$ 899,90",
     "levels": [
       "iniciante",
       "intermediario",
@@ -1761,8 +1761,24 @@ var SHOES = [
       "media",
       "longa"
     ],
-    "photo": "https://images-na.ssl-images-amazon.com/images/I/71pT4bBn39L.jpg",
-    "affiliate_links": {},
+    "photo": "https://m.media-amazon.com/images/I/71ZxMrk1NrL._AC_SX695_.jpg",
+    "affiliate_links": {
+      "amazon": {
+        "url": "https://link.amazon/B06KUP0MZ",
+        "price": 899.9,
+        "store": "Amazon",
+        "label": "Amazon",
+        "installments": "12x de R$ 75,01 sem juros"
+      },
+      "netshoes": {
+        "url": "https://click.linksynergy.com/deeplink?id=NyH7xPegftk&mid=43984&murl=https%3A%2F%2Fwww.netshoes.com.br%2Fp%2Ftenis-hoka-rincon-4-masculino-preto-AXF-0662-006",
+        "price": 999.99,
+        "preco_pix": 0,
+        "store": "Netshoes",
+        "label": "Netshoes",
+        "installments": "10x de R$ 100,00 sem juros"
+      }
+    },
     "tags": [
       "Ultra Trail",
       "Conforto"
@@ -1915,10 +1931,10 @@ var SHOES = [
       "media",
       "longa"
     ],
-    "photo": "https://m.media-amazon.com/images/I/51qUaqEvrkL._AC_SY500_.jpg",
+    "photo": "https://m.media-amazon.com/images/I/51qUaqEvrkL._AC_SY695_.jpg",
     "affiliate_links": {
       "oficial": {
-        "url": "https://tidd.ly/4gH4Wrp",
+        "url": "https://tidd.ly/4vzBmJ7",
         "price": 549.99,
         "preco_pix": 0,
         "store": "MIZUNO",
@@ -1926,11 +1942,19 @@ var SHOES = [
         "installments": "10 x R$54,99 sem juros"
       },
       "amazon": {
-        "url": "https://amzn.to/4lpGIm5",
+        "url": "https://link.amazon/B05l7GDQH",
         "price": 549.99,
         "store": "Amazon",
         "label": "Amazon",
-        "installments": "10x"
+        "installments": "10x de R$ 55,08 sem juros"
+      },
+      "netshoes": {
+        "url": "https://click.linksynergy.com/deeplink?id=NyH7xPegftk&mid=43984&murl=https%3A%2F%2Fwww.netshoes.com.br%2Fp%2Ftenis-mizuno-wave-rider-28-preto%2Bbranco-2FV-0569-026",
+        "price": 549.99,
+        "preco_pix": 0,
+        "store": "Netshoes",
+        "label": "Netshoes",
+        "installments": "7x de R$ 78,57 sem juros"
       }
     },
     "tags": [
@@ -1948,9 +1972,9 @@ var SHOES = [
     "sexo": [
       "masculino"
     ],
-    "budget": "acima1000",
-    "price": 1199.99,
-    "price_formatted": "R$ 1199,99",
+    "budget": "600a1000",
+    "price": 799.99,
+    "price_formatted": "R$ 799,99",
     "levels": [
       "iniciante",
       "intermediario",
@@ -1974,18 +1998,26 @@ var SHOES = [
     "affiliate_links": {
       "oficial": {
         "url": "https://tidd.ly/4diuTvL",
-        "price": 0,
+        "price": 1199.99,
         "preco_pix": 0,
         "store": "MIZUNO",
         "label": "MIZUNO",
-        "installments": "10 x 199,99 sem juros"
+        "installments": "10x deR$ 119,99sem juros"
       },
       "amazon": {
         "url": "https://amzn.to/3OW1QEr",
         "price": 1199.99,
         "store": "Amazon",
         "label": "Amazon",
-        "installments": ""
+        "installments": "12x de R$ 100,10 sem juros"
+      },
+      "netshoes": {
+        "url": "https://click.linksynergy.com/deeplink?id=NyH7xPegftk&mid=43984&murl=https%3A%2F%2Fwww.netshoes.com.br%2Fp%2Ftenis-mizuno-wave-sky-9-masculino-SIC-002Q-240",
+        "price": 799.99,
+        "preco_pix": 0,
+        "store": "Netshoes",
+        "label": "Netshoes",
+        "installments": "10x sem juros"
       }
     },
     "tags": [
@@ -1997,14 +2029,14 @@ var SHOES = [
   },
   {
     "brand": "MIZUNO",
-    "name": "Victory RSP",
-    "slug": "mizuno-victory-rsp-af8f",
+    "name": "Wave Vitality 5",
+    "slug": "mizuno-wave-vitality-5-af8f",
     "sexo": [
       "masculino"
     ],
-    "budget": "300a600",
-    "price": 425.31,
-    "price_formatted": "R$ 425,31",
+    "budget": "ate300",
+    "price": 289.99,
+    "price_formatted": "R$ 289,99",
     "levels": [
       "intermediario",
       "avancado"
@@ -2023,14 +2055,30 @@ var SHOES = [
       "media",
       "longa"
     ],
-    "photo": "https://static.dafiti.com.br/p/Mizuno-T%C3%AAnis-Mizuno-Victory-Rsp-Feminino-Rosa-3494-64013441-1-zoom.jpg",
+    "photo": "https://m.media-amazon.com/images/I/61Qlp-A+LVL._AC_SY695_.jpg",
     "affiliate_links": {
+      "oficial": {
+        "url": "https://tidd.ly/4xRMDpP",
+        "price": 299.99,
+        "preco_pix": 0,
+        "store": "MIZUNO",
+        "label": "MIZUNO",
+        "installments": "5 X R$ 59,99 sem juros"
+      },
       "amazon": {
-        "url": "https://link.amazon/B02d1eEdP",
-        "price": 425.31,
+        "url": "https://link.amazon/B04JUqA6o",
+        "price": 289.99,
         "store": "Amazon",
         "label": "Amazon",
-        "installments": "8x"
+        "installments": "6x de R$ 48,34 sem juros"
+      },
+      "netshoes": {
+        "url": "https://click.linksynergy.com/deeplink?id=NyH7xPegftk&mid=43984&murl=https%3A%2F%2Fwww.netshoes.com.br%2Fp%2Ftenis-mizunowave-vitality-5-masculino-2FU-8272-040",
+        "price": 299.99,
+        "preco_pix": 0,
+        "store": "Netshoes",
+        "label": "Netshoes",
+        "installments": "4x de R$ 75,00 sem juros"
       }
     },
     "tags": [
@@ -2046,11 +2094,11 @@ var SHOES = [
     "name": "Base Ride",
     "slug": "mizuno-base-ride-cbfe",
     "sexo": [
-      "unissex"
+      "masculino"
     ],
     "budget": "300a600",
-    "price": 449.99,
-    "price_formatted": "R$ 449,99",
+    "price": 349.99,
+    "price_formatted": "R$ 349,99",
     "levels": [
       "iniciante",
       "intermediario"
@@ -2069,22 +2117,22 @@ var SHOES = [
       "media",
       "longa"
     ],
-    "photo": "https://m.media-amazon.com/images/I/612YIPVucEL._AC_SY500_.jpg",
+    "photo": "https://m.media-amazon.com/images/I/51tqlPp6iRL._AC_SY695_.jpg",
     "affiliate_links": {
       "oficial": {
-        "url": "https://tidd.ly/4b93ye7",
-        "price": 449.99,
+        "url": "https://tidd.ly/4beemHn",
+        "price": 349.99,
         "preco_pix": 0,
         "store": "MIZUNO",
         "label": "MIZUNO",
-        "installments": "8 X R$ 56,24 sem juros"
+        "installments": "6 X R$ 58,33 sem juros"
       },
       "amazon": {
-        "url": "https://amzn.to/4s2XGJx",
-        "price": 649.9,
+        "url": "https://link.amazon/B00Cikhld",
+        "price": 399.99,
         "store": "Amazon",
         "label": "Amazon",
-        "installments": ""
+        "installments": "7x de R$ 57,15 sem juros"
       }
     },
     "tags": [
@@ -3781,14 +3829,14 @@ var SHOES = [
   },
   {
     "brand": "OLYMPIKUS",
-    "name": "Essential",
-    "slug": "olympikus-essential-8f5d",
+    "name": "Corre 5",
+    "slug": "olympikus-corre-5-8f5d-m",
     "sexo": [
-      "feminino"
+      "masculino"
     ],
-    "budget": "ate300",
-    "price": 249.9,
-    "price_formatted": "R$ 249,90",
+    "budget": "300a600",
+    "price": 599.99,
+    "price_formatted": "R$ 599,99",
     "levels": [
       "iniciante",
       "intermediario"
@@ -3807,14 +3855,23 @@ var SHOES = [
       "media",
       "longa"
     ],
-    "photo": "https://m.media-amazon.com/images/I/519-VwNeLGL._AC_SY625_.jpg",
+    "photo": "https://static.netshoes.com.br/produtos/tenis-olympikus-corre-5/84/SE7-0803-784/SE7-0803-784_zoom1.jpg?ts=1782423407&ims=1088x",
     "affiliate_links": {
-      "amazon": {
-        "url": "https://amzn.to/4sz9HX0",
-        "price": 249.9,
-        "store": "Amazon",
-        "label": "Amazon",
-        "installments": ""
+      "oficial": {
+        "url": "https://tidd.ly/4uYEI7u",
+        "price": 599.99,
+        "preco_pix": 0,
+        "store": "OLYMPIKUS",
+        "label": "OLYMPIKUS",
+        "installments": "10x de R$ 59,99"
+      },
+      "netshoes": {
+        "url": "https://click.linksynergy.com/deeplink?id=NyH7xPegftk&mid=43984&murl=https%3A%2F%2Fwww.netshoes.com.br%2Fp%2Ftenis-olympikus-corre-5-SE7-0803-784",
+        "price": 599.99,
+        "preco_pix": 0,
+        "store": "Netshoes",
+        "label": "Netshoes",
+        "installments": "8x de R$ 75,00 sem juros"
       }
     },
     "tags": [
