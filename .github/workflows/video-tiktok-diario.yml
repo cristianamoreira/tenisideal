@@ -1,0 +1,46 @@
+name: Vídeo TikTok (rodízio de temas)
+
+on:
+  schedule:
+    - cron: '0 13 * * 1,3,5'   # Seg/Qua/Sex 10:00 BRT
+  workflow_dispatch:
+    inputs:
+      tema:
+        description: 'Tema (vazio = o do dia): sonhos, ate500, amort, leves, iniciante'
+        required: false
+        default: ''
+
+jobs:
+  video:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Instalar dependências (Pillow + ffmpeg)
+        run: pip install Pillow imageio-ffmpeg
+
+      - name: Instalar o Chrome (para renderizar os frames)
+        id: chrome
+        uses: browser-actions/setup-chrome@v1
+        with:
+          chrome-version: stable
+
+      - name: Gerar o vídeo e enviar por e-mail
+        env:
+          BREVO_API_KEY: ${{ secrets.BREVO_API_KEY }}
+          EMAIL_CUPONS: ${{ secrets.EMAIL_CUPONS }}
+          EMAIL_REMETENTE: ${{ secrets.EMAIL_REMETENTE }}
+          CHROME_PATH: ${{ steps.chrome.outputs.chrome-path }}
+          TEMA_VIDEO: ${{ github.event.inputs.tema }}
+        run: python3 gerar_video_tiktok.py
+
+      - name: Guardar o vídeo (backup p/ download)
+        uses: actions/upload-artifact@v4
+        with:
+          name: video-tiktok
+          path: video_tiktok.mp4
+          retention-days: 7
+          if-no-files-found: ignore
