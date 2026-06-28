@@ -3023,9 +3023,10 @@
         s += 3;
       }
 
-      // DISTÂNCIA (+3)
+      // DISTÂNCIA (+3) — "maratona" no quiz conta como "longa" (não existe esse valor nos dados)
       if (sh.distancia && sh.distancia.length > 0 && ans.distancia) {
-        if (sh.distancia.includes(ans.distancia)) {
+        var distQ = (ans.distancia === 'maratona') ? 'longa' : ans.distancia;
+        if (sh.distancia.includes(distQ) || sh.distancia.includes(ans.distancia)) {
           s += 3;
         }
       }
@@ -3063,7 +3064,8 @@
       var bo = ['ate300', '300a600', '600a1000', 'acima1000'];
       var bi = bo.indexOf(ans.orcamento);
 
-      var pool = SHOES.filter(function (sh) {
+      // SEXO. "unissex" = opção "Prefiro não responder" => não filtra por sexo (mostra tudo).
+      var pool = (sexo === 'unissex') ? SHOES.slice() : SHOES.filter(function (sh) {
         var raw = Array.isArray(sh.sexo) ? sh.sexo : [sh.sexo || ''];
         var vals = raw.map(function (v) { return (v || '').toLowerCase().replace(/\r/g, '').trim(); });
         return vals.indexOf(sexo) > -1 || vals.indexOf('unissex') > -1;
@@ -3078,6 +3080,15 @@
         pool = SHOES;
       }
 
+      // TERRENO (filtro). Trilha precisa de tênis de trilha de verdade.
+      // Só relaxa (ignora) se NÃO houver nenhum tênis daquele terreno no pool.
+      if (ans.terreno) {
+        var poolTer = pool.filter(function (sh) {
+          return sh.terreno && sh.terreno.indexOf(ans.terreno) > -1;
+        });
+        if (poolTer.length > 0) pool = poolTer;
+      }
+
       // "qualquer" = não filtra por preço; ranqueia por compatibilidade pura
       var poolOrc = (ans.orcamento === 'qualquer') ? pool.slice() : pool.filter(function (sh) {
         return sh.budget === bo[bi];
@@ -3086,7 +3097,9 @@
       // Log de depuração desabilitado em produção
       // console.log("Pool após filtro de orçamento (" + bo[bi] + "):", poolOrc.length);
 
-      if (poolOrc.length > 0) pool = poolOrc;
+      // Aplica o orçamento só se ainda sobrarem >=3 (senão relaxa o preço p/ garantir 3
+      // sugestões, sem abrir mão do terreno escolhido).
+      if (ans.orcamento === 'qualquer' || poolOrc.length >= 3) pool = poolOrc;
 
       var sc = pool.map(function (sh) { return { sh: sh, s: calcScore(sh) }; });
 
@@ -3129,17 +3142,23 @@
 
       // FALLBACK: Se não conseguiu 3 produtos, buscar mais amplo (sem filtro de nível)
       if (result.length < 3) {
-        pool = SHOES.filter(function (sh) {
+        pool = (sexo === 'unissex') ? SHOES.slice() : SHOES.filter(function (sh) {
           var raw = Array.isArray(sh.sexo) ? sh.sexo : [sh.sexo || ''];
           var vals = raw.map(function (v) { return (v || '').toLowerCase().replace(/\r/g, '').trim(); });
           return vals.indexOf(sexo) > -1 || vals.indexOf('unissex') > -1;
         });
 
+        // mantém o terreno também no fallback (não volta a misturar trilha com rua)
+        if (ans.terreno) {
+          var poolTerF = pool.filter(function (sh) { return sh.terreno && sh.terreno.indexOf(ans.terreno) > -1; });
+          if (poolTerF.length > 0) pool = poolTerF;
+        }
+
         var poolOrc2 = pool.filter(function (sh) {
           return sh.budget === bo[bi];
         });
 
-        if (poolOrc2.length > 0) pool = poolOrc2;
+        if (poolOrc2.length >= 3) pool = poolOrc2;
 
         var sc2 = pool.map(function (sh) { return { sh: sh, s: Math.random() }; });
         sc2.sort(function (a, b) {
