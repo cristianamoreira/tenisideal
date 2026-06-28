@@ -1,4 +1,4 @@
-name: Arte Instagram (cupons do dia)
+name: Arte Instagram (Destaque do dia)
 
 on:
   schedule:
@@ -16,13 +16,18 @@ jobs:
       - name: Instalar Pillow
         run: pip install Pillow
 
+      - name: Instalar o Chrome (para renderizar a arte)
+        id: chrome
+        uses: browser-actions/setup-chrome@v1
+        with:
+          chrome-version: stable
+
       - name: Gerar a arte e enviar por e-mail
         env:
-          AWIN_API_TOKEN: ${{ secrets.AWIN_API_TOKEN }}
-          AWIN_PUBLISHER_ID: '2800712'
           BREVO_API_KEY: ${{ secrets.BREVO_API_KEY }}
           EMAIL_CUPONS: ${{ secrets.EMAIL_CUPONS }}
           EMAIL_REMETENTE: ${{ secrets.EMAIL_REMETENTE }}
+          CHROME_PATH: ${{ steps.chrome.outputs.chrome-path }}
         run: python3 gerar_arte_instagram.py
 
       - name: Guardar as artes (backup p/ download)
