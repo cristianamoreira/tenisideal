@@ -1,4 +1,4 @@
-name: Cupons Awin diários
+name: Cupons e ofertas diárias
 
 on:
   schedule:
@@ -17,7 +17,7 @@ jobs:
         with:
           python-version: '3.11'
 
-      - name: Gerar a mensagem de cupons
+      - name: Gerar a mensagem de cupons + ofertas
         env:
           AWIN_API_TOKEN: ${{ secrets.AWIN_API_TOKEN }}
           AWIN_PUBLISHER_ID: '2800712'

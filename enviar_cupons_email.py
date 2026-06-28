@@ -48,7 +48,7 @@ def main():
     body = {
         "sender": {"email": REMETENTE, "name": "Cupons Tênis Ideal"},
         "to": [{"email": EMAIL}],
-        "subject": f"🔥 Cupons do dia {hoje} — cole no WhatsApp",
+        "subject": f"🔥 Cupons e ofertas do dia {hoje} — cole no WhatsApp",
         "htmlContent": html,
         "textContent": mensagem,
     }
