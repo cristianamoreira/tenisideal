@@ -129,7 +129,7 @@ def baixar(url):
 
 
 def recortar(raw):
-    from PIL import Image, ImageDraw
+    from PIL import Image, ImageDraw, ImageFilter
     img = Image.open(io.BytesIO(raw)).convert("RGB")
     w, h = img.size
     if not all(sum(img.getpixel(p)) / 3 > 200 for p in [(1, 1), (w - 2, 1), (1, h - 2), (w - 2, h - 2)]):
@@ -145,6 +145,9 @@ def recortar(raw):
             r, g, b, a = px[x, y]
             if r > 250 and g < 6 and b > 250:
                 px[x, y] = (0, 0, 0, 0)
+    # defringe: erode a borda ~2px + suaviza (tira o "halo" branco em tênis claros)
+    a = rgba.split()[3].filter(ImageFilter.MinFilter(5)).filter(ImageFilter.GaussianBlur(0.8))
+    rgba.putalpha(a)
     bb = rgba.getbbox()
     return rgba.crop(bb) if bb else rgba
 
