@@ -24,18 +24,35 @@ AMARELO = (200, 255, 0)
 BRANCO = (245, 245, 245)
 CINZA = (150, 150, 150)
 
-FONT_PATHS = [
-    "/usr/share/fonts/truetype/dejavu/DejaVuSans-Bold.ttf",       # GitHub Actions
-    "/System/Library/Fonts/Supplemental/Arial Bold.ttf",          # macOS
-    "/Library/Fonts/Arial Bold.ttf",
-]
+# Bebas Neue (títulos condensados, = logo do site) + Montserrat (corpo limpo)
+FONTES_BEBAS = ["BebasNeue.ttf", "/tmp/BebasNeue.ttf",
+                "/usr/share/fonts/truetype/dejavu/DejaVuSans-Bold.ttf",
+                "/System/Library/Fonts/Supplemental/Arial Bold.ttf"]
+FONTES_MONT = ["Montserrat.ttf", "/tmp/Montserrat.ttf",
+               "/usr/share/fonts/truetype/dejavu/DejaVuSans.ttf",
+               "/System/Library/Fonts/Supplemental/Arial.ttf"]
 
 
-def fonte(tam):
-    for p in FONT_PATHS:
+def _carregar(paths, tam):
+    for p in paths:
         if os.path.exists(p):
-            return ImageFont.truetype(p, tam)
+            try:
+                return ImageFont.truetype(p, tam)
+            except Exception:
+                pass
     return ImageFont.load_default()
+
+
+def bebas(tam):
+    return _carregar(FONTES_BEBAS, tam)
+
+
+def mont(tam):
+    return _carregar(FONTES_MONT, tam)
+
+
+def fonte(tam):   # compat
+    return bebas(tam)
 
 
 def centro(draw, y, texto, font, cor):
@@ -43,85 +60,70 @@ def centro(draw, y, texto, font, cor):
     draw.text(((W - w) / 2, y), texto, font=font, fill=cor)
 
 
-def quebrar(draw, texto, font, larg_max):
-    palavras, linhas, atual = texto.split(), [], ""
-    for p in palavras:
-        teste = (atual + " " + p).strip()
-        if draw.textlength(teste, font=font) <= larg_max:
-            atual = teste
-        else:
-            if atual:
-                linhas.append(atual)
-            atual = p
-    if atual:
-        linhas.append(atual)
-    return linhas[:2]
+# ───── identidade visual compartilhada (mesma em todos os posts) ─────
+def desenhar_header(d):
+    f = bebas(78)
+    t1, t2 = "TÊNIS", "IDEAL"
+    w1 = d.textlength(t1, font=f)
+    w2 = d.textlength(t2, font=f)
+    x0 = (W - (w1 + w2)) / 2
+    d.text((x0, 54), t1, font=f, fill=BRANCO)
+    d.text((x0 + w1, 54), t2, font=f, fill=AMARELO)
+
+
+def desenhar_chip(d, y, texto):
+    f = bebas(40)
+    w = d.textlength(texto, font=f)
+    x0 = (W - w) / 2 - 30
+    x1 = (W + w) / 2 + 30
+    d.rounded_rectangle([x0, y, x1, y + 62], radius=31, fill=AMARELO)
+    d.text(((W - w) / 2, y + 9), texto, font=f, fill=PRETO)
+
+
+def desenhar_rodape(d):
+    d.rectangle([0, 950, W, H], fill=AMARELO)
+    centro(d, 968, "@TENISIDEAL_BR", bebas(50), PRETO)
+    centro(d, 1028, "tenisideal.com.br", mont(23), (35, 35, 35))
 
 
 def gerar_imagem(loja, codigo, titulo, idx):
     img = Image.new("RGB", (W, H), PRETO)
     d = ImageDraw.Draw(img)
+    desenhar_header(d)
+    desenhar_chip(d, 168, "CUPOM DO DIA")
 
-    # borda amarela fina
-    d.rectangle([18, 18, W - 18, H - 18], outline=AMARELO, width=4)
-
-    # selo de desconto (canto superior direito) se o título tiver %
-    mdesc = re.search(r"(\d{1,2})\s*%", titulo or "")
-    if mdesc:
-        cx, cy, r0 = W - 165, 165, 100
+    # selo de desconto (círculo, canto superior direito)
+    m = re.search(r"(\d{1,2})\s*%", titulo or "")
+    if m:
+        cx, cy, r0 = W - 158, 200, 96
         d.ellipse([cx - r0, cy - r0, cx + r0, cy + r0], fill=AMARELO)
-        ftxt = fonte(58)
-        t_pct = mdesc.group(1) + "%"
-        wt = d.textlength(t_pct, font=ftxt)
-        d.text((cx - wt / 2, cy - 50), t_pct, font=ftxt, fill=PRETO)
-        foff = fonte(30)
-        wo = d.textlength("OFF", font=foff)
-        d.text((cx - wo / 2, cy + 14), "OFF", font=foff, fill=PRETO)
+        fp = bebas(70)
+        pct = m.group(1) + "%"
+        wp = d.textlength(pct, font=fp)
+        d.text((cx - wp / 2, cy - 62), pct, font=fp, fill=PRETO)
+        fo = bebas(36)
+        wo = d.textlength("OFF", font=fo)
+        d.text((cx - wo / 2, cy + 12), "OFF", font=fo, fill=PRETO)
 
-    # logo
-    f_logo = fonte(58)
-    txt1, txt2 = "TÊNIS", "IDEAL"
-    w1 = d.textlength(txt1, font=f_logo)
-    w2 = d.textlength(txt2, font=f_logo)
-    x0 = (W - (w1 + w2)) / 2
-    d.text((x0, 95), txt1, font=f_logo, fill=BRANCO)
-    d.text((x0 + w1, 95), txt2, font=f_logo, fill=AMARELO)
+    # nome da loja (grande, condensada)
+    centro(d, 318, loja.upper()[:18], bebas(140), BRANCO)
 
-    # selo "CUPOM DO DIA"
-    centro(d, 235, "CUPOM DO DIA", fonte(40), AMARELO)
+    # descrição (Montserrat, limpa)
+    y = 512
+    for ln in quebrar_linhas(d, sem_emoji(titulo), mont(30), W - 200, 3):
+        centro(d, y, ln, mont(30), CINZA)
+        y += 46
 
-    # nome da loja (grande)
-    centro(d, 330, loja.upper()[:16], fonte(104), BRANCO)
+    # caixa do código
+    centro(d, 700, "USE O CUPOM", mont(26), BRANCO)
+    fc = bebas(100)
+    wc = d.textlength(codigo.upper(), font=fc)
+    bx0 = (W - wc) / 2 - 46
+    bx1 = (W + wc) / 2 + 46
+    d.rounded_rectangle([bx0, 748, bx1, 880], radius=22, fill=AMARELO)
+    d.text(((W - wc) / 2, 762), codigo.upper(), font=fc, fill=PRETO)
 
-    # título do cupom (até 2 linhas)
-    if titulo:
-        f_t = fonte(38)
-        linhas = quebrar(d, titulo, f_t, W - 200)
-        y = 480
-        for ln in linhas:
-            centro(d, y, ln, f_t, CINZA)
-            y += 52
-
-    # caixa do código (amarela)
-    if codigo:
-        centro(d, 640, "USE O CUPOM", fonte(34), BRANCO)
-        f_cod = fonte(86)
-        wc = d.textlength(codigo.upper(), font=f_cod)
-        bx0 = (W - wc) / 2 - 40
-        bx1 = (W + wc) / 2 + 40
-        d.rounded_rectangle([bx0, 700, bx1, 830], radius=18, fill=AMARELO)
-        d.text(((W - wc) / 2, 716), codigo.upper(), font=f_cod, fill=PRETO)
-
-    # rodapé
-    centro(d, 905, "Aproveite no site da loja oficial", fonte(32), CINZA)
-    f_rod = fonte(40)
-    t1, t2 = "tenisideal.com.br   ", "@tenisideal_br"
-    wr1 = d.textlength(t1, font=f_rod)
-    wr2 = d.textlength(t2, font=f_rod)
-    xr = (W - (wr1 + wr2)) / 2
-    d.text((xr, 975), t1, font=f_rod, fill=BRANCO)
-    d.text((xr + wr1, 975), t2, font=f_rod, fill=AMARELO)
-
+    desenhar_rodape(d)
     nome = f"arte_cupom_{idx}.png"
     img.save(nome, "PNG")
     return nome
@@ -189,37 +191,28 @@ def conteudo_do_dia():
 def gerar_imagem_info(titulo, texto, idx):
     img = Image.new("RGB", (W, H), PRETO)
     d = ImageDraw.Draw(img)
-    d.rectangle([18, 18, W - 18, H - 18], outline=AMARELO, width=4)
-    # logo
-    fl = fonte(54)
-    t1, t2 = "TÊNIS", "IDEAL"
-    w1 = d.textlength(t1, font=fl)
-    w2 = d.textlength(t2, font=fl)
-    x0 = (W - (w1 + w2)) / 2
-    d.text((x0, 90), t1, font=fl, fill=BRANCO)
-    d.text((x0 + w1, 90), t2, font=fl, fill=AMARELO)
-    centro(d, 205, "DICA DO DIA", fonte(36), AMARELO)
-    # título
-    ft = fonte(56)
-    y = 310
-    for ln in quebrar_linhas(d, sem_emoji(titulo), ft, W - 150, 2):
+    desenhar_header(d)
+    desenhar_chip(d, 168, "DICA DO DIA")
+
+    # título (Bebas condensada — cabe bastante)
+    ft = bebas(86)
+    y = 300
+    for ln in quebrar_linhas(d, sem_emoji(titulo), ft, W - 130, 2):
         centro(d, y, ln, ft, BRANCO)
-        y += 68
-    # texto
-    fx = fonte(37)
-    y = max(y + 40, 480)
-    for ln in quebrar_linhas(d, sem_emoji(texto), fx, W - 170, 6):
-        centro(d, y, ln, fx, CINZA)
-        y += 52
-    # CTA
-    centro(d, 880, "Descubra o seu no nosso quiz:", fonte(32), BRANCO)
-    fr = fonte(40)
-    a, bb = "tenisideal.com.br   ", "@tenisideal_br"
-    wa = d.textlength(a, font=fr)
-    wb = d.textlength(bb, font=fr)
-    xr = (W - (wa + wb)) / 2
-    d.text((xr, 945), a, font=fr, fill=BRANCO)
-    d.text((xr + wa, 945), bb, font=fr, fill=AMARELO)
+        y += 82
+
+    # divisor amarelo curto
+    y += 18
+    d.rectangle([(W / 2) - 40, y, (W / 2) + 40, y + 5], fill=AMARELO)
+    y += 38
+
+    # texto (Montserrat)
+    for ln in quebrar_linhas(d, sem_emoji(texto), mont(34), W - 180, 6):
+        centro(d, y, ln, mont(34), CINZA)
+        y += 50
+
+    centro(d, 884, "DESCUBRA O SEU NO NOSSO QUIZ", bebas(40), AMARELO)
+    desenhar_rodape(d)
     nome = f"arte_info_{idx}.png"
     img.save(nome, "PNG")
     return nome
