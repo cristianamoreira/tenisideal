@@ -145,8 +145,16 @@ def recortar(raw):
             r, g, b, a = px[x, y]
             if r > 250 and g < 6 and b > 250:
                 px[x, y] = (0, 0, 0, 0)
-    # defringe: erode a borda ~2px + suaviza (tira o "halo" branco em tênis claros)
-    a = rgba.split()[3].filter(ImageFilter.MinFilter(5)).filter(ImageFilter.GaussianBlur(0.8))
+    # remove a SOMBRA cinza do chão (cinza-médio, baixa saturação) na metade de baixo;
+    # preserva a sola branca (clara demais) e as partes pretas (escuras demais) do tênis
+    for y in range(int(h * 0.5), h):
+        for x in range(w):
+            r, g, b, a = px[x, y]
+            if a and (max(r, g, b) - min(r, g, b)) < 30 and 128 < min(r, g, b) < 216:
+                px[x, y] = (0, 0, 0, 0)
+    # defringe: mediana (tira respingos) + erode leve + suaviza
+    a = rgba.split()[3]
+    a = a.filter(ImageFilter.MedianFilter(5)).filter(ImageFilter.MinFilter(3)).filter(ImageFilter.GaussianBlur(0.9))
     rgba.putalpha(a)
     bb = rgba.getbbox()
     return rgba.crop(bb) if bb else rgba
