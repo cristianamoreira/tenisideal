@@ -156,7 +156,86 @@ def gerar_legenda(loja, codigo, titulo):
     )
 
 
-def enviar_email(items):
+def sem_emoji(s):
+    return re.sub(r'[\U0001F000-\U0001FAFF☀-➿️←-⇿]', '', s or '').strip()
+
+
+def quebrar_linhas(d, texto, font, larg, maxn):
+    palavras, linhas, atual = (texto or '').split(), [], ""
+    for p in palavras:
+        t = (atual + " " + p).strip()
+        if d.textlength(t, font=font) <= larg:
+            atual = t
+        else:
+            if atual:
+                linhas.append(atual)
+            atual = p
+    if atual:
+        linhas.append(atual)
+    return linhas[:maxn]
+
+
+def conteudo_do_dia():
+    try:
+        from gerar_campanha_email import CONTEUDO
+    except Exception:
+        CONTEUDO = [{"titulo": "Qual é o seu tênis ideal?",
+                     "texto": "Faça o teste e descubra o tênis perfeito pro seu perfil em 60 segundos."}]
+    idx = datetime.date.today().timetuple().tm_yday % len(CONTEUDO)
+    b = CONTEUDO[idx]
+    return b["titulo"], re.sub(r"<[^>]+>", "", b["texto"])
+
+
+def gerar_imagem_info(titulo, texto, idx):
+    img = Image.new("RGB", (W, H), PRETO)
+    d = ImageDraw.Draw(img)
+    d.rectangle([18, 18, W - 18, H - 18], outline=AMARELO, width=4)
+    # logo
+    fl = fonte(54)
+    t1, t2 = "TÊNIS", "IDEAL"
+    w1 = d.textlength(t1, font=fl)
+    w2 = d.textlength(t2, font=fl)
+    x0 = (W - (w1 + w2)) / 2
+    d.text((x0, 90), t1, font=fl, fill=BRANCO)
+    d.text((x0 + w1, 90), t2, font=fl, fill=AMARELO)
+    centro(d, 205, "DICA DO DIA", fonte(36), AMARELO)
+    # título
+    ft = fonte(56)
+    y = 310
+    for ln in quebrar_linhas(d, sem_emoji(titulo), ft, W - 150, 2):
+        centro(d, y, ln, ft, BRANCO)
+        y += 68
+    # texto
+    fx = fonte(37)
+    y = max(y + 40, 480)
+    for ln in quebrar_linhas(d, sem_emoji(texto), fx, W - 170, 6):
+        centro(d, y, ln, fx, CINZA)
+        y += 52
+    # CTA
+    centro(d, 880, "Descubra o seu no nosso quiz:", fonte(32), BRANCO)
+    fr = fonte(40)
+    a, bb = "tenisideal.com.br   ", "@tenisideal_br"
+    wa = d.textlength(a, font=fr)
+    wb = d.textlength(bb, font=fr)
+    xr = (W - (wa + wb)) / 2
+    d.text((xr, 945), a, font=fr, fill=BRANCO)
+    d.text((xr + wa, 945), bb, font=fr, fill=AMARELO)
+    nome = f"arte_info_{idx}.png"
+    img.save(nome, "PNG")
+    return nome
+
+
+def legenda_info(titulo, texto):
+    return (
+        f"{titulo}\n\n{texto}\n\n"
+        f"👟 Descubra o tênis ideal pro seu perfil no nosso quiz (link na bio)!\n"
+        f"📲 Siga @tenisideal_br pra mais dicas de corrida.\n\n"
+        f"#tenisdecorrida #corrida #running #corredores #vidadecorredor "
+        f"#dicasdecorrida #treino #maratona #pisada #tenisideal"
+    )
+
+
+def enviar_email(posts):
     key = os.environ.get("BREVO_API_KEY", "")
     email = os.environ.get("EMAIL_CUPONS", "")
     remet = os.environ.get("EMAIL_REMETENTE") or "cupons@tenisideal.com.br"
@@ -165,25 +244,24 @@ def enviar_email(items):
         return
     anexos = []
     blocos = ""
-    for it in items:
-        with open(it["nome"], "rb") as f:
-            anexos.append({"content": base64.b64encode(f.read()).decode(), "name": it["nome"]})
-        legenda = gerar_legenda(it["loja"], it["codigo"], it["titulo"])
-        leg_html = legenda.replace("&", "&amp;").replace("<", "&lt;").replace(">", "&gt;")
+    for p in posts:
+        with open(p["nome"], "rb") as f:
+            anexos.append({"content": base64.b64encode(f.read()).decode(), "name": p["nome"]})
+        leg_html = p["legenda"].replace("&", "&amp;").replace("<", "&lt;").replace(">", "&gt;")
         blocos += (
-            f"<p style='font-family:sans-serif;margin:20px 0 6px;'><b>📎 {it['nome']}</b> "
-            f"({it['loja']}) — legenda pronta, é só copiar:</p>"
+            f"<p style='font-family:sans-serif;margin:22px 0 6px;'><b>{p['label']}</b> "
+            f"&nbsp;·&nbsp; arquivo <b>{p['nome']}</b> — legenda pronta, é só copiar:</p>"
             f"<pre style='font-family:sans-serif;white-space:pre-wrap;background:#f5f5f5;"
             f"border:1px solid #ddd;border-radius:8px;padding:14px;font-size:14px;'>{leg_html}</pre>"
         )
     hoje = datetime.date.today().strftime("%d/%m")
-    html = ("<p style='font-family:sans-serif'>Bom dia! 👋 Aqui está a arte de hoje pro Instagram. "
-            "<b>Baixe a imagem em anexo</b>, copie a legenda abaixo e poste no "
-            "<b>@tenisideal_br</b> (feed ou stories).</p>" + blocos)
+    html = ("<p style='font-family:sans-serif'>Bom dia! 👋 Aqui estão os <b>2 posts de hoje</b> pro "
+            "Instagram (1 cupom + 1 informativo). Baixe as imagens em anexo, copie a legenda de cada "
+            "uma e poste no <b>@tenisideal_br</b>.</p>" + blocos)
     body = {
-        "sender": {"email": remet, "name": "Arte Instagram - Tênis Ideal"},
+        "sender": {"email": remet, "name": "Posts Instagram - Tênis Ideal"},
         "to": [{"email": email}],
-        "subject": f"📸 Arte do dia {hoje} pro Instagram ({len(items)})",
+        "subject": f"📸 Posts do dia {hoje} pro Instagram ({len(posts)})",
         "htmlContent": html,
         "attachment": anexos,
     }
@@ -198,24 +276,28 @@ def enviar_email(items):
 
 
 def main():
-    cupons = buscar_cupons()
-    items = []
-    for i, p in enumerate(cupons[:6], 1):
+    posts = []
+
+    # 1) POST DE CUPOM (o melhor cupom do dia)
+    for p in buscar_cupons():
         loja = (p.get("advertiser") or {}).get("name") or p.get("advertiserName") or "Tênis Ideal"
         loja = loja.replace(" BR", "").replace(" Brasil", "").strip()
         codigo = (p.get("voucher") or {}).get("code") or p.get("code")
         titulo = (p.get("title") or p.get("description") or "").strip()
-        if not codigo:
-            continue
-        nome = gerar_imagem(loja, codigo, titulo, i)
-        items.append({"nome": nome, "loja": loja, "codigo": codigo, "titulo": titulo})
+        if codigo:
+            nome = gerar_imagem(loja, codigo, titulo, 1)
+            posts.append({"nome": nome, "legenda": gerar_legenda(loja, codigo, titulo),
+                          "label": f"🎟️ POST 1 — Cupom ({loja})"})
+            break   # 1 cupom por dia
 
-    if not items:
-        print("Nenhum cupom com código hoje — nada a gerar.", file=sys.stderr)
-        return
+    # 2) POST INFORMATIVO (gira a cada dia)
+    tit, txt = conteudo_do_dia()
+    nome_info = gerar_imagem_info(tit, txt, 1)
+    posts.append({"nome": nome_info, "legenda": legenda_info(tit, txt),
+                  "label": "💡 POST 2 — Informativo"})
 
-    print(f"🎨 {len(items)} arte(s) gerada(s).")
-    enviar_email(items)
+    print(f"🎨 {len(posts)} post(s) gerado(s).")
+    enviar_email(posts)
 
 
 if __name__ == "__main__":

@@ -29,6 +29,6 @@ jobs:
         uses: actions/upload-artifact@v4
         with:
           name: artes-instagram
-          path: arte_cupom_*.png
+          path: arte_*.png
           retention-days: 7
           if-no-files-found: ignore
