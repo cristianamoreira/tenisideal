@@ -2668,6 +2668,7 @@
       <div class="rtag">✅ Análise Completa</div>
       <h2 class="rtitle">Suas <span class="acc">3 Melhores</span><br>Indicações</h2>
       <p class="rsub" id="resSub"></p>
+      <div id="trailNotice" style="display:none;background:#1d2a1d;border:1px solid #2f5132;color:#cfe8cf;border-radius:10px;padding:14px 16px;margin:0 0 18px;font-size:14px;line-height:1.55;text-align:left"></div>
       <div class="profile-card" id="profileCard" style="display:none">
         <div class="profile-card-header">
           <div class="profile-emoji" id="profileEmoji">🏃</div>
@@ -3018,9 +3019,9 @@
         }
       }
 
-      // TERRENO (+3)
+      // TERRENO (+5 para trilha — mais decisivo; +3 demais)
       if (sh.terreno && sh.terreno.includes(ans.terreno)) {
-        s += 3;
+        s += (ans.terreno === 'trilha') ? 5 : 3;
       }
 
       // DISTÂNCIA (+3)
@@ -3058,10 +3059,17 @@
       return s;
 
     }
+    function isTrail(sh) {
+      return !!(sh.terreno && sh.terreno.indexOf('trilha') > -1);
+    }
+
     function getTop3() {
       var sexo = ans.sexo;
       var bo = ['ate300', '300a600', '600a1000', 'acima1000'];
       var bi = bo.indexOf(ans.orcamento);
+
+      // Contexto p/ a UI decidir o aviso de trilha
+      window._trailInfo = { wanted: ans.terreno === 'trilha', trailCount: 0, relaxedBudget: false, relaxedSexo: false };
 
       var pool = SHOES.filter(function (sh) {
         var raw = Array.isArray(sh.sexo) ? sh.sexo : [sh.sexo || ''];
@@ -3078,6 +3086,9 @@
         pool = SHOES;
       }
 
+      // Pool filtrado só por sexo (antes do orçamento) — base p/ priorizar trilha
+      var poolSexo = pool.slice();
+
       // "qualquer" = não filtra por preço; ranqueia por compatibilidade pura
       var poolOrc = (ans.orcamento === 'qualquer') ? pool.slice() : pool.filter(function (sh) {
         return sh.budget === bo[bi];
@@ -3088,15 +3099,40 @@
 
       if (poolOrc.length > 0) pool = poolOrc;
 
-      var sc = pool.map(function (sh) { return { sh: sh, s: calcScore(sh) }; });
-
-      // Desempate pelo menor preço
-      sc.sort(function (a, b) {
+      var sortByScoreThenPrice = function (a, b) {
         if (b.s !== a.s) return b.s - a.s;
         var pa = calcShoePrice(a.sh) || Infinity;
         var pb = calcShoePrice(b.sh) || Infinity;
         return pa - pb;
-      });
+      };
+
+      var sc = pool.map(function (sh) { return { sh: sh, s: calcScore(sh) }; });
+      // Desempate pelo menor preço
+      sc.sort(sortByScoreThenPrice);
+
+      // PRIORIDADE DE TRILHA: quando o usuário pede trilha, tênis de trilha vêm primeiro,
+      // ignorando o filtro rígido de orçamento (catálogo de trilha é pequeno).
+      var trailSc = [];
+      if (ans.terreno === 'trilha') {
+        var trailBase = poolSexo.filter(isTrail);
+        // "Prefiro não responder" (unissex): não há trilha unissex no catálogo → inclui masc+fem
+        if (trailBase.length === 0 && (sexo === 'unissex' || !sexo)) {
+          trailBase = SHOES.filter(isTrail);
+          if (trailBase.length > 0) window._trailInfo.relaxedSexo = true;
+        }
+        window._trailInfo.trailCount = trailBase.length;
+        // Marca se precisou sair da faixa de preço escolhida
+        if (trailBase.length > 0 && ans.orcamento !== 'qualquer' && bi > -1) {
+          var temNaFaixa = trailBase.some(function (sh) { return sh.budget === bo[bi]; });
+          window._trailInfo.relaxedBudget = !temNaFaixa;
+        }
+        trailSc = trailBase.map(function (sh) { return { sh: sh, s: calcScore(sh) }; });
+        trailSc.sort(sortByScoreThenPrice);
+      }
+
+      // Lista final: trilha primeiro (quando pedida), depois o ranking geral.
+      // O dedupe por 'key' evita repetir um modelo que apareça nas duas listas.
+      var ranked = trailSc.concat(sc);
 
       // Filtrar duplicatas E garantir uma de cada marca quando possível
       var seen = {};
@@ -3104,26 +3140,26 @@
       var result = [];
 
       // Primeiro passar: Pegar uma de cada marca
-      for (var i = 0; i < sc.length && result.length < 3; i++) {
-        var sh = sc[i].sh;
+      for (var i = 0; i < ranked.length && result.length < 3; i++) {
+        var sh = ranked[i].sh;
         var key = (sh.brand || '') + '|' + (sh.name || '');
         var brand = sh.brand || '';
 
         if (!seen[key] && !seenBrands[brand]) {
           seen[key] = true;
           seenBrands[brand] = true;
-          result.push({ sh: sh, score: sc[i].s });
+          result.push({ sh: sh, score: ranked[i].s });
         }
       }
 
       // Segundo passar: Se não conseguiu 3, preencher com qualquer outro
-      for (var i = 0; i < sc.length && result.length < 3; i++) {
-        var sh = sc[i].sh;
+      for (var i = 0; i < ranked.length && result.length < 3; i++) {
+        var sh = ranked[i].sh;
         var key = (sh.brand || '') + '|' + (sh.name || '');
 
         if (!seen[key]) {
           seen[key] = true;
-          result.push({ sh: sh, score: sc[i].s });
+          result.push({ sh: sh, score: ranked[i].s });
         }
       }
 
@@ -3441,6 +3477,26 @@
         if (typeof gtag !== 'undefined') gtag('event', 'quiz_completed');
         if (typeof ttq !== 'undefined') ttq.track('CompleteRegistration', { content_name: 'quiz_completed' });
         var tops = getTop3();
+
+        // Aviso de trilha: honesto quando faltam modelos específicos ou foi preciso relaxar faixa/sexo
+        (function () {
+          var notice = document.getElementById('trailNotice');
+          if (!notice) return;
+          var info = window._trailInfo || {};
+          var trailMostrados = (tops || []).filter(function (t) { return isTrail(t.sh); }).length;
+          var msg = '';
+          if (info.wanted) {
+            if (info.trailCount === 0) {
+              msg = '🌲 Ainda não temos tênis específicos de <strong>trilha</strong> para esse perfil. Abaixo, opções versáteis que se saem bem fora do asfalto.';
+            } else if (trailMostrados < 3) {
+              msg = '🌲 Ainda não temos 3 tênis específicos de <strong>trilha</strong> para esse perfil — completamos com modelos versáteis que também encaram terreno irregular.';
+            } else if (info.relaxedBudget || info.relaxedSexo) {
+              msg = '🌲 Os tênis de <strong>trilha</strong> ideais para você estão em outra faixa de preço — mostramos as melhores opções de trilha disponíveis no momento.';
+            }
+          }
+          if (msg) { notice.innerHTML = msg; notice.style.display = 'block'; }
+          else { notice.style.display = 'none'; }
+        })();
 
         // Guarda o tênis #1 para usar no submitEmail
         window._topTenis = (tops && tops.length > 0) ? tops[0].sh : null;

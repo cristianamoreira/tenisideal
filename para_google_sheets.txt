@@ -31,3 +31,7 @@ OLYMPIKUS	Orbita	Running	R$ 200-300	https://www.olympikus.com.br/search?q=Orbita
 OLYMPIKUS	Essence	Running	R$ 200-300	https://www.olympikus.com.br/search?q=Essence	https://www.amazon.com.br/s?k=Olympikus%20Essence	https://www.netshoes.com.br/search?q=Olympikus%20Essence
 OLYMPIKUS	Rua	Running	R$ 200-250	https://www.olympikus.com.br/search?q=Rua	https://www.amazon.com.br/s?k=Olympikus%20Rua	https://www.netshoes.com.br/search?q=Olympikus%20Rua
 OLYMPIKUS	Marte	Running	R$ 150-250	https://www.olympikus.com.br/search?q=Marte	https://www.amazon.com.br/s?k=Olympikus%20Marte	https://www.netshoes.com.br/search?q=Olympikus%20Marte
+FILA	Windshark 2	Trail	R$ 250-300	https://www.fila.com.br/busca?q=Windshark%202	https://www.amazon.com.br/s?k=Fila%20Windshark%202	https://www.netshoes.com.br/search?q=Fila%20Windshark%202
+ADIDAS	Terrex Soulstride	Trail	R$ 500-600	https://www.adidas.com.br/search?q=Terrex%20Soulstride	https://www.amazon.com.br/s?k=Adidas%20Terrex%20Soulstride	https://www.netshoes.com.br/search?q=Adidas%20Terrex%20Soulstride
+MIZUNO	Wave Ibuki 4	Trail	R$ 500-600	https://www.mizuno.com.br/busca?q=Wave%20Ibuki%204	https://www.amazon.com.br/s?k=Mizuno%20Wave%20Ibuki%204	https://www.netshoes.com.br/search?q=Mizuno%20Wave%20Ibuki%204
+SALOMON	Sense Ride 5	Trail	R$ 750-850	https://www.salomon.com/pt-br/search?q=Sense%20Ride%205	https://www.amazon.com.br/s?k=Salomon%20Sense%20Ride%205	https://www.netshoes.com.br/search?q=Salomon%20Sense%20Ride%205

@@ -4601,5 +4601,249 @@
     ],
     "description": "Tecnologia Charged no solado para amortecimento responsivo e retorno de energia. Cabedal em mesh respirável para conforto em treinos diários",
     "reason": "Tecnologia Charged no solado para amortecimento responsivo e retorno de energia. Cabedal em mesh respirável para conforto em treinos diários"
+  },
+  {
+    "brand": "FILA",
+    "name": "Windshark 2",
+    "slug": "fila-windshark-2-trail",
+    "sexo": [
+      "masculino"
+    ],
+    "budget": "ate300",
+    "price": 279.9,
+    "price_formatted": "R$ 279,90",
+    "levels": [
+      "iniciante",
+      "intermediario"
+    ],
+    "pisada": [
+      "neutra",
+      "supinada"
+    ],
+    "terreno": [
+      "trilha",
+      "mista",
+      "esteira"
+    ],
+    "distancia": [
+      "curta",
+      "media",
+      "longa"
+    ],
+    "photo": "",
+    "affiliate_links": {
+      "oficial": {
+        "url": "https://www.fila.com.br/busca?q=Windshark%202",
+        "price": 279.9,
+        "preco_pix": 0,
+        "store": "FILA",
+        "label": "FILA",
+        "installments": ""
+      },
+      "amazon": {
+        "url": "https://www.amazon.com.br/s?k=Fila%20Windshark%202",
+        "price": 279.9,
+        "store": "Amazon",
+        "label": "Amazon",
+        "installments": ""
+      },
+      "netshoes": {
+        "url": "https://www.netshoes.com.br/busca?q=Fila%20Windshark%202",
+        "price": 279.9,
+        "store": "Netshoes",
+        "label": "Netshoes",
+        "installments": ""
+      }
+    },
+    "tags": [
+      "Trilha",
+      "Custo-benefício"
+    ],
+    "description": "Tênis de trilha de entrada com solado em borracha de alta aderência para terrenos irregulares. Bom custo-benefício para quem está começando no off-road.",
+    "reason": "Tênis de trilha de entrada com solado em borracha de alta aderência para terrenos irregulares. Bom custo-benefício para quem está começando no off-road.",
+    "_needsReview": true
+  },
+  {
+    "brand": "ADIDAS",
+    "name": "Terrex Soulstride",
+    "slug": "adidas-terrex-soulstride-trail",
+    "sexo": [
+      "feminino"
+    ],
+    "budget": "300a600",
+    "price": 549.9,
+    "price_formatted": "R$ 549,90",
+    "levels": [
+      "intermediario",
+      "avancado"
+    ],
+    "pisada": [
+      "neutra",
+      "supinada"
+    ],
+    "terreno": [
+      "trilha",
+      "mista",
+      "esteira"
+    ],
+    "distancia": [
+      "curta",
+      "media",
+      "longa"
+    ],
+    "photo": "",
+    "affiliate_links": {
+      "oficial": {
+        "url": "https://www.adidas.com.br/search?q=Terrex%20Soulstride",
+        "price": 549.9,
+        "preco_pix": 0,
+        "store": "ADIDAS",
+        "label": "ADIDAS",
+        "installments": ""
+      },
+      "amazon": {
+        "url": "https://www.amazon.com.br/s?k=Adidas%20Terrex%20Soulstride",
+        "price": 549.9,
+        "store": "Amazon",
+        "label": "Amazon",
+        "installments": ""
+      },
+      "netshoes": {
+        "url": "https://www.netshoes.com.br/busca?q=Adidas%20Terrex%20Soulstride",
+        "price": 549.9,
+        "store": "Netshoes",
+        "label": "Netshoes",
+        "installments": ""
+      }
+    },
+    "tags": [
+      "Trilha",
+      "Tração"
+    ],
+    "description": "Trail running com tração Continental e amortecimento Bounce, equilibrando leveza e proteção em trilhas técnicas.",
+    "reason": "Trail running com tração Continental e amortecimento Bounce, equilibrando leveza e proteção em trilhas técnicas.",
+    "_needsReview": true
+  },
+  {
+    "brand": "MIZUNO",
+    "name": "Wave Ibuki 4",
+    "slug": "mizuno-wave-ibuki-4-trail",
+    "sexo": [
+      "feminino"
+    ],
+    "budget": "300a600",
+    "price": 549.9,
+    "price_formatted": "R$ 549,90",
+    "levels": [
+      "iniciante",
+      "intermediario"
+    ],
+    "pisada": [
+      "neutra",
+      "supinada"
+    ],
+    "terreno": [
+      "trilha",
+      "mista",
+      "esteira"
+    ],
+    "distancia": [
+      "curta",
+      "media",
+      "longa"
+    ],
+    "photo": "",
+    "affiliate_links": {
+      "oficial": {
+        "url": "https://www.mizuno.com.br/busca?q=Wave%20Ibuki%204",
+        "price": 549.9,
+        "preco_pix": 0,
+        "store": "MIZUNO",
+        "label": "MIZUNO",
+        "installments": ""
+      },
+      "amazon": {
+        "url": "https://www.amazon.com.br/s?k=Mizuno%20Wave%20Ibuki%204",
+        "price": 549.9,
+        "store": "Amazon",
+        "label": "Amazon",
+        "installments": ""
+      },
+      "netshoes": {
+        "url": "https://www.netshoes.com.br/busca?q=Mizuno%20Wave%20Ibuki%204",
+        "price": 549.9,
+        "store": "Netshoes",
+        "label": "Netshoes",
+        "installments": ""
+      }
+    },
+    "tags": [
+      "Trilha",
+      "Versátil"
+    ],
+    "description": "Solado X-Studs para aderência em terrenos mistos e tecnologia Wave para estabilidade — versátil entre trilha e asfalto.",
+    "reason": "Solado X-Studs para aderência em terrenos mistos e tecnologia Wave para estabilidade — versátil entre trilha e asfalto.",
+    "_needsReview": true
+  },
+  {
+    "brand": "SALOMON",
+    "name": "Sense Ride 5",
+    "slug": "salomon-sense-ride-5-trail",
+    "sexo": [
+      "feminino"
+    ],
+    "budget": "600a1000",
+    "price": 799.9,
+    "price_formatted": "R$ 799,90",
+    "levels": [
+      "intermediario",
+      "avancado"
+    ],
+    "pisada": [
+      "neutra",
+      "supinada"
+    ],
+    "terreno": [
+      "trilha",
+      "mista",
+      "esteira"
+    ],
+    "distancia": [
+      "curta",
+      "media",
+      "longa"
+    ],
+    "photo": "",
+    "affiliate_links": {
+      "oficial": {
+        "url": "https://www.salomon.com/pt-br/search?q=Sense%20Ride%205",
+        "price": 799.9,
+        "preco_pix": 0,
+        "store": "SALOMON",
+        "label": "SALOMON",
+        "installments": ""
+      },
+      "amazon": {
+        "url": "https://www.amazon.com.br/s?k=Salomon%20Sense%20Ride%205",
+        "price": 799.9,
+        "store": "Amazon",
+        "label": "Amazon",
+        "installments": ""
+      },
+      "netshoes": {
+        "url": "https://www.netshoes.com.br/busca?q=Salomon%20Sense%20Ride%205",
+        "price": 799.9,
+        "store": "Netshoes",
+        "label": "Netshoes",
+        "installments": ""
+      }
+    },
+    "tags": [
+      "Trilha",
+      "Conforto"
+    ],
+    "description": "Trail consagrado com solado Contagrip e amortecimento Optivibe, confortável tanto em trilhas longas quanto em terreno irregular.",
+    "reason": "Trail consagrado com solado Contagrip e amortecimento Optivibe, confortável tanto em trilhas longas quanto em terreno irregular.",
+    "_needsReview": true
   }
 ]
