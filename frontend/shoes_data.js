@@ -502,11 +502,13 @@ var SHOES = [
       "avancado"
     ],
     "pisada": [
-      "neutra"
+      "neutra",
+      "supinada"
     ],
     "terreno": [
       "asfalto",
-      "esteira"
+      "esteira",
+      "mista"
     ],
     "distancia": [
       "curta",
@@ -1343,11 +1345,13 @@ var SHOES = [
       "iniciante"
     ],
     "pisada": [
-      "neutra"
+      "neutra",
+      "supinada"
     ],
     "terreno": [
       "asfalto",
-      "esteira"
+      "esteira",
+      "mista"
     ],
     "distancia": [
       "curta",
