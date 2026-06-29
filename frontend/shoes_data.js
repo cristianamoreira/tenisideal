@@ -39,7 +39,7 @@ var SHOES = [
         "installments": "10 x R$200,00 sem juros"
       },
       "amazon": {
-        "url": "https://link.amazon/B02u0eOhc",
+        "url": "https://www.amazon.com.br/T%C3%AAnis-Masculino-Adidas-Adizero-Pro/dp/B0GZLMW2X9?crid=3TGL8987A2XDZ&dib=eyJ2IjoiMSJ9.tVZS7aApYBDVSFaB0ZMV2Q9wNf-oD4EmLTGz0GVJp0pKC45RNb-g6pOycrZtrkChk5n7Nm2nR5nMPW5JzNtbl6jIiim5xH1oAHQgfW7B7ctse97vMDPpQw5ufyqg7ZMOZUL4vMF4Ie8jwuQKtpoygWQI84ngPG7PoC97zOSMV-wBwfUZs1zOBArJJzGUPlRgWd1nMsI4FxgBCWEfCuKCLXQU9K7I3lOxvILZCTxZwJ5CeH02FEexTs5H9loQFN8LfSNCj8BYo0sY7rKMrkrxLoaQeMpFj6Oek-8McfuQFFI.xu6tQltP_TNKs8uEbajh0lt6AyepYwY9amrC8JC9Nso&dib_tag=se&keywords=adios%2Bpro%2B4&qid=1782500959&sprefix=adios%2Bpro%2B4%2Caps%2C214&sr=8-14&ufe=app_do%3Aamzn1.fos.95de73c3-5dda-43a7-bd1f-63af03b14751&th=1&ascsubtag=srctok-2a5a52b8ad353e99&btn_ref=srctok-2a5a52b8ad353e99&psc=1&linkCode=ll2&tag=tenisideal26-20&linkId=32e182d1a8dfb731f35cb03f6337c197&ref_=as_li_ss_tl",
         "price": 1999.9,
         "store": "Amazon",
         "label": "Amazon",
@@ -100,7 +100,7 @@ var SHOES = [
         "installments": "10 x R$ 140,00 sem juros"
       },
       "amazon": {
-        "url": "https://amzn.to/3NEjLPv",
+        "url": "https://www.amazon.com.br/adidas-corrida-masculino-Adizero-azul-petr%C3%B3leo/dp/B0DK7QYGNN?__mk_pt_BR=%C3%85M%C3%85%C5%BD%C3%95%C3%91&crid=7MPAH4UTC9IA&dib=eyJ2IjoiMSJ9.TTuBNXz1Bs9ea0YEY4FJ7Ip41mAwrMMyO5WQbtWKPKfKnVqQDkDXQxKldIYorG5HK6Vf10amk0xGqFDywVV7oR0LA66fVMyJQM9SMFkSVGgHaIUBqiiKuUyTmR1MP9laGcN6GVeZ4NrpEZ7zhFPqCKKTTDlKiFaE8iRVgKnVgtpvUbj0eMqgBohflEDpYAe6fUWAewRHRAOz-W2RSbSK2rLOoa4bqbCHtdfvSWNNDDaAXiOhNH7Uier1VN3JnyY-jiGhNIZrwEj1bccLBwgj40RM9xnDaXSbr0L36J42GQ8.7DAh7bsXgf-QaSQn0lWdJg4R1uKYV5vqfvEKEg9LCoE&dib_tag=se&keywords=adidas%2B%2B%2Badizero%2B%2B%2Bboston%2B%2B%2B13%2B%2B%2Bmasculino&qid=1773442746&sprefix=adidas%2Badizero%2Bboston%2B13%2Bmasculino%2Caps%2C222&sr=8-5&ufe=app_do%3Aamzn1.fos.25548f35-0de7-44b3-b28e-0f56f3f96147&th=1&psc=1&linkCode=ll2&tag=tenisideal26-20&linkId=22b6b6c1a64b78408c5bca5631a2a55b&ref_=as_li_ss_tl",
         "price": 1472.15,
         "store": "Amazon",
         "label": "Amazon",
@@ -161,7 +161,7 @@ var SHOES = [
         "installments": "4 x R$ 100,00 sem juros"
       },
       "amazon": {
-        "url": "https://amzn.to/4b7FF5t",
+        "url": "https://www.amazon.com.br/T%C3%AAnis-Unissex-Adidas-Response-Runner/dp/B0G6GBQ6CP?crid=27RT7I49U5POM&dib=eyJ2IjoiMSJ9.pUYZ_2-sZbibBI0fTlLvfP03KtcztTAiLvl4w0nTj2M1SME5u9aGj7N6SaW6x6O_84nV_AKUbA9_btwR7m4CVjPZ0gLUbgtNRs5DYax8x1jrdoF0xQbj3K6RxbosfGqxol57m0COTI7OeeytPwVQatPMGJ1-2a0QJd22m1r7j_M9kq-Z1qP2uFbW5YZYxQOD9MF47ExUka_gBgYt12JmufGXynTYYpwj5mf8-UVa-u4D90LIxDnnFR9XYSw7rxVepFKrqrY2oifSUvt0QEEIMZd6VCu7owhddhYDbPY2VbY.mlulWe7x1guIHUYWhJ6O2TSt2RjTnOBWmdmbTSgP42g&dib_tag=se&keywords=adidas%2Bresponse%2Brunner%2Bfeminino&qid=1772716562&sprefix=Adidas%2BResponse%2BRunner%2BFeminino%2Caps%2C199&sr=8-1&ufe=app_do%3Aamzn1.fos.4bb5663b-6f7d-4772-84fa-7c7f565ec65b&th=1&psc=1&linkCode=ll2&tag=tenisideal26-20&linkId=88addee4616d33be7df4015855e884bd&ref_=as_li_ss_tl",
         "price": 399.9,
         "store": "Amazon",
         "label": "Amazon",
@@ -223,7 +223,7 @@ var SHOES = [
         "installments": "10 x R$ 110,00 sem juros"
       },
       "amazon": {
-        "url": "https://link.amazon/B04X6EoeX",
+        "url": "https://www.amazon.com.br/T%C3%AAnis-Adidas-Ultraboost-Azul-Masculino/dp/B0D9PMYBVD?__mk_pt_BR=%C3%85M%C3%85%C5%BD%C3%95%C3%91&crid=9H2EJIV19I5K&dib=eyJ2IjoiMSJ9.2EALlZwG09lGmu0WF9xeUcdyBaSWnEOVv82FXlxEBtN3blNdn9VFgcgOgYyrZcpHgVuVpxjM4kViyuHr6I1xmJlxp1QfZxxCoprQ5ZD0j5O5bjiZaclktHT3gor7mVpL7SKsrKlmzmlH-IMP_Sj_hpwvhs_uMmtSI-Xds1QVY8bwkY83mzkjSiRumJFHqel1mnbJo-5hISobCumF46IkJlP_a2FCv6acn8_RiuttEBtowOnkTgmTnz_UmgTXnUROSqQ7ISTo1MkxwUu5X6Qg1he2gKBfEM3BUs6S00JTgo8.vSZGIOsz455ZUHJp8_rJhz-ncOKTCu2hIWI5AnJ10Rc&dib_tag=se&keywords=ADIDAS%2BUltraboost%2B5&qid=1782501734&sprefix=adidas%2Bultraboost%2B5%2Caps%2C200&sr=8-3&ufe=app_do%3Aamzn1.fos.95de73c3-5dda-43a7-bd1f-63af03b14751&th=1&ascsubtag=srctok-5b3be9d52b578a66&btn_ref=srctok-5b3be9d52b578a66&psc=1&linkCode=ll2&tag=tenisideal26-20&linkId=92ea953024a735125a248512f6c7ac2b&ref_=as_li_ss_tl",
         "price": 799.0,
         "store": "Amazon",
         "label": "Amazon",
@@ -286,7 +286,7 @@ var SHOES = [
         "installments": "7 x R$100,00 sem juros"
       },
       "amazon": {
-        "url": "https://amzn.to/4bthoHb",
+        "url": "https://www.amazon.com.br/Adidas-corrida-masculino-Terrex-Agravic/dp/B0G317NN1Z?__mk_pt_BR=%C3%85M%C3%85%C5%BD%C3%95%C3%91&crid=3KK6KJHAIYAR3&dib=eyJ2IjoiMSJ9.3B3adIROwdLzITau-cjy-oWVVM_1OnB_z2SzoiAaEKCYNYylBK4onEu0Wiz62plFPlB2GPwavgvdSrCy3YsyjMNNB9u2BwJfF7vdM_mibzxpuZjE2dQbxU60sq46O-nqVLX60LbkyLjSUFhu09u7OuMOdTAJWhSBJTMRZUInFy-vDg71tBZBHLItR4ZL8Q8Yxs7lPuNvjrmousgK-dC9VGGPfmJw17-B2KHSq_6iq2YPX8IDpBk0uZpiRpq3seChjNkWq6RT5VsyRWTCZAQnlCK199yzHO3hdVarmLwkjks.UDU4XwGLrw76btA_Ea7YcilDvJdzO1p-159wlRcmlz0&dib_tag=se&keywords=Terrex%2BAgravic%2BSpeed%2B2&qid=1773443666&sprefix=terrex%2Bagravic%2Bspeed%2B2%2Caps%2C338&sr=8-1&ufe=app_do%3Aamzn1.fos.95de73c3-5dda-43a7-bd1f-63af03b14751&th=1&psc=1&linkCode=ll2&tag=tenisideal26-20&linkId=2b7044d0c617def60278f56136b20379&ref_=as_li_ss_tl",
         "price": 2011.53,
         "store": "Amazon",
         "label": "Amazon",
@@ -348,7 +348,7 @@ var SHOES = [
         "installments": "4 x R$107,50 sem juros"
       },
       "amazon": {
-        "url": "https://link.amazon/B06eWUK0v",
+        "url": "https://www.amazon.com.br/adidas-corrida-feminino-Duramo-vermelho/dp/B0D2JDPZ3Z?__mk_pt_BR=%C3%85M%C3%85%C5%BD%C3%95%C3%91&dib=eyJ2IjoiMSJ9.BpkaFK_udd3QnykMsZM1VRupdQcEhmH5kA3vVpm8YUKZ95rcpeUKbFzsv5ed38Kb2ctKfUaO-O2mF7Mi3O0RRKeUeS4-L1XkEbDbBz11qLMJH9gg5gweFlohSz8AZvGZTnVcs_7JnjqJVWer9wct9vFqY0TvO21LwyRFYz2axQ3WfLeHLlUF8gEaxmYlQkdQWKekIthiMcU5GU5MO1KBtw97v9_Qr9KQVjlw9bEpe8Dp9o1ZoMqbEHQ_IYDMvJX0cK7yhGzymWxQihHQVEoHlrQXqyp6jfe5eOuNjR9RINQ.fICHNCryLXkcy025t2kywT14MIn1p_R4mYV0Lb4l_TQ&dib_tag=se&keywords=Duramo%2BSpeed%2B2&qid=1782503289&refinements=p_n_g-101015233022111%3A121476056011&rnid=121476055011&sr=8-4&ufe=app_do%3Aamzn1.fos.95de73c3-5dda-43a7-bd1f-63af03b14751&th=1&ascsubtag=srctok-17d56abe93743192&btn_ref=srctok-17d56abe93743192&psc=1&linkCode=ll2&tag=tenisideal26-20&linkId=b03373c2c187326b87340744d614f7af&ref_=as_li_ss_tl",
         "price": 536.78,
         "store": "Amazon",
         "label": "Amazon",
@@ -410,7 +410,7 @@ var SHOES = [
         "installments": "4 x R$112,50 sem juros"
       },
       "amazon": {
-        "url": "https://link.amazon/B0fuXHN5m",
+        "url": "https://www.amazon.com.br/Adidas-Terrex-Anylander-Hiking-Feminino/dp/B0F1XDTJHH?__mk_pt_BR=%C3%85M%C3%85%C5%BD%C3%95%C3%91&crid=3K6FFH2FSHKZX&dib=eyJ2IjoiMSJ9.xNfSUxSAjkSzvImoYKerkLMnTuuCqrn9_rkNQVrd05RBeKTNLP2IwE-cpM1S-FJ7pIKcs41pKoTRtuObUYnh4rN7olk95VSUBkM_oaV0VVY.J-6XxHzR4VyeXHu8XPfFVhhhvK04Wy7ADorP37YGv0o&dib_tag=se&keywords=Terrex%2BAnylander%2BHiking&qid=1782660726&refinements=p_n_g-101015233022111%3A121476056011&rnid=121476055011&sprefix=terrex%2Banylander%2Bhiking%2Caps%2C401&sr=8-1&th=1&ascsubtag=srctok-56a089e61f9b8144&btn_ref=srctok-56a089e61f9b8144&psc=1&linkCode=ll2&tag=tenisideal26-20&linkId=938b0832df9ffea17de966ff5ba7e55b&ref_=as_li_ss_tl",
         "price": 720.37,
         "store": "Amazon",
         "label": "Amazon",
@@ -473,7 +473,7 @@ var SHOES = [
         "installments": "10 x R$110,00 sem juros"
       },
       "amazon": {
-        "url": "https://link.amazon/B01mdNZEv",
+        "url": "https://www.amazon.com.br/adidas-corrida-feminino-Supernova-cristal/dp/B0F649R5XK?crid=2RPSL2TASQM47&dib=eyJ2IjoiMSJ9.ClUNBxvyhQSR65_u9MplwrNYB5XNIvaA5ybGnkntNZTZLqBtreSpBUdbN4-O2R4uM7EMS05l6uj47kamJNFWyFlvMFZrDZT_rIli9bn9WT6FmjYeYar1wdPkq0Qincchjj1_CGed-xkSh6lDaSqLqL7swsp_Lt18jVN7MFkakOabg9S2bsgJ_c1ji2DWymV63sg-H1uFcBv8-jr9AuSAGx1xeuFpOOeHQ0MG22zRIrFBn1yekgFF9wLVY3ODkfr_erlC5NWFFR-2n2MAiK7QBbiAgbjEb3ueTCKQKhe5saU.bh-WE2DaaiSCg5G9lpYgpTP68Xbyme2AwEGHNCcuC3A&dib_tag=se&keywords=supernova%2Brise%2B3&qid=1782503763&refinements=p_n_g-101015233022111%3A121476056011&rnid=121476055011&sprefix=supernova%2Brise%2B%2Caps%2C329&sr=8-1&ufe=app_do%3Aamzn1.fos.95de73c3-5dda-43a7-bd1f-63af03b14751&th=1&ascsubtag=srctok-08463e6b786d0a7a&btn_ref=srctok-08463e6b786d0a7a&psc=1&linkCode=ll2&tag=tenisideal26-20&linkId=4ca6189a5af9a419f53b9833817ed751&ref_=as_li_ss_tl",
         "price": 1103.73,
         "store": "Amazon",
         "label": "Amazon",
@@ -518,7 +518,7 @@ var SHOES = [
     "photo": "https://m.media-amazon.com/images/I/61nVPmZFSoL._AC_SY500_.jpg",
     "affiliate_links": {
       "amazon": {
-        "url": "https://link.amazon/B03uJ9yhA",
+        "url": "https://www.amazon.com.br/ASICS-corrida-unissex-SUPERBLAST-inverno/dp/B0FFLMZZXT?__mk_pt_BR=%C3%85M%C3%85%C5%BD%C3%95%C3%91&crid=1V8RW6ZTMKSBL&dib=eyJ2IjoiMSJ9.Yrd1Wb_02-K5ECaRuYPYotpD--Ylw8rkKDgKEzCcikeMuf3HhrKKkkD2DJMmnZQI4s_3Q9cb1n3JUVBOXPxoXzlK0k7s6VXb2h_AAIOOu4YDRpetlp0vz_4f9oRWEFhkM2jwrJbpLgqUWd9awJhbr-tleiBWk7C8Ayo_ow7IGWQxWXT5oQi8PRR7gedOPCcxRFYDVW8NMlSO8Dp9lA6FT59u0Dv3AOOWezikPGWZzB1jiiTQxqMJKUFdcD1SOF-NqSaKuS0hrcNDIcwwC7_TbqsvgPOd6QYPAq1wAP3uFcM.z_QNGjKnAh7MbDKDQGoMh9JkwzlqFZwsmIQMEraxMhI&dib_tag=se&keywords=tenis%2Bcorrida&qid=1773051839&refinements=p_36%3A100000-%2Cp_n_g-101015233022111%3A121825495011&rnid=16254006011&sprefix=tenis%2Bcorrida%2Caps%2C221&sr=8-6&ufe=app_do%3Aamzn1.fos.25548f35-0de7-44b3-b28e-0f56f3f96147&th=1&ascsubtag=srctok-397d570ce0b5be49&btn_ref=srctok-397d570ce0b5be49&psc=1&linkCode=ll2&tag=tenisideal26-20&linkId=644cb69b386030b6d75df25306b27a47&ref_=as_li_ss_tl",
         "price": 1457.55,
         "store": "Amazon",
         "label": "Amazon",
@@ -573,7 +573,7 @@ var SHOES = [
     "photo": "https://m.media-amazon.com/images/I/61bA3q+AjnL._AC_SY695_.jpg",
     "affiliate_links": {
       "amazon": {
-        "url": "https://link.amazon/B00dNlfYL",
+        "url": "https://www.amazon.com.br/ASICS-corrida-masculino-Gel-Cumulus-amarelo/dp/B0CTBL5C5Y?__mk_pt_BR=%C3%85M%C3%85%C5%BD%C3%95%C3%91&crid=3V1YDMEROMHK5&dib=eyJ2IjoiMSJ9.Db994d4wM0aXWPMnT3D7TdBKHhz_DdH0BZi-eA8PDN-u2r37biJtNwciW_d_SrzJNZSRPhbqVk2v11DzfFhr7p-VWwu4E1LVpoSyqkDoQi2F7ELWILoJIvsX5K8FPsCJQze0W8T9HtaY3XSwU5oLg75Lc7c0rmvhbAJT9X2ljefQjWTVWhU2w6JDQHs_RGBzg0alVkrzqxSTKw_RiBg-MRQRzPVzoTRsEDQAfTb3A9s7f4wW7CqKu9YloCobMKCgpkBsLFectPZ64iwdK6PcmT70ZhHllBFeYC8ANPnquVw.uvAzSmAAQtCfGLptJNiiR3qi4Q2dAlLA5KboqTmHeQ8&dib_tag=se&keywords=asics%2Bgel%2Bcumulus%2B26&qid=1782507303&refinements=p_n_g-101015233022111%3A121476057011&rnid=121476055011&sprefix=asics%2Bgel%2Bcumulus%2B26%2B%2Caps%2C191&sr=8-4-spons&ufe=app_do%3Aamzn1.fos.95de73c3-5dda-43a7-bd1f-63af03b14751&sp_csd=d2lkZ2V0TmFtZT1zcF9hdGY&th=1&ascsubtag=srctok-0cb7365fcddeb127&btn_ref=srctok-0cb7365fcddeb127&psc=1&linkCode=ll2&tag=tenisideal26-20&linkId=7674b94628391422c644a3ebca0cbe75&ref_=as_li_ss_tl",
         "price": 1427.12,
         "store": "Amazon",
         "label": "Amazon",
@@ -1318,7 +1318,7 @@ var SHOES = [
     "photo": "https://m.media-amazon.com/images/I/71wVszdDe6L._AC_SY695_.jpg",
     "affiliate_links": {
       "amazon": {
-        "url": "https://link.amazon/B08cAKc8Y",
+        "url": "https://www.amazon.com.br/Brooks-T%C3%AAnis-corrida-feminino-Divide/dp/B0BJ595T8G?__mk_pt_BR=%C3%85M%C3%85%C5%BD%C3%95%C3%91&crid=1PFG8BTHECKP&dib=eyJ2IjoiMSJ9.7hik_WCEM28rUn-VQz1gTO0xs0ptm2nc7Oe1HxnFDpGZoBboWXRXisB-a8LPRkhY1z1tR2NXZkQdcEDmIHEfEr95QDAPrbz1baPfuop31dQdd9ZaWG9jFkRQVJ-Vz15fGxE0hjMuYbtfcRhrSqxjEivXKvYzn40VIxHpL6JIhXYpQYWI7YjPBk5jjznLpv1-e4nQlvxed-S_TbGMbA6NRrlKblz-ljCMp16mcBzffXZtQhHntndCZd0fRX9KAI3Sysz8OxNRICpE0BO-SIPX1IhvdBtUarfOIc6ARe6jeUQ.GLtoLMCIUxVxxvK8-PAsUoT-RbOSwU5VsAVbHI5Nebc&dib_tag=se&keywords=tenis%2Bfeminino%2Bcorrida&qid=1773019674&refinements=p_36%3A100000-%2Cp_n_g-101015233022111%3A121476056011&rnid=16254006011&sprefix=tenis%2Bfeminino%2Bcorrida%2Caps%2C246&sr=8-5&ufe=app_do%3Aamzn1.fos.25548f35-0de7-44b3-b28e-0f56f3f96147&th=1&ascsubtag=srctok-361a59fde50df096&btn_ref=srctok-361a59fde50df096&psc=1&linkCode=ll2&tag=tenisideal26-20&linkId=9b6bbbed5b9b6b78f64b8f7c31fdfeb3&ref_=as_li_ss_tl",
         "price": 1185.82,
         "store": "Amazon",
         "label": "Amazon",
