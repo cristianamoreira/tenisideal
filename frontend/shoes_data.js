@@ -627,7 +627,7 @@ var SHOES = [
     "photo": "https://m.media-amazon.com/images/I/61H5EG8KjuL._AC_SY695_.jpg",
     "affiliate_links": {
       "amazon": {
-        "url": "https://link.amazon/B05qFTEvh",
+        "url": "https://www.amazon.com.br/adidas-corrida-feminino-Supernova-cristal/dp/B0F649R5XK?crid=2RPSL2TASQM47&dib=eyJ2IjoiMSJ9.ClUNBxvyhQSR65_u9MplwrNYB5XNIvaA5ybGnkntNZTZLqBtreSpBUdbN4-O2R4uM7EMS05l6uj47kamJNFWyFlvMFZrDZT_rIli9bn9WT6FmjYeYar1wdPkq0Qincchjj1_CGed-xkSh6lDaSqLqL7swsp_Lt18jVN7MFkakOabg9S2bsgJ_c1ji2DWymV63sg-H1uFcBv8-jr9AuSAGx1xeuFpOOeHQ0MG22zRIrFBn1yekgFF9wLVY3ODkfr_erlC5NWFFR-2n2MAiK7QBbiAgbjEb3ueTCKQKhe5saU.bh-WE2DaaiSCg5G9lpYgpTP68Xbyme2AwEGHNCcuC3A&dib_tag=se&keywords=supernova%2Brise%2B3&qid=1782503763&refinements=p_n_g-101015233022111%3A121476056011&rnid=121476055011&sprefix=supernova%2Brise%2B%2Caps%2C329&sr=8-1&ufe=app_do%3Aamzn1.fos.95de73c3-5dda-43a7-bd1f-63af03b14751&th=1&ascsubtag=srctok-08463e6b786d0a7a&btn_ref=srctok-08463e6b786d0a7a&psc=1&linkCode=ll2&tag=tenisideal26-20&linkId=286fa470ab51586caa8186f8c35fc385&ref_=as_li_ss_tl",
         "price": 1149.99,
         "store": "Amazon",
         "label": "Amazon",
@@ -681,7 +681,7 @@ var SHOES = [
     "photo": "https://m.media-amazon.com/images/I/618Fa5n1UdL._AC_SX695_.jpg",
     "affiliate_links": {
       "amazon": {
-        "url": "https://link.amazon/B04wJ16iF",
+        "url": "https://www.amazon.com.br/T%C3%AAnis-Asics-Gel-nimbus-28-Masculino/dp/B0G2MMHHVG?__mk_pt_BR=%C3%85M%C3%85%C5%BD%C3%95%C3%91&crid=1VNP97EZ0IVF2&dib=eyJ2IjoiMSJ9.qKuBFFLIuDi-9rOGR3v_1GOTMvQMjg4C9EYnn0I_VTKw1entaQWP-3RSE8YUcImf8SVJPVhI_wyuh3Uvj0CLRlsYme8bZ5t9BDsaybCHH95Ag42vR1aRpzXFKD1DU37QHc-uYOuAFOoXee6zryEZ8fZUk-LB0t5i6FITdCiQijRLLDkmq6gDMdBs4lIbqL360fE0ndo9P5QoZ-2zRHvgr7rVDc-ZcQd87xt8V6qvZmI9u_A4mQBz04CoCqLaBzbo_jZX6Fo91sc3oWkgTVS2BTHVMsb7bVwI8Ixw_tpiaoM.A3MA1kIY8CqdHApBfmUZvoHeJT7E9MBUx4BxbFjeKzY&dib_tag=se&keywords=asics%2Bgel-nimbus%2B28&qid=1782507981&sprefix=asics%2Bgel-nimbus%2B28%2Caps%2C283&sr=8-3&ufe=app_do%3Aamzn1.fos.95de73c3-5dda-43a7-bd1f-63af03b14751&th=1&ascsubtag=srctok-3050b7c20a63c258&btn_ref=srctok-3050b7c20a63c258&psc=1&linkCode=ll2&tag=tenisideal26-20&linkId=0870467e353d6e6130f595512e6563b8&ref_=as_li_ss_tl",
         "price": 1299.9,
         "store": "Amazon",
         "label": "Amazon",
@@ -735,7 +735,7 @@ var SHOES = [
     "photo": "https://m.media-amazon.com/images/I/51eScM2IL2L._AC_SY695_.jpg",
     "affiliate_links": {
       "amazon": {
-        "url": "https://link.amazon/B09YJrSCK",
+        "url": "https://www.amazon.com.br/T%C3%AAnis-Asics-Gel-nimbus-27-Feminino/dp/B0F5BPBYDV?__mk_pt_BR=%C3%85M%C3%85%C5%BD%C3%95%C3%91&crid=2KILR62CR6DDQ&dib=eyJ2IjoiMSJ9.mQqp0_AKuhQ0iQAB7SjPekcb7pYS4gm_PDqbrBwA85SsVR1kP70R_WogJyarwxChq7i6UMOM1xLnmi9sgVyXjU_BfzqbjQ8MNUK9II8NyyAsr6xOJwfLZ7KPB_xt7ezLUv_WAftutFeUNL5bceAm4m7OeIDA6YdP8SHNA5qF7DA-J4ThaACH3VSnovhwTknSPKK76eMZPv3gLRe2zwhSepQJA9IQQO_eehbqt9fpZoHap7XLdsswd0841W9bi_x2fd-ppogfSs1JwADkjIhZeGoD803tChz4xN-GW6fEeco.aeWVTsPVWZdWjDtWny_tVJvwLLpCvSuGMSTj3c9JHDs&dib_tag=se&keywords=gel-nimbus%2B%2B%2B27&qid=1782500451&sprefix=gel-nimbus%2B27%2Caps%2C460&sr=8-3&ufe=app_do%3Aamzn1.fos.95de73c3-5dda-43a7-bd1f-63af03b14751&th=1&ascsubtag=srctok-706ebedd45902f08&btn_ref=srctok-706ebedd45902f08&psc=1&linkCode=ll2&tag=tenisideal26-20&linkId=afb1ddfbe172e1697db4cae28147e541&ref_=as_li_ss_tl",
         "price": 799.9,
         "store": "Amazon",
         "label": "Amazon",
@@ -789,7 +789,7 @@ var SHOES = [
     "photo": "https://images-na.ssl-images-amazon.com/images/I/61wuJhpSxgL.jpg",
     "affiliate_links": {
       "amazon": {
-        "url": "https://link.amazon/B0gP0JDdq",
+        "url": "https://www.amazon.com.br/ASICS-feminino-Gel-Trabuco-empoeirada-tempestade/dp/B0D3XQ5X17?__mk_pt_BR=%C3%85M%C3%85%C5%BD%C3%95%C3%91&crid=3L3IT3II9KSOO&dib=eyJ2IjoiMSJ9.Ua_KymevKzac2clMk6YpCTrdjZnj-IeBbBm1mv_9Q6o6vrTNkq611WJU1ll0cKjW3flkNj7i4f3fYHe1n665gcg04VI2p8HgpRB80T1WhZKl6dJ4mRCQ9WU70x5pI11O5BucwILD2mfQ5PG9y0gSxdX8bTZW6KIn0ZeVnKv-nTU7lBzOlGmdKUpnmGc87mZj8jjyGEXOC3l4nxWKf7FfF7o4HRNcflSI8NUSzo00v3useia4hpr0tu7QbxiLQz0lP1SP4EN7ORlhq-zS1tQ7wyYAT-Hl8KrJyqs3QlfomRE.KXvMmBtLhhwwxvoqJ4fi53oUugUIN01iXw8TLnoRshY&dib_tag=se&keywords=Gel-Trabuco%2B13&qid=1782508511&sprefix=gel-trabuco%2B13%2Caps%2C186&sr=8-2&ufe=app_do%3Aamzn1.fos.25548f35-0de7-44b3-b28e-0f56f3f96147&th=1&ascsubtag=srctok-2a20a88333b77c7d&btn_ref=srctok-2a20a88333b77c7d&psc=1&linkCode=ll2&tag=tenisideal26-20&linkId=af57bdc871a4560de0bacb78edded830&ref_=as_li_ss_tl",
         "price": 1022.38,
         "store": "Amazon",
         "label": "Amazon",
@@ -3549,8 +3549,8 @@ var SHOES = [
       "masculino"
     ],
     "budget": "acima1000",
-    "price": 1781.24,
-    "price_formatted": "R$ 1781,24",
+    "price": 1400.0,
+    "price_formatted": "R$ 1400,00",
     "levels": [
       "intermediario",
       "avancado"
@@ -3569,22 +3569,15 @@ var SHOES = [
       "media",
       "longa"
     ],
-    "photo": "https://m.media-amazon.com/images/I/71AS9nTHr5L._AC_SY500_.jpg",
+    "photo": "https://imgnike-a.akamaihd.net/768x768/02831216A2.jpg",
     "affiliate_links": {
       "oficial": {
-        "url": "https://tidd.ly/4ctXAnN",
-        "price": 1781.24,
+        "url": "https://www.awin1.com/cread.php?awinmid=17652&awinaffid=2800712&platform=dl&ued=https%3A%2F%2Fwww.nike.com.br%2Ftenis-nike-air-zoom-alphafly-3-masculino-028312.html%3Fcor%3D16",
+        "price": 1400.0,
         "preco_pix": 0,
         "store": "NIKE",
         "label": "NIKE",
-        "installments": "10x de R$ 187,50 sem juros"
-      },
-      "amazon": {
-        "url": "https://amzn.to/47FMzxW",
-        "price": 2593.3,
-        "store": "Amazon",
-        "label": "Amazon",
-        "installments": ""
+        "installments": "10x de R$ 140,00 sem juros"
       }
     },
     "tags": [
@@ -3602,8 +3595,8 @@ var SHOES = [
       "feminino"
     ],
     "budget": "acima1000",
-    "price": 1402.05,
-    "price_formatted": "R$ 1402,05",
+    "price": 1263.2,
+    "price_formatted": "R$ 1263,20",
     "levels": [
       "intermediario",
       "avancado"
@@ -3622,22 +3615,22 @@ var SHOES = [
       "media",
       "longa"
     ],
-    "photo": "https://imgnike-a.akamaihd.net/360x360/058279A1A2.jpg",
+    "photo": "https://m.media-amazon.com/images/I/61X6u+KIeWL._AC_SY695_.jpg",
     "affiliate_links": {
       "oficial": {
-        "url": "https://tidd.ly/4bQ2XOS",
-        "price": 1424.99,
+        "url": "https://www.awin1.com/cread.php?awinmid=17652&awinaffid=2800712&platform=dl&ued=https%3A%2F%2Fwww.nike.com.br%2Ftenis-nike-zoom-fly-6-feminino-058279.html%3Fcor%3DA1",
+        "price": 1263.2,
         "preco_pix": 0,
         "store": "NIKE",
         "label": "NIKE",
-        "installments": "10x de R$ 150,00 sem juros"
+        "installments": "10x de R$ 126,32 sem juros"
       },
       "amazon": {
-        "url": "https://amzn.to/4cpqWog",
-        "price": 1402.05,
+        "url": "https://www.amazon.com.br/masculino-corrida-estrada-Citron-Pulseira/dp/B0GTN7LJPV?__mk_pt_BR=%C3%85M%C3%85%C5%BD%C3%95%C3%91&crid=W59B322AJ2VJ&dib=eyJ2IjoiMSJ9.rCpNwF9Xm4oNv7rDpFc1JudjJ3qw3EAUMThK8abFkB_rSeZ2CTrGI3gi2loSOuxN.hl3cvDRcUooJ-2nOZnGBhzmzrwt0im3BSYCRu_mwI-M&dib_tag=se&keywords=nike+fly+6&qid=1782749114&refinements=p_n_size_two_browse-vebin%3A17894120011&rnid=17833770011&sprefix=nike+fly+6%2Caps%2C197&sr=8-5-spons&ufe=app_do%3Aamzn1.fos.95de73c3-5dda-43a7-bd1f-63af03b14751&sp_csd=d2lkZ2V0TmFtZT1zcF9tdGY&psc=1&linkCode=ll2&tag=tenisideal26-20&linkId=9e7422f2dd3f5ac86b3bfc8a7217d139&ref_=as_li_ss_tl",
+        "price": 1606.16,
         "store": "Amazon",
         "label": "Amazon",
-        "installments": ""
+        "installments": "12x de R$ 133,92 sem juros"
       }
     },
     "tags": [
@@ -3649,14 +3642,14 @@ var SHOES = [
   },
   {
     "brand": "NIKE",
-    "name": "Structure 25",
-    "slug": "nike-structure-25-9602",
+    "name": "Structure 26",
+    "slug": "nike-structure-26-9602",
     "sexo": [
       "masculino"
     ],
     "budget": "600a1000",
-    "price": 807.49,
-    "price_formatted": "R$ 807,49",
+    "price": 999.99,
+    "price_formatted": "R$ 999,99",
     "levels": [
       "iniciante",
       "intermediario",
@@ -3676,22 +3669,30 @@ var SHOES = [
       "media",
       "longa"
     ],
-    "photo": "https://imgnike-a.akamaihd.net/360x360/026862IIA1.jpg",
+    "photo": "https://m.media-amazon.com/images/I/71IqQbdo6-L._AC_SY695_.jpg",
     "affiliate_links": {
       "oficial": {
-        "url": "https://tidd.ly/3PR0H1h",
-        "price": 807.49,
+        "url": "https://www.awin1.com/cread.php?awinmid=17652&awinaffid=2800712&platform=dl&ued=https%3A%2F%2Fwww.nike.com.br%2Ftenis-nike-structure-26-masculino-059302.html%3Fcor%3DIE",
+        "price": 1000.0,
         "preco_pix": 0,
         "store": "NIKE",
         "label": "NIKE",
-        "installments": "8x de R$ 106,25 sem juros"
+        "installments": "10x de R$ 100,00 sem juros"
       },
       "amazon": {
-        "url": "https://amzn.to/4vc5NFv",
-        "price": 1290.6,
+        "url": "https://www.amazon.com.br/T%C3%AAnis-masculino-Structure-Preto-Cinza/dp/B0F2GJ4QTT?__mk_pt_BR=%C3%85M%C3%85%C5%BD%C3%95%C3%91&crid=38DHW759RDCI3&dib=eyJ2IjoiMSJ9.Hx-3BURHUPn77y_QeOxDCQ.RxLmiBA-M7X9yrQ1wbDYLHtOvgT_FOcWxQcL0AMolKQ&dib_tag=se&keywords=Nike%2BAir%2BZoom%2BStructure%2B26&qid=1782745957&sprefix=nike%2Bair%2Bzoom%2Bstructure%2B26%2Caps%2C190&sr=8-1&ufe=app_do%3Aamzn1.fos.95de73c3-5dda-43a7-bd1f-63af03b14751&th=1&psc=1&linkCode=ll2&tag=tenisideal26-20&linkId=d650593a48a3ca8d6a7b9d655f055d25&ref_=as_li_ss_tl",
+        "price": 0,
         "store": "Amazon",
         "label": "Amazon",
-        "installments": "10x"
+        "installments": "12x de R$ 128,53 sem juros"
+      },
+      "netshoes": {
+        "url": "https://click.linksynergy.com/deeplink?id=NyH7xPegftk&mid=43984&murl=https%3A%2F%2Fwww.netshoes.com.br%2Fp%2Ftenis-nike-structure-26-masculino-SGL-0547-006",
+        "price": 999.99,
+        "preco_pix": 0,
+        "store": "Netshoes",
+        "label": "Netshoes",
+        "installments": "10x sem juros"
       }
     },
     "tags": [
@@ -3741,11 +3742,11 @@ var SHOES = [
         "installments": "10x de R$ 150,00 sem juros"
       },
       "amazon": {
-        "url": "https://amzn.to/4sjy2j1",
+        "url": "https://www.amazon.com.br/Invincible-corrida-masculino-DR2615-103-platinado/dp/B0CTKPK8NP?__mk_pt_BR=%C3%85M%C3%85%C5%BD%C3%95%C3%91&crid=JI8MQ4T53MTU&dib=eyJ2IjoiMSJ9.XHmDh6svX1gtgyx4Rb51LGyisNThVdAauTcdyLeudaYQUtcTcB0u-CRXo31M_aHb8FcxtDGIPLGPuoTGyiP74QZKrpVvDIBlI4YNByXDuxe0XjABkg0YWQOkU-KC6XESy9ikiWUTJ0l6ckPTFHfGJqB6B8F2SHpCy8RNIIoYlr0NYdMZR6l62umkgdLhzjaIOeOEwETU71DPIuxer0N7Wyb0MbuGbeU9Y_Q3K_8785yvs37VQvKwddtWAGWpDVP0_pBRCgB7lZIJVwbpnpMXG3jW3GUMQkQcPCgE4SreISg.oBhQCMJHM6O4wmkG5etLjwg4a39Yjktd-7BdP8li0Z4&dib_tag=se&keywords=Nike%2BInvincible%2BRun%2B3&qid=1775262125&refinements=p_n_g-101015233022111%3A121476057011&rnid=121476055011&sprefix=nike%2Binvincible%2Brun%2B3%2Caps%2C322&sr=8-2-spons&ufe=app_do%3Aamzn1.fos.95de73c3-5dda-43a7-bd1f-63af03b14751&sp_csd=d2lkZ2V0TmFtZT1zcF9hdGY&th=1&psc=1&linkCode=ll2&tag=tenisideal26-20&linkId=92ca6a0e2b6f9b55a3cd9917d1e5690c&ref_=as_li_ss_tl",
         "price": 1247.54,
         "store": "Amazon",
         "label": "Amazon",
-        "installments": "12x"
+        "installments": "12x de R$ 103,98 sem juros"
       }
     },
     "tags": [
@@ -3794,7 +3795,7 @@ var SHOES = [
         "installments": "8x de R$ 105,26 sem juros"
       },
       "amazon": {
-        "url": "https://link.amazon/B02CtNIsD",
+        "url": "https://www.amazon.com.br/Vaporfly-masculino-HQ3504-100-universit%C3%A1rio-Universit%C3%A1rio/dp/B0DLH31DK1?__mk_pt_BR=%C3%85M%C3%85%C5%BD%C3%95%C3%91&crid=3UDA5FLU1NWUP&dib=eyJ2IjoiMSJ9.sO3Mh_O-vo3Ecq1EHbIfU-GGkBr4zlhQ96K3izP7Yq6v2TrujBWgY_Q9QP9cAhbh-jgiIMezVU4jBvjad0rahyZiCJMYL_OLUM8Kp90D7c_YNAdEkXv8ifE9nlK2nCUEkw0dYSay9dkeI0W2wNbYHU4Te5Mm-WkwTZ76BQebrTOpeC0YUW4GY9fXPo4DU3W5R4kryhb1FDiRG6eyc8ALF-3avZDmeymcVsr1LNRM_lAVH_mxEzaP2mLTnGwGVPFThCWFo1pf7m73q3848RdcpN9xSI0J_EI4tgqol62hUVQ.ZzJF4GMANUPWTUwTbF5DKW2jIO3ll0JVSLgdJtvr-As&dib_tag=se&keywords=vaporfly%2B3&qid=1782569199&refinements=p_n_g-101015233022111%3A121476057011&rnid=121476055011&sprefix=vaporfly%2B3%2Caps%2C275&sr=8-1&ufe=app_do%3Aamzn1.fos.95de73c3-5dda-43a7-bd1f-63af03b14751&th=1&ascsubtag=srctok-18117bd4964a1c1c&btn_ref=srctok-18117bd4964a1c1c&psc=1&linkCode=ll2&tag=tenisideal26-20&linkId=cd2f1500c916f527fff20e1fa1b52a3a&ref_=as_li_ss_tl",
         "price": 1471.79,
         "store": "Amazon",
         "label": "Amazon",
@@ -3813,7 +3814,7 @@ var SHOES = [
     "name": "Vomero 18",
     "slug": "nike-vomero-18-f1ae",
     "sexo": [
-      "masculino"
+      "feminino"
     ],
     "budget": "acima1000",
     "price": 1000.0,
@@ -3837,10 +3838,10 @@ var SHOES = [
       "media",
       "longa"
     ],
-    "photo": "https://imgnike-a.akamaihd.net/360x360/05640155A2.jpg",
+    "photo": "https://m.media-amazon.com/images/I/81xukHxrH4L._AC_SX695_.jpg",
     "affiliate_links": {
       "oficial": {
-        "url": "https://tidd.ly/3NYKhn2",
+        "url": "https://www.awin1.com/cread.php?awinmid=17652&awinaffid=2800712&platform=dl&ued=https%3A%2F%2Fwww.nike.com.br%2Ftenis-nike-vomero-18-feminino-060725.html%3Fcor%3DMT",
         "price": 1000.0,
         "preco_pix": 0,
         "store": "NIKE",
@@ -3848,11 +3849,11 @@ var SHOES = [
         "installments": "10x de R$ 100,00 sem juros"
       },
       "amazon": {
-        "url": "https://amzn.to/4maXIN5",
-        "price": 1717.62,
+        "url": "https://www.amazon.com.br/feminino-Vomero-Crimson-brilhante-hiperativo/dp/B0F2GJH1BS?__mk_pt_BR=%C3%85M%C3%85%C5%BD%C3%95%C3%91&crid=2TAJ1KU5ZQJJO&dib=eyJ2IjoiMSJ9.s1dp_ALdXr_cZtrHhhtD0gDZtloUuBsuTbZVrNBNP820oyHT3l0p4wrYupXgwh82pu7dWPHiS_EzO-H48tSsl9jREk60stCa-Ms5L02w7demmSqFNw8YS4qc-t9KD_RNahTWReTZswEOSchRtlw8Bu-IxeWzx3ma2TzcKDDxpv-7H9PjTq9_Cviy8mYPkfJH-355qbs5qXJAQJdUUEo49nExZRPgLEml5kb-NuB5tzbMnOSOiAWzY5-pNOHuNlCt0n7mGu6-cB6_A5mrWgVacANv3bF9ITA_bZ-w-9ovhuI.cakduP77FO820duG6LGq8axQKn3GMVvncByAA1gib9A&dib_tag=se&keywords=vomero+18&psc=1&qid=1782747139&refinements=p_n_g-1004158520091%3A17909062011&rnid=16770833011&sprefix=vomero+18%2Caps%2C210&sr=8-16&ufe=app_do%3Aamzn1.fos.95de73c3-5dda-43a7-bd1f-63af03b14751&linkCode=ll2&tag=tenisideal26-20&linkId=03287d3186177da2aa4995a3173b07a4&ref_=as_li_ss_tl",
+        "price": 1261.92,
         "store": "Amazon",
         "label": "Amazon",
-        "installments": "12x de R$ 143,19 sem juros"
+        "installments": "12x de R$ 105,16 sem juros"
       }
     },
     "tags": [
@@ -3894,7 +3895,7 @@ var SHOES = [
     "photo": "https://m.media-amazon.com/images/I/713oGloA66L._AC_SY695_.jpg",
     "affiliate_links": {
       "oficial": {
-        "url": "https://tidd.ly/3QobpNx",
+        "url": "https://www.awin1.com/cread.php?awinmid=17652&awinaffid=2800712&platform=dl&ued=https%3A%2F%2Fwww.nike.com.br%2Ftenis-nike-juniper-trail-3-masculino-029445.html%3Fcor%3DIG",
         "price": 617.76,
         "preco_pix": 0,
         "store": "NIKE",
@@ -3902,11 +3903,11 @@ var SHOES = [
         "installments": "6x de R$ 102,86 sem juros"
       },
       "amazon": {
-        "url": "https://link.amazon/B0iPEpCsm",
-        "price": 676.75,
+        "url": "https://www.amazon.com.br/masculino-Juniper-Marrom-fantasma-universit%C3%A1rio/dp/B0DZXG9HCT?__mk_pt_BR=%C3%85M%C3%85%C5%BD%C3%95%C3%91&crid=10IK6H9CENLN1&dib=eyJ2IjoiMSJ9.Po83iP4joxy-zIZq7EerE_3hWy1VULEw0RZ9lzrmeMPp9jnL9O-2qzzuCIjrbKPqrEADnafanuCGE8ihhGgHc4IKQLEj3PZvchHS_-KtQSDqX80CaWAxz4GLqSahFPJe7jZ7zgngNWJCXMjSlucsY6HuYnop9xXnc5zFQxNsrLy6mQHM37_EQ4sIb22nBtPuW-9fW4Z4cpCfgvTctuHlzZEg9Auch1XkEpEjg60Tr2l9nbp4mg2wdI6Ns6oRb9xf72J_S_MyYFqlETv6VknektPrXhSanvb1bA5J0H-z4RQ.WuYS4A67VMifcMxL5JngENyoeRCZ20_umH_dQhrHgL0&dib_tag=se&keywords=nike%2Bjuniper%2Btrail%2B3&qid=1782505076&sprefix=nike%2Bjuniper%2Btrail%2B3%2Caps%2C193&sr=8-3&ufe=app_do%3Aamzn1.fos.95de73c3-5dda-43a7-bd1f-63af03b14751&th=1&ascsubtag=srctok-75a2f54fb7aad41c&btn_ref=srctok-75a2f54fb7aad41c&psc=1&linkCode=ll2&tag=tenisideal26-20&linkId=bce8df660bd9522b3426631d1fda0790&ref_=as_li_ss_tl",
+        "price": 927.18,
         "store": "Amazon",
         "label": "Amazon",
-        "installments": "12x de R$ 56,46 sem juros"
+        "installments": "12x de R$ 77,32 sem juros"
       }
     },
     "tags": [
@@ -4214,11 +4215,11 @@ var SHOES = [
     "name": "Marte",
     "slug": "olympikus-marte-4909",
     "sexo": [
-      "unissex"
+      "masculino"
     ],
     "budget": "ate300",
-    "price": 189.87,
-    "price_formatted": "R$ 189,87",
+    "price": 181.95,
+    "price_formatted": "R$ 181,95",
     "levels": [
       "iniciante",
       "intermediario"
@@ -4237,10 +4238,10 @@ var SHOES = [
       "media",
       "longa"
     ],
-    "photo": "https://m.media-amazon.com/images/I/51D5Mo21ocL._AC_SY500_.jpg",
+    "photo": "https://m.media-amazon.com/images/I/51JJ2uf9wGL._AC_SX679_.jpg",
     "affiliate_links": {
       "oficial": {
-        "url": "https://tidd.ly/4bmcWtJ",
+        "url": "https://www.awin1.com/cread.php?awinmid=17698&awinaffid=2800712&platform=dl&ued=https%3A%2F%2Fwww.olympikus.com.br%2Ftenis-olympikus-marte-43395156-1-261%2Fp",
         "price": 199.99,
         "preco_pix": 0,
         "store": "OLYMPIKUS",
@@ -4248,11 +4249,19 @@ var SHOES = [
         "installments": "5x de R$ 39,99 sem juros"
       },
       "amazon": {
-        "url": "https://amzn.to/4lBTTR7",
-        "price": 189.87,
+        "url": "https://www.amazon.com.br/T%C3%AAnis-Unissex-Olympikus-Marte-43395156/dp/B0CZS8PWHR?__mk_pt_BR=%C3%85M%C3%85%C5%BD%C3%95%C3%91&crid=2TNP0DP7SEUIR&dib=eyJ2IjoiMSJ9.hkKO0cygX-_Luk3UzMHE9fU8tKFxQ6OmnCckn4OOLcNuqgR3FGaORxWREDwR-BrXgJtD3J9Y6J9sau8n7yiXCdKYp8UVGK73WZmdfvXqIKHOEvikqVyEnvAPP-_FM3iACDvv4qomXxpLy0Zt7esLfwmHGorR8cTcThBKLnlU0vB4QizlKemw4corjG5dqfL-zcIL9xIYqKvOtnKd0i9rzBMAyDOexBu4wfiYoDksqbmbEldV8S-2x2vzUvr-JuVMS9K8JxxpYhcLIJCKTQVbEvfVEBjnt3d6c70XrhJJJ6s.Y-DodDrHCBQ_hHxLGLTjgIsjznK4MFUX-rBpAlDJS00&dib_tag=se&keywords=tenis%2Bcorrida&qid=1773050958&refinements=p_36%3A-30000%2Cp_n_g-101015233022111%3A121825495011&rnid=16254006011&sprefix=tenis%2Bcorrid%2Caps%2C252&sr=8-3&ufe=app_do%3Aamzn1.fos.fcd6d665-32ba-4479-9f21-b774e276a678&th=1&psc=1&linkCode=ll2&tag=tenisideal26-20&linkId=52ef5ab7de9f8befb7f6aff1e06bdb3a&ref_=as_li_ss_tl",
+        "price": 181.95,
         "store": "Amazon",
         "label": "Amazon",
-        "installments": ""
+        "installments": "6x de R$ 30,35 sem juros"
+      },
+      "netshoes": {
+        "url": "https://click.linksynergy.com/deeplink?id=NyH7xPegftk&mid=43984&murl=https%3A%2F%2Fwww.netshoes.com.br%2Fp%2Ftenis-olympikus-marte-masculino-2I2-6761-006",
+        "price": 199.99,
+        "preco_pix": 0,
+        "store": "Netshoes",
+        "label": "Netshoes",
+        "installments": "2x sem juros"
       }
     },
     "tags": [
@@ -4294,7 +4303,7 @@ var SHOES = [
     "photo": "https://m.media-amazon.com/images/I/51CxX0z4ZYL._AC_SY695_.jpg",
     "affiliate_links": {
       "oficial": {
-        "url": "https://tidd.ly/4eORkbg",
+        "url": "https://www.awin1.com/cread.php?awinmid=17698&awinaffid=2800712&platform=dl&ued=https%3A%2F%2Fwww.olympikus.com.br%2Ftenis-olympikus-rua-43369229-1-036%2Fp",
         "price": 259.99,
         "preco_pix": 0,
         "store": "OLYMPIKUS",
@@ -4302,7 +4311,7 @@ var SHOES = [
         "installments": "7x de R$ 37,14"
       },
       "amazon": {
-        "url": "https://link.amazon/B0hGZA4jc",
+        "url": "https://www.amazon.com.br/Masculino-Olympikus-Esportivo-Treinos-Confort%C3%A1vel/dp/B0C96Z99QZ?__mk_pt_BR=%C3%85M%C3%85%C5%BD%C3%95%C3%91&crid=2S30NLM3ILAXB&dib=eyJ2IjoiMSJ9.rT2fZggf3ehHgKbK6-8_Ll_E7pJPhFiWQWD7osAnD2k6jSd_h9RL5rPEnLVyzQdafg-6e6NKU50ZqY8sF9S0fWlFNDLPKYffKh-BGl-IitywG-hj9NBqaRQtcvfuTRkPc9sE6BIKFcUDBSHOt6xssU-xyZkDeXX77nEy7RBM-wMSc9ZfYSfSTMu1qHS8US-TmPCz67Tf_2G4i29SxLaYsFmSK0qa0KqxVcUXCgO9RxfLqV_AgFF6SiAIkFO8X5KcNorhZYKdGGTyBa2IbNfuf4_dx1nwWHmGqzj0tudBFpA.9kAB_ueZ9I1-mB40qZaWXI_nUbYW_RpcYxK55oxuDoA&dib_tag=se&keywords=olympikus%2Brua&qid=1773243722&refinements=p_n_g-101015233022111%3A121825495011&rnid=121476055011&sprefix=olympikus%2Brua%2Caps%2C909&sr=8-1&ufe=app_do%3Aamzn1.fos.a492fd4a-f54d-4e8d-8c31-35e0a04ce61e&th=1&ascsubtag=srctok-653606faa3660d98&btn_ref=srctok-653606faa3660d98&psc=1&linkCode=ll2&tag=tenisideal26-20&linkId=0aeb4d30d76f77cdc8fbb3a4b214e3cd&ref_=as_li_ss_tl",
         "price": 229.9,
         "store": "Amazon",
         "label": "Amazon",
@@ -4311,7 +4320,7 @@ var SHOES = [
       "netshoes": {
         "url": "https://click.linksynergy.com/deeplink?id=NyH7xPegftk&mid=43984&murl=https%3A%2F%2Fwww.netshoes.com.br%2Fp%2Ftenis-olympikus-rua-masculino-2I2-7320-192",
         "price": 234.9,
-        "preco_pix": 199.66,
+        "preco_pix": 0,
         "store": "Netshoes",
         "label": "Netshoes",
         "installments": "3x sem juros"
@@ -4333,8 +4342,8 @@ var SHOES = [
       "masculino"
     ],
     "budget": "300a600",
-    "price": 599.99,
-    "price_formatted": "R$ 599,99",
+    "price": 549.79,
+    "price_formatted": "R$ 549,79",
     "levels": [
       "iniciante",
       "intermediario"
@@ -4356,7 +4365,7 @@ var SHOES = [
     "photo": "https://m.media-amazon.com/images/I/51Z-DdVYfOL._AC_SY500_.jpg",
     "affiliate_links": {
       "oficial": {
-        "url": "https://tidd.ly/3PBl3LF",
+        "url": "https://www.awin1.com/cread.php?awinmid=17698&awinaffid=2800712&platform=dl&ued=https%3A%2F%2Fwww.olympikus.com.br%2Ftenis-olympikus-corre-grafeno-3-43245330-3-692%2Fp",
         "price": 599.99,
         "preco_pix": 0,
         "store": "OLYMPIKUS",
@@ -4364,11 +4373,19 @@ var SHOES = [
         "installments": "10 x R$ 59,99 sem juros"
       },
       "amazon": {
-        "url": "https://amzn.to/3NC4q1S",
+        "url": "https://www.amazon.com.br/T%C3%AAnis-Corre-Grafeno-Olympikus-Masculino/dp/B0F499ZFCC?&linkCode=ll2&tag=tenisideal26-20&linkId=698f6a3894fb953f1e7801a874ebeacd&ref_=as_li_ss_tl",
         "price": 599.99,
         "store": "Amazon",
         "label": "Amazon",
-        "installments": ""
+        "installments": "11x de R$ 54,59 sem juros"
+      },
+      "netshoes": {
+        "url": "https://click.linksynergy.com/deeplink?id=NyH7xPegftk&mid=43984&murl=https%3A%2F%2Fwww.netshoes.com.br%2Fp%2Ftenis-olympikus-corre-grafeno-3-2I3-1637-412",
+        "price": 549.79,
+        "preco_pix": 0,
+        "store": "Netshoes",
+        "label": "Netshoes",
+        "installments": "7x sem juros"
       }
     },
     "tags": [
@@ -4655,8 +4672,8 @@ var SHOES = [
       "masculino"
     ],
     "budget": "acima1000",
-    "price": 1544.52,
-    "price_formatted": "R$ 1544,52",
+    "price": 1634.42,
+    "price_formatted": "R$ 1634,42",
     "levels": [
       "intermediario",
       "avancado"
@@ -4678,11 +4695,11 @@ var SHOES = [
     "photo": "https://m.media-amazon.com/images/I/71Kn-Dm570L._AC_SY500_.jpg",
     "affiliate_links": {
       "amazon": {
-        "url": "https://amzn.to/40vH9S7",
-        "price": 1544.52,
+        "url": "https://www.amazon.com.br/Saucony-Endorphin-Speed-masculino-Branco/dp/B0DJWQ58YH?__mk_pt_BR=%C3%85M%C3%85%C5%BD%C3%95%C3%91&crid=3AYZ34P4H9VTM&dib=eyJ2IjoiMSJ9.Y6WP0dJBS741kUslw7GHeyQtNkBdZyoN5ZpM9eTvlFWzpItUTKKut2g1VdJxnAwIVi9paSeq1aq__vIQQBOS6kcFdBUFrwNH_oTNJhCafGorRbrOdCdtdgRQQKbdS-Gy7d3n4BWeLFtAvbgx3etWUddxkWckcCuclZ1nDpDfnBeATQR5gIoe445HF-hIhs_Q_YilTNBW2ipn-by7Yke904xiE2waNLMCp-OJDms_RNfikifQD3R_OnF-_p4e1Iitgw8qnf5_uKLTZ8lPQVq6sgOQFTt7PTC2hFUI8svRzAY.6kM8s7U9eTBjPMYe9HUGMkStTVU7xMYarMIl-DAIf2w&dib_tag=se&keywords=Saucony%2BEndorphin%2BSpeed%2B5&qid=1773437075&sprefix=saucony%2Bendorphin%2Bspeed%2B5%2Caps%2C230&sr=8-16&ufe=app_do%3Aamzn1.fos.25548f35-0de7-44b3-b28e-0f56f3f96147&th=1&psc=1&linkCode=ll2&tag=tenisideal26-20&linkId=ef164941219cbb17774585967b894074&ref_=as_li_ss_tl",
+        "price": 1634.42,
         "store": "Amazon",
         "label": "Amazon",
-        "installments": ""
+        "installments": "10x de R$ 163,46 sem juros"
       }
     },
     "tags": [
