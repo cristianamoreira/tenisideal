@@ -382,16 +382,15 @@ var SHOES = [
     "price": 449.99,
     "price_formatted": "R$ 449,99",
     "levels": [
-      "intermediario",
-      "avancado"
+      "iniciante",
+      "intermediario"
     ],
     "pisada": [
       "neutra",
-      "pronada"
+      "supinada"
     ],
     "terreno": [
-      "asfalto",
-      "pista",
+      "trilha",
       "mista",
       "esteira"
     ],
@@ -426,9 +425,13 @@ var SHOES = [
         "installments": "6x sem juros"
       }
     },
-    "tags": [],
-    "description": "",
-    "reason": ""
+    "tags": [
+      "Trilha",
+      "Trekking",
+      "Aderência"
+    ],
+    "description": "Tênis de trilha/caminhada da adidas com solado de borracha para aderência em terrenos irregulares.",
+    "reason": "Tênis de trilha/caminhada da adidas com solado de borracha para aderência em terrenos irregulares."
   },
   {
     "brand": "ADIDAS",
@@ -1603,10 +1606,12 @@ var SHOES = [
       "intermediario"
     ],
     "pisada": [
-      "neutra"
+      "neutra",
+      "supinada"
     ],
     "terreno": [
-      "asfalto",
+      "trilha",
+      "mista",
       "esteira"
     ],
     "distancia": [
@@ -1632,9 +1637,13 @@ var SHOES = [
         "installments": "8x sem juros"
       }
     },
-    "tags": [],
-    "description": "",
-    "reason": ""
+    "tags": [
+      "Trilha",
+      "Leveza",
+      "Custo-benefício"
+    ],
+    "description": "Tênis de trilha leve e acessível da Fila, com tração para terra e cascalho.",
+    "reason": "Tênis de trilha leve e acessível da Fila, com tração para terra e cascalho."
   },
   {
     "brand": "HOKA",
@@ -1727,7 +1736,7 @@ var SHOES = [
         "price": 2210.99,
         "store": "Amazon",
         "label": "Amazon",
-        "installments": ""
+        "installments": "12x de R$ 184,35 sem juros"
       }
     },
     "tags": [
@@ -1795,52 +1804,6 @@ var SHOES = [
   },
   {
     "brand": "HOKA",
-    "name": "Clifton 9",
-    "slug": "hoka-clifton-9-c3bd",
-    "sexo": [
-      "masculino"
-    ],
-    "budget": "acima1000",
-    "price": 1120.35,
-    "price_formatted": "R$ 1120,35",
-    "levels": [
-      "iniciante",
-      "intermediario",
-      "avancado"
-    ],
-    "pisada": [
-      "neutra",
-      "supinada"
-    ],
-    "terreno": [
-      "asfalto",
-      "esteira",
-      "mista"
-    ],
-    "distancia": [
-      "curta",
-      "media",
-      "longa"
-    ],
-    "photo": "https://images-na.ssl-images-amazon.com/images/I/61Gkm+6EdqL.jpg",
-    "affiliate_links": {
-      "amazon": {
-        "url": "https://amzn.to/4u9y3YW",
-        "price": 1120.35,
-        "store": "Amazon",
-        "label": "Amazon",
-        "installments": ""
-      }
-    },
-    "tags": [
-      "Maxi-Soft",
-      "Leve"
-    ],
-    "description": "Amortecimento máximo com peso surpreendentemente baixo. Ótimo para treinos longos e recuperação.",
-    "reason": "Amortecimento máximo com peso surpreendentemente baixo. Ótimo para treinos longos e recuperação."
-  },
-  {
-    "brand": "HOKA",
     "name": "Rincon 4",
     "slug": "hoka-rincon-4-d710",
     "sexo": [
@@ -1859,9 +1822,9 @@ var SHOES = [
       "supinada"
     ],
     "terreno": [
-      "trilha",
-      "mista",
-      "esteira"
+      "asfalto",
+      "esteira",
+      "mista"
     ],
     "distancia": [
       "curta",
@@ -1887,11 +1850,12 @@ var SHOES = [
       }
     },
     "tags": [
-      "Ultra Trail",
-      "Conforto"
+      "Leveza",
+      "Conforto",
+      "Versátil"
     ],
-    "description": "Favorito dos ultramaratonistas: amortecimento generoso com grip confiável nas piores condições.",
-    "reason": "Favorito dos ultramaratonistas: amortecimento generoso com grip confiável nas piores condições."
+    "description": "Daily trainer leve e macio da Hoka para o dia a dia no asfalto, com ótimo custo-peso.",
+    "reason": "Daily trainer leve e macio da Hoka para o dia a dia no asfalto, com ótimo custo-peso."
   },
   {
     "brand": "HOKA",
@@ -2356,7 +2320,7 @@ var SHOES = [
         "price": 999.9,
         "store": "Amazon",
         "label": "Amazon",
-        "installments": "12x sem juros"
+        "installments": "12x de R$ 83,38 sem juros"
       },
       "netshoes": {
         "url": "https://click.linksynergy.com/deeplink?id=NyH7xPegftk&mid=43984&murl=https%3A%2F%2Fwww.netshoes.com.br%2Fp%2Ftenis-mizuno-neo-zen-2-SIC-00HL-026",
@@ -2483,6 +2447,14 @@ var SHOES = [
         "store": "Amazon",
         "label": "Amazon",
         "installments": "7x de R$ 53,60 sem juros"
+      },
+      "netshoes": {
+        "url": "https://click.linksynergy.com/deeplink?id=NyH7xPegftk&mid=43984&murl=https%3A%2F%2Fwww.netshoes.com.br%2Fp%2Ftenis-mizuno-enigma-2-masculino-2FV-1341-006",
+        "price": 329.99,
+        "preco_pix": 0,
+        "store": "Netshoes",
+        "label": "Netshoes",
+        "installments": "4x sem juros"
       }
     },
     "tags": [
@@ -2538,6 +2510,14 @@ var SHOES = [
         "store": "Amazon",
         "label": "Amazon",
         "installments": "12x de R$ 108,36 sem juros"
+      },
+      "netshoes": {
+        "url": "https://click.linksynergy.com/deeplink?id=NyH7xPegftk&mid=43984&murl=https%3A%2F%2Fwww.netshoes.com.br%2Fp%2Ftenis-unissex-mizuno-wave-prophecy-beta-2-2FU-9184-006",
+        "price": 1299.99,
+        "preco_pix": 0,
+        "store": "Netshoes",
+        "label": "Netshoes",
+        "installments": "10x de R$ 130,00 sem juros"
       }
     },
     "tags": [
@@ -2676,15 +2656,14 @@ var SHOES = [
     "price": 499.99,
     "price_formatted": "R$ 499,99",
     "levels": [
-      "intermediario",
-      "avancado"
+      "iniciante",
+      "intermediario"
     ],
     "pisada": [
       "neutra",
-      "pronada"
+      "supinada"
     ],
     "terreno": [
-      "asfalto",
       "trilha",
       "mista",
       "esteira"
@@ -2720,9 +2699,13 @@ var SHOES = [
         "installments": "9x de R$ 72,21 sem juros"
       }
     },
-    "tags": [],
-    "description": "",
-    "reason": ""
+    "tags": [
+      "Trilha",
+      "Estabilidade",
+      "Wave"
+    ],
+    "description": "Trail da Mizuno com tecnologia Wave: estabilidade e proteção em trilhas técnicas.",
+    "reason": "Trail da Mizuno com tecnologia Wave: estabilidade e proteção em trilhas técnicas."
   },
   {
     "brand": "NEW BALANCE",
@@ -2783,11 +2766,11 @@ var SHOES = [
     "name": "530",
     "slug": "new-balance-530-adb9",
     "sexo": [
-      "masculino"
+      "unissex"
     ],
     "budget": "600a1000",
-    "price": 669.0,
-    "price_formatted": "R$ 669,00",
+    "price": 711.55,
+    "price_formatted": "R$ 711,55",
     "levels": [
       "iniciante",
       "intermediario",
@@ -2807,14 +2790,22 @@ var SHOES = [
       "media",
       "longa"
     ],
-    "photo": "https://m.media-amazon.com/images/I/71umOc7Na8L._AC_SY500_.jpg",
+    "photo": "https://m.media-amazon.com/images/I/71J8y587cCL._AC_SX695_.jpg",
     "affiliate_links": {
       "amazon": {
-        "url": "https://link.amazon/B08XQrh6G",
-        "price": 669.0,
+        "url": "https://link.amazon/B0iYqDZzL",
+        "price": 749.0,
         "store": "Amazon",
         "label": "Amazon",
-        "installments": "12x"
+        "installments": "12x de R$ 62,49 sem juros"
+      },
+      "netshoes": {
+        "url": "https://click.linksynergy.com/deeplink?id=NyH7xPegftk&mid=43984&murl=https%3A%2F%2Fwww.netshoes.com.br%2Fp%2Ftenis-new-balance-unissex-530-39V-24KN-702",
+        "price": 711.55,
+        "preco_pix": 0,
+        "store": "Netshoes",
+        "label": "Netshoes",
+        "installments": "10x sem juros"
       }
     },
     "tags": [
@@ -2827,14 +2818,14 @@ var SHOES = [
   },
   {
     "brand": "NEW BALANCE",
-    "name": "1080 v15",
-    "slug": "new-balance-1080-v15-581a",
+    "name": "1080 v14",
+    "slug": "new-balance-1080-v14-581a",
     "sexo": [
       "masculino"
     ],
-    "budget": "acima1000",
-    "price": 1199.99,
-    "price_formatted": "R$ 1199,99",
+    "budget": "600a1000",
+    "price": 839.9,
+    "price_formatted": "R$ 839,90",
     "levels": [
       "iniciante",
       "intermediario",
@@ -2854,14 +2845,70 @@ var SHOES = [
       "media",
       "longa"
     ],
-    "photo": "https://m.media-amazon.com/images/I/61FYoxCE8OL._AC_SY500_.jpg",
+    "photo": "https://m.media-amazon.com/images/I/71tKPwwEOiL._AC_SX695_.jpg",
     "affiliate_links": {
       "amazon": {
-        "url": "https://amzn.to/4uI7lqG",
-        "price": 1199.99,
+        "url": "https://link.amazon/B08nRLt4Z",
+        "price": 839.9,
         "store": "Amazon",
         "label": "Amazon",
-        "installments": ""
+        "installments": "12x de R$ 70,01 sem juros"
+      },
+      "netshoes": {
+        "url": "https://click.linksynergy.com/deeplink?id=NyH7xPegftk&mid=43984&murl=https%3A%2F%2Fwww.netshoes.com.br%2Fp%2Ftenis-new-balance-fresh-foam-x-1080-v14-masculino-39V-0509-138",
+        "price": 989.79,
+        "preco_pix": 0,
+        "store": "Netshoes",
+        "label": "Netshoes",
+        "installments": "10x sem juros"
+      }
+    },
+    "tags": [
+      "Amortecimento",
+      "Treino diário",
+      "Longa distância",
+      "Infinion foam"
+    ],
+    "description": "Treino diário premium com a nova espuma Infinion — mais leve e responsiva que a Fresh Foam. Ideal para treinos longos e recuperação.",
+    "reason": "Treino diário premium com a nova espuma Infinion — mais leve e responsiva que a Fresh Foam. Ideal para treinos longos e recuperação."
+  },
+  {
+    "brand": "NEW BALANCE",
+    "name": "1080 v15",
+    "slug": "new-balance-1080-v15-581a",
+    "sexo": [
+      "feminino"
+    ],
+    "budget": "acima1000",
+    "price": 1179.8,
+    "price_formatted": "R$ 1179,80",
+    "levels": [
+      "iniciante",
+      "intermediario",
+      "avancado"
+    ],
+    "pisada": [
+      "neutra",
+      "supinada"
+    ],
+    "terreno": [
+      "asfalto",
+      "esteira",
+      "mista"
+    ],
+    "distancia": [
+      "curta",
+      "media",
+      "longa"
+    ],
+    "photo": "https://m.media-amazon.com/images/I/81wTUqT6pWL._AC_SX500_.jpg",
+    "affiliate_links": {
+      "amazon": {
+        "url": "https://amzn.to/4b8JVD5",
+        "price": 1179.8,
+        "store": "Amazon",
+        "label": "Amazon",
+        "installments": "12x de R$ 98,39 sem juros"
       }
     },
     "tags": [
@@ -2881,8 +2928,8 @@ var SHOES = [
       "feminino"
     ],
     "budget": "acima1000",
-    "price": 1749.9,
-    "price_formatted": "R$ 1749,90",
+    "price": 1983.47,
+    "price_formatted": "R$ 1983,47",
     "levels": [
       "intermediario",
       "avancado"
@@ -2901,14 +2948,22 @@ var SHOES = [
       "media",
       "longa"
     ],
-    "photo": "https://m.media-amazon.com/images/I/71q16VFjN9L._AC_SX500_.jpg",
+    "photo": "https://m.media-amazon.com/images/I/71ATwB2YW5L._AC_SX695_.jpg",
     "affiliate_links": {
       "amazon": {
         "url": "https://amzn.to/3NnNw78",
-        "price": 1749.9,
+        "price": 1983.47,
         "store": "Amazon",
         "label": "Amazon",
-        "installments": ""
+        "installments": "10x de R$ 198,41 sem juros"
+      },
+      "netshoes": {
+        "url": "https://click.linksynergy.com/deeplink?id=NyH7xPegftk&mid=43984&murl=https%3A%2F%2Fwww.netshoes.com.br%2Fp%2Ftenis-new-balance-fuelcell-supercomp-elite-v5-feminino-39V-24V4-223",
+        "price": 2299.99,
+        "preco_pix": 0,
+        "store": "Netshoes",
+        "label": "Netshoes",
+        "installments": "10x sem juros"
       }
     },
     "tags": [
@@ -2922,14 +2977,14 @@ var SHOES = [
   },
   {
     "brand": "NEW BALANCE",
-    "name": "Fresh Foam X Hierro v8",
-    "slug": "new-balance-fresh-foam-x-hierro-v8-7084",
+    "name": "Fresh Foam X Hierro v9",
+    "slug": "new-balance-fresh-foam-x-hierro-v9-7084",
     "sexo": [
       "masculino"
     ],
-    "budget": "acima1000",
-    "price": 1281.86,
-    "price_formatted": "R$ 1281,86",
+    "budget": "600a1000",
+    "price": 899.99,
+    "price_formatted": "R$ 899,99",
     "levels": [
       "iniciante",
       "intermediario",
@@ -2949,14 +3004,22 @@ var SHOES = [
       "media",
       "longa"
     ],
-    "photo": "https://m.media-amazon.com/images/I/51jw--PJVpL._AC_SY500_.jpg",
+    "photo": "https://m.media-amazon.com/images/I/71z-hM11Z-L._AC_SX695_.jpg",
     "affiliate_links": {
       "amazon": {
-        "url": "https://amzn.to/4sHcrBo",
-        "price": 1281.86,
+        "url": "https://link.amazon/B07fT6D5B",
+        "price": 959.9,
         "store": "Amazon",
         "label": "Amazon",
-        "installments": ""
+        "installments": "12x de R$ 80,01 sem juros"
+      },
+      "netshoes": {
+        "url": "https://click.linksynergy.com/deeplink?id=NyH7xPegftk&mid=43984&murl=https%3A%2F%2Fwww.netshoes.com.br%2Fp%2Ftenis-new-balance-fresh-foam-x-hierro-v9-masculino-verde%2Bclaro-39V-1384-390-41",
+        "price": 899.99,
+        "preco_pix": 0,
+        "store": "Netshoes",
+        "label": "Netshoes",
+        "installments": "10x sem juros"
       }
     },
     "tags": [
@@ -2976,8 +3039,8 @@ var SHOES = [
       "feminino"
     ],
     "budget": "600a1000",
-    "price": 989.79,
-    "price_formatted": "R$ 989,79",
+    "price": 989.88,
+    "price_formatted": "R$ 989,88",
     "levels": [
       "intermediario",
       "avancado"
@@ -2996,14 +3059,22 @@ var SHOES = [
       "media",
       "longa"
     ],
-    "photo": "https://m.media-amazon.com/images/I/71+9s4rDg-L._AC_SY500_.jpg",
+    "photo": "https://m.media-amazon.com/images/I/71+9s4rDg-L._AC_SY695_.jpg",
     "affiliate_links": {
       "amazon": {
-        "url": "https://amzn.to/40rgjL1",
-        "price": 989.79,
+        "url": "https://link.amazon/B0gyYTSaK",
+        "price": 989.88,
         "store": "Amazon",
         "label": "Amazon",
-        "installments": ""
+        "installments": "12x de R$ 92,38 com juros"
+      },
+      "netshoes": {
+        "url": "https://click.linksynergy.com/deeplink?id=NyH7xPegftk&mid=43984&murl=https%3A%2F%2Fwww.netshoes.com.br%2Fp%2Ftenis-new-balance-fuelcell-rebel-v5-feminino-39V-24AK-018",
+        "price": 1099.99,
+        "preco_pix": 0,
+        "store": "Netshoes",
+        "label": "Netshoes",
+        "installments": "10x de R$ 110,00 sem juros"
       }
     },
     "tags": [
@@ -3089,9 +3160,9 @@ var SHOES = [
       "supinada"
     ],
     "terreno": [
-      "asfalto",
-      "esteira",
-      "mista"
+      "trilha",
+      "mista",
+      "esteira"
     ],
     "distancia": [
       "curta",
@@ -3305,8 +3376,8 @@ var SHOES = [
       "feminino"
     ],
     "budget": "300a600",
-    "price": 399.99,
-    "price_formatted": "R$ 399,99",
+    "price": 389.99,
+    "price_formatted": "R$ 389,99",
     "levels": [
       "iniciante",
       "intermediario"
@@ -3325,22 +3396,23 @@ var SHOES = [
       "media",
       "longa"
     ],
-    "photo": "https://m.media-amazon.com/images/I/71PZ2x9ndbL._AC_SY625_.jpg",
+    "photo": "https://imgnike-a.akamaihd.net/768x768/028665P1A2.jpg",
     "affiliate_links": {
       "oficial": {
-        "url": "https://tidd.ly/4dnmibo",
-        "price": 399.99,
+        "url": "https://tidd.ly/4gJkYRE",
+        "price": 700.0,
         "preco_pix": 0,
         "store": "NIKE",
         "label": "NIKE",
-        "installments": "4x de R$ 105,26 sem juros"
+        "installments": "7x de R$ 100,00 sem juros"
       },
-      "amazon": {
-        "url": "https://amzn.to/4bSZuiI",
-        "price": 756.98,
-        "store": "Amazon",
-        "label": "Amazon",
-        "installments": ""
+      "netshoes": {
+        "url": "https://click.linksynergy.com/deeplink?id=NyH7xPegftk&mid=43984&murl=https%3A%2F%2Fwww.netshoes.com.br%2Fp%2Ftenis-nike-winflo-11-feminino-SGL-04KP-398",
+        "price": 389.99,
+        "preco_pix": 0,
+        "store": "Netshoes",
+        "label": "Netshoes",
+        "installments": "5x sem juros"
       }
     },
     "tags": [
@@ -3358,8 +3430,8 @@ var SHOES = [
       "masculino"
     ],
     "budget": "300a600",
-    "price": 474.99,
-    "price_formatted": "R$ 474,99",
+    "price": 409.99,
+    "price_formatted": "R$ 409,99",
     "levels": [
       "iniciante",
       "intermediario"
@@ -3378,22 +3450,83 @@ var SHOES = [
       "media",
       "longa"
     ],
-    "photo": "https://m.media-amazon.com/images/I/71Pb0HGV0BL._AC_SX500_.jpg",
+    "photo": "https://m.media-amazon.com/images/I/71dwcsLUS0L._AC_SY695_.jpg",
     "affiliate_links": {
       "oficial": {
         "url": "https://tidd.ly/4xPlnIw",
-        "price": 474.99,
+        "price": 450.0,
         "preco_pix": 0,
         "store": "NIKE",
         "label": "NIKE",
-        "installments": "5x de R$ 100,00 sem juros"
+        "installments": "4x de R$ 112,50 sem juros"
       },
       "amazon": {
-        "url": "https://amzn.to/4du7oQD",
-        "price": 595.67,
+        "url": "https://link.amazon/B0bJpCL6q",
+        "price": 705.68,
         "store": "Amazon",
         "label": "Amazon",
-        "installments": ""
+        "installments": "10x de R$ 70,64 sem juros"
+      },
+      "netshoes": {
+        "url": "https://click.linksynergy.com/deeplink?id=NyH7xPegftk&mid=43984&murl=https%3A%2F%2Fwww.netshoes.com.br%2Fp%2Ftenis-nike-quest-5-masculino-2IC-8603-006",
+        "price": 409.99,
+        "preco_pix": 0,
+        "store": "Netshoes",
+        "label": "Netshoes",
+        "installments": "5x sem juros"
+      }
+    },
+    "tags": [
+      "Custo-benefício",
+      "Entrada"
+    ],
+    "description": "Custo-benefício sólido da Nike. Entressola firme e solado durável para treinos frequentes.",
+    "reason": "Custo-benefício sólido da Nike. Entressola firme e solado durável para treinos frequentes."
+  },
+  {
+    "brand": "NIKE",
+    "name": "Quest 6",
+    "slug": "nike-quest-6-3868",
+    "sexo": [
+      "feminino"
+    ],
+    "budget": "300a600",
+    "price": 499.99,
+    "price_formatted": "R$ 499,99",
+    "levels": [
+      "iniciante",
+      "intermediario"
+    ],
+    "pisada": [
+      "neutra",
+      "supinada"
+    ],
+    "terreno": [
+      "asfalto",
+      "esteira",
+      "mista"
+    ],
+    "distancia": [
+      "curta",
+      "media",
+      "longa"
+    ],
+    "photo": "https://m.media-amazon.com/images/I/61llYU-SqgL._AC_SY695_.jpg",
+    "affiliate_links": {
+      "amazon": {
+        "url": "https://link.amazon/B01hDjY1C",
+        "price": 644.89,
+        "store": "Amazon",
+        "label": "Amazon",
+        "installments": "12x de R$ 53,75 sem juros"
+      },
+      "netshoes": {
+        "url": "https://click.linksynergy.com/deeplink?id=NyH7xPegftk&mid=43984&murl=https%3A%2F%2Fwww.netshoes.com.br%2Fp%2Ftenis-nike-quest-6-feminino-SGL-04KV-044",
+        "price": 499.99,
+        "preco_pix": 0,
+        "store": "Netshoes",
+        "label": "Netshoes",
+        "installments": "7x sem juros"
       }
     },
     "tags": [
@@ -3723,53 +3856,6 @@ var SHOES = [
     ],
     "description": "Amortecimento premium ZoomX com fit personalizado. Para quem quer conforto máximo sem abrir mão da leveza.",
     "reason": "Amortecimento premium ZoomX com fit personalizado. Para quem quer conforto máximo sem abrir mão da leveza."
-  },
-  {
-    "brand": "NIKE",
-    "name": "Pegasus Trail 5",
-    "slug": "nike-pegasus-trail-5-9a0b",
-    "sexo": [
-      "feminino"
-    ],
-    "budget": "acima1000",
-    "price": 1146.51,
-    "price_formatted": "R$ 1146,51",
-    "levels": [
-      "iniciante",
-      "intermediario",
-      "avancado"
-    ],
-    "pisada": [
-      "neutra",
-      "supinada"
-    ],
-    "terreno": [
-      "trilha",
-      "mista",
-      "esteira"
-    ],
-    "distancia": [
-      "curta",
-      "media",
-      "longa"
-    ],
-    "photo": "https://imgnike-a.akamaihd.net/360x360/028652A1A7.jpg",
-    "affiliate_links": {
-      "amazon": {
-        "url": "https://amzn.to/419eqD7",
-        "price": 1146.51,
-        "store": "Amazon",
-        "label": "Amazon",
-        "installments": "12x de R$ 95,57 sem juros"
-      }
-    },
-    "tags": [
-      "Trilha",
-      "Versátil",
-      "Conforto"
-    ],
-    "description": "Grip Traxion para trilhas com amortecimento React X. Para quem quer performance fora do asfalto.",
-    "reason": "Grip Traxion para trilhas com amortecimento React X. Para quem quer performance fora do asfalto."
   },
   {
     "brand": "NIKE",
@@ -4367,10 +4453,12 @@ var SHOES = [
       "intermediario"
     ],
     "pisada": [
-      "neutra"
+      "neutra",
+      "supinada"
     ],
     "terreno": [
-      "asfalto",
+      "trilha",
+      "mista",
       "esteira"
     ],
     "distancia": [
@@ -4396,9 +4484,13 @@ var SHOES = [
         "installments": "6x de R$ 40,04 sem juros"
       }
     },
-    "tags": [],
-    "description": "",
-    "reason": ""
+    "tags": [
+      "Trilha",
+      "Nacional",
+      "Custo-benefício"
+    ],
+    "description": "Tênis de trilha nacional da Olympikus, acessível e com boa tração para terra e parques.",
+    "reason": "Tênis de trilha nacional da Olympikus, acessível e com boa tração para terra e parques."
   },
   {
     "brand": "SALOMON",
@@ -4465,6 +4557,7 @@ var SHOES = [
     "price": 1346.95,
     "price_formatted": "R$ 1346,95",
     "levels": [
+      "iniciante",
       "intermediario",
       "avancado"
     ],
@@ -4474,7 +4567,8 @@ var SHOES = [
     ],
     "terreno": [
       "asfalto",
-      "esteira"
+      "esteira",
+      "mista"
     ],
     "distancia": [
       "curta",
@@ -4491,9 +4585,13 @@ var SHOES = [
         "installments": "10x de R$ 134,74 sem juros"
       }
     },
-    "tags": [],
-    "description": "",
-    "reason": ""
+    "tags": [
+      "Estabilidade",
+      "Suporte",
+      "Conforto"
+    ],
+    "description": "Tênis de estabilidade da Saucony com suporte para pisada pronada — ideal para rodagens diárias.",
+    "reason": "Tênis de estabilidade da Saucony com suporte para pisada pronada — ideal para rodagens diárias."
   },
   {
     "brand": "SAUCONY",
@@ -4592,16 +4690,15 @@ var SHOES = [
   },
   {
     "brand": "SAUCONY",
-    "name": "Triumph 23",
-    "slug": "saucony-saucony-triumph-23-582c",
+    "name": "Triumph Iso 5",
+    "slug": "saucony-triumph-iso-5",
     "sexo": [
-      "masculino"
+      "feminino"
     ],
-    "budget": "acima1000",
-    "price": 1247.09,
-    "price_formatted": "R$ 1247,09",
+    "budget": "300a600",
+    "price": 429.99,
+    "price_formatted": "R$ 429,99",
     "levels": [
-      "iniciante",
       "intermediario",
       "avancado"
     ],
@@ -4619,24 +4716,31 @@ var SHOES = [
       "media",
       "longa"
     ],
-    "photo": "https://m.media-amazon.com/images/I/81oEoDyhA+L._AC_SY500_.jpg",
+    "photo": "https://m.media-amazon.com/images/I/71t2i6ogUoL._AC_SX695_.jpg",
     "affiliate_links": {
       "amazon": {
-        "url": "https://amzn.to/4ltmU1a",
-        "price": 1247.09,
+        "url": "https://link.amazon/B03dGNglO",
+        "price": 537.62,
         "store": "Amazon",
         "label": "Amazon",
-        "installments": ""
+        "installments": "10x de R$ 53,78 sem juros"
+      },
+      "netshoes": {
+        "url": "https://click.linksynergy.com/deeplink?id=NyH7xPegftk&mid=43984&murl=https%3A%2F%2Fwww.netshoes.com.br%2Fp%2Ftenis-saucony-triumph-iso-5-feminino-311-3118-008",
+        "price": 429.99,
+        "preco_pix": 0,
+        "store": "Netshoes",
+        "label": "Netshoes",
+        "installments": "6x sem juros"
       }
     },
     "tags": [
       "Amortecimento",
-      "Treino longo",
       "Conforto",
-      "PWRRUN PB"
+      "Premium"
     ],
-    "description": "Treino longo premium com espuma PWRRUN PB reformulada — mais leve e responsiva. Ideal para quem acumula quilometragem com conforto.",
-    "reason": "Treino longo premium com espuma PWRRUN PB reformulada — mais leve e responsiva. Ideal para quem acumula quilometragem com conforto."
+    "description": "Máximo amortecimento da Saucony (PWRRUN+) para rodagens longas com muito conforto.",
+    "reason": "Máximo amortecimento da Saucony (PWRRUN+) para rodagens longas com muito conforto."
   },
   {
     "brand": "SAUCONY",
@@ -4646,8 +4750,8 @@ var SHOES = [
       "masculino"
     ],
     "budget": "600a1000",
-    "price": 974.09,
-    "price_formatted": "R$ 974,09",
+    "price": 706.65,
+    "price_formatted": "R$ 706,65",
     "levels": [
       "iniciante",
       "intermediario",
@@ -4671,10 +4775,10 @@ var SHOES = [
     "affiliate_links": {
       "amazon": {
         "url": "https://amzn.to/4bnOqIy",
-        "price": 974.09,
+        "price": 706.65,
         "store": "Amazon",
         "label": "Amazon",
-        "installments": ""
+        "installments": "12x de R$ 58,97 sem juros"
       }
     },
     "tags": [
@@ -4736,54 +4840,6 @@ var SHOES = [
     "reason": "Um dos melhores tênis de trilha para todos os níveis. Tração confiável em terra e pedras com boa proteção de amortecimento."
   },
   {
-    "brand": "SALOMON",
-    "name": "Ride 5",
-    "slug": "salomon-salomon-sense-ride-5-67f3",
-    "sexo": [
-      "feminino"
-    ],
-    "budget": "acima1000",
-    "price": 1120.02,
-    "price_formatted": "R$ 1120,02",
-    "levels": [
-      "iniciante",
-      "intermediario",
-      "avancado"
-    ],
-    "pisada": [
-      "neutra",
-      "supinada"
-    ],
-    "terreno": [
-      "asfalto",
-      "esteira",
-      "mista"
-    ],
-    "distancia": [
-      "curta",
-      "media",
-      "longa"
-    ],
-    "photo": "https://m.media-amazon.com/images/I/710D-lXE4uL._AC_SY500_.jpg",
-    "affiliate_links": {
-      "amazon": {
-        "url": "https://amzn.to/4b92uXF",
-        "price": 1120.02,
-        "store": "Amazon",
-        "label": "Amazon",
-        "installments": ""
-      }
-    },
-    "tags": [
-      "Trail",
-      "Versátil",
-      "Road-to-trail",
-      "Conforto"
-    ],
-    "description": "Trail versátil para quem corre em terrenos mistos. Menos agressivo que o Speedcross — ideal para trilhas suaves e corrida mista road-to-trail.",
-    "reason": "Trail versátil para quem corre em terrenos mistos. Menos agressivo que o Speedcross — ideal para trilhas suaves e corrida mista road-to-trail."
-  },
-  {
     "brand": "SKECHERS",
     "name": "Go Run Consistent 2",
     "slug": "skechers-go-run-consistent-2-3c37",
@@ -4824,7 +4880,7 @@ var SHOES = [
       "netshoes": {
         "url": "https://click.linksynergy.com/deeplink?id=NyH7xPegftk&mid=43984&murl=https%3A%2F%2Fwww.netshoes.com.br%2Fp%2Ftenis-skechers-go-run-consistent-2-masculino-preto%2Bbranco-EUZ-9408-026",
         "price": 399.99,
-        "preco_pix": 379.99,
+        "preco_pix": 0,
         "store": "Netshoes",
         "label": "Netshoes",
         "installments": "5x sem juros"
