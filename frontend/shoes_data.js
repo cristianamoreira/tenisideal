@@ -484,8 +484,8 @@ var SHOES = [
       "Amortecimento",
       "Conforto"
     ],
-    "description": "Tênis de corrida versátil com bom amortecimento para treinos diários.",
-    "reason": "Tênis de corrida versátil com bom amortecimento para treinos diários."
+    "description": "Daily trainer confortável da adidas com espuma Dreamstrike+ e bom suporte para rodagens tranquilas do dia a dia.",
+    "reason": "Daily trainer confortável da adidas com espuma Dreamstrike+ e bom suporte para rodagens tranquilas do dia a dia."
   },
   {
     "brand": "ASICS",
@@ -988,9 +988,9 @@ var SHOES = [
       "supinada"
     ],
     "terreno": [
-      "trilha",
-      "mista",
-      "esteira"
+      "asfalto",
+      "esteira",
+      "mista"
     ],
     "distancia": [
       "curta",
@@ -1017,10 +1017,11 @@ var SHOES = [
     },
     "tags": [
       "Amortecimento",
+      "Custo-benefício",
       "Durabilidade"
     ],
-    "description": "Tecnologia GEL na entressola EVA para absorção de impacto, cabedal mesh respirável e solado emborrachado resistente",
-    "reason": "Tecnologia GEL na entressola EVA para absorção de impacto, cabedal mesh respirável e solado emborrachado resistente"
+    "description": "Tênis de corrida acessível da Asics com GEL no calcanhar para absorção de impacto e cabedal respirável — bom para o dia a dia.",
+    "reason": "Tênis de corrida acessível da Asics com GEL no calcanhar para absorção de impacto e cabedal respirável — bom para o dia a dia."
   },
   {
     "brand": "ASICS",
@@ -1073,8 +1074,8 @@ var SHOES = [
       "Versátil",
       "Conforto"
     ],
-    "description": "Tênis de corrida versátil com bom amortecimento para treinos diários.",
-    "reason": "Tênis de corrida versátil com bom amortecimento para treinos diários."
+    "description": "Daily trainer divertido e responsivo da Asics com espuma FF BLAST+ — animado pro treino e pro ritmo.",
+    "reason": "Daily trainer divertido e responsivo da Asics com espuma FF BLAST+ — animado pro treino e pro ritmo."
   },
   {
     "brand": "BROOKS",
@@ -1123,11 +1124,12 @@ var SHOES = [
       }
     },
     "tags": [
-      "GuideRails",
-      "Suporte"
+      "Leveza",
+      "Velocidade",
+      "Neutro"
     ],
-    "description": "GuideRails exclusivo suporta o excesso de movimento sem travar a pisada natural. Indicado por fisios.",
-    "reason": "GuideRails exclusivo suporta o excesso de movimento sem travar a pisada natural. Indicado por fisios."
+    "description": "Tênis leve e veloz da Brooks (DNA Flash) para treinos de ritmo e provas rápidas — responsivo e ágil.",
+    "reason": "Tênis leve e veloz da Brooks (DNA Flash) para treinos de ritmo e provas rápidas — responsivo e ágil."
   },
   {
     "brand": "BROOKS",
@@ -1227,8 +1229,8 @@ var SHOES = [
       "Neutro",
       "Diário"
     ],
-    "description": "DNA Loft v3 oferece maciez consistente do início ao fim do treino. Ótimo tênis de treino diário.",
-    "reason": "DNA Loft v3 oferece maciez consistente do início ao fim do treino. Ótimo tênis de treino diário."
+    "description": "Tênis leve e energético da Brooks para treinos rápidos e do dia a dia — resposta ágil sem pesar.",
+    "reason": "Tênis leve e energético da Brooks para treinos rápidos e do dia a dia — resposta ágil sem pesar."
   },
   {
     "brand": "BROOKS",
@@ -1281,8 +1283,8 @@ var SHOES = [
       "Neutro",
       "Diário"
     ],
-    "description": "DNA Loft v3 oferece maciez consistente do início ao fim do treino. Ótimo tênis de treino diário.",
-    "reason": "DNA Loft v3 oferece maciez consistente do início ao fim do treino. Ótimo tênis de treino diário."
+    "description": "O mais macio da Brooks: amortecimento premium DNA Loft v3 para máximo conforto em rodagens longas.",
+    "reason": "O mais macio da Brooks: amortecimento premium DNA Loft v3 para máximo conforto em rodagens longas."
   },
   {
     "brand": "BROOKS",
@@ -1325,11 +1327,11 @@ var SHOES = [
     },
     "tags": [
       "Amortecimento",
-      "Durabilidade",
-      "Trilha"
+      "Conforto",
+      "Durabilidade"
     ],
-    "description": "Amortecimento DNA LOFT com solado de garras para trilha leve, combina o conforto de um tênis de rua com tração fora do asfalto",
-    "reason": "Amortecimento DNA LOFT com solado de garras para trilha leve, combina o conforto de um tênis de rua com tração fora do asfalto"
+    "description": "Daily trainer macio e equilibrado da Brooks com amortecimento DNA Loft — conforto confiável pro dia a dia no asfalto.",
+    "reason": "Daily trainer macio e equilibrado da Brooks com amortecimento DNA Loft — conforto confiável pro dia a dia no asfalto."
   },
   {
     "brand": "FILA",
@@ -1484,10 +1486,11 @@ var SHOES = [
     },
     "tags": [
       "Amortecimento",
-      "Durabilidade"
+      "Durabilidade",
+      "Custo-benefício"
     ],
-    "description": "amortecimento|durabilidade|custo",
-    "reason": "amortecimento|durabilidade|custo"
+    "description": "Tênis de corrida acessível da Fila com bom amortecimento e durabilidade — ótimo custo-benefício pros treinos no asfalto.",
+    "reason": "Tênis de corrida acessível da Fila com bom amortecimento e durabilidade — ótimo custo-benefício pros treinos no asfalto."
   },
   {
     "brand": "FILA",
@@ -1912,8 +1915,8 @@ var SHOES = [
       "Versátil",
       "Conforto"
     ],
-    "description": "Tênis de corrida versátil com bom amortecimento para treinos diários.",
-    "reason": "Tênis de corrida versátil com bom amortecimento para treinos diários."
+    "description": "Daily trainer leve e versátil da Hoka com espuma supercrítica — bom pra treino diário e ritmos mais rápidos.",
+    "reason": "Daily trainer leve e versátil da Hoka com espuma supercrítica — bom pra treino diário e ritmos mais rápidos."
   },
   {
     "brand": "MIZUNO",
@@ -2215,8 +2218,8 @@ var SHOES = [
       "Estilo",
       "Conforto"
     ],
-    "description": "Clássico retrô com entressola ENCAP para amortecimento duradouro. Cabedal em couro sintético e mesh para conforto e estilo versátil no dia a dia",
-    "reason": "Clássico retrô com entressola ENCAP para amortecimento duradouro. Cabedal em couro sintético e mesh para conforto e estilo versátil no dia a dia"
+    "description": "Tênis confortável e versátil da Mizuno, com entressola macia e visual retrô — ótimo para o dia a dia e caminhadas.",
+    "reason": "Tênis confortável e versátil da Mizuno, com entressola macia e visual retrô — ótimo para o dia a dia e caminhadas."
   },
   {
     "brand": "MIZUNO",
@@ -2817,8 +2820,8 @@ var SHOES = [
       "Estilo",
       "Conforto"
     ],
-    "description": "Clássico retrô com entressola ENCAP para amortecimento duradouro. Cabedal em couro sintético e mesh para conforto e estilo versátil no dia a dia",
-    "reason": "Clássico retrô com entressola ENCAP para amortecimento duradouro. Cabedal em couro sintético e mesh para conforto e estilo versátil no dia a dia"
+    "description": "Clássico retrô da New Balance com entressola ENCAP — amortecimento duradouro, estilo e conforto pro dia a dia.",
+    "reason": "Clássico retrô da New Balance com entressola ENCAP — amortecimento duradouro, estilo e conforto pro dia a dia."
   },
   {
     "brand": "NEW BALANCE",
@@ -2870,11 +2873,10 @@ var SHOES = [
     "tags": [
       "Amortecimento",
       "Treino diário",
-      "Longa distância",
-      "Infinion foam"
+      "Longa distância"
     ],
-    "description": "Treino diário premium com a nova espuma Infinion — mais leve e responsiva que a Fresh Foam. Ideal para treinos longos e recuperação.",
-    "reason": "Treino diário premium com a nova espuma Infinion — mais leve e responsiva que a Fresh Foam. Ideal para treinos longos e recuperação."
+    "description": "Top de linha de treino diário da New Balance com espuma Fresh Foam X — super macio para rodagens longas e recuperação.",
+    "reason": "Top de linha de treino diário da New Balance com espuma Fresh Foam X — super macio para rodagens longas e recuperação."
   },
   {
     "brand": "NEW BALANCE",
@@ -2918,11 +2920,10 @@ var SHOES = [
     "tags": [
       "Amortecimento",
       "Treino diário",
-      "Longa distância",
-      "Infinion foam"
+      "Longa distância"
     ],
-    "description": "Treino diário premium com a nova espuma Infinion — mais leve e responsiva que a Fresh Foam. Ideal para treinos longos e recuperação.",
-    "reason": "Treino diário premium com a nova espuma Infinion — mais leve e responsiva que a Fresh Foam. Ideal para treinos longos e recuperação."
+    "description": "A evolução do 1080: Fresh Foam X ainda mais macia e leve. Conforto premium da New Balance para longas distâncias.",
+    "reason": "A evolução do 1080: Fresh Foam X ainda mais macia e leve. Conforto premium da New Balance para longas distâncias."
   },
   {
     "brand": "NEW BALANCE",
@@ -4439,8 +4440,8 @@ var SHOES = [
       "Versátil",
       "Conforto"
     ],
-    "description": "Tênis de corrida versátil com bom amortecimento para treinos diários.",
-    "reason": "Tênis de corrida versátil com bom amortecimento para treinos diários."
+    "description": "Tênis de trilha nacional da Olympikus com tração e amortecimento para terra, parques e estradas mistas.",
+    "reason": "Tênis de trilha nacional da Olympikus com tração e amortecimento para terra, parques e estradas mistas."
   },
   {
     "brand": "OLYMPIKUS",
@@ -4516,9 +4517,9 @@ var SHOES = [
       "supinada"
     ],
     "terreno": [
-      "trilha",
-      "mista",
-      "esteira"
+      "asfalto",
+      "esteira",
+      "mista"
     ],
     "distancia": [
       "curta",
@@ -4544,11 +4545,12 @@ var SHOES = [
       }
     },
     "tags": [
-      "Trail",
-      "Conforto"
+      "Amortecimento",
+      "Conforto",
+      "Versátil"
     ],
-    "description": "Amortecimento generoso para trilhas longas. Combina o conforto de estrada com grip de trail.",
-    "reason": "Amortecimento generoso para trilhas longas. Combina o conforto de estrada com grip de trail."
+    "description": "Daily trainer leve e versátil da Salomon (Energy Foam + ContaGrip), confortável e estável para rodagens no asfalto.",
+    "reason": "Daily trainer leve e versátil da Salomon (Energy Foam + ContaGrip), confortável e estável para rodagens no asfalto."
   },
   {
     "brand": "SAUCONY",
@@ -4835,13 +4837,12 @@ var SHOES = [
       }
     },
     "tags": [
-      "Trail",
-      "Versátil",
-      "Tração",
-      "Intermediário"
+      "Amortecimento",
+      "Conforto",
+      "Versátil"
     ],
-    "description": "Um dos melhores tênis de trilha para todos os níveis. Tração confiável em terra e pedras com boa proteção de amortecimento.",
-    "reason": "Um dos melhores tênis de trilha para todos os níveis. Tração confiável em terra e pedras com boa proteção de amortecimento."
+    "description": "Daily trainer neutro da Saucony com espuma PWRRUN — equilíbrio de conforto e leveza pras rodagens do dia a dia.",
+    "reason": "Daily trainer neutro da Saucony com espuma PWRRUN — equilíbrio de conforto e leveza pras rodagens do dia a dia."
   },
   {
     "brand": "SKECHERS",
