@@ -2704,7 +2704,7 @@
         adicional. Preços e disponibilidade podem variar.</p>
 
       <!-- STORY TEMPLATE (Hidden) -->
-      <div id="storyTemplate" style="position:absolute; left:-9999px; top:-9999px; width:1080px; height:1920px; background:linear-gradient(135deg, #FF4500, #ff8c00); color:#fff; display:flex; flex-direction:column; justify-content:center; align-items:center; font-family:'Inter', sans-serif; padding:80px; box-sizing:border-box;">
+      <div id="storyTemplate" style="position:fixed; left:-9999px; top:0; width:1080px; height:1920px; background:linear-gradient(135deg, #FF4500, #ff8c00); color:#fff; display:flex; flex-direction:column; justify-content:center; align-items:center; font-family:'Inter', sans-serif; padding:80px; box-sizing:border-box; z-index:-9999;">
         <h1 style="font-family:'Bebas Neue', sans-serif; font-size:120px; letter-spacing:4px; margin-bottom:60px; text-transform:uppercase;">Tênis Ideal</h1>
         <div style="background:#fff; color:#111; border-radius:40px; padding:80px; width:100%; text-align:center; box-shadow:0 30px 60px rgba(0,0,0,0.2);">
           <div id="storyEmoji" style="font-size:160px; margin-bottom:40px; line-height:1;">🏃</div>
@@ -2716,6 +2716,20 @@
       </div>
     </div>
   </section>
+
+  <!-- MODAL STORY PREVIEW -->
+  <div class="modal-overlay" id="modalStory" style="display:none; z-index:9999;">
+    <div class="modal" style="background:transparent; box-shadow:none; text-align:center;">
+      <div style="background:#fff; border-radius:16px; padding:20px; display:inline-block; max-width:100%;">
+        <div class="modal-header" style="justify-content:space-between; margin-bottom:15px;">
+          <h3 style="margin:0; font-size:20px;">Seu Story</h3>
+          <button class="modal-close" onclick="document.getElementById('modalStory').style.display='none'">&times;</button>
+        </div>
+        <img id="storyPreview" style="max-width:100%; height:auto; max-height:60vh; border-radius:12px; box-shadow:0 10px 20px rgba(0,0,0,0.2); margin-bottom:20px;">
+        <button class="bshare bshare-ig" id="btnShareStory" style="width:100%; font-size:16px;">📸 Compartilhar / Baixar</button>
+      </div>
+    </div>
+  </div>
 
   <!-- MODAL TESTE DO PÉ MOLHADO -->
   <div class="modal-overlay" id="modalPisada">
@@ -3346,6 +3360,8 @@
       window.open('https://wa.me/?text=' + encodeURIComponent(texto), '_blank');
     }
 
+    var currentStoryBlob = null;
+
     function generateInstagramStory() {
       var lvl = { iniciante: 'Iniciante', intermediario: 'Intermediário', avancado: 'Avançado' };
       var pis = { neutra: 'Neutra', pronada: 'Pronada', supinada: 'Supinada', naosabe: 'Não sabe' };
@@ -3360,31 +3376,49 @@
       btn.innerHTML = '⏳ Gerando Story...';
       btn.disabled = true;
 
-      html2canvas(document.getElementById('storyTemplate'), {
+      // Força a exibição temporária para o html2canvas renderizar (opacidade 0 para não piscar na tela)
+      var template = document.getElementById('storyTemplate');
+      template.style.left = '0px';
+      template.style.opacity = '0';
+
+      html2canvas(template, {
         scale: 1,
+        useCORS: true,
         backgroundColor: null
       }).then(function(canvas) {
+        template.style.left = '-9999px';
+        template.style.opacity = '1';
         btn.innerHTML = oldHtml;
         btn.disabled = false;
+        
         canvas.toBlob(function(blob) {
-          var file = new File([blob], 'meu-perfil-corredor.jpg', { type: 'image/jpeg' });
-          if (navigator.canShare && navigator.canShare({ files: [file] })) {
-            navigator.share({
-              title: 'Meu perfil de corredor!',
-              files: [file]
-            }).catch(function(err) {
-              downloadStory(blob);
-            });
-          } else {
-            downloadStory(blob);
-          }
+          currentStoryBlob = blob;
+          document.getElementById('storyPreview').src = URL.createObjectURL(blob);
+          document.getElementById('modalStory').style.display = 'flex';
         }, 'image/jpeg', 0.85);
       }).catch(function(err) {
+        template.style.left = '-9999px';
+        template.style.opacity = '1';
         btn.innerHTML = oldHtml;
         btn.disabled = false;
         alert('Erro ao gerar a imagem. Tente novamente.');
       });
     }
+
+    document.getElementById('btnShareStory').addEventListener('click', function() {
+      if (!currentStoryBlob) return;
+      var file = new File([currentStoryBlob], 'meu-perfil-corredor.jpg', { type: 'image/jpeg' });
+      if (navigator.canShare && navigator.canShare({ files: [file] })) {
+        navigator.share({
+          title: 'Meu perfil de corredor!',
+          files: [file]
+        }).catch(function(err) {
+          downloadStory(currentStoryBlob);
+        });
+      } else {
+        downloadStory(currentStoryBlob);
+      }
+    });
 
     function downloadStory(blob) {
       var url = URL.createObjectURL(blob);
@@ -3531,7 +3565,7 @@
         var rc = ['r1', 'r2', 'r3'];
         var lvl = { iniciante: 'iniciante', intermediario: 'intermediário', avancado: 'avançado' };
         var pis = { neutra: 'neutra', pronada: 'pronada', supinada: 'supinada', naosabe: 'a avaliar' };
-        document.getElementById('resSub').textContent = 'Perfil de corredor ' + (lvl[ans.nivel] || '') + ' com pisada ' + (pis[ans.pisada] || '') + '. Selecionamos as opções que mais combinam com você.';
+        document.getElementById('resSub').textContent = 'Selecionamos os 3 modelos que mais combinam com você.';
 
         // Mensagem personalizada
         var profileData = (function () {
