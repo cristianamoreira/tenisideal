@@ -19,8 +19,14 @@ jobs:
         with:
           python-version: '3.11'
 
-      - name: Instalar dependências (Pillow + ffmpeg)
-        run: pip install Pillow imageio-ffmpeg
+      - name: Instalar dependências (Pillow + ffmpeg + rembg/IA)
+        run: pip install Pillow imageio-ffmpeg rembg onnxruntime
+
+      - name: Cache do modelo de IA (rembg)
+        uses: actions/cache@v4
+        with:
+          path: ~/.u2net
+          key: rembg-u2net
 
       - name: Instalar o Chrome (para renderizar os frames)
         id: chrome

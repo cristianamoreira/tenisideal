@@ -18,8 +18,14 @@ jobs:
       - uses: actions/setup-python@v5
         with:
           python-version: '3.11'
-      - name: Instalar Pillow
-        run: pip install Pillow
+      - name: Instalar dependências (Pillow + rembg/IA)
+        run: pip install Pillow rembg onnxruntime
+
+      - name: Cache do modelo de IA (rembg)
+        uses: actions/cache@v4
+        with:
+          path: ~/.u2net
+          key: rembg-u2net
 
       - name: Instalar o Chrome (para renderizar a arte)
         id: chrome

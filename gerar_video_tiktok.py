@@ -37,6 +37,19 @@ def baixar(url):
 
 
 def recortar(raw):
+    # 1) remoção de fundo por IA (rembg) — recorte limpo
+    try:
+        from rembg import remove, new_session
+        if not hasattr(recortar, "_sess"):
+            recortar._sess = new_session("u2net")
+        ai = Image.open(io.BytesIO(remove(raw, session=recortar._sess))).convert("RGBA")
+        a = ai.split()[3].filter(ImageFilter.GaussianBlur(0.6))
+        ai.putalpha(a)
+        bb = ai.getbbox()
+        if bb:
+            return ai.crop(bb)
+    except Exception as e:
+        print(f"[rembg indisponível -> recorte simples] {e}", file=sys.stderr)
     img = Image.open(io.BytesIO(raw)).convert("RGB")
     w, h = img.size
     if not all(sum(img.getpixel(p)) / 3 > 200 for p in [(1, 1), (w - 2, 1), (1, h - 2), (w - 2, h - 2)]):
