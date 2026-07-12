@@ -3667,14 +3667,35 @@
             ? '<div style="display:inline-flex;align-items:center;gap:5px;background:rgba(200,255,0,.1);border:1px solid rgba(200,255,0,.3);color:var(--yellow);font-size:11px;font-weight:700;padding:4px 10px;border-radius:20px;margin-bottom:10px;text-transform:uppercase;letter-spacing:.5px;">🏆 Recomendado para ' + (847 - (i * 23)) + ' corredores este mês</div>'
             : '';
 
-          function trackClick(url, name) {
+          // Acrescenta um SubID (origem) ao link de saída, por rede de afiliado.
+          // Amazon -> ascsubtag | Awin -> clickref | LinkSynergy/Netshoes -> u1
+          function withSubId(url, store) {
+            try {
+              if (!url) return url;
+              var sub = 'site_' + String(store || 'quiz').toLowerCase().replace(/[^a-z0-9]/g, '');
+              var u = String(url);
+              if (/amazon\.|amzn\.to|link\.amazon/.test(u)) {
+                if (u.indexOf('ascsubtag=') === -1) u += (u.indexOf('?') > -1 ? '&' : '?') + 'ascsubtag=' + sub;
+              } else if (/awin1\.com|tidd\.ly/.test(u)) {
+                if (u.indexOf('clickref=') === -1) u += (u.indexOf('?') > -1 ? '&' : '?') + 'clickref=' + sub;
+                else u = u.replace(/clickref=[^&]*/, 'clickref=' + sub);
+              } else if (/linksynergy\.com/.test(u)) {
+                if (u.indexOf('u1=') === -1) u += (u.indexOf('?') > -1 ? '&' : '?') + 'u1=' + sub;
+              }
+              return u;
+            } catch (e) { return url; }
+          }
+
+          function trackClick(url, name, store, price) {
             try {
               window.hasClickedAffiliate = true;
               var safeName = name ? name.replace(/'/g, "\\'") : 'produto';
+              var safeStore = store ? String(store) : 'nao_informado';
+              var val = Number(price) || 0;
               if (typeof gtag_report_conversion !== 'undefined') gtag_report_conversion(url);
-              if (typeof gtag !== 'undefined') gtag('event', 'click_afiliado', { 'shoe_name': safeName });
-              if (typeof ttq !== 'undefined') ttq.track('AddToWishlist', { content_name: safeName });
-              if (typeof fbq !== 'undefined') fbq('track', 'InitiateCheckout', { content_name: safeName });
+              if (typeof gtag !== 'undefined') gtag('event', 'click_afiliado', { 'shoe_name': safeName, 'loja': safeStore, 'value': val, 'currency': 'BRL' });
+              if (typeof ttq !== 'undefined') ttq.track('AddToWishlist', { content_name: safeName, value: val, currency: 'BRL', description: safeStore });
+              if (typeof fbq !== 'undefined') fbq('track', 'InitiateCheckout', { content_name: safeName, value: val, currency: 'BRL', content_category: safeStore });
             } catch (e) {
               console.error('Erro no tracking:', e);
             }
@@ -3684,10 +3705,13 @@
           function makeBtnHTML(url, label, isBest) {
             var extraClass = isBest ? '' : ' bbuy-secondary';
             var trustFooter = isBest ? '<div class="trust-footer" style="margin-top:12px; opacity:0.6;">🔒 Você finaliza a compra no site da loja oficial</div>' : '';
-            var safeUrl = url.replace(/'/g, "\\'");
+            var buyUrl = withSubId(url, label);
+            var safeUrl = buyUrl.replace(/'/g, "\\'");
             var safeName = sh.name.replace(/'/g, "\\'");
+            var safeStore = String(label || '').replace(/'/g, "\\'");
+            var priceVal = (sh.price_numeric || parsePrice(sh.price) || 0);
 
-            return '<a href="' + url + '" target="_blank" rel="noopener" class="bbuy' + extraClass + '" onclick="return trackClick(\'' + safeUrl + '\', \'' + safeName + '\')">' + label + ' →</a>' + trustFooter;
+            return '<a href="' + buyUrl + '" target="_blank" rel="noopener" class="bbuy' + extraClass + '" onclick="return trackClick(\'' + safeUrl + '\', \'' + safeName + '\', \'' + safeStore + '\', ' + priceVal + ')">' + label + ' →</a>' + trustFooter;
           }
 
           var btnsHTML = '';
@@ -3775,14 +3799,16 @@
                 if (off.preco_pix && off.preco_pix > 0 && off.preco_pix < offNum) {
                   pixHTML = '<div class="offer-pix">ou ' + formatBRL(off.preco_pix) + ' no PIX</div>';
                 }
-                var sUrl = (off.url || '').replace(/'/g, "\\'");
+                var buyUrl = withSubId(off.url || '', storeNm);
+                var sUrl = buyUrl.replace(/'/g, "\\'");
                 var sNm = (sh.name || '').replace(/'/g, "\\'");
+                var sStore = String(storeNm).replace(/'/g, "\\'");
                 btnsHTML += '<div class="offer-row' + (isBestOffer ? ' offer-row-best' : '') + '">' +
                   '<div class="offer-info">' +
                     '<div class="offer-store">' + storeNm + (isBestOffer ? ' <span class="offer-best-tag">🏆 Melhor preço</span>' : '') + '</div>' +
                     '<div class="offer-price">' + offPrice + (pay ? '<span class="offer-pay"> ' + pay + '</span>' : '') + '</div>' + pixHTML +
                   '</div>' +
-                  '<a href="' + off.url + '" target="_blank" rel="noopener" class="offer-buy-btn' + (isBestOffer ? ' offer-buy-best' : '') + '" onclick="return trackClick(\'' + sUrl + '\', \'' + sNm + '\')">Comprar →</a>' +
+                  '<a href="' + buyUrl + '" target="_blank" rel="noopener" class="offer-buy-btn' + (isBestOffer ? ' offer-buy-best' : '') + '" onclick="return trackClick(\'' + sUrl + '\', \'' + sNm + '\', \'' + sStore + '\', ' + (offNum || 0) + ')">Comprar →</a>' +
                 '</div>';
               }
               btnsHTML += '</div>';
