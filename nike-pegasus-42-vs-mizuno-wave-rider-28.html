@@ -24,12 +24,12 @@
         .logo span{color:var(--green);}
         .hero{padding:60px 40px 40px;max-width:900px;margin:0 auto;text-align:center;}
         .hero-badge{display:inline-block;background:var(--green);color:var(--black);font-size:11px;font-weight:700;letter-spacing:.1em;text-transform:uppercase;padding:5px 14px;border-radius:2px;margin-bottom:20px;}
-        h1{font-family:'Bebas Neue',sans-serif;font-size:clamp(36px,6vw,64px);line-height:1.05;margin-bottom:16px;}
+        h1{font-family:'Bebas Neue',sans-serif;font-size:clamp(36px,6.5vw,68px);line-height:1.05;margin-bottom:16px;}
         h1 span{color:var(--green);}
         .hero p{font-size:17px;color:var(--gray);line-height:1.7;max-width:640px;margin:0 auto 32px;}
         .brand-pills{display:flex;gap:10px;flex-wrap:wrap;justify-content:center;margin-bottom:32px;}
         .brand-pill{background:var(--card-bg);border:1px solid var(--border);padding:8px 20px;border-radius:30px;color:var(--white);text-decoration:none;font-size:14px;font-weight:600;transition:.2s;}
-        .brand-pill:hover,.brand-pill.active{border-color:var(--green);background:var(--green);color:var(--black);}
+        .brand-pill:hover{border-color:var(--green);background:var(--green);color:var(--black);}
         .guide{padding:0 40px 40px;max-width:900px;margin:0 auto;}
         .guide h2{font-family:'Bebas Neue',sans-serif;font-size:1.8rem;margin:32px 0 8px;}
         .guide p{font-size:15px;color:var(--gray);line-height:1.8;margin-bottom:14px;}
@@ -57,6 +57,7 @@
         .card-tag{display:inline-block;background:var(--green);color:var(--black);font-size:10px;font-weight:700;text-transform:uppercase;letter-spacing:.08em;padding:2px 8px;border-radius:2px;width:max-content;}
         .card-reason{font-size:13px;color:var(--gray);line-height:1.5;flex:1;}
         .card-price{font-family:'Bebas Neue',sans-serif;font-size:1.8rem;color:var(--green);letter-spacing:.02em;}
+        .card-price.ver{font-size:1rem;color:var(--gray);}
         .card-pix{font-size:12px;color:var(--white);}
         .card-parcelas{font-size:12px;color:var(--gray);}
         .card-btns{display:flex;flex-direction:column;gap:8px;margin-top:4px;}
@@ -73,7 +74,7 @@
         footer{padding:40px;border-top:1px solid var(--border);text-align:center;font-size:12px;color:var(--gray);}
         footer a{color:var(--green);text-decoration:none;margin:0 12px;}
         @media(max-width:600px){header,.hero,.guide,.products,.quiz-cta{padding-left:20px;padding-right:20px;}.quiz-cta{flex-direction:column;text-align:center;}.cmp{font-size:12.5px;}.cmp th,.cmp td{padding:9px 8px;}}
-    </style>
+</style>
 </head>
 <body>
     <header>
@@ -85,107 +86,54 @@
         <div class="hero-badge">⚔️ Comparativo 2026</div>
         <h1>Nike Pegasus 42 <span>vs</span> Mizuno Wave Rider 28</h1>
         <p>Dois dos tênis de treino diário mais vendidos do Brasil — mas com uma diferença de preço enorme. Qual entrega mais pelo seu dinheiro? Comparamos tudo e demos o veredito.</p>
-        <div class="brand-pills">
-            <a href="melhores-tenis-corrida.html" class="brand-pill">Melhores da Corrida</a>
-            <a href="tenis-pisada-pronada.html" class="brand-pill">Pisada Pronada</a>
-            <a href="tenis-ate-300.html" class="brand-pill">Até R$ 300</a>
-        </div>
+        <div class="brand-pills"><a href="melhores-tenis-corrida.html" class="brand-pill">Melhores da Corrida</a><a href="tenis-pisada-pronada.html" class="brand-pill">Pisada Pronada</a><a href="tenis-ate-300.html" class="brand-pill">Até R$ 300</a></div>
     </div>
-
-    <div class="guide">
-        <p>Os dois são <strong>neutros, versáteis e feitos para o treino do dia a dia</strong>. O Pegasus é o "faz-tudo" da Nike, mais firme e responsivo. O Wave Rider é o equivalente da Mizuno em versatilidade, com a placa Wave que soma estabilidade e durabilidade. A grande diferença aparece no <strong>preço</strong>.</p>
-
-        <h2>Comparativo direto</h2>
-        <table class="cmp">
-            <tr><th>&nbsp;</th><th>Nike Pegasus 42</th><th>Mizuno Wave Rider 28</th></tr>
-            <tr><td>Preço a partir de</td><td>R$ 949,99 (no PIX)</td><td><strong style="color:var(--green)">R$ 549,99</strong></td></tr>
-            <tr><td>Tecnologia</td><td>React X + Air Zoom</td><td>Enerzy + placa Wave + solado X10</td></tr>
-            <tr><td>Pegada</td><td>Mais firme e responsiva</td><td>Equilíbrio: macio e estável</td></tr>
-            <tr><td>Melhor para</td><td>Ritmos mais rápidos e quem é fã da Nike</td><td>Custo-benefício, iniciantes e durabilidade</td></tr>
-            <tr><td>Durabilidade</td><td>Boa</td><td>Excelente (solado X10)</td></tr>
-        </table>
-
-        <h2>O veredito</h2>
-        <div class="guide-tip">
-            🏆 <strong>Para a maioria das pessoas, o Mizuno Wave Rider 28 vence</strong> — entrega estabilidade, conforto e durabilidade de sobra por quase <strong>metade do preço</strong>. É a escolha de custo-benefício.<br><br>
-            👟 <strong>Escolha o Nike Pegasus 42</strong> se você quer uma pegada mais responsiva para treinos de ritmo, ou se é fã da Nike e faz questão da marca.
-        </div>
-        <div class="guide-tip">
-            🤔 <strong>Ainda na dúvida?</strong> <a href="index.html" style="color:var(--green);">Faça o quiz do Tênis Ideal</a> — ele considera sua pisada, peso e objetivo e indica qual dos dois (ou um terceiro) é o certo pra você, já com o melhor preço.
-        </div>
-    </div>
-
+<div class="guide"><p>Os dois são <strong>neutros, versáteis e feitos para o treino do dia a dia</strong>. O Pegasus é o "faz-tudo" da Nike, mais firme e responsivo. O Wave Rider é o equivalente da Mizuno, com a placa Wave que soma estabilidade e durabilidade. A grande diferença aparece no <strong>preço</strong>.</p><h2>Comparativo direto</h2><table class="cmp"><tr><th>&nbsp;</th><th>Nike Pegasus 42</th><th>Mizuno Wave Rider 28</th></tr><tr><td>Preço a partir de</td><td>R$ 1.000,00</td><td><strong style="color:var(--green)">R$ 549,99</strong></td></tr><tr><td>Tecnologia</td><td>React X + Air Zoom</td><td>Enerzy + placa Wave + solado X10</td></tr><tr><td>Pegada</td><td>Mais firme e responsiva</td><td>Equilíbrio: macio e estável</td></tr><tr><td>Melhor para</td><td>Ritmos rápidos e fãs da Nike</td><td>Custo-benefício, iniciantes e durabilidade</td></tr><tr><td>Durabilidade</td><td>Boa</td><td>Excelente (solado X10)</td></tr></table><h2>O veredito</h2><div class="guide-tip">🏆 <strong>Para a maioria das pessoas, o Mizuno Wave Rider 28 vence</strong> — entrega estabilidade, conforto e durabilidade de sobra por quase <strong>metade do preço</strong>. É a escolha de custo-benefício.<br><br>👟 <strong>Escolha o Nike Pegasus 42</strong> se você quer uma pegada mais responsiva para treinos de ritmo, ou se é fã da Nike.</div><div class="guide-tip">🤔 <strong>Ainda na dúvida?</strong> <a href="index.html" style="color:var(--green);">Faça o quiz do Tênis Ideal</a> — ele considera sua pisada, peso e objetivo e indica qual dos dois é o certo pra você.</div></div>
     <section class="products">
         <div class="products-label">Onde comprar · Melhor preço</div>
         <h2 class="products-title">Os dois modelos</h2>
         <div class="grid">
-
         <div class="card best">
-          <div class="card-img"><img src="https://m.media-amazon.com/images/I/51qUaqEvrkL._AC_SY695_.jpg" alt="Mizuno Wave Rider 28" loading="lazy" onerror="this.style.opacity=0"></div>
+          <div class="card-img"><img src="https://m.media-amazon.com/images/I/51qUaqEvrkL._AC_SY695_.jpg" alt="MIZUNO Wave Rider 28" loading="lazy" onerror="this.style.opacity=0"></div>
           <div class="card-body">
             <div class="card-top-row">
-              <div class="card-brand">Mizuno</div>
+              <div class="card-brand">MIZUNO</div>
               <div class="card-level">Todos os níveis</div>
             </div>
             <span class="card-tag">🏆 Melhor custo-benefício</span>
             <div class="card-name">Wave Rider 28</div>
-            <div class="card-reason">A placa Wave entrega estabilidade e suavidade juntas. Excelente custo-benefício e muito durável — um dos tênis mais recomendados para quem corre no dia a dia.</div>
+            <div class="card-reason">A placa Wave entrega estabilidade e suavidade juntas. Excelente custo-benefício e muito durável — um dos tênis mais recomendados para o dia a dia.</div>
             <div class="card-price">R$ 549,99</div>
-            <div class="card-parcelas">até 10x de R$ 54,99 sem juros</div>
-            <div class="card-btns">
-              <a href="https://tidd.ly/4vzBmJ7?clickref=artigo_pegasus_rider" target="_blank" rel="nofollow noopener" class="btn-amazon" onclick="gtag('event','click_afiliado',{store:'Oficial',product:'Mizuno Wave Rider 28'})">Ver melhor preço →</a>
-              <a href="https://click.linksynergy.com/deeplink?id=NyH7xPegftk&mid=43984&murl=https%3A%2F%2Fwww.netshoes.com.br%2Fp%2Ftenis-mizuno-wave-rider-28-preto%2Bbranco-2FV-0569-026&u1=artigo_pegasus_rider" target="_blank" rel="nofollow noopener" class="btn-sec" onclick="gtag('event','click_afiliado',{store:'Netshoes',product:'Mizuno Wave Rider 28'})">Ver na Netshoes →</a>
-            </div>
+            
+            <div class="card-parcelas">10 x R$54,99 sem juros</div>
+            <div class="card-btns"><a href="https://tidd.ly/4vzBmJ7?clickref=artigo_pegasus_rider" target="_blank" rel="nofollow noopener" class="btn-amazon" onclick="gtag('event','click_afiliado',{store:'MIZUNO',product:'MIZUNO Wave Rider 28'})">Ver melhor preço →</a><a href="https://link.amazon/B05l7GDQH?ascsubtag=artigo_pegasus_rider" target="_blank" rel="nofollow noopener" class="btn-sec" onclick="gtag('event','click_afiliado',{store:'Amazon',product:'MIZUNO Wave Rider 28'})">Ver na Amazon →</a></div>
           </div>
         </div>
-
         <div class="card">
-          <div class="card-img"><img src="https://m.media-amazon.com/images/I/71BrfD-zDtL._AC_SY695_.jpg" alt="Nike Pegasus 42" loading="lazy" onerror="this.style.opacity=0"></div>
+          <div class="card-img"><img src="https://m.media-amazon.com/images/I/71BrfD-zDtL._AC_SY695_.jpg" alt="NIKE Pegasus 42" loading="lazy" onerror="this.style.opacity=0"></div>
           <div class="card-body">
             <div class="card-top-row">
-              <div class="card-brand">Nike</div>
+              <div class="card-brand">NIKE</div>
               <div class="card-level">Todos os níveis</div>
             </div>
             <span class="card-tag">O clássico da Nike</span>
             <div class="card-name">Pegasus 42</div>
             <div class="card-reason">O tênis de corrida mais versátil da Nike. React X responsivo com Air Zoom no antepé para qualquer distância e ritmo. Firme e durável.</div>
             <div class="card-price">R$ 1.000,00</div>
-            <div class="card-pix">R$ 949,99 no PIX</div>
-            <div class="card-btns">
-              <a href="https://tidd.ly/4vJFer5?clickref=artigo_pegasus_rider" target="_blank" rel="nofollow noopener" class="btn-amazon" onclick="gtag('event','click_afiliado',{store:'Oficial',product:'Nike Pegasus 42'})">Ver melhor preço →</a>
-              <a href="https://link.amazon/B07OB6Y2k?ascsubtag=artigo_pegasus_rider" target="_blank" rel="nofollow noopener" class="btn-sec" onclick="gtag('event','click_afiliado',{store:'Amazon',product:'Nike Pegasus 42'})">Ver na Amazon →</a>
-            </div>
+            
+            <div class="card-parcelas">10x de R$ 100,00 sem juros</div>
+            <div class="card-btns"><a href="https://tidd.ly/4vJFer5?clickref=artigo_pegasus_rider" target="_blank" rel="nofollow noopener" class="btn-amazon" onclick="gtag('event','click_afiliado',{store:'NIKE',product:'NIKE Pegasus 42'})">Ver melhor preço →</a><a href="https://link.amazon/B07OB6Y2k?ascsubtag=artigo_pegasus_rider" target="_blank" rel="nofollow noopener" class="btn-sec" onclick="gtag('event','click_afiliado',{store:'Amazon',product:'NIKE Pegasus 42'})">Ver na Amazon →</a></div>
           </div>
         </div>
-
         </div>
     </section>
-
-    <div class="guide">
-        <h2>Perguntas frequentes</h2>
-        <div class="guide-tip"><strong>Qual é melhor para iniciantes?</strong><br>O Mizuno Wave Rider 28 — mais estável, durável e com preço muito mais amigável. Ótimo primeiro tênis de corrida.</div>
-        <div class="guide-tip"><strong>Servem para pisada pronada?</strong><br>Os dois são neutros. Se você é pronador, veja o <a href="tenis-pisada-pronada.html" style="color:var(--green);">guia de tênis para pisada pronada</a> (modelos de estabilidade).</div>
-        <div class="guide-tip"><strong>Vale pagar mais no Pegasus?</strong><br>Só se você busca uma pegada mais responsiva para ritmos rápidos ou faz questão da Nike. Para conforto no dia a dia, o Wave Rider entrega o mesmo por menos.</div>
-    </div>
-
+<div class="guide"><h2>Perguntas frequentes</h2><div class="guide-tip"><strong>Qual é melhor para iniciantes?</strong><br>O Mizuno Wave Rider 28 — mais estável, durável e com preço mais amigável. Ótimo primeiro tênis.</div><div class="guide-tip"><strong>Servem para pisada pronada?</strong><br>Os dois são neutros. Se você é pronador, veja o <a href="tenis-pisada-pronada.html" style="color:var(--green);">guia de pisada pronada</a>.</div><div class="guide-tip"><strong>Vale pagar mais no Pegasus?</strong><br>Só se você busca pegada mais responsiva para ritmos rápidos ou faz questão da Nike.</div></div>
     <div class="quiz-cta">
-        <div>
-            <h3>Qual dos dois é o seu?</h3>
-            <p>Responda 7 perguntas e descubra o modelo exato para o seu perfil, pisada e orçamento.</p>
-        </div>
+        <div><h3>Qual dos dois é o seu?</h3>
+        <p>Responda 7 perguntas e descubra o modelo exato para o seu perfil, pisada e orçamento.</p></div>
         <a href="index.html" class="btn-quiz">👟 Fazer o Quiz Grátis →</a>
     </div>
-
     <p class="afiliado-note">* Os links são de afiliado. Ao comprar você apoia o Tênisideal sem custo adicional. Preços e disponibilidade podem variar.</p>
-
-    <footer>
-        <p>&copy; 2026 Tênisideal.</p>
-        <div style="margin-top:12px;">
-            <a href="melhores-tenis-corrida.html">Melhores da Corrida</a>
-            <a href="tenis-pisada-pronada.html">Pisada Pronada</a>
-            <a href="tenis-ate-300.html">Até R$ 300</a>
-            <a href="index.html">Voltar ao Quiz</a>
-        </div>
-    </footer>
+<footer><p>&copy; 2026 Tênisideal.</p><div style="margin-top:12px;"><a href="melhores-tenis-corrida.html">Melhores da Corrida</a><a href="tenis-pisada-pronada.html">Pisada Pronada</a><a href="tenis-ate-300.html">Até R$ 300</a><a href="index.html">Voltar ao Quiz</a></div></footer>
 </body>
 </html>
