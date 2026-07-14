@@ -148,7 +148,9 @@ THEMES = [
     dict(key="iniciante", label="PRA QUEM TÁ COMEÇANDO", small="OS MELHORES PRA", big1="QUEM TÁ", big2="COMEÇANDO",
          sub="comece com o pé direito 👇", select=sel_iniciante,
          hook="Tá começando a correr? Esses tênis são pra você 👟🌱 Comenta 👇", tags=["iniciante", "corridainiciante"]),
-]
+    dict(key="diadia", label="PRA TREINAR TODO DIA", small="OS MAIS", big1="VERSÁTEIS", big2="DO DIA A DIA",
+         sub="aguentam treino, rua e rodízio 👇", select=lambda sh: sel_tag(sh, ["Versátil", "Versatilidade", "Treino Diário", "Treino diário", "Diário", "Conforto"]),
+         hook="Os tênis mais VERSÁTEIS pro seu dia a dia 👟🔁 Qual você usaria? 👇", tags=["treinodiario", "corridaderua"]),]
 
 HEAD = ("<!doctype html><html><head><meta charset='utf-8'><style>"
         "@font-face{font-family:'Bebas';src:url('BebasNeue.ttf');}"
