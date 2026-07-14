@@ -23,7 +23,7 @@ jobs:
         with:
           python-version: '3.11'
 
-      - name: Decidir o tipo do dia (rodízio: video -> carrossel -> arte)
+        - name: "Decidir o tipo do dia (rodizio video, carrossel, arte)"
         id: tipo
         run: |
           FORCADO="${{ github.event.inputs.tipo }}"
