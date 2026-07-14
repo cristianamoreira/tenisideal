@@ -148,6 +148,9 @@ THEMES = [
     dict(key="iniciante", label="PRA QUEM TÁ COMEÇANDO", small="OS MELHORES PRA", big1="QUEM TÁ", big2="COMEÇANDO",
          sub="comece com o pé direito 👇", select=sel_iniciante,
          hook="Tá começando a correr? Esses tênis são pra você 👟🌱 Comenta 👇", tags=["iniciante", "corridainiciante"]),
+    dict(key="diadia", label="PRA TREINAR TODO DIA", small="OS MAIS", big1="VERSÁTEIS", big2="DO DIA A DIA",
+         sub="aguentam treino, rua e rodízio 👇", select=lambda sh: sel_tag(sh, ["Versátil", "Versatilidade", "Treino Diário", "Treino diário", "Diário", "Conforto"]),
+         hook="Os tênis mais VERSÁTEIS pro seu dia a dia 👟🔁 Qual você usaria? 👇", tags=["treinodiario", "corridaderua"]),
 ]
 
 HEAD = ("<!doctype html><html><head><meta charset='utf-8'><style>"
@@ -237,6 +240,19 @@ def build_video(t, wd):
     for f in ("BebasNeue.ttf", "Montserrat.ttf"):
         if os.path.exists(f):
             shutil.copy(f, os.path.join(wd, f))
+    # Roteiro parametrizável (defaults = vídeo padrão). Variação por env:
+    #   TOP_N       -> nº de tênis (min 3, max 6). Ex.: TOP_N=3 vira um "Top 3".
+    #   DUR_TENIS   -> segundos por card de tênis (default 1.7; menor = mais rápido)
+    #   DUR_GANCHO  -> segundos do gancho (default 2.4);  DUR_CTA -> segundos do CTA (default 2.9)
+    def _num(env, default):
+        try:
+            return float(os.environ.get(env) or default)
+        except Exception:
+            return default
+    top_n = max(3, min(6, int(_num("TOP_N", 6))))
+    dur_tenis = _num("DUR_TENIS", 1.7)
+    dur_gancho = _num("DUR_GANCHO", 2.4)
+    dur_cta = _num("DUR_CTA", 2.9)
     shoes = t["select"](carregar_catalogo())
     chosen = []
     for s in shoes:
@@ -248,15 +264,15 @@ def build_video(t, wd):
             continue
         shoe.save(os.path.join(wd, f"shoe{len(chosen)}.png"))
         chosen.append(s)
-        if len(chosen) == 6:
+        if len(chosen) == top_n:
             break
-    if len(chosen) < 4:
+    if len(chosen) < min(3, top_n):
         return None
     frames = [hook_frame(t)]
     for i, s in enumerate(chosen):
         frames.append(shoe_frame(t["label"], i + 1, s["brand"].upper(), s["name"].upper(), fmt(preco(s))))
     frames.append(cta_frame())
-    durs = [2.4] + [1.7] * len(chosen) + [2.9]
+    durs = [dur_gancho] + [dur_tenis] * len(chosen) + [dur_cta]
     for idx, html in enumerate(frames):
         if not render_frame(wd, chrome, html, os.path.join(wd, f"frame{idx:02d}.png")):
             return None
