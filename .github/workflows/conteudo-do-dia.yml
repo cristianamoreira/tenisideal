@@ -1,14 +1,14 @@
 name: Conteúdo do dia (rodízio vídeo/carrossel/arte)
 
 on:
-  schedule:
-    - cron: '0 12 * * *'   # todo dia 09:00 BRT
   workflow_dispatch:
     inputs:
       tipo:
         description: 'Forçar tipo (vazio = o do dia): video, carrossel, arte'
         required: false
         default: ''
+  schedule:
+    - cron: '0 12 * * *'
 
 permissions:
   contents: read
@@ -23,7 +23,7 @@ jobs:
         with:
           python-version: '3.11'
 
-        - name: "Decidir o tipo do dia (rodizio video, carrossel, arte)"
+      - name: "Decidir o tipo do dia"
         id: tipo
         run: |
           FORCADO="${{ github.event.inputs.tipo }}"
@@ -38,9 +38,9 @@ jobs:
             esac
           fi
           echo "tipo=$TIPO" >> "$GITHUB_OUTPUT"
-          echo "🎯 Conteúdo do dia: $TIPO"
+          echo "Conteudo do dia: $TIPO"
 
-      - name: Instalar dependências
+      - name: Instalar dependencias
         run: pip install Pillow imageio-ffmpeg rembg onnxruntime
 
       - name: Cache do modelo de IA (rembg)
@@ -49,13 +49,13 @@ jobs:
           path: ~/.u2net
           key: rembg-u2net
 
-      - name: Instalar o Chrome (para renderizar)
+      - name: Instalar o Chrome
         id: chrome
         uses: browser-actions/setup-chrome@v1
         with:
           chrome-version: stable
 
-      - name: Gerar e enviar o conteúdo do dia
+      - name: Gerar e enviar o conteudo do dia
         env:
           BREVO_API_KEY: ${{ secrets.BREVO_API_KEY }}
           EMAIL_CUPONS: ${{ secrets.EMAIL_CUPONS }}
@@ -68,10 +68,10 @@ jobs:
             video)     python3 gerar_video_tiktok.py ;;
             carrossel) python3 gerar_carrossel_instagram.py ;;
             arte)      python3 gerar_arte_instagram.py ;;
-            *)         echo "tipo desconhecido, caindo pra arte"; python3 gerar_arte_instagram.py ;;
+            *)         python3 gerar_arte_instagram.py ;;
           esac
 
-      - name: Guardar o conteúdo (backup p/ download)
+      - name: Guardar o conteudo (backup)
         uses: actions/upload-artifact@v4
         with:
           name: conteudo-do-dia
