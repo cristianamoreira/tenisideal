@@ -1,7 +1,8 @@
 name: Enviar conteudo (manual)
 
-# Workflow manual: voce clica em "Run workflow" na aba Actions do GitHub e
-# escolhe o que receber por e-mail. Usa os mesmos secrets dos outros robos.
+# Workflow manual: voce clica em "Run workflow" na aba Actions do GitHub, escolhe
+# o que enviar (e, no carrossel, o ESTILO e o TEMA) e recebe por e-mail. Usa os
+# mesmos secrets dos outros robos (Brevo).
 
 on:
   workflow_dispatch:
@@ -9,11 +10,36 @@ on:
       o_que:
         description: 'O que enviar por e-mail'
         required: true
-        default: carrosseis
+        default: carrossel
         type: choice
         options:
-          - carrosseis
+          - carrossel
           - cupom-casual30
+      estilo:
+        description: 'Estilo do carrossel (so vale quando o_que = carrossel)'
+        required: false
+        default: brutalism
+        type: choice
+        options:
+          - brutalism
+          - glassmorphism-ibeia
+          - ticket-zerotoui
+          - editorial-magazine
+          - swiss-grid
+          - claymorphism
+          - neo-newspaper
+          - sticker-cutout
+          - terminal-mono
+          - flat-editorial-colorido
+      tema:
+        description: 'Tema do carrossel (so vale quando o_que = carrossel)'
+        required: false
+        default: pronada
+        type: choice
+        options:
+          - pronada
+          - ate300
+          - versus
 
 permissions:
   contents: read
@@ -28,7 +54,11 @@ jobs:
         with:
           python-version: '3.11'
 
-      - name: Instalar dependencias
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      - name: Instalar dependencias Python
         run: pip install Pillow
 
       - name: Instalar o Chrome
@@ -37,6 +67,13 @@ jobs:
         with:
           chrome-version: stable
 
+      - name: Instalar a engine de carrossel (Playwright, sem baixar browser)
+        if: ${{ github.event.inputs.o_que == 'carrossel' }}
+        working-directory: carrossel_estilos
+        env:
+          PLAYWRIGHT_SKIP_BROWSER_DOWNLOAD: '1'
+        run: npm install --no-audit --no-fund
+
       - name: Gerar e enviar
         env:
           BREVO_API_KEY: ${{ secrets.BREVO_API_KEY }}
@@ -44,13 +81,15 @@ jobs:
           EMAIL_REMETENTE: ${{ secrets.EMAIL_REMETENTE }}
           CHROME_PATH: ${{ steps.chrome.outputs.chrome-path }}
           CUPOM_ENVIAR: '1'
+          ESTILO_CARROSSEL: ${{ github.event.inputs.estilo }}
+          TEMA_CARROSSEL: ${{ github.event.inputs.tema }}
         run: |
           case "${{ github.event.inputs.o_que }}" in
-            carrosseis)     python3 enviar_carrosseis_todos.py ;;
+            carrossel)      python3 gerar_carrossel_estilo.py ;;
             cupom-casual30) python3 gerar_arte_cupom.py ;;
           esac
 
-      - name: Guardar as artes (backup)
+      - name: Guardar as artes (backup p/ download)
         uses: actions/upload-artifact@v4
         with:
           name: conteudo-manual

@@ -19,3 +19,6 @@ _proto_arte.py
 # Conteudo social consolidado e material externo (nao versionar)
 conteudo-social/
 _material-externo/
+
+# engine de carrosséis (Playwright instalado no workflow)
+carrossel_estilos/node_modules/

@@ -56,65 +56,65 @@ def preco_min(prod):
 TEMAS = {
     "pronada": {
         "assunto": "Pisada pronada",
-        "legenda": ("Voce pode estar correndo com o tenis errado. 👟\n\n"
-                    "Se o seu tornozelo rola pra dentro a cada passada (pisada pronada) e voce usa um tenis neutro, "
+        "legenda": ("Você pode estar correndo com o tênis errado. 👟\n\n"
+                    "Se o seu tornozelo rola pra dentro a cada passada (pisada pronada) e você usa um tênis neutro, "
                     "cada corrida vira risco de dor no joelho e na canela.\n\n"
-                    "Arrasta pro lado e descubra sua pisada em casa + o melhor custo-beneficio de 2026.\n\n"
-                    "🔎 Nao sabe a sua pisada? Faca o quiz gratis (link na bio) e receba os 3 tenis certos pra voce."),
+                    "Arrasta pro lado e descubra sua pisada em casa + o melhor custo-benefício de 2026.\n\n"
+                    "🔎 Não sabe a sua pisada? Faça o quiz grátis (link na bio) e receba os 3 tênis certos pra você."),
         "slides": [
-            {"kind": "capa", "kicker": "CORRIDA", "titulo": "Voce corre com o tenis *errado*?",
-             "corpo": "Se voce e pronador e nao sabe, cada corrida e risco de lesao."},
-            {"kind": "conteudo", "kicker": "01", "titulo": "O que e pisada *pronada*",
+            {"kind": "capa", "kicker": "CORRIDA", "titulo": "Você corre com o tênis *errado*?",
+             "corpo": "Se você é pronador e não sabe, cada corrida é risco de lesão."},
+            {"kind": "conteudo", "kicker": "01", "titulo": "O que é pisada *pronada*",
              "corpo": "O tornozelo rola pra dentro a cada passada. Isso sobrecarrega joelho, canela e quadril."},
-            {"kind": "conteudo", "kicker": "02", "titulo": "Teste do *pe molhado*",
-             "corpo": "Molhe a sola do pe e pise numa folha. Pegada cheia e larga e forte sinal de pisada pronada."},
-            {"kind": "conteudo", "kicker": "03", "titulo": "Melhor custo-beneficio: *Wave Inspire 21*",
-             "corpo": "Estabilidade de tenis premium por bem menos. A partir de {preco}.",
+            {"kind": "conteudo", "kicker": "02", "titulo": "Teste do *pé molhado*",
+             "corpo": "Molhe a sola do pé e pise numa folha. Pegada cheia e larga é forte sinal de pisada pronada."},
+            {"kind": "conteudo", "kicker": "03", "titulo": "Melhor custo-benefício: *Wave Inspire 21*",
+             "corpo": "Estabilidade de tênis premium por bem menos. A partir de {preco}.",
              "slug": "mizuno-wave-inspire-21-0e67"},
-            {"kind": "cta", "kicker": "SEU TENIS IDEAL", "titulo": "Descubra o *seu* em 1 minuto",
-             "corpo": "Faca o quiz gratis e receba os 3 modelos certos pra sua pisada, com o melhor preco."},
+            {"kind": "cta", "kicker": "SEU TÊNIS IDEAL", "titulo": "Descubra o *seu* em 1 minuto",
+             "corpo": "Faça o quiz grátis e receba os 3 modelos certos pra sua pisada, com o melhor preço."},
         ],
     },
     "ate300": {
         "assunto": "Tenis ate R$300",
-        "legenda": ("Da pra comecar a correr sem gastar muito. 💸\n\n"
-                    "Separamos os tenis com o melhor custo-beneficio de 2026 ate R$300 — leves, confortaveis e com bom amortecimento.\n\n"
-                    "Arrasta pro lado e veja os campeoes.\n\n"
-                    "🔎 Quer o certo pro seu perfil? Faca o quiz gratis (link na bio) e compare o preco entre Amazon, Netshoes e loja oficial."),
+        "legenda": ("Dá pra começar a correr sem gastar muito. 💸\n\n"
+                    "Separamos os tênis com o melhor custo-benefício de 2026 até R$300 — leves, confortáveis e com bom amortecimento.\n\n"
+                    "Arrasta pro lado e veja os campeões.\n\n"
+                    "🔎 Quer o certo pro seu perfil? Faça o quiz grátis (link na bio) e compare o preço entre Amazon, Netshoes e loja oficial."),
         "slides": [
-            {"kind": "capa", "kicker": "CUSTO-BENEFICIO", "titulo": "Melhores tenis ate *R$300*",
-             "corpo": "Da pra comecar a correr sem gastar muito. Veja os campeoes de 2026."},
-            {"kind": "conteudo", "kicker": "01", "titulo": "Nao precisa de *carbono*",
-             "corpo": "Pra comecar, o que importa e amortecimento confortavel, solado duravel e bom ajuste no pe."},
+            {"kind": "capa", "kicker": "CUSTO-BENEFICIO", "titulo": "Melhores tênis até *R$300*",
+             "corpo": "Dá pra começar a correr sem gastar muito. Veja os campeões de 2026."},
+            {"kind": "conteudo", "kicker": "01", "titulo": "Não precisa de *carbono*",
+             "corpo": "Pra começar, o que importa é amortecimento confortável, solado durável e bom ajuste no pé."},
             {"kind": "conteudo", "kicker": "02", "titulo": "Mais barato: *Olympikus Orbita*",
-             "corpo": "Leve e versatil pra treinos diarios. A partir de {preco}.",
+             "corpo": "Leve e versátil pra treinos diários. A partir de {preco}.",
              "slug": "olympikus-orbita-3e40"},
             {"kind": "conteudo", "kicker": "03", "titulo": "Marca premium por menos: *Wave Dynasty 7*",
-             "corpo": "Um Mizuno de verdade, com solado X10 duravel. A partir de {preco}.",
+             "corpo": "Um Mizuno de verdade, com solado X10 durável. A partir de {preco}.",
              "slug": "mizuno-wave-dynasty-7-83eb"},
-            {"kind": "cta", "kicker": "SEU TENIS IDEAL", "titulo": "Qual combina com *voce*?",
-             "corpo": "Faca o quiz gratis e receba os 3 modelos certos pro seu perfil e bolso."},
+            {"kind": "cta", "kicker": "SEU TÊNIS IDEAL", "titulo": "Qual combina com *você*?",
+             "corpo": "Faça o quiz grátis e receba os 3 modelos certos pro seu perfil e bolso."},
         ],
     },
     "versus": {
         "assunto": "Pegasus 42 vs Wave Rider 28",
         "legenda": ("Nike Pegasus 42 ou Mizuno Wave Rider 28? 🤔\n\n"
-                    "Dois dos tenis de treino diario mais vendidos do Brasil — mas com uma diferenca de preco enorme.\n\n"
+                    "Dois dos tênis de treino diário mais vendidos do Brasil — mas com uma diferença de preço enorme.\n\n"
                     "Arrasta pro lado e veja o veredito.\n\n"
-                    "🔎 Na duvida entre os dois? Faca o quiz gratis (link na bio) e descubra qual e o certo pra sua pisada."),
+                    "🔎 Na dúvida entre os dois? Faça o quiz grátis (link na bio) e descubra qual é o certo pra sua pisada."),
         "slides": [
             {"kind": "capa", "kicker": "COMPARATIVO", "titulo": "Pegasus 42 *vs* Wave Rider 28",
-             "corpo": "Dois campeoes de treino diario. Qual entrega mais pelo seu dinheiro?"},
+             "corpo": "Dois campeões de treino diário. Qual entrega mais pelo seu dinheiro?"},
             {"kind": "conteudo", "kicker": "01", "titulo": "Nike *Pegasus 42*",
              "corpo": "Mais firme e responsivo, com React X e Air Zoom. A partir de {preco}.",
              "slug": "nike-pegasus-42-f156-m"},
             {"kind": "conteudo", "kicker": "02", "titulo": "Mizuno *Wave Rider 28*",
-             "corpo": "Equilibrio de macio e estavel, muito duravel. A partir de {preco}.",
+             "corpo": "Equilíbrio de macio e estável, muito durável. A partir de {preco}.",
              "slug": "mizuno-wave-rider-28-4dcc"},
             {"kind": "conteudo", "kicker": "03", "titulo": "O *veredito*",
-             "corpo": "Pra maioria, o Wave Rider vence: estabilidade e durabilidade por quase metade do preco."},
-            {"kind": "cta", "kicker": "SEU TENIS IDEAL", "titulo": "Qual dos dois e o *seu*?",
-             "corpo": "Faca o quiz gratis e descubra o modelo certo pra sua pisada e objetivo."},
+             "corpo": "Pra maioria, o Wave Rider vence: estabilidade e durabilidade por quase metade do preço."},
+            {"kind": "cta", "kicker": "SEU TÊNIS IDEAL", "titulo": "Qual dos dois é o *seu*?",
+             "corpo": "Faça o quiz grátis e descubra o modelo certo pra sua pisada e objetivo."},
         ],
     },
 }
