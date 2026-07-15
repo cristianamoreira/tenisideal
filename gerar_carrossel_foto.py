@@ -28,22 +28,26 @@ SHOE_W, SHOE_H = 0.82, 0.66
 TEMAS_FOTO = [
     dict(key="iniciante", assunto="Tênis de iniciante", n=4, select=vid.sel_iniciante,
          tema_pt="os melhores tênis pra quem está começando a correr", realce="centavo",
+         capa_fb="{n} tênis pra você *começar* a correr sem erro.",
          tags=["iniciante", "corridainiciante"]),
     dict(key="ate500", assunto="Tênis até R$500", n=4, select=vid.sel_ate500,
          tema_pt="os melhores tênis de corrida até R$500", realce="bolso",
+         capa_fb="{n} tênis até R$500 que não pesam no *bolso*.",
          tags=["custobeneficio", "tenisbarato"]),
     dict(key="amort", assunto="Máximo amortecimento", n=4, select=vid.sel_amort,
          tema_pt="tênis de máximo amortecimento pra correr sem dor", realce="conforto",
+         capa_fb="{n} tênis que amortecem e poupam o *joelho*.",
          tags=["amortecimento", "conforto"]),
     dict(key="leves", assunto="Leves e rápidos", n=4, select=vid.sel_leves,
          tema_pt="tênis leves e rápidos pra ganhar velocidade", realce="velocidade",
+         capa_fb="{n} tênis leves que te fazem *voar*.",
          tags=["velocidade", "carbono"]),
 ]
 
-CTA = dict(type="cta", kicker="O QUE NINGUÉM CONTA", titulo="Nenhum é o *melhor*.",
-           corpo=("O melhor é o que combina com a sua pisada, seu peso e seu objetivo. "
-                  "Descubra o seu em 2 minutos."),
-           cta="Quiz no link da bio", plug="@tenisideal_br")
+CTA = dict(type="cta", kicker="A REAL QUE NINGUÉM FALA", titulo="O *melhor* tênis não existe.",
+           corpo=("Existe o certo pra VOCÊ: pra sua pisada, seu peso e seu objetivo. "
+                  "Descubra o seu em 2 minutos, de graça."),
+           cta="Faz o quiz no link da bio 👆", plug="@tenisideal_br")
 
 
 def escolher_tema():
@@ -130,10 +134,17 @@ def gerar_capa(tema, wd):
 def gerar_copy(tema, tenis):
     """Manchete da capa, blurb de cada tenis e legenda. Via OpenRouter (JSON), com fallback."""
     nomes = [f"{s['brand']} {s['name']}" for s in tenis]
+    blurbs_fb = [
+        "Conforto e custo que fazem sentido. Aguenta o treino do dia a dia.",
+        "Amortecimento honesto pelo preço. Cumpre o que promete.",
+        "Leve no pé e no bolso. Boa pra rodar sem drama.",
+        "Estável e durável. Pra quilometragem de verdade.",
+        "Versátil da rua à esteira. Vai bem em qualquer treino.",
+    ]
     fallback = {
-        "capa_titulo": f"{len(tenis)} tênis {tema['assunto'].lower()} que valem cada *{tema['realce']}*.",
+        "capa_titulo": tema.get("capa_fb", "{n} tênis que valem cada passada.").format(n=len(tenis)),
         "capa_corpo": "Deslize até o final. O último muda tudo.",
-        "itens": [{"corpo": "Bom pra rodar no dia a dia. Conforto e custo que fazem sentido."} for _ in tenis],
+        "itens": [{"corpo": blurbs_fb[i % len(blurbs_fb)]} for i in range(len(tenis))],
         "legenda": (f"{len(tenis)} {tema['tema_pt']} 👟\n\n" + "\n".join(f"{i+1}️⃣ {n}" for i, n in enumerate(nomes)) +
                     "\n\nNenhum é o melhor pra todo mundo. O melhor é o que combina com a SUA pisada, peso e objetivo.\n\n"
                     "🔎 Descubra o seu no quiz grátis (link na bio)."),
