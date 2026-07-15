@@ -1,8 +1,6 @@
 name: Arte Instagram (Destaque do dia)
 
 on:
-  schedule:
-    - cron: '30 11 * * *'   # todo dia 08:30 BRT
   workflow_dispatch:
     inputs:
       formato:

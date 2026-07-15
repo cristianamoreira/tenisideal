@@ -624,14 +624,14 @@ var SHOES = [
       "media",
       "longa"
     ],
-    "photo": "https://m.media-amazon.com/images/I/61H5EG8KjuL._AC_SY695_.jpg",
+    "photo": "https://m.media-amazon.com/images/I/61yZAClBK1L._AC_SY695_.jpg",
     "affiliate_links": {
       "amazon": {
-        "url": "https://www.amazon.com.br/adidas-corrida-feminino-Supernova-cristal/dp/B0F649R5XK?crid=2RPSL2TASQM47&dib=eyJ2IjoiMSJ9.ClUNBxvyhQSR65_u9MplwrNYB5XNIvaA5ybGnkntNZTZLqBtreSpBUdbN4-O2R4uM7EMS05l6uj47kamJNFWyFlvMFZrDZT_rIli9bn9WT6FmjYeYar1wdPkq0Qincchjj1_CGed-xkSh6lDaSqLqL7swsp_Lt18jVN7MFkakOabg9S2bsgJ_c1ji2DWymV63sg-H1uFcBv8-jr9AuSAGx1xeuFpOOeHQ0MG22zRIrFBn1yekgFF9wLVY3ODkfr_erlC5NWFFR-2n2MAiK7QBbiAgbjEb3ueTCKQKhe5saU.bh-WE2DaaiSCg5G9lpYgpTP68Xbyme2AwEGHNCcuC3A&dib_tag=se&keywords=supernova%2Brise%2B3&qid=1782503763&refinements=p_n_g-101015233022111%3A121476056011&rnid=121476055011&sprefix=supernova%2Brise%2B%2Caps%2C329&sr=8-1&ufe=app_do%3Aamzn1.fos.95de73c3-5dda-43a7-bd1f-63af03b14751&th=1&ascsubtag=srctok-08463e6b786d0a7a&btn_ref=srctok-08463e6b786d0a7a&psc=1&linkCode=ll2&tag=tenisideal26-20&linkId=286fa470ab51586caa8186f8c35fc385&ref_=as_li_ss_tl",
-        "price": 1149.99,
+        "url": "https://www.amazon.com.br/ASICS-T%C3%AAnis-masculino-Gel-Kayano-Preto/dp/B0G2MCZ6ZV?__mk_pt_BR=%C3%85M%C3%85%C5%BD%C3%95%C3%91&crid=2IE6H6KJE1743&dib=eyJ2IjoiMSJ9.UtelsPYnIbT38xKmHmrlUMI3132z5lViUugxe2WmPdRCFvoZspmMjGwDyqu6Zj0Ev1Bp8U9MmJ1Y9h6kQ96VcLFRNoQFE0agBb65o9Z9xp81MgUzdN4FOpQZQVyC6tRsHlkh9llESr6LSVvB8pxVfyCkVJptdcGFr26dQQwTaTdaeaIh4-nOnoU9pBTAaSOve3Y3opnpY2w9NszlXp2QSU7Kd1M8bKoNgk4hmSf1iAczFN4plpA2dizHEpS1J9ZMnkG1I7mdb88EKzrC_dZBYKlTeakDDZtIbWOTYPa5xHM.5GUTikD0PXamXSDh5_obZ0cBccwSict7pQRCzsjaIMo&dib_tag=se&keywords=Gel-Kayano%2B32&qid=1783946212&refinements=p_n_g-101015233022111%3A121476057011&rnid=121476055011&sprefix=gel-kayano%2B32%2Caps%2C389&sr=8-1-spons&ufe=app_do%3Aamzn1.fos.95de73c3-5dda-43a7-bd1f-63af03b14751&sp_csd=d2lkZ2V0TmFtZT1zcF9hdGY&th=1&psc=1&linkCode=ll2&tag=tenisideal26-20&linkId=e5d0f74a211c7a4b32cc5918237d1eba&ref_=as_li_ss_tl",
+        "price": 0,
         "store": "Amazon",
         "label": "Amazon",
-        "installments": "12x de R$ 95,86 sem juros"
+        "installments": "12x de R$ 99,76 sem juros"
       },
       "netshoes": {
         "url": "https://click.linksynergy.com/deeplink?id=NyH7xPegftk&mid=43984&murl=https%3A%2F%2Fwww.netshoes.com.br%2Fp%2Ftenis-asics-gel-kayano-32-masculino-preto%2Bverde-SG4-013P-244",
@@ -3681,7 +3681,7 @@ var SHOES = [
       },
       "amazon": {
         "url": "https://www.amazon.com.br/T%C3%AAnis-masculino-Structure-Preto-Cinza/dp/B0F2GJ4QTT?__mk_pt_BR=%C3%85M%C3%85%C5%BD%C3%95%C3%91&crid=38DHW759RDCI3&dib=eyJ2IjoiMSJ9.Hx-3BURHUPn77y_QeOxDCQ.RxLmiBA-M7X9yrQ1wbDYLHtOvgT_FOcWxQcL0AMolKQ&dib_tag=se&keywords=Nike%2BAir%2BZoom%2BStructure%2B26&qid=1782745957&sprefix=nike%2Bair%2Bzoom%2Bstructure%2B26%2Caps%2C190&sr=8-1&ufe=app_do%3Aamzn1.fos.95de73c3-5dda-43a7-bd1f-63af03b14751&th=1&psc=1&linkCode=ll2&tag=tenisideal26-20&linkId=d650593a48a3ca8d6a7b9d655f055d25&ref_=as_li_ss_tl",
-        "price": 0,
+        "price": 1541.81,
         "store": "Amazon",
         "label": "Amazon",
         "installments": "12x de R$ 128,53 sem juros"

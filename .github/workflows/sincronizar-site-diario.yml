@@ -29,15 +29,19 @@ jobs:
       - name: Ler a planilha e gerar os dados do site
         run: python3 fetch_shoes_from_sheets.py
 
+      - name: Gerar artigos (SEO) com preços atualizados
+        run: python3 gerar_artigos.py
+
       - name: Publicar no site se algo mudou
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          if [ -n "$(git status --porcelain frontend/shoes_data.js shoes-fallback.json)" ]; then
-            git add frontend/shoes_data.js shoes-fallback.json
-            git commit -m "Atualiza dados do site a partir da planilha (automático)"
+          ARQUIVOS="frontend/shoes_data.js shoes-fallback.json tenis-pisada-pronada.html tenis-ate-300.html nike-pegasus-42-vs-mizuno-wave-rider-28.html"
+          if [ -n "$(git status --porcelain $ARQUIVOS)" ]; then
+            git add $ARQUIVOS
+            git commit -m "Atualiza dados e artigos do site a partir da planilha (automático)"
             git push
-            echo "✅ Site atualizado com os dados da planilha."
+            echo "✅ Site e artigos atualizados com os dados da planilha."
           else
             echo "ℹ️ Nenhuma mudança nos dados hoje — nada a publicar."
           fi

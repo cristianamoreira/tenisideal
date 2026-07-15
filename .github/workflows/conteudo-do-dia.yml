@@ -1,0 +1,83 @@
+name: Conteúdo do dia (rodízio vídeo/carrossel/arte)
+
+on:
+  workflow_dispatch:
+    inputs:
+      tipo:
+        description: 'Forçar tipo (vazio = o do dia): video, carrossel, arte'
+        required: false
+        default: ''
+  schedule:
+    - cron: '0 12 * * *'
+
+permissions:
+  contents: read
+
+jobs:
+  conteudo:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: "Decidir o tipo do dia"
+        id: tipo
+        run: |
+          FORCADO="${{ github.event.inputs.tipo }}"
+          if [ -n "$FORCADO" ]; then
+            TIPO="$FORCADO"
+          else
+            DIA=$(( 10#$(date +%j) % 3 ))
+            case $DIA in
+              0) TIPO=video ;;
+              1) TIPO=carrossel ;;
+              2) TIPO=arte ;;
+            esac
+          fi
+          echo "tipo=$TIPO" >> "$GITHUB_OUTPUT"
+          echo "Conteudo do dia: $TIPO"
+
+      - name: Instalar dependencias
+        run: pip install Pillow imageio-ffmpeg rembg onnxruntime
+
+      - name: Cache do modelo de IA (rembg)
+        uses: actions/cache@v4
+        with:
+          path: ~/.u2net
+          key: rembg-u2net
+
+      - name: Instalar o Chrome
+        id: chrome
+        uses: browser-actions/setup-chrome@v1
+        with:
+          chrome-version: stable
+
+      - name: Gerar e enviar o conteudo do dia
+        env:
+          BREVO_API_KEY: ${{ secrets.BREVO_API_KEY }}
+          EMAIL_CUPONS: ${{ secrets.EMAIL_CUPONS }}
+          EMAIL_REMETENTE: ${{ secrets.EMAIL_REMETENTE }}
+          AWIN_API_TOKEN: ${{ secrets.AWIN_API_TOKEN }}
+          AWIN_PUBLISHER_ID: '2800712'
+          CHROME_PATH: ${{ steps.chrome.outputs.chrome-path }}
+        run: |
+          case "${{ steps.tipo.outputs.tipo }}" in
+            video)     python3 gerar_video_tiktok.py ;;
+            carrossel) python3 gerar_carrossel_instagram.py ;;
+            arte)      python3 gerar_arte_instagram.py ;;
+            *)         python3 gerar_arte_instagram.py ;;
+          esac
+
+      - name: Guardar o conteudo (backup)
+        uses: actions/upload-artifact@v4
+        with:
+          name: conteudo-do-dia
+          path: |
+            carrossel_*.png
+            arte_*.png
+            video_tiktok.mp4
+          retention-days: 7
+          if-no-files-found: ignore

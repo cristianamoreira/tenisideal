@@ -1,8 +1,6 @@
 name: Vídeo TikTok (rodízio de temas)
 
 on:
-  schedule:
-    - cron: '0 13 * * 1,3,5'   # Seg/Qua/Sex 10:00 BRT
   workflow_dispatch:
     inputs:
       tema:
