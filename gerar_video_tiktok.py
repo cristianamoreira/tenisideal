@@ -41,7 +41,7 @@ def recortar(raw):
     try:
         from rembg import remove, new_session
         if not hasattr(recortar, "_sess"):
-            recortar._sess = new_session("isnet-general-use")
+            recortar._sess = new_session("birefnet-general")
         ai = Image.open(io.BytesIO(remove(raw, session=recortar._sess))).convert("RGBA")
         # endurece o alpha: onde o modelo tem confianca (>=180) forca opacidade total,
         # para que as cores internas do tenis nao fiquem lavadas/semitransparentes.
