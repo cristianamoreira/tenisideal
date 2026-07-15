@@ -11,6 +11,8 @@ Saida: tenis-pisada-pronada.html, tenis-ate-300.html,
 import json
 import re
 import os
+import glob
+import datetime
 
 BASE = os.path.dirname(os.path.abspath(__file__))
 DATA = os.path.join(BASE, "shoes-fallback.json")
@@ -315,6 +317,7 @@ def render_comparison(article, index):
 # ------------------------------------------------------------- config artigos
 
 RELATED = [("Melhores da Corrida", "melhores-tenis-corrida.html"),
+           ("Para Iniciantes", "melhores-tenis-corrida-iniciantes.html"),
            ("Pisada Pronada", "tenis-pisada-pronada.html"),
            ("Até R$ 300", "tenis-ate-300.html"),
            ("Pegasus vs Wave Rider", "nike-pegasus-42-vs-mizuno-wave-rider-28.html")]
@@ -382,6 +385,41 @@ ATE300 = {
     "footer": [("Melhores da Corrida", "melhores-tenis-corrida.html"), ("Pisada Pronada", "tenis-pisada-pronada.html"), ("Até R$ 500", "tenis-ate-500.html"), ("Voltar ao Quiz", "index.html")],
 }
 
+INICIANTES = {
+    "file": "melhores-tenis-corrida-iniciantes.html", "sub": "artigo_iniciantes",
+    "title": "Melhores Tênis de Corrida para Iniciantes em 2026 (Guia Completo)",
+    "desc": "Os melhores tênis de corrida para iniciantes em 2026: Mizuno Wave Rider 28, Olympikus Orbita, Nike Revolution 8, ASICS Gel-Cumulus 26 e mais. Como escolher o primeiro tênis e onde comprar mais barato.",
+    "badge": "🌱 Guia do Iniciante 2026",
+    "h1": "Melhores Tênis de Corrida para <span>Iniciantes</span>",
+    "lead": "Vai começar a correr? O primeiro tênis não precisa ser o mais caro — precisa ser o certo. Selecionamos os melhores tênis para iniciantes de 2026: confortáveis, com bom amortecimento e para todos os bolsos.",
+    "pills": [("Até R$ 300", "tenis-ate-300.html"), ("Melhores da Corrida", "melhores-tenis-corrida.html"), ("Pisada Pronada", "tenis-pisada-pronada.html")],
+    "intro_html": (
+        "<h2>Como escolher o primeiro tênis de corrida</h2>"
+        "<p>No começo, três coisas importam mais que qualquer tecnologia de ponta: <strong>amortecimento confortável</strong> (para proteger joelhos e canela), um modelo <strong>neutro e versátil</strong> (serve pra maioria das pessoas) e o <strong>ajuste no pé</strong>. Deixe placa de carbono e tênis de prova para depois — eles são feitos para quem já corre rápido.</p>"
+        "<div class=\"guide-tip\">📏 <strong>Dica de tamanho:</strong> compre a corrida <strong>meio a um número maior</strong> que seu calçado normal. O pé incha ao correr, e sobrar um dedo na frente evita bolhas e unha roxa.</div>"
+        "<div class=\"guide-tip\">🔁 <strong>Quanto dura?</strong> Um tênis de corrida rende de <strong>600 a 800 km</strong>. Para quem corre 3x por semana, isso dá cerca de um ano. Depois disso a espuma perde o amortecimento — hora de trocar.</div>"
+        "<div class=\"guide-tip\">👉 <strong>Não sabe sua pisada nem o modelo certo?</strong> <a href=\"index.html\" style=\"color:var(--green);\">Faça o quiz do Tênis Ideal</a> — em 60 segundos ele cruza sua pisada, peso, objetivo e orçamento e mostra o tênis certo, com o melhor preço.</div>"
+    ),
+    "products_label": "Seleção 2026 · Para quem está começando",
+    "products_title": "Os melhores tênis para iniciantes",
+    "products": [
+        {"slug": "mizuno-wave-rider-28-4dcc", "tag": "🏆 Melhor escolha geral", "level": "Iniciante / Todos os níveis", "review": "O primeiro tênis \"de verdade\" mais recomendado do Brasil. Neutro, estável e muito durável graças à placa Wave e ao solado X10. Conforto de sobra para evoluir do zero aos 10 km sem trocar de modelo."},
+        {"slug": "olympikus-orbita-3e40", "tag": "💸 Mais barato pra começar", "level": "Iniciante", "review": "Leve, nacional e com tecnologia Evasense para treinos diários. É difícil achar um tênis de corrida decente por menos — perfeito para dar os primeiros passos sem medo de gastar."},
+        {"slug": "fila-tenis-fila-speed-lite-masculino-328b", "tag": "Alternativa econômica", "level": "Iniciante", "review": "Leve e confortável, com ótimo custo-benefício para caminhada e corrida leve. Uma entrada segura para quem ainda está criando o hábito de treinar."},
+        {"slug": "nike-revolution-8-3567-f", "tag": "Nike acessível", "level": "Iniciante", "review": "A porta de entrada no universo Nike: respirável, leve e com bom amortecimento para treinos regulares. Para quem quer a marca sem pagar caro."},
+        {"slug": "asics-gel-cumulus-26-ffda", "tag": "Amortecimento premium", "level": "Iniciante / Intermediário", "review": "Um clássico neutro e macio: gel no calcanhar e espuma FF BLAST para absorver o impacto. Ideal para quem quer conforto extra desde o início ou pretende aumentar a quilometragem."},
+        {"slug": "brooks-ghost-14-neutral-b5f9", "tag": "O conforto pra durar anos", "level": "Todos os níveis", "review": "Referência mundial em conforto neutro. Maciez equilibrada e transição suave da passada — o tipo de tênis que você compra uma vez e usa por muito tempo. Um upgrade que vale para quem levou gosto pela corrida."},
+    ],
+    "faq_html": (
+        "<div class=\"guide-tip\"><strong>Preciso de um tênis caro para começar a correr?</strong><br>Não. Para iniciantes e treinos de até 5–10 km, um modelo nacional de R$150–300 já cumpre bem. O que muda nos mais caros é a espuma e a leveza — importantes só quando você aumentar a distância ou o ritmo.</div>"
+        "<div class=\"guide-tip\"><strong>Tênis de academia ou casual serve para correr?</strong><br>Não é o ideal. Tênis de corrida têm amortecimento e drop pensados para o impacto repetido da passada. Correr com casual aumenta o risco de dor no joelho e na canela.</div>"
+        "<div class=\"guide-tip\"><strong>Que tamanho devo comprar?</strong><br>Meio a um número maior que o seu normal. Deve sobrar cerca de um dedo entre o maior dedo do pé e a ponta do tênis.</div>"
+        "<div class=\"guide-tip\"><strong>Como pago mais barato?</strong><br>O mesmo tênis varia de preço entre Amazon, Netshoes e loja oficial, e muitos têm desconto no PIX. O <a href=\"index.html\" style=\"color:var(--green);\">quiz do Tênis Ideal</a> mostra o menor preço entre as lojas.</div>"
+    ),
+    "cta_h3": "Qual é o tênis ideal pra você começar?",
+    "footer": [("Até R$ 300", "tenis-ate-300.html"), ("Melhores da Corrida", "melhores-tenis-corrida.html"), ("Pisada Pronada", "tenis-pisada-pronada.html"), ("Voltar ao Quiz", "index.html")],
+}
+
 VERSUS = {
     "file": "nike-pegasus-42-vs-mizuno-wave-rider-28.html", "sub": "artigo_pegasus_rider",
     "title": "Nike Pegasus 42 vs Mizuno Wave Rider 28: qual comprar em 2026?",
@@ -412,6 +450,55 @@ VERSUS = {
     "footer": [("Melhores da Corrida", "melhores-tenis-corrida.html"), ("Pisada Pronada", "tenis-pisada-pronada.html"), ("Até R$ 300", "tenis-ate-300.html"), ("Voltar ao Quiz", "index.html")],
 }
 
+# --------------------------------------------------------------------- sitemap
+
+SITE = "https://www.tenisideal.com.br"
+
+# Paginas internas / utilitarias que NAO devem entrar no sitemap nem ser indexadas.
+SITEMAP_EXCLUDE = {
+    "calendario_editorial.html", "relatorio_oportunidades.html",
+    "gerador-links-afiliado.html", "email-boas-vindas.html",
+    "tenisideal-agente-instagram.html",
+}
+
+# Prioridade por pagina (index e artigos de alta intencao no topo).
+SITEMAP_PRIORITY = {
+    "index.html": "1.0",
+    "melhores-tenis-corrida-iniciantes.html": "0.9",
+    "tenis-pisada-pronada.html": "0.9",
+    "tenis-ate-300.html": "0.9",
+    "nike-pegasus-42-vs-mizuno-wave-rider-28.html": "0.9",
+    "melhores-tenis-corrida.html": "0.8",
+}
+
+
+def build_sitemap():
+    """Gera sitemap.xml e robots.txt a partir das .html publicas da raiz."""
+    today = datetime.date.today().isoformat()
+    files = sorted(os.path.basename(p) for p in glob.glob(os.path.join(BASE, "*.html")))
+    urls = []
+    for f in files:
+        if f in SITEMAP_EXCLUDE or f.endswith((".backup", ".bak")):
+            continue
+        loc = SITE + "/" + f
+        prio = SITEMAP_PRIORITY.get(f, "0.6")
+        urls.append(
+            f"  <url>\n    <loc>{loc}</loc>\n"
+            f"    <lastmod>{today}</lastmod>\n"
+            f"    <priority>{prio}</priority>\n  </url>"
+        )
+    xml = ('<?xml version="1.0" encoding="UTF-8"?>\n'
+           '<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n'
+           + "\n".join(urls) + "\n</urlset>\n")
+    with open(os.path.join(BASE, "sitemap.xml"), "w", encoding="utf-8") as fh:
+        fh.write(xml)
+    robots = ("User-agent: *\nAllow: /\n\n"
+              + "".join(f"Disallow: /{f}\n" for f in sorted(SITEMAP_EXCLUDE))
+              + f"\nSitemap: {SITE}/sitemap.xml\n")
+    with open(os.path.join(BASE, "robots.txt"), "w", encoding="utf-8") as fh:
+        fh.write(robots)
+    print(f"OK  sitemap.xml  ({len(urls)} URLs)  +  robots.txt")
+
 # ------------------------------------------------------------------------ main
 
 def main():
@@ -422,12 +509,15 @@ def main():
     outputs = {
         PRONADA["file"]: render_list_article(PRONADA, index),
         ATE300["file"]: render_list_article(ATE300, index),
+        INICIANTES["file"]: render_list_article(INICIANTES, index),
         VERSUS["file"]: render_comparison(VERSUS, index),
     }
     for fname, html in outputs.items():
         with open(os.path.join(BASE, fname), "w", encoding="utf-8") as f:
             f.write(html)
         print(f"OK  {fname}  ({len(html)} bytes)")
+
+    build_sitemap()
 
 
 if __name__ == "__main__":

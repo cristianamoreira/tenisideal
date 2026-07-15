@@ -36,7 +36,7 @@ jobs:
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          ARQUIVOS="frontend/shoes_data.js shoes-fallback.json tenis-pisada-pronada.html tenis-ate-300.html nike-pegasus-42-vs-mizuno-wave-rider-28.html"
+          ARQUIVOS="frontend/shoes_data.js shoes-fallback.json tenis-pisada-pronada.html tenis-ate-300.html melhores-tenis-corrida-iniciantes.html nike-pegasus-42-vs-mizuno-wave-rider-28.html sitemap.xml robots.txt"
           if [ -n "$(git status --porcelain $ARQUIVOS)" ]; then
             git add $ARQUIVOS
             git commit -m "Atualiza dados e artigos do site a partir da planilha (automático)"

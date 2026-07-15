@@ -1,0 +1,10 @@
+User-agent: *
+Allow: /
+
+Disallow: /calendario_editorial.html
+Disallow: /email-boas-vindas.html
+Disallow: /gerador-links-afiliado.html
+Disallow: /relatorio_oportunidades.html
+Disallow: /tenisideal-agente-instagram.html
+
+Sitemap: https://www.tenisideal.com.br/sitemap.xml
