@@ -318,6 +318,7 @@ def render_comparison(article, index):
 
 RELATED = [("Melhores da Corrida", "melhores-tenis-corrida.html"),
            ("Para Iniciantes", "melhores-tenis-corrida-iniciantes.html"),
+           ("Dor no Joelho", "tenis-para-dor-no-joelho.html"),
            ("Pisada Pronada", "tenis-pisada-pronada.html"),
            ("Até R$ 300", "tenis-ate-300.html"),
            ("Pegasus vs Wave Rider", "nike-pegasus-42-vs-mizuno-wave-rider-28.html")]
@@ -420,6 +421,41 @@ INICIANTES = {
     "footer": [("Até R$ 300", "tenis-ate-300.html"), ("Melhores da Corrida", "melhores-tenis-corrida.html"), ("Pisada Pronada", "tenis-pisada-pronada.html"), ("Voltar ao Quiz", "index.html")],
 }
 
+JOELHO = {
+    "file": "tenis-para-dor-no-joelho.html", "sub": "artigo_joelho",
+    "title": "Melhores Tênis para Correr com Dor no Joelho em 2026 — Guia",
+    "desc": "Os melhores tênis de amortecimento e estabilidade para quem sente dor no joelho ao correr em 2026: Brooks Adrenaline GTS 24, Hoka Bondi 9, ASICS Gel-Kayano 32 e mais. Como escolher e quando procurar um profissional.",
+    "badge": "🦵 Guia de Amortecimento 2026",
+    "h1": "Melhores Tênis para Correr com <span>Dor no Joelho</span>",
+    "lead": "Sente o joelho reclamar depois de correr? O tênis certo reduz o impacto e alinha a passada, aliviando a sobrecarga na articulação. Veja os modelos de 2026 com mais amortecimento e estabilidade — e saiba quando é hora de procurar ajuda profissional.",
+    "pills": [("Pisada Pronada", "tenis-pisada-pronada.html"), ("Para Iniciantes", "melhores-tenis-corrida-iniciantes.html"), ("Melhores da Corrida", "melhores-tenis-corrida.html")],
+    "intro_html": (
+        "<h2>O tênis certo ajuda — mas não substitui um diagnóstico</h2>"
+        "<p>A dor no joelho ao correr tem várias causas possíveis: <strong>impacto excessivo</strong>, <strong>pronação</strong> (o tornozelo rola para dentro e desalinha o joelho), fraqueza muscular ou aumento rápido do volume de treino. Um bom tênis atua em duas delas: <strong>amortece o impacto</strong> que sobe para a articulação e <strong>estabiliza a passada</strong>. Isso alivia a sobrecarga — mas não trata a causa por trás da dor.</p>"
+        "<div class=\"guide-tip\">⚠️ <strong>Aviso importante:</strong> se a dor é forte, persistente, vem com inchaço ou trava o joelho, <strong>pare e procure um médico ou fisioterapeuta</strong> antes de continuar correndo. Este guia é informativo e não substitui a avaliação de um profissional de saúde.</div>"
+        "<div class=\"guide-tip\">🦵 <strong>O que procurar num tênis:</strong> <strong>amortecimento generoso</strong> (absorve o impacto no calcanhar e reduz o que chega ao joelho) e, se você for pronador, <strong>estabilidade</strong> (impede o joelho de \"cair\" para dentro a cada passada). Evite modelos duros, minimalistas ou de prova.</div>"
+        "<div class=\"guide-tip\">👉 <strong>Não sabe sua pisada?</strong> <a href=\"index.html\" style=\"color:var(--green);\">Faça o quiz do Tênis Ideal</a> — em 60 segundos ele cruza sua pisada, peso e objetivo e indica o modelo com o amortecimento certo para o seu caso, no melhor preço.</div>"
+    ),
+    "products_label": "Seleção 2026 · Amortecimento e estabilidade",
+    "products_title": "Os melhores para quem sente dor no joelho",
+    "products": [
+        {"slug": "brooks-adrenaline-gts-24-ec51", "tag": "🏆 Recomendado por fisioterapeutas", "level": "Estabilidade", "review": "O sistema GuideRails funciona como grades que impedem o joelho de sair do eixo, reduzindo a torção que sobrecarrega a articulação. É um dos modelos mais citados por fisioterapeutas para quem sente dor no joelho ao correr."},
+        {"slug": "hoka-bondi-9-f", "tag": "Amortecimento máximo", "level": "Neutro · Max cushion", "review": "O tênis mais amortecido da Hoka. A espuma espessa absorve boa parte do impacto que sobe para o joelho a cada passada. Excelente para asfalto e para corredores mais pesados que querem poupar as articulações."},
+        {"slug": "asics-gel-kayano-32-8bbd", "tag": "Estabilidade + conforto", "level": "Estabilidade · Max cushion", "review": "Une as duas frentes: gel e espuma FF BLAST PLUS para amortecer o impacto, mais suporte 4D que segura a pronação. Para pronadores que sentem o joelho e rodam distâncias maiores."},
+        {"slug": "asics-gel-nimbus-27-2ecb", "tag": "Amortecimento por menos", "level": "Neutro", "review": "Amortecimento neutro macio e generoso a um preço mais acessível que os topos de linha. Boa opção para pisada neutra que quer reduzir o impacto sem gastar tanto."},
+        {"slug": "mizuno-wave-inspire-21-0e67", "tag": "Estabilidade acessível", "level": "Estabilidade", "review": "A placa Wave dupla controla a pronação sem endurecer a passada. Alívio para o joelho de quem é pronador, por um preço bem mais amigável que os modelos premium."},
+        {"slug": "brooks-ghost-14-neutral-b5f9", "tag": "Maciez pro dia a dia", "level": "Neutro", "review": "Transição suave e maciez neutra, com menos impacto abrupto na passada. Confortável para o dia a dia de quem quer poupar as articulações sem precisar de correção de pisada."},
+    ],
+    "faq_html": (
+        "<div class=\"guide-tip\"><strong>Um tênis mais amortecido resolve a dor no joelho?</strong><br>Ajuda a reduzir o impacto e a sobrecarga, e muita gente sente alívio. Mas se a dor persistir ou piorar, ela pode ter outra causa (muscular, articular, excesso de treino) — nesse caso, procure um profissional.</div>"
+        "<div class=\"guide-tip\"><strong>Pisada tem a ver com dor no joelho?</strong><br>Sim. A pronação excessiva desalinha o joelho a cada passada e o sobrecarrega. Tênis de estabilidade ajudam a corrigir isso. Se não sabe sua pisada, o <a href=\"index.html\" style=\"color:var(--green);\">quiz</a> indica.</div>"
+        "<div class=\"guide-tip\"><strong>Posso correr sentindo dor no joelho?</strong><br>Dor leve que some ao aquecer pode ser adaptação. Dor que aumenta durante ou depois da corrida, ou que vem com inchaço, é sinal de parar e procurar avaliação. Não insista na dor.</div>"
+        "<div class=\"guide-tip\"><strong>Amortecimento bom custa caro?</strong><br>Os melhores modelos de amortecimento máximo tendem a ser mais caros, mas há opções de estabilidade e conforto mais acessíveis (como o Wave Inspire). O <a href=\"index.html\" style=\"color:var(--green);\">quiz</a> mostra o menor preço entre as lojas, inclusive no PIX.</div>"
+    ),
+    "cta_h3": "Não sabe qual combina com o seu joelho?",
+    "footer": [("Pisada Pronada", "tenis-pisada-pronada.html"), ("Para Iniciantes", "melhores-tenis-corrida-iniciantes.html"), ("Melhores da Corrida", "melhores-tenis-corrida.html"), ("Voltar ao Quiz", "index.html")],
+}
+
 VERSUS = {
     "file": "nike-pegasus-42-vs-mizuno-wave-rider-28.html", "sub": "artigo_pegasus_rider",
     "title": "Nike Pegasus 42 vs Mizuno Wave Rider 28: qual comprar em 2026?",
@@ -465,6 +501,7 @@ SITEMAP_EXCLUDE = {
 SITEMAP_PRIORITY = {
     "index.html": "1.0",
     "melhores-tenis-corrida-iniciantes.html": "0.9",
+    "tenis-para-dor-no-joelho.html": "0.9",
     "tenis-pisada-pronada.html": "0.9",
     "tenis-ate-300.html": "0.9",
     "nike-pegasus-42-vs-mizuno-wave-rider-28.html": "0.9",
@@ -510,6 +547,7 @@ def main():
         PRONADA["file"]: render_list_article(PRONADA, index),
         ATE300["file"]: render_list_article(ATE300, index),
         INICIANTES["file"]: render_list_article(INICIANTES, index),
+        JOELHO["file"]: render_list_article(JOELHO, index),
         VERSUS["file"]: render_comparison(VERSUS, index),
     }
     for fname, html in outputs.items():
