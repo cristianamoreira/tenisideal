@@ -160,7 +160,7 @@ def page_head(title, desc, slugfile):
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>{esc(title)}</title>
     <meta name="description" content="{esc(desc)}">
-    <link rel="canonical" href="https://www.tenisideal.com.br/{slugfile}">
+    <link rel="canonical" href="https://www.tenisideal.com.br/{slugfile[:-5] if slugfile.endswith('.html') else slugfile}">
     <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=DM+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
     <style>{CSS}</style>
 </head>
@@ -517,7 +517,8 @@ def build_sitemap():
     for f in files:
         if f in SITEMAP_EXCLUDE or f.endswith((".backup", ".bak")):
             continue
-        loc = SITE + "/" + f
+        clean = "" if f == "index.html" else (f[:-5] if f.endswith(".html") else f)
+        loc = SITE + "/" + clean
         prio = SITEMAP_PRIORITY.get(f, "0.6")
         urls.append(
             f"  <url>\n    <loc>{loc}</loc>\n"
