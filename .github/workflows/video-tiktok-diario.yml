@@ -24,7 +24,7 @@ jobs:
         uses: actions/cache@v4
         with:
           path: ~/.u2net
-          key: rembg-u2net
+          key: rembg-isnet-general
 
       - name: Instalar o Chrome (para renderizar os frames)
         id: chrome

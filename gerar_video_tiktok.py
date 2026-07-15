@@ -41,9 +41,14 @@ def recortar(raw):
     try:
         from rembg import remove, new_session
         if not hasattr(recortar, "_sess"):
-            recortar._sess = new_session("u2net")
+            recortar._sess = new_session("isnet-general-use")
         ai = Image.open(io.BytesIO(remove(raw, session=recortar._sess))).convert("RGBA")
-        a = ai.split()[3].filter(ImageFilter.GaussianBlur(0.6))
+        # endurece o alpha: onde o modelo tem confianca (>=180) forca opacidade total,
+        # para que as cores internas do tenis nao fiquem lavadas/semitransparentes.
+        # so mantem degrade suave na borda real (faixa 40..180).
+        a = ai.split()[3]
+        a = a.point(lambda v: 255 if v >= 180 else (0 if v < 40 else int((v - 40) * 255 / 140)))
+        a = a.filter(ImageFilter.GaussianBlur(0.6))
         ai.putalpha(a)
         bb = ai.getbbox()
         if bb:
