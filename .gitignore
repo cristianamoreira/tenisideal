@@ -15,3 +15,7 @@ __pycache__/
 _proto/
 _proto_arte.py
 .DS_Store
+
+# Conteudo social consolidado e material externo (nao versionar)
+conteudo-social/
+_material-externo/
