@@ -61,6 +61,19 @@ jobs:
         with:
           chrome-version: stable
 
+      - name: Node (engine do carrossel foto)
+        if: ${{ steps.tipo.outputs.tipo == 'carrossel' }}
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      - name: Instalar a engine carrossel_estilos (Playwright, sem baixar browser)
+        if: ${{ steps.tipo.outputs.tipo == 'carrossel' }}
+        working-directory: carrossel_estilos
+        env:
+          PLAYWRIGHT_SKIP_BROWSER_DOWNLOAD: '1'
+        run: npm install --no-audit --no-fund
+
       - name: Gerar e enviar o conteudo do dia
         env:
           BREVO_API_KEY: ${{ secrets.BREVO_API_KEY }}
@@ -68,11 +81,23 @@ jobs:
           EMAIL_REMETENTE: ${{ secrets.EMAIL_REMETENTE }}
           AWIN_API_TOKEN: ${{ secrets.AWIN_API_TOKEN }}
           AWIN_PUBLISHER_ID: '2800712'
+          OPENROUTER_API_KEY: ${{ secrets.OPENROUTER_API_KEY }}
           CHROME_PATH: ${{ steps.chrome.outputs.chrome-path }}
         run: |
           case "${{ steps.tipo.outputs.tipo }}" in
             video)     python3 gerar_video_tiktok.py ;;
-            carrossel) python3 gerar_carrossel_instagram.py ;;
+            carrossel)
+              # Dias de carrossel (Seg/Sab) alternam por semana ISO: par = formato FOTO,
+              # impar = carrosseis de texto (pronada/ate300/versus). Feed com variedade.
+              WK=$(date -u +%V)
+              if [ $((10#$WK % 2)) -eq 0 ]; then
+                echo "Semana $WK (par): carrossel FOTO"
+                python3 gerar_carrossel_foto.py
+              else
+                echo "Semana $WK (impar): carrossel de texto"
+                python3 gerar_carrossel_instagram.py
+              fi
+              ;;
             arte)      python3 gerar_arte_instagram.py ;;
             folga)     echo "Domingo: feed de folga, nenhum conteudo gerado." ;;
             *)         python3 gerar_arte_instagram.py ;;
