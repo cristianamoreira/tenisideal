@@ -1,0 +1,61 @@
+name: Enviar conteudo (manual)
+
+# Workflow manual: voce clica em "Run workflow" na aba Actions do GitHub e
+# escolhe o que receber por e-mail. Usa os mesmos secrets dos outros robos.
+
+on:
+  workflow_dispatch:
+    inputs:
+      o_que:
+        description: 'O que enviar por e-mail'
+        required: true
+        default: carrosseis
+        type: choice
+        options:
+          - carrosseis
+          - cupom-casual30
+
+permissions:
+  contents: read
+
+jobs:
+  enviar:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Instalar dependencias
+        run: pip install Pillow
+
+      - name: Instalar o Chrome
+        id: chrome
+        uses: browser-actions/setup-chrome@v1
+        with:
+          chrome-version: stable
+
+      - name: Gerar e enviar
+        env:
+          BREVO_API_KEY: ${{ secrets.BREVO_API_KEY }}
+          EMAIL_CUPONS: ${{ secrets.EMAIL_CUPONS }}
+          EMAIL_REMETENTE: ${{ secrets.EMAIL_REMETENTE }}
+          CHROME_PATH: ${{ steps.chrome.outputs.chrome-path }}
+          CUPOM_ENVIAR: '1'
+        run: |
+          case "${{ github.event.inputs.o_que }}" in
+            carrosseis)     python3 enviar_carrosseis_todos.py ;;
+            cupom-casual30) python3 gerar_arte_cupom.py ;;
+          esac
+
+      - name: Guardar as artes (backup)
+        uses: actions/upload-artifact@v4
+        with:
+          name: conteudo-manual
+          path: |
+            carrossel_*.png
+            arte_cupom_manual.png
+          retention-days: 7
+          if-no-files-found: ignore

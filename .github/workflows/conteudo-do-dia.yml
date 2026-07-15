@@ -26,15 +26,21 @@ jobs:
       - name: "Decidir o tipo do dia"
         id: tipo
         run: |
+          # Calendario fixo por dia da semana (feed harmonico: 3-4 posts de grid/semana)
+          #   Seg=carrossel  Ter=arte  Qua=video  Qui=arte  Sex=arte(cupom)  Sab=carrossel  Dom=folga
           FORCADO="${{ github.event.inputs.tipo }}"
           if [ -n "$FORCADO" ]; then
             TIPO="$FORCADO"
           else
-            DIA=$(( 10#$(date +%j) % 3 ))
-            case $DIA in
-              0) TIPO=video ;;
+            DOW=$(date -u +%u)   # 1=Seg ... 7=Dom
+            case $DOW in
               1) TIPO=carrossel ;;
               2) TIPO=arte ;;
+              3) TIPO=video ;;
+              4) TIPO=arte ;;
+              5) TIPO=arte ;;
+              6) TIPO=carrossel ;;
+              7) TIPO=folga ;;
             esac
           fi
           echo "tipo=$TIPO" >> "$GITHUB_OUTPUT"
@@ -68,6 +74,7 @@ jobs:
             video)     python3 gerar_video_tiktok.py ;;
             carrossel) python3 gerar_carrossel_instagram.py ;;
             arte)      python3 gerar_arte_instagram.py ;;
+            folga)     echo "Domingo: feed de folga, nenhum conteudo gerado." ;;
             *)         python3 gerar_arte_instagram.py ;;
           esac
 
