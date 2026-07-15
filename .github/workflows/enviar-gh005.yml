@@ -1,0 +1,28 @@
+name: Enviar GH-005 (manual)
+
+# Workflow manual: clique em "Run workflow" na aba Actions pra receber o carrossel
+# avulso GH-005 (6 slides + legenda) por e-mail. Usa os mesmos secrets do Brevo.
+# Os slides ja vem prontos em conteudo_gh005/, entao nao precisa de Chrome/Node.
+
+on:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  enviar:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Enviar GH-005 por e-mail
+        env:
+          BREVO_API_KEY: ${{ secrets.BREVO_API_KEY }}
+          EMAIL_CUPONS: ${{ secrets.EMAIL_CUPONS }}
+          EMAIL_REMETENTE: ${{ secrets.EMAIL_REMETENTE }}
+        run: python3 enviar_gh005.py
