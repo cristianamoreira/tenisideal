@@ -28,6 +28,10 @@ def carregar_catalogo():
 
 
 def baixar(url):
+    # Amazon serve a foto em baixa resolução por padrão (._AC_SY695_). Remover o
+    # modificador de tamanho pega a imagem ORIGINAL (muito mais nítida -> recorte limpo).
+    if "media-amazon.com" in url:
+        url = re.sub(r"\._[^/]*(\.\w+)(\?.*)?$", r"\1\2", url)
     req = urllib.request.Request(url, headers=UA)
     try:
         return urllib.request.urlopen(req, timeout=25).read()
