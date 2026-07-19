@@ -111,7 +111,7 @@ def gerar_capa(tema, wd):
                   "sunrise, wearing brightly colored running shoes with orange and lime green "
                   "accents and vibrant colorful athletic wear, vivid saturated colors, warm "
                   "sunlight, blue sky with soft clouds, lush green scenery on the sides, energetic "
-                  "sense of motion, realistic photo, tall vertical 9:16 composition, plenty of open "
+                  "sense of motion, realistic photo, tall vertical 4:5 composition, plenty of open "
                   "sky and road space in the upper half for a headline, no text, no letters, no "
                   "words, no logos, no brand marks, no swoosh.")
         try:
@@ -208,7 +208,7 @@ def montar(tema, wd):
                            titulo=f"{s['brand']} {s['name']}", corpo=item.get("corpo", ""),
                            img=os.path.basename(imgs[i - 1])))
     slides.append(dict(CTA))
-    roteiro = dict(estilo="brutalism", formato="tiktok", outDir="out", slides=slides)
+    roteiro = dict(estilo="brutalism", formato="carrossel", outDir="out", slides=slides)
     open(os.path.join(wd, "roteiro.json"), "w", encoding="utf-8").write(json.dumps(roteiro, ensure_ascii=False))
     r = subprocess.run(["node", RENDER_JS, os.path.join(wd, "roteiro.json")],
                        capture_output=True, text=True)

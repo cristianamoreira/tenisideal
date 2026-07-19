@@ -243,7 +243,19 @@ def render(workdir, html, outname):
         print("ERRO: screenshot não gerado.", file=sys.stderr)
         return None
     from PIL import Image
-    Image.open(out2x).convert("RGB").resize((1080, 1080), Image.LANCZOS).save(outname, "PNG")
+    base = Image.open(out2x).convert("RGB").resize((1080, 1080), Image.LANCZOS)
+    # Feed do Instagram usa célula 4:5 (1080x1350). Expandimos o quadrado 1:1 para 4:5
+    # esticando a linha de borda (topo/rodapé) em faixas — como o fundo é um gradiente
+    # escuro quase preto nas bordas, a emenda fica imperceptível e o post preenche a
+    # célula inteira, sem corte, harmônico com os carrosséis 4:5.
+    FEED_H = 1350
+    topo = (FEED_H - 1080) // 2            # 135
+    base_h = FEED_H - 1080 - topo          # 135
+    canvas = Image.new("RGB", (1080, FEED_H))
+    canvas.paste(base.crop((0, 0, 1080, 1)).resize((1080, topo), Image.LANCZOS), (0, 0))
+    canvas.paste(base, (0, topo))
+    canvas.paste(base.crop((0, 1079, 1080, 1080)).resize((1080, base_h), Image.LANCZOS), (0, topo + 1080))
+    canvas.save(outname, "PNG")
     return outname
 
 

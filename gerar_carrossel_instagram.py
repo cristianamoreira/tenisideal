@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """Robô de CARROSSEL do Instagram (estilo brutalism verde-lima do @tenisideal_br).
 
-Gera um carrossel (5 slides, 1080x1440) a partir de um dos temas em rodizio,
+Gera um carrossel (5 slides, 1080x1350) a partir de um dos temas em rodizio,
 com PRECOS ao vivo da planilha (shoes-fallback.json), e manda TODOS os slides
 por e-mail via Brevo (mesmo caminho da arte/video), com legenda pronta.
 
@@ -138,8 +138,8 @@ CSS = """<style>
 @font-face{font-family:'Bebas';src:url('BebasNeue.ttf');}
 @font-face{font-family:'Mont';src:url('Montserrat.ttf');}
 *{margin:0;padding:0;box-sizing:border-box;}
-html,body{width:1080px;height:1440px;}
-.canvas{width:1080px;height:1440px;background:__VERDE__;position:relative;overflow:hidden;padding:90px 80px;display:flex;flex-direction:column;justify-content:center;}
+html,body{width:1080px;height:1350px;}
+.canvas{width:1080px;height:1350px;background:__VERDE__;position:relative;overflow:hidden;padding:90px 80px;display:flex;flex-direction:column;justify-content:center;}
 .chip{align-self:flex-start;background:__PRETO__;color:__VERDE__;font-family:'Mont';font-weight:800;font-size:30px;letter-spacing:4px;padding:14px 26px;margin-bottom:34px;text-transform:uppercase;}
 .card{background:#fff;border:5px solid __PRETO__;box-shadow:18px 18px 0 __PRETO__;padding:44px 46px;}
 .card .t{font-family:'Bebas';color:__PRETO__;line-height:.92;letter-spacing:1px;text-transform:uppercase;}
@@ -188,7 +188,7 @@ def render(workdir, html, outname):
     if os.path.exists(out2x):
         os.remove(out2x)
     subprocess.run([chrome, "--headless=new", "--no-sandbox", "--disable-gpu",
-                    "--force-device-scale-factor=2", "--window-size=1080,1440", "--hide-scrollbars",
+                    "--force-device-scale-factor=2", "--window-size=1080,1350", "--hide-scrollbars",
                     "--virtual-time-budget=3500", "--screenshot=" + out2x,
                     "--allow-file-access-from-files",
                     "file://" + os.path.join(workdir, "s.html")],
@@ -197,7 +197,7 @@ def render(workdir, html, outname):
         print("ERRO: screenshot nao gerado.", file=sys.stderr)
         return None
     from PIL import Image
-    Image.open(out2x).convert("RGB").resize((1080, 1440), Image.LANCZOS).save(outname, "PNG")
+    Image.open(out2x).convert("RGB").resize((1080, 1350), Image.LANCZOS).save(outname, "PNG")
     return outname
 
 # ----------------------------------------------------------------- e-mail

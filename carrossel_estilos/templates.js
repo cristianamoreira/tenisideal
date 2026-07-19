@@ -17,13 +17,13 @@ function hl(s = "") {
 }
 
 // formato: "tiktok" -> 1080x1920 com safe-zone (evita botoes/legenda do TikTok);
-//          default (undefined | "carrossel") -> 1080x1440 como sempre.
+//          default (undefined | "carrossel") -> 1080x1350 (4:5 feed do Instagram).
 // Safe-zone TikTok: conteudo fica numa faixa superior-central. Reservado:
 //   topo 240px (tabs Seguindo/Pra voce), base 540px (legenda + @user + audio),
 //   direita 160px (coluna curtir/comentar/compartilhar), esquerda 72px.
 function page(css, inner, formato) {
   const tiktok = formato === "tiktok";
-  const H = tiktok ? 1920 : 1440;
+  const H = tiktok ? 1920 : 1350;
   // aplicado DEPOIS do css do estilo -> sobrescreve o padding proprio do estilo.
   const safe = tiktok
     ? `#s{height:1920px!important;padding:320px 160px 540px 72px!important}`
