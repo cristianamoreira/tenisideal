@@ -141,6 +141,10 @@ def sel_iniciante(sh):
     return distintas(sorted(cands, key=lambda s: s.get("price") or 0))
 
 
+def sel_estabilidade(sh):
+    return sel_tag(sh, ["Estabilidade", "Estável", "Suporte", "Pronação", "Controle", "GuideRails"])
+
+
 THEMES = [
     dict(key="sonhos", label="TÊNIS DOS SONHOS", small="SE DINHEIRO NÃO", big1="FOSSE", big2="PROBLEMA...",
          sub="qual desses você usaria? 👇", select=sel_premium,
@@ -160,6 +164,9 @@ THEMES = [
     dict(key="diadia", label="PRA TREINAR TODO DIA", small="1 TÊNIS PRA", big1="TREINO, RUA", big2="E ROLÊ",
          sub="os mais versáteis que existem 👇", select=lambda sh: sel_tag(sh, ["Versátil", "Versatilidade", "Treino Diário", "Treino diário", "Diário", "Conforto"]),
          hook="1 tênis que serve pra treino, rua e rolê 👟🔁 Qual você usaria? 👇", tags=["treinodiario", "corridaderua"]),
+    dict(key="pronacao", label="ESTABILIDADE E SUPORTE", small="SEU PÉ CAI", big1="PRA", big2="DENTRO?",
+         sub="pisada pronada pede esses 👇", select=sel_estabilidade,
+         hook="Seu pé CAI pra dentro quando corre? Isso é pisada pronada e esses tênis dão o suporte que falta 👟🦶 Comenta 👇", tags=["pisadapronada", "pronacao"]),
 ]
 
 HEAD = ("<!doctype html><html><head><meta charset='utf-8'><style>"
@@ -168,9 +175,9 @@ HEAD = ("<!doctype html><html><head><meta charset='utf-8'><style>"
         "*{margin:0;padding:0;box-sizing:border-box;}html,body{width:1080px;height:1920px;}"
         ".c{width:1080px;height:1920px;position:relative;overflow:hidden;font-family:'Mont';text-align:center;"
         "background:radial-gradient(70% 45% at 50% 42%,#2c2d37 0%,#17171d 55%,#0a0a0e 100%);}"
-        ".hd{position:absolute;top:78px;width:100%;font-family:'Bebas';font-size:64px;letter-spacing:4px;}"
+        ".hd{position:absolute;top:360px;width:100%;font-family:'Bebas';font-size:64px;letter-spacing:4px;}"
         ".hd b{color:#fff;font-weight:400;}.hd i{color:#C8FF00;font-style:normal;}"
-        ".ft{position:absolute;bottom:86px;width:100%;}.ft .h{font-family:'Bebas';font-size:48px;letter-spacing:3px;color:#fff;}"
+        ".ft{position:absolute;bottom:290px;width:100%;}.ft .h{font-family:'Bebas';font-size:48px;letter-spacing:3px;color:#fff;}"
         ".ft .h i{color:#C8FF00;font-style:normal;}.ft .s{font-family:'Mont';font-size:27px;color:#9a9ca7;margin-top:5px;letter-spacing:1px;}"
         "</style></head><body>")
 TAIL = "</body></html>"
@@ -193,14 +200,14 @@ def hook_frame(t):
 def shoe_frame(label, n, brand, model, price):
     mf = 86 if len(model) <= 14 else (74 if len(model) <= 20 else 62)
     return HEAD + "<div class='c'>" + HD + (
-        f"<div style='position:absolute;top:178px;width:100%;font-family:Bebas;font-size:54px;color:#fff;letter-spacing:3px;opacity:.85;padding:0 60px;'>{label}</div>"
-        f"<div style='position:absolute;top:308px;left:50%;transform:translateX(-50%);width:124px;height:124px;border-radius:50%;background:#C8FF00;color:#14141b;font-family:Bebas;font-size:92px;line-height:132px;'>{n}</div>"
-        "<div style='position:absolute;top:790px;left:50%;transform:translateX(-50%);width:840px;height:360px;background:radial-gradient(ellipse at center,rgba(200,255,0,.18),rgba(150,170,255,.05) 45%,transparent 72%);filter:blur(42px);'></div>"
-        f"<img src='shoe{n-1}.png' style='position:absolute;top:530px;left:50%;transform:translateX(-50%);width:950px;max-height:770px;object-fit:contain;filter:drop-shadow(0 40px 34px rgba(0,0,0,.55));'>"
-        "<div style='position:absolute;top:1378px;width:100%;'>"
+        f"<div style='position:absolute;top:470px;width:100%;font-family:Bebas;font-size:54px;color:#fff;letter-spacing:3px;opacity:.85;padding:0 60px;'>{label}</div>"
+        f"<div style='position:absolute;top:590px;left:50%;transform:translateX(-50%);width:124px;height:124px;border-radius:50%;background:#C8FF00;color:#14141b;font-family:Bebas;font-size:92px;line-height:132px;'>{n}</div>"
+        "<div style='position:absolute;top:880px;left:50%;transform:translateX(-50%);width:840px;height:360px;background:radial-gradient(ellipse at center,rgba(200,255,0,.18),rgba(150,170,255,.05) 45%,transparent 72%);filter:blur(42px);'></div>"
+        f"<img src='shoe{n-1}.png' style='position:absolute;top:720px;left:50%;transform:translateX(-50%);width:auto;max-width:820px;max-height:500px;object-fit:contain;filter:drop-shadow(0 40px 34px rgba(0,0,0,.55));'>"
+        "<div style='position:absolute;top:1250px;width:100%;'>"
         f"<div style='font-family:Bebas;color:#C8FF00;font-size:62px;letter-spacing:2px;'>{brand}</div>"
         f"<div style='font-family:Bebas;color:#fff;font-size:{mf}px;letter-spacing:1px;line-height:.9;padding:0 70px;'>{model}</div></div>"
-        f"<div style='position:absolute;top:1560px;width:100%;font-family:Mont;font-weight:700;font-size:48px;color:#b8bac4;'>{price}</div>"
+        f"<div style='position:absolute;top:1410px;width:100%;font-family:Mont;font-weight:700;font-size:48px;color:#b8bac4;'>{price}</div>"
     ) + FT + "</div>" + TAIL
 
 
