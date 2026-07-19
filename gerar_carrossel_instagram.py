@@ -153,7 +153,11 @@ html,body{width:1080px;height:1350px;}
 def slide_html(s):
     kind = s["kind"]
     tsize = 108 if kind == "capa" else 84
-    logo = '<div class="logo">TÊNIS<span style="color:#fff">IDEAL</span></div>'
+    # Na CAPA (o que aparece na gradinha do perfil), a miniatura do Instagram corta
+    # ~135px do topo. Descemos o logo pra dentro dessa zona segura só na capa; nos
+    # slides internos (vistos abertos, sem corte) o logo fica no topo como sempre.
+    logo_top = 175 if kind == "capa" else 56
+    logo = '<div class="logo" style="top:%dpx">TÊNIS<span style="color:#fff">IDEAL</span></div>' % logo_top
     chip = '<div class="chip">%s</div>' % (s.get("kicker", "") or "")
     card = '<div class="card"><div class="t" style="font-size:%dpx">%s</div></div>' % (tsize, hl(s.get("titulo", "")))
     sub = '<div class="sub" style="font-size:%dpx">%s</div>' % (34 if kind == "capa" else 30, quebra(s.get("corpo", "")))
