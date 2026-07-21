@@ -1,0 +1,27 @@
+name: E-mail Achados da Amazon (rascunho no Brevo)
+
+on:
+  workflow_dispatch:        # botão para gerar na hora (campanha de 30 dias)
+
+jobs:
+  gerar-email-amazon:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Gerar e-mail e criar rascunho no Brevo
+        env:
+          BREVO_API_KEY: ${{ secrets.BREVO_API_KEY }}
+          BREVO_LIST_ID: '3'
+          EMAIL_REMETENTE: ${{ secrets.EMAIL_REMETENTE }}
+        run: python3 gerar_email_amazon.py
+
+      - name: Guardar o HTML gerado (backup)
+        uses: actions/upload-artifact@v4
+        with:
+          name: email-achados-amazon
+          path: email_amazon.html
+          retention-days: 14

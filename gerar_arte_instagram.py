@@ -3,7 +3,7 @@
 
 Cada dia manda 1 formato diferente, com legenda pronta, no e-mail:
   Seg=Destaque · Ter=Comparativo · Qua=Tênis dos Sonhos · Qui=Destaque
-  Sex=Cupom (se houver) · Sáb=Comparativo · Dom=Tênis dos Sonhos
+  Sex=Ofertas Amazon · Sáb=Comparativo · Dom=Tênis dos Sonhos
 Estilo inspirado no @teniscerto: fundo escuro premium, fotos reais recortadas, identidade.
 O site é um QUIZ (não loja) — o CTA sempre leva pro quiz.
 
@@ -27,7 +27,7 @@ import urllib.request
 UA = {"User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 "
                     "(KHTML, like Gecko) Chrome/120 Safari/537.36"}
 
-SCHEDULE = ["destaque", "comparativo", "sonhos", "destaque", "cupom", "comparativo", "sonhos"]  # Seg..Dom
+SCHEDULE = ["destaque", "comparativo", "sonhos", "destaque", "amazon", "comparativo", "sonhos"]  # Seg..Dom
 
 # nomes que indicam trilha/hiking (pra o comparativo não misturar trilha com rua)
 TRAIL_KW = ("trail", "trilha", "terrex", "hiking", "trabuco", "venture", "juniper", "peregrine",
@@ -81,6 +81,15 @@ HTML_GRID = CSS + """<div class="canvas" style="background:radial-gradient(80% 6
 <div style="position:absolute;top:46px;width:100%;font-family:'Bebas';font-size:42px;letter-spacing:3px;"><span class="wh">TÊNIS</span><span class="gn">IDEAL</span></div>
 <div style="position:absolute;top:104px;width:100%;font-family:'Bebas';font-size:80px;color:#fff;letter-spacing:2px;line-height:.9;">TÊNIS DOS SONHOS</div>
 <div style="position:absolute;top:194px;width:100%;font-family:'Mont';font-weight:600;font-size:25px;color:#C8FF00;letter-spacing:1px;">Comente o número do seu favorito 👇</div>
+<div style="position:absolute;top:258px;left:54px;width:972px;height:680px;display:grid;grid-template-columns:1fr 1fr;grid-template-rows:1fr 1fr 1fr;gap:6px;">@@CELLS@@</div>
+<div style="position:absolute;bottom:40px;width:100%;"><div style="font-family:'Bebas';font-size:30px;letter-spacing:2px;color:#fff;">@TENISIDEAL<span class="gn">_BR</span></div>
+ <div style="font-family:'Mont';font-size:18px;color:#9a9ca7;margin-top:2px;letter-spacing:1px;">tenisideal.com.br</div></div>
+</div>"""
+
+HTML_AMZ = CSS + """<div class="canvas" style="background:radial-gradient(80% 60% at 50% 42%,#2c2d37 0%,#17171d 55%,#0a0a0e 100%);text-align:center;">
+<div style="position:absolute;top:46px;width:100%;font-family:'Bebas';font-size:42px;letter-spacing:3px;"><span class="wh">TÊNIS</span><span class="gn">IDEAL</span></div>
+<div style="position:absolute;top:104px;width:100%;font-family:'Bebas';font-size:80px;color:#fff;letter-spacing:2px;line-height:.9;">OFERTAS <span class="gn">AMAZON</span></div>
+<div style="position:absolute;top:194px;width:100%;font-family:'Mont';font-weight:600;font-size:25px;color:#C8FF00;letter-spacing:1px;">Frete Prime 📦 · toque no link da bio pra ir direto</div>
 <div style="position:absolute;top:258px;left:54px;width:972px;height:680px;display:grid;grid-template-columns:1fr 1fr;grid-template-rows:1fr 1fr 1fr;gap:6px;">@@CELLS@@</div>
 <div style="position:absolute;bottom:40px;width:100%;"><div style="font-family:'Bebas';font-size:30px;letter-spacing:2px;color:#fff;">@TENISIDEAL<span class="gn">_BR</span></div>
  <div style="font-family:'Mont';font-size:18px;color:#9a9ca7;margin-top:2px;letter-spacing:1px;">tenisideal.com.br</div></div>
@@ -330,6 +339,66 @@ def build_grid(shoes, wd):
     return png, leg, "Tênis dos Sonhos"
 
 
+def link_amazon(s):
+    """Retorna o dict de afiliada da Amazon SÓ se o link for real (não placeholder)."""
+    a = (s.get("affiliate_links") or {}).get("amazon") or {}
+    u = (a.get("url") or "").lower()
+    if u and ("amzn.to" in u or "amazon." in u):
+        return a
+    return None
+
+
+def build_amazon(shoes, wd):
+    """Post 'OFERTAS AMAZON': grid de 6 tênis que têm link real de afiliada da Amazon.
+
+    Concentra os cliques na Amazon (meta: destravar a PA-API). Rotaciona a seleção
+    a cada dia e prioriza variedade de marcas. Rode com FORMATO_ARTE=amazon.
+    """
+    cand = []
+    for s in shoes:
+        a = link_amazon(s)
+        if a and "amazon" in (s.get("photo") or "").lower():
+            cand.append((s, a))
+    if len(cand) < 6:
+        return None
+    # prioriza 1 por marca pra dar variedade; completa com o resto se faltar
+    seen, prem = set(), []
+    for s, a in cand:
+        if s["brand"] not in seen:
+            prem.append((s, a)); seen.add(s["brand"])
+    if len(prem) < 6:
+        prem = cand
+    os.makedirs(os.path.join(wd, "grid"), exist_ok=True)
+    dia = datetime.date.today().timetuple().tm_yday
+    chosen = []
+    for k in range(len(prem)):
+        s, a = prem[(dia + k) % len(prem)]
+        if any(cs is s for cs, _ in chosen):
+            continue
+        if baixar_recortar(s["photo"], os.path.join(wd, "grid", f"shoe{len(chosen)}.png")):
+            chosen.append((s, a))
+        if len(chosen) == 6:
+            break
+    if len(chosen) < 6:
+        return None
+    cells, linhas = "", []
+    for i, (s, a) in enumerate(chosen):
+        preco = a.get("price") or s.get("price")
+        cells += (CELL.replace("@@N@@", str(i + 1)).replace("@@I@@", str(i))
+                  .replace("@@BRAND@@", s["brand"].upper()).replace("@@MODEL@@", s["name"].upper())
+                  .replace("@@PRICE@@", fmt_preco(preco)))
+        linhas.append(f"{i + 1}. {s['brand']} {s['name']} — {fmt_preco(preco)}")
+    png = render(wd, HTML_AMZ.replace("@@CELLS@@", cells), "arte_amazon.png")
+    if not png:
+        return None
+    leg = ("🛒 OFERTAS AMAZON DA SEMANA 👟\n\n"
+           "Separamos tênis de corrida com ótimo preço na Amazon (e quem é Prime "
+           "ainda tem frete grátis 📦):\n\n" + "\n".join(linhas) +
+           "\n\n🔎 Faça o quiz e vá direto pra melhor oferta — link na bio 👉 tenisideal.com.br\n\n"
+           "📲 Siga @tenisideal_br pra não perder as ofertas!\n\n" + hashtags("amazon", "ofertas", "promocao"))
+    return png, leg, "Ofertas Amazon"
+
+
 def build_comparativo(shoes, wd):
     def _road(s):
         nm = (s["brand"] + " " + s["name"]).lower()
@@ -465,7 +534,7 @@ def main():
     preparar_fontes(wd)
     formato = (os.environ.get("FORMATO_ARTE") or SCHEDULE[datetime.date.today().weekday()]).lower()
     builders = {"destaque": build_destaque, "comparativo": build_comparativo,
-                "sonhos": build_grid, "cupom": build_cupom}
+                "sonhos": build_grid, "cupom": build_cupom, "amazon": build_amazon}
     res = builders.get(formato, build_destaque)(shoes, wd)
     if not res:
         print(f"[formato '{formato}' indisponível — caindo pro Destaque]", file=sys.stderr)
