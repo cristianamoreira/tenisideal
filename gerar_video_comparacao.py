@@ -207,8 +207,72 @@ def f_cta():
     ) + FOOT + "</div>" + TAIL
 
 
+# ---------------------------------------------------------------- CAPA dedicada 4:5 (1080x1350)
+HEAD_C = HEAD.replace("height:1920px", "height:1350px")
+
+
+def f_cover(has_bg):
+    cls = "c bg" if has_bg else "c"
+    bg = "style=\"background-image:url('bg_cover.png')\"" if has_bg else ""
+    return HEAD_C + f"<div class='{cls}' {bg}>" + ("<div class='ov'></div>" if has_bg else "") + (
+        "<div class='logo' style='top:56px;'><b>TÊNIS</b><i>IDEAL</i></div>"
+        "<div style='position:absolute;top:170px;width:100%;z-index:3;'>"
+        "<div style='font-family:Mont;font-weight:800;font-size:40px;color:#b8bac4;letter-spacing:4px;'>DUELO DE SUPER SHOES</div>"
+        f"<div style='margin-top:10px;font-family:Bebas;font-size:112px;line-height:.9;letter-spacing:2px;'>"
+        f"<span style='color:{LARANJA}'>ADIDAS</span></div>"
+        f"<div style='font-family:Bebas;font-size:60px;color:#fff;line-height:.8;'>vs</div>"
+        f"<div style='font-family:Bebas;font-size:112px;line-height:.9;letter-spacing:2px;color:{LIMA}'>SAUCONY</div>"
+        "</div>"
+        + glow(LARANJA, 300, 800, 620, 440) + glow(LIMA, 780, 800, 620, 440)
+        + img("shoeA.png", 300, 810, 460, 400) + img("shoeB.png", 780, 810, 460, 400)
+        + "<div style='position:absolute;top:1130px;width:100%;z-index:3;font-family:Mont;font-weight:800;"
+        "font-size:46px;color:#fff;letter-spacing:1px;'>qual vale mais a pena? 👇</div>"
+        + "<div class='foot' style='bottom:52px;'><div class='h'>@TENISIDEAL<i>_BR</i></div></div>"
+    ) + "</div>" + TAIL
+
+
+def render_cover(wd, chrome, html, outpng):
+    open(os.path.join(wd, "cv.html"), "w", encoding="utf-8").write(html)
+    raw = os.path.join(wd, "cvraw.png")
+    if os.path.exists(raw):
+        os.remove(raw)
+    subprocess.run([chrome, "--headless=new", "--no-sandbox", "--disable-gpu", "--force-device-scale-factor=2",
+                    "--window-size=1080,1350", "--hide-scrollbars", "--default-background-color=00000000",
+                    "--virtual-time-budget=3000", "--screenshot=" + raw, "--allow-file-access-from-files",
+                    "file://" + os.path.join(wd, "cv.html")], check=False, capture_output=True, timeout=120)
+    if not os.path.exists(raw):
+        return False
+    Image.open(raw).convert("RGB").resize((1080, 1350), Image.LANCZOS).save(outpng)
+    return True
+
+
+def gerar_capa(wd):
+    chrome = achar_chrome()
+    if not chrome:
+        print("ERRO: Chrome não encontrado.", file=sys.stderr); return None
+    for f in ("BebasNeue.ttf", "Montserrat.ttf"):
+        if os.path.exists(f):
+            shutil.copy(f, os.path.join(wd, f))
+    S = carregar_catalogo()
+    sa = achar(S, "adios", "pro"); sb = achar(S, "endorphin", "pro")
+    for tag, s in (("shoeA", sa), ("shoeB", sb)):
+        cut = recortar(baixar(s["photo"]))
+        if cut is None:
+            print(f"ERRO: recorte falhou ({tag}).", file=sys.stderr); return None
+        cut.save(os.path.join(wd, tag + ".png"))
+    bg = gerar_bg_ia(
+        "Cinematic wide photo of an empty outdoor running track and dark wet asphalt at dawn, "
+        "moody desaturated teal-and-charcoal tones, dramatic low light, soft fog, no people, "
+        "no text, vertical composition, lots of empty dark space in the center for text overlay.",
+        os.path.join(wd, "bg_cover.png"), tw=1080, th=1350)
+    out = os.path.join(os.getcwd(), os.environ.get("CAPA_OUT") or "capa_reels.png")
+    if not render_cover(wd, chrome, f_cover(bg), out):
+        return None
+    return out, bg
+
+
 # ---------------------------------------------------------------- fundo IA (OpenRouter, opcional)
-def gerar_bg_ia(prompt, outpath):
+def gerar_bg_ia(prompt, outpath, tw=1080, th=1920):
     key = os.environ.get("OPENROUTER_API_KEY", "")
     if not key:
         return False
@@ -227,8 +291,7 @@ def gerar_bg_ia(prompt, outpath):
         url = data["choices"][0]["message"]["images"][0]["image_url"]["url"]
         raw = base64.b64decode(url.split(",", 1)[1])
         im = Image.open(io.BytesIO(raw)).convert("RGB")
-        # cover-crop pra 1080x1920
-        tw, th = 1080, 1920
+        # cover-crop pro alvo (tw x th)
         s = max(tw / im.width, th / im.height)
         im = im.resize((int(im.width * s), int(im.height * s)), Image.LANCZOS)
         L = (im.width - tw) // 2; T = (im.height - th) // 2
@@ -282,8 +345,13 @@ def build(wd):
     for i, r in enumerate(ROUNDS, 1):
         frames.append(f_round(i, r))
     frames += [f_veredito(bg_ver), f_cta()]
-    # durações (s) — batem com o ritmo da narração
-    durs = [3.4, 3.2] + [2.9] * len(ROUNDS) + [4.0, 3.6]
+    # durações (s) — batem com o ritmo da narração.
+    # DUR_SCALE encurta/alonga tudo proporcionalmente (ex.: TikTok mais ágil -> 0.78).
+    try:
+        scale = float(os.environ.get("DUR_SCALE") or 1.0)
+    except Exception:
+        scale = 1.0
+    durs = [round(d * scale, 2) for d in ([3.4, 3.2] + [2.9] * len(ROUNDS) + [4.0, 3.6])]
 
     for idx, html in enumerate(frames):
         if not render_frame(wd, chrome, html, os.path.join(wd, f"frame{idx:02d}.png")):
@@ -295,7 +363,7 @@ def build(wd):
     lines.append(f"file 'frame{len(durs)-1:02d}.png'")
     open(os.path.join(wd, "list.txt"), "w").write("\n".join(lines))
 
-    mp4 = os.path.join(os.getcwd(), "video_comparacao.mp4")
+    mp4 = os.path.join(os.getcwd(), os.environ.get("VID_OUT") or "video_comparacao.mp4")
     ff = imageio_ffmpeg.get_ffmpeg_exe()
     r = subprocess.run([ff, "-y", "-f", "concat", "-safe", "0", "-i", "list.txt", "-r", "30",
                         "-c:v", "libx264", "-crf", "21", "-pix_fmt", "yuv420p", "-movflags", "+faststart", mp4],
@@ -307,11 +375,23 @@ def build(wd):
 
 def main():
     wd = tempfile.mkdtemp(prefix="ti_cmp_")
+    # Modo capa: CAPA=1 gera só a imagem de capa 4:5 (1080x1350) e sai.
+    if (os.environ.get("CAPA") or "").strip() in ("1", "true", "sim"):
+        res = gerar_capa(wd)
+        if not res:
+            print("ERRO: não consegui gerar a capa.", file=sys.stderr); sys.exit(1)
+        out, usou_ia = res
+        print(f"🖼️  Capa 4:5 gerada: {out}  (1080x1350, fundo IA: {'sim' if usou_ia else 'não'})")
+        return
     res = build(wd)
     if not res:
         sys.exit(1)
     mp4, usou_ia = res
-    total = sum([3.4, 3.2] + [2.9] * len(ROUNDS) + [4.0, 3.6])
+    try:
+        scale = float(os.environ.get("DUR_SCALE") or 1.0)
+    except Exception:
+        scale = 1.0
+    total = sum([3.4, 3.2] + [2.9] * len(ROUNDS) + [4.0, 3.6]) * scale
     print(f"🎬 Vídeo de comparação gerado: {mp4}  (~{total:.0f}s, fundo IA: {'sim' if usou_ia else 'não'})")
 
 
