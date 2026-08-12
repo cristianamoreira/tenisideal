@@ -188,11 +188,11 @@ var SHOES = [
     "name": "Ultraboost 5",
     "slug": "adidas-ultraboost-5-14f9",
     "sexo": [
-      "feminino"
+      "masculino"
     ],
     "budget": "600a1000",
-    "price": 799.99,
-    "price_formatted": "R$ 799,99",
+    "price": 799.0,
+    "price_formatted": "R$ 799,00",
     "levels": [
       "iniciante",
       "intermediario",
@@ -212,10 +212,10 @@ var SHOES = [
       "media",
       "longa"
     ],
-    "photo": "https://m.media-amazon.com/images/I/416hAw4kf6L._AC_SY500_.jpg",
+    "photo": "https://m.media-amazon.com/images/I/412-RoXwVDL._AC_SY675_.jpg",
     "affiliate_links": {
       "oficial": {
-        "url": "https://tidd.ly/40vVjmg",
+        "url": "https://tidd.ly/4uycDoE",
         "price": 1099.99,
         "preco_pix": 0,
         "store": "ADIDAS",
@@ -223,39 +223,39 @@ var SHOES = [
         "installments": "10 x R$ 110,00 sem juros"
       },
       "amazon": {
-        "url": "https://www.amazon.com.br/adidas-feminino-Ultraboost-Branco-gl%C3%B3ria/dp/B0CKM9DHXC?__mk_pt_BR=%C3%85M%C3%85%C5%BD%C3%95%C3%91&crid=8USWGGLAE3WP&dib=eyJ2IjoiMSJ9.GXAduUVl-G5xCNzcCbhNaSeB9-lGQ9DhesR1sZ-oj-pxDrrY6VRjXjOrg7lHhWKIiuGsm_yGUqWhyvS4e2TpDbxnLsP6qXCyXz7gkRD3OyVe19Qe13rGRHhYQVcUGERXIA5oYpS7pgya0GHxtNpa-py2k85LXH2B5qnYl3eN4uDyoANW3jMt8ZQUMtWd64fYyj3xfc8GQastx9rL_pJ5GpobS30HkIQiLMzZSct9JU5_As_jlFCSvoyVbXAPSQo6mf8ZpSrjas8_GHcgrGfgpjLpBFynLCLa6nqyQokXEMc.3dFiupYmvgEZ5rXfIC0EvXEvgnBwc7N2Hkpq0otsJqw&dib_tag=se&keywords=ADIDAS%2BUltraboost%2B5&qid=1773443249&refinements=p_n_g-101015233022111%3A121476056011&rnid=121476055011&sprefix=adidas%2Bultraboost%2B5%2Caps%2C205&sr=8-6&ufe=app_do%3Aamzn1.fos.95de73c3-5dda-43a7-bd1f-63af03b14751&th=1&psc=1&linkCode=ll2&tag=tenisideal26-20&linkId=cd3adaaf5b999e803b2367269a6515af&ref_=as_li_ss_tl",
-        "price": 1230.19,
+        "url": "https://www.amazon.com.br/T%C3%AAnis-Adidas-Ultraboost-Azul-Masculino/dp/B0D9PMYBVD?__mk_pt_BR=%C3%85M%C3%85%C5%BD%C3%95%C3%91&crid=9H2EJIV19I5K&dib=eyJ2IjoiMSJ9.2EALlZwG09lGmu0WF9xeUcdyBaSWnEOVv82FXlxEBtN3blNdn9VFgcgOgYyrZcpHgVuVpxjM4kViyuHr6I1xmJlxp1QfZxxCoprQ5ZD0j5O5bjiZaclktHT3gor7mVpL7SKsrKlmzmlH-IMP_Sj_hpwvhs_uMmtSI-Xds1QVY8bwkY83mzkjSiRumJFHqel1mnbJo-5hISobCumF46IkJlP_a2FCv6acn8_RiuttEBtowOnkTgmTnz_UmgTXnUROSqQ7ISTo1MkxwUu5X6Qg1he2gKBfEM3BUs6S00JTgo8.vSZGIOsz455ZUHJp8_rJhz-ncOKTCu2hIWI5AnJ10Rc&dib_tag=se&keywords=ADIDAS%2BUltraboost%2B5&qid=1782501734&sprefix=adidas%2Bultraboost%2B5%2Caps%2C200&sr=8-3&ufe=app_do%3Aamzn1.fos.95de73c3-5dda-43a7-bd1f-63af03b14751&th=1&ascsubtag=srctok-5b3be9d52b578a66&btn_ref=srctok-5b3be9d52b578a66&psc=1&linkCode=ll2&tag=tenisideal26-20&linkId=92ea953024a735125a248512f6c7ac2b&ref_=as_li_ss_tl",
+        "price": 799.0,
         "store": "Amazon",
         "label": "Amazon",
-        "installments": "12x de R$ 102,58 sem juros"
+        "installments": "12x de R$ 66,62 sem juros"
       },
       "netshoes": {
-        "url": "https://click.linksynergy.com/deeplink?id=NyH7xPegftk&mid=43984&murl=https%3A%2F%2Fwww.netshoes.com.br%2Fp%2Ftenis-adidas-ultraboost-5-feminino-FB9-8797-014",
-        "price": 799.99,
-        "preco_pix": 719.99,
+        "url": "https://click.linksynergy.com/deeplink?id=NyH7xPegftk&mid=43984&murl=https%3A%2F%2Fwww.netshoes.com.br%2Fp%2Ftenis-adidas-ultraboost-5-masculino-marinho%2Bbranco-FB9-8787-036",
+        "price": 839.88,
+        "preco_pix": 0,
         "store": "Netshoes",
         "label": "Netshoes",
-        "installments": "10x sem juros"
+        "installments": "10x de R$ 83,99 sem juros"
       }
     },
     "tags": [
       "Boost",
-      "Leveza",
+      "Energia",
       "Premium"
     ],
-    "description": "Lightboost 2.0 mais leve e responsivo. Primeknit ajusta como uma meia. Excelente para treinos longos com retorno máximo de energia.",
-    "reason": "Lightboost 2.0 mais leve e responsivo. Primeknit ajusta como uma meia. Excelente para treinos longos com retorno máximo de energia."
+    "description": "Tecnologia Boost devolve energia a cada passada. Queridinho para longas distâncias com conforto máximo.",
+    "reason": "Tecnologia Boost devolve energia a cada passada. Queridinho para longas distâncias com conforto máximo."
   },
   {
     "brand": "ADIDAS",
     "name": "Terrex Agravic Speed 2",
-    "slug": "adidas-terrex-agravic-speed-2-eb26-mas",
+    "slug": "adidas-terrex-agravic-speed-2-eb26-fem",
     "sexo": [
-      "masculino"
+      "feminino"
     ],
-    "budget": "600a1000",
-    "price": 699.99,
-    "price_formatted": "R$ 699,99",
+    "budget": "acima1000",
+    "price": 1199.99,
+    "price_formatted": "R$ 1199,99",
     "levels": [
       "iniciante",
       "intermediario",
@@ -278,22 +278,22 @@ var SHOES = [
     "photo": "https://m.media-amazon.com/images/I/61wvkUfpJxL._AC_SY500_.jpg",
     "affiliate_links": {
       "oficial": {
-        "url": "https://tidd.ly/4vARnP9",
-        "price": 699.99,
+        "url": "https://tidd.ly/4sa8qG5",
+        "price": 1199.99,
         "preco_pix": 0,
         "store": "ADIDAS",
         "label": "ADIDAS",
-        "installments": "7 x R$100,00 sem juros"
+        "installments": "10 x R$120,00 sem juros"
       },
       "amazon": {
-        "url": "https://www.amazon.com.br/Adidas-corrida-masculino-Terrex-Agravic/dp/B0G317NN1Z?__mk_pt_BR=%C3%85M%C3%85%C5%BD%C3%95%C3%91&crid=3KK6KJHAIYAR3&dib=eyJ2IjoiMSJ9.3B3adIROwdLzITau-cjy-oWVVM_1OnB_z2SzoiAaEKCYNYylBK4onEu0Wiz62plFPlB2GPwavgvdSrCy3YsyjMNNB9u2BwJfF7vdM_mibzxpuZjE2dQbxU60sq46O-nqVLX60LbkyLjSUFhu09u7OuMOdTAJWhSBJTMRZUInFy-vDg71tBZBHLItR4ZL8Q8Yxs7lPuNvjrmousgK-dC9VGGPfmJw17-B2KHSq_6iq2YPX8IDpBk0uZpiRpq3seChjNkWq6RT5VsyRWTCZAQnlCK199yzHO3hdVarmLwkjks.UDU4XwGLrw76btA_Ea7YcilDvJdzO1p-159wlRcmlz0&dib_tag=se&keywords=Terrex%2BAgravic%2BSpeed%2B2&qid=1773443666&sprefix=terrex%2Bagravic%2Bspeed%2B2%2Caps%2C338&sr=8-1&ufe=app_do%3Aamzn1.fos.95de73c3-5dda-43a7-bd1f-63af03b14751&th=1&psc=1&linkCode=ll2&tag=tenisideal26-20&linkId=2b7044d0c617def60278f56136b20379&ref_=as_li_ss_tl",
-        "price": 2011.53,
+        "url": "https://www.amazon.com.br/corrida-feminino-Agravic-central-refletiva/dp/B0G31HYC5Q?__mk_pt_BR=%C3%85M%C3%85%C5%BD%C3%95%C3%91&crid=1KIUAO773YZS9&dib=eyJ2IjoiMSJ9.59rIARnwcV3cuFtoXGAYI41r4G_r5M1C1UhllLndgaiHcXBck-m0nn8jc1fdoc0DVB15hUYJXuo9XWNnN7kBtw.A6duMKdwRlWQAw0RznYl1ieTxGUEbRyp4cetJ-7ijRE&dib_tag=se&keywords=terrex%2B%2B%2Bagravic%2B%2B%2Bspeed%2B%2B%2B2&qid=1782502843&refinements=p_n_g-101015233022111%3A121476056011&rnid=121476055011&sprefix=terrex%2Bagravic%2Bspeed%2B2%2Caps%2C393&sr=8-1&ufe=app_do%3Aamzn1.fos.95de73c3-5dda-43a7-bd1f-63af03b14751&th=1&ascsubtag=srctok-679839ab46f88084&btn_ref=srctok-679839ab46f88084&psc=1&linkCode=ll2&tag=tenisideal26-20&linkId=0e47b8bbb33aec0d0e178d5bfbe1464c&ref_=as_li_ss_tl",
+        "price": 2011.08,
         "store": "Amazon",
         "label": "Amazon",
-        "installments": "12x de R$ 167,71 sem juros"
+        "installments": "12x de R$ 167,59 sem juros"
       },
       "netshoes": {
-        "url": "https://click.linksynergy.com/deeplink?id=NyH7xPegftk&mid=43984&murl=https%3A%2F%2Fwww.netshoes.com.br%2Fp%2Ftenis-adidas-terrex-agravic-speed-2-masculino-FBA-83DI-028",
+        "url": "https://click.linksynergy.com/deeplink?id=NyH7xPegftk&mid=43984&murl=https%3A%2F%2Fwww.netshoes.com.br%2Fp%2Ftenis-adidas-terrex-agravic-speed-2-feminino-FBA-83DJ-028",
         "price": 1199.99,
         "preco_pix": 1139.99,
         "store": "Netshoes",
