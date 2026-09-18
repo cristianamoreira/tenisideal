@@ -1,0 +1,48 @@
+name: Puxar métricas do GA4 (semanal)
+
+on:
+  schedule:
+    - cron: '0 11 * * 1'   # toda segunda 08:00 BRT
+  workflow_dispatch:        # botão para rodar na hora
+
+permissions:
+  contents: write           # necessário para publicar o painel atualizado
+
+jobs:
+  metricas:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Instalar dependências
+        run: pip install google-auth requests
+
+      - name: Criar credenciais (do secret)
+        env:
+          GOOGLE_CREDENTIALS: ${{ secrets.GOOGLE_CREDENTIALS }}
+        run: echo "$GOOGLE_CREDENTIALS" > credenciais.json
+
+      - name: Puxar eventos do funil e atualizar o painel
+        env:
+          # Property ID numérico do GA4. Pode sobrescrever criando a
+          # variável de repositório GA4_PROPERTY_ID; senão usa o padrão.
+          GA4_PROPERTY_ID: ${{ vars.GA4_PROPERTY_ID || '543426890' }}
+          DIAS: '90'
+        run: python3 puxar_metricas_ga4.py
+
+      - name: Publicar o painel se algo mudou
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          if [ -n "$(git status --porcelain painel_semanal_tenisideal.csv)" ]; then
+            git add painel_semanal_tenisideal.csv
+            git commit -m "Atualiza painel semanal com métricas do GA4 (automático)"
+            git push
+            echo "✅ Painel semanal atualizado com os dados do GA4."
+          else
+            echo "ℹ️ Nenhuma mudança nas métricas — nada a publicar."
+          fi
