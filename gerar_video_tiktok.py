@@ -145,6 +145,12 @@ def sel_estabilidade(sh):
     return sel_tag(sh, ["Estabilidade", "Estável", "Suporte", "Pronação", "Controle", "GuideRails"])
 
 
+def sel_custo(sh):
+    t = {"custo-benefício", "entrada", "acessível", "nacional"}
+    cands = [s for s in sh if amazon(s) and not eh_trilha(s) and {x.lower() for x in (s.get("tags") or [])} & t and 0 < (s.get("price") or 0) <= 400]
+    return distintas(sorted(cands, key=lambda s: s.get("price") or 0))
+
+
 THEMES = [
     dict(key="sonhos", label="TÊNIS DOS SONHOS", small="SE DINHEIRO NÃO", big1="FOSSE", big2="PROBLEMA...",
          sub="qual desses você usaria? 👇", select=sel_premium,
@@ -167,6 +173,9 @@ THEMES = [
     dict(key="pronacao", label="ESTABILIDADE E SUPORTE", small="SEU PÉ CAI", big1="PRA", big2="DENTRO?",
          sub="pisada pronada pede esses 👇", select=sel_estabilidade,
          hook="Seu pé CAI pra dentro quando corre? Isso é pisada pronada e esses tênis dão o suporte que falta 👟🦶 Comenta 👇", tags=["pisadapronada", "pronacao"]),
+    dict(key="custo", label="VALEM CADA CENTAVO", small="POUCO DINHEIRO,", big1="MUITO", big2="TÊNIS",
+         sub="custo-benefício que engana 👇", select=sel_custo,
+         hook="Pouco dinheiro NÃO é desculpa: esses tênis valem cada centavo 👟💸 Qual você levaria? 👇", tags=["custobeneficio", "tenisbomebarato"]),
 ]
 
 HEAD = ("<!doctype html><html><head><meta charset='utf-8'><style>"
