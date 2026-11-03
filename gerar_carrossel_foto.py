@@ -12,7 +12,7 @@ Envia por e-mail (Brevo), como os outros robos.
 Teste local (sem enviar): TEMA_FOTO=iniciante python3 gerar_carrossel_foto.py
 Enviar de verdade: BREVO_API_KEY=... EMAIL_CUPONS=... OPENROUTER_API_KEY=... python3 gerar_carrossel_foto.py
 """
-import os, sys, io, json, base64, tempfile, subprocess, datetime, urllib.request
+import os, sys, io, json, base64, shutil, tempfile, subprocess, datetime, urllib.request
 from PIL import Image
 
 import gerar_video_tiktok as vid  # carregar_catalogo, baixar, recortar, amazon, eh_trilha, distintas, sel_*, fmt, preco
@@ -248,6 +248,21 @@ def enviar(pngs, legenda, assunto):
         print(f"✅ E-mail enviado para {email} com {len(anexos)} slides (HTTP {r.status})")
 
 
+def copiar_para_raiz(pngs):
+    """Copia os slides para a raiz como carrossel_NN.png.
+
+    Os slides são renderizados num diretório temporário, mas o workflow guarda o
+    backup procurando por 'carrossel_*.png' na raiz — sem esta cópia o carrossel
+    de foto fica só no e-mail, sem backup no GitHub.
+    """
+    copiados = []
+    for i, p in enumerate(pngs, 1):
+        destino = os.path.join(RAIZ, f"carrossel_{i:02d}.png")
+        shutil.copyfile(p, destino)
+        copiados.append(destino)
+    return copiados
+
+
 def main():
     tema = escolher_tema()
     print(f"🎠 Tema foto: {tema['assunto']} ({tema['key']})")
@@ -257,6 +272,8 @@ def main():
         sys.exit(1)
     pngs, legenda, assunto = res
     print(f"{len(pngs)} slides em {os.path.dirname(pngs[0])}")
+    copiados = copiar_para_raiz(pngs)
+    print(f"📦 Backup: {len(copiados)} slides copiados para a raiz (carrossel_NN.png)")
     enviar(pngs, legenda, assunto)
 
 
