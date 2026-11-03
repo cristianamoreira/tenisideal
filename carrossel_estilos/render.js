@@ -28,9 +28,10 @@ const W = 1080;
     console.error("estilo invalido: " + estilo + "\ndisponiveis:\n  " + listStyles().join("\n  "));
     process.exit(1);
   }
-  // formato: "tiktok" -> 1080x1920 (9:16); default -> 1080x1350 (4:5 feed do Instagram)
-  const formato = job.formato === "tiktok" ? "tiktok" : "carrossel";
-  const H = formato === "tiktok" ? 1920 : 1350;
+  // formato: "tiktok" -> 1080x1920 (9:16); "quadrado" -> 1080x1080 (1:1);
+  //          default -> 1080x1350 (4:5 feed do Instagram)
+  const formato = ["tiktok", "quadrado"].includes(job.formato) ? job.formato : "carrossel";
+  const H = formato === "tiktok" ? 1920 : formato === "quadrado" ? 1080 : 1350;
   const outDir = path.resolve(base, job.outDir || "saida");
   fs.mkdirSync(outDir, { recursive: true });
 

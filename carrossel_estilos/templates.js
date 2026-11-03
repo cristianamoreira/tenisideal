@@ -23,10 +23,13 @@ function hl(s = "") {
 //   direita 160px (coluna curtir/comentar/compartilhar), esquerda 72px.
 function page(css, inner, formato) {
   const tiktok = formato === "tiktok";
-  const H = tiktok ? 1920 : 1350;
+  const H = tiktok ? 1920 : formato === "quadrado" ? 1080 : 1350;
   // aplicado DEPOIS do css do estilo -> sobrescreve o padding proprio do estilo.
   const safe = tiktok
-    ? `#s{height:1920px!important;padding:320px 160px 540px 72px!important}`
+    ? `#s{height:1920px!important;padding:320px 160px 540px 72px!important}
+       /* capa 9:16: agrupa manchete + subtitulo no topo pra nao cobrir o corredor no meio */
+       .fc-overlay{justify-content:flex-start!important;gap:44px!important}
+       .fc-sub{align-self:stretch!important}`
     : "";
   return `<!DOCTYPE html><html><head><meta charset="utf-8">
 <link href="${FONTS}" rel="stylesheet">
@@ -114,23 +117,26 @@ const STYLES = {
     capa: d => `<div class="kicker">${esc(d.kicker||'')}</div><h1>${hl(d.titulo)}</h1>${d.corpo?`<p>${br(d.corpo)}</p>`:''}`,
     conteudo: d => `<div class="kicker">${esc(d.kicker||'')}</div><h2>${hl(d.titulo)}</h2>${d.corpo?`<p>${br(d.corpo)}</p>`:''}`,
     cta: d => `<div class="kicker">${esc(d.kicker||'')}</div><h2>${hl(d.titulo)}</h2>${d.corpo?`<p>${br(d.corpo)}</p>`:''}${d.cta?`<div class="cta">${esc(d.cta)}</div>`:''}${d.plug?`<div class="plug">${esc(d.plug)}</div>`:''}`,
-    // arquetipos com foto full-bleed (estilo do vencedor viral): imagem cobre a tela,
-    // texto em overlay dentro da safe-zone do TikTok. Requer d.imgData (data URI, inlined no render).
-    fotocss: `.ph{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;object-position:center 82%;transform:scale(1.12) translateY(70px);z-index:0}
-    .fc-grad{position:absolute;inset:0;z-index:1;background:linear-gradient(180deg,rgba(0,0,0,.62) 0%,rgba(0,0,0,.12) 45%,rgba(0,0,0,.4) 100%)}
-    .fc-h{position:absolute;top:340px;left:72px;right:150px;z-index:2;font:400 100px/1.04 'Anton';text-transform:uppercase;color:#fff;text-shadow:5px 5px 0 #141414}
+    // arquetipos com foto (estilo do vencedor viral). Layout em FLEX (nao px fixo):
+    // adapta ao 4:5 (1350) e ao tiktok (1920) e garante o texto SEMPRE abaixo da foto.
+    // Requer d.imgData (data URI, inlined no render).
+    fotocss: `.ph{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;object-position:center 60%;z-index:0}
+    .fc-grad{position:absolute;inset:0;z-index:1;background:linear-gradient(180deg,rgba(0,0,0,.6) 0%,rgba(0,0,0,.1) 44%,rgba(0,0,0,.58) 100%)}
+    .fc-overlay{position:relative;z-index:2;flex:1;width:100%;display:flex;flex-direction:column;justify-content:space-between;gap:40px}
+    .fc-h{font:400 100px/1.04 'Anton';text-transform:uppercase;color:#fff;text-shadow:5px 5px 0 #141414}
     .fc-h .hl{color:#84CC16}
-    .fc-sub{position:absolute;left:72px;right:150px;bottom:400px;z-index:2;font:600 38px/1.3 'IBM Plex Mono';color:#fff;background:rgba(20,20,20,.82);padding:22px 28px;text-align:center}
-    /* foto (slides de valor): tenis inteiro e centralizado sobre fundo claro; numero a esquerda do nome; caixa de texto baixa e centralizada */
+    .fc-sub{font:600 38px/1.3 'IBM Plex Mono';color:#fff;background:rgba(20,20,20,.82);padding:22px 28px;text-align:center}
+    /* foto (slides de valor): cabecalho no topo, tenis centralizado no meio, caixa de texto sempre ABAIXO da foto */
     .pv-bg{position:absolute;inset:0;z-index:0;background:#f2f0ea}
-    .pv{position:absolute;top:450px;left:60px;width:960px;height:840px;object-fit:contain;z-index:1}
-    .ph-head{position:absolute;top:320px;left:72px;right:150px;z-index:3;display:flex;gap:16px;align-items:stretch}
+    .foto-wrap{position:relative;z-index:2;flex:1;width:100%;display:flex;flex-direction:column}
+    .ph-head{flex:0 0 auto;display:flex;gap:16px;align-items:stretch}
     .ph-num{font:700 34px 'IBM Plex Mono';color:#141414;background:#fff;border:5px solid #141414;padding:0 20px;display:flex;align-items:center;box-shadow:8px 8px 0 #141414}
     .ph-chip{font:400 54px/1 'Anton';text-transform:uppercase;color:#141414;background:#84CC16;border:6px solid #141414;box-shadow:10px 10px 0 #141414;padding:14px 24px;display:flex;align-items:center}
-    .ph-cap{position:absolute;left:72px;right:150px;bottom:400px;z-index:3;font:600 38px/1.32 'IBM Plex Mono';color:#fff;background:rgba(20,20,20,.9);padding:24px 28px;text-align:center}
+    .pv{flex:1 1 0;min-height:0;width:100%;object-fit:contain;margin:30px 0}
+    .ph-cap{flex:0 0 auto;font:600 38px/1.32 'IBM Plex Mono';color:#fff;background:rgba(20,20,20,.9);padding:24px 28px;text-align:center}
     .ph-cap .hl{color:#84CC16}`,
-    fotocapa: d => `<img class="ph" src="${d.imgData||''}"><div class="fc-grad"></div><div class="fc-h">${hl(d.titulo)}</div>${d.corpo?`<div class="fc-sub">${br(d.corpo)}</div>`:''}`,
-    foto: d => `<div class="pv-bg"></div><img class="pv" src="${d.imgData||''}"><div class="ph-head">${d.kicker?`<div class="ph-num">${esc(d.kicker)}</div>`:''}<div class="ph-chip">${esc(d.titulo)}</div></div>${d.corpo?`<div class="ph-cap">${br(d.corpo)}</div>`:''}`,
+    fotocapa: d => `<img class="ph" src="${d.imgData||''}"><div class="fc-grad"></div><div class="fc-overlay"><div class="fc-h">${hl(d.titulo)}</div>${d.corpo?`<div class="fc-sub">${br(d.corpo)}</div>`:''}</div>`,
+    foto: d => `<div class="pv-bg"></div><div class="foto-wrap"><div class="ph-head">${d.kicker?`<div class="ph-num">${esc(d.kicker)}</div>`:''}<div class="ph-chip">${esc(d.titulo)}</div></div><img class="pv" src="${d.imgData||''}">${d.corpo?`<div class="ph-cap">${br(d.corpo)}</div>`:''}</div>`,
   },
 
   "claymorphism": {
