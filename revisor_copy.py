@@ -97,3 +97,108 @@ def sanear_campo(texto, campo="legenda"):
     if campo == "legenda":
         t = limitar_legenda(t)
     return t
+
+
+# ──────────────────── camada 2: revisão por IA (fail-open) ────────────────────
+
+PROMPT_REVISOR = (
+    "Você é um revisor profissional de texto publicitário em português do Brasil. "
+    "Revise o texto abaixo e devolva APENAS o texto corrigido, sem comentários, "
+    "sem aspas em volta, sem markdown.\n\n"
+    "REGRAS (siga TODAS):\n"
+    "1. Corrija gramática, ortografia, concordância, crase e acentuação (pt-BR).\n"
+    "2. NÃO reescreva o estilo: mantenha o tom, as gírias da marca, os emojis, "
+    "as hashtags, as quebras de linha e a estrutura EXATAMENTE como estão.\n"
+    "3. NÃO use travessão (—) nem itálico.\n"
+    "4. NÃO altere nomes de marca/modelo de tênis nem valores em R$.\n"
+    "5. NÃO adicione nem remova frases. Só conserte erros.\n"
+    "6. Se o texto já estiver correto, devolva-o idêntico.\n"
+)
+
+
+def _openrouter(payload, timeout=60):
+    req = urllib.request.Request(
+        "https://openrouter.ai/api/v1/chat/completions",
+        data=json.dumps(payload).encode("utf-8"),
+        headers={"Authorization": "Bearer " + OPENROUTER_KEY,
+                 "Content-Type": "application/json"}, method="POST")
+    try:
+        with urllib.request.urlopen(req, timeout=timeout) as r:
+            return json.load(r)
+    except urllib.error.URLError as e:  # macOS local: cert store ausente
+        import ssl
+        if not isinstance(getattr(e, "reason", None), ssl.SSLError):
+            raise
+        ctx = ssl.create_default_context()
+        ctx.check_hostname = False
+        ctx.verify_mode = ssl.CERT_NONE
+        with urllib.request.urlopen(req, timeout=timeout, context=ctx) as r:
+            return json.load(r)
+
+
+def openrouter_chat(prompt, model=MODELO_REVISOR, response_format=None, timeout=60):
+    """Chamada simples de chat. Retorna o texto da resposta, ou None em falha."""
+    if not OPENROUTER_KEY:
+        return None
+    payload = {"model": model, "messages": [{"role": "user", "content": prompt}]}
+    if response_format:
+        payload["response_format"] = response_format
+    try:
+        d = _openrouter(payload, timeout=timeout)
+        return d["choices"][0]["message"]["content"].strip()
+    except Exception as e:
+        print(f"[openrouter falhou] {e}", file=sys.stderr)
+        return None
+
+
+def _revisar_ia(texto, contexto=""):
+    """Uma chamada de revisão. Retorna o texto revisado ou None em falha."""
+    extra = f"\nContexto do texto: {contexto}.\n" if contexto else "\n"
+    return openrouter_chat(PROMPT_REVISOR + extra + "\nTEXTO:\n" + texto)
+
+
+def revisar(texto, contexto="", campo="legenda", precos_validos=None):
+    """Revisa um texto: IA (se disponível) + validações duras. NUNCA lança
+    exceção por falha de IA — no pior caso devolve o original saneado."""
+    original = texto
+    revisado = _revisar_ia(texto, contexto)
+
+    if not revisado:
+        revisado = original
+    # guarda-corpo 1: revisor reescreveu demais (< 50% ou > 200% do tamanho) -> descarta
+    elif not (0.5 * len(original) <= len(revisado) <= 2.0 * len(original)):
+        print(f"[revisor descartado: reescrita radical] {revisado[:80]!r}", file=sys.stderr)
+        revisado = original
+    # guarda-corpo 2: revisor introduziu preço que não existia -> descarta
+    elif precos_validos and precos_suspeitos(revisado, precos_validos) \
+            and not precos_suspeitos(original, precos_validos):
+        print("[revisor descartado: inventou preço]", file=sys.stderr)
+        revisado = original
+
+    revisado = sanear_campo(revisado, campo)
+    # checklist item 5: CTA presente na legenda (só avisa — não bloqueia)
+    if campo == "legenda" and "bio" not in revisado.lower():
+        print("[revisor] ⚠️ legenda sem CTA 'link na bio' — conferir template", file=sys.stderr)
+    if revisado != original:
+        print(f"[revisor] antes : {original!r}")
+        print(f"[revisor] depois: {revisado!r}")
+    return revisado
+
+
+def revisar_copy_carrossel(obj, precos_validos=None):
+    """Revisa o dict de copy do carrossel foto (capa_titulo, capa_corpo,
+    itens[*].corpo, legenda). Altera e retorna o próprio dict."""
+    if obj.get("capa_titulo"):
+        obj["capa_titulo"] = revisar(obj["capa_titulo"], "manchete da capa do carrossel",
+                                     campo="titulo", precos_validos=precos_validos)
+    if obj.get("capa_corpo"):
+        obj["capa_corpo"] = revisar(obj["capa_corpo"], "linha de gancho da capa",
+                                    campo="corpo", precos_validos=precos_validos)
+    for item in obj.get("itens", []):
+        if item.get("corpo"):
+            item["corpo"] = revisar(item["corpo"], "descrição curta de um tênis",
+                                    campo="corpo", precos_validos=precos_validos)
+    if obj.get("legenda"):
+        obj["legenda"] = revisar(obj["legenda"], "legenda do post no Instagram",
+                                 campo="legenda", precos_validos=precos_validos)
+    return obj

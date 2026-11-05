@@ -1,5 +1,6 @@
 # tests/test_revisor_copy.py
 import sys, os
+import json
 sys.path.insert(0, os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 
 import revisor_copy as rc
@@ -62,3 +63,49 @@ def test_sanear_campo_legenda_nao_limita_emojis():
     txt = "🏃 🔥 👟 ✨ corre"
     assert rc.sanear_campo(txt, campo="legenda").count("🏃") == 1
     assert "✨" in rc.sanear_campo(txt, campo="legenda")
+
+
+# ---------- camada IA (revisar) — testes com monkeypatch, sem rede ----------
+
+def test_revisar_failopen_quando_ia_indisponivel(monkeypatch):
+    monkeypatch.setattr(rc, "_revisar_ia", lambda texto, contexto: None)
+    assert rc.revisar("Texto ok — teste", campo="corpo") == "Texto ok: teste"
+
+
+def test_revisar_aplica_correcao_da_ia(monkeypatch):
+    monkeypatch.setattr(rc, "_revisar_ia", lambda t, c: "Texto corrigido certinho")
+    assert rc.revisar("Texto corigido certinho", campo="corpo") == "Texto corrigido certinho"
+
+
+def test_revisar_descarta_ia_que_inventou_preco(monkeypatch):
+    monkeypatch.setattr(rc, "_revisar_ia", lambda t, c: "Agora por R$ 199!")
+    saida = rc.revisar("Por R$ 499", campo="corpo", precos_validos=[499.0])
+    assert "199" not in saida and "499" in saida
+
+
+def test_revisar_descarta_reescrita_radical(monkeypatch):
+    # IA devolveu algo com menos da metade / mais que o dobro do tamanho -> descarta
+    monkeypatch.setattr(rc, "_revisar_ia", lambda t, c: "oi")
+    original = "Uma legenda longa que fala do tênis ideal pra sua corrida de domingo."
+    assert rc.revisar(original, campo="corpo") == original
+
+
+def test_revisar_sempre_saneia_mesmo_sem_ia(monkeypatch):
+    monkeypatch.setattr(rc, "_revisar_ia", lambda t, c: None)
+    saida = rc.revisar("A 🏃 B 🔥 C 👟", campo="titulo")
+    assert saida.count("👟") == 0  # 3º emoji removido
+
+
+def test_revisar_avisa_legenda_sem_cta(monkeypatch, capsys):
+    monkeypatch.setattr(rc, "_revisar_ia", lambda t, c: None)
+    rc.revisar("legenda qualquer sem chamada", campo="legenda")
+    assert "sem CTA" in capsys.readouterr().err
+
+
+def test_revisar_copy_carrossel_revisa_todos_os_campos(monkeypatch):
+    monkeypatch.setattr(rc, "_revisar_ia", lambda t, c: None)
+    obj = {"capa_titulo": "Top — demais", "capa_corpo": "corpo — x",
+           "itens": [{"corpo": "item — um"}, {"corpo": "item — dois"}],
+           "legenda": "legenda — final"}
+    out = rc.revisar_copy_carrossel(obj)
+    assert "—" not in json.dumps(out, ensure_ascii=False)
