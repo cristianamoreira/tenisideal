@@ -23,6 +23,7 @@ import tempfile
 import subprocess
 import datetime
 import urllib.request
+import revisor_copy
 
 UA = {"User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 "
                     "(KHTML, like Gecko) Chrome/120 Safari/537.36"}
@@ -543,6 +544,8 @@ def main():
         print("ERRO: nenhuma arte gerada.", file=sys.stderr)
         sys.exit(1)
     png, legenda, assunto = res
+    legenda = revisor_copy.revisar(legenda, contexto=f"legenda da arte '{assunto}' no Instagram",
+                                   campo="legenda")
     print(f"🎨 Formato do dia: {formato} → {assunto} ({png})")
     enviar_email(png, legenda, assunto)
 

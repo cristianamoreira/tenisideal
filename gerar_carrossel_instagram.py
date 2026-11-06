@@ -20,6 +20,7 @@ import tempfile
 import datetime
 import subprocess
 import urllib.request
+import revisor_copy
 
 VERDE = "#84CC16"     # verde-lima da marca
 LARANJA = "#ff5a1f"   # realce
@@ -259,7 +260,9 @@ def main():
     if not pngs:
         print("ERRO: nenhum slide gerado.", file=sys.stderr)
         sys.exit(1)
-    enviar_email(pngs, cfg["legenda"], cfg["assunto"])
+    legenda = revisor_copy.revisar(cfg["legenda"], contexto=f"legenda do carrossel '{cfg['assunto']}'",
+                                   campo="legenda")
+    enviar_email(pngs, legenda, cfg["assunto"])
 
 
 if __name__ == "__main__":

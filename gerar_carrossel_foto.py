@@ -16,6 +16,7 @@ import os, sys, io, json, base64, shutil, tempfile, subprocess, datetime, urllib
 from PIL import Image
 
 import gerar_video_tiktok as vid  # carregar_catalogo, baixar, recortar, amazon, eh_trilha, distintas, sel_*, fmt, preco
+import revisor_copy
 
 RAIZ = os.path.dirname(os.path.abspath(__file__))
 RENDER_JS = os.path.join(RAIZ, "carrossel_estilos", "render.js")
@@ -176,10 +177,11 @@ def gerar_copy(tema, tenis):
         obj["itens"] = obj["itens"][:len(tenis)]
         for k in ("capa_titulo", "capa_corpo", "legenda"):
             obj.setdefault(k, fallback[k])
-        return obj
+        precos = [vid.preco(s) for s in tenis] + [300.0, 400.0, 500.0]
+        return revisor_copy.revisar_copy_carrossel(obj, precos_validos=precos)
     except Exception as e:
         print(f"[copy IA falhou -> fallback] {e}", file=sys.stderr)
-        return fallback
+        return revisor_copy.revisar_copy_carrossel(fallback)
 
 
 def montar(tema, wd):

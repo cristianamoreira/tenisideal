@@ -13,6 +13,7 @@ import os, sys, re, io, ssl, json, base64, shutil, tempfile, subprocess, datetim
 import urllib.request
 from PIL import Image, ImageDraw, ImageFilter
 import imageio_ffmpeg
+import revisor_copy
 
 UA = {"User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 "
                     "(KHTML, like Gecko) Chrome/120 Safari/537.36"}
@@ -357,6 +358,8 @@ def main():
     if not res:
         print("ERRO: não consegui gerar o vídeo.", file=sys.stderr); sys.exit(1)
     mp4, legenda = res
+    legenda = revisor_copy.revisar(legenda, contexto=f"legenda de vídeo TikTok, tema {tema['label']}",
+                                   campo="legenda")
     print(f"🎬 Vídeo gerado — tema: {tema['label']} ({mp4})")
     enviar_email(mp4, legenda, tema["label"])
 
