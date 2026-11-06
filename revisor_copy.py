@@ -123,17 +123,21 @@ def _openrouter(payload, timeout=60):
         headers={"Authorization": "Bearer " + OPENROUTER_KEY,
                  "Content-Type": "application/json"}, method="POST")
     try:
-        with urllib.request.urlopen(req, timeout=timeout) as r:
-            return json.load(r)
-    except urllib.error.URLError as e:  # macOS local: cert store ausente
-        import ssl
-        if not isinstance(getattr(e, "reason", None), ssl.SSLError):
-            raise
-        ctx = ssl.create_default_context()
-        ctx.check_hostname = False
-        ctx.verify_mode = ssl.CERT_NONE
-        with urllib.request.urlopen(req, timeout=timeout, context=ctx) as r:
-            return json.load(r)
+        try:
+            with urllib.request.urlopen(req, timeout=timeout) as r:
+                return json.load(r)
+        except urllib.error.URLError as e:  # macOS local: cert store ausente
+            import ssl
+            if not isinstance(getattr(e, "reason", None), ssl.SSLError):
+                raise
+            ctx = ssl.create_default_context()
+            ctx.check_hostname = False
+            ctx.verify_mode = ssl.CERT_NONE
+            with urllib.request.urlopen(req, timeout=timeout, context=ctx) as r:
+                return json.load(r)
+    except Exception as e:
+        print(f"[openrouter erro] {e}", file=sys.stderr)
+        return None
 
 
 def openrouter_chat(prompt, model=MODELO_REVISOR, response_format=None, timeout=60):
@@ -180,8 +184,8 @@ def revisar(texto, contexto="", campo="legenda", precos_validos=None):
     if campo == "legenda" and "bio" not in revisado.lower():
         print("[revisor] ⚠️ legenda sem CTA 'link na bio' — conferir template", file=sys.stderr)
     if revisado != original:
-        print(f"[revisor] antes : {original!r}")
-        print(f"[revisor] depois: {revisado!r}")
+        print(f"[revisor] antes : {original!r}", file=sys.stderr)
+        print(f"[revisor] depois: {revisado!r}", file=sys.stderr)
     return revisado
 
 
