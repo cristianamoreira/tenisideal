@@ -9,7 +9,7 @@ O site é um QUIZ (não loja) — o CTA sempre leva pro quiz.
 
 Roda no GitHub Actions (ubuntu-latest já tem o Chrome).
 Secrets: BREVO_API_KEY, EMAIL_CUPONS, EMAIL_REMETENTE, AWIN_API_TOKEN (p/ o cupom).
-Teste local: FORMATO_ARTE=destaque|comparativo|sonhos|cupom python3 gerar_arte_instagram.py
+Teste local: FORMATO_ARTE=destaque|comparativo|sonhos|cupom|amazon|motivacional python3 gerar_arte_instagram.py
 """
 import os
 import sys
@@ -28,7 +28,22 @@ import revisor_copy
 UA = {"User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 "
                     "(KHTML, like Gecko) Chrome/120 Safari/537.36"}
 
-SCHEDULE = ["destaque", "comparativo", "sonhos", "destaque", "amazon", "comparativo", "sonhos"]  # Seg..Dom
+SCHEDULE = ["destaque", "comparativo", "sonhos", "destaque", "amazon", "comparativo", "motivacional"]  # Seg..Dom
+
+# Frases do post motivacional de domingo ("dia de longão"). Pré-revisadas:
+# zero risco de erro de português. A palavra entre *asteriscos* ganha destaque.
+FRASES_LONGAO = [
+    "O longão de hoje é a *prova* de que você é mais forte do que pensava.",
+    "Domingo: o dia em que o corredor *conversa* com a própria cabeça.",
+    "Não é sobre o ritmo. É sobre *aparecer* mais um domingo.",
+    "Cada quilômetro de hoje é um *tijolo* da sua próxima prova.",
+    "O despertador doeu, mas a *volta* pra casa vai valer cada passo.",
+    "Longão bom não é o mais rápido. É o que termina com *sorriso*.",
+    "Hoje o treino é longo e o café da tarde é *merecido*.",
+    "Corpo cansado, mente *leve*. É pra isso que serve o domingo.",
+    "A planilha pede 15km. O coração pede *rua*. Bora unir os dois.",
+    "Quem corre domingo de manhã *dorme* domingo à tarde. Justo.",
+]
 
 # nomes que indicam trilha/hiking (pra o comparativo não misturar trilha com rua)
 TRAIL_KW = ("trail", "trilha", "terrex", "hiking", "trabuco", "venture", "juniper", "peregrine",
@@ -75,6 +90,17 @@ HTML_CUPOM = CSS + """<div class="canvas" style="background:radial-gradient(70% 
 <div style="position:absolute;top:770px;width:100%;"><div style="font-family:'Mont';font-weight:700;font-size:22px;letter-spacing:3px;color:#fff;opacity:.8;">USE O CUPOM</div>
  <div style="display:inline-block;margin-top:14px;background:#C8FF00;color:#14141b;font-family:'Bebas';font-size:96px;letter-spacing:4px;padding:14px 52px 8px;border-radius:24px;box-shadow:0 16px 40px rgba(200,255,0,.22);">@@CODE@@</div></div>
 <div style="position:absolute;bottom:54px;width:100%;"><div style="font-family:'Bebas';font-size:32px;letter-spacing:2px;color:#fff;">Use o cupom na loja · @TENISIDEAL<span class="gn">_BR</span></div>
+ <div style="font-family:'Mont';font-size:19px;color:#9a9ca7;margin-top:3px;letter-spacing:1px;">tenisideal.com.br</div></div>
+</div>"""
+
+HTML_MOTIVACIONAL = CSS + """<div class="canvas darkbg" style="background:radial-gradient(70% 55% at 50% 40%,#2c2d37 0%,#17171d 52%,#0a0a0e 100%);text-align:center;">
+<div style="position:absolute;width:820px;height:820px;left:50%;top:40px;transform:translateX(-50%);background:radial-gradient(circle,rgba(200,255,0,.12),transparent 62%);filter:blur(24px);"></div>
+<div style="position:absolute;top:60px;width:100%;font-family:'Bebas';font-size:46px;letter-spacing:3px;"><span class="wh">TÊNIS</span><span class="gn">IDEAL</span></div>
+<div style="position:absolute;top:154px;left:50%;transform:translateX(-50%);background:rgba(200,255,0,.13);border:1.5px solid rgba(200,255,0,.55);color:#C8FF00;font-family:'Bebas';font-size:26px;letter-spacing:4px;padding:10px 28px 8px;border-radius:30px;">DOMINGO DE LONGÃO</div>
+<div style="position:absolute;top:50%;left:50%;transform:translate(-50%,-50%);width:880px;font-family:'Bebas';font-size:92px;line-height:1.04;color:#fff;letter-spacing:1px;text-shadow:0 4px 34px rgba(0,0,0,.45);">@@FRASE@@</div>
+<div style="position:absolute;bottom:150px;left:50%;transform:translateX(-50%);width:120px;height:7px;background:#C8FF00;border-radius:4px;"></div>
+<div style="position:absolute;bottom:46px;left:0;width:100%;text-align:center;">
+ <div style="font-family:'Bebas';font-size:34px;letter-spacing:2px;color:#fff;">@TENISIDEAL<span class="gn">_BR</span></div>
  <div style="font-family:'Mont';font-size:19px;color:#9a9ca7;margin-top:3px;letter-spacing:1px;">tenisideal.com.br</div></div>
 </div>"""
 
@@ -501,6 +527,37 @@ def build_cupom(shoes, wd):
     return png, leg, f"Cupom {c['loja']}"
 
 
+def _frase_motivacional():
+    """Frase do domingo: tenta a IA (com revisor), senão rotaciona o banco fixo.
+    Retorno sempre com UMA palavra entre *asteriscos* para o destaque visual."""
+    prompt = ("Escreva UMA frase motivacional curta (máx. 90 caracteres) em português do Brasil "
+              "sobre o treino longo de domingo na corrida de rua (o 'longão'). Tom: cumplicidade "
+              "de corredor, leve, sem clichê de 'não desista'. Marque UMA palavra-chave entre "
+              "*asteriscos* para destaque. Sem emoji, sem aspas, sem travessão. "
+              "Devolva SÓ a frase.")
+    frase = revisor_copy.openrouter_chat(prompt)
+    if frase and 20 <= len(frase) <= 120 and frase.count("*") == 2:
+        return revisor_copy.revisar(frase, contexto="frase motivacional de domingo", campo="corpo")
+    dia = datetime.date.today().timetuple().tm_yday
+    return FRASES_LONGAO[dia % len(FRASES_LONGAO)]
+
+
+def build_motivacional(shoes, wd):
+    """Post leve de domingo: frase de longão, sem venda, CTA suave."""
+    frase = _frase_motivacional()
+    frase_html = re.sub(r"\*(.+?)\*", r"<span class='gn'>\1</span>", frase)
+    html = HTML_MOTIVACIONAL.replace("@@FRASE@@", frase_html)
+    png = render(wd, html, "arte_motivacional.png")
+    if not png:
+        return None
+    frase_limpa = frase.replace("*", "")
+    leg = (f"{frase_limpa} 🧡\n\n"
+           "Marca aquele amigo que não perde um longão de domingo! 🏃\n\n"
+           "Bom treino e boa semana, corredores.\n\n"
+           "📲 @tenisideal_br\n\n" + hashtags("longao", "domingodecorrida", "treinolongo"))
+    return png, leg, "Domingo de longão"
+
+
 # ───────────────────── envio ─────────────────────
 def enviar_email(png, legenda, assunto):
     key = os.environ.get("BREVO_API_KEY", "")
@@ -535,7 +592,8 @@ def main():
     preparar_fontes(wd)
     formato = (os.environ.get("FORMATO_ARTE") or SCHEDULE[datetime.date.today().weekday()]).lower()
     builders = {"destaque": build_destaque, "comparativo": build_comparativo,
-                "sonhos": build_grid, "cupom": build_cupom, "amazon": build_amazon}
+                "sonhos": build_grid, "cupom": build_cupom, "amazon": build_amazon,
+                "motivacional": build_motivacional}
     res = builders.get(formato, build_destaque)(shoes, wd)
     if not res:
         print(f"[formato '{formato}' indisponível — caindo pro Destaque]", file=sys.stderr)
