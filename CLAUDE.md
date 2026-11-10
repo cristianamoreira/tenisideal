@@ -56,6 +56,15 @@ Emails go through **Brevo**; coupons/products come from the **Awin** API (publis
 
 `credenciais.json`, `.venv/`, and generated artifacts (`email_campanha.html`, `cupons_hoje.txt`, `arte_*.png`) are gitignored. Never commit credentials.
 
+### Conteúdo diário e banco de posts
+
+`conteudo-do-dia.yml` (diário 12:00 UTC) publica o rodízio: Seg=carrossel ·
+Ter=arte · Qua=vídeo · Qui=arte · Sex=arte(cupom) · Sáb=carrossel · Dom=arte
+motivacional ("longão"). Nos dias de carrossel, consome primeiro o banco de
+pré-aprovados (`banco_posts/`, ver README de lá); se vazio, gera na hora.
+Toda copy passa pelo `revisor_copy.py` (gramática pt-BR + regras de estilo,
+fail-open). Specs: `docs/superpowers/specs/2026-11-04-publicacao-automatica-redes-design.md`.
+
 ## Running things locally
 
 ```bash
