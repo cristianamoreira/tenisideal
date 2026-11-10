@@ -19,7 +19,7 @@ on:
     - cron: '0 12 * * *'
 
 permissions:
-  contents: read
+  contents: write   # auto-commit da fila do banco de carrosséis (banco_posts/fila.json)
 
 jobs:
   conteudo:
@@ -34,8 +34,8 @@ jobs:
       - name: "Decidir o tipo do dia"
         id: tipo
         run: |
-          # Calendario fixo por dia da semana (feed harmonico: 3-4 posts de grid/semana)
-          #   Seg=carrossel  Ter=arte  Qua=video  Qui=arte  Sex=arte(cupom)  Sab=carrossel  Dom=folga
+          # Calendario fixo por dia da semana (7 posts/semana)
+          #   Seg=carrossel  Ter=arte  Qua=video  Qui=arte  Sex=arte(cupom)  Sab=carrossel  Dom=arte motivacional
           FORCADO="${{ github.event.inputs.tipo }}"
           if [ -n "$FORCADO" ]; then
             TIPO="$FORCADO"
@@ -48,7 +48,7 @@ jobs:
               4) TIPO=arte ;;
               5) TIPO=arte ;;
               6) TIPO=carrossel ;;
-              7) TIPO=folga ;;
+              7) TIPO=domingo ;;
             esac
           fi
           echo "tipo=$TIPO" >> "$GITHUB_OUTPUT"
@@ -96,26 +96,49 @@ jobs:
           case "${{ steps.tipo.outputs.tipo }}" in
             video)     python3 gerar_video_tiktok.py ;;
             carrossel)
-              # Dias de carrossel (Seg/Sab) alternam por semana ISO: par = formato FOTO,
-              # impar = carrosseis de texto (pronada/ate300/versus). Feed com variedade.
-              # No disparo manual, o input "formato" (foto/texto) sobrepoe o rodizio.
-              FORMATO="${{ github.event.inputs.formato }}"
-              if [ -z "$FORMATO" ]; then
-                WK=$(date -u +%V)
-                if [ $((10#$WK % 2)) -eq 0 ]; then FORMATO=foto; else FORMATO=texto; fi
-              fi
-              if [ "$FORMATO" = "foto" ]; then
-                echo "Carrossel FOTO (formato=$FORMATO)"
-                python3 gerar_carrossel_foto.py
-              else
-                echo "Carrossel de texto (formato=$FORMATO)"
-                python3 gerar_carrossel_instagram.py
+              # 1º: tenta o banco de pré-aprovados. exit 3 = banco vazio -> gera na hora.
+              set +e
+              python3 carrossel_do_banco.py
+              RC=$?
+              set -e
+              if [ "$RC" = "3" ]; then
+                echo "::warning::Banco de carrosséis vazio — gerando na hora (reabastecer com a Claude)."
+                # Rodizio por semana ISO: par = formato FOTO, impar = texto.
+                FORMATO="${{ github.event.inputs.formato }}"
+                if [ -z "$FORMATO" ]; then
+                  WK=$(date -u +%V)
+                  if [ $((10#$WK % 2)) -eq 0 ]; then FORMATO=foto; else FORMATO=texto; fi
+                fi
+                if [ "$FORMATO" = "foto" ]; then
+                  echo "Carrossel FOTO (formato=$FORMATO)"
+                  python3 gerar_carrossel_foto.py
+                else
+                  echo "Carrossel de texto (formato=$FORMATO)"
+                  python3 gerar_carrossel_instagram.py
+                fi
+              elif [ "$RC" != "0" ]; then
+                exit "$RC"
               fi
               ;;
             arte)      python3 gerar_arte_instagram.py ;;
-            folga)     echo "Domingo: feed de folga, nenhum conteudo gerado." ;;
+            domingo)   FORMATO_ARTE=motivacional python3 gerar_arte_instagram.py ;;
+            folga)     echo "Folga: nenhum conteudo gerado." ;;
             *)         python3 gerar_arte_instagram.py ;;
           esac
+
+      - name: Commitar a fila do banco (se consumiu carrossel)
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          if [ -n "$(git status --porcelain banco_posts/fila.json)" ]; then
+            git add banco_posts/fila.json
+            git commit -m "Banco de posts: marca carrossel do dia como publicado (automático)"
+            git pull --rebase origin main
+            git push
+            echo "✅ Fila do banco atualizada."
+          else
+            echo "ℹ️ Fila do banco sem mudanças hoje."
+          fi
 
       - name: Guardar o conteudo (backup)
         uses: actions/upload-artifact@v4
