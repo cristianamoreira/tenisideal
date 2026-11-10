@@ -28,7 +28,7 @@ import revisor_copy
 UA = {"User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 "
                     "(KHTML, like Gecko) Chrome/120 Safari/537.36"}
 
-SCHEDULE = ["destaque", "comparativo", "sonhos", "destaque", "amazon", "comparativo", "motivacional"]  # Seg..Dom
+SCHEDULE = ["destaque", "comparativo", "sonhos", "destaque", "amazon", "comparativo", "sonhos"]  # Seg..Dom
 
 # Frases do post motivacional de domingo ("dia de longão"). Pré-revisadas:
 # zero risco de erro de português. A palavra entre *asteriscos* ganha destaque.
