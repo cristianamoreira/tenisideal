@@ -24,8 +24,10 @@ import banco_posts as bp
 ALERTA_MINIMO = 2  # <= 2 aprovados restantes -> alerta no e-mail
 
 
-def montar_email(slides, legenda, assunto, restantes, anexar=True):
-    """Monta o body Brevo. anexar=False só nos testes (não lê os PNGs)."""
+def montar_email(slides, legenda, assunto, restantes, anexar=True, hoje=None):
+    """Monta o body Brevo. anexar=False só nos testes (não lê os PNGs).
+    hoje: string ISO (YYYY-MM-DD) ou None para usar a data atual."""
+    hoje = hoje or datetime.date.today().isoformat()
     remet = os.environ.get("EMAIL_REMETENTE") or "cupons@tenisideal.com.br"
     email = os.environ.get("EMAIL_CUPONS", "")
     anexos = []
@@ -41,6 +43,7 @@ def montar_email(slides, legenda, assunto, restantes, anexar=True):
                   f"border-radius:8px;padding:12px'><b>⚠️ BANCO ACABANDO:</b> só restam "
                   f"<b>{restantes}</b> carrosséis aprovados. Abra o Claude e peça pra "
                   f"reabastecer o banco de posts.</p>")
+    data_fmt = datetime.date.fromisoformat(hoje).strftime('%d/%m')
     html = (f"{alerta}<p style='font-family:sans-serif'>Oi! 👋 Carrossel <b>do banco</b> "
             f"(pré-aprovado) pro <b>@tenisideal_br</b> — <b>{assunto}</b>. "
             f"{len(slides)} slides em anexo (ordem slide-01..0N). Poste na ordem e cole a legenda:</p>"
@@ -48,7 +51,7 @@ def montar_email(slides, legenda, assunto, restantes, anexar=True):
             f"border:1px solid #ddd;border-radius:8px;padding:14px;font-size:14px'>{leg}</pre>")
     return {"sender": {"email": remet, "name": "Conteúdo - Tênis Ideal"},
             "to": [{"email": email}],
-            "subject": f"👟 Carrossel do banco — {assunto} — {datetime.date.today().strftime('%d/%m')}",
+            "subject": f"👟 Carrossel do banco — {assunto} — {data_fmt}",
             "htmlContent": html, "attachment": anexos}
 
 
@@ -82,7 +85,7 @@ def consumir(banco_dir=bp.BANCO_DIR, fila_path=bp.FILA_PADRAO, hoje=None):
         return 1
     restantes = bp.contar_aprovados(fila) - 1  # depois deste
     print(f"🎠 Carrossel do banco: {item['id']} — {assunto} ({len(slides)} slides, restarão {restantes})")
-    body = montar_email(slides, legenda, assunto, restantes)
+    body = montar_email(slides, legenda, assunto, restantes, hoje=hoje)
     if enviar_brevo(body):
         bp.marcar_publicado(fila, item["id"], hoje)
         bp.salvar_fila(fila, fila_path)

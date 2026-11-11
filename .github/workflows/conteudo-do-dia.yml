@@ -133,8 +133,15 @@ jobs:
           if [ -n "$(git status --porcelain banco_posts/fila.json)" ]; then
             git add banco_posts/fila.json
             git commit -m "Banco de posts: marca carrossel do dia como publicado (automático)"
-            git pull --rebase origin main
-            git push
+            for i in 1 2 3; do
+              git pull --rebase origin main && git push && break
+              if [ "$i" = "3" ]; then
+                echo "::error::Push da fila falhou após 3 tentativas — RISCO de carrossel duplicado no próximo run. Commitar banco_posts/fila.json manualmente."
+                exit 1
+              fi
+              echo "::warning::Push da fila falhou (tentativa $i/3) — aguardando 15s."
+              sleep 15
+            done
             echo "✅ Fila do banco atualizada."
           else
             echo "ℹ️ Fila do banco sem mudanças hoje."

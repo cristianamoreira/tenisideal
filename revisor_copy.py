@@ -181,7 +181,7 @@ def revisar(texto, contexto="", campo="legenda", precos_validos=None):
 
     revisado = sanear_campo(revisado, campo)
     # checklist item 5: CTA presente na legenda (só avisa — não bloqueia)
-    if campo == "legenda" and "bio" not in revisado.lower():
+    if campo == "legenda" and not re.search(r"\bbio\b", revisado.lower()):
         print("[revisor] ⚠️ legenda sem CTA 'link na bio' — conferir template", file=sys.stderr)
     if revisado != original:
         print(f"[revisor] antes : {original!r}", file=sys.stderr)
