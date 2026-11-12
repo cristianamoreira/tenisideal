@@ -3270,6 +3270,7 @@
     document.getElementById('btnStart').addEventListener('click', function () {
       if (typeof gtag !== 'undefined') gtag('event', 'quiz_started');
       if (typeof ttq !== 'undefined') ttq.track('InitiateCheckout', { content_name: 'quiz_started' });
+      if (typeof fbq !== 'undefined') fbq('track', 'InitiateCheckout', { content_name: 'quiz_started' });
       cur = 0; ans = {};
       document.getElementById('pw').style.display = 'block';
       showScreen('sQuiz');
@@ -3542,6 +3543,7 @@
       try {
         if (typeof gtag !== 'undefined') gtag('event', 'quiz_completed');
         if (typeof ttq !== 'undefined') ttq.track('CompleteRegistration', { content_name: 'quiz_completed' });
+        if (typeof fbq !== 'undefined') fbq('track', 'CompleteRegistration', { content_name: 'quiz_completed' });
         var tops = getTop3();
 
         // Guarda o tênis #1 para usar no submitEmail
