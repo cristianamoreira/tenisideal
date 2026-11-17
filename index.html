@@ -3703,6 +3703,8 @@
             }
             return true;
           }
+          // Expor globalmente: os botões COMPRAR usam onclick inline, que só enxerga escopo global
+          window.trackClick = trackClick;
 
           function makeBtnHTML(url, label, isBest) {
             var extraClass = isBest ? '' : ' bbuy-secondary';
